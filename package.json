@@ -1,0 +1,41 @@
+{
+  "name": "bpmap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "db:migrate": "node --env-file=.env.local scripts/db-migrate.mjs",
+    "db:check": "node --env-file=.env.local scripts/db-check.mjs",
+    "db:load": "node --env-file=.env.local scripts/db-load.mjs",
+    "db:lifecycle": "node --env-file=.env.local scripts/db-lifecycle.mjs",
+    "geocode": "node scripts/geocode.mjs",
+    "ingest": "node --env-file-if-exists=.env.local scripts/ingest.mjs",
+    "verify-promote": "node scripts/verify-promote.mjs",
+    "ra-lineups": "node scripts/ra-lineups.mjs",
+    "dt:debug": "node --env-file-if-exists=.env.local scripts/datatourisme-debug.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.2",
+    "adm-zip": "^0.5.17",
+    "maplibre-gl": "^5.24.0",
+    "next": "16.2.6",
+    "pg": "^8.21.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-map-gl": "^8.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pg": "^8.20.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "slug": "daddy-mory-x-guiding-star-x-eskifaia-sound-system",
+    "name": "Daddy Mory x Guiding Star x Eskifaia Sound System",
+    "city": "Celles-sur-Belle",
+    "region": "Nouvelle-Aquitaine",
+    "description": "Le samedi 6 juin 2026, Daddy Mory (Raggasonic) sera de passage à La Minute Blonde, Celles‑sur‑Belle pour une soirée reggae/dub",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-07",
+    "lat": 46.267223,
+    "lng": -0.225307,
+    "officialUrl": "https://openagenda.com/festivals-dete/events/daddy-mory-x-guiding-star-x-eskifaia-sound-system",
+    "sources": [
+      "https://openagenda.com/festivals-dete/events/daddy-mory-x-guiding-star-x-eskifaia-sound-system"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "fete-de-la-hard-music-w-von-bikrav-urumi-schlass-flymeon-more",
+    "name": "Fête de la Hard Music w/ Von Bikräv, Urumi, Schlass, Flymeon & more",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "Nantes Rave Techno présente la Fête de la Hard Music au Warehouse Nantes le vendredi 19 juin 2026.",
+    "startDate": "2026-06-19",
+    "endDate": "2026-06-20",
+    "lat": 47.20077,
+    "lng": -1.57328,
+    "officialUrl": "https://openagenda.com/nantesmetropole/events/fete-de-la-hard-music-w-von-bikrav-urumi-schlass-flymeon-and-more",
+    "sources": [
+      "https://openagenda.com/nantesmetropole/events/fete-de-la-hard-music-w-von-bikrav-urumi-schlass-flymeon-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "dovblef4ce",
+    "name": "Dovblef4ce",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Venez découvrir 12 artistes entre RnB Rap electro et techno",
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-22",
+    "lat": 48.87684,
+    "lng": 2.365715,
+    "officialUrl": "https://openagenda.com/fetedelamusique2026/events/dovblef4ce",
+    "sources": [
+      "https://openagenda.com/fetedelamusique2026/events/dovblef4ce"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "printemps-de-bourges",
+    "name": "Printemps de Bourges",
+    "city": "Bourges",
+    "region": null,
+    "officialUrl": "http://www.printemps-bourges.com/",
+    "lat": 47.0844,
+    "lng": 2.39639,
+    "genreVerified": true,
+    "sources": [
+      "http://www.wikidata.org/entity/Q941538"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "i-love-techno",
+    "name": "I Love Techno",
+    "city": "Montpellier",
+    "region": null,
+    "officialUrl": "http://www.ilovetechno.be",
+    "lat": 43.572756111,
+    "lng": 3.949805,
+    "genreVerified": true,
+    "sources": [
+      "http://www.wikidata.org/entity/Q1655230"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "festival-chorus",
+    "name": "Festival Chorus",
+    "city": "La Seine musicale",
+    "region": null,
+    "officialUrl": "https://chorus.hauts-de-seine.fr/",
+    "lat": null,
+    "lng": null,
+    "genreVerified": true,
+    "sources": [
+      "http://www.wikidata.org/entity/Q112032237"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "elektric-park-festival",
+    "name": "Elektric Park Festival",
+    "city": "île des Impressionnistes",
+    "region": null,
+    "officialUrl": "https://www.elektricpark.com/",
+    "lat": 45.885,
+    "lng": 2.15972,
+    "genreVerified": true,
+    "sources": [
+      "http://www.wikidata.org/entity/Q97569375"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "mayday-festival",
+    "name": "Mayday Festival",
+    "city": "France",
+    "region": null,
+    "officialUrl": "https://maydayfestival.fr/",
+    "lat": 44.806478426,
+    "lng": -0.601093404,
+    "genreVerified": true,
+    "sources": [
+      "http://www.wikidata.org/entity/Q125753460"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "amour-sauvage-festival-4",
+    "name": "¡Amour Sauvage Festival #4",
+    "city": null,
+    "region": null,
+    "startDate": "2026-05-29",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2406029",
+    "lineup": [
+      "Antoine Calvino",
+      "Delskiz",
+      "DJ Beluga92",
+      "Etienne Jaumet",
+      "IBEX",
+      "Jonquera",
+      "Lemurian",
+      "Mathilde Rocaboy",
+      "Master Seb",
+      "Messes Basses",
+      "Remote",
+      "Shimon (3)"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2406029"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "gate-9-invites-dj-rino-kuba-97-jane-dark-domi",
+    "name": "Gate 9 Invites DJ Rino, Kuba'97, Jane Dark & Domi",
+    "city": null,
+    "region": null,
+    "startDate": "2026-05-30",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2432026",
+    "lineup": [
+      "DJ Rino",
+      "Kuba'97",
+      "Domi (FR)",
+      "Saul (2)",
+      "BENUR",
+      "Gate 9"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2432026"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "ekotone-festival-2026",
+    "name": "Ekotone Festival 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-05-29",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2440170",
+    "lineup": [
+      "Erna (FR)",
+      "īnkūbe",
+      "Acid Oslo",
+      "WAWRZY",
+      "Symon Says"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2440170"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "festival-magic-barbes-dornika-and-friends-meshcut-habibitch-coco-klein-dualbody",
+    "name": "Festival Magic Barbès // Dornika and Friends - Meshcut + Habibitch + Coco Klein + Dualbody",
+    "city": null,
+    "region": null,
+    "startDate": "2026-05-29",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2454384",
+    "lineup": [
+      "Meshcut",
+      "Dornika"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2454384"
+    ],
+    "status": "announced",
+    "needsReview": true
+  },
+  {
+    "slug": "voltage-camion-bazar-tamada-mad-rey-b2b-gggg-mathilde-rocaboy-b2b-benedetta-romain-play",
+    "name": "VOLTAGE ◡̈☻ Camion Bazar, Tamada, Mad Rey b2b GGGG, Mathilde Rocaboy b2b Benedetta, Romain Play",
+    "city": null,
+    "region": null,
+    "startDate": "2026-05-31",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2422391",
+    "lineup": [
+      "Camion Bazar",
+      "Mad Rey",
+      "GGGG",
+      "Tamada (FR)",
+      "Mathilde Rocaboy",
+      "Benedetta",
+      "Romain Play"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2422391"
+    ],
+    "status": "announced",
+    "needsReview": true
+  }
+]
