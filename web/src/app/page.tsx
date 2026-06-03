@@ -1,22 +1,28 @@
-import Explorer from "@/components/Explorer";
+import Link from "next/link";
+import MapExplorer from "@/components/MapExplorer";
 import { getAllFestivals } from "@bpmap/shared";
 
 export default function Home() {
   const festivals = getAllFestivals();
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8">
-      <div className="mb-6 max-w-3xl">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-          Les festivals de musique électronique en France
+    <div className="mx-auto max-w-7xl px-4 py-6">
+      <div className="mb-4 max-w-3xl">
+        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+          La carte des festivals de musique électronique en France
         </h1>
-        <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-          Explorez la carte et filtrez par genre, date, organisateur, taille et
-          prix pour trouver votre prochain festival&nbsp;: techno, house,
-          drum&apos;n&apos;bass, French touch et plus encore.
+        <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+          Explorez la carte par genre, date, taille et prix — ou parcourez le{" "}
+          <Link
+            href="/festivals"
+            className="font-medium text-fuchsia-700 hover:underline dark:text-fuchsia-400"
+          >
+            sommaire des festivals
+          </Link>
+          .
         </p>
       </div>
-      <Explorer festivals={festivals} />
+      <MapExplorer festivals={festivals} />
     </div>
   );
 }

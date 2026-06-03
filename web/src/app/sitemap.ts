@@ -16,6 +16,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 1,
     },
+    {
+      url: `${SITE_URL}/festivals`,
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
     ...festivals,
   ];
 }

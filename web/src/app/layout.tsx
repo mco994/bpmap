@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
+import Header from "@/components/Header";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -59,19 +59,7 @@ export default function RootLayout({
         >
           Aller au contenu
         </a>
-        <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
-          <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
-            <Link href="/" className="flex items-center gap-2 font-bold">
-              <span aria-hidden className="text-xl">
-                🎚️
-              </span>
-              <span className="text-lg">BPMap</span>
-            </Link>
-            <span className="text-sm text-zinc-500 dark:text-zinc-400">
-              Festivals électro · France
-            </span>
-          </div>
-        </header>
+        <Header />
         <main id="contenu" className="flex-1">
           {children}
         </main>
