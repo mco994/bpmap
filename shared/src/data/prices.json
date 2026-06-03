@@ -261,8 +261,14 @@
     "priceFull": 50
   },
   "dream-nation": {
-    "priceDay": 43.9,
-    "priceFull": null
+    "priceDay": 44,
+    "priceFull": null,
+    "tariffs": [
+      {
+        "label": "Pass 2 nuits (à partir de)",
+        "price": 44
+      }
+    ]
   },
   "ndk-festival": {
     "priceDay": null,
@@ -299,6 +305,20 @@
       {
         "label": "After (Vauban)",
         "price": 15
+      }
+    ]
+  },
+  "fort-decibel": {
+    "priceDay": 45,
+    "priceFull": 79,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour (camping inclus)",
+        "price": 45
+      },
+      {
+        "label": "Pass 2 jours (camping inclus)",
+        "price": 79
       }
     ]
   }

@@ -1292,66 +1292,6 @@
     ]
   },
   {
-    "id": "astropolis",
-    "slug": "astropolis",
-    "name": "Astropolis",
-    "description": "Né en 1995 dans le Nord-Finistère, le plus ancien festival de musiques électroniques de France cultive indépendance, esprit collectif et liberté. Pendant quatre jours à Brest, des clubs en fusion aux open airs galvanisants jusqu'à la nuit mythique du Manoir de Keroual, avec des événements gratuits en journée.",
-    "startDate": "2026-07-02",
-    "endDate": "2026-07-05",
-    "lat": 48.40644,
-    "lng": -4.49774,
-    "city": "Brest",
-    "region": "Bretagne",
-    "organizer": "Astropolis",
-    "capacity": null,
-    "genres": [
-      "techno",
-      "house",
-      "electro",
-      "ambient"
-    ],
-    "priceDay": 15,
-    "priceFull": null,
-    "tariffs": [
-      {
-        "label": "Soirées club (Vauban / La Suite)",
-        "price": 23
-      },
-      {
-        "label": "Manoir de Keroual",
-        "price": 39.5
-      },
-      {
-        "label": "After (Vauban)",
-        "price": 15
-      }
-    ],
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://astropolis.org/",
-    "status": "confirmed",
-    "lineup": [
-      "Laurent Garnier",
-      "Perc",
-      "Call Super",
-      "Manu Le Malin",
-      "Cassie Raptor",
-      "Lenny Dee",
-      "O.B.F",
-      "Elisa Do Brasil",
-      "Unexist",
-      "Octo Octa",
-      "Chläer",
-      "Lessss",
-      "Flo Massé",
-      "Darwin & Kilbourne"
-    ],
-    "sources": [
-      "https://astropolis.org/",
-      "https://www.djmag.fr/astropolis-2026-le-festival-brestois-devoile-la-programmation-de-son-30e-anniversaire/"
-    ]
-  },
-  {
     "id": "ethereal-decibel",
     "slug": "ethereal-decibel",
     "name": "Ethereal Decibel Festival",
@@ -2125,7 +2065,7 @@
     "id": "fort-decibel",
     "slug": "fort-decibel",
     "name": "Fort Décibel Festival",
-    "description": "Festival tekno, trance, acid et techno sur le site classé du Fort Médoc à Cussac-Fort-Médoc (Gironde), porté par les équipes de Millésime et Son Libre. Trois scènes plus un Dub & Bass Corner, camping gratuit inclus.",
+    "description": "Festival tekno et trance à Cussac-Fort-Médoc, dans le Médoc : trois scènes (trance, techno/hard techno, dub & drum'n'bass) et camping gratuit inclus.",
     "startDate": "2026-08-07",
     "endDate": "2026-08-08",
     "lat": 45.11595,
@@ -2139,8 +2079,18 @@
       "techno",
       "dub"
     ],
-    "priceDay": null,
-    "priceFull": null,
+    "priceDay": 45,
+    "priceFull": 79,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour (camping inclus)",
+        "price": 45
+      },
+      {
+        "label": "Pass 2 jours (camping inclus)",
+        "price": 79
+      }
+    ],
     "currency": "EUR",
     "ticketUrl": null,
     "officialUrl": "https://fortdecibelfestival.com/",
@@ -2220,7 +2170,7 @@
     "id": "nous-festival",
     "slug": "nous-festival",
     "name": "NOUS Festival",
-    "description": "Festival éco-responsable au Château de Bellocq (Pyrénées-Atlantiques), à la croisée du Béarn et du Pays basque. Plus de 25 artistes mêlant électronique, reggae, dub et musiques du monde, autour du mot d'ordre « Dance to save the planet ».",
+    "description": "Festival intimiste au Château de Bellocq, en Béarn : trois jours, trois scènes et plus de 25 artistes basques, français et internationaux, dans un esprit de joie collective.",
     "startDate": "2026-08-07",
     "endDate": "2026-08-09",
     "lat": 43.51786,
@@ -2374,7 +2324,7 @@
     "id": "touquet-music-beach",
     "slug": "touquet-music-beach",
     "name": "Touquet Music Beach Festival",
-    "description": "Festival de culture électronique sur la plage du Touquet-Paris-Plage (Pas-de-Calais), avec une quarantaine d'artistes couvrant house, disco, techno et hard techno. Ambiance balnéaire et têtes d'affiche internationales.",
+    "description": "Festival électro sur la plage du Touquet-Paris-Plage : deux jours de grandes têtes d'affiche (house, techno, EDM) face à la mer.",
     "startDate": "2026-08-28",
     "endDate": "2026-08-29",
     "lat": 50.5122,
@@ -2423,7 +2373,7 @@
     "id": "elektric-park",
     "slug": "elektric-park",
     "name": "Elektric Park Festival",
-    "description": "Festival open air XXL sur l'Île des Impressionnistes à Chatou (Yvelines), au bord de la Seine à 20 min de Paris, avec plus de 60 artistes sur quatre scènes. Bass music, hardstyle, techno et lives hybrides avec scénographie immersive.",
+    "description": "Grand festival électro de la rentrée en région parisienne, salué par la presse pour son line-up pointu.",
     "startDate": "2026-09-05",
     "endDate": "2026-09-06",
     "lat": 48.89663,
@@ -2506,7 +2456,7 @@
     "id": "climax-festival",
     "slug": "climax-festival",
     "name": "Climax Festival",
-    "description": "Festival mêlant musique, conférences, art et engagement écologique à Darwin Écosystème à Bordeaux. Programmation pluridisciplinaire (électro, hip-hop, musiques du monde) couplée à des tables rondes sur la transition écologique.",
+    "description": "Festival engagé à Darwin (Bordeaux), à la croisée de l'écologie, de la démocratie et de la fête : conférences, performances et concerts électroniques sur plusieurs jours, dans une ancienne caserne réhabilitée.",
     "startDate": "2026-09-09",
     "endDate": "2026-09-13",
     "lat": 44.8519,
@@ -2535,7 +2485,7 @@
     "id": "ouroboros-festival",
     "slug": "ouroboros-festival",
     "name": "Ouroboros Festival",
-    "description": "Festival intimiste de musique électronique pour sa 5e édition sur une colline du Cantal à Neuvéglise-sur-Truyère, porté par le collectif Ouroboros Crew. Direction artistique explorant dub, techno, drum & bass, ambient et expérimental en pleine nature.",
+    "description": "Festival électronique intimiste perché sur une colline du Cantal, à Neuvéglise-sur-Truyère : techno, dub, drum & bass, ambient et expérimental, dans une expérience sensorielle (installations, yoga, ateliers) à jauge volontairement réduite, camping inclus.",
     "startDate": "2026-09-11",
     "endDate": "2026-09-13",
     "lat": 44.93429,
@@ -2564,7 +2514,7 @@
     "id": "le-jardin-electronique",
     "slug": "le-jardin-electronique",
     "name": "Le Jardin Électronique",
-    "description": "Festival techno/house en plein air au Parc Naturel Urbain de Lomme (métropole de Lille), sur quatre scènes (Tech, Hard, Bass, Psy) et une cinquantaine d'artistes. Site desservi par le métro lillois.",
+    "description": "Le plus grand festival techno du Nord, au parc urbain de Lomme (Lille) : deux jours en plein air, accessibles en métro.",
     "startDate": "2026-09-12",
     "endDate": "2026-09-13",
     "lat": 50.6389,
@@ -2683,7 +2633,7 @@
     "id": "utopia-festival",
     "slug": "utopia-festival",
     "name": "Utopia Festival",
-    "description": "Festival marseillais dédié aux cultures électroniques et aux solidarités, organisé par le Cabaret Aléatoire à la Friche la Belle de Mai. Quatre scènes aux sonorités variées dans une démarche d'inclusion et de tolérance.",
+    "description": "Festival électronique à la Friche la Belle de Mai à Marseille : deux jours fin septembre (Tome VI).",
     "startDate": "2026-09-25",
     "endDate": "2026-09-26",
     "lat": 43.282,
@@ -2732,7 +2682,7 @@
     "id": "ndk-festival",
     "slug": "ndk-festival",
     "name": "NDK Festival",
-    "description": "Festival des cultures électroniques de Caen (héritier de Nördik Impakt), au Cargö et dans plusieurs lieux de la ville sur une dizaine de jours. Rencontres, masterclasses, spectacles jeune public et deux nuits de clubbing sur trois scènes.",
+    "description": "Festival électro et clubbing au Cargö à Caen : deux nuits, trois scènes, lives et workshops, pour sa 6e édition.",
     "startDate": "2026-10-07",
     "endDate": "2026-10-11",
     "lat": 49.18432,
@@ -2836,7 +2786,7 @@
     "id": "dream-nation",
     "slug": "dream-nation",
     "name": "Dream Nation",
-    "description": "Festival électronique d'Halloween au Parc des Expositions de Paris Nord Villepinte, réunissant des dizaines de milliers de festivaliers sur six scènes. Techno, hard techno, hardstyle, hardcore, trance, psytrance, bass music et drum & bass.",
+    "description": "Festival techno et musiques électroniques d'Halloween à Paris : deux nuits et une programmation 360° décloisonnant les genres (techno, bass music, drum & bass, trance, hardstyle, hardcore…).",
     "startDate": "2026-10-30",
     "endDate": "2026-10-31",
     "lat": 48.95651,
@@ -2852,8 +2802,14 @@
       "hardstyle",
       "psytrance"
     ],
-    "priceDay": 43.9,
+    "priceDay": 44,
     "priceFull": null,
+    "tariffs": [
+      {
+        "label": "Pass 2 nuits (à partir de)",
+        "price": 44
+      }
+    ],
     "currency": "EUR",
     "ticketUrl": "https://shotgun.live/fr/festivals/dream-nation-festival-2026",
     "officialUrl": "https://dreamnation.fr/",
@@ -2976,7 +2932,7 @@
     "id": "positive-education",
     "slug": "positive-education",
     "name": "Positive Education Festival",
-    "description": "Festival international de musiques électroniques pointues à Saint-Étienne (techno, house, drum & bass, ambient, expérimental), pour sa 10e édition sur deux sites : le Parc des Expositions et Le Clapier, ancienne gare reconvertie. Édition anniversaire visant 20 000 visiteurs.",
+    "description": "Festival pointu à Saint-Étienne (Le Clapier, Parc Expo) : exploration sonore entre deep, bass music, house, trance et techno, dans un esprit de découverte et d'inclusivité.",
     "startDate": "2026-11-12",
     "endDate": "2026-11-15",
     "lat": 45.43019,
