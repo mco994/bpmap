@@ -95,6 +95,7 @@ for (const f of source) {
     genres: f.genres ?? [],
     priceDay: prices[f.slug]?.priceDay ?? f.priceDay ?? null,
     priceFull: prices[f.slug]?.priceFull ?? f.priceFull ?? null,
+    tariffs: prices[f.slug]?.tariffs ?? f.tariffs ?? undefined,
     currency: "EUR",
     ticketUrl: f.ticketUrl ?? (f.sources ?? []).find((s) => TICKET_HOST.test(s)) ?? null,
     officialUrl: f.officialUrl ?? null,
