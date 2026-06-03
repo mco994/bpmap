@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  web:
+    name: Web — lint · types · build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Lint (web)
+        run: npm run lint --workspace web
+      - name: Typecheck (@bpmap/shared)
+        run: npm run typecheck:shared
+      - name: Build (web)
+        run: npm run build --workspace web
+
+  mobile:
+    name: App mobile — types
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - name: Générer expo-env.d.ts
+        working-directory: appMobile
+        run: printf '/// <reference types="expo/types" />\n' > expo-env.d.ts
+      - name: Typecheck (appMobile)
+        working-directory: appMobile
+        run: npx tsc --noEmit

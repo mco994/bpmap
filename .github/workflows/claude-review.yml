@@ -1,0 +1,28 @@
+name: Relecture Claude (PR)
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  review:
+    name: Relecture du diff
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: anthropics/claude-code-action@v1
+        with:
+          prompt: |
+            Relis cette pull request. Monorepo : web = Next.js 16, appMobile = Expo/React Native, shared = @bpmap/shared (logique + données).
+            Cherche : bugs et régressions, failles de sécurité (secrets en dur, entrées non validées, SQL non paramétré, secret derrière NEXT_PUBLIC_), problèmes de performance, et écarts aux conventions du projet (pas de commentaires dans le code, UI/contenus en français).
+            Poste des remarques précises et actionnables en commentaires de la PR, en français. Sois concis : ne signale que ce qui compte vraiment.
+          claude_args: |
+            --max-turns 6
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
