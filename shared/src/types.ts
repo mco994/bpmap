@@ -33,6 +33,8 @@ export interface Festival {
   priceDay: number | null;
   /** Cheapest full-festival pass in EUR, or null when unknown. */
   priceFull: number | null;
+  /** Detailed tariffs for the full sheet, e.g. [{ label: "Pass 2 jours", price: 90 }]. */
+  tariffs?: { label: string; price: number | null }[];
   currency: string;
   ticketUrl: string | null;
   officialUrl: string | null;

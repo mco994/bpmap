@@ -4,6 +4,7 @@ import {
   effectiveStatus,
   formatDateRange,
   formatPrice,
+  formatFromPrice,
   genreLabel,
   getFestivalBySlug,
   sizeTierForCapacity,
@@ -96,8 +97,22 @@ export default function FestivalDetailScreen() {
 
         <View style={styles.block}>
           <ThemedText type="subtitle">Tarifs</ThemedText>
-          <ThemedText>Journée : {formatPrice(festival.priceDay)}</ThemedText>
-          <ThemedText>Pass complet : {formatPrice(festival.priceFull)}</ThemedText>
+          <ThemedText>{formatFromPrice(festival)}</ThemedText>
+          {festival.priceDay !== null ? (
+            <ThemedText type="small" themeColor="textSecondary">
+              Pass jour : {formatPrice(festival.priceDay)}
+            </ThemedText>
+          ) : null}
+          {festival.priceFull !== null ? (
+            <ThemedText type="small" themeColor="textSecondary">
+              Pass complet : {formatPrice(festival.priceFull)}
+            </ThemedText>
+          ) : null}
+          {(festival.tariffs ?? []).map((t, i) => (
+            <ThemedText key={`${t.label}-${i}`} type="small" themeColor="textSecondary">
+              {t.label} : {formatPrice(t.price)}
+            </ThemedText>
+          ))}
         </View>
 
         {festival.lineup && festival.lineup.length > 0 ? (

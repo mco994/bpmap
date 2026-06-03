@@ -14,7 +14,7 @@ import MapGL, {
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
   formatDateRange,
-  formatPrice,
+  formatFromPrice,
   genreLabel,
   type Festival,
 } from "@bpmap/shared";
@@ -219,9 +219,8 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
                     </li>
                   ))}
                 </ul>
-                <p className="text-xs text-zinc-700">
-                  Jour&nbsp;: <strong>{formatPrice(selected.priceDay)}</strong> ·
-                  Pass&nbsp;: <strong>{formatPrice(selected.priceFull)}</strong>
+                <p className="text-xs font-medium text-zinc-700">
+                  {formatFromPrice(selected)}
                 </p>
                 {selected.lineup && selected.lineup.length > 0 && (
                   <p className="text-xs text-zinc-600">

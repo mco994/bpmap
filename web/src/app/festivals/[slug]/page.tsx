@@ -6,6 +6,7 @@ import {
   getFestivalBySlug,
   formatDateRange,
   formatPrice,
+  formatFromPrice,
   genreLabel,
   sizeTierLabel,
   sizeTierForCapacity,
@@ -152,8 +153,17 @@ export default async function FestivalPage({
   const info = [
     { icon: "👥", label: "Organisateur", value: festival.organizer ?? "—" },
     { icon: "📐", label: "Taille", value: tier ? sizeTierLabel(tier) : "—" },
-    { icon: "🎟️", label: "Prix / jour", value: formatPrice(festival.priceDay) },
-    { icon: "🎫", label: "Pass complet", value: formatPrice(festival.priceFull) },
+    { icon: "🎟️", label: "Tarif", value: formatFromPrice(festival) },
+  ];
+
+  const tarifs = [
+    ...(festival.priceDay !== null
+      ? [{ label: "Pass jour", price: festival.priceDay }]
+      : []),
+    ...(festival.priceFull !== null
+      ? [{ label: "Pass complet", price: festival.priceFull }]
+      : []),
+    ...(festival.tariffs ?? []),
   ];
 
   return (
@@ -271,6 +281,30 @@ export default async function FestivalPage({
             </div>
           ))}
         </dl>
+
+        {tarifs.length > 0 && (
+          <section className="mt-8">
+            <h2 className="text-lg font-semibold">Tarifs</h2>
+            <ul className="mt-3 divide-y divide-zinc-200 overflow-hidden rounded-xl border border-zinc-200 dark:divide-zinc-800 dark:border-zinc-800">
+              {tarifs.map((t, i) => (
+                <li
+                  key={`${t.label}-${i}`}
+                  className="flex items-center justify-between gap-4 px-4 py-2.5 text-sm"
+                >
+                  <span className="text-zinc-600 dark:text-zinc-400">
+                    {t.label}
+                  </span>
+                  <span className="font-medium text-zinc-900 dark:text-zinc-50">
+                    {formatPrice(t.price)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-500">
+              Tarifs indicatifs, à vérifier sur la billetterie officielle.
+            </p>
+          </section>
+        )}
 
         <div className="mt-8 flex flex-wrap gap-3">
           {billetterieUrl(festival) && (

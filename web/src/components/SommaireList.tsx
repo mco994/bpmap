@@ -7,6 +7,7 @@ import {
   applyFilters,
   formatDateRange,
   formatPrice,
+  priceFrom,
   genreLabel,
   effectiveStatus,
   statusLabel,
@@ -143,11 +144,11 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                       </span>
                     </span>
                     <span className="shrink-0 text-right text-sm">
-                      <span className="font-medium text-zinc-700 dark:text-zinc-300">
-                        {formatPrice(f.priceDay)}
+                      <span className="block text-[11px] text-zinc-400 dark:text-zinc-500">
+                        dès
                       </span>
-                      <span className="block text-xs text-zinc-400 dark:text-zinc-500">
-                        / jour
+                      <span className="font-medium text-zinc-700 dark:text-zinc-300">
+                        {formatPrice(priceFrom(f))}
                       </span>
                     </span>
                   </Link>
