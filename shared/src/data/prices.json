@@ -33,8 +33,18 @@
     "priceFull": 270
   },
   "millesime-festival": {
-    "priceDay": 47.25,
-    "priceFull": 78.75
+    "priceDay": 48,
+    "priceFull": 80,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour (camping inclus)",
+        "price": 48
+      },
+      {
+        "label": "Pass 2 jours (camping inclus)",
+        "price": 80
+      }
+    ]
   },
   "marvellous-island": {
     "priceDay": 48,
@@ -55,7 +65,8 @@
   },
   "people-are-strange": {
     "priceDay": null,
-    "priceFull": 125
+    "priceFull": 125,
+    "capacity": 1500
   },
   "biches-festival": {
     "priceDay": 39,
