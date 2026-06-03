@@ -12,8 +12,12 @@ import MapGL, {
   type LayerProps,
 } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
-import type { Festival } from "@/lib/types";
-import { formatDateRange, formatPrice, genreLabel } from "@/lib/festivals";
+import {
+  formatDateRange,
+  formatPrice,
+  genreLabel,
+  type Festival,
+} from "@bpmap/shared";
 
 const MAP_STYLE =
   process.env.NEXT_PUBLIC_MAP_STYLE ??

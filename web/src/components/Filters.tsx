@@ -1,16 +1,17 @@
 "use client";
 
 import { useId } from "react";
-import type { Filters } from "@/lib/filters";
-import { isEmptyFilters, EMPTY_FILTERS } from "@/lib/filters";
-import type { SizeTier } from "@/lib/types";
 import {
+  isEmptyFilters,
+  EMPTY_FILTERS,
   GENRES,
   SIZE_TIERS,
   getOrganizers,
   getArtists,
   getPriceBounds,
-} from "@/lib/festivals";
+  type Filters,
+  type SizeTier,
+} from "@bpmap/shared";
 import Autocomplete from "@/components/Autocomplete";
 
 interface FiltersPanelProps {

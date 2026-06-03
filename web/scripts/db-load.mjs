@@ -10,7 +10,7 @@ import path from "node:path";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const festivals = JSON.parse(
-  readFileSync(path.join(here, "..", "src", "data", "festivals.json"), "utf8"),
+  readFileSync(path.join(here, "..", "..", "shared", "src", "data", "festivals.json"), "utf8"),
 );
 
 const GENRE_LABELS = {

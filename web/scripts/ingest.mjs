@@ -14,7 +14,7 @@ import path from "node:path";
 import AdmZip from "adm-zip";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(here, "..", "src", "data");
+const dataDir = path.join(here, "..", "..", "shared", "src", "data");
 const source = JSON.parse(
   readFileSync(path.join(dataDir, "festivals.source.json"), "utf8"),
 );

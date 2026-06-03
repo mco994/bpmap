@@ -2,8 +2,12 @@
 
 import { useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
-import type { Festival } from "@/lib/types";
-import { EMPTY_FILTERS, applyFilters, type Filters } from "@/lib/filters";
+import {
+  EMPTY_FILTERS,
+  applyFilters,
+  type Filters,
+  type Festival,
+} from "@bpmap/shared";
 import FiltersPanel from "@/components/Filters";
 import FestivalCard from "@/components/FestivalCard";
 

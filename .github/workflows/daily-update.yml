@@ -22,26 +22,26 @@ jobs:
       - run: npm ci
 
       - name: Ingestion (Wikidata + OpenAgenda + RA + DATAtourisme) → candidats
-        run: node scripts/ingest.mjs
+        run: node web/scripts/ingest.mjs
         env:
           DATATOURISME_FLUX_URL: ${{ secrets.DATATOURISME_FLUX_URL }}
 
       - name: Vérification automatique + promotion (croisement de sources)
-        run: node scripts/verify-promote.mjs
+        run: node web/scripts/verify-promote.mjs
 
       - name: Enrichissement des line-ups via Resident Advisor
-        run: node scripts/ra-lineups.mjs
+        run: node web/scripts/ra-lineups.mjs
 
-      - name: Géocodage (régénère src/data/festivals.json via la BAN)
-        run: npm run geocode
+      - name: Géocodage (régénère shared/src/data/festivals.json via la BAN)
+        run: npm run geocode --workspace web
 
       - name: Charger dans Neon
-        run: node scripts/db-load.mjs
+        run: node web/scripts/db-load.mjs
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
 
       - name: Cycle de vie (marque "passé" + purge à +1 mois)
-        run: node scripts/db-lifecycle.mjs
+        run: node web/scripts/db-lifecycle.mjs
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
 
@@ -49,6 +49,6 @@ jobs:
         run: |
           git config user.name "bpmap-bot"
           git config user.email "bpmap-bot@users.noreply.github.com"
-          git add src/data/festivals.json src/data/festivals.source.json src/data/lineups.json src/data/festivals.candidates.json
+          git add shared/src/data/festivals.json shared/src/data/festivals.source.json shared/src/data/lineups.json shared/src/data/festivals.candidates.json
           git diff --staged --quiet || git commit -m "chore: rafraîchissement quotidien des données (ingestion + vérif auto)"
           git push

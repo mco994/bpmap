@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllFestivals } from "@/lib/festivals";
+import { getAllFestivals } from "@bpmap/shared";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 

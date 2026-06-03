@@ -1,5 +1,7 @@
-import { FESTIVALS } from "@/data/festivals";
-import type { Festival, FestivalStatus, Genre, SizeTier } from "@/lib/types";
+import type { Festival, FestivalStatus, Genre, SizeTier } from "./types";
+import generated from "./data/festivals.json";
+
+export const FESTIVALS = generated as unknown as Festival[];
 
 // Controlled genre vocabulary. Festival.genres references these slugs.
 export const GENRES: Genre[] = [

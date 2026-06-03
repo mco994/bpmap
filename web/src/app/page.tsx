@@ -1,5 +1,5 @@
 import Explorer from "@/components/Explorer";
-import { getAllFestivals } from "@/lib/festivals";
+import { getAllFestivals } from "@bpmap/shared";
 
 export default function Home() {
   const festivals = getAllFestivals();

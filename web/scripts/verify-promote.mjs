@@ -13,7 +13,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const dataDir = path.join(here, "..", "src", "data");
+const dataDir = path.join(here, "..", "..", "shared", "src", "data");
 const candPath = path.join(dataDir, "festivals.candidates.json");
 const srcPath = path.join(dataDir, "festivals.source.json");
 const lineupsPath = path.join(dataDir, "lineups.json");

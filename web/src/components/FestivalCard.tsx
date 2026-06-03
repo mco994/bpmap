@@ -1,5 +1,4 @@
 import Link from "next/link";
-import type { Festival } from "@/lib/types";
 import {
   formatDateRange,
   formatPrice,
@@ -7,7 +6,8 @@ import {
   sizeTierForCapacity,
   effectiveStatus,
   statusLabel,
-} from "@/lib/festivals";
+  type Festival,
+} from "@bpmap/shared";
 
 interface FestivalCardProps {
   festival: Festival;

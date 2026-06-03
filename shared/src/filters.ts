@@ -1,5 +1,5 @@
-import type { Festival, SizeTier } from "@/lib/types";
-import { sizeTierForCapacity, isPast } from "@/lib/festivals";
+import type { Festival, SizeTier } from "./types";
+import { sizeTierForCapacity, isPast } from "./festivals";
 
 // Shared, framework-agnostic filtering logic so the client (MVP) and a future
 // server/PostGIS path apply exactly the same rules.

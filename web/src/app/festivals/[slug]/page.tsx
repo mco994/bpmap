@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getAllFestivals, getFestivalBySlug } from "@/lib/festivals";
 import {
+  getAllFestivals,
+  getFestivalBySlug,
   formatDateRange,
   formatPrice,
   genreLabel,
@@ -10,8 +11,8 @@ import {
   sizeTierForCapacity,
   effectiveStatus,
   statusLabel,
-} from "@/lib/festivals";
-import type { Festival } from "@/lib/types";
+  type Festival,
+} from "@bpmap/shared";
 
 export function generateStaticParams() {
   return getAllFestivals().map((f) => ({ slug: f.slug }));
