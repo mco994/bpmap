@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import "./globals.css";
@@ -64,8 +65,33 @@ export default function RootLayout({
           {children}
         </main>
         <footer className="border-t border-zinc-200 bg-white py-6 text-center text-sm text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400">
-          BPMap — l&apos;annuaire des festivals de musique électronique
-          français.
+          <p>
+            BPMap — l&apos;annuaire des festivals de musique électronique
+            français.
+          </p>
+          <nav
+            aria-label="Liens légaux"
+            className="mt-2 flex flex-wrap justify-center gap-x-4 gap-y-1"
+          >
+            <Link
+              href="/mentions-legales"
+              className="hover:text-zinc-700 hover:underline dark:hover:text-zinc-300"
+            >
+              Mentions légales
+            </Link>
+            <Link
+              href="/confidentialite"
+              className="hover:text-zinc-700 hover:underline dark:hover:text-zinc-300"
+            >
+              Confidentialité
+            </Link>
+            <Link
+              href="/sources"
+              className="hover:text-zinc-700 hover:underline dark:hover:text-zinc-300"
+            >
+              Sources &amp; licences
+            </Link>
+          </nav>
         </footer>
       </body>
     </html>

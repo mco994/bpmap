@@ -21,6 +21,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "daily",
       priority: 0.9,
     },
+    ...["mentions-legales", "confidentialite", "sources"].map((p) => ({
+      url: `${SITE_URL}/${p}`,
+      changeFrequency: "yearly" as const,
+      priority: 0.2,
+    })),
     ...festivals,
   ];
 }
