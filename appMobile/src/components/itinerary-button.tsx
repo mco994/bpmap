@@ -1,24 +1,64 @@
-import { useState } from 'react';
-import { Alert, Modal, Pressable, StyleSheet, TextInput } from 'react-native';
+import { useRef, useState } from 'react';
+import {
+  Alert,
+  KeyboardAvoidingView,
+  Modal,
+  Platform,
+  Pressable,
+  StyleSheet,
+  TextInput,
+  View,
+} from 'react-native';
 import type { Festival } from '@bpmap/shared';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
-import { openDirections } from '@/lib/geo';
+import { openDirections, suggestAddresses, type AddressSuggestion } from '@/lib/geo';
 
 export function ItineraryButton({ festival }: { festival: Festival }) {
   const theme = useTheme();
   const [visible, setVisible] = useState(false);
   const [address, setAddress] = useState('');
+  const [suggestions, setSuggestions] = useState<AddressSuggestion[]>([]);
+  const [picked, setPicked] = useState<AddressSuggestion | null>(null);
+  const debounce = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const go = async (originText?: string) => {
+  const close = () => {
     setVisible(false);
+    setSuggestions([]);
+  };
+
+  const go = async (origin?: string | { lat: number; lng: number }) => {
+    close();
     try {
-      await openDirections(festival, originText);
+      await openDirections(festival, origin);
     } catch {
       Alert.alert('Itinéraire', "Impossible d'ouvrir l'application de cartes.");
+    }
+  };
+
+  const onChangeAddress = (text: string) => {
+    setAddress(text);
+    setPicked(null);
+    if (debounce.current) clearTimeout(debounce.current);
+    debounce.current = setTimeout(async () => {
+      setSuggestions(await suggestAddresses(text));
+    }, 300);
+  };
+
+  const pick = (s: AddressSuggestion) => {
+    setAddress(s.label);
+    setPicked(s);
+    setSuggestions([]);
+  };
+
+  const goFromAddress = () => {
+    if (picked) {
+      void go({ lat: picked.lat, lng: picked.lng });
+    } else if (address.trim()) {
+      void go(address);
     }
   };
 
@@ -31,59 +71,75 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
         <ThemedText type="smallBold">🧭 Itinéraire</ThemedText>
       </Pressable>
 
-      <Modal
-        visible={visible}
-        transparent
-        animationType="slide"
-        onRequestClose={() => setVisible(false)}
-      >
-        <Pressable style={styles.backdrop} onPress={() => setVisible(false)}>
-          <Pressable onPress={() => {}}>
-            <ThemedView style={styles.sheet}>
-              <ThemedText type="subtitle">Itinéraire vers {festival.name}</ThemedText>
+      <Modal visible={visible} transparent animationType="slide" onRequestClose={close}>
+        <KeyboardAvoidingView
+          style={styles.flex}
+          behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+        >
+          <Pressable style={styles.backdrop} onPress={close}>
+            <Pressable onPress={() => {}}>
+              <ThemedView style={styles.sheet}>
+                <ThemedText type="subtitle">Itinéraire vers {festival.name}</ThemedText>
 
-              <Pressable
-                onPress={() => go()}
-                style={[styles.primary, { backgroundColor: theme.backgroundSelected }]}
-              >
-                <ThemedText type="smallBold">📍 Depuis ma position</ThemedText>
-              </Pressable>
+                <Pressable
+                  onPress={() => go()}
+                  style={[styles.primary, { backgroundColor: theme.backgroundSelected }]}
+                >
+                  <ThemedText type="smallBold">📍 Depuis ma position</ThemedText>
+                </Pressable>
 
-              <ThemedText type="small" themeColor="textSecondary">
-                ou depuis une adresse
-              </ThemedText>
+                <ThemedText type="small" themeColor="textSecondary">
+                  ou depuis une adresse
+                </ThemedText>
 
-              <TextInput
-                value={address}
-                onChangeText={setAddress}
-                placeholder="Adresse de départ"
-                placeholderTextColor={theme.textSecondary}
-                returnKeyType="go"
-                onSubmitEditing={() => {
-                  if (address.trim()) void go(address);
-                }}
-                style={[styles.input, { color: theme.text, borderColor: theme.backgroundSelected }]}
-              />
+                <TextInput
+                  value={address}
+                  onChangeText={onChangeAddress}
+                  placeholder="Adresse de départ"
+                  placeholderTextColor={theme.textSecondary}
+                  returnKeyType="go"
+                  onSubmitEditing={goFromAddress}
+                  style={[styles.input, { color: theme.text, borderColor: theme.backgroundSelected }]}
+                />
 
-              <Pressable
-                disabled={!address.trim()}
-                onPress={() => go(address)}
-                style={[
-                  styles.primary,
-                  { backgroundColor: theme.backgroundSelected, opacity: address.trim() ? 1 : 0.4 },
-                ]}
-              >
-                <ThemedText type="smallBold">Y aller depuis cette adresse</ThemedText>
-              </Pressable>
-            </ThemedView>
+                {suggestions.length > 0 ? (
+                  <View style={[styles.suggestions, { borderColor: theme.backgroundSelected }]}>
+                    {suggestions.map((s) => (
+                      <Pressable
+                        key={s.label}
+                        onPress={() => pick(s)}
+                        style={({ pressed }) => [
+                          styles.suggestion,
+                          pressed && { backgroundColor: theme.backgroundElement },
+                        ]}
+                      >
+                        <ThemedText type="small">{s.label}</ThemedText>
+                      </Pressable>
+                    ))}
+                  </View>
+                ) : null}
+
+                <Pressable
+                  disabled={!address.trim()}
+                  onPress={goFromAddress}
+                  style={[
+                    styles.primary,
+                    { backgroundColor: theme.backgroundSelected, opacity: address.trim() ? 1 : 0.4 },
+                  ]}
+                >
+                  <ThemedText type="smallBold">Y aller depuis cette adresse</ThemedText>
+                </Pressable>
+              </ThemedView>
+            </Pressable>
           </Pressable>
-        </Pressable>
+        </KeyboardAvoidingView>
       </Modal>
     </>
   );
 }
 
 const styles = StyleSheet.create({
+  flex: { flex: 1 },
   action: {
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.two,
@@ -97,8 +153,8 @@ const styles = StyleSheet.create({
   sheet: {
     padding: Spacing.four,
     gap: Spacing.two,
-    borderTopLeftRadius: Spacing.four,
-    borderTopRightRadius: Spacing.four,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
   },
   primary: {
     paddingHorizontal: Spacing.three,
@@ -109,6 +165,15 @@ const styles = StyleSheet.create({
   input: {
     borderWidth: StyleSheet.hairlineWidth,
     borderRadius: Spacing.two,
+    paddingHorizontal: Spacing.three,
+    paddingVertical: Spacing.two,
+  },
+  suggestions: {
+    borderWidth: StyleSheet.hairlineWidth,
+    borderRadius: Spacing.two,
+    overflow: 'hidden',
+  },
+  suggestion: {
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.two,
   },
