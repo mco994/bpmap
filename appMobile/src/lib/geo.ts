@@ -20,10 +20,15 @@ export async function getCurrentCoords(): Promise<{ lat: number; lng: number } |
   }
 }
 
-export async function openDirections(festival: Festival): Promise<void> {
+export async function openDirections(festival: Festival, originText?: string): Promise<void> {
   const destination = `${festival.lat},${festival.lng}`;
-  const origin = await getCurrentCoords();
-  const originParam = origin ? `&origin=${origin.lat},${origin.lng}` : '';
+  let originParam = '';
+  if (originText && originText.trim()) {
+    originParam = `&origin=${encodeURIComponent(originText.trim())}`;
+  } else {
+    const origin = await getCurrentCoords();
+    if (origin) originParam = `&origin=${origin.lat},${origin.lng}`;
+  }
   const url = `https://www.google.com/maps/dir/?api=1&destination=${destination}${originParam}&travelmode=driving`;
   await Linking.openURL(url);
 }

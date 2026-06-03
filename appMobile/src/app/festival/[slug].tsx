@@ -17,7 +17,7 @@ import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import { toggleFavorite, useIsFavorite } from '@/lib/favorites';
 import { ensureNotificationSetup, scheduleFestivalReminder } from '@/lib/notifications';
-import { openDirections } from '@/lib/geo';
+import { ItineraryButton } from '@/components/itinerary-button';
 
 export default function FestivalDetailScreen() {
   const theme = useTheme();
@@ -51,14 +51,6 @@ export default function FestivalDetailScreen() {
     );
   };
 
-  const onItinerary = async () => {
-    try {
-      await openDirections(festival);
-    } catch {
-      Alert.alert('Itinéraire', "Impossible d'ouvrir l'application de cartes.");
-    }
-  };
-
   return (
     <ThemedView style={styles.container}>
       <Stack.Screen options={{ title: festival.name }} />
@@ -83,12 +75,7 @@ export default function FestivalDetailScreen() {
           >
             <ThemedText type="smallBold">🔔 Me rappeler</ThemedText>
           </Pressable>
-          <Pressable
-            onPress={onItinerary}
-            style={[styles.action, { backgroundColor: theme.backgroundElement }]}
-          >
-            <ThemedText type="smallBold">🧭 Itinéraire</ThemedText>
-          </Pressable>
+          <ItineraryButton festival={festival} />
         </View>
 
         {festival.description ? (
