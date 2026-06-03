@@ -6,7 +6,8 @@ on:
   workflow_dispatch: {} # déclenchement manuel possible
 
 permissions:
-  contents: write # pour committer festivals.json rafraîchi
+  contents: write
+  pull-requests: write
 
 jobs:
   update:
@@ -45,10 +46,19 @@ jobs:
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
 
-      - name: Committer les données rafraîchies
+      - name: Ouvrir une PR de rafraîchissement (auto-merge après CI)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "bpmap-bot"
           git config user.email "bpmap-bot@users.noreply.github.com"
           git add shared/src/data/festivals.json shared/src/data/festivals.source.json shared/src/data/lineups.json shared/src/data/festivals.candidates.json
-          git diff --staged --quiet || git commit -m "chore: rafraîchissement quotidien des données (ingestion + vérif auto)"
-          git push
+          if git diff --staged --quiet; then echo "Aucun changement de données."; exit 0; fi
+          BRANCH="data/refresh-${{ github.run_id }}"
+          git checkout -b "$BRANCH"
+          git commit -m "chore: rafraîchissement quotidien des données (ingestion + vérif auto)"
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" \
+            --title "chore: données quotidiennes" \
+            --body "Rafraîchissement automatique (ingestion + vérification croisée des sources)."
+          gh pr merge "$BRANCH" --auto --squash --delete-branch
