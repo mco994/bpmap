@@ -1031,7 +1031,7 @@
     "id": "dox-art-festival",
     "slug": "dox-art-festival",
     "name": "Dox'Art Festival",
-    "description": "Festival d'électro underground de 4 jours à Hambye, dans la Manche, pour sa 9e édition. La programmation est répartie sur plusieurs espaces (dont une scène psytrance/progressive et une scène plus expérimentale), entre tendances actuelles et courants underground.",
+    "description": "Festival techno et électro underground à Hambye (Manche), né en 2017. Quatre jours en plein air, associatif et bénévole, cinq espaces (techno, psytrance, house, dub, performances) et camping gratuit dans la campagne normande.",
     "startDate": "2026-06-25",
     "endDate": "2026-06-28",
     "lat": 48.94635,
@@ -1046,7 +1046,21 @@
       "psytrance"
     ],
     "priceDay": 39,
-    "priceFull": 105,
+    "priceFull": 129,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour",
+        "price": 39
+      },
+      {
+        "label": "Pass 3 jours / 2 nuits",
+        "price": 105
+      },
+      {
+        "label": "Pass 4 jours / 3 nuits",
+        "price": 129
+      }
+    ],
     "currency": "EUR",
     "ticketUrl": null,
     "officialUrl": "https://www.festivalenfrance.com/en/festival/dox-art-festival",
@@ -1118,7 +1132,7 @@
     "id": "m2a-festival",
     "slug": "m2a-festival",
     "name": "M2A Festival",
-    "description": "Festival techno et électronique à La Mussetière, Montaigu-Vendée. La grande scène extérieure fait face au château avec un video-mapping projeté sur sa façade, pour une programmation house, techno et progressive.",
+    "description": "Festival de musique électronique (techno, house) à Montaigu-Vendée, deux jours au cœur de l'été mêlant têtes d'affiche internationales et talents locaux, camping sur place.",
     "startDate": "2026-06-26",
     "endDate": "2026-06-27",
     "lat": 46.97929,
@@ -1146,7 +1160,7 @@
     "id": "evasion-festival",
     "slug": "evasion-festival",
     "name": "Évasion Festival",
-    "description": "Festival électro 100% diurne et en plein air à la Plage de l'Atol' à Vaulx-en-Velin, dans le Grand Parc Miribel Jonage près de Lyon. Trois scènes (house/disco, trance/techno, downtempo) et un nouvel espace camping intime.",
+    "description": "Festival diurne au bord du lac, sur la plage de l'Atol (Grand Parc Miribel Jonage, près de Lyon), où musique électronique, art et nature se répondent.",
     "startDate": "2026-06-27",
     "endDate": "2026-06-28",
     "lat": 45.7708,
@@ -1193,7 +1207,7 @@
     "id": "festival-plein-air",
     "slug": "festival-plein-air",
     "name": "Festival Plein Air",
-    "description": "Festival électro de Douai au Parc Jacques Vernier, fidèle à son ADN house, disco et French touch. L'édition réunit 25 artistes internationaux et émergents sur deux scènes.",
+    "description": "Festival électro en plein air à Douai, dans les Hauts-de-France : deux jours d'open air estival.",
     "startDate": "2026-06-27",
     "endDate": "2026-06-28",
     "lat": 50.3799,
@@ -1341,7 +1355,7 @@
     "id": "ethereal-decibel",
     "slug": "ethereal-decibel",
     "name": "Ethereal Decibel Festival",
-    "description": "Festival de musiques psychédéliques à Buais-les-Monts (Manche), désormais étendu à 4 jours. La programmation mêle psytrance, goa, techno, ambient et bass music sur plusieurs scènes.",
+    "description": "Festival de musiques et d'arts psychédéliques porté par une association depuis plus de dix ans, réunissant plus de 150 artistes (musiciens, décorateurs, performeurs) pour une immersion collective.",
     "startDate": "2026-07-02",
     "endDate": "2026-07-05",
     "lat": 48.52168,
@@ -1428,7 +1442,7 @@
     "id": "green-fest",
     "slug": "green-fest",
     "name": "Green Fest",
-    "description": "11e édition de ce festival de musique électronique au Lac de Monteux (Vaucluse), avec une scénographie immersive intégrant sobriété et respect du site naturel. L'édition vise jusqu'à 10 000 festivaliers.",
+    "description": "Festival électro éco-responsable au lac de Monteux, engagé pour la transition écologique dans la culture, sur deux jours en plein air.",
     "startDate": "2026-07-03",
     "endDate": "2026-07-04",
     "lat": 44.02992,
@@ -1445,6 +1459,20 @@
     ],
     "priceDay": 49.78,
     "priceFull": 75,
+    "tariffs": [
+      {
+        "label": "Pass week-end (early bird)",
+        "price": 75
+      },
+      {
+        "label": "Pass week-end (regular)",
+        "price": 85
+      },
+      {
+        "label": "VIP",
+        "price": 175
+      }
+    ],
     "currency": "EUR",
     "ticketUrl": null,
     "officialUrl": "https://greenfest.fr/",
@@ -1514,7 +1542,7 @@
     "id": "dub-camp",
     "slug": "dub-camp",
     "name": "Dub Camp Festival",
-    "description": "Festival dédié à la culture sound system, reggae et dub au bord du lac de Vioreau à Joué-sur-Erdre (Loire-Atlantique). Plus de 30 artistes et sound systems, le line-up étant dévoilé progressivement.",
+    "description": "Festival de culture sound system international à Joué-sur-Erdre, au bord du lac de Vioreau : plus de 50 crews sous chapiteaux, au rythme du dub et du skank jamaïcain.",
     "startDate": "2026-07-10",
     "endDate": "2026-07-12",
     "lat": 47.51179,
@@ -1556,7 +1584,7 @@
     "id": "cocorico-electro",
     "slug": "cocorico-electro",
     "name": "Cocorico Electro",
-    "description": "Festival 100% électro français au Château de La Ferté-Saint-Aubin (Loiret). Une trentaine de DJs se produisent sur 2 scènes en plein air, avec Cassius pour une de ses dernières tournées.",
+    "description": "Festival électro au château de la Ferté-Saint-Aubin, en Centre-Val de Loire : une programmation 100 % électro française sur deux scènes en plein air, dans un cadre patrimonial, avec un Espace Bon Vivant gastronomique.",
     "startDate": "2026-07-10",
     "endDate": "2026-07-13",
     "lat": 47.72403,
@@ -1601,7 +1629,7 @@
     "id": "adn-music-festival",
     "slug": "adn-music-festival",
     "name": "ADN Music Festival",
-    "description": "Festival hybride à la station Pipay à Theys, dans un cadre montagnard à 1 550 m près des 7 Laux. Événement intimiste réservé aux adultes (1 250 places), plus de 50 artistes sur trois scènes en psytrance, hitech, techno, ambient et world.",
+    "description": "Festival hybride du label et collectif ADN Music, sur un site de montagne : une programmation psychédélique, variée et intense, dans l'esprit DIY du label.",
     "startDate": "2026-07-10",
     "endDate": "2026-07-12",
     "lat": 45.29527,
@@ -1660,7 +1688,7 @@
     "id": "xnv-beach-festival",
     "slug": "xnv-beach-festival",
     "name": "XNV Beach Festival",
-    "description": "15e édition de ce festival sur l'unique plage de sable naturelle d'eau douce d'Europe, au bord du lac Léman à Excenevex (Haute-Savoie). Entièrement bénévole, il mêle électro et musiques urbaines et attire plus de 12 000 festivaliers.",
+    "description": "Festival de plage mêlant électro, dance et musiques urbaines, sur trois jours en juillet.",
     "startDate": "2026-07-16",
     "endDate": "2026-07-19",
     "lat": 46.35256,
@@ -1716,7 +1744,7 @@
     "id": "stereoparc",
     "slug": "stereoparc",
     "name": "Stéréoparc Festival",
-    "description": "Festival électro dans le cadre patrimonial de la Corderie Royale à Rochefort, au bord de la Charente. Programmation EDM/techno/house avec une scène 360° et des afters officiels de 3h à 6h.",
+    "description": "Festival électro dans les jardins de la Corderie Royale de Rochefort, en bord de Charente : techno, hard techno, EDM et house sur deux soirées (Waterfall, Cococoast).",
     "startDate": "2026-07-24",
     "endDate": "2026-07-25",
     "lat": 45.94403,
@@ -1731,8 +1759,18 @@
       "house",
       "edm"
     ],
-    "priceDay": 44.5,
-    "priceFull": 94,
+    "priceDay": 52,
+    "priceFull": 82,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour",
+        "price": 52
+      },
+      {
+        "label": "Pass 2 jours",
+        "price": 82
+      }
+    ],
     "currency": "EUR",
     "ticketUrl": null,
     "officialUrl": "https://stereoparc.com/",
@@ -1808,7 +1846,7 @@
     "id": "little-festival",
     "slug": "little-festival",
     "name": "Little Festival",
-    "description": "Festival électro fêtant ses 10 ans entre Seignosse, Hossegor et Capbreton (Landes), mêlant musique électronique, street art et culture surf. Ambiance balnéaire avec open airs gratuits et clubbing au Tube de Seignosse.",
+    "description": "Festival électro itinérant sur la côte landaise (Seignosse, Hossegor, Capbreton) : du open air gratuit aux nuits en club, sur cinq jours, avec plusieurs journées en accès libre.",
     "startDate": "2026-07-29",
     "endDate": "2026-08-02",
     "lat": 43.69684,
@@ -1855,7 +1893,7 @@
     "id": "eskape-festival",
     "slug": "eskape-festival",
     "name": "Eskape Festival",
-    "description": "Festival de musiques extrêmes (hardcore, hardstyle, frenchcore, hard techno) au cœur du bocage normand à Montilly-sur-Noireau (Orne), avec plus de 80 artistes sur trois scènes. Univers immersif « Wonderland Experience ».",
+    "description": "Festival de hard techno et hard music sur trois jours : trois scènes immersives (pyrotechnie, lasers), plus de 80 artistes et des dizaines de milliers de festivaliers.",
     "startDate": "2026-07-31",
     "endDate": "2026-08-02",
     "lat": 48.81247,
