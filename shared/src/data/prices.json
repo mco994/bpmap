@@ -321,5 +321,8 @@
         "price": 79
       }
     ]
+  },
+  "hard-mess": {
+    "capacity": 7500
   }
 }

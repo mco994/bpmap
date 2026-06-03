@@ -1292,6 +1292,66 @@
     ]
   },
   {
+    "id": "astropolis",
+    "slug": "astropolis",
+    "name": "Astropolis",
+    "description": "Né en 1995 dans le Nord-Finistère, le plus ancien festival de musiques électroniques de France cultive indépendance, esprit collectif et liberté. Pendant quatre jours à Brest, des clubs en fusion aux open airs galvanisants jusqu'à la nuit mythique du Manoir de Keroual, avec des événements gratuits en journée.",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-05",
+    "lat": 48.40644,
+    "lng": -4.49774,
+    "city": "Brest",
+    "region": "Bretagne",
+    "organizer": "Astropolis",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "electro",
+      "ambient"
+    ],
+    "priceDay": 15,
+    "priceFull": null,
+    "tariffs": [
+      {
+        "label": "Soirées club (Vauban / La Suite)",
+        "price": 23
+      },
+      {
+        "label": "Manoir de Keroual",
+        "price": 39.5
+      },
+      {
+        "label": "After (Vauban)",
+        "price": 15
+      }
+    ],
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://astropolis.org/",
+    "status": "confirmed",
+    "lineup": [
+      "Laurent Garnier",
+      "Perc",
+      "Call Super",
+      "Manu Le Malin",
+      "Cassie Raptor",
+      "Lenny Dee",
+      "O.B.F",
+      "Elisa Do Brasil",
+      "Unexist",
+      "Octo Octa",
+      "Chläer",
+      "Lessss",
+      "Flo Massé",
+      "Darwin & Kilbourne"
+    ],
+    "sources": [
+      "https://astropolis.org/",
+      "https://www.djmag.fr/astropolis-2026-le-festival-brestois-devoile-la-programmation-de-son-30e-anniversaire/"
+    ]
+  },
+  {
     "id": "ethereal-decibel",
     "slug": "ethereal-decibel",
     "name": "Ethereal Decibel Festival",
@@ -1656,7 +1716,7 @@
     "id": "aelipse",
     "slug": "aelipse",
     "name": "Aelipse",
-    "description": "Festival techno intimiste organisé par le collectif Sphëre près d'Angers, pensé comme une parenthèse hors du temps cultivant mystère et sensorialité. Bar, restauration et camping sur place, navettes depuis Angers.",
+    "description": "Festival intimiste porté par le collectif Sphëre, près d'Angers : musique deep et électronique en plein air, camping sur place, dans un esprit convivial et nature.",
     "startDate": "2026-07-17",
     "endDate": "2026-07-19",
     "lat": 47.46747,
@@ -1954,7 +2014,7 @@
     "id": "zamna-cote-d-azur",
     "slug": "zamna-cote-d-azur",
     "name": "Zamna Festival Côte d'Azur",
-    "description": "Édition française du festival techno Zamna à la Base Nature de Fréjus. Édition 2026 annulée.",
+    "description": "Déclinaison française du festival Zamna, à la Base Nature de Fréjus : techno et melodic house dans un univers jungle, avec une programmation internationale.",
     "startDate": "2026-08-01",
     "endDate": "2026-08-02",
     "lat": 43.44566,
@@ -2711,7 +2771,7 @@
     "id": "mecanik-paradize",
     "slug": "mecanik-paradize",
     "name": "Mecanik Paradize",
-    "description": "Festival hybride concerts et spectacles de machines à la Halle de la Machine de Toulouse, sur la Piste des Géants. Programmation mêlant pop, soul, house et techno autour de scénographies mécaniques (Astérion le Minotaure, araignées géantes, effets de feu).",
+    "description": "Festival musique, open air et machines spectaculaires à la Halle de La Machine à Toulouse (Piste des Géants) : trois soirées et une grande journée, en clôture du Pink Paradize.",
     "startDate": "2026-10-08",
     "endDate": "2026-10-11",
     "lat": 43.60408,
@@ -2845,7 +2905,7 @@
     "id": "the-walking-bass",
     "slug": "the-walking-bass",
     "name": "The Walking Bass Festival",
-    "description": "Festival de hard music à l'univers post-apocalyptique avec scénographie immersive, sur deux soirées à Marseille (La Plateforme puis Parc Chanot). Plus de 20 000 ravers attendus autour de hard techno, hardtek, DNB et trance.",
+    "description": "Festival post-apocalyptique sur deux nuits à Marseille (Salle des Sucres, Parc Chanot) : hard techno, hard music, drum & bass, trance et tekno.",
     "startDate": "2026-10-30",
     "endDate": "2026-11-01",
     "lat": 43.282,
@@ -2988,7 +3048,7 @@
     "id": "rise-festival",
     "slug": "rise-festival",
     "name": "Rise Festival",
-    "description": "Festival de ski et de musique aux Deux Alpes (plus grand glacier skiable d'Europe). Plus de 50 artistes internationaux (house, techno, drum & bass, UK garage) sur trois scènes principales, cinq salles intérieures et une afterparty en entrepôt.",
+    "description": "Festival de ski et de musique aux 2 Alpes : six jours en altitude sur le plus grand glacier skiable d'Europe, entre pistes et line-up international.",
     "startDate": "2026-12-05",
     "endDate": "2026-12-12",
     "lat": 45.01048,
@@ -3066,7 +3126,7 @@
     "id": "name-festival",
     "slug": "name-festival",
     "name": "NAME Festival",
-    "description": "Plateforme dédiée à la culture électronique sous toutes ses formes depuis 2005, dans les Hauts-de-France. L'événement principal se tient à La Condition Publique de Roubaix (warehouse + club), complété par un volet gratuit en journée à la Gare Saint-Sauveur de Lille.",
+    "description": "Plateforme dédiée à la culture électro sous toutes ses formes depuis 2005, dans la métropole lilloise.",
     "startDate": null,
     "endDate": null,
     "lat": 50.68845,
@@ -3096,7 +3156,7 @@
     "id": "initial-festival",
     "slug": "initial-festival",
     "name": "Initial Festival",
-    "description": "Festival de musique électronique en plein air de Bordeaux, au Parc des Expositions, sur deux jours de DJ sets et de lives. Programmation pointue mêlant techno, house, minimal et trance sur plusieurs scènes.",
+    "description": "Le plus grand festival électro de la région bordelaise, au Parc des Expositions de Bordeaux : house et techno sur trois scènes, dans une mise en scène immersive.",
     "startDate": null,
     "endDate": null,
     "lat": 44.8519,
@@ -3153,7 +3213,7 @@
     "id": "hard-mess",
     "slug": "hard-mess",
     "name": "Hard Mess Festival",
-    "description": "Festival 100% hard music au site de Pommeil à Guéret, en Creuse. L'édition 2026 est annulée : les organisateurs invoquent un manque de soutien des collectivités et évoquent une pause plutôt qu'un arrêt définitif.",
+    "description": "Festival 100 % hard music en Creuse (Guéret) : trois jours de hardstyle, hardcore, frenchcore, rawstyle, uptempo et hard techno, en pleine nature.",
     "startDate": null,
     "endDate": null,
     "lat": 46.17179,
