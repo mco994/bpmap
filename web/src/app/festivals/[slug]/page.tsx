@@ -164,7 +164,7 @@ export default async function FestivalPage({
 
       {/* Hero */}
       <div className="bg-gradient-to-br from-violet-700 via-fuchsia-600 to-fuchsia-500 text-white">
-        <div className="mx-auto max-w-3xl px-4 py-10">
+        <div className="mx-auto max-w-3xl px-4 py-8 sm:py-10">
           <nav aria-label="Fil d'Ariane" className="mb-6 text-sm">
             <Link
               href="/"
@@ -193,7 +193,7 @@ export default async function FestivalPage({
             )}
           </div>
 
-          <h1 className="mt-2 text-4xl font-extrabold tracking-tight sm:text-5xl">
+          <h1 className="mt-2 text-3xl font-extrabold tracking-tight break-words sm:text-4xl md:text-5xl">
             {festival.name}
           </h1>
 
@@ -225,7 +225,7 @@ export default async function FestivalPage({
 
       {/* Body */}
       <div className="mx-auto max-w-3xl px-4">
-        <p className="mt-8 text-lg leading-relaxed text-zinc-700 dark:text-zinc-300">
+        <p className="mt-8 text-base leading-relaxed text-zinc-700 sm:text-lg dark:text-zinc-300">
           {festival.description}
         </p>
 
@@ -252,7 +252,7 @@ export default async function FestivalPage({
           {info.map((it) => (
             <div
               key={it.label}
-              className="rounded-2xl border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900"
+              className="rounded-2xl border border-zinc-200 bg-white p-3 sm:p-4 dark:border-zinc-800 dark:bg-zinc-900"
             >
               <div className="text-xl" aria-hidden>
                 {it.icon}
@@ -260,7 +260,7 @@ export default async function FestivalPage({
               <dt className="mt-2 text-xs uppercase tracking-wide text-zinc-600 dark:text-zinc-400">
                 {it.label}
               </dt>
-              <dd className="mt-0.5 font-semibold">{it.value}</dd>
+              <dd className="mt-0.5 font-semibold break-words">{it.value}</dd>
             </div>
           ))}
         </dl>
