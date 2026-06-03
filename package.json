@@ -14,5 +14,9 @@
     "typecheck:shared": "npm run typecheck --workspace @bpmap/shared",
     "mobile": "npm run start --workspace @bpmap/app-mobile",
     "mobile:android": "npm run android --workspace @bpmap/app-mobile"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   }
 }

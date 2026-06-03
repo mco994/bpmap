@@ -1,56 +1,60 @@
-# Welcome to your Expo app 👋
+# BPMap — app mobile (Expo / React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Version native (Android d'abord, iOS ensuite) de BPMap. Cross-platform, même base de code pour les deux stores. Toute la logique de domaine (types, filtres, données festivals) vient du package partagé `@bpmap/shared`.
 
-## Get started
+## Stack
 
-1. Install dependencies
+- Expo SDK 56 + Expo Router (TypeScript, `src/app`)
+- MapLibre RN v11 (carte, style OpenFreeMap *positron* — gratuit, sans clé, aligné sur le web)
+- `expo-notifications` (rappels locaux), `expo-location` (itinéraires, à venir)
+- `@react-native-async-storage/async-storage` (favoris hors-ligne)
 
-   ```bash
-   npm install
-   ```
+> MapLibre est un **module natif** → l'app ne tourne **pas dans Expo Go**. Il faut un *dev build* (ci-dessous).
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Développement
 
 ```bash
-npm run reset-project
+npm run mobile            # depuis la racine du monorepo (= expo start)
+# ou, dans appMobile/ :
+npx expo start --dev-client
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Tester sur ton téléphone — SANS rien toucher au store (Phase 4A)
 
-### Other setup steps
+Build dans le cloud EAS, à installer toi-même. Étape interactive à faire une fois :
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+npm i -g eas-cli      # si pas déjà installé
+eas login             # compte Expo gratuit (interactif)
+```
 
-## Learn more
+Puis, depuis `appMobile/` :
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+# APK autonome à installer en sideload sur le tel (le plus simple pour tester)
+eas build --profile preview --platform android
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# OU dev build (hot reload + débogage), à appairer avec `npx expo start --dev-client`
+eas build --profile development --platform android
+```
 
-## Join the community
+EAS renvoie une URL : télécharge le `.apk` sur le téléphone et installe-le (autoriser les sources inconnues). Aucun compte Play, aucune signature de store, aucune fiche.
 
-Join our community of developers creating universal apps.
+Alternative 100 % locale (si Android Studio + SDK installés) :
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo run:android
+```
+
+## Google Play (Phase 4B — plus tard, sur GO)
+
+```bash
+eas build --profile production --platform android   # AAB signe
+eas submit --platform android                        # vers Play Console
+```
+
+Nécessite un compte Google Play Developer (25 $ une fois), une fiche store et une politique de confidentialité.
+
+## iOS (post-op)
+
+Même code. Nécessite un compte Apple Developer (99 $/an) + certificats/provisioning (le « tampon »). `eas build --platform ios` une fois ces identifiants en place.
