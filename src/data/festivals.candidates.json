@@ -15,7 +15,8 @@
     ],
     "genreVerified": false,
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "fete-de-la-hard-music-w-von-bikrav-urumi-schlass-flymeon-more",
@@ -33,7 +34,8 @@
     ],
     "genreVerified": false,
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "dovblef4ce",
@@ -51,7 +53,8 @@
     ],
     "genreVerified": false,
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "printemps-de-bourges",
@@ -66,7 +69,8 @@
       "http://www.wikidata.org/entity/Q941538"
     ],
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "i-love-techno",
@@ -81,7 +85,8 @@
       "http://www.wikidata.org/entity/Q1655230"
     ],
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "festival-chorus",
@@ -96,7 +101,8 @@
       "http://www.wikidata.org/entity/Q112032237"
     ],
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
     "slug": "elektric-park-festival",
@@ -111,7 +117,8 @@
       "http://www.wikidata.org/entity/Q97569375"
     ],
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "doublon (déjà en base)"
   },
   {
     "slug": "mayday-festival",
@@ -126,123 +133,125 @@
       "http://www.wikidata.org/entity/Q125753460"
     ],
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
-    "slug": "amour-sauvage-festival-4",
-    "name": "¡Amour Sauvage Festival #4",
+    "slug": "futurs-proches-dr-rubinstein-b2b-dj-mell-g-abs8lute-more",
+    "name": "FUTURS PROCHES: DR RUBINSTEIN B2B DJ MELL G, abs8lute & MORE",
     "city": null,
     "region": null,
-    "startDate": "2026-05-29",
+    "startDate": "2026-06-05",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2406029",
+    "officialUrl": "https://ra.co/events/2437374",
     "lineup": [
-      "Antoine Calvino",
-      "Delskiz",
-      "DJ Beluga92",
-      "Etienne Jaumet",
-      "IBEX",
-      "Jonquera",
-      "Lemurian",
-      "Mathilde Rocaboy",
-      "Master Seb",
-      "Messes Basses",
-      "Remote",
-      "Shimon (3)"
+      "Dr. Rubinstein",
+      "DJ MELL G",
+      "abs8lute",
+      "Zadig",
+      "Hadone",
+      "UFO95"
     ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2406029"
+      "https://ra.co/events/2437374"
     ],
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "gate-9-invites-dj-rino-kuba-97-jane-dark-domi",
-    "name": "Gate 9 Invites DJ Rino, Kuba'97, Jane Dark & Domi",
+    "slug": "we-love-green-2026",
+    "name": "We Love Green 2026",
     "city": null,
     "region": null,
-    "startDate": "2026-05-30",
+    "startDate": "2026-06-05",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2432026",
+    "officialUrl": "https://ra.co/events/2351025",
     "lineup": [
-      "DJ Rino",
-      "Kuba'97",
+      "Little Simz",
+      "Dijon",
+      "Sebastien Tellier",
+      "¥ØU$UK€ ¥UK1MAT$U",
+      "DJ Gigola",
+      "Sudan Archives",
+      "Tatyana Jane",
+      "Oklou",
+      "KI/KI",
+      "Overmono",
+      "DJ Heartstring",
+      "LB aka LABAT",
+      "TOCCORORO",
+      "The xx",
+      "Charlotte de Witte",
+      "Dom Dolla",
+      "KETTAMA",
+      "Bambounou",
+      "HAAi",
+      "Ninajirachi"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2351025"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "mimo-festival-2026",
+    "name": "MIMO FESTIVAL 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-06-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2389872",
+    "lineup": [
+      "Gabriel Belabbas",
+      "E.LINA",
+      "Gabbs",
+      "Unai Trotti",
+      "DC Salas",
+      "Hicham",
+      "Massaï",
       "Domi (FR)",
-      "Saul (2)",
-      "BENUR",
-      "Gate 9"
+      "S.O.N.S",
+      "Desirée Falessi",
+      "Tunik",
+      "So-Fi",
+      "Alëx",
+      "Thomy",
+      "Venetia",
+      "Messes Basses",
+      "Alich (1)",
+      "LEGRAM VG"
     ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2432026"
+      "https://ra.co/events/2389872"
     ],
     "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "localisation manquante"
   },
   {
-    "slug": "ekotone-festival-2026",
-    "name": "Ekotone Festival 2026",
+    "slug": "samsam-festival-2026",
+    "name": "SAMSAM FESTIVAL 2026",
     "city": null,
     "region": null,
-    "startDate": "2026-05-29",
+    "startDate": "2026-06-05",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2440170",
+    "officialUrl": "https://ra.co/events/2406766",
     "lineup": [
-      "Erna (FR)",
-      "īnkūbe",
-      "Acid Oslo",
-      "WAWRZY",
-      "Symon Says"
+      "Miche",
+      "Oscar"
     ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2440170"
+      "https://ra.co/events/2406766"
     ],
     "status": "announced",
-    "needsReview": true
-  },
-  {
-    "slug": "festival-magic-barbes-dornika-and-friends-meshcut-habibitch-coco-klein-dualbody",
-    "name": "Festival Magic Barbès // Dornika and Friends - Meshcut + Habibitch + Coco Klein + Dualbody",
-    "city": null,
-    "region": null,
-    "startDate": "2026-05-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2454384",
-    "lineup": [
-      "Meshcut",
-      "Dornika"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2454384"
-    ],
-    "status": "announced",
-    "needsReview": true
-  },
-  {
-    "slug": "voltage-camion-bazar-tamada-mad-rey-b2b-gggg-mathilde-rocaboy-b2b-benedetta-romain-play",
-    "name": "VOLTAGE ◡̈☻ Camion Bazar, Tamada, Mad Rey b2b GGGG, Mathilde Rocaboy b2b Benedetta, Romain Play",
-    "city": null,
-    "region": null,
-    "startDate": "2026-05-31",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2422391",
-    "lineup": [
-      "Camion Bazar",
-      "Mad Rey",
-      "GGGG",
-      "Tamada (FR)",
-      "Mathilde Rocaboy",
-      "Benedetta",
-      "Romain Play"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2422391"
-    ],
-    "status": "announced",
-    "needsReview": true
+    "needsReview": true,
+    "_reason": "localisation manquante"
   }
 ]
