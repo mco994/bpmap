@@ -46,6 +46,12 @@
             "metalEnabled": true
           }
         }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "BPMap utilise ta position pour calculer l'itinéraire vers un festival."
+        }
       ]
     ],
     "experiments": {

@@ -17,6 +17,7 @@ import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import { toggleFavorite, useIsFavorite } from '@/lib/favorites';
 import { ensureNotificationSetup, scheduleFestivalReminder } from '@/lib/notifications';
+import { openDirections } from '@/lib/geo';
 
 export default function FestivalDetailScreen() {
   const theme = useTheme();
@@ -50,6 +51,14 @@ export default function FestivalDetailScreen() {
     );
   };
 
+  const onItinerary = async () => {
+    try {
+      await openDirections(festival);
+    } catch {
+      Alert.alert('Itinéraire', "Impossible d'ouvrir l'application de cartes.");
+    }
+  };
+
   return (
     <ThemedView style={styles.container}>
       <Stack.Screen options={{ title: festival.name }} />
@@ -73,6 +82,12 @@ export default function FestivalDetailScreen() {
             style={[styles.action, { backgroundColor: theme.backgroundElement }]}
           >
             <ThemedText type="smallBold">🔔 Me rappeler</ThemedText>
+          </Pressable>
+          <Pressable
+            onPress={onItinerary}
+            style={[styles.action, { backgroundColor: theme.backgroundElement }]}
+          >
+            <ThemedText type="smallBold">🧭 Itinéraire</ThemedText>
           </Pressable>
         </View>
 
@@ -113,7 +128,7 @@ const styles = StyleSheet.create({
   container: { flex: 1 },
   centered: { flex: 1, alignItems: 'center', justifyContent: 'center' },
   content: { padding: Spacing.three, gap: Spacing.two },
-  actions: { flexDirection: 'row', gap: Spacing.two, marginTop: Spacing.two },
+  actions: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.two, marginTop: Spacing.two },
   action: {
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.two,
