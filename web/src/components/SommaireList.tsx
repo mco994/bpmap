@@ -14,6 +14,7 @@ import {
   type Festival,
 } from "@bpmap/shared";
 import FiltersPanel from "@/components/Filters";
+import FestivalGridCard from "@/components/FestivalGridCard";
 
 function normalize(s: string) {
   return s
@@ -25,6 +26,7 @@ function normalize(s: string) {
 export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [query, setQuery] = useState("");
+  const [view, setView] = useState<"list" | "grid">("list");
   const [now, setNow] = useState<Date | null>(null);
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setNow(new Date()), []);
@@ -59,19 +61,51 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
           />
         </label>
 
-        <p
-          className="mt-3 text-sm font-medium text-zinc-700 dark:text-zinc-300"
-          aria-live="polite"
-        >
-          {filtered.length} festival{filtered.length > 1 ? "s" : ""}
-          {filtered.length !== festivals.length && ` sur ${festivals.length}`}
-        </p>
+        <div className="mt-3 flex items-center justify-between gap-3">
+          <p
+            className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
+            aria-live="polite"
+          >
+            {filtered.length} festival{filtered.length > 1 ? "s" : ""}
+            {filtered.length !== festivals.length && ` sur ${festivals.length}`}
+          </p>
+          <div
+            className="flex items-center gap-1 rounded-lg border border-zinc-200 p-0.5 dark:border-zinc-800"
+            role="group"
+            aria-label="Affichage"
+          >
+            <button
+              type="button"
+              onClick={() => setView("list")}
+              aria-pressed={view === "list"}
+              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+                view === "list"
+                  ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
+                  : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              }`}
+            >
+              Liste
+            </button>
+            <button
+              type="button"
+              onClick={() => setView("grid")}
+              aria-pressed={view === "grid"}
+              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+                view === "grid"
+                  ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
+                  : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              }`}
+            >
+              Mosaïque
+            </button>
+          </div>
+        </div>
 
         {filtered.length === 0 ? (
           <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
             Aucun festival ne correspond à votre recherche.
           </p>
-        ) : (
+        ) : view === "list" ? (
           <ul className="mt-4 divide-y divide-zinc-200 overflow-hidden rounded-xl border border-zinc-200 bg-white dark:divide-zinc-800 dark:border-zinc-800 dark:bg-zinc-900">
             {filtered.map((f) => {
               const status = now ? effectiveStatus(f, now) : f.status;
@@ -120,6 +154,14 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                 </li>
               );
             })}
+          </ul>
+        ) : (
+          <ul className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {filtered.map((f) => (
+              <li key={f.id}>
+                <FestivalGridCard festival={f} now={now} />
+              </li>
+            ))}
           </ul>
         )}
       </section>

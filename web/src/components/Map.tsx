@@ -51,6 +51,7 @@ interface MapProps {
 export default function Map({ festivals, selectedId, onSelect }: MapProps) {
   const mapRef = useRef<MapRef>(null);
   const [cursor, setCursor] = useState<string>("");
+  const [popupExpanded, setPopupExpanded] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const cancelClose = () => {
@@ -76,6 +77,9 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
     },
     [],
   );
+
+  // eslint-disable-next-line react-hooks/set-state-in-effect
+  useEffect(() => setPopupExpanded(false), [selectedId]);
 
   const selected = useMemo(
     () => festivals.find((f) => f.id === selectedId) ?? null,
@@ -176,7 +180,7 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
           onClose={() => onSelect(null)}
           closeButton
           closeOnClick={false}
-          maxWidth="280px"
+          maxWidth="300px"
         >
           <div
             className="space-y-1.5 p-1"
@@ -190,26 +194,73 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
               {selected.city} ·{" "}
               {formatDateRange(selected.startDate, selected.endDate)}
             </p>
-            <ul className="flex flex-wrap gap-1" aria-label="Genres">
-              {selected.genres.map((g) => (
-                <li
-                  key={g}
-                  className="rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-medium text-violet-800"
-                >
-                  {genreLabel(g)}
-                </li>
-              ))}
-            </ul>
-            <p className="text-xs text-zinc-700">
-              Jour&nbsp;: <strong>{formatPrice(selected.priceDay)}</strong> ·
-              Pass&nbsp;: <strong>{formatPrice(selected.priceFull)}</strong>
-            </p>
-            <Link
-              href={`/festivals/${selected.slug}`}
-              className="inline-block text-xs font-semibold text-fuchsia-700 underline underline-offset-2 hover:text-fuchsia-900"
-            >
-              Voir la fiche →
-            </Link>
+
+            {popupExpanded && (
+              <>
+                <ul className="flex flex-wrap gap-1" aria-label="Genres">
+                  {selected.genres.map((g) => (
+                    <li
+                      key={g}
+                      className="rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-medium text-violet-800"
+                    >
+                      {genreLabel(g)}
+                    </li>
+                  ))}
+                </ul>
+                <p className="text-xs text-zinc-700">
+                  Jour&nbsp;: <strong>{formatPrice(selected.priceDay)}</strong> ·
+                  Pass&nbsp;: <strong>{formatPrice(selected.priceFull)}</strong>
+                </p>
+                {selected.lineup && selected.lineup.length > 0 && (
+                  <p className="text-xs text-zinc-600">
+                    <span className="text-zinc-500">Line-up&nbsp;: </span>
+                    {selected.lineup.slice(0, 5).join(", ")}
+                    {selected.lineup.length > 5 ? "…" : ""}
+                  </p>
+                )}
+                {(selected.ticketUrl || selected.officialUrl) && (
+                  <p className="flex flex-wrap gap-x-3 text-xs">
+                    {selected.ticketUrl && (
+                      <a
+                        href={selected.ticketUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-fuchsia-700 hover:underline"
+                      >
+                        Billetterie ↗
+                      </a>
+                    )}
+                    {selected.officialUrl && (
+                      <a
+                        href={selected.officialUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-medium text-fuchsia-700 hover:underline"
+                      >
+                        Site officiel ↗
+                      </a>
+                    )}
+                  </p>
+                )}
+              </>
+            )}
+
+            <div className="flex items-center justify-between gap-2 pt-0.5">
+              <button
+                type="button"
+                onClick={() => setPopupExpanded((v) => !v)}
+                aria-expanded={popupExpanded}
+                className="text-xs font-medium text-zinc-600 hover:text-zinc-900"
+              >
+                {popupExpanded ? "Voir moins" : "Voir plus"}
+              </button>
+              <Link
+                href={`/festivals/${selected.slug}`}
+                className="text-xs font-semibold text-fuchsia-700 underline underline-offset-2 hover:text-fuchsia-900"
+              >
+                {popupExpanded ? "Fiche complète →" : "Voir la fiche →"}
+              </Link>
+            </div>
           </div>
         </Popup>
       )}
