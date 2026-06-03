@@ -19,25 +19,26 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "BPMap — Carte des festivals de musique électronique en France",
+    default: "BPMap — Carte des événements de musique électronique en France",
     template: "%s · BPMap",
   },
   description:
-    "L'annuaire et la carte interactive des festivals de musique électronique en France : techno, house, drum'n'bass, French touch. Filtrez par genre, date, organisateur, taille et prix.",
+    "L'annuaire et la carte interactive des événements de musique électronique en France : festivals, open airs et soirées — techno, house, drum'n'bass, French touch. Filtrez par type, genre, date, taille et prix.",
   keywords: [
-    "festival musique électronique",
+    "événements musique électronique",
     "festival techno France",
-    "festival house",
-    "carte festivals électro",
-    "agenda festivals électroniques",
+    "open air électro",
+    "soirée techno",
+    "carte événements électro",
+    "agenda électro France",
   ],
   openGraph: {
     type: "website",
     locale: "fr_FR",
     siteName: "BPMap",
-    title: "BPMap — Carte des festivals de musique électronique en France",
+    title: "BPMap — Carte des événements de musique électronique en France",
     description:
-      "La carte interactive des festivals électro français. Filtrez par genre, date, organisateur, taille et prix.",
+      "La carte interactive des événements électro français : festivals, open airs, soirées. Filtrez par type, genre, date, taille et prix.",
     url: SITE_URL,
   },
   alternates: { canonical: "/" },
@@ -66,7 +67,7 @@ export default function RootLayout({
         </main>
         <footer className="border-t border-zinc-200 bg-white py-6 text-center text-sm text-zinc-500 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-400">
           <p>
-            BPMap — l&apos;annuaire des festivals de musique électronique
+            BPMap — l&apos;annuaire des événements de musique électronique
             français.
           </p>
           <nav

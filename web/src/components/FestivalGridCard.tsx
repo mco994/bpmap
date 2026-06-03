@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {
   formatDateRange,
-  formatPrice,
+  formatFromPrice,
   genreLabel,
   sizeTierForCapacity,
   effectiveStatus,
@@ -69,9 +69,8 @@ export default function FestivalGridCard({
         ))}
       </ul>
 
-      <p className="mt-3 text-sm text-zinc-700 dark:text-zinc-300">
-        Jour&nbsp;<strong>{formatPrice(festival.priceDay)}</strong> · Pass&nbsp;
-        <strong>{formatPrice(festival.priceFull)}</strong>
+      <p className="mt-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">
+        {formatFromPrice(festival)}
       </p>
     </Link>
   );

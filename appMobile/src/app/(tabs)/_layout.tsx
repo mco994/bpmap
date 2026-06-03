@@ -7,7 +7,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Festivals',
+          title: 'Événements',
           tabBarIcon: ({ color, size }) => <Ionicons name="list" color={color} size={size} />,
         }}
       />

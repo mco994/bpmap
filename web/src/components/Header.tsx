@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const NAV = [
   { href: "/", label: "Carte" },
-  { href: "/festivals", label: "Festivals" },
+  { href: "/festivals", label: "Événements" },
 ] as const;
 
 export default function Header() {

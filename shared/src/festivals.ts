@@ -139,6 +139,24 @@ export function formatPrice(price: number | null): string {
   return `${price} €`;
 }
 
+/** Lowest known price ("à partir de"): day pass, full pass or any tariff. */
+export function priceFrom(festival: Festival): number | null {
+  const candidates = [
+    festival.priceDay,
+    festival.priceFull,
+    ...(festival.tariffs ?? []).map((t) => t.price),
+  ].filter((p): p is number => typeof p === "number");
+  return candidates.length > 0 ? Math.min(...candidates) : null;
+}
+
+/** "À partir de X €", "Gratuit", or "—" when no price is known. */
+export function formatFromPrice(festival: Festival): string {
+  const from = priceFrom(festival);
+  if (from === null) return "—";
+  if (from === 0) return "Gratuit";
+  return `À partir de ${from} €`;
+}
+
 // --- Status & lifecycle rules ---------------------------------------------
 // These pure helpers are shared by the UI and by the daily ingestion job
 // (mark-as-passed + purge), so the lifecycle logic lives in exactly one place.
