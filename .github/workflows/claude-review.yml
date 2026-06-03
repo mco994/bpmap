@@ -16,13 +16,24 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - uses: anthropics/claude-code-action@v1
+      - id: guard
+        env:
+          TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -n "$TOKEN" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::CLAUDE_CODE_OAUTH_TOKEN absent — relecture sautée."
+          fi
+      - if: steps.guard.outputs.ready == 'true'
+        uses: anthropics/claude-code-action@v1
         with:
           prompt: |
             Relis cette pull request. Monorepo : web = Next.js 16, appMobile = Expo/React Native, shared = @bpmap/shared (logique + données).
             Cherche : bugs et régressions, failles de sécurité (secrets en dur, entrées non validées, SQL non paramétré, secret derrière NEXT_PUBLIC_), problèmes de performance, et écarts aux conventions du projet (pas de commentaires dans le code, UI/contenus en français).
             Poste des remarques précises et actionnables en commentaires de la PR, en français. Sois concis : ne signale que ce qui compte vraiment.
           claude_args: |
-            --max-turns 6
+            --max-turns 4
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
