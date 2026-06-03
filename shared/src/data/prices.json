@@ -87,7 +87,21 @@
   },
   "dox-art-festival": {
     "priceDay": 39,
-    "priceFull": 105
+    "priceFull": 129,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour",
+        "price": 39
+      },
+      {
+        "label": "Pass 3 jours / 2 nuits",
+        "price": 105
+      },
+      {
+        "label": "Pass 4 jours / 3 nuits",
+        "price": 129
+      }
+    ]
   },
   "dub-station-festival": {
     "priceDay": 15,
@@ -115,7 +129,21 @@
   },
   "green-fest": {
     "priceDay": 49.78,
-    "priceFull": 75
+    "priceFull": 75,
+    "tariffs": [
+      {
+        "label": "Pass week-end (early bird)",
+        "price": 75
+      },
+      {
+        "label": "Pass week-end (regular)",
+        "price": 85
+      },
+      {
+        "label": "VIP",
+        "price": 175
+      }
+    ]
   },
   "the-peacock-society": {
     "priceDay": 44,
@@ -146,8 +174,18 @@
     "priceFull": null
   },
   "stereoparc": {
-    "priceDay": 44.5,
-    "priceFull": 94
+    "priceDay": 52,
+    "priceFull": 82,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour",
+        "price": 52
+      },
+      {
+        "label": "Pass 2 jours",
+        "price": 82
+      }
+    ]
   },
   "kolorz-festival": {
     "priceDay": 19.8,
