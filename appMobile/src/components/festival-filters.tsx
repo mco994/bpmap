@@ -3,9 +3,11 @@ import { Pressable } from 'react-native';
 import {
   GENRES,
   SIZE_TIERS,
+  EVENT_TYPES,
   isEmptyFilters,
   type Filters,
   type SizeTier,
+  type EventType,
 } from '@bpmap/shared';
 
 import { ThemedText } from '@/components/themed-text';
@@ -44,8 +46,27 @@ export function FestivalFilters({ value, onChange, onReset, resultCount }: Props
   const setPrice = (max: number) =>
     onChange({ ...value, priceDayMax: value.priceDayMax === max ? null : max });
 
+  const toggleEventType = (type: EventType) =>
+    onChange({
+      ...value,
+      eventTypes: value.eventTypes.includes(type)
+        ? value.eventTypes.filter((t) => t !== type)
+        : [...value.eventTypes, type],
+    });
+
   return (
     <ThemedView type="backgroundElement" style={styles.panel}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
+        {EVENT_TYPES.map((t) => (
+          <Chip
+            key={t.type}
+            label={t.label}
+            active={value.eventTypes.includes(t.type)}
+            onPress={() => toggleEventType(t.type)}
+          />
+        ))}
+      </ScrollView>
+
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
         {GENRES.map((g) => (
           <Chip

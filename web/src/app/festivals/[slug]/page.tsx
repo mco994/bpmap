@@ -11,6 +11,8 @@ import {
   sizeTierForCapacity,
   effectiveStatus,
   statusLabel,
+  effectiveEventType,
+  eventTypeLabel,
   type Festival,
 } from "@bpmap/shared";
 
@@ -189,6 +191,11 @@ export default async function FestivalPage({
             {festival.eclectic && (
               <span className="rounded-full bg-white/20 px-2.5 py-0.5 text-xs font-semibold">
                 Éclectique
+              </span>
+            )}
+            {effectiveEventType(festival) !== "festival" && (
+              <span className="rounded-full bg-white/20 px-2.5 py-0.5 text-xs font-semibold">
+                {eventTypeLabel(effectiveEventType(festival))}
               </span>
             )}
           </div>

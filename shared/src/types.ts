@@ -9,6 +9,8 @@ export type SizeTier = "S" | "M" | "L" | "XL";
 // the daily ingestion job can persist it.
 export type FestivalStatus = "announced" | "confirmed" | "cancelled" | "passed";
 
+export type EventType = "festival" | "open-air" | "soiree";
+
 export interface Festival {
   id: string;
   slug: string;
@@ -35,6 +37,8 @@ export interface Festival {
   ticketUrl: string | null;
   officialUrl: string | null;
   status: FestivalStatus;
+  /** Event kind. Absent = festival (backward compatible). */
+  eventType?: EventType;
   /** True for electro-dominant festivals that still mix in other genres. */
   eclectic?: boolean;
   /** Headline / announced artists (partial lineup). Powers the artist filter. */

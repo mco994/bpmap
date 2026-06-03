@@ -1,4 +1,10 @@
-import type { Festival, FestivalStatus, Genre, SizeTier } from "./types";
+import type {
+  Festival,
+  FestivalStatus,
+  Genre,
+  SizeTier,
+  EventType,
+} from "./types";
 import generated from "./data/festivals.json";
 
 export const FESTIVALS = generated as unknown as Festival[];
@@ -24,6 +30,20 @@ const GENRE_LABELS = new Map(GENRES.map((g) => [g.slug, g.label]));
 
 export function genreLabel(slug: string): string {
   return GENRE_LABELS.get(slug) ?? slug;
+}
+
+export const EVENT_TYPES: { type: EventType; label: string }[] = [
+  { type: "festival", label: "Festival" },
+  { type: "open-air", label: "Open air" },
+  { type: "soiree", label: "Soirée" },
+];
+
+export function effectiveEventType(festival: Festival): EventType {
+  return festival.eventType ?? "festival";
+}
+
+export function eventTypeLabel(type: EventType): string {
+  return EVENT_TYPES.find((t) => t.type === type)?.label ?? type;
 }
 
 // Size tiers, ordered from smallest to largest. `min` is the inclusive lower

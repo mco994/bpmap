@@ -1,5 +1,5 @@
-import type { Festival, SizeTier } from "./types";
-import { sizeTierForCapacity, isPast } from "./festivals";
+import type { Festival, SizeTier, EventType } from "./types";
+import { sizeTierForCapacity, isPast, effectiveEventType } from "./festivals";
 
 // Shared, framework-agnostic filtering logic so the client (MVP) and a future
 // server/PostGIS path apply exactly the same rules.
@@ -22,6 +22,8 @@ export interface Filters {
   priceFullMax: number | null;
   /** When false (default), festivals that are already over are hidden. */
   includePast: boolean;
+  /** Selected event types. Empty = all types. */
+  eventTypes: EventType[];
 }
 
 export const EMPTY_FILTERS: Filters = {
@@ -34,6 +36,7 @@ export const EMPTY_FILTERS: Filters = {
   priceDayMax: null,
   priceFullMax: null,
   includePast: false,
+  eventTypes: [],
 };
 
 /** True when filters are at their defaults (used to disable the reset button). */
@@ -47,7 +50,8 @@ export function isEmptyFilters(f: Filters): boolean {
     f.sizes.length === 0 &&
     f.priceDayMax === null &&
     f.priceFullMax === null &&
-    f.includePast === false
+    f.includePast === false &&
+    f.eventTypes.length === 0
   );
 }
 
@@ -62,6 +66,14 @@ export function matchesFilters(
 
   // Genre: festival must share at least one selected genre.
   if (f.genres.length > 0 && !f.genres.some((g) => festival.genres.includes(g))) {
+    return false;
+  }
+
+  // Event type: when active, the festival's type must be among those selected.
+  if (
+    f.eventTypes.length > 0 &&
+    !f.eventTypes.includes(effectiveEventType(festival))
+  ) {
     return false;
   }
 
