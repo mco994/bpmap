@@ -6,11 +6,13 @@ import {
   EMPTY_FILTERS,
   GENRES,
   SIZE_TIERS,
+  EVENT_TYPES,
   getOrganizers,
   getArtists,
   getPriceBounds,
   type Filters,
   type SizeTier,
+  type EventType,
 } from "@bpmap/shared";
 import Autocomplete from "@/components/Autocomplete";
 
@@ -74,6 +76,14 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         : [...filters.sizes, tier],
     });
 
+  const toggleEventType = (type: EventType) =>
+    onChange({
+      ...filters,
+      eventTypes: filters.eventTypes.includes(type)
+        ? filters.eventTypes.filter((t) => t !== type)
+        : [...filters.eventTypes, type],
+    });
+
   const dayValue = filters.priceDayMax ?? maxDay;
   const fullValue = filters.priceFullMax ?? maxFull;
 
@@ -107,6 +117,24 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         />
         Inclure les festivals passés
       </label>
+
+      {/* Type */}
+      <fieldset>
+        <legend className="mb-2 text-sm font-semibold text-zinc-700 dark:text-zinc-300">
+          Type
+        </legend>
+        <div className="flex flex-wrap gap-2">
+          {EVENT_TYPES.map((t) => (
+            <Chip
+              key={t.type}
+              active={filters.eventTypes.includes(t.type)}
+              onClick={() => toggleEventType(t.type)}
+            >
+              {t.label}
+            </Chip>
+          ))}
+        </div>
+      </fieldset>
 
       {/* Genres */}
       <fieldset>
