@@ -42,6 +42,17 @@ const pointLayer: LayerProps = {
   },
 };
 
+const hitLayer: LayerProps = {
+  id: "festival-hit",
+  type: "circle",
+  source: SOURCE_ID,
+  paint: {
+    "circle-radius": 18,
+    "circle-color": "#000000",
+    "circle-opacity": 0,
+  },
+};
+
 interface MapProps {
   festivals: Festival[];
   selectedId: string | null;
@@ -153,7 +164,7 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
       initialViewState={INITIAL_VIEW}
       mapStyle={MAP_STYLE}
       style={{ width: "100%", height: "100%" }}
-      interactiveLayerIds={["festival-points", "selected-point"]}
+      interactiveLayerIds={["festival-hit", "festival-points", "selected-point"]}
       cursor={cursor}
       onClick={handleClick}
       onMouseMove={handleMouseMove}
@@ -166,6 +177,7 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
       <NavigationControl position="top-right" showCompass={false} />
 
       <Source id={SOURCE_ID} type="geojson" data={geojson}>
+        <Layer {...hitLayer} />
         <Layer {...pointLayer} />
         <Layer {...selectedLayer} />
       </Source>
