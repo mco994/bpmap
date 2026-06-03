@@ -1,5 +1,4 @@
-import { ScrollView, StyleSheet, Switch, TextInput, View } from 'react-native';
-import { Pressable } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Switch, TextInput, View } from 'react-native';
 import {
   GENRES,
   SIZE_TIERS,
@@ -11,7 +10,6 @@ import {
 } from '@bpmap/shared';
 
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 
@@ -24,8 +22,42 @@ type Props = {
   resultCount: number;
 };
 
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <View style={styles.section}>
+      <ThemedText type="smallBold" themeColor="textSecondary">
+        {title}
+      </ThemedText>
+      <View style={styles.chips}>{children}</View>
+    </View>
+  );
+}
+
+function Chip({ label, active, onPress }: { label: string; active: boolean; onPress: () => void }) {
+  const theme = useTheme();
+  return (
+    <Pressable
+      onPress={onPress}
+      style={[
+        styles.chip,
+        { backgroundColor: active ? theme.backgroundSelected : theme.backgroundElement },
+      ]}
+    >
+      <ThemedText type="small">{label}</ThemedText>
+    </Pressable>
+  );
+}
+
 export function FestivalFilters({ value, onChange, onReset, resultCount }: Props) {
   const theme = useTheme();
+
+  const toggleEventType = (type: EventType) =>
+    onChange({
+      ...value,
+      eventTypes: value.eventTypes.includes(type)
+        ? value.eventTypes.filter((t) => t !== type)
+        : [...value.eventTypes, type],
+    });
 
   const toggleGenre = (slug: string) =>
     onChange({
@@ -46,17 +78,9 @@ export function FestivalFilters({ value, onChange, onReset, resultCount }: Props
   const setPrice = (max: number) =>
     onChange({ ...value, priceDayMax: value.priceDayMax === max ? null : max });
 
-  const toggleEventType = (type: EventType) =>
-    onChange({
-      ...value,
-      eventTypes: value.eventTypes.includes(type)
-        ? value.eventTypes.filter((t) => t !== type)
-        : [...value.eventTypes, type],
-    });
-
   return (
-    <ThemedView type="backgroundElement" style={styles.panel}>
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
+    <ScrollView contentContainerStyle={styles.panel} showsVerticalScrollIndicator={false}>
+      <Section title="Type">
         {EVENT_TYPES.map((t) => (
           <Chip
             key={t.type}
@@ -65,9 +89,9 @@ export function FestivalFilters({ value, onChange, onReset, resultCount }: Props
             onPress={() => toggleEventType(t.type)}
           />
         ))}
-      </ScrollView>
+      </Section>
 
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
+      <Section title="Genre">
         {GENRES.map((g) => (
           <Chip
             key={g.slug}
@@ -76,9 +100,9 @@ export function FestivalFilters({ value, onChange, onReset, resultCount }: Props
             onPress={() => toggleGenre(g.slug)}
           />
         ))}
-      </ScrollView>
+      </Section>
 
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
+      <Section title="Taille">
         {SIZE_TIERS.map((s) => (
           <Chip
             key={s.tier}
@@ -87,69 +111,58 @@ export function FestivalFilters({ value, onChange, onReset, resultCount }: Props
             onPress={() => toggleSize(s.tier)}
           />
         ))}
-      </ScrollView>
+      </Section>
 
-      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.chips}>
+      <Section title="Prix / jour">
         {PRICE_PRESETS.map((p) => (
           <Chip
             key={p}
-            label={`Jour ≤ ${p} €`}
+            label={`≤ ${p} €`}
             active={value.priceDayMax === p}
             onPress={() => setPrice(p)}
           />
         ))}
-      </ScrollView>
+      </Section>
 
-      <TextInput
-        value={value.organizer}
-        onChangeText={(text) => onChange({ ...value, organizer: text })}
-        placeholder="Organisateur"
-        placeholderTextColor={theme.textSecondary}
-        style={[styles.input, { color: theme.text, borderColor: theme.backgroundSelected }]}
-      />
+      <View style={styles.section}>
+        <ThemedText type="smallBold" themeColor="textSecondary">
+          Organisateur
+        </ThemedText>
+        <TextInput
+          value={value.organizer}
+          onChangeText={(text) => onChange({ ...value, organizer: text })}
+          placeholder="Tous les organisateurs"
+          placeholderTextColor={theme.textSecondary}
+          style={[styles.input, { color: theme.text, borderColor: theme.backgroundSelected }]}
+        />
+      </View>
+
+      <View style={styles.switchRow}>
+        <ThemedText type="small">Inclure les événements passés</ThemedText>
+        <Switch
+          value={value.includePast}
+          onValueChange={(includePast) => onChange({ ...value, includePast })}
+        />
+      </View>
 
       <View style={styles.footer}>
-        <View style={styles.switchRow}>
-          <Switch
-            value={value.includePast}
-            onValueChange={(includePast) => onChange({ ...value, includePast })}
-          />
-          <ThemedText type="small">Inclure les passés</ThemedText>
-        </View>
-
-        <View style={styles.footerRight}>
-          <ThemedText type="small" themeColor="textSecondary">
-            {resultCount} festival{resultCount > 1 ? 's' : ''}
-          </ThemedText>
-          {!isEmptyFilters(value) ? (
-            <Pressable onPress={onReset}>
-              <ThemedText type="small">Réinitialiser</ThemedText>
-            </Pressable>
-          ) : null}
-        </View>
+        <ThemedText type="small" themeColor="textSecondary">
+          {resultCount} événement{resultCount > 1 ? 's' : ''}
+        </ThemedText>
+        {!isEmptyFilters(value) ? (
+          <Pressable onPress={onReset} hitSlop={8}>
+            <ThemedText type="smallBold">Réinitialiser</ThemedText>
+          </Pressable>
+        ) : null}
       </View>
-    </ThemedView>
-  );
-}
-
-function Chip({ label, active, onPress }: { label: string; active: boolean; onPress: () => void }) {
-  const theme = useTheme();
-  return (
-    <Pressable
-      onPress={onPress}
-      style={[
-        styles.chip,
-        { backgroundColor: active ? theme.backgroundSelected : theme.background },
-      ]}
-    >
-      <ThemedText type="small">{label}</ThemedText>
-    </Pressable>
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  panel: { padding: Spacing.two, gap: Spacing.two },
-  chips: { gap: Spacing.one, paddingRight: Spacing.two },
+  panel: { padding: Spacing.three, gap: Spacing.three, paddingBottom: Spacing.six },
+  section: { gap: Spacing.one },
+  chips: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.one },
   chip: {
     paddingHorizontal: Spacing.two,
     paddingVertical: Spacing.one,
@@ -161,11 +174,16 @@ const styles = StyleSheet.create({
     paddingHorizontal: Spacing.two,
     paddingVertical: Spacing.one,
   },
+  switchRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: Spacing.two,
+  },
   footer: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    marginTop: Spacing.two,
   },
-  switchRow: { flexDirection: 'row', alignItems: 'center', gap: Spacing.one },
-  footerRight: { flexDirection: 'row', alignItems: 'center', gap: Spacing.three },
 });
