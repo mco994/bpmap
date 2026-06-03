@@ -1,24 +1,38 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { FlatList, Pressable, StyleSheet } from 'react-native';
 import { Link } from 'expo-router';
 import {
+  applyFilters,
   effectiveStatus,
+  EMPTY_FILTERS,
   formatDateRange,
   getAllFestivals,
   statusLabel,
   type Festival,
+  type Filters,
 } from '@bpmap/shared';
 
+import { FestivalFilters } from '@/components/festival-filters';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 
 export default function FestivalsScreen() {
-  const festivals = useMemo(() => getAllFestivals(), []);
+  const all = useMemo(() => getAllFestivals(), []);
+  const now = useMemo(() => new Date(), []);
+  const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
+
+  const festivals = useMemo(() => applyFilters(all, filters, now), [all, filters, now]);
 
   return (
     <ThemedView style={styles.container}>
+      <FestivalFilters
+        value={filters}
+        onChange={setFilters}
+        onReset={() => setFilters(EMPTY_FILTERS)}
+        resultCount={festivals.length}
+      />
       <FlatList
         data={festivals}
         keyExtractor={(f) => f.id}
