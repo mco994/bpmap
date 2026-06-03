@@ -17,6 +17,7 @@ import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
+import { useIsFavorite } from '@/lib/favorites';
 
 export default function FestivalsScreen() {
   const all = useMemo(() => getAllFestivals(), []);
@@ -47,11 +48,15 @@ function FestivalRow({ festival }: { festival: Festival }) {
   const theme = useTheme();
   const status = effectiveStatus(festival);
   const showStatus = status === 'cancelled' || status === 'passed';
+  const isFavorite = useIsFavorite(festival.id);
 
   return (
     <Link href={{ pathname: '/festival/[slug]', params: { slug: festival.slug } }} asChild>
       <Pressable style={[styles.row, { borderBottomColor: theme.backgroundElement }]}>
-        <ThemedText type="subtitle">{festival.name}</ThemedText>
+        <ThemedText type="subtitle">
+          {isFavorite ? '♥ ' : ''}
+          {festival.name}
+        </ThemedText>
         <ThemedText type="small" themeColor="textSecondary">
           {festival.city} · {formatDateRange(festival.startDate, festival.endDate)}
         </ThemedText>
