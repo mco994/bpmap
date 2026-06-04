@@ -88,7 +88,7 @@ export default function SourcesPage() {
           <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
             Code
           </h2>
-          <p className="mt-1">© M.&nbsp;Conan.</p>
+          <p className="mt-1">© BPMap — tous droits réservés à l&apos;éditeur.</p>
         </section>
       </div>
     </div>

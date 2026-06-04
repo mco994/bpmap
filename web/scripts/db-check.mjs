@@ -1,5 +1,3 @@
-// Quick sanity check: lists the public tables and their row counts.
-//   npm run db:check
 import pg from "pg";
 
 const url = process.env.CONNECTION_STRING || process.env.DATABASE_URL;

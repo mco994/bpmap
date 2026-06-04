@@ -1,11 +1,3 @@
-// Daily lifecycle maintenance on Neon:
-//   - marks announced/confirmed festivals whose end date has passed as "passed"
-//   - purges every festival (incl. cancelled) that ended more than 1 month ago
-// Cancelled festivals are kept (status "cancelled") until that same 1-month
-// cutoff. Reads CONNECTION_STRING from the environment.
-//
-//   npm run db:lifecycle
-//
 import pg from "pg";
 
 const url = process.env.CONNECTION_STRING || process.env.DATABASE_URL;

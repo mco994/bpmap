@@ -1,10 +1,3 @@
-// Reads src/data/festivals.source.json, geocodes each festival's city via the
-// French BAN (Base Adresse Nationale, free, no key), and writes the final
-// src/data/festivals.json consumed by the app. Entries that already carry
-// lat/lng (e.g. overseas territories the BAN doesn't cover well) are kept as-is.
-//
-//   npm run geocode
-//
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -24,9 +17,6 @@ const prices = JSON.parse(readFileSync(path.join(dataDir, "prices.json"), "utf8"
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-// Purge cutoff: festivals that ended more than 1 month ago are dropped from the
-// generated data (they stay in festivals.source.json as an archive). Dateless
-// ("à confirmer") festivals are always kept.
 const today = new Date();
 const purgeCutoff = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate())
   .toISOString()
@@ -44,7 +34,6 @@ async function geocode(city, postcode) {
   return { lat, lng, label: feat.properties.label };
 }
 
-// A source URL that is actually a ticketing platform → usable as ticketUrl.
 const TICKET_HOST =
   /(shotgun\.live|dice\.fm|billetweb|helloasso|seetickets|weezevent|yurplan|festicket|billetreduc)/i;
 
@@ -54,7 +43,7 @@ const purged = [];
 
 for (const f of source) {
   if (f.endDate && f.endDate < purgeCutoff) {
-    purged.push(f.name); // finished > 1 month ago
+    purged.push(f.name);
     continue;
   }
   let { lat, lng } = f;
@@ -74,7 +63,7 @@ for (const f of source) {
       console.warn(`✖ ${f.name} → ${err.message}`);
       continue;
     }
-    await sleep(120); // be polite with the public API
+    await sleep(120);
   } else {
     console.log(`• ${f.name} → coords fournies`);
   }
@@ -100,6 +89,7 @@ for (const f of source) {
     ticketUrl: f.ticketUrl ?? (f.sources ?? []).find((s) => TICKET_HOST.test(s)) ?? null,
     officialUrl: f.officialUrl ?? null,
     status: f.status ?? "announced",
+    ...(f.eventType ? { eventType: f.eventType } : {}),
     ...(f.eclectic ? { eclectic: true } : {}),
     ...(lineups[f.slug] ? { lineup: lineups[f.slug] } : {}),
     sources: f.sources ?? [],

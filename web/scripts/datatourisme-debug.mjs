@@ -1,6 +1,3 @@
-// Diagnostic du flux DATAtourisme : télécharge le ZIP, affiche sa structure et
-// le 1er POI en JSON-LD pour valider le mapping du connecteur.
-//   npm run dt:debug
 import AdmZip from "adm-zip";
 
 const url = process.env.DATATOURISME_FLUX_URL;
@@ -16,7 +13,6 @@ console.log("HTTP:", res.status, "| content-type:", res.headers.get("content-typ
 const buf = Buffer.from(await res.arrayBuffer());
 console.log("taille:", buf.length, "octets");
 
-// Not a ZIP (PK signature) → print the body (usually an error/status message).
 const isZip = buf.length >= 2 && buf[0] === 0x50 && buf[1] === 0x4b;
 if (!res.ok || !isZip) {
   console.log("\n--- Corps de la réponse (pas un ZIP) ---");

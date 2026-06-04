@@ -9,6 +9,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import { Ionicons } from '@expo/vector-icons';
 import type { Festival } from '@bpmap/shared';
 
 import { ThemedText } from '@/components/themed-text';
@@ -68,7 +69,8 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
         onPress={() => setVisible(true)}
         style={[styles.action, { backgroundColor: theme.backgroundElement }]}
       >
-        <ThemedText type="smallBold">🧭 Itinéraire</ThemedText>
+        <Ionicons name="navigate-outline" size={16} color={theme.accent} />
+        <ThemedText type="smallBold"> Itinéraire</ThemedText>
       </Pressable>
 
       <Modal visible={visible} transparent animationType="slide" onRequestClose={close}>
@@ -83,9 +85,13 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
 
                 <Pressable
                   onPress={() => go()}
-                  style={[styles.primary, { backgroundColor: theme.backgroundSelected }]}
+                  style={[styles.primary, { backgroundColor: theme.accent }]}
                 >
-                  <ThemedText type="smallBold">📍 Depuis ma position</ThemedText>
+                  <Ionicons name="locate" size={16} color="#ffffff" />
+                  <ThemedText type="smallBold" style={styles.primaryLabel}>
+                    {' '}
+                    Depuis ma position
+                  </ThemedText>
                 </Pressable>
 
                 <ThemedText type="small" themeColor="textSecondary">
@@ -124,10 +130,12 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
                   onPress={goFromAddress}
                   style={[
                     styles.primary,
-                    { backgroundColor: theme.backgroundSelected, opacity: address.trim() ? 1 : 0.4 },
+                    { backgroundColor: theme.accentSoft, opacity: address.trim() ? 1 : 0.4 },
                   ]}
                 >
-                  <ThemedText type="smallBold">Y aller depuis cette adresse</ThemedText>
+                  <ThemedText type="smallBold" style={{ color: theme.accent }}>
+                    Y aller depuis cette adresse
+                  </ThemedText>
                 </Pressable>
               </ThemedView>
             </Pressable>
@@ -141,9 +149,11 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
 const styles = StyleSheet.create({
   flex: { flex: 1 },
   action: {
+    flexDirection: 'row',
+    alignItems: 'center',
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.two,
-    borderRadius: Spacing.two,
+    borderRadius: Spacing.four,
   },
   backdrop: {
     flex: 1,
@@ -157,11 +167,14 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 20,
   },
   primary: {
+    flexDirection: 'row',
+    justifyContent: 'center',
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.three,
-    borderRadius: Spacing.two,
+    borderRadius: Spacing.three,
     alignItems: 'center',
   },
+  primaryLabel: { color: '#ffffff' },
   input: {
     borderWidth: StyleSheet.hairlineWidth,
     borderRadius: Spacing.two,

@@ -1,8 +1,3 @@
-// Loads src/data/festivals.json into Neon: upserts genres, festivals (by slug),
-// festival_genres and festival_sources (provenance). Idempotent.
-//
-//   npm run db:load
-//
 import pg from "pg";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
@@ -20,12 +15,14 @@ const GENRE_LABELS = {
   "drum-n-bass": "Drum'n'bass",
   trance: "Trance",
   psytrance: "Psytrance",
+  "hard-techno": "Hard techno",
   hardstyle: "Hardstyle / Hardcore",
   electro: "Electro",
   minimal: "Minimal",
   edm: "EDM / Big room",
   disco: "Disco",
   dub: "Dub / Bass",
+  dubstep: "Dubstep",
   ambient: "Ambient / Expérimental",
 };
 
@@ -52,7 +49,6 @@ await client.connect();
 try {
   await client.query("begin");
 
-  // Genres (every slug present in the dataset).
   const slugs = [...new Set(festivals.flatMap((f) => f.genres))];
   for (const slug of slugs) {
     await client.query(

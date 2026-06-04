@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import FavoriteButton from "@/components/FavoriteButton";
 import {
   getAllFestivals,
   getFestivalBySlug,
@@ -82,7 +83,6 @@ function jsonLd(festival: Festival, url: string) {
       },
     },
     organizer: { "@type": "Organization", name: festival.organizer },
-    // Only advertise an offer when we actually know the price.
     ...(festival.priceFull !== null && {
       offers: {
         "@type": "Offer",
@@ -98,8 +98,6 @@ function jsonLd(festival: Festival, url: string) {
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
-// Label the outbound link according to where it actually points, so a Shotgun
-// or ticketing link isn't mislabelled "Site officiel".
 function siteLinkLabel(url: string): string {
   let host = "";
   try {
@@ -128,9 +126,6 @@ function isTicketHost(url: string | null): boolean {
   return !!url && TICKET_HOSTS.test(url);
 }
 
-// The billetterie link: a known ticketing URL, or the official URL when it is
-// itself a ticketing platform. Null when we have no reliable ticket link — we
-// never guess (a wrong link is worse than none); the official site is used then.
 function billetterieUrl(f: Festival): string | null {
   if (f.ticketUrl) return f.ticketUrl;
   if (isTicketHost(f.officialUrl)) return f.officialUrl;
@@ -170,7 +165,6 @@ export default async function FestivalPage({
     <article className="pb-12">
       <script
         type="application/ld+json"
-        // JSON-LD for rich results; content is derived from trusted static data.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(festival, url)) }}
       />
 
@@ -307,6 +301,7 @@ export default async function FestivalPage({
         )}
 
         <div className="mt-8 flex flex-wrap gap-3">
+          <FavoriteButton festivalId={festival.id} withLabel />
           {billetterieUrl(festival) && (
             <a
               href={billetterieUrl(festival) as string}

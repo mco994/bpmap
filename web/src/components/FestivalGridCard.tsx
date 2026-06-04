@@ -2,30 +2,34 @@ import Link from "next/link";
 import {
   formatDateRange,
   formatFromPrice,
-  genreLabel,
   sizeTierForCapacity,
   effectiveStatus,
   statusLabel,
   type Festival,
 } from "@bpmap/shared";
+import FavoriteButton from "@/components/FavoriteButton";
+import GenreChips from "@/components/GenreChips";
 
 export default function FestivalGridCard({
   festival,
   now,
+  highlightGenre,
 }: {
   festival: Festival;
   now: Date | null;
+  highlightGenre?: string;
 }) {
   const status = now ? effectiveStatus(festival, now) : festival.status;
   const showStatus = status === "passed" || status === "cancelled";
   const tier = sizeTierForCapacity(festival.capacity);
 
   return (
-    <Link
-      href={`/festivals/${festival.slug}`}
-      className="flex h-full flex-col rounded-xl border border-zinc-200 bg-white p-4 shadow-sm transition-colors hover:border-fuchsia-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-fuchsia-600"
-    >
-      <div className="flex items-start justify-between gap-2">
+    <div className="relative h-full">
+      <Link
+        href={`/festivals/${festival.slug}`}
+        className="flex h-full flex-col rounded-xl border border-zinc-200 bg-white p-4 shadow-sm transition-colors hover:border-fuchsia-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-fuchsia-600"
+      >
+      <div className="flex items-start justify-between gap-2 pr-8">
         <h3 className="text-base font-semibold leading-tight text-zinc-900 dark:text-zinc-50">
           {festival.name}
         </h3>
@@ -58,20 +62,17 @@ export default function FestivalGridCard({
         </time>
       </p>
 
-      <ul className="mt-2 flex flex-wrap gap-1" aria-label="Genres">
-        {festival.genres.map((g) => (
-          <li
-            key={g}
-            className="rounded-full bg-violet-100 px-2 py-0.5 text-xs font-medium text-violet-800 dark:bg-violet-950 dark:text-violet-200"
-          >
-            {genreLabel(g)}
-          </li>
-        ))}
-      </ul>
+      <div className="mt-2">
+        <GenreChips genres={festival.genres} highlight={highlightGenre} />
+      </div>
 
       <p className="mt-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">
         {formatFromPrice(festival)}
       </p>
-    </Link>
+      </Link>
+      <span className="absolute right-3 top-3">
+        <FavoriteButton festivalId={festival.id} />
+      </span>
+    </div>
   );
 }
