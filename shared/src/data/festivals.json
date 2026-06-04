@@ -809,6 +809,154 @@
     ]
   },
   {
+    "id": "we-love-green",
+    "slug": "we-love-green",
+    "name": "We Love Green",
+    "description": "Festival pluridisciplinaire éco-responsable au bois de Vincennes, à forte scène électronique : Charlotte de Witte, Overmono, KI/KI, Soulwax, Bambounou b2b HAAi aux côtés des têtes d'affiche pop.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-07",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": "We Love Green",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://ra.co/events/2351025",
+    "officialUrl": "https://www.welovegreen.fr/",
+    "status": "confirmed",
+    "eclectic": true,
+    "sources": [
+      "https://www.welovegreen.fr/",
+      "https://ra.co/events/2351025"
+    ]
+  },
+  {
+    "id": "mimo-festival",
+    "slug": "mimo-festival",
+    "name": "MIMO Festival",
+    "description": "Festival électronique underground au château de Tilloloy, à une heure de Paris : house, techno et electro pointues avec Massaï, Unai Trotti et DC Salas, camping et navettes depuis Paris.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-07",
+    "lat": 49.64395,
+    "lng": 2.74824,
+    "city": "Tilloloy",
+    "region": "Hauts-de-France",
+    "organizer": "MIMO Festival",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "electro",
+      "minimal"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://ra.co/events/2389872",
+    "officialUrl": "https://www.mimofestival.fr/",
+    "status": "confirmed",
+    "sources": [
+      "https://www.mimofestival.fr/",
+      "https://ra.co/events/2389872"
+    ]
+  },
+  {
+    "id": "samsam-festival",
+    "slug": "samsam-festival",
+    "name": "SAMSAM Festival",
+    "description": "Festival électronique en bord de Seine à Samois, près de Fontainebleau : house, disco et electronica dans l'esprit guinguette.",
+    "startDate": "2026-06-05",
+    "endDate": null,
+    "lat": 48.45611,
+    "lng": 2.75346,
+    "city": "Samois-sur-Seine",
+    "region": "Île-de-France",
+    "organizer": "SAM SAM Festival",
+    "capacity": null,
+    "genres": [
+      "house",
+      "disco",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://samsam.world/billetterie",
+    "officialUrl": "https://samsam.world/",
+    "status": "announced",
+    "sources": [
+      "https://samsam.world/",
+      "https://ra.co/events/2406766",
+      "https://samois-sur-seine.fr/evenement/festival-samsam/"
+    ]
+  },
+  {
+    "id": "futurs-proches-mia-mao",
+    "slug": "futurs-proches-mia-mao",
+    "name": "Futurs Proches (Dr Rubinstein b2b DJ Mell G)",
+    "description": "Nuit techno et acid au club Mia Mao : Dr Rubinstein b2b DJ Mell G, abs8lute, Zadig et Civic Instruction (Hadone & UFO95), de minuit à 7h.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-06",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": "Futurs Proches",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://ra.co/events/2437374",
+    "officialUrl": "https://ra.co/events/2437374",
+    "status": "confirmed",
+    "eventType": "soiree",
+    "sources": [
+      "https://ra.co/events/2437374",
+      "https://www.parisbouge.com/events/313498"
+    ]
+  },
+  {
+    "id": "pentagon-ryugu-barboteur",
+    "slug": "pentagon-ryugu-barboteur",
+    "name": "Pentagon x Ryugu Open Air (Barboteur)",
+    "description": "Open air gratuit sur la péniche sound-system Canal Barboteur : techno et house par les collectifs Pentagon (Rennes/Paris) et Ryugu, de 18h à minuit sur les canaux parisiens.",
+    "startDate": "2026-06-05",
+    "endDate": "2026-06-05",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": "Pentagon x Ryugu / Canal Barboteur",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://ra.co/events/2452490",
+    "officialUrl": "https://canal-barboteur.com/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://ra.co/events/2452490",
+      "https://canal-barboteur.com/"
+    ]
+  },
+  {
     "id": "pelouses-electroniques",
     "slug": "pelouses-electroniques",
     "name": "Pelouses Électroniques",
@@ -896,6 +1044,101 @@
     "sources": [
       "https://www.lebonbon.fr/bordeaux/festivals-et-concerts/open-air-8h-debarque-cour-romaine-classee-patrimoine-national-bordeaux/",
       "https://happeningnext.com/event/atrium-open-air-biome-6th-anniversary-eid3a0dncb6x8"
+    ]
+  },
+  {
+    "id": "vinyle-village-wax-sun",
+    "slug": "vinyle-village-wax-sun",
+    "name": "Vinyle Village — Wax & Sun",
+    "description": "Open air et club XXL à La Rotonde Stalingrad : house et electro sur vinyle avec DJ Tjizza, Helly et Trajano.",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-06",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": "Vinyle Village",
+    "capacity": null,
+    "genres": [
+      "house",
+      "electro",
+      "techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://ra.co/events/2436100",
+    "officialUrl": "https://larotondestalingrad.com/programmation/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://ra.co/events/2436100",
+      "https://larotondestalingrad.com/programmation/"
+    ]
+  },
+  {
+    "id": "resonance-volume-iii",
+    "slug": "resonance-volume-iii",
+    "name": "Résonance Volume III",
+    "description": "Nuit hard et trance des Couloirs Électroniques à Saint-Étienne : NIVK et Emma Ollivary en têtes d'affiche, sonorisation Funktion-One, de 23h à 6h30.",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-07",
+    "lat": 45.43019,
+    "lng": 4.37005,
+    "city": "Saint-Étienne",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": "Les Couloirs Électroniques",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "trance",
+      "techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.lescouloirselectroniques.com/",
+    "status": "confirmed",
+    "eventType": "soiree",
+    "sources": [
+      "https://www.auvergnerhonealpes-tourisme.com/fiches/resonance-volume-iii/"
+    ]
+  },
+  {
+    "id": "electroniquement-notre",
+    "slug": "electroniquement-notre",
+    "name": "Electroniquement Nôtre",
+    "description": "Open air gratuit l'après-midi puis after payant à Saint-Péray, aux portes de Valence : 8 artistes, 2 scènes et 14 heures de son entre minimal, progressive, dark techno et trance.",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-06",
+    "lat": 44.93798,
+    "lng": 4.82987,
+    "city": "Saint-Péray",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": "Lab'Elles / Boom Rang",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "trance",
+      "minimal"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "tariffs": [
+      {
+        "label": "After (soirée)",
+        "price": 18
+      }
+    ],
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/events/electroniquement-notre-5-open-air-after",
+    "officialUrl": "https://shotgun.live/events/electroniquement-notre-5-open-air-after",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://shotgun.live/events/electroniquement-notre-5-open-air-after",
+      "https://stayhappening.com/e/electroniquement-n%C3%B4tre-5-open-air-gratuit-after-E2ISYGOEE4K"
     ]
   },
   {
@@ -988,6 +1231,62 @@
     ],
     "sources": [
       "https://biches-festival.fr/"
+    ]
+  },
+  {
+    "id": "musee-electronique-festival",
+    "slug": "musee-electronique-festival",
+    "name": "Musée Électronique Festival",
+    "description": "Open air dans les jardins du Musée Dauphinois, au pied de la Bastille : retour après trois ans d'absence avec Vitalic et Pedro Winter (Busy P) en têtes d'affiche, jauge de 1 200 personnes par soir.",
+    "startDate": "2026-06-12",
+    "endDate": "2026-06-13",
+    "lat": 45.18283,
+    "lng": 5.7243,
+    "city": "Grenoble",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": "Le Périscope",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "french-touch"
+    ],
+    "priceDay": 45,
+    "priceFull": 80,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.festivalenfrance.com/festival/musee-electronique-festival",
+    "status": "confirmed",
+    "sources": [
+      "https://www.festivalenfrance.com/festival/musee-electronique-festival"
+    ]
+  },
+  {
+    "id": "braises-sonores",
+    "slug": "braises-sonores",
+    "name": "Braises Sonores",
+    "description": "Festival électro de la presqu'île de Rhuys, aux portes du golfe du Morbihan : electro-house, techno, drum'n'bass et groove sur scènes extérieures et open air dans les jardins, 8e édition.",
+    "startDate": "2026-06-12",
+    "endDate": "2026-06-13",
+    "lat": 47.54894,
+    "lng": -2.89142,
+    "city": "Arzon",
+    "region": "Bretagne",
+    "organizer": "Association Braises Sonores",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "drum-n-bass"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.festivalenfrance.com/festival/braises-sonores",
+    "status": "announced",
+    "sources": [
+      "https://www.festivalenfrance.com/en/festival/braises-sonores"
     ]
   },
   {
@@ -1123,6 +1422,62 @@
     ]
   },
   {
+    "id": "lateral-festival",
+    "slug": "lateral-festival",
+    "name": "Latéral Festival",
+    "description": "Nuit électronique sous les travées du stade Geoffroy-Guichard, le « Chaudron » stéphanois : scène techno et house (Marcel Dettmann, Mall Grab, Mad Rey) et Dub Corner en sound system, de 21h à 5h.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-14",
+    "lat": 45.43019,
+    "lng": 4.37005,
+    "city": "Saint-Étienne",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": "FZL x Poto Feu Records",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "dub"
+    ],
+    "priceDay": 22,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.festivalenfrance.com/festival/lateral-festival-musiques-electroniques-et-culture-dub-a-saint-etienne",
+    "status": "confirmed",
+    "sources": [
+      "https://www.festivalenfrance.com/festival/lateral-festival-musiques-electroniques-et-culture-dub-a-saint-etienne"
+    ]
+  },
+  {
+    "id": "we-music-festival",
+    "slug": "we-music-festival",
+    "name": "WE Music Festival",
+    "description": "Nouveau festival électro au Théâtre de Verdure de Nice, vue sur la Méditerranée : techno, trance et house avec une programmation locale et émergente portée par Radio GAGA.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-14",
+    "lat": 43.71273,
+    "lng": 7.25092,
+    "city": "Nice",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": "Radio GAGA",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "trance"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://riviera-buzz.com/we-festival-nice-2026/",
+    "status": "announced",
+    "sources": [
+      "https://riviera-buzz.com/we-festival-nice-2026/"
+    ]
+  },
+  {
     "id": "goutez-electronique-1",
     "slug": "goutez-electronique-1",
     "name": "Goûtez Électronique #1",
@@ -1153,6 +1508,37 @@
     ]
   },
   {
+    "id": "fete-de-la-hard-music",
+    "slug": "fete-de-la-hard-music",
+    "name": "Fête de la Hard Music",
+    "description": "Nantes Rave Techno présente une nuit hard music au Warehouse en format 360° : Von Bikräv (Casual Gabberz), Urumi, Schlass et Flymeon en live, room 2 par le collectif La Nouvelle.",
+    "startDate": "2026-06-19",
+    "endDate": "2026-06-20",
+    "lat": 47.23937,
+    "lng": -1.55533,
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "organizer": "Nantes Rave Techno / Warehouse",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "hardstyle",
+      "techno",
+      "psytrance"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://www.warehouse-nantes.fr/event/nantes-rave-techno-pres-fete-de-la-hard-music-w-von-bikrav-urumi-schlass-flymeon-more",
+    "officialUrl": "https://www.warehouse-nantes.fr/event/nantes-rave-techno-pres-fete-de-la-hard-music-w-von-bikrav-urumi-schlass-flymeon-more",
+    "status": "confirmed",
+    "eventType": "soiree",
+    "sources": [
+      "https://www.warehouse-nantes.fr/event/nantes-rave-techno-pres-fete-de-la-hard-music-w-von-bikrav-urumi-schlass-flymeon-more",
+      "https://www.jds.fr/nantes/concerts/electro/fete-de-la-hard-music-w-von-bikrav-1496573_A"
+    ]
+  },
+  {
     "id": "kodz-open-air",
     "slug": "kodz-open-air",
     "name": "KODZ Open Air x Acidelics x Blizzard",
@@ -1180,6 +1566,93 @@
     "sources": [
       "https://happeningnext.com/event/kodz-open-air-x-acidelics-x-blizzard-silence-andamp-more-eid3a0dnfg8w0",
       "https://www.noxway.fr/nightclub/b50949fe1d9d99648ae1ef9e1b57"
+    ]
+  },
+  {
+    "id": "open-air-house-lancry",
+    "slug": "open-air-house-lancry",
+    "name": "Open Air House (Fête de la Musique)",
+    "description": "Open air gratuit de la Fête de la Musique rue de Lancry : un set montant de house groovy et funky, edits disco et sélections deep, dès 14h.",
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-21",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "house",
+      "disco"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://openagenda.com/fetedelamusique2026/events/open-air-house",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://openagenda.com/fetedelamusique2026/events/open-air-house",
+      "https://www.jds.fr/paris/concerts/fete-de-la-musique/open-air-house-1539538_A"
+    ]
+  },
+  {
+    "id": "passerelle-electronique",
+    "slug": "passerelle-electronique",
+    "name": "Passerelle Électronique",
+    "description": "Open air gratuit de la Fête de la Musique sous la passerelle Simone-de-Beauvoir, au bord de la Seine : DJs locaux entre trance, groove et bounce.",
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-21",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "trance",
+      "house",
+      "techno"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://openagenda.com/fetedelamusique2026/events/passerelle-electronique",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://openagenda.com/fetedelamusique2026/events/passerelle-electronique"
+    ]
+  },
+  {
+    "id": "sacre-vehemence-open-air",
+    "slug": "sacre-vehemence-open-air",
+    "name": "Sacré Véhémence — The Night in the Day",
+    "description": "Open air hard techno gratuit de la Fête de la Musique au jardin Federico García Lorca, quai de l'Hôtel de Ville : techno, acid et industriel dès 15h avec Sant Loop, JSR et Acidusa.",
+    "startDate": "2026-06-21",
+    "endDate": "2026-06-21",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": "Sant Loop",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "techno"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://openagenda.com/fetedelamusique2026/events/sacre-vehemence-the-night-in-the-day-open-air",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://openagenda.com/fetedelamusique2026/events/sacre-vehemence-the-night-in-the-day-open-air",
+      "https://www.jds.fr/paris/concerts/fete-de-la-musique/sacre-vehemence-the-night-in-the-day-open-air-1538874_A"
     ]
   },
   {
@@ -1429,6 +1902,62 @@
     ]
   },
   {
+    "id": "chateau-amour-festival",
+    "slug": "chateau-amour-festival",
+    "name": "Château Amour Festival",
+    "description": "Festival house et disco en plein air au domaine Martin de Grangeneuve, en Provence : plus de 12 artistes dont Synapson et Venga, environ 1 500 festivaliers.",
+    "startDate": "2026-06-26",
+    "endDate": "2026-06-27",
+    "lat": 44.12321,
+    "lng": 4.90693,
+    "city": "Jonquières",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": 1500,
+    "genres": [
+      "house",
+      "disco"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://chateau-amour.com/",
+    "status": "confirmed",
+    "sources": [
+      "https://chateau-amour.com/"
+    ]
+  },
+  {
+    "id": "open-spirit-festival",
+    "slug": "open-spirit-festival",
+    "name": "Open Spirit Festival",
+    "description": "Première édition au plan d'eau du Riou, dans les Hautes-Alpes : psytechno, progressive trance et acid sur deux scènes, camping gratuit, jauge de 800 personnes.",
+    "startDate": "2026-06-26",
+    "endDate": "2026-06-28",
+    "lat": 44.35339,
+    "lng": 5.7674,
+    "city": "Garde-Colombe",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": 800,
+    "genres": [
+      "psytrance",
+      "trance",
+      "techno"
+    ],
+    "priceDay": null,
+    "priceFull": 65,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.sisteron-alpesprovencales.fr/fete-manifestation/open-spirit-festival-1/",
+    "status": "confirmed",
+    "sources": [
+      "https://provence-alpes-cotedazur.com/que-faire/sortir/toutes-les-sorties/open-spirit-festival-1-eyguians-fr-6180872/",
+      "https://www.sisteron-alpesprovencales.fr/fete-manifestation/open-spirit-festival-1/"
+    ]
+  },
+  {
     "id": "evasion-festival",
     "slug": "evasion-festival",
     "name": "Évasion Festival",
@@ -1671,6 +2200,34 @@
     ]
   },
   {
+    "id": "114d-festival",
+    "slug": "114d-festival",
+    "name": "114D Festival in Corti",
+    "description": "Premier DJ festival du centre de la Corse, sur le site de Chabrières à Corte : 17 artistes insulaires et internationaux dont Bon Entendeur, capacité de 3 000 personnes.",
+    "startDate": "2026-07-02",
+    "endDate": "2026-07-04",
+    "lat": 42.30309,
+    "lng": 9.16938,
+    "city": "Corte",
+    "region": "Corse",
+    "organizer": "114D",
+    "capacity": 3000,
+    "genres": [
+      "house",
+      "electro",
+      "techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.corsenetinfos.corsica/Corte-1ere-edition-du-114D-Festival-du-1er-au-4-juillet_a90410.html",
+    "status": "confirmed",
+    "sources": [
+      "https://www.corsenetinfos.corsica/Corte-1ere-edition-du-114D-Festival-du-1er-au-4-juillet_a90410.html"
+    ]
+  },
+  {
     "id": "la-recre-festival",
     "slug": "la-recre-festival",
     "name": "La Récré Festival",
@@ -1789,6 +2346,34 @@
     "sources": [
       "https://xceed.me/en/montpellier/event/club-peyrou-2026/218791",
       "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/concerts-electro-geants-club-peyrou-montpellier-fr-6169888/"
+    ]
+  },
+  {
+    "id": "o-lac-festival",
+    "slug": "o-lac-festival",
+    "name": "Ō Lac Festival",
+    "description": "Festival électro au bord du lac d'Aiguille, dans la Drôme, avec une scène posée sur l'eau : Ofenbach, Bon Entendeur, Afrojack, NTO et R3hab pour la 5e édition.",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-05",
+    "lat": 45.00761,
+    "lng": 4.9563,
+    "city": "Châteauneuf-sur-Isère",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "edm",
+      "house",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.dromeetcompagnie.com/toutes-les-infos-pratiques-pour-le-o-lac-festival-edition-2026/",
+    "status": "confirmed",
+    "sources": [
+      "https://www.dromeetcompagnie.com/toutes-les-infos-pratiques-pour-le-o-lac-festival-edition-2026/"
     ]
   },
   {
@@ -2019,6 +2604,35 @@
     ]
   },
   {
+    "id": "chauffer-dans-la-noirceur",
+    "slug": "chauffer-dans-la-noirceur",
+    "name": "Chauffer Dans La Noirceur",
+    "description": "Festival indépendant et bénévole face à la mer à Montmartin-sur-Mer, 34e édition : 46 artistes, programmation électro hybride entre techno organique, lives, hardhouse et eurodance.",
+    "startDate": "2026-07-10",
+    "endDate": "2026-07-12",
+    "lat": 48.98914,
+    "lng": -1.53464,
+    "city": "Montmartin-sur-Mer",
+    "region": "Normandie",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno",
+      "electro",
+      "hard-techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.chaufferdanslanoirceur.org/",
+    "status": "confirmed",
+    "eclectic": true,
+    "sources": [
+      "https://electro-news.eu/les-plages-de-normandie-vont-se-transformer-en-dancefloor-pendant-trois-jours-ce-ete/"
+    ]
+  },
+  {
     "id": "nemoria-festival",
     "slug": "nemoria-festival",
     "name": "Nemoria Festival",
@@ -2135,6 +2749,34 @@
     ]
   },
   {
+    "id": "planete-sauvage-festival",
+    "slug": "planete-sauvage-festival",
+    "name": "Planète Sauvage Festival",
+    "description": "Festival électro inclusif et participatif en pleine nature dans le Cher : quatre jours et quatre nuits, cinq scènes entre techno, trance et bass music, ateliers et performances visuelles.",
+    "startDate": "2026-07-16",
+    "endDate": "2026-07-19",
+    "lat": 46.6762,
+    "lng": 2.42327,
+    "city": "Arcomps",
+    "region": "Centre-Val de Loire",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno",
+      "trance",
+      "psytrance"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://planetesauvagefestival.com/",
+    "status": "confirmed",
+    "sources": [
+      "https://planetesauvagefestival.com/"
+    ]
+  },
+  {
     "id": "aelipse",
     "slug": "aelipse",
     "name": "Aelipse",
@@ -2160,6 +2802,35 @@
     "status": "announced",
     "sources": [
       "https://shotgun.live/fr/festivals/aelipse"
+    ]
+  },
+  {
+    "id": "le-bouchonnois",
+    "slug": "le-bouchonnois",
+    "name": "Le Bouchonnois",
+    "description": "Festival électro en plein air à Cournon, dans le Morbihan, entre La Gacilly et Redon : cinq DJs entre hardstyle, techno et tech house, de 19h à 2h30, parking gratuit et cashless.",
+    "startDate": "2026-07-18",
+    "endDate": "2026-07-18",
+    "lat": 47.75056,
+    "lng": -2.09741,
+    "city": "Cournon",
+    "region": "Bretagne",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno",
+      "hardstyle",
+      "house"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.lebouchonnois.fr/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.lebouchonnois.fr/"
     ]
   },
   {
@@ -2221,6 +2892,33 @@
     ],
     "sources": [
       "https://stereoparc.com/"
+    ]
+  },
+  {
+    "id": "techno-cambrousse",
+    "slug": "techno-cambrousse",
+    "name": "Techno Cambrousse Festival",
+    "description": "Festival techno en pleine campagne d'Ille-et-Vilaine, à 30 minutes au nord de Rennes : sound system Void Acoustics, camping festif et line-up techno et électro pour la 6e édition.",
+    "startDate": "2026-07-24",
+    "endDate": "2026-07-25",
+    "lat": 48.38048,
+    "lng": -1.8109,
+    "city": "La Chapelle-aux-Filtzmeens",
+    "region": "Bretagne",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.technocambrousse.fr/",
+    "status": "confirmed",
+    "sources": [
+      "https://www.technocambrousse.fr/"
     ]
   },
   {
@@ -2697,6 +3395,33 @@
     ]
   },
   {
+    "id": "garten-on-the-beach",
+    "slug": "garten-on-the-beach",
+    "name": "Gärten on the Beach",
+    "description": "Festival électro open air à l'hippodrome de Clairefontaine, près de Deauville : techno et house sur la côte normande.",
+    "startDate": "2026-08-08",
+    "endDate": "2026-08-09",
+    "lat": 49.31918,
+    "lng": 0.07485,
+    "city": "Tourgéville",
+    "region": "Normandie",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.garten-onthebeach.fr/",
+    "status": "confirmed",
+    "sources": [
+      "https://www.garten-onthebeach.fr/"
+    ]
+  },
+  {
     "id": "positiv-festival",
     "slug": "positiv-festival",
     "name": "Positiv Festival",
@@ -2734,6 +3459,64 @@
     ],
     "sources": [
       "https://positivfestival.fr/en/"
+    ]
+  },
+  {
+    "id": "resonance-festival-pyrenees",
+    "slug": "resonance-festival-pyrenees",
+    "name": "Resonance Festival — Le Secret des Pyrénées",
+    "description": "Deuxième édition à Bixikenea, au Pays basque, entre océan et montagnes : quatre scènes électro, techno et dub en dialogue avec les traditions basques, camping sur site.",
+    "startDate": "2026-08-14",
+    "endDate": "2026-08-16",
+    "lat": 43.36256,
+    "lng": -1.71339,
+    "city": "Urrugne",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno",
+      "electro",
+      "dub"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.festivalenfrance.com/festival/festival-resonance",
+    "status": "confirmed",
+    "sources": [
+      "https://www.junklive.fr/evenements/bordeaux/2026-08-14/resonance-festival-2026-530010/",
+      "https://www.festivalenfrance.com/festival/festival-resonance"
+    ]
+  },
+  {
+    "id": "elektronikoa-besta",
+    "slug": "elektronikoa-besta",
+    "name": "Elektronikoa Besta",
+    "description": "Grande fête électronique en plein air sur la place du fronton d'Arcangues, au Pays basque : house, techno et electro de 18h à 3h, after à La Rhapsodie à Biarritz.",
+    "startDate": "2026-08-14",
+    "endDate": "2026-08-14",
+    "lat": 43.42934,
+    "lng": -1.51248,
+    "city": "Arcangues",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "electro"
+    ],
+    "priceDay": 10,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.jds.fr/bayonne/concerts/elektronikoa-besta-la-grande-fete-electronique-de-l-ete-1304567_A",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.jds.fr/bayonne/concerts/elektronikoa-besta-la-grande-fete-electronique-de-l-ete-1304567_A"
     ]
   },
   {
@@ -2805,6 +3588,35 @@
     "sources": [
       "https://assoce.fr/waldec/W313041734/COEUR-MEURTRI",
       "https://allevents.in/toulouse/open-air-2026-gratuit-coeur-meurtri-ile-du-ramier/200030096865041"
+    ]
+  },
+  {
+    "id": "electro-tribe-festival",
+    "slug": "electro-tribe-festival",
+    "name": "Electro Tribe Festival",
+    "description": "Trance organique et électro au Théâtre de Verdure de Nice, amphithéâtre en plein air face à la mer : 3e édition portée par Kontsha Prod et Hilight Tribe, de 18h à 1h.",
+    "startDate": "2026-08-22",
+    "endDate": "2026-08-22",
+    "lat": 43.71273,
+    "lng": 7.25092,
+    "city": "Nice",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": "Kontsha Prod / Hilight Tribe",
+    "capacity": 3000,
+    "genres": [
+      "trance",
+      "techno",
+      "dub"
+    ],
+    "priceDay": 26,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.festivalenfrance.com/festival/electro-tribe-festival",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.festivalenfrance.com/en/festival/electro-tribe-festival"
     ]
   },
   {

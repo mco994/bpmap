@@ -134,7 +134,8 @@ async function fetchResidentAdvisor() {
         const e = it.event;
         const artists = (e.artists ?? []).map((a) => a.name);
         const isFestival = /festival/i.test(e.title) || artists.length >= 6;
-        if (!isFestival) continue;
+        const isOpenAir = /open.?air|plein air|\brave\b|rooftop|guinguette/i.test(e.title);
+        if (!isFestival && !isOpenAir) continue;
         const url = e.contentUrl ? `https://ra.co${e.contentUrl}` : null;
         out.push({
           name: e.title,
@@ -156,27 +157,37 @@ async function fetchResidentAdvisor() {
 async function fetchOpenAgenda() {
   const base =
     "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/evenements-publics-openagenda/records";
-  const where =
-    '("festival") and ("techno" or "électro" or "house" or "trance" or "drum and bass" or "hardstyle" or "psytrance") and location_countrycode="FR" and firstdate_begin >= now()';
-  const params = new URLSearchParams({
-    where,
-    limit: "100",
-    order_by: "firstdate_begin",
-    select:
-      "title_fr,description_fr,location_city,location_region,location_coordinates,firstdate_begin,lastdate_end,canonicalurl",
-  });
-  const res = await fetch(`${base}?${params}`, {
-    headers: { Accept: "application/json" },
-  });
-  if (!res.ok) throw new Error(`OpenAgenda HTTP ${res.status}`);
-  const json = await res.json();
+  const wheres = [
+    '("festival") and ("techno" or "électro" or "house" or "trance" or "drum and bass" or "hardstyle" or "psytrance") and location_countrycode="FR" and firstdate_begin >= now()',
+    '("open air" or "openair" or "plein air" or "rave") and ("techno" or "électro" or "electro" or "house" or "trance" or "drum and bass" or "hardstyle" or "psytrance" or "dj set") and location_countrycode="FR" and firstdate_begin >= now()',
+  ];
+  const results = [];
+  for (const where of wheres) {
+    const params = new URLSearchParams({
+      where,
+      limit: "100",
+      order_by: "firstdate_begin",
+      select:
+        "title_fr,description_fr,location_city,location_region,location_coordinates,firstdate_begin,lastdate_end,canonicalurl",
+    });
+    const res = await fetch(`${base}?${params}`, {
+      headers: { Accept: "application/json" },
+    });
+    if (!res.ok) throw new Error(`OpenAgenda HTTP ${res.status}`);
+    const json = await res.json();
+    results.push(...(json.results ?? []));
+  }
   const strip = (s) =>
     (s ?? "").replace(/<[^>]*>/g, " ").replace(/\s+/g, " ").trim().slice(0, 220);
   const day = (s) => (s ?? "").slice(0, 10);
 
-  return (json.results ?? [])
+  return results
     .filter((r) => r.title_fr && r.firstdate_begin)
-    .filter((r) => day(r.lastdate_end) > day(r.firstdate_begin))
+    .filter(
+      (r) =>
+        day(r.lastdate_end) > day(r.firstdate_begin) ||
+        /open.?air|plein air|\brave\b/i.test(`${r.title_fr} ${r.description_fr ?? ""}`),
+    )
     .map((r) => ({
       name: r.title_fr,
       city: r.location_city ?? null,
