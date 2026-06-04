@@ -16,7 +16,11 @@ export default function MentionsLegalesPage() {
             Éditeur
           </h2>
           <p className="mt-1">
-            Le site BPMap est édité par M.&nbsp;Conan (particulier).
+            Le site BPMap est édité à titre non professionnel par un particulier.
+            Conformément à l&apos;article 6, III-2 de la loi n°&nbsp;2004-575 du 21 juin
+            2004 (LCEN), l&apos;éditeur a choisi de préserver son anonymat&nbsp;; ses
+            éléments d&apos;identification personnelle ont été communiqués à
+            l&apos;hébergeur ci-dessous.
             <br />
             Contact&nbsp;:{" "}
             <a
@@ -32,7 +36,7 @@ export default function MentionsLegalesPage() {
           <h2 className="text-lg font-semibold text-zinc-900 dark:text-zinc-50">
             Directeur de la publication
           </h2>
-          <p className="mt-1">M.&nbsp;Conan</p>
+          <p className="mt-1">L&apos;éditeur du site.</p>
         </section>
 
         <section>
