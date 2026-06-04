@@ -6,7 +6,7 @@ import { ThemedView } from '@/components/themed-view';
 export default function CarteWebScreen() {
   return (
     <ThemedView style={styles.container}>
-      <ThemedText type="subtitle">Carte disponible sur l'app mobile</ThemedText>
+      <ThemedText type="subtitle">Carte disponible sur l&apos;app mobile</ThemedText>
       <ThemedText type="small" themeColor="textSecondary">
         Le rendu MapLibre est natif (Android / iOS).
       </ThemedText>

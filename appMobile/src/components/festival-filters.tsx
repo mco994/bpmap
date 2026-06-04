@@ -1,4 +1,4 @@
-import { Pressable, ScrollView, StyleSheet, Switch, TextInput, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Switch, View } from 'react-native';
 import {
   GENRES,
   SIZE_TIERS,
@@ -19,7 +19,6 @@ type Props = {
   value: Filters;
   onChange: (next: Filters) => void;
   onReset: () => void;
-  resultCount: number;
 };
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
@@ -40,17 +39,18 @@ function Chip({ label, active, onPress }: { label: string; active: boolean; onPr
       onPress={onPress}
       style={[
         styles.chip,
-        { backgroundColor: active ? theme.backgroundSelected : theme.backgroundElement },
+        { backgroundColor: active ? theme.accentSoft : theme.backgroundElement },
       ]}
     >
-      <ThemedText type="small">{label}</ThemedText>
+      <ThemedText style={[styles.chipLabel, active && { color: theme.accent, fontWeight: '700' }]}>
+        {label}
+      </ThemedText>
     </Pressable>
   );
 }
 
-export function FestivalFilters({ value, onChange, onReset, resultCount }: Props) {
+export function FestivalFilters({ value, onChange, onReset }: Props) {
   const theme = useTheme();
-
   const toggleEventType = (type: EventType) =>
     onChange({
       ...value,
@@ -124,56 +124,39 @@ export function FestivalFilters({ value, onChange, onReset, resultCount }: Props
         ))}
       </Section>
 
-      <View style={styles.section}>
-        <ThemedText type="smallBold" themeColor="textSecondary">
-          Organisateur
-        </ThemedText>
-        <TextInput
-          value={value.organizer}
-          onChangeText={(text) => onChange({ ...value, organizer: text })}
-          placeholder="Tous les organisateurs"
-          placeholderTextColor={theme.textSecondary}
-          style={[styles.input, { color: theme.text, borderColor: theme.backgroundSelected }]}
-        />
-      </View>
-
       <View style={styles.switchRow}>
         <ThemedText type="small">Inclure les événements passés</ThemedText>
         <Switch
           value={value.includePast}
           onValueChange={(includePast) => onChange({ ...value, includePast })}
+          trackColor={{ true: theme.accentSoft }}
+          thumbColor={value.includePast ? theme.accent : undefined}
         />
       </View>
 
-      <View style={styles.footer}>
-        <ThemedText type="small" themeColor="textSecondary">
-          {resultCount} événement{resultCount > 1 ? 's' : ''}
-        </ThemedText>
-        {!isEmptyFilters(value) ? (
+      {!isEmptyFilters(value) ? (
+        <View style={styles.footer}>
           <Pressable onPress={onReset} hitSlop={8}>
-            <ThemedText type="smallBold">Réinitialiser</ThemedText>
+            <ThemedText type="smallBold" style={{ color: theme.accent }}>
+              Retirer tous les filtres
+            </ThemedText>
           </Pressable>
-        ) : null}
-      </View>
+        </View>
+      ) : null}
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  panel: { padding: Spacing.three, gap: Spacing.three, paddingBottom: Spacing.six },
-  section: { gap: Spacing.one },
-  chips: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.one },
+  panel: { padding: Spacing.three, gap: Spacing.four, paddingBottom: Spacing.six },
+  section: { gap: Spacing.two },
+  chips: { flexDirection: 'row', flexWrap: 'wrap', gap: Spacing.one + Spacing.half },
   chip: {
-    paddingHorizontal: Spacing.two,
-    paddingVertical: Spacing.one,
+    paddingHorizontal: Spacing.two + Spacing.half,
+    paddingVertical: Spacing.one + Spacing.half,
     borderRadius: Spacing.four,
   },
-  input: {
-    borderWidth: StyleSheet.hairlineWidth,
-    borderRadius: Spacing.two,
-    paddingHorizontal: Spacing.two,
-    paddingVertical: Spacing.one,
-  },
+  chipLabel: { fontSize: 13, lineHeight: 18 },
   switchRow: {
     flexDirection: 'row',
     alignItems: 'center',
