@@ -13,29 +13,53 @@ import MapGL, {
 } from "react-map-gl/maplibre";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
+  bestQueryMatch,
   formatDateRange,
   formatFromPrice,
-  genreLabel,
+  franceBorderGeoJSON,
+  franceMaskGeoJSON,
   type Festival,
 } from "@bpmap/shared";
+import GenreChips from "@/components/GenreChips";
 
 const MAP_STYLE =
   process.env.NEXT_PUBLIC_MAP_STYLE ??
   "https://tiles.openfreemap.org/styles/positron";
 
-// Centered on metropolitan France.
 const INITIAL_VIEW = { longitude: 2.5, latitude: 46.6, zoom: 4.7 };
 
 const SOURCE_ID = "festivals";
 
-// Individual (non-clustered) points, rendered on the GL canvas for performance.
-// Overlapping pins at low zoom resolve by zooming in.
+const FRANCE_MASK = franceMaskGeoJSON();
+const FRANCE_BORDER = franceBorderGeoJSON();
+
+const maskLayer: LayerProps = {
+  id: "france-mask",
+  type: "fill",
+  source: "france-mask",
+  paint: {
+    "fill-color": "#f6f0f7",
+    "fill-opacity": 0.93,
+  },
+};
+
+const borderLayer: LayerProps = {
+  id: "france-border",
+  type: "line",
+  source: "france-border",
+  paint: {
+    "line-color": "#c026d3",
+    "line-opacity": 0.35,
+    "line-width": 1.2,
+  },
+};
+
 const pointLayer: LayerProps = {
   id: "festival-points",
   type: "circle",
   source: SOURCE_ID,
   paint: {
-    "circle-color": "#a855f7",
+    "circle-color": "#db2777",
     "circle-radius": 7,
     "circle-stroke-width": 2,
     "circle-stroke-color": "#ffffff",
@@ -57,13 +81,22 @@ interface MapProps {
   festivals: Festival[];
   selectedId: string | null;
   onSelect: (id: string | null) => void;
+  query?: string;
+  focus?: { id: string; nonce: number } | null;
 }
 
-export default function Map({ festivals, selectedId, onSelect }: MapProps) {
+export default function Map({
+  festivals,
+  selectedId,
+  onSelect,
+  query = "",
+  focus = null,
+}: MapProps) {
   const mapRef = useRef<MapRef>(null);
   const [cursor, setCursor] = useState<string>("");
   const [popupExpanded, setPopupExpanded] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const pinnedUntil = useRef(0);
 
   const cancelClose = () => {
     if (closeTimer.current) {
@@ -71,10 +104,8 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
       closeTimer.current = null;
     }
   };
-  // Close shortly after the cursor leaves a pin — enough time to move onto the
-  // popup itself (which cancels the close so the "Voir la fiche" link stays
-  // reachable).
   const scheduleClose = () => {
+    if (Date.now() < pinnedUntil.current) return;
     if (closeTimer.current) return;
     closeTimer.current = setTimeout(() => {
       closeTimer.current = null;
@@ -96,6 +127,7 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
     () => festivals.find((f) => f.id === selectedId) ?? null,
     [festivals, selectedId],
   );
+  const selectedMatch = selected ? bestQueryMatch(selected, query) : null;
 
   const geojson = useMemo(
     () => ({
@@ -109,23 +141,19 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
     [festivals],
   );
 
-  // Highlight the selected point on top.
   const selectedLayer: LayerProps = {
     id: "selected-point",
     type: "circle",
     source: SOURCE_ID,
     filter: ["==", ["get", "id"], selectedId ?? "__none__"],
     paint: {
-      "circle-color": "#db2777",
+      "circle-color": "#9d174d",
       "circle-radius": 9,
       "circle-stroke-width": 2,
       "circle-stroke-color": "#ffffff",
     },
   };
 
-  // Only move the map when the selected festival is OUTSIDE the current view
-  // (e.g. selected from the list). Clicking a visible pin never shifts the
-  // screen — the popup just anchors itself to the side with the most room.
   useEffect(() => {
     if (!selected) return;
     const map = mapRef.current;
@@ -136,8 +164,18 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
     }
   }, [selected]);
 
-  // Hover a pin to reveal its card; the popup then stays (so you can reach the
-  // "Voir la fiche" link) until you hover another pin or click an empty area.
+  useEffect(() => {
+    if (!focus) return;
+    const map = mapRef.current;
+    if (!map) return;
+    const festival = festivals.find((f) => f.id === focus.id);
+    if (!festival) return;
+    cancelClose();
+    pinnedUntil.current = Date.now() + 1500;
+    map.flyTo({ center: [festival.lng, festival.lat], zoom: 8, duration: 900 });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focus]);
+
   function handleMouseMove(e: MapLayerMouseEvent) {
     const feature = e.features?.[0];
     if (feature) {
@@ -153,7 +191,6 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
 
   function handleClick(e: MapLayerMouseEvent) {
     const feature = e.features?.[0];
-    // Tap support (mobile, no hover); clicking empty space dismisses.
     cancelClose();
     onSelect(feature ? (feature.properties?.id as string) : null);
   }
@@ -176,6 +213,13 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
     >
       <NavigationControl position="top-right" showCompass={false} />
 
+      <Source id="france-mask" type="geojson" data={FRANCE_MASK}>
+        <Layer {...maskLayer} />
+      </Source>
+      <Source id="france-border" type="geojson" data={FRANCE_BORDER}>
+        <Layer {...borderLayer} />
+      </Source>
+
       <Source id={SOURCE_ID} type="geojson" data={geojson}>
         <Layer {...hitLayer} />
         <Layer {...pointLayer} />
@@ -186,8 +230,6 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
         <Popup
           longitude={selected.lng}
           latitude={selected.lat}
-          // No fixed anchor: MapLibre picks the side (top / right / bottom-left…)
-          // that keeps the popup within the viewport without moving the map.
           offset={14}
           onClose={() => onSelect(null)}
           closeButton
@@ -207,18 +249,15 @@ export default function Map({ festivals, selectedId, onSelect }: MapProps) {
               {formatDateRange(selected.startDate, selected.endDate)}
             </p>
 
+            <GenreChips
+              genres={selected.genres}
+              highlight={
+                selectedMatch?.field === "genre" ? selectedMatch.genreSlug : undefined
+              }
+            />
+
             {popupExpanded && (
               <>
-                <ul className="flex flex-wrap gap-1" aria-label="Genres">
-                  {selected.genres.map((g) => (
-                    <li
-                      key={g}
-                      className="rounded-full bg-violet-100 px-2 py-0.5 text-[11px] font-medium text-violet-800"
-                    >
-                      {genreLabel(g)}
-                    </li>
-                  ))}
-                </ul>
                 <p className="text-xs font-medium text-zinc-700">
                   {formatFromPrice(selected)}
                 </p>

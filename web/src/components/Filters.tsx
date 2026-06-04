@@ -7,22 +7,19 @@ import {
   GENRES,
   SIZE_TIERS,
   EVENT_TYPES,
-  getOrganizers,
-  getArtists,
   getPriceBounds,
   type Filters,
   type SizeTier,
   type EventType,
 } from "@bpmap/shared";
-import Autocomplete from "@/components/Autocomplete";
 
 interface FiltersPanelProps {
   filters: Filters;
   onChange: (filters: Filters) => void;
+  onReset?: () => void;
+  resetActive?: boolean;
 }
 
-const ORGANIZERS = getOrganizers();
-const ARTISTS = getArtists();
 const { maxDay, maxFull } = getPriceBounds();
 
 function Chip({
@@ -50,14 +47,17 @@ function Chip({
   );
 }
 
-export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
+export default function FiltersPanel({
+  filters,
+  onChange,
+  onReset,
+  resetActive,
+}: FiltersPanelProps) {
   const ids = {
     from: useId(),
     to: useId(),
-    org: useId(),
     day: useId(),
     full: useId(),
-    orgList: useId(),
   };
 
   const toggleGenre = (slug: string) =>
@@ -97,15 +97,14 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         <h2 className="text-lg font-semibold">Filtres</h2>
         <button
           type="button"
-          onClick={() => onChange(EMPTY_FILTERS)}
-          disabled={isEmptyFilters(filters)}
+          onClick={onReset ?? (() => onChange(EMPTY_FILTERS))}
+          disabled={!(resetActive ?? !isEmptyFilters(filters))}
           className="text-sm font-medium text-fuchsia-700 underline-offset-2 hover:underline disabled:cursor-not-allowed disabled:text-zinc-400 disabled:no-underline dark:text-fuchsia-400"
         >
-          Réinitialiser
+          Retirer tous les filtres
         </button>
       </div>
 
-      {/* Past festivals toggle */}
       <label className="flex items-center gap-2 text-sm font-medium text-zinc-700 dark:text-zinc-300">
         <input
           type="checkbox"
@@ -118,7 +117,6 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         Inclure les festivals passés
       </label>
 
-      {/* Type */}
       <fieldset>
         <legend className="mb-2 text-sm font-semibold text-zinc-700 dark:text-zinc-300">
           Type
@@ -136,7 +134,6 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         </div>
       </fieldset>
 
-      {/* Genres */}
       <fieldset>
         <legend className="mb-2 text-sm font-semibold text-zinc-700 dark:text-zinc-300">
           Genre
@@ -154,7 +151,6 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         </div>
       </fieldset>
 
-      {/* Dates */}
       <fieldset>
         <legend className="mb-2 text-sm font-semibold text-zinc-700 dark:text-zinc-300">
           Dates
@@ -187,40 +183,6 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         </div>
       </fieldset>
 
-      {/* Organizer */}
-      <div>
-        <label
-          htmlFor={ids.org}
-          className="mb-2 block text-sm font-semibold text-zinc-700 dark:text-zinc-300"
-        >
-          Organisateur
-        </label>
-        <input
-          id={ids.org}
-          type="text"
-          list={ids.orgList}
-          value={filters.organizer}
-          placeholder="Tous les organisateurs"
-          onChange={(e) => onChange({ ...filters, organizer: e.target.value })}
-          className="w-full rounded-md border border-zinc-300 bg-white px-2 py-1.5 text-sm dark:border-zinc-700 dark:bg-zinc-900"
-        />
-        <datalist id={ids.orgList}>
-          {ORGANIZERS.map((o) => (
-            <option key={o} value={o} />
-          ))}
-        </datalist>
-      </div>
-
-      {/* Artist */}
-      <Autocomplete
-        label="Artiste"
-        value={filters.artist}
-        onChange={(v) => onChange({ ...filters, artist: v })}
-        options={ARTISTS}
-        placeholder="Rechercher une tête d'affiche"
-      />
-
-      {/* Size */}
       <fieldset>
         <legend className="mb-2 text-sm font-semibold text-zinc-700 dark:text-zinc-300">
           Taille
@@ -238,7 +200,6 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         </div>
       </fieldset>
 
-      {/* Price per day */}
       <div>
         <label
           htmlFor={ids.day}
@@ -264,7 +225,6 @@ export default function FiltersPanel({ filters, onChange }: FiltersPanelProps) {
         />
       </div>
 
-      {/* Price full pass */}
       <div>
         <label
           htmlFor={ids.full}

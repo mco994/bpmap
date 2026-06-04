@@ -5,24 +5,21 @@ import Link from "next/link";
 import {
   EMPTY_FILTERS,
   applyFilters,
+  bestQueryMatch,
+  filterFestivalsByQuery,
   formatDateRange,
   formatPrice,
   priceFrom,
-  genreLabel,
+  isEmptyFilters,
   effectiveStatus,
   statusLabel,
   type Filters,
   type Festival,
 } from "@bpmap/shared";
+import FavoriteButton from "@/components/FavoriteButton";
 import FiltersPanel from "@/components/Filters";
 import FestivalGridCard from "@/components/FestivalGridCard";
-
-function normalize(s: string) {
-  return s
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "");
-}
+import GenreChips from "@/components/GenreChips";
 
 export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
@@ -33,31 +30,36 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   useEffect(() => setNow(new Date()), []);
 
   const filtered = useMemo(() => {
-    const base = applyFilters(festivals, filters, now);
-    const q = normalize(query.trim());
-    const matched = q
-      ? base.filter(
-          (f) =>
-            normalize(f.name).includes(q) || normalize(f.city).includes(q),
-        )
-      : base;
-    return [...matched].sort((a, b) => a.name.localeCompare(b.name, "fr"));
+    const base = filterFestivalsByQuery(applyFilters(festivals, filters, now), query);
+    return [...base].sort((a, b) => a.name.localeCompare(b.name, "fr"));
   }, [festivals, filters, now, query]);
+
+  const hasActive = !isEmptyFilters(filters) || query.trim() !== "";
+
+  const resetAll = () => {
+    setFilters(EMPTY_FILTERS);
+    setQuery("");
+  };
 
   return (
     <div className="grid gap-6 lg:grid-cols-[20rem_1fr]">
       <aside className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:self-start lg:overflow-y-auto lg:pr-2">
-        <FiltersPanel filters={filters} onChange={setFilters} />
+        <FiltersPanel
+          filters={filters}
+          onChange={setFilters}
+          onReset={resetAll}
+          resetActive={hasActive}
+        />
       </aside>
 
       <section aria-label="Sommaire" className="min-w-0">
         <label className="block">
-          <span className="sr-only">Rechercher un festival</span>
+          <span className="sr-only">Rechercher un événement</span>
           <input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher un festival ou une ville…"
+            placeholder="Festival, artiste, ville, genre, orga…"
             className="w-full rounded-lg border border-zinc-300 bg-white px-4 py-2.5 text-sm shadow-sm focus-visible:border-fuchsia-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-700 dark:bg-zinc-900"
           />
         </label>
@@ -67,7 +69,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
             className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
             aria-live="polite"
           >
-            {filtered.length} festival{filtered.length > 1 ? "s" : ""}
+            {filtered.length} événement{filtered.length > 1 ? "s" : ""}
             {filtered.length !== festivals.length && ` sur ${festivals.length}`}
           </p>
           <div
@@ -104,18 +106,19 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
 
         {filtered.length === 0 ? (
           <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
-            Aucun festival ne correspond à votre recherche.
+            Aucun événement ne correspond à votre recherche.
           </p>
         ) : view === "list" ? (
           <ul className="mt-4 divide-y divide-zinc-200 overflow-hidden rounded-xl border border-zinc-200 bg-white dark:divide-zinc-800 dark:border-zinc-800 dark:bg-zinc-900">
             {filtered.map((f) => {
               const status = now ? effectiveStatus(f, now) : f.status;
               const showStatus = status === "passed" || status === "cancelled";
+              const match = bestQueryMatch(f, query);
               return (
-                <li key={f.id}>
+                <li key={f.id} className="relative">
                   <Link
                     href={`/festivals/${f.slug}`}
-                    className="flex items-center justify-between gap-4 px-4 py-3 transition-colors hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-fuchsia-500 dark:hover:bg-zinc-800"
+                    className="flex items-center justify-between gap-4 py-3 pl-4 pr-12 transition-colors hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-fuchsia-500 dark:hover:bg-zinc-800"
                   >
                     <span className="min-w-0">
                       <span className="flex items-center gap-2">
@@ -139,8 +142,14 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                         <time dateTime={f.startDate ?? undefined}>
                           {formatDateRange(f.startDate, f.endDate)}
                         </time>
-                        {f.genres.length > 0 &&
-                          ` · ${f.genres.slice(0, 3).map(genreLabel).join(", ")}`}
+                      </span>
+                      <span className="mt-1.5 block">
+                        <GenreChips
+                          genres={f.genres}
+                          highlight={
+                            match?.field === "genre" ? match.genreSlug : undefined
+                          }
+                        />
                       </span>
                     </span>
                     <span className="shrink-0 text-right text-sm">
@@ -152,17 +161,29 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                       </span>
                     </span>
                   </Link>
+                  <span className="absolute right-3 top-1/2 -translate-y-1/2">
+                    <FavoriteButton festivalId={f.id} />
+                  </span>
                 </li>
               );
             })}
           </ul>
         ) : (
           <ul className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {filtered.map((f) => (
-              <li key={f.id}>
-                <FestivalGridCard festival={f} now={now} />
-              </li>
-            ))}
+            {filtered.map((f) => {
+              const match = bestQueryMatch(f, query);
+              return (
+                <li key={f.id}>
+                  <FestivalGridCard
+                    festival={f}
+                    now={now}
+                    highlightGenre={
+                      match?.field === "genre" ? match.genreSlug : undefined
+                    }
+                  />
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>
