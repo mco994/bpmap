@@ -1,8 +1,3 @@
-// Applies every supabase/migrations/*.sql file (in order) to the database in
-// DATABASE_URL. Re-runnable: the SQL uses IF NOT EXISTS / guarded enum creation.
-//
-//   npm run db:migrate            (reads DATABASE_URL from .env.local)
-//
 import pg from "pg";
 import { readFileSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";

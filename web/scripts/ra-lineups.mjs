@@ -1,11 +1,3 @@
-// Resident Advisor → festival lineup enrichment.
-// Queries RA's GraphQL for French areas over the next months, fuzzy-matches RA
-// events to our festivals (by normalized name), and merges the RA artists into
-// src/data/lineups.json (dedup). Conservative matching to avoid false positives.
-//
-//   node scripts/ra-lineups.mjs
-//
-// RA_AREAS env (comma-separated RA area ids) extends coverage; default Paris=44.
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -17,8 +9,6 @@ const festivals = JSON.parse(
 );
 const lineups = JSON.parse(readFileSync(path.join(dataDir, "lineups.json"), "utf8"));
 
-// Map our regions to RA area ids. RA areas are city/metro-scoped; extend this
-// map as we confirm more ids (only Paris=44 is verified so far).
 const REGION_AREAS = {
   "Île-de-France": [44],
 };
@@ -54,11 +44,8 @@ async function fetchEvents(area, gte, lte) {
   return json.data?.eventListings?.data ?? [];
 }
 
-const matchArtists = {}; // slug -> Set(artists)
+const matchArtists = {};
 
-// Targeted: for each festival with dates in a known RA area, query RA on its own
-// date window (± a couple days) and match the event whose title contains the
-// festival name. Far more precise than scanning months of listings.
 for (const f of festivals) {
   const key = norm(f.name);
   const areas = REGION_AREAS[f.region];
@@ -78,9 +65,7 @@ for (const f of festivals) {
         (matchArtists[f.slug] ??= new Set());
         for (const a of artists) matchArtists[f.slug].add(a);
       }
-    } catch {
-      /* skip on error */
-    }
+    } catch {}
     await sleep(300);
   }
 }

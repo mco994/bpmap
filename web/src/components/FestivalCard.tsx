@@ -13,7 +13,6 @@ interface FestivalCardProps {
   festival: Festival;
   selected: boolean;
   onLocate: (id: string) => void;
-  /** Null until mounted on the client; gates the "Passé" badge. */
   now: Date | null;
 }
 
