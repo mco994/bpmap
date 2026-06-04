@@ -177,6 +177,7 @@
     "organizer": "Insane Festival",
     "capacity": null,
     "genres": [
+      "hard-techno",
       "hardstyle",
       "techno",
       "psytrance"
@@ -808,6 +809,96 @@
     ]
   },
   {
+    "id": "pelouses-electroniques",
+    "slug": "pelouses-electroniques",
+    "name": "Pelouses Électroniques",
+    "description": "Préambule gratuit du festival Contre-temps au Jardin des Deux Rives : une après-midi « à 124 bpm » entre house, techno, minimal, UK garage et breaks, format pique-nique dansant.",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-06",
+    "lat": 48.57983,
+    "lng": 7.76145,
+    "city": "Strasbourg",
+    "region": "Grand Est",
+    "organizer": "Contre-temps (association Dodekazz)",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "minimal",
+      "dub"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.contre-temps.net/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://culture.strasbourg.eu/sit/contre-temps-festival-2026-575127068/",
+      "https://pokaa.fr/2026/05/28/dj-sets-en-plein-air-un-festival-100-gratuit-revient-dans-un-parc-de-strasbourg/"
+    ]
+  },
+  {
+    "id": "pure-open-air",
+    "slug": "pure-open-air",
+    "name": "Pure Open Air",
+    "description": "Édition anniversaire des 10 ans du collectif lillois Pure Events à la ferme des Mions : trois scènes (house/minimal, hybride, techno) et 15 heures de musique non-stop.",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-06",
+    "lat": 50.71944,
+    "lng": 2.5318,
+    "city": "Hazebrouck",
+    "region": "Hauts-de-France",
+    "organizer": "Pure Events",
+    "capacity": null,
+    "genres": [
+      "house",
+      "minimal",
+      "techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.pure-open-air.com/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.lavoixdunord.fr/1708049/article/2026-06-01/le-festival-pure-open-air-revient-samedi-la-ferme-des-mions",
+      "https://www.pure-open-air.com/"
+    ]
+  },
+  {
+    "id": "atrium-open-air",
+    "slug": "atrium-open-air",
+    "name": "Atrium Open Air",
+    "description": "Open air du collectif bordelais Biome pour ses 6 ans, dans la cour de l'Atrium de la fac de la Victoire : 8 heures de house, électro et groove avec une affiche 100 % bordelaise.",
+    "startDate": "2026-06-06",
+    "endDate": "2026-06-06",
+    "lat": 44.8519,
+    "lng": -0.58788,
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": "Collectif Biome",
+    "capacity": null,
+    "genres": [
+      "house",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.lebonbon.fr/bordeaux/festivals-et-concerts/open-air-8h-debarque-cour-romaine-classee-patrimoine-national-bordeaux/",
+      "https://happeningnext.com/event/atrium-open-air-biome-6th-anniversary-eid3a0dncb6x8"
+    ]
+  },
+  {
     "id": "people-are-strange",
     "slug": "people-are-strange",
     "name": "People Are Strange Festival",
@@ -937,6 +1028,158 @@
     ],
     "sources": [
       "https://shotgun.live/en/festivals/brunch-electronik-paris-2026"
+    ]
+  },
+  {
+    "id": "house-of-groove-km25",
+    "slug": "house-of-groove-km25",
+    "name": "Open Air House of Groove (Kilomètre25)",
+    "description": "Nuit open air sous le périphérique au Kilomètre25 (2 200 m²) : house, French touch et UK garage avec Alan Braxe, Leo Pol et Bonitoboy (Ed Banger), de minuit à 9h.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-14",
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": "House of Groove x Kilomètre25",
+    "capacity": null,
+    "genres": [
+      "house",
+      "french-touch",
+      "techno"
+    ],
+    "priceDay": 8,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/fr/events/house-of-groove-leo-pol-alan-braxe-bonito-boy-kilometre25",
+    "officialUrl": "https://kilometre25.fr/francais/agenda",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://kilometre25.fr/francais/agenda",
+      "https://www.songkick.com/concerts/43213782-leo-pol-at-kilometre25",
+      "https://www.parisbouge.com/events/321269"
+    ]
+  },
+  {
+    "id": "aeronautic-rave-museum",
+    "slug": "aeronautic-rave-museum",
+    "name": "Aeronautic Rave Museum XXL",
+    "description": "Le musée Aeroscopia transformé en rave par le collectif Plein Phare : open air sur le tarmac sous l'aile d'un A380 (Étienne de Crécy, Konvex b2b Samantha Loveridge), puis after sous le Concorde en techno et hard techno.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-14",
+    "lat": 43.63757,
+    "lng": 1.38301,
+    "city": "Blagnac",
+    "region": "Occitanie",
+    "organizer": "Plein Phare (GRP N Production)",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "electro",
+      "hard-techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://billetterie.n-prod.com/aeronautic-rave-museum-xxl-open-air-after-plein-phare-x-aeroscopia.html",
+    "officialUrl": "https://billetterie.n-prod.com/aeronautic-rave-museum-xxl-open-air-after-plein-phare-x-aeroscopia.html",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://billetterie.n-prod.com/aeronautic-rave-museum-xxl-open-air-after-plein-phare-x-aeroscopia.html",
+      "https://www.ladepeche.fr/2026/05/26/le-musee-aeroscopia-transforme-en-rave-electro-xxl-sous-lairbus-a380-avec-open-air-et-after-warehouse-pres-de-toulouse-13388769.php"
+    ]
+  },
+  {
+    "id": "undersound-open-air",
+    "slug": "undersound-open-air",
+    "name": "Undersound Open Air",
+    "description": "Open air au bord de l'eau au Port de Plaisance de Strasbourg : DJ sets house et techno de 13h à minuit, jusqu'au coucher de soleil sur le bassin.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-13",
+    "lat": 48.57983,
+    "lng": 7.76145,
+    "city": "Strasbourg",
+    "region": "Grand Est",
+    "organizer": "Undersound (ARTF)",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "electro"
+    ],
+    "priceDay": 10,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://www.helloasso.com/associations/artf/evenements/undersound-open-air",
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.helloasso.com/associations/artf/evenements/undersound-open-air",
+      "https://www.coze.fr/agenda/undersound-open-air/"
+    ]
+  },
+  {
+    "id": "goutez-electronique-1",
+    "slug": "goutez-electronique-1",
+    "name": "Goûtez Électronique #1",
+    "description": "Open air gratuit au pied de la Grue Titan Jaune, au bord de la Loire : house et techno tournées vers les talents émergents, par l'équipe bénévole active depuis 2009 (after au Macadam).",
+    "startDate": "2026-06-14",
+    "endDate": "2026-06-14",
+    "lat": 47.23937,
+    "lng": -1.55533,
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "organizer": "Goûtez Électronique",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "minimal"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.goutez-electronique.com/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.goutez-electronique.com/",
+      "https://www.bigcitynantes.fr/culture-loisirs/goutez-electro-on-connait-enfin-les-3-dates-programmees-en-2026-a-nantes/"
+    ]
+  },
+  {
+    "id": "kodz-open-air",
+    "slug": "kodz-open-air",
+    "name": "KODZ Open Air x Acidelics x Blizzard",
+    "description": "Open air des collectifs Acidelics et Blizzard Records au KODZ, club électro géant du Nord : 16 heures de son dont 8 en extérieur, plus une scène indoor.",
+    "startDate": "2026-06-20",
+    "endDate": "2026-06-21",
+    "lat": 50.62542,
+    "lng": 2.95578,
+    "city": "Englos",
+    "region": "Hauts-de-France",
+    "organizer": "KODZ Club / Acidelics x Blizzard Records",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "hard-techno",
+      "house"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://happeningnext.com/event/kodz-open-air-x-acidelics-x-blizzard-silence-andamp-more-eid3a0dnfg8w0",
+      "https://www.noxway.fr/nightclub/b50949fe1d9d99648ae1ef9e1b57"
     ]
   },
   {
@@ -1154,6 +1397,35 @@
     "status": "announced",
     "sources": [
       "https://www.m2afestival.fr/"
+    ]
+  },
+  {
+    "id": "forever-electro-open-air",
+    "slug": "forever-electro-open-air",
+    "name": "Forever Electro Open Air",
+    "description": "Soirée d'ouverture open air du festival Summer Dreams à Furdenheim : EDM grand public avec Joachim Garraud, Chris Willis et Nils Van Zandt, de 20h à 4h.",
+    "startDate": "2026-06-26",
+    "endDate": "2026-06-26",
+    "lat": 48.61287,
+    "lng": 7.56202,
+    "city": "Furdenheim",
+    "region": "Grand Est",
+    "organizer": "Neo Concept Communication / ACSL Furdenheim",
+    "capacity": null,
+    "genres": [
+      "edm",
+      "electro"
+    ],
+    "priceDay": 49,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.furdenheim.fr/festival-summer-dreams/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.furdenheim.fr/festival-summer-dreams/",
+      "https://acsl-furdenheim.org/summer-dreams-2026/"
     ]
   },
   {
@@ -1490,6 +1762,97 @@
     ]
   },
   {
+    "id": "club-peyrou",
+    "slug": "club-peyrou",
+    "name": "Club Peyrou",
+    "description": "Club à ciel ouvert sur la promenade royale du Peyrou : deux soirées entre French touch et techno mélodique avec The Blaze, Worakls, NTO et Kompromat.",
+    "startDate": "2026-07-03",
+    "endDate": "2026-07-04",
+    "lat": 43.61048,
+    "lng": 3.87048,
+    "city": "Montpellier",
+    "region": "Occitanie",
+    "organizer": "My Life is a Weekend / Rockstore",
+    "capacity": null,
+    "genres": [
+      "french-touch",
+      "house",
+      "techno"
+    ],
+    "priceDay": 15,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://xceed.me/en/montpellier/event/club-peyrou-2026/218791",
+    "officialUrl": "https://www.rockstore.fr/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://xceed.me/en/montpellier/event/club-peyrou-2026/218791",
+      "https://www.montpellier-tourisme.fr/agenda/tout-l-agenda/concerts-electro-geants-club-peyrou-montpellier-fr-6169888/"
+    ]
+  },
+  {
+    "id": "organik-open-rave",
+    "slug": "organik-open-rave",
+    "name": "Organïk Open Rave Paris",
+    "description": "Open air XXL au Kilowatt : trois scènes trance, techno et hard music (Rebekah, Krowdexx, Medusa) de 14h à 2h, suivi d'une afterparty au Phantom.",
+    "startDate": "2026-07-04",
+    "endDate": "2026-07-04",
+    "lat": 48.7895,
+    "lng": 2.39571,
+    "city": "Vitry-sur-Seine",
+    "region": "Île-de-France",
+    "organizer": "Organïk",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "techno",
+      "trance",
+      "hardstyle"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/fr/festivals/organik-open-rave-paris-2026",
+    "officialUrl": "https://shotgun.live/fr/festivals/organik-open-rave-paris-2026",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://shotgun.live/fr/festivals/organik-open-rave-paris-2026"
+    ]
+  },
+  {
+    "id": "solar-festival",
+    "slug": "solar-festival",
+    "name": "Solar Festival",
+    "description": "Open air électronique au bord du lac du Crès, près de Montpellier : house et tech-house de l'après-midi à la nuit, avec Petit Biscuit, KAS:ST et Joris Delacroix pour la 5e édition.",
+    "startDate": "2026-07-04",
+    "endDate": "2026-07-04",
+    "lat": 43.65283,
+    "lng": 3.93729,
+    "city": "Le Crès",
+    "region": "Occitanie",
+    "organizer": "Solar Festival",
+    "capacity": null,
+    "genres": [
+      "house",
+      "electro",
+      "techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://solarfestival.fr/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://solarfestival.fr/",
+      "https://www.lecres.fr/Agenda/12/D/13294/8/A1",
+      "https://actu.fr/occitanie/le-cres_34090/le-solar-festival-renforce-sa-belle-programmation-pour-sa-5e-edition_64109507.html"
+    ]
+  },
+  {
     "id": "the-peacock-society",
     "slug": "the-peacock-society",
     "name": "The Peacock Society",
@@ -1656,6 +2019,37 @@
     ]
   },
   {
+    "id": "nemoria-festival",
+    "slug": "nemoria-festival",
+    "name": "Nemoria Festival",
+    "description": "Quatre collectifs de l'Ouest (Comme ça, LENA, Symbiose, Elypsonore) réunis à Rennes : before open air à La Basse Cour puis main event nocturne au parc de la Prévalaye, entre house, techno, trance et acidcore.",
+    "startDate": "2026-07-11",
+    "endDate": "2026-07-12",
+    "lat": 48.1109,
+    "lng": -1.68365,
+    "city": "Rennes",
+    "region": "Bretagne",
+    "organizer": "Symbiose / LENA / Comme ça / Elypsonore",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "trance",
+      "hard-techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/fr/events/nemoria-festival-2026",
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://shotgun.live/fr/events/nemoria-festival-2026",
+      "https://labassecour.org/infos-pratiques"
+    ]
+  },
+  {
     "id": "electrobeach-music-festival",
     "slug": "electrobeach-music-festival",
     "name": "Electrobeach Music Festival",
@@ -1713,6 +2107,34 @@
     ]
   },
   {
+    "id": "balterno-caravane-tour",
+    "slug": "balterno-caravane-tour",
+    "name": "Balterno Caravane Tour (Pont Simone Veil)",
+    "description": "Bal techno gratuit en caravane sound-system sur le pont Simone Veil, étape bordelaise du Caravane Tour de Balterno : DJ sets, initiation au DJing, buvette et food trucks.",
+    "startDate": "2026-07-16",
+    "endDate": "2026-07-16",
+    "lat": 44.8519,
+    "lng": -0.58788,
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": "Balterno Production",
+    "capacity": null,
+    "genres": [
+      "techno"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://balterno-production.fr/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://balterno-production.fr/",
+      "https://www.bordeaux-metropole.fr/agenda/balterno-caravane-tour-4-hip-hop-and-bass-music-mr-ours-dj-vex-yellow-paup"
+    ]
+  },
+  {
     "id": "aelipse",
     "slug": "aelipse",
     "name": "Aelipse",
@@ -1755,9 +2177,10 @@
     "capacity": 20000,
     "genres": [
       "techno",
-      "hardstyle",
+      "hard-techno",
+      "edm",
       "house",
-      "edm"
+      "hardstyle"
     ],
     "priceDay": 52,
     "priceFull": 82,
@@ -1903,8 +2326,9 @@
     "organizer": "Eskape",
     "capacity": 50000,
     "genres": [
-      "techno",
+      "hard-techno",
       "hardstyle",
+      "techno",
       "edm"
     ],
     "priceDay": 67.98,
@@ -2137,7 +2561,9 @@
     "genres": [
       "trance",
       "techno",
-      "dub"
+      "hard-techno",
+      "dub",
+      "drum-n-bass"
     ],
     "priceDay": 45,
     "priceFull": 79,
@@ -2353,6 +2779,35 @@
     ]
   },
   {
+    "id": "coeur-meurtri-open-air",
+    "slug": "coeur-meurtri-open-air",
+    "name": "Cœur Meurtri Open Air",
+    "description": "Open air gratuit techno et hard techno sur l'île du Ramier, au line-up 100 % féminin imaginé par DJ Babe, avec le soutien de la Mairie de Toulouse.",
+    "startDate": "2026-08-21",
+    "endDate": "2026-08-22",
+    "lat": 43.60408,
+    "lng": 1.4338,
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "organizer": "Cœur Meurtri (DJ Babe)",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "techno"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://assoce.fr/waldec/W313041734/COEUR-MEURTRI",
+      "https://allevents.in/toulouse/open-air-2026-gratuit-coeur-meurtri-ile-du-ramier/200030096865041"
+    ]
+  },
+  {
     "id": "hadra-trance-festival",
     "slug": "hadra-trance-festival",
     "name": "Hadra Trance Festival",
@@ -2510,6 +2965,36 @@
     "status": "announced",
     "sources": [
       "https://info-festival.net/festival/electro-alternativ/"
+    ]
+  },
+  {
+    "id": "goutez-electronique-2",
+    "slug": "goutez-electronique-2",
+    "name": "Goûtez Électronique #2",
+    "description": "Deuxième date de la saison gratuite : open air house et techno au pied de la Grue Titan Jaune, programmation à venir (after au Macadam).",
+    "startDate": "2026-09-06",
+    "endDate": "2026-09-06",
+    "lat": 47.23937,
+    "lng": -1.55533,
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "organizer": "Goûtez Électronique",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "minimal"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.goutez-electronique.com/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.goutez-electronique.com/",
+      "https://cnantais.fr/goutez-electronique-3-soirees-gratuites-a-nantes/"
     ]
   },
   {
@@ -2739,6 +3224,36 @@
     ]
   },
   {
+    "id": "goutez-electronique-3",
+    "slug": "goutez-electronique-3",
+    "name": "Goûtez Électronique #3",
+    "description": "Clôture nocturne de la saison à la Cale des Sous-Marins (17h-23h) : open air gratuit house et techno au bord de la Loire.",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-26",
+    "lat": 47.23937,
+    "lng": -1.55533,
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "organizer": "Goûtez Électronique",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "minimal"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.goutez-electronique.com/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.goutez-electronique.com/",
+      "https://cnantais.fr/goutez-electronique-3-soirees-gratuites-a-nantes/"
+    ]
+  },
+  {
     "id": "ndk-festival",
     "slug": "ndk-festival",
     "name": "NDK Festival",
@@ -2915,10 +3430,11 @@
     "organizer": "The Walking Bass",
     "capacity": null,
     "genres": [
-      "techno",
+      "hard-techno",
       "hardstyle",
+      "drum-n-bass",
       "trance",
-      "drum-n-bass"
+      "techno"
     ],
     "priceDay": null,
     "priceFull": null,
@@ -3224,6 +3740,7 @@
     "capacity": 7500,
     "genres": [
       "hardstyle",
+      "hard-techno",
       "techno"
     ],
     "priceDay": null,
@@ -3322,6 +3839,68 @@
     "status": "announced",
     "sources": [
       "https://www.tsugi.fr/la-programmation-du-wee-festival-disponible-3-jours-de-musiques-electroniques-a-poitiers/"
+    ]
+  },
+  {
+    "id": "kilometre25-saison",
+    "slug": "kilometre25-saison",
+    "name": "Kilomètre25 — saison open air",
+    "description": "Open air de 2 200 m² sous le périphérique (Paris 19e) : saison estivale d'open airs portés par des collectifs invités, entre hard techno, trance, techno et house, dès 8 €.",
+    "startDate": null,
+    "endDate": null,
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": "Kilomètre25",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "techno",
+      "trance",
+      "house"
+    ],
+    "priceDay": 8,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.km25.paris/",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://kilometre25.fr/francais/agenda",
+      "https://bspoque.com/kilometre25-season-2026-extended-hours-and-culture-in-paris/"
+    ]
+  },
+  {
+    "id": "paco-tyson-open-air",
+    "slug": "paco-tyson-open-air",
+    "name": "Paco Tyson Open Air",
+    "description": "Série estivale gratuite à Station Nuage (Île Forget) : Blue Friday bimensuels et Parc O Tyson, le plus gros open air gratuit de l'agglo nantaise, entre techno, house, trance et drum'n'bass.",
+    "startDate": null,
+    "endDate": null,
+    "lat": 47.19935,
+    "lng": -1.50268,
+    "city": "Saint-Sébastien-sur-Loire",
+    "region": "Pays de la Loire",
+    "organizer": "Paco Tyson",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "trance",
+      "drum-n-bass"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://pacotyson.fr/",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.festivalenfrance.com/festival/paco-tyson",
+      "https://www.bigcitynantes.fr/que-faire-a-nantes/open-air-paco-tyson-a-la-station-nuage/"
     ]
   }
 ]
