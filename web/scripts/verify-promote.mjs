@@ -1,13 +1,3 @@
-// Automated verification + promotion (no manual gate).
-// Reads festivals.candidates.json, cross-checks each candidate, and AUTO-PROMOTES
-// those passing the confidence threshold into festivals.source.json (+ lineups).
-// Rejected candidates stay quarantined in festivals.candidates.json with a reason.
-//
-//   node scripts/verify-promote.mjs
-//
-// Promotion rule (see memory festimap-data-rules): festival-like + has a usable
-// location + (≥2 distinct source domains OR official site reachable with ≥2
-// electro keywords and a 2026 date) + electronic genre confirmed.
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -29,8 +19,6 @@ const lineups = JSON.parse(readFileSync(lineupsPath, "utf8"));
 const ELECTRO =
   /\b(électro|electro|techno|house|trance|psytrance|hardstyle|hardcore|drum.?n.?bass|dnb|dub|disco|french touch|rave|EDM|minimal|acid)\b/i;
 
-// Normalize a festival name for fuzzy dedup: lowercase, strip accents, drop the
-// word "festival" and punctuation, so "Elektric Park Festival" == "elektric-park".
 function normName(s) {
   return (s ?? "")
     .toLowerCase()
@@ -43,7 +31,6 @@ function normName(s) {
 const knownSlugs = new Set(source.map((f) => f.slug));
 const knownNames = new Set(source.map((f) => normName(f.name)));
 
-// Names that look like a club night / one-off party rather than a festival.
 const PARTY_PATTERN = /\sw\/\s| x | feat\.?| b2b |présente|presents|invite|closing|opening|warm.?up/i;
 
 function domainsOf(sources = []) {
@@ -51,9 +38,7 @@ function domainsOf(sources = []) {
   for (const s of sources) {
     try {
       set.add(new URL(s).hostname.replace(/^www\./, ""));
-    } catch {
-      /* ignore */
-    }
+    } catch {}
   }
   return set;
 }
@@ -66,12 +51,14 @@ function inferGenres(text) {
     "drum-n-bass": /drum.?n.?bass|dnb|jungle/i,
     trance: /\btrance\b/i,
     psytrance: /psytrance|psy-?trance|goa/i,
+    "hard-techno": /hard.?techno|hardtek/i,
     hardstyle: /hardstyle|hardcore|frenchcore|rawstyle|uptempo/i,
     electro: /\belectro\b|\bélectro/i,
     minimal: /\bminimal\b/i,
     edm: /\bedm\b|big room/i,
     disco: /\bdisco\b/i,
     dub: /\bdub\b|sound ?system/i,
+    dubstep: /dubstep/i,
     ambient: /\bambient\b|experimental|expérimental/i,
   };
   const g = Object.entries(map)
@@ -106,7 +93,6 @@ for (const c of candidates) {
     continue;
   }
 
-  // Reject club-night/party-style titles and overly long messy titles.
   if (PARTY_PATTERN.test(c.name) || c.name.length > 55) {
     rejected.push({ ...c, _reason: "ressemble à une soirée/club, pas un festival" });
     continue;
@@ -115,7 +101,6 @@ for (const c of candidates) {
   const text = `${c.name} ${c.description ?? ""}`;
   const multiDay =
     c.startDate && c.endDate && c.endDate.slice(0, 10) > c.startDate.slice(0, 10);
-  // A festival = the word "festival" in the name OR a genuine multi-day run.
   const festivalLike = /\bfestival\b/i.test(c.name) || multiDay;
   if (!festivalLike) {
     rejected.push({ ...c, _reason: "pas festival-like (ni 'festival' ni multi-jours)" });
@@ -136,9 +121,6 @@ for (const c of candidates) {
 
   const multiSource = domainsOf(c.sources).size >= 2;
   const named = /\bfestival\b/i.test(c.name);
-  // Named "festival" → site/2-source verification suffices. Otherwise demand
-  // stronger corroboration (≥2 distinct sources AND multi-day) to avoid
-  // promoting club nights mislabelled by noisy event feeds.
   const verified = named
     ? multiSource || (await officialVerified(c.officialUrl))
     : multiSource && multiDay;
@@ -152,7 +134,6 @@ for (const c of candidates) {
     continue;
   }
 
-  // Promote.
   const entry = {
     slug,
     name: c.name,

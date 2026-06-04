@@ -1,13 +1,3 @@
-// Ingestion (discovery) — WORK IN PROGRESS skeleton.
-//
-// Goal: pull candidate festivals from open-data sources, keep only the
-// electronic-dominant French multi-day ones, drop those we already have, and
-// write them to festivals.candidates.json for HUMAN REVIEW before they are
-// promoted into the curated festivals.source.json. We never auto-publish
-// unreviewed data (rigor requirement).
-//
-//   node scripts/ingest.mjs
-//
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
@@ -20,10 +10,8 @@ const source = JSON.parse(
 );
 const known = new Set(source.map((f) => f.slug));
 
-// Loose electro keyword gate for the description/title. The real ≥60% rule is
-// applied later by a human (and eventually by lineup genre classification).
 const ELECTRO_HINTS =
-  /\b(électro|electro|techno|house|trance|psytrance|hardstyle|hardcore|drum.?n.?bass|dnb|dub|disco|french touch|rave|EDM|minimal)\b/i;
+  /\b(électro|electro|techno|house|trance|psytrance|hardstyle|hardcore|hardtek|drum.?n.?bass|dnb|dub|dubstep|disco|french touch|rave|EDM|minimal)\b/i;
 
 function slugify(name) {
   return name
@@ -34,14 +22,7 @@ function slugify(name) {
     .replace(/^-|-$/g, "");
 }
 
-// --- Connectors (TODO) -----------------------------------------------------
-// Each returns an array of raw candidates: { name, city, region, startDate?,
-// endDate?, description?, officialUrl?, sources: [...] }.
 
-// DATAtourisme — official open-data API (free, requires registration). Set
-// DATATOURISME_FLUX_URL (the per-application JSON flux URL incl. your API key)
-// in the environment. Without it the connector is skipped.
-// Docs: https://info.datatourisme.fr/ — the flux serves JSON-LD POIs.
 async function fetchDatatourisme() {
   const fluxUrl = process.env.DATATOURISME_FLUX_URL;
   if (!fluxUrl || fluxUrl.includes("{app_key}")) {
@@ -50,7 +31,6 @@ async function fetchDatatourisme() {
   }
 
   const arr = (x) => (Array.isArray(x) ? x : x == null ? [] : [x]);
-  // JSON-LD values are multilingual ({@language,@value}) or nested objects.
   const label = (v) => {
     if (v == null) return null;
     if (typeof v === "string") return v;
@@ -100,7 +80,7 @@ async function fetchDatatourisme() {
           if (s && (!startDate || s < startDate)) startDate = s;
           if (e && (!endDate || e > endDate)) endDate = e;
         }
-        if (endDate && endDate < today) continue; // skip finished events
+        if (endDate && endDate < today) continue;
         out.push({
           name,
           city: label(address["schema:addressLocality"]),
@@ -114,9 +94,7 @@ async function fetchDatatourisme() {
           sources: [poi["@id"]].filter(Boolean),
           genreVerified: false,
         });
-      } catch {
-        /* skip malformed POI */
-      }
+      } catch {}
     }
     console.log(`· DATAtourisme: ${out.length} événements à venir récupérés`);
     return out;
@@ -126,11 +104,8 @@ async function fetchDatatourisme() {
   }
 }
 
-// Resident Advisor — unofficial GraphQL endpoint (no key). Best electro source.
-// Used for discovery + lineups. Returns events with artists for FR areas over
-// the next months; we keep festival-like events (title "festival" or ≥6 artists).
 async function fetchResidentAdvisor() {
-  const AREAS = [44]; // 44 = Paris (verified). TODO: add more FR RA area ids.
+  const AREAS = [44];
   const today = new Date();
   const gte = today.toISOString().slice(0, 10);
   const end = new Date(today.getFullYear(), today.getMonth() + 6, today.getDate());
@@ -169,20 +144,15 @@ async function fetchResidentAdvisor() {
           endDate: null,
           officialUrl: url,
           lineup: artists,
-          genreVerified: true, // RA is an electronic-music platform
+          genreVerified: true,
           sources: [url ?? "https://ra.co"],
         });
       }
-    } catch {
-      /* network/area error → skip this area */
-    }
+    } catch {}
   }
   return out;
 }
 
-// OpenAgenda — public events via the Opendatasoft Explore API v2.1 (no key).
-// Keeps upcoming, multi-day, France events matching electro keywords. Results
-// are coarse (full-text match) → the ELECTRO_HINTS gate + human review refine.
 async function fetchOpenAgenda() {
   const base =
     "https://public.opendatasoft.com/api/explore/v2.1/catalog/datasets/evenements-publics-openagenda/records";
@@ -206,7 +176,7 @@ async function fetchOpenAgenda() {
 
   return (json.results ?? [])
     .filter((r) => r.title_fr && r.firstdate_begin)
-    .filter((r) => day(r.lastdate_end) > day(r.firstdate_begin)) // multi-day only
+    .filter((r) => day(r.lastdate_end) > day(r.firstdate_begin))
     .map((r) => ({
       name: r.title_fr,
       city: r.location_city ?? null,
@@ -218,13 +188,10 @@ async function fetchOpenAgenda() {
       lng: r.location_coordinates?.lon ?? null,
       officialUrl: r.canonicalurl ?? null,
       sources: [r.canonicalurl].filter(Boolean),
-      genreVerified: false, // keyword-only → keep the keyword gate + human review
+      genreVerified: false,
     }));
 }
 
-// Wikidata — SPARQL: music festivals located in France whose genre is
-// (a subclass of) electronic music. Structured, no API key, high precision for
-// established festivals. Genre is verified by the query itself.
 async function fetchWikidata() {
   const query = `
     SELECT DISTINCT ?f ?fLabel ?coord ?site ?placeLabel WHERE {
@@ -263,7 +230,7 @@ async function fetchWikidata() {
       officialUrl: b.site?.value ?? null,
       lat,
       lng,
-      genreVerified: true, // the SPARQL query already filtered on electronic genre
+      genreVerified: true,
       sources: [b.f.value],
     };
   });
@@ -280,8 +247,7 @@ const seen = new Set();
 const candidates = [];
 for (const c of raw) {
   const slug = slugify(c.name);
-  if (known.has(slug) || seen.has(slug)) continue; // dedup vs base + within batch
-  // Sources that already verified the electronic genre skip the keyword gate.
+  if (known.has(slug) || seen.has(slug)) continue;
   const text = `${c.name} ${c.description ?? ""}`;
   if (!c.genreVerified && !ELECTRO_HINTS.test(text)) continue;
   seen.add(slug);

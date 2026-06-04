@@ -9,7 +9,6 @@ import generated from "./data/festivals.json";
 
 export const FESTIVALS = generated as unknown as Festival[];
 
-// Controlled genre vocabulary. Festival.genres references these slugs.
 export const GENRES: Genre[] = [
   { slug: "techno", label: "Techno" },
   { slug: "house", label: "House" },
@@ -17,12 +16,14 @@ export const GENRES: Genre[] = [
   { slug: "drum-n-bass", label: "Drum'n'bass" },
   { slug: "trance", label: "Trance" },
   { slug: "psytrance", label: "Psytrance" },
+  { slug: "hard-techno", label: "Hard techno" },
   { slug: "hardstyle", label: "Hardstyle / Hardcore" },
   { slug: "electro", label: "Electro" },
   { slug: "minimal", label: "Minimal" },
   { slug: "edm", label: "EDM / Big room" },
   { slug: "disco", label: "Disco" },
   { slug: "dub", label: "Dub / Bass" },
+  { slug: "dubstep", label: "Dubstep" },
   { slug: "ambient", label: "Ambient / Expérimental" },
 ];
 
@@ -46,8 +47,6 @@ export function eventTypeLabel(type: EventType): string {
   return EVENT_TYPES.find((t) => t.type === type)?.label ?? type;
 }
 
-// Size tiers, ordered from smallest to largest. `min` is the inclusive lower
-// bound on approximate capacity.
 export const SIZE_TIERS: { tier: SizeTier; label: string; min: number }[] = [
   { tier: "S", label: "Petit (< 5 000)", min: 0 },
   { tier: "M", label: "Moyen (5 000 – 15 000)", min: 5000 },
@@ -67,7 +66,6 @@ export function sizeTierLabel(tier: SizeTier): string {
   return SIZE_TIERS.find((t) => t.tier === tier)?.label ?? tier;
 }
 
-/** All festivals, sorted by start date (dateless ones last). */
 export function getAllFestivals(): Festival[] {
   return [...FESTIVALS].sort((a, b) =>
     (a.startDate ?? "9999").localeCompare(b.startDate ?? "9999"),
@@ -78,7 +76,6 @@ export function getFestivalBySlug(slug: string): Festival | undefined {
   return FESTIVALS.find((f) => f.slug === slug);
 }
 
-/** Distinct organizers, alphabetically sorted, for the filter dropdown. */
 export function getOrganizers(): string[] {
   const names = FESTIVALS.map((f) => f.organizer).filter(
     (o): o is string => !!o,
@@ -86,13 +83,11 @@ export function getOrganizers(): string[] {
   return [...new Set(names)].sort((a, b) => a.localeCompare(b, "fr"));
 }
 
-/** Distinct artists across all lineups, alphabetically sorted. */
 export function getArtists(): string[] {
   const all = FESTIVALS.flatMap((f) => f.lineup ?? []);
   return [...new Set(all)].sort((a, b) => a.localeCompare(b, "fr"));
 }
 
-/** Highest day / full price across the dataset, rounded up to the next 10€. */
 export function getPriceBounds(): { maxDay: number; maxFull: number } {
   const round = (n: number) => Math.ceil(n / 10) * 10;
   const notNull = (n: number | null): n is number => n !== null;
@@ -114,7 +109,6 @@ const DAY_MONTH_FMT = new Intl.DateTimeFormat("fr-FR", {
   month: "long",
 });
 
-/** Human-readable French date range, e.g. "6 – 9 août 2026". */
 export function formatDateRange(
   startDate: string | null,
   endDate: string | null,
@@ -132,14 +126,12 @@ export function formatDateRange(
   return `${DAY_MONTH_FMT.format(start)} – ${DATE_FMT.format(end)}`;
 }
 
-/** Formats a EUR price, showing "Gratuit" for 0 and "—" for null. */
 export function formatPrice(price: number | null): string {
   if (price === null) return "—";
   if (price === 0) return "Gratuit";
   return `${price} €`;
 }
 
-/** Lowest known price ("à partir de"): day pass, full pass or any tariff. */
 export function priceFrom(festival: Festival): number | null {
   const candidates = [
     festival.priceDay,
@@ -149,7 +141,6 @@ export function priceFrom(festival: Festival): number | null {
   return candidates.length > 0 ? Math.min(...candidates) : null;
 }
 
-/** "À partir de X €", "Gratuit", or "—" when no price is known. */
 export function formatFromPrice(festival: Festival): string {
   const from = priceFrom(festival);
   if (from === null) return "—";
@@ -157,19 +148,11 @@ export function formatFromPrice(festival: Festival): string {
   return `À partir de ${from} €`;
 }
 
-// --- Status & lifecycle rules ---------------------------------------------
-// These pure helpers are shared by the UI and by the daily ingestion job
-// (mark-as-passed + purge), so the lifecycle logic lives in exactly one place.
 
 function atMidnight(d: Date): Date {
   return new Date(d.getFullYear(), d.getMonth(), d.getDate());
 }
 
-/**
- * Real status of a festival at a given moment: a cancelled festival stays
- * cancelled, a festival whose last day is over is "passed", otherwise its
- * stored status (announced/confirmed) is used.
- */
 export function effectiveStatus(
   festival: Festival,
   now: Date = new Date(),
@@ -185,10 +168,6 @@ export function isPast(festival: Festival, now: Date = new Date()): boolean {
   return effectiveStatus(festival, now) === "passed";
 }
 
-/**
- * True when a festival ended more than one month ago — the daily job purges
- * these from the database.
- */
 export function isPurgeable(festival: Festival, now: Date = new Date()): boolean {
   if (!festival.endDate) return false;
   const cutoff = new Date(now);
