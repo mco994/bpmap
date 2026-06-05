@@ -104,8 +104,8 @@
     ]
   },
   "dub-station-festival": {
-    "priceDay": 15,
-    "priceFull": 25
+    "priceDay": 28.35,
+    "priceFull": 46.2
   },
   "m2a-festival": {
     "priceDay": 20,
@@ -170,8 +170,8 @@
     "priceFull": 42
   },
   "aelipse": {
-    "priceDay": 16.5,
-    "priceFull": null
+    "priceDay": null,
+    "priceFull": 72.5
   },
   "stereoparc": {
     "priceDay": 52,
@@ -331,6 +331,14 @@
   },
   "atrium-open-air": {
     "priceDay": 0,
+    "priceFull": null
+  },
+  "apollo-festival": {
+    "priceDay": 9.99,
+    "priceFull": 13.99
+  },
+  "illusion-colmar": {
+    "priceDay": 42,
     "priceFull": null
   }
 }
