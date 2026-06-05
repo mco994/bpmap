@@ -56,16 +56,18 @@ export default function CarteScreen() {
   const router = useRouter();
   const theme = useTheme();
   const insets = useSafeAreaInsets();
-  const [mapStyle, setMapStyle] = useState<string | StyleSpecification>(MAP_STYLE);
+  const [mapStyle, setMapStyle] = useState<string | StyleSpecification | null>(null);
 
   useEffect(() => {
     let cancelled = false;
-    fetch(MAP_STYLE)
+    fetch(MAP_STYLE, { signal: AbortSignal.timeout(8000) })
       .then((res) => res.json())
       .then((style) => {
         if (!cancelled) setMapStyle(hideEnclaveCountryLabels(style) as StyleSpecification);
       })
-      .catch(() => {});
+      .catch(() => {
+        if (!cancelled) setMapStyle(MAP_STYLE);
+      });
     return () => {
       cancelled = true;
     };
@@ -78,7 +80,6 @@ export default function CarteScreen() {
   const filterState = useFilterState();
   const { filters, query } = filterState;
   const [selected, setSelected] = useState<Festival | null>(null);
-  const [expanded, setExpanded] = useState(false);
   const [panelOpen, setPanelOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [showPuck, setShowPuck] = useState(false);
@@ -105,9 +106,8 @@ export default function CarteScreen() {
     [festivals],
   );
 
-  const select = (f: Festival | null, compact = false) => {
+  const select = (f: Festival | null) => {
     setSelected(f);
-    setExpanded(f != null && !compact);
   };
 
   const toggleSearch = (open: boolean) => {
@@ -154,7 +154,7 @@ export default function CarteScreen() {
   const onSuggestionSelect = (festival: Festival) => {
     Keyboard.dismiss();
     toggleSearch(false);
-    select(festival, true);
+    select(festival);
     cameraRef.current?.flyTo({
       center: [festival.lng, festival.lat],
       zoom: 8,
@@ -168,6 +168,9 @@ export default function CarteScreen() {
 
   return (
     <View style={styles.container}>
+      {mapStyle == null ? (
+        <View style={[styles.map, { backgroundColor: theme.background }]} />
+      ) : (
       <Map
         mapStyle={mapStyle}
         style={styles.map}
@@ -237,6 +240,7 @@ export default function CarteScreen() {
         </GeoJSONSource>
         {showPuck ? <UserLocation animated /> : null}
       </Map>
+      )}
 
       <Pressable
         onPress={goToMyLocation}
@@ -343,12 +347,7 @@ export default function CarteScreen() {
       </View>
 
       {selected ? (
-        <Pressable
-          onPress={() => setExpanded(true)}
-          disabled={expanded}
-          accessibilityLabel={expanded ? undefined : 'Voir les détails'}
-          style={[styles.popin, { backgroundColor: theme.background }]}
-        >
+        <View style={[styles.popin, { backgroundColor: theme.background }]}>
           <View style={styles.popinTitleRow}>
             <ThemedText type="subtitle" numberOfLines={1} style={styles.popinTitle}>
               {selected.name}
@@ -367,28 +366,26 @@ export default function CarteScreen() {
             />
           </View>
 
-          {expanded ? (
-            <View style={styles.details}>
-              {selected.description ? (
-                <ThemedText type="small" numberOfLines={4}>
-                  {selected.description}
-                </ThemedText>
-              ) : null}
-              {selected.organizer || sizeLabel ? (
-                <ThemedText type="small" themeColor="textSecondary">
-                  {[selected.organizer, sizeLabel, selected.capacity ? `~${selected.capacity.toLocaleString('fr-FR')} pers.` : null]
-                    .filter(Boolean)
-                    .join(' · ')}
-                </ThemedText>
-              ) : null}
-              {selected.lineup && selected.lineup.length > 0 ? (
-                <ThemedText type="small" themeColor="textSecondary">
-                  {selected.lineup.slice(0, 8).join(', ')}
-                  {selected.lineup.length > 8 ? '…' : ''}
-                </ThemedText>
-              ) : null}
-            </View>
-          ) : null}
+          <View style={styles.details}>
+            {selected.description ? (
+              <ThemedText type="small" numberOfLines={4}>
+                {selected.description}
+              </ThemedText>
+            ) : null}
+            {selected.organizer || sizeLabel ? (
+              <ThemedText type="small" themeColor="textSecondary">
+                {[selected.organizer, sizeLabel, selected.capacity ? `~${selected.capacity.toLocaleString('fr-FR')} pers.` : null]
+                  .filter(Boolean)
+                  .join(' · ')}
+              </ThemedText>
+            ) : null}
+            {selected.lineup && selected.lineup.length > 0 ? (
+              <ThemedText type="small" themeColor="textSecondary">
+                {selected.lineup.slice(0, 8).join(', ')}
+                {selected.lineup.length > 8 ? '…' : ''}
+              </ThemedText>
+            ) : null}
+          </View>
 
           <View style={styles.actions}>
             <ItineraryButton festival={selected} />
@@ -398,7 +395,7 @@ export default function CarteScreen() {
               </ThemedText>
             </Pressable>
           </View>
-        </Pressable>
+        </View>
       ) : null}
 
       <FilterPanel

@@ -108,7 +108,6 @@ export default function Map({
 }: MapProps) {
   const mapRef = useRef<MapRef>(null);
   const [cursor, setCursor] = useState<string>("");
-  const [popupExpanded, setPopupExpanded] = useState(false);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinnedUntil = useRef(0);
 
@@ -133,9 +132,6 @@ export default function Map({
     },
     [],
   );
-
-  // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => setPopupExpanded(true), [selectedId]);
 
   const selected = useMemo(
     () => festivals.find((f) => f.id === selectedId) ?? null,
@@ -186,8 +182,6 @@ export default function Map({
     if (!festival) return;
     cancelClose();
     pinnedUntil.current = Date.now() + 1500;
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setPopupExpanded(false);
     map.flyTo({ center: [festival.lng, festival.lat], zoom: 8, duration: 900 });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [focus]);
@@ -269,12 +263,9 @@ export default function Map({
           maxWidth="300px"
         >
           <div
-            className={popupExpanded ? "space-y-1.5 p-1" : "cursor-pointer space-y-1.5 p-1"}
+            className="space-y-1.5 p-1"
             onMouseEnter={cancelClose}
             onMouseLeave={() => onSelect(null)}
-            onClick={popupExpanded ? undefined : () => setPopupExpanded(true)}
-            role={popupExpanded ? undefined : "button"}
-            aria-expanded={popupExpanded}
           >
             <h3 className="text-sm font-semibold text-zinc-900">
               {selected.name}
@@ -291,45 +282,39 @@ export default function Map({
               }
             />
 
-            {popupExpanded && (
-              <>
-                <p className="text-xs font-medium text-zinc-700">
-                  {formatFromPrice(selected)}
-                </p>
-                {selected.lineup && selected.lineup.length > 0 && (
-                  <p className="text-xs text-zinc-600">
-                    <span className="text-zinc-500">Line-up&nbsp;: </span>
-                    {selected.lineup.slice(0, 5).join(", ")}
-                    {selected.lineup.length > 5 ? "…" : ""}
-                  </p>
+            <p className="text-xs font-medium text-zinc-700">
+              {formatFromPrice(selected)}
+            </p>
+            {selected.lineup && selected.lineup.length > 0 && (
+              <p className="text-xs text-zinc-600">
+                <span className="text-zinc-500">Line-up&nbsp;: </span>
+                {selected.lineup.slice(0, 5).join(", ")}
+                {selected.lineup.length > 5 ? "…" : ""}
+              </p>
+            )}
+            {(selected.ticketUrl || selected.officialUrl) && (
+              <p className="flex flex-wrap gap-x-3 text-xs">
+                {selected.ticketUrl && (
+                  <a
+                    href={selected.ticketUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-fuchsia-700 hover:underline"
+                  >
+                    Billetterie ↗
+                  </a>
                 )}
-                {(selected.ticketUrl || selected.officialUrl) && (
-                  <p className="flex flex-wrap gap-x-3 text-xs">
-                    {selected.ticketUrl && (
-                      <a
-                        href={selected.ticketUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="font-medium text-fuchsia-700 hover:underline"
-                      >
-                        Billetterie ↗
-                      </a>
-                    )}
-                    {selected.officialUrl && (
-                      <a
-                        href={selected.officialUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="font-medium text-fuchsia-700 hover:underline"
-                      >
-                        Site officiel ↗
-                      </a>
-                    )}
-                  </p>
+                {selected.officialUrl && (
+                  <a
+                    href={selected.officialUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-medium text-fuchsia-700 hover:underline"
+                  >
+                    Site officiel ↗
+                  </a>
                 )}
-              </>
+              </p>
             )}
 
             <div className="flex items-center justify-end gap-2 pt-0.5">
@@ -338,7 +323,7 @@ export default function Map({
                 onClick={(e) => e.stopPropagation()}
                 className="text-xs font-semibold text-fuchsia-700 underline underline-offset-2 hover:text-fuchsia-900"
               >
-                {popupExpanded ? "Fiche complète →" : "Voir la fiche →"}
+                Fiche complète →
               </Link>
             </div>
           </div>
