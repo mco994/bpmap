@@ -2,3 +2,6 @@ export * from "./types";
 export * from "./festivals";
 export * from "./filters";
 export * from "./france";
+export * from "./basemap";
+export * from "./changes";
+export * from "./grouping";

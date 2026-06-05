@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Sources & licences",
   description:
-    "Origine et licences des données de BPMap : DATAtourisme, OpenStreetMap, Wikidata, BAN, OpenAgenda, Resident Advisor, Shotgun.",
+    "Origine et licences des données de BPMap : DATAtourisme, OpenStreetMap, Wikidata, BAN, OpenAgenda, Resident Advisor, DICE, Shotgun.",
   alternates: { canonical: "/sources" },
 };
 
@@ -42,8 +42,9 @@ export default function SourcesPage() {
               <strong>OpenAgenda</strong> — agendas culturels.
             </li>
             <li>
-              <strong>Resident Advisor</strong>, <strong>Shotgun</strong> —
-              programmations et billetterie (liens vers les sources d&apos;origine).
+              <strong>Resident Advisor</strong>, <strong>DICE</strong>,{" "}
+              <strong>Shotgun</strong> — programmations et billetterie (liens vers
+              les sources d&apos;origine).
             </li>
           </ul>
         </section>

@@ -13,6 +13,7 @@ import {
   isEmptyFilters,
   effectiveStatus,
   statusLabel,
+  groupByMonth,
   type Filters,
   type Festival,
 } from "@bpmap/shared";
@@ -29,10 +30,15 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setNow(new Date()), []);
 
-  const filtered = useMemo(() => {
+  const sections = useMemo(() => {
     const base = filterFestivalsByQuery(applyFilters(festivals, filters, now), query);
-    return [...base].sort((a, b) => a.name.localeCompare(b.name, "fr"));
+    return groupByMonth(base);
   }, [festivals, filters, now, query]);
+
+  const filteredCount = useMemo(
+    () => sections.reduce((total, section) => total + section.data.length, 0),
+    [sections],
+  );
 
   const hasActive = !isEmptyFilters(filters) || query.trim() !== "";
 
@@ -69,8 +75,8 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
             className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
             aria-live="polite"
           >
-            {filtered.length} événement{filtered.length > 1 ? "s" : ""}
-            {filtered.length !== festivals.length && ` sur ${festivals.length}`}
+            {filteredCount} événement{filteredCount > 1 ? "s" : ""}
+            {filteredCount !== festivals.length && ` sur ${festivals.length}`}
           </p>
           <div
             className="flex items-center gap-1 rounded-lg border border-zinc-200 p-0.5 dark:border-zinc-800"
@@ -104,87 +110,106 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
           </div>
         </div>
 
-        {filtered.length === 0 ? (
+        {filteredCount === 0 ? (
           <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
             Aucun événement ne correspond à votre recherche.
           </p>
-        ) : view === "list" ? (
-          <ul className="mt-4 divide-y divide-zinc-200 overflow-hidden rounded-xl border border-zinc-200 bg-white dark:divide-zinc-800 dark:border-zinc-800 dark:bg-zinc-900">
-            {filtered.map((f) => {
-              const status = now ? effectiveStatus(f, now) : f.status;
-              const showStatus = status === "passed" || status === "cancelled";
-              const match = bestQueryMatch(f, query);
-              return (
-                <li key={f.id} className="relative">
-                  <Link
-                    href={`/festivals/${f.slug}`}
-                    className="flex items-center justify-between gap-4 py-3 pl-4 pr-12 transition-colors hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-fuchsia-500 dark:hover:bg-zinc-800"
-                  >
-                    <span className="min-w-0">
-                      <span className="flex items-center gap-2">
-                        <span className="truncate font-semibold text-zinc-900 dark:text-zinc-50">
-                          {f.name}
-                        </span>
-                        {showStatus && (
-                          <span
-                            className={`shrink-0 rounded px-1.5 py-0.5 text-[11px] font-semibold ${
-                              status === "cancelled"
-                                ? "bg-red-100 text-red-700 dark:bg-red-950 dark:text-red-300"
-                                : "bg-zinc-200 text-zinc-600 dark:bg-zinc-700 dark:text-zinc-300"
-                            }`}
-                          >
-                            {statusLabel(status)}
-                          </span>
-                        )}
-                      </span>
-                      <span className="mt-0.5 block truncate text-sm text-zinc-500 dark:text-zinc-400">
-                        {f.city} ·{" "}
-                        <time dateTime={f.startDate ?? undefined}>
-                          {formatDateRange(f.startDate, f.endDate)}
-                        </time>
-                      </span>
-                      <span className="mt-1.5 block">
-                        <GenreChips
-                          genres={f.genres}
-                          highlight={
-                            match?.field === "genre" ? match.genreSlug : undefined
-                          }
-                        />
-                      </span>
-                    </span>
-                    <span className="shrink-0 text-right text-sm">
-                      <span className="block text-[11px] text-zinc-400 dark:text-zinc-500">
-                        dès
-                      </span>
-                      <span className="font-medium text-zinc-700 dark:text-zinc-300">
-                        {formatPrice(priceFrom(f))}
-                      </span>
-                    </span>
-                  </Link>
-                  <span className="absolute right-3 top-1/2 -translate-y-1/2">
-                    <FavoriteButton festivalId={f.id} />
-                  </span>
-                </li>
-              );
-            })}
-          </ul>
         ) : (
-          <ul className="mt-4 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-            {filtered.map((f) => {
-              const match = bestQueryMatch(f, query);
-              return (
-                <li key={f.id}>
-                  <FestivalGridCard
-                    festival={f}
-                    now={now}
-                    highlightGenre={
-                      match?.field === "genre" ? match.genreSlug : undefined
-                    }
-                  />
-                </li>
-              );
-            })}
-          </ul>
+          <div className="mt-4 space-y-8">
+            {sections.map((section) => (
+              <section key={section.key} aria-label={section.title}>
+                <h2 className="sticky top-0 z-10 -mx-1 mb-3 bg-white/85 px-1 py-2 text-sm font-bold uppercase tracking-wide text-fuchsia-700 backdrop-blur dark:bg-zinc-950/85 dark:text-fuchsia-300">
+                  {section.title}
+                  <span className="ml-2 text-xs font-medium text-zinc-400 dark:text-zinc-500">
+                    {section.data.length}
+                  </span>
+                </h2>
+                {view === "list" ? (
+                  <ul className="divide-y divide-zinc-200 overflow-hidden rounded-xl border border-zinc-200 bg-white dark:divide-zinc-800 dark:border-zinc-800 dark:bg-zinc-900">
+                    {section.data.map((f) => {
+                      const status = now ? effectiveStatus(f, now) : f.status;
+                      const showStatus =
+                        status === "passed" || status === "cancelled";
+                      const match = bestQueryMatch(f, query);
+                      return (
+                        <li key={f.id} className="relative">
+                          <Link
+                            href={`/festivals/${f.slug}`}
+                            className="flex items-center justify-between gap-4 py-3 pl-4 pr-12 transition-colors hover:bg-zinc-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-fuchsia-500 dark:hover:bg-zinc-800"
+                          >
+                            <span className="min-w-0">
+                              <span className="flex items-center gap-2">
+                                <span className="truncate font-semibold text-zinc-900 dark:text-zinc-50">
+                                  {f.name}
+                                </span>
+                                {showStatus && (
+                                  <span
+                                    className={`shrink-0 rounded px-1.5 py-0.5 text-[11px] font-semibold ${
+                                      status === "cancelled"
+                                        ? "bg-red-100 text-red-700 dark:bg-red-950 dark:text-red-300"
+                                        : "bg-zinc-200 text-zinc-600 dark:bg-zinc-700 dark:text-zinc-300"
+                                    }`}
+                                  >
+                                    {statusLabel(status)}
+                                  </span>
+                                )}
+                              </span>
+                              <span className="mt-0.5 block truncate text-sm text-zinc-500 dark:text-zinc-400">
+                                {f.city} ·{" "}
+                                <time dateTime={f.startDate ?? undefined}>
+                                  {formatDateRange(f.startDate, f.endDate)}
+                                </time>
+                              </span>
+                              <span className="mt-1.5 block">
+                                <GenreChips
+                                  genres={f.genres}
+                                  highlight={
+                                    match?.field === "genre"
+                                      ? match.genreSlug
+                                      : undefined
+                                  }
+                                />
+                              </span>
+                            </span>
+                            <span className="shrink-0 text-right text-sm">
+                              <span className="block text-[11px] text-zinc-400 dark:text-zinc-500">
+                                dès
+                              </span>
+                              <span className="font-medium text-zinc-700 dark:text-zinc-300">
+                                {formatPrice(priceFrom(f))}
+                              </span>
+                            </span>
+                          </Link>
+                          <span className="absolute right-3 top-1/2 -translate-y-1/2">
+                            <FavoriteButton festivalId={f.id} />
+                          </span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                ) : (
+                  <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                    {section.data.map((f) => {
+                      const match = bestQueryMatch(f, query);
+                      return (
+                        <li key={f.id}>
+                          <FestivalGridCard
+                            festival={f}
+                            now={now}
+                            highlightGenre={
+                              match?.field === "genre"
+                                ? match.genreSlug
+                                : undefined
+                            }
+                          />
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
+              </section>
+            ))}
+          </div>
         )}
       </section>
     </div>

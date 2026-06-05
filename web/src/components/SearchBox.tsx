@@ -109,7 +109,7 @@ export default function SearchBox({
                     <span className="block truncate text-xs text-zinc-500 dark:text-zinc-400">
                       {festival.city} · {formatDateRange(festival.startDate, festival.endDate)}
                     </span>
-                    {label && (
+                    {(label || match!.approximate) && (
                       <span className="mt-1 inline-flex items-center gap-1 rounded-full bg-fuchsia-50 px-2 py-0.5 text-xs dark:bg-fuchsia-950">
                         <span className="text-zinc-500 dark:text-zinc-400">
                           {label}&nbsp;{match!.approximate ? "≈" : ":"}

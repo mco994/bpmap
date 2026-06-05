@@ -92,6 +92,9 @@ export default function FestivalDetailScreen() {
         <View style={styles.actions}>
           <Pressable
             onPress={() => toggleFavorite(festival.id)}
+            accessibilityRole="button"
+            accessibilityState={{ selected: isFavorite }}
+            accessibilityLabel={isFavorite ? 'Ne plus suivre cet événement' : 'Suivre cet événement'}
             style={[
               styles.action,
               { backgroundColor: isFavorite ? theme.accentSoft : theme.backgroundElement },
@@ -104,7 +107,7 @@ export default function FestivalDetailScreen() {
             />
             <ThemedText type="smallBold" style={isFavorite ? { color: theme.accent } : undefined}>
               {' '}
-              Favori
+              {isFavorite ? 'Suivi' : 'Suivre'}
             </ThemedText>
           </Pressable>
           <Pressable
@@ -205,6 +208,7 @@ const styles = StyleSheet.create({
   action: {
     flexDirection: 'row',
     alignItems: 'center',
+    minHeight: 44,
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.two,
     borderRadius: Spacing.four,

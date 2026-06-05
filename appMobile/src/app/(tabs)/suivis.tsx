@@ -2,21 +2,15 @@ import { useMemo } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { getAllFestivals, type Festival } from '@bpmap/shared';
+import { getAllFestivals, sortByDateThenName } from '@bpmap/shared';
 
+import { ChangesFeed } from '@/components/changes-feed';
 import { FestivalRow } from '@/components/festival-row';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import { useFavorites } from '@/lib/favorites';
-
-function byStartDate(a: Festival, b: Festival): number {
-  if (a.startDate === null && b.startDate === null) return a.name.localeCompare(b.name, 'fr');
-  if (a.startDate === null) return 1;
-  if (b.startDate === null) return -1;
-  return a.startDate.localeCompare(b.startDate);
-}
 
 export default function SuivisScreen() {
   const theme = useTheme();
@@ -25,7 +19,7 @@ export default function SuivisScreen() {
   const all = useMemo(() => getAllFestivals(), []);
 
   const followed = useMemo(
-    () => all.filter((f) => favorites.has(f.id)).sort(byStartDate),
+    () => sortByDateThenName(all.filter((f) => favorites.has(f.id))),
     [all, favorites],
   );
 
@@ -52,6 +46,7 @@ export default function SuivisScreen() {
           data={followed}
           keyExtractor={(f) => f.id}
           contentContainerStyle={styles.list}
+          ListHeaderComponent={<ChangesFeed followedIds={favorites} />}
           renderItem={({ item }) => <FestivalRow festival={item} />}
         />
       )}

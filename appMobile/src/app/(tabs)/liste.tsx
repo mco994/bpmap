@@ -1,8 +1,14 @@
 import { useMemo, useState } from 'react';
-import { FlatList, Pressable, StyleSheet, TextInput, View } from 'react-native';
+import { Pressable, SectionList, StyleSheet, TextInput, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { applyFilters, filterFestivalsByQuery, getAllFestivals } from '@bpmap/shared';
+import {
+  applyFilters,
+  bestQueryMatch,
+  filterFestivalsByQuery,
+  getAllFestivals,
+  groupByMonth,
+} from '@bpmap/shared';
 
 import { FestivalRow } from '@/components/festival-row';
 import { FilterPanel } from '@/components/filter-panel';
@@ -31,7 +37,17 @@ export default function ListeScreen() {
     () => filterFestivalsByQuery(applyFilters(all, filters, now), query),
     [all, filters, query, now],
   );
+  const sections = useMemo(() => groupByMonth(festivals), [festivals]);
   const active = activeFiltersCount(filters);
+  const correction = useMemo(() => {
+    const trimmed = query.trim();
+    if (!trimmed) return null;
+    for (const festival of festivals) {
+      const match = bestQueryMatch(festival, trimmed);
+      if (match) return match.approximate ? match.value : null;
+    }
+    return null;
+  }, [festivals, query]);
 
   return (
     <ThemedView style={[styles.container, { paddingTop: insets.top + Spacing.two }]}>
@@ -75,9 +91,18 @@ export default function ListeScreen() {
       </View>
 
       <View style={styles.subHeader}>
-        <ThemedText type="small" themeColor="textSecondary">
-          {festivals.length} événement{festivals.length > 1 ? 's' : ''}
-        </ThemedText>
+        <View style={styles.countRow}>
+          <ThemedText type="small" themeColor="textSecondary">
+            {festivals.length} événement{festivals.length > 1 ? 's' : ''}
+          </ThemedText>
+          {correction ? (
+            <View style={[styles.correctionChip, { backgroundColor: theme.accentSoft }]}>
+              <ThemedText type="smallBold" style={{ color: theme.accent }}>
+                ≈ {correction}
+              </ThemedText>
+            </View>
+          ) : null}
+        </View>
         {hasActiveFilters(filterState) ? (
           <Pressable onPress={clearAllFilters} hitSlop={8}>
             <ThemedText type="smallBold" style={{ color: theme.accent }}>
@@ -87,11 +112,23 @@ export default function ListeScreen() {
         ) : null}
       </View>
 
-      <FlatList
-        data={festivals}
+      <SectionList
+        sections={sections}
         keyExtractor={(f) => f.id}
         contentContainerStyle={styles.list}
         keyboardShouldPersistTaps="handled"
+        stickySectionHeadersEnabled
+        SectionSeparatorComponent={null}
+        renderSectionHeader={({ section }) => (
+          <View style={[styles.sectionHeader, { backgroundColor: theme.background }]}>
+            <ThemedText type="smallBold" style={{ color: theme.accent }}>
+              {section.title.toUpperCase()}
+            </ThemedText>
+            <ThemedText type="small" themeColor="textSecondary">
+              {section.data.length}
+            </ThemedText>
+          </View>
+        )}
         renderItem={({ item }) => <FestivalRow festival={item} highlightQuery={query} />}
       />
 
@@ -139,9 +176,26 @@ const styles = StyleSheet.create({
     paddingHorizontal: Spacing.three,
     paddingVertical: Spacing.two,
   },
+  countRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.two,
+  },
+  correctionChip: {
+    paddingHorizontal: Spacing.two,
+    paddingVertical: 2,
+    borderRadius: Spacing.three,
+  },
   list: {
     paddingHorizontal: Spacing.three,
     paddingBottom: Spacing.four,
     gap: Spacing.two,
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: Spacing.one,
+    marginTop: Spacing.one,
   },
 });

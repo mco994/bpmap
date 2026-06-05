@@ -17,7 +17,10 @@ import {
   formatDateRange,
   formatFromPrice,
   franceBorderGeoJSON,
+  franceEnclavesGeoJSON,
   franceMaskGeoJSON,
+  isCountryLabelLayer,
+  maskedCountryLabelFilter,
   type Festival,
 } from "@bpmap/shared";
 import GenreChips from "@/components/GenreChips";
@@ -31,12 +34,23 @@ const INITIAL_VIEW = { longitude: 2.5, latitude: 46.6, zoom: 4.7 };
 const SOURCE_ID = "festivals";
 
 const FRANCE_MASK = franceMaskGeoJSON();
+const FRANCE_ENCLAVES = franceEnclavesGeoJSON();
 const FRANCE_BORDER = franceBorderGeoJSON();
 
 const maskLayer: LayerProps = {
   id: "france-mask",
   type: "fill",
   source: "france-mask",
+  paint: {
+    "fill-color": "#f6f0f7",
+    "fill-opacity": 0.93,
+  },
+};
+
+const enclavesLayer: LayerProps = {
+  id: "france-enclaves",
+  type: "fill",
+  source: "france-enclaves",
   paint: {
     "fill-color": "#f6f0f7",
     "fill-opacity": 0.93,
@@ -200,6 +214,19 @@ export default function Map({
       ref={mapRef}
       initialViewState={INITIAL_VIEW}
       mapStyle={MAP_STYLE}
+      onLoad={(e) => {
+        const map = e.target;
+        for (const layer of map.getStyle().layers ?? []) {
+          if (isCountryLabelLayer(layer)) {
+            map.setFilter(
+              layer.id,
+              maskedCountryLabelFilter(
+                map.getFilter(layer.id),
+              ) as Parameters<typeof map.setFilter>[1],
+            );
+          }
+        }
+      }}
       style={{ width: "100%", height: "100%" }}
       interactiveLayerIds={["festival-hit", "festival-points", "selected-point"]}
       cursor={cursor}
@@ -215,6 +242,9 @@ export default function Map({
 
       <Source id="france-mask" type="geojson" data={FRANCE_MASK}>
         <Layer {...maskLayer} />
+      </Source>
+      <Source id="france-enclaves" type="geojson" data={FRANCE_ENCLAVES}>
+        <Layer {...enclavesLayer} />
       </Source>
       <Source id="france-border" type="geojson" data={FRANCE_BORDER}>
         <Layer {...borderLayer} />

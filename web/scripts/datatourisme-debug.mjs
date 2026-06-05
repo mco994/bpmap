@@ -28,6 +28,14 @@ console.log("exemples de noms:", entries.slice(0, 6).map((e) => e.entryName));
 const idx = zip.getEntry("index.json");
 console.log("index.json présent:", !!idx);
 
+const byName = new Map(entries.map((e) => [e.entryName, e]));
+const byBase = new Map(entries.map((e) => [e.entryName.split("/").pop(), e]));
+const resolveEntry = (file) =>
+  byName.get(file) ??
+  byName.get(`objects/${file}`) ??
+  byBase.get(file.split("/").pop()) ??
+  null;
+
 let firstFile;
 if (idx) {
   const list = JSON.parse(idx.getData().toString("utf8"));
@@ -40,8 +48,9 @@ if (idx) {
     .find((n) => n.endsWith(".json") && !/index/.test(n));
 }
 
-if (firstFile) {
-  const poi = JSON.parse(zip.getEntry(firstFile).getData().toString("utf8"));
+const firstEntry = firstFile ? resolveEntry(firstFile) : null;
+if (firstEntry) {
+  const poi = JSON.parse(firstEntry.getData().toString("utf8"));
   console.log("\n--- 1er POI (JSON-LD, extrait) ---");
   console.log(JSON.stringify(poi, null, 1).slice(0, 3000));
 } else {

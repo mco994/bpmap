@@ -18,10 +18,18 @@ export function franceMaskGeoJSON() {
     properties: {},
     geometry: {
       type: "MultiPolygon" as const,
-      coordinates: [
-        [WORLD_RING, ...france],
-        ...enclaves.map((ring) => [ring]),
-      ],
+      coordinates: [[WORLD_RING, ...france]],
+    },
+  };
+}
+
+export function franceEnclavesGeoJSON() {
+  return {
+    type: "Feature" as const,
+    properties: {},
+    geometry: {
+      type: "MultiPolygon" as const,
+      coordinates: enclaves.map((ring) => [ring]),
     },
   };
 }

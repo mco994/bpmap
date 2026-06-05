@@ -991,9 +991,9 @@
     "id": "pure-open-air",
     "slug": "pure-open-air",
     "name": "Pure Open Air",
-    "description": "Édition anniversaire des 10 ans du collectif lillois Pure Events à la ferme des Mions : trois scènes (house/minimal, hybride, techno) et 15 heures de musique non-stop.",
+    "description": "Édition anniversaire des 10 ans du collectif lillois Pure Events à la ferme des Mions : trois scènes (house/minimal, hybride, techno) et près de 16 heures de musique non-stop du samedi au dimanche.",
     "startDate": "2026-06-06",
-    "endDate": "2026-06-06",
+    "endDate": "2026-06-07",
     "lat": 50.71944,
     "lng": 2.5318,
     "city": "Hazebrouck",
@@ -1005,7 +1005,7 @@
       "minimal",
       "techno"
     ],
-    "priceDay": null,
+    "priceDay": 15.99,
     "priceFull": null,
     "currency": "EUR",
     "ticketUrl": null,
@@ -1014,6 +1014,7 @@
     "eventType": "open-air",
     "sources": [
       "https://www.lavoixdunord.fr/1708049/article/2026-06-01/le-festival-pure-open-air-revient-samedi-la-ferme-des-mions",
+      "https://lilleaddict.fr/actus-lille/le-festival-house-techno-pure-open-air-fete-ses-10-ans-pres-de-lille.html",
       "https://www.pure-open-air.com/"
     ]
   },
@@ -1034,7 +1035,7 @@
       "house",
       "electro"
     ],
-    "priceDay": null,
+    "priceDay": 0,
     "priceFull": null,
     "currency": "EUR",
     "ticketUrl": null,
@@ -1187,6 +1188,37 @@
     ],
     "sources": [
       "https://www.peoplearestrangefestival.fr/"
+    ]
+  },
+  {
+    "id": "madame-loyal-sonora-bordeaux",
+    "slug": "madame-loyal-sonora-bordeaux",
+    "name": "Madame Loyal x Sonora Bordeaux",
+    "description": "Fête foraine électronique XXL au Parc des Expositions de Bordeaux : la scène forenne de Madame Loyal (manèges, performeurs de cirque) face au hangar techno de Sonora et ses 400 m² d'écrans LED, plus une warm-up party Ed Banger Records le jeudi. Techno, house, electro et hard techno avec Trym, Kavinsky, Bob Sinclar et Charlotte de Witte.",
+    "startDate": "2026-06-11",
+    "endDate": "2026-06-13",
+    "lat": 44.89781,
+    "lng": -0.57148,
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": "Madame Loyal x Sonora",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "electro",
+      "hard-techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://dice.fm/event/av3vr2-madame-loyal-x-sonora-bordeaux-11-12-13-juin-2026-11th-jun-parc-des-expositions-de-bordeaux-bordeaux-tickets",
+    "officialUrl": "https://dice.fm/event/av3vr2-madame-loyal-x-sonora-bordeaux-11-12-13-juin-2026-11th-jun-parc-des-expositions-de-bordeaux-bordeaux-tickets",
+    "status": "confirmed",
+    "sources": [
+      "https://www.bdxc.fr/evenements/bordeaux/2026-06-11/madame-loyal-x-sonora-bordeaux-2026-20260129/",
+      "https://dice.fm/event/av3vr2-madame-loyal-x-sonora-bordeaux-11-12-13-juin-2026-11th-jun-parc-des-expositions-de-bordeaux-bordeaux-tickets",
+      "https://www.songkick.com/festivals/3765599-madam-loyal/id/42984523-madam-loyal-festival-2026"
     ]
   },
   {
@@ -2922,6 +2954,42 @@
     ]
   },
   {
+    "id": "pilat-fest",
+    "slug": "pilat-fest",
+    "name": "Pilat Fest",
+    "description": "Première édition d'un festival pop et électro en pleine nature aux Haies, au cœur du Parc naturel régional du Pilat entre Lyon et Saint-Étienne : deux soirées de concerts pop et DJ sets électro, démarche éco-responsable et solidaire (1 € par billet reversé à France Alzheimer Rhône).",
+    "startDate": "2026-07-24",
+    "endDate": "2026-07-25",
+    "lat": 45.51185,
+    "lng": 4.74111,
+    "city": "Les Haies",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": "Association Pilat Fest",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": 40,
+    "tariffs": [
+      {
+        "label": "Pass 2 jours",
+        "price": 40
+      }
+    ],
+    "currency": "EUR",
+    "ticketUrl": "https://pilatfest.fr/billetterie",
+    "officialUrl": "https://pilatfest.fr/",
+    "status": "confirmed",
+    "eclectic": true,
+    "sources": [
+      "https://pilatfest.fr/",
+      "https://www.rhonetourisme.com/agenda/7670473_pilat-fest-1ere-edition/"
+    ]
+  },
+  {
     "id": "kolorz-festival",
     "slug": "kolorz-festival",
     "name": "Kolorz Festival",
@@ -2961,6 +3029,37 @@
     ],
     "sources": [
       "https://shotgun.live/en/festivals/kolorz-festival-summer-edition-2026"
+    ]
+  },
+  {
+    "id": "pain-benit-festival",
+    "slug": "pain-benit-festival",
+    "name": "Pain Bénit Festival",
+    "description": "Troisième édition du festival toulousain de la famille Pain Bénit au château de Bonrepos-Riquet : open air gratuit face au château l'après-midi (house, tech house, afro house), puis nuit de club dans l'Orangerie, l'une des plus grandes du Sud de la France.",
+    "startDate": "2026-07-26",
+    "endDate": "2026-07-27",
+    "lat": 43.67741,
+    "lng": 1.6235,
+    "city": "Bonrepos-Riquet",
+    "region": "Occitanie",
+    "organizer": "Pain Bénit",
+    "capacity": 700,
+    "genres": [
+      "house",
+      "techno",
+      "disco"
+    ],
+    "priceDay": 0,
+    "priceFull": 15,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/fr/festivals/pbf-26",
+    "officialUrl": "https://shotgun.live/fr/festivals/pbf-26",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://shotgun.live/en/venues/pain-benit",
+      "https://www.lepetitjournal.net/31-haute-garonne/e31t-pays-tolosan/2025/07/14/le-pain-benit-festival-revient-electriser-le-chateau-de-bonrepos-riquet/",
+      "https://actu.fr/occitanie/bonrepos-riquet_31074/un-enorme-open-air-electro-et-gratuit-dans-un-magnifique-ecrin-aux-portes-de-toulouse_62945949.html"
     ]
   },
   {
@@ -3520,6 +3619,38 @@
     ]
   },
   {
+    "id": "ya-degun-festival",
+    "slug": "ya-degun-festival",
+    "name": "Ya Degun Festival",
+    "description": "Neuvième édition du festival électro varois sur l'esplanade du Rayon de Soleil à Six-Fours-les-Plages : main stage face à la mer et scène boiler immersive, entre house, afro house et techno mélodique, avec Massano, Bon Entendeur et UN*DEUX.",
+    "startDate": "2026-08-14",
+    "endDate": "2026-08-16",
+    "lat": 43.09171,
+    "lng": 5.8176,
+    "city": "Six-Fours-les-Plages",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": "Ya Degun Association",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "electro",
+      "disco"
+    ],
+    "priceDay": null,
+    "priceFull": 30,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.ville-six-fours.fr/decouvrir/les-grands-evenements/ya-degun-festival/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.tv83.info/six-fours-ya-degun-festival-2026/",
+      "https://www.nicematin.com/loisirs/festivites/a-six-fours-le-ya-degun-festival-lance-une-soiree-electro-de-noel-avec-feu-d-artifice-10661255",
+      "https://handsupelectro.fr/evenement/ya-degun-festival-2026-devoile-sa-programmation-complete/"
+    ]
+  },
+  {
     "id": "electrolapse",
     "slug": "electrolapse",
     "name": "Electrolapse Festival",
@@ -3694,6 +3825,43 @@
     ],
     "sources": [
       "https://www.touquetmusicbeach.com/fr/"
+    ]
+  },
+  {
+    "id": "pagaille-festival",
+    "slug": "pagaille-festival",
+    "name": "Pagaille Festival",
+    "description": "Première édition d'un grand festival pluridisciplinaire place des Quinconces à Bordeaux, attendant 40 000 à 50 000 spectateurs : deux scènes en plein air mêlant rock, pop et forte programmation électro avec Charlotte de Witte, Boris Brejcha et Kittin aux côtés de The Cure.",
+    "startDate": "2026-08-28",
+    "endDate": "2026-08-29",
+    "lat": 44.8519,
+    "lng": -0.58788,
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": "Sauce Prod / Peel Productions / Côte Ouest",
+    "capacity": 50000,
+    "genres": [
+      "techno",
+      "electro",
+      "house"
+    ],
+    "priceDay": 40,
+    "priceFull": null,
+    "tariffs": [
+      {
+        "label": "Pass 1 jour (à partir de)",
+        "price": 40
+      }
+    ],
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.songkick.com/festivals/3779753-pagaille/id/43148774-pagaille-festival-2026",
+    "status": "confirmed",
+    "eclectic": true,
+    "sources": [
+      "https://www.sudouest.fr/culture/sortir-a-bordeaux/festival-pagaille-a-bordeaux-charlotte-de-witte-boris-brejcha-et-aupinard-sont-annonces-en-plus-de-the-cure-et-kittin-29135283.php",
+      "https://www.jds.fr/bordeaux/actu/pagaille-festival-a-bordeaux-la-programmation-du-premier-soir-sur-la-place-des-quinconces-1506967_A",
+      "https://www.leparisien.fr/etudiant/sortir/bordeaux/eve-pagaille-festival-pass-samedi-place-des-quinconces-bordeaux-1737775710250/"
     ]
   },
   {
