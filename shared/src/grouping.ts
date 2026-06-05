@@ -43,6 +43,51 @@ function monthTitle(startDate: string): string {
   return capitalizeFirst(MONTH_FMT.format(date));
 }
 
+export type SortMode = "date" | "alpha";
+
+function compareByName(a: Festival, b: Festival): number {
+  return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
+}
+
+function letterKey(name: string): string {
+  const first = name
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLocaleUpperCase("fr-FR")
+    .charAt(0);
+  return /[A-Z]/.test(first) ? first : "#";
+}
+
+export function groupByLetter(festivals: Festival[]): FestivalSection[] {
+  const sorted = [...festivals].sort(compareByName);
+  const sections: FestivalSection[] = [];
+  const indexByKey = new Map<string, number>();
+
+  for (const festival of sorted) {
+    const key = letterKey(festival.name);
+    const existing = indexByKey.get(key);
+    if (existing === undefined) {
+      indexByKey.set(key, sections.length);
+      sections.push({ key, title: key, data: [festival] });
+    } else {
+      sections[existing].data.push(festival);
+    }
+  }
+
+  const digits = indexByKey.get("#");
+  if (digits !== undefined && sections.length > 1) {
+    sections.push(...sections.splice(digits, 1));
+  }
+  return sections;
+}
+
+export function groupFestivals(
+  festivals: Festival[],
+  mode: SortMode,
+): FestivalSection[] {
+  return mode === "alpha" ? groupByLetter(festivals) : groupByMonth(festivals);
+}
+
 export function groupByMonth(festivals: Festival[]): FestivalSection[] {
   const sorted = sortByDateThenName(festivals);
   const sections: FestivalSection[] = [];

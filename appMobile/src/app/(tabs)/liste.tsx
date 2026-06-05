@@ -7,7 +7,8 @@ import {
   bestQueryMatch,
   filterFestivalsByQuery,
   getAllFestivals,
-  groupByMonth,
+  groupFestivals,
+  type SortMode,
 } from '@bpmap/shared';
 
 import { FestivalRow } from '@/components/festival-row';
@@ -32,12 +33,13 @@ export default function ListeScreen() {
   const filterState = useFilterState();
   const { filters, query } = filterState;
   const [panelOpen, setPanelOpen] = useState(false);
+  const [sortMode, setSortMode] = useState<SortMode>('date');
 
   const festivals = useMemo(
     () => filterFestivalsByQuery(applyFilters(all, filters, now), query),
     [all, filters, query, now],
   );
-  const sections = useMemo(() => groupByMonth(festivals), [festivals]);
+  const sections = useMemo(() => groupFestivals(festivals, sortMode), [festivals, sortMode]);
   const active = activeFiltersCount(filters);
   const correction = useMemo(() => {
     const trimmed = query.trim();
@@ -103,13 +105,35 @@ export default function ListeScreen() {
             </View>
           ) : null}
         </View>
-        {hasActiveFilters(filterState) ? (
-          <Pressable onPress={clearAllFilters} hitSlop={8}>
-            <ThemedText type="smallBold" style={{ color: theme.accent }}>
-              ✕ Retirer tous les filtres
-            </ThemedText>
-          </Pressable>
-        ) : null}
+        <View style={styles.subHeaderRight}>
+          <View style={[styles.sortToggle, { borderColor: theme.backgroundElement }]}>
+            {(['date', 'alpha'] as const).map((mode) => (
+              <Pressable
+                key={mode}
+                onPress={() => setSortMode(mode)}
+                accessibilityLabel={mode === 'date' ? 'Trier par date' : 'Trier par ordre alphabétique'}
+                style={[
+                  styles.sortOption,
+                  sortMode === mode && { backgroundColor: theme.accentSoft },
+                ]}
+              >
+                <ThemedText
+                  type="smallBold"
+                  style={{ color: sortMode === mode ? theme.accent : theme.textSecondary }}
+                >
+                  {mode === 'date' ? 'Date' : 'A–Z'}
+                </ThemedText>
+              </Pressable>
+            ))}
+          </View>
+          {hasActiveFilters(filterState) ? (
+            <Pressable onPress={clearAllFilters} hitSlop={8}>
+              <ThemedText type="smallBold" style={{ color: theme.accent }}>
+                ✕ Filtres
+              </ThemedText>
+            </Pressable>
+          ) : null}
+        </View>
       </View>
 
       <SectionList
@@ -180,6 +204,21 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     gap: Spacing.two,
+  },
+  subHeaderRight: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.two,
+  },
+  sortToggle: {
+    flexDirection: 'row',
+    borderWidth: StyleSheet.hairlineWidth,
+    borderRadius: Spacing.three,
+    overflow: 'hidden',
+  },
+  sortOption: {
+    paddingHorizontal: Spacing.two,
+    paddingVertical: 2,
   },
   correctionChip: {
     paddingHorizontal: Spacing.two,

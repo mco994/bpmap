@@ -13,9 +13,10 @@ import {
   isEmptyFilters,
   effectiveStatus,
   statusLabel,
-  groupByMonth,
+  groupFestivals,
   type Filters,
   type Festival,
+  type SortMode,
 } from "@bpmap/shared";
 import FavoriteButton from "@/components/FavoriteButton";
 import FiltersPanel from "@/components/Filters";
@@ -26,14 +27,15 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [query, setQuery] = useState("");
   const [view, setView] = useState<"list" | "grid">("list");
+  const [sortMode, setSortMode] = useState<SortMode>("date");
   const [now, setNow] = useState<Date | null>(null);
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setNow(new Date()), []);
 
   const sections = useMemo(() => {
     const base = filterFestivalsByQuery(applyFilters(festivals, filters, now), query);
-    return groupByMonth(base);
-  }, [festivals, filters, now, query]);
+    return groupFestivals(base, sortMode);
+  }, [festivals, filters, now, query, sortMode]);
 
   const filteredCount = useMemo(
     () => sections.reduce((total, section) => total + section.data.length, 0),
@@ -78,6 +80,37 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
             {filteredCount} événement{filteredCount > 1 ? "s" : ""}
             {filteredCount !== festivals.length && ` sur ${festivals.length}`}
           </p>
+          <div className="flex items-center gap-2">
+          <div
+            className="flex items-center gap-1 rounded-lg border border-zinc-200 p-0.5 dark:border-zinc-800"
+            role="group"
+            aria-label="Tri"
+          >
+            <button
+              type="button"
+              onClick={() => setSortMode("date")}
+              aria-pressed={sortMode === "date"}
+              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+                sortMode === "date"
+                  ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
+                  : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              }`}
+            >
+              Date
+            </button>
+            <button
+              type="button"
+              onClick={() => setSortMode("alpha")}
+              aria-pressed={sortMode === "alpha"}
+              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+                sortMode === "alpha"
+                  ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
+                  : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              }`}
+            >
+              A–Z
+            </button>
+          </div>
           <div
             className="flex items-center gap-1 rounded-lg border border-zinc-200 p-0.5 dark:border-zinc-800"
             role="group"
@@ -107,6 +140,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
             >
               Mosaïque
             </button>
+          </div>
           </div>
         </div>
 
