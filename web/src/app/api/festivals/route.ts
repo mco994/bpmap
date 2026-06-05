@@ -1,8 +1,12 @@
 import { getAllFestivals } from "@bpmap/shared";
+import { enforceRateLimit } from "@/lib/rate-limit";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
-export function GET() {
+export async function GET(request: Request) {
+  const limited = await enforceRateLimit("api-festivals", request);
+  if (limited) return limited;
+
   return Response.json(
     { festivals: getAllFestivals() },
     {
