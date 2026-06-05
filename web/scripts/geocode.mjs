@@ -22,6 +22,11 @@ const purgeCutoff = new Date(today.getFullYear(), today.getMonth() - 1, today.ge
   .toISOString()
   .slice(0, 10);
 
+function regionFromContext(context) {
+  const parts = (context ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+  return parts.length >= 2 ? parts[parts.length - 1] : null;
+}
+
 async function geocode(city, postcode) {
   const params = new URLSearchParams({ q: city, type: "municipality", limit: "1" });
   if (postcode) params.set("postcode", postcode);
@@ -31,7 +36,21 @@ async function geocode(city, postcode) {
   const feat = json.features?.[0];
   if (!feat) return null;
   const [lng, lat] = feat.geometry.coordinates;
-  return { lat, lng, label: feat.properties.label };
+  return {
+    lat,
+    lng,
+    label: feat.properties.label,
+    region: regionFromContext(feat.properties.context),
+  };
+}
+
+async function reverseRegion(lat, lng) {
+  const res = await fetch(
+    `https://api-adresse.data.gouv.fr/reverse/?lon=${lng}&lat=${lat}&limit=1`,
+  );
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const json = await res.json();
+  return regionFromContext(json.features?.[0]?.properties?.context);
 }
 
 const TICKET_HOST =
@@ -47,11 +66,13 @@ for (const f of source) {
     continue;
   }
   let { lat, lng } = f;
+  let region = f.region ?? null;
   if (lat == null || lng == null) {
     try {
       const hit = await geocode(f.city, f.postcode);
       if (hit) {
         ({ lat, lng } = hit);
+        region ??= hit.region;
         console.log(`✓ ${f.name} → ${f.city} (${hit.label})`);
       } else {
         failures.push(f.name);
@@ -67,6 +88,18 @@ for (const f of source) {
   } else {
     console.log(`• ${f.name} → coords fournies`);
   }
+  if (!region) {
+    try {
+      region = await reverseRegion(lat, lng);
+      if (region) console.log(`  ↳ région déduite: ${region}`);
+      await sleep(120);
+    } catch {}
+  }
+  if (!region) {
+    failures.push(f.name);
+    console.warn(`✖ ${f.name} → région introuvable (exclu, NOT NULL en base)`);
+    continue;
+  }
 
   out.push({
     id: f.slug,
@@ -78,7 +111,7 @@ for (const f of source) {
     lat: Number(lat.toFixed(5)),
     lng: Number(lng.toFixed(5)),
     city: f.city,
-    region: f.region,
+    region,
     organizer: f.organizer ?? null,
     capacity: prices[f.slug]?.capacity ?? f.capacity ?? null,
     genres: f.genres ?? [],
