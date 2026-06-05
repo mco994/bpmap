@@ -340,5 +340,17 @@
   "illusion-colmar": {
     "priceDay": 42,
     "priceFull": null
+  },
+  "house-of-groove-km25": {
+    "priceDay": 9,
+    "priceFull": null
+  },
+  "organik-open-rave": {
+    "priceDay": 29,
+    "priceFull": null
+  },
+  "nemoria-festival": {
+    "priceDay": 23.99,
+    "priceFull": null
   }
 }

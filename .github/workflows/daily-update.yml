@@ -33,6 +33,9 @@ jobs:
       - name: Enrichissement des line-ups via Resident Advisor
         run: node web/scripts/ra-lineups.mjs
 
+      - name: Prix & line-ups Shotgun (navigateur headless, fail-open)
+        run: node web/scripts/shotgun-update.mjs
+
       - name: Géocodage (régénère shared/src/data/festivals.json via la BAN)
         run: npm run geocode --workspace web
 
@@ -55,7 +58,7 @@ jobs:
         run: |
           git config user.name "bpmap-bot"
           git config user.email "bpmap-bot@users.noreply.github.com"
-          git add shared/src/data/festivals.json shared/src/data/festivals.source.json shared/src/data/lineups.json shared/src/data/festivals.candidates.json shared/src/data/changes.json
+          git add shared/src/data/festivals.json shared/src/data/festivals.source.json shared/src/data/lineups.json shared/src/data/prices.json shared/src/data/festivals.candidates.json shared/src/data/changes.json
           if git diff --staged --quiet; then echo "Aucun changement de données."; exit 0; fi
           BRANCH="data/refresh-${{ github.run_id }}"
           git checkout -b "$BRANCH"
@@ -64,4 +67,4 @@ jobs:
           gh pr create --base main --head "$BRANCH" \
             --title "chore: données quotidiennes" \
             --body "Rafraîchissement automatique (ingestion + vérification croisée des sources)."
-          gh pr merge "$BRANCH" --auto --squash --delete-branch
+          gh pr merge "$BRANCH" --auto --merge --delete-branch
