@@ -107,11 +107,11 @@ export function SearchSuggestions({ festivals, query, onSelect }: Props) {
                 <Text style={[styles.sub, { color: theme.textSecondary }]} numberOfLines={1}>
                   {festival.city} · {formatDateRange(festival.startDate, festival.endDate)}
                 </Text>
-                {label ? (
+                {label || match!.approximate ? (
                   <View style={[styles.matchChip, { backgroundColor: theme.accentSoft }]}>
                     <Ionicons name={FIELD_ICONS[field]} size={12} color={theme.accent} />
                     <Text style={[styles.matchLabel, { color: theme.textSecondary }]}>
-                      {label}{match!.approximate ? ' ≈ ' : ' : '}
+                      {label ?? ''}{match!.approximate ? ' ≈ ' : ' : '}
                     </Text>
                     <Highlight
                       value={match!.value}

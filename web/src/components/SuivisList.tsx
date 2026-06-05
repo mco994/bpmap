@@ -2,17 +2,9 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { getAllFestivals, type Festival } from "@bpmap/shared";
+import { getAllFestivals, sortByDateThenName } from "@bpmap/shared";
 import FestivalGridCard from "@/components/FestivalGridCard";
 import { useFavorites } from "@/lib/favorites";
-
-function byStartDate(a: Festival, b: Festival): number {
-  if (a.startDate === null && b.startDate === null)
-    return a.name.localeCompare(b.name, "fr");
-  if (a.startDate === null) return 1;
-  if (b.startDate === null) return -1;
-  return a.startDate.localeCompare(b.startDate);
-}
 
 export default function SuivisList() {
   const favorites = useFavorites();
@@ -21,10 +13,7 @@ export default function SuivisList() {
   useEffect(() => setNow(new Date()), []);
 
   const followed = useMemo(
-    () =>
-      getAllFestivals()
-        .filter((f) => favorites.has(f.id))
-        .sort(byStartDate),
+    () => sortByDateThenName(getAllFestivals().filter((f) => favorites.has(f.id))),
     [favorites],
   );
 

@@ -1,7 +1,14 @@
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Keyboard, LayoutAnimation, Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { useRouter } from 'expo-router';
-import { Camera, GeoJSONSource, Layer, Map, type CameraRef } from '@maplibre/maplibre-react-native';
+import {
+  Camera,
+  GeoJSONSource,
+  Layer,
+  Map,
+  type CameraRef,
+  type StyleSpecification,
+} from '@maplibre/maplibre-react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
@@ -11,8 +18,10 @@ import {
   formatDateRange,
   formatFromPrice,
   franceBorderGeoJSON,
+  franceEnclavesGeoJSON,
   franceMaskGeoJSON,
   getAllFestivals,
+  hideEnclaveCountryLabels,
   sizeTierForCapacity,
   SIZE_TIERS,
   type Festival,
@@ -38,12 +47,27 @@ const FRANCE_CENTER: [number, number] = [2.5, 46.6];
 const PIN_COLOR = '#DB2777';
 const PIN_SELECTED_COLOR = '#9D174D';
 const FRANCE_MASK = franceMaskGeoJSON();
+const FRANCE_ENCLAVES = franceEnclavesGeoJSON();
 const FRANCE_BORDER = franceBorderGeoJSON();
 
 export default function CarteScreen() {
   const router = useRouter();
   const theme = useTheme();
   const insets = useSafeAreaInsets();
+  const [mapStyle, setMapStyle] = useState<string | StyleSpecification>(MAP_STYLE);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch(MAP_STYLE)
+      .then((res) => res.json())
+      .then((style) => {
+        if (!cancelled) setMapStyle(hideEnclaveCountryLabels(style) as StyleSpecification);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, []);
   const all = useMemo(
     () => getAllFestivals().filter((f) => Number.isFinite(f.lat) && Number.isFinite(f.lng)),
     [],
@@ -118,7 +142,7 @@ export default function CarteScreen() {
   return (
     <View style={styles.container}>
       <Map
-        mapStyle={MAP_STYLE}
+        mapStyle={mapStyle}
         style={styles.map}
         onPress={() => {
           closeSearch();
@@ -129,6 +153,13 @@ export default function CarteScreen() {
         <GeoJSONSource id="france-mask" data={FRANCE_MASK}>
           <Layer
             id="france-mask-fill"
+            type="fill"
+            paint={{ 'fill-color': '#f6f0f7', 'fill-opacity': 0.93 }}
+          />
+        </GeoJSONSource>
+        <GeoJSONSource id="france-enclaves" data={FRANCE_ENCLAVES}>
+          <Layer
+            id="france-enclaves-fill"
             type="fill"
             paint={{ 'fill-color': '#f6f0f7', 'fill-opacity': 0.93 }}
           />

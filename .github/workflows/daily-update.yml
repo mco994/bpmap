@@ -13,9 +13,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
           cache: npm
@@ -36,6 +36,9 @@ jobs:
       - name: Géocodage (régénère shared/src/data/festivals.json via la BAN)
         run: npm run geocode --workspace web
 
+      - name: Journal des changements (diff vs version committée → changes.json)
+        run: npx tsx web/scripts/diff-changes.mjs
+
       - name: Charger dans Neon
         run: node web/scripts/db-load.mjs
         env:
@@ -52,7 +55,7 @@ jobs:
         run: |
           git config user.name "bpmap-bot"
           git config user.email "bpmap-bot@users.noreply.github.com"
-          git add shared/src/data/festivals.json shared/src/data/festivals.source.json shared/src/data/lineups.json shared/src/data/festivals.candidates.json
+          git add shared/src/data/festivals.json shared/src/data/festivals.source.json shared/src/data/lineups.json shared/src/data/festivals.candidates.json shared/src/data/changes.json
           if git diff --staged --quiet; then echo "Aucun changement de données."; exit 0; fi
           BRANCH="data/refresh-${{ github.run_id }}"
           git checkout -b "$BRANCH"

@@ -324,5 +324,13 @@
   },
   "hard-mess": {
     "capacity": 7500
+  },
+  "pure-open-air": {
+    "priceDay": 15.99,
+    "priceFull": null
+  },
+  "atrium-open-air": {
+    "priceDay": 0,
+    "priceFull": null
   }
 }

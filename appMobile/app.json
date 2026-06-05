@@ -64,6 +64,7 @@
     },
     "extra": {
       "router": {},
+      "apiUrl": "https://bpmap.vercel.app",
       "eas": {
         "projectId": "90adb929-880b-43d7-a79c-fc6e4b1a045e"
       }

@@ -3,6 +3,7 @@ import { Platform } from 'react-native';
 import type { Festival } from '@bpmap/shared';
 
 const CHANNEL_ID = 'reminders';
+export const CHANGES_CHANNEL_ID = 'changes';
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
 
 Notifications.setNotificationHandler({
@@ -18,6 +19,10 @@ export async function ensureNotificationSetup(): Promise<boolean> {
   if (Platform.OS === 'android') {
     await Notifications.setNotificationChannelAsync(CHANNEL_ID, {
       name: 'Rappels festivals',
+      importance: Notifications.AndroidImportance.DEFAULT,
+    });
+    await Notifications.setNotificationChannelAsync(CHANGES_CHANNEL_ID, {
+      name: 'Mises à jour des suivis',
       importance: Notifications.AndroidImportance.DEFAULT,
     });
   }
