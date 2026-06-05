@@ -31,6 +31,25 @@ function normName(s) {
 const knownSlugs = new Set(source.map((f) => f.slug));
 const knownNames = new Set(source.map((f) => normName(f.name)));
 
+function datesOverlap(a, b) {
+  const aStart = (a.startDate ?? "").slice(0, 10);
+  const aEnd = (a.endDate ?? a.startDate ?? "").slice(0, 10);
+  const bStart = (b.startDate ?? "").slice(0, 10);
+  const bEnd = (b.endDate ?? b.startDate ?? "").slice(0, 10);
+  if (!aStart || !bStart) return false;
+  return aStart <= bEnd && bStart <= aEnd;
+}
+
+function variantOfKnown(candidate) {
+  const name = normName(candidate.name);
+  return source.find((f) => {
+    const known = normName(f.name);
+    if (!known || !name) return false;
+    const related = name.startsWith(known) || known.startsWith(name);
+    return related && datesOverlap(f, candidate);
+  });
+}
+
 const PARTY_PATTERN = /\sw\/\s| x | feat\.?| b2b |présente|presents|invite|closing|opening|warm.?up/i;
 
 function domainsOf(sources = []) {
@@ -90,6 +109,12 @@ for (const c of candidates) {
   const slug = c.slug;
   if (knownSlugs.has(slug) || knownNames.has(normName(c.name))) {
     rejected.push({ ...c, _reason: "doublon (déjà en base)" });
+    continue;
+  }
+
+  const variantOf = variantOfKnown(c);
+  if (variantOf) {
+    rejected.push({ ...c, _reason: `variante billetterie de « ${variantOf.name} » (mêmes dates)` });
     continue;
   }
 
