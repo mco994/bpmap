@@ -267,9 +267,12 @@ export default function Map({
           maxWidth="300px"
         >
           <div
-            className="space-y-1.5 p-1"
+            className="cursor-pointer space-y-1.5 p-1"
             onMouseEnter={cancelClose}
             onMouseLeave={() => onSelect(null)}
+            onClick={() => setPopupExpanded((v) => !v)}
+            role="button"
+            aria-expanded={popupExpanded}
           >
             <h3 className="text-sm font-semibold text-zinc-900">
               {selected.name}
@@ -305,6 +308,7 @@ export default function Map({
                         href={selected.ticketUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="font-medium text-fuchsia-700 hover:underline"
                       >
                         Billetterie ↗
@@ -315,6 +319,7 @@ export default function Map({
                         href={selected.officialUrl}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="font-medium text-fuchsia-700 hover:underline"
                       >
                         Site officiel ↗
@@ -325,17 +330,10 @@ export default function Map({
               </>
             )}
 
-            <div className="flex items-center justify-between gap-2 pt-0.5">
-              <button
-                type="button"
-                onClick={() => setPopupExpanded((v) => !v)}
-                aria-expanded={popupExpanded}
-                className="text-xs font-medium text-zinc-600 hover:text-zinc-900"
-              >
-                {popupExpanded ? "Voir moins" : "Voir plus"}
-              </button>
+            <div className="flex items-center justify-end gap-2 pt-0.5">
               <Link
                 href={`/festivals/${selected.slug}`}
+                onClick={(e) => e.stopPropagation()}
                 className="text-xs font-semibold text-fuchsia-700 underline underline-offset-2 hover:text-fuchsia-900"
               >
                 {popupExpanded ? "Fiche complète →" : "Voir la fiche →"}

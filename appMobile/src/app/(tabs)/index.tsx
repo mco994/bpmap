@@ -31,7 +31,6 @@ import { FilterPanel } from '@/components/filter-panel';
 import { GenreChips } from '@/components/genre-chips';
 import { SearchSuggestions } from '@/components/search-suggestions';
 import { ThemedText } from '@/components/themed-text';
-import { ThemedView } from '@/components/themed-view';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import {
@@ -161,6 +160,7 @@ export default function CarteScreen() {
           <Layer
             id="france-enclaves-fill"
             type="fill"
+            afterId="france-mask-fill"
             paint={{ 'fill-color': '#f6f0f7', 'fill-opacity': 0.93 }}
           />
         </GeoJSONSource>
@@ -168,6 +168,7 @@ export default function CarteScreen() {
           <Layer
             id="france-border-line"
             type="line"
+            afterId="france-enclaves-fill"
             paint={{ 'line-color': '#c026d3', 'line-opacity': 0.35, 'line-width': 1.2 }}
           />
         </GeoJSONSource>
@@ -185,6 +186,7 @@ export default function CarteScreen() {
           <Layer
             id="festival-pins"
             type="circle"
+            afterId="france-border-line"
             paint={{
               'circle-radius': 7,
               'circle-color': PIN_COLOR,
@@ -195,6 +197,7 @@ export default function CarteScreen() {
           <Layer
             id="festival-pin-selected"
             type="circle"
+            afterId="festival-pins"
             filter={['==', ['get', 'id'], selected?.id ?? '']}
             paint={{
               'circle-radius': 10,
@@ -295,7 +298,11 @@ export default function CarteScreen() {
       </View>
 
       {selected ? (
-        <ThemedView style={styles.popin}>
+        <Pressable
+          onPress={() => setExpanded((v) => !v)}
+          accessibilityLabel={expanded ? 'Replier les détails' : 'Voir les détails'}
+          style={[styles.popin, { backgroundColor: theme.background }]}
+        >
           <View style={styles.popinTitleRow}>
             <ThemedText type="subtitle" numberOfLines={1} style={styles.popinTitle}>
               {selected.name}
@@ -338,18 +345,13 @@ export default function CarteScreen() {
           ) : null}
 
           <View style={styles.actions}>
-            <Pressable onPress={() => setExpanded((v) => !v)} hitSlop={8}>
-              <ThemedText type="smallBold" themeColor="textSecondary">
-                {expanded ? 'Voir moins' : 'Voir plus'}
-              </ThemedText>
-            </Pressable>
             <Pressable onPress={openFiche} hitSlop={8}>
               <ThemedText type="smallBold" style={{ color: theme.accent }}>
                 Voir la fiche →
               </ThemedText>
             </Pressable>
           </View>
-        </ThemedView>
+        </Pressable>
       ) : null}
 
       <FilterPanel
@@ -452,7 +454,7 @@ const styles = StyleSheet.create({
   details: { gap: Spacing.one, marginTop: Spacing.one },
   actions: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-end',
     alignItems: 'center',
     marginTop: Spacing.two,
   },
