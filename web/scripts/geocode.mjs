@@ -17,6 +17,19 @@ const prices = JSON.parse(readFileSync(path.join(dataDir, "prices.json"), "utf8"
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+async function withRetry(fn, attempts = 3) {
+  let lastError;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastError = err;
+      await sleep(500 * (i + 1));
+    }
+  }
+  throw lastError;
+}
+
 const today = new Date();
 const purgeCutoff = new Date(today.getFullYear(), today.getMonth() - 1, today.getDate())
   .toISOString()
@@ -69,7 +82,7 @@ for (const f of source) {
   let region = f.region ?? null;
   if (lat == null || lng == null) {
     try {
-      const hit = await geocode(f.city, f.postcode);
+      const hit = await withRetry(() => geocode(f.city, f.postcode));
       if (hit) {
         ({ lat, lng } = hit);
         region ??= hit.region;
@@ -90,7 +103,7 @@ for (const f of source) {
   }
   if (!region) {
     try {
-      region = await reverseRegion(lat, lng);
+      region = await withRetry(() => reverseRegion(lat, lng));
       if (region) console.log(`  ↳ région déduite: ${region}`);
       await sleep(120);
     } catch {}
