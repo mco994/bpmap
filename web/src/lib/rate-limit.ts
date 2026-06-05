@@ -8,11 +8,9 @@ export async function enforceRateLimit(
   request: Request,
 ): Promise<Response | null> {
   try {
-    const { rateLimited, error } = await checkRateLimit(rateLimitId, {
+    const { rateLimited } = await checkRateLimit(rateLimitId, {
       request,
     });
-
-    if (error) return null;
 
     if (rateLimited) {
       return Response.json(
