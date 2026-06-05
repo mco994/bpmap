@@ -872,12 +872,12 @@
     "id": "samsam-festival",
     "slug": "samsam-festival",
     "name": "SAMSAM Festival",
-    "description": "Festival électronique en bord de Seine à Samois, près de Fontainebleau : house, disco et electronica dans l'esprit guinguette.",
+    "description": "Festival électronique au Domaine de la Salle à Féricy, dans la forêt de Fontainebleau : trois jours de live et DJ sets entre house, disco et sono mondiale, dans un esprit familial et guinguette.",
     "startDate": "2026-06-05",
-    "endDate": null,
-    "lat": 48.45611,
-    "lng": 2.75346,
-    "city": "Samois-sur-Seine",
+    "endDate": "2026-06-07",
+    "lat": 48.45885,
+    "lng": 2.80405,
+    "city": "Féricy",
     "region": "Île-de-France",
     "organizer": "SAM SAM Festival",
     "capacity": null,
@@ -891,11 +891,11 @@
     "currency": "EUR",
     "ticketUrl": "https://samsam.world/billetterie",
     "officialUrl": "https://samsam.world/",
-    "status": "announced",
+    "status": "confirmed",
     "sources": [
-      "https://samsam.world/",
-      "https://ra.co/events/2406766",
-      "https://samois-sur-seine.fr/evenement/festival-samsam/"
+      "https://samsam.world/edition-2026",
+      "https://www.alentoor.fr/samois-sur-seine/agenda/4512444-samsam-festival",
+      "https://ra.co/events/2406766"
     ]
   },
   {
@@ -1510,6 +1510,37 @@
     ]
   },
   {
+    "id": "illusion-colmar",
+    "slug": "illusion-colmar",
+    "name": "Illusion 2026 — Colmar",
+    "description": "Grande rave dédiée aux sons les plus durs de la scène électronique au Parc des Expositions de Colmar : hard techno, tekno et hard music avec Vortek's, OMAKS, Sköne, Mad Dog, Billx vs Le Bask et Russian Village Boys, scénographie et effets grand format.",
+    "startDate": "2026-06-13",
+    "endDate": "2026-06-14",
+    "lat": 48.08178,
+    "lng": 7.35257,
+    "city": "Colmar",
+    "region": "Grand Est",
+    "organizer": "Pandemic Events / Le Périscope",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "techno",
+      "hardcore",
+      "hardstyle"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/fr/events/illusion-2026-colmar",
+    "officialUrl": "https://www.pandemic-events.com/illusion",
+    "status": "confirmed",
+    "sources": [
+      "https://shotgun.live/fr/events/illusion-2026-colmar",
+      "https://www.colmar-expo.fr/evenement/illusion-colmar/",
+      "https://www.seetickets.com/fr/tg/tour/illusion-colmar/49134"
+    ]
+  },
+  {
     "id": "goutez-electronique-1",
     "slug": "goutez-electronique-1",
     "name": "Goûtez Électronique #1",
@@ -1990,6 +2021,37 @@
     ]
   },
   {
+    "id": "apollo-festival",
+    "slug": "apollo-festival",
+    "name": "Apollo Festival",
+    "description": "Huitième édition du festival électro du collectif Hélios au Bout du Monde à Sainte-Adresse, face à la mer : deux jours de DJ sets et lives entre house, techno et electro, gratuit pour les moins de 16 ans.",
+    "startDate": "2026-06-26",
+    "endDate": "2026-06-27",
+    "lat": 49.5095,
+    "lng": 0.07889,
+    "city": "Sainte-Adresse",
+    "region": "Normandie",
+    "organizer": "Collectif Hélios",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/fr/events/apollo-festival-2026",
+    "officialUrl": "https://www.ville-sainte-adresse.fr/ma-ville/actualites/lapollo-festival-ouvre-sa-billeterie/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.ville-sainte-adresse.fr/ma-ville/actualites/lapollo-festival-ouvre-sa-billeterie/",
+      "https://shotgun.live/fr/events/apollo-festival-2026",
+      "https://en.normandie-tourisme.fr/programme/apollo-festival-2026/"
+    ]
+  },
+  {
     "id": "evasion-festival",
     "slug": "evasion-festival",
     "name": "Évasion Festival",
@@ -2456,7 +2518,7 @@
       "electro",
       "techno"
     ],
-    "priceDay": null,
+    "priceDay": 32,
     "priceFull": null,
     "currency": "EUR",
     "ticketUrl": null,
@@ -2987,6 +3049,35 @@
     "sources": [
       "https://pilatfest.fr/",
       "https://www.rhonetourisme.com/agenda/7670473_pilat-fest-1ere-edition/"
+    ]
+  },
+  {
+    "id": "underground-mountain-festival",
+    "slug": "underground-mountain-festival",
+    "name": "Underground Mountain Festival",
+    "description": "Festival éco-responsable de musiques électroniques à l'Étang du Nonnenhof, à Haguenau : DJ sets et lives entre électro et musiques du monde, 6e édition mêlant créativité musicale et engagement écologique.",
+    "startDate": "2026-07-24",
+    "endDate": "2026-07-26",
+    "lat": 48.81455,
+    "lng": 7.77261,
+    "city": "Haguenau",
+    "region": "Grand Est",
+    "organizer": "Underground Mountain Festival",
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://um-festival.fr/",
+    "status": "confirmed",
+    "sources": [
+      "https://um-festival.fr/programmation",
+      "https://www.festivalenfrance.com/festival/underground-mountain-festival"
     ]
   },
   {
@@ -3648,6 +3739,37 @@
       "https://www.tv83.info/six-fours-ya-degun-festival-2026/",
       "https://www.nicematin.com/loisirs/festivites/a-six-fours-le-ya-degun-festival-lance-une-soiree-electro-de-noel-avec-feu-d-artifice-10661255",
       "https://handsupelectro.fr/evenement/ya-degun-festival-2026-devoile-sa-programmation-complete/"
+    ]
+  },
+  {
+    "id": "la-dimancherie-festival",
+    "slug": "la-dimancherie-festival",
+    "name": "La Dimancherie Festival",
+    "description": "Festival électro face à l'océan au Stade du Moulin Benoist à Lagord, près de La Rochelle : deux scènes house et techno, food trucks, marché créatif et animations, avec Cuartero, Manda Moor, Betical et Paige Tomlinson.",
+    "startDate": "2026-08-15",
+    "endDate": "2026-08-16",
+    "lat": 46.18518,
+    "lng": -1.14961,
+    "city": "Lagord",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": "La Dimancherie",
+    "capacity": null,
+    "genres": [
+      "house",
+      "techno",
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://ra.co/events/2393292",
+    "officialUrl": "https://ladimancherie.fr/",
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://ra.co/events/2393292",
+      "https://www.pariszigzag.fr/france/la-dimancherie-festival-la-rochelle/",
+      "https://www.guide-charente-maritime.com/fr/agenda/concerts/lagord-445/festival-la-dimancherie-66103.html"
     ]
   },
   {
