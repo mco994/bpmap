@@ -97,7 +97,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               className={`rounded-md px-2.5 py-1 text-xs font-medium ${
                 sortMode === "date"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
-                  : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                  : "text-zinc-400 hover:bg-zinc-100 hover:text-zinc-600 dark:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-400"
               }`}
             >
               Date
@@ -109,7 +109,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               className={`rounded-md px-2.5 py-1 text-xs font-medium ${
                 sortMode === "alpha"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
-                  : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                  : "text-zinc-400 hover:bg-zinc-100 hover:text-zinc-600 dark:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-400"
               }`}
             >
               A–Z

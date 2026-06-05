@@ -117,7 +117,9 @@ export default function ListeScreen() {
                 accessibilityLabel={mode === 'date' ? 'Trier par date' : 'Trier par ordre alphabétique'}
                 style={[
                   styles.sortOption,
-                  sortMode === mode && { backgroundColor: theme.accentSoft },
+                  sortMode === mode
+                    ? { backgroundColor: theme.accentSoft }
+                    : styles.sortOptionInactive,
                 ]}
               >
                 <ThemedText
@@ -139,25 +141,38 @@ export default function ListeScreen() {
         </View>
       </View>
 
-      <SectionList
-        sections={sections}
-        keyExtractor={(f) => f.id}
-        contentContainerStyle={styles.list}
-        keyboardShouldPersistTaps="handled"
-        stickySectionHeadersEnabled
-        SectionSeparatorComponent={null}
-        renderSectionHeader={({ section }) => (
-          <View style={[styles.sectionHeader, { backgroundColor: theme.background }]}>
-            <ThemedText type="smallBold" style={{ color: theme.accent }}>
-              {section.title.toUpperCase()}
-            </ThemedText>
-            <ThemedText type="small" themeColor="textSecondary">
-              {section.data.length}
-            </ThemedText>
-          </View>
-        )}
-        renderItem={({ item }) => <FestivalRow festival={item} highlightQuery={query} />}
-      />
+      <View style={styles.listArea}>
+      {([
+        ['date', byDate],
+        ['alpha', byAlpha],
+      ] as const).map(([mode, modeSections]) => (
+        <View
+          key={mode}
+          style={[styles.listWrap, sortMode !== mode && styles.hiddenList]}
+          pointerEvents={sortMode === mode ? 'auto' : 'none'}
+        >
+          <SectionList
+            sections={modeSections}
+            keyExtractor={(f) => f.id}
+            contentContainerStyle={styles.list}
+            keyboardShouldPersistTaps="handled"
+            stickySectionHeadersEnabled
+            SectionSeparatorComponent={null}
+            renderSectionHeader={({ section }) => (
+              <View style={[styles.sectionHeader, { backgroundColor: theme.background }]}>
+                <ThemedText type="smallBold" style={{ color: theme.accent }}>
+                  {section.title.toUpperCase()}
+                </ThemedText>
+                <ThemedText type="small" themeColor="textSecondary">
+                  {section.data.length}
+                </ThemedText>
+              </View>
+            )}
+            renderItem={({ item }) => <FestivalRow festival={item} highlightQuery={query} />}
+          />
+        </View>
+      ))}
+      </View>
 
       <FilterPanel
         open={panelOpen}
@@ -223,6 +238,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: Spacing.two,
     paddingVertical: 2,
   },
+  sortOptionInactive: { opacity: 0.4 },
+  listArea: { flex: 1 },
+  listWrap: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 },
+  hiddenList: { opacity: 0 },
   correctionChip: {
     paddingHorizontal: Spacing.two,
     paddingVertical: 2,
