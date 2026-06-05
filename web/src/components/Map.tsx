@@ -135,7 +135,7 @@ export default function Map({
   );
 
   // eslint-disable-next-line react-hooks/set-state-in-effect
-  useEffect(() => setPopupExpanded(false), [selectedId]);
+  useEffect(() => setPopupExpanded(true), [selectedId]);
 
   const selected = useMemo(
     () => festivals.find((f) => f.id === selectedId) ?? null,
@@ -186,6 +186,8 @@ export default function Map({
     if (!festival) return;
     cancelClose();
     pinnedUntil.current = Date.now() + 1500;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setPopupExpanded(false);
     map.flyTo({ center: [festival.lng, festival.lat], zoom: 8, duration: 900 });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [focus]);
@@ -267,11 +269,11 @@ export default function Map({
           maxWidth="300px"
         >
           <div
-            className="cursor-pointer space-y-1.5 p-1"
+            className={popupExpanded ? "space-y-1.5 p-1" : "cursor-pointer space-y-1.5 p-1"}
             onMouseEnter={cancelClose}
             onMouseLeave={() => onSelect(null)}
-            onClick={() => setPopupExpanded((v) => !v)}
-            role="button"
+            onClick={popupExpanded ? undefined : () => setPopupExpanded(true)}
+            role={popupExpanded ? undefined : "button"}
             aria-expanded={popupExpanded}
           >
             <h3 className="text-sm font-semibold text-zinc-900">

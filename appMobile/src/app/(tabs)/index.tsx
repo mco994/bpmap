@@ -105,9 +105,9 @@ export default function CarteScreen() {
     [festivals],
   );
 
-  const select = (f: Festival | null) => {
+  const select = (f: Festival | null, compact = false) => {
     setSelected(f);
-    setExpanded(false);
+    setExpanded(f != null && !compact);
   };
 
   const toggleSearch = (open: boolean) => {
@@ -154,7 +154,7 @@ export default function CarteScreen() {
   const onSuggestionSelect = (festival: Festival) => {
     Keyboard.dismiss();
     toggleSearch(false);
-    select(festival);
+    select(festival, true);
     cameraRef.current?.flyTo({
       center: [festival.lng, festival.lat],
       zoom: 8,
@@ -344,8 +344,9 @@ export default function CarteScreen() {
 
       {selected ? (
         <Pressable
-          onPress={() => setExpanded((v) => !v)}
-          accessibilityLabel={expanded ? 'Replier les détails' : 'Voir les détails'}
+          onPress={() => setExpanded(true)}
+          disabled={expanded}
+          accessibilityLabel={expanded ? undefined : 'Voir les détails'}
           style={[styles.popin, { backgroundColor: theme.background }]}
         >
           <View style={styles.popinTitleRow}>
