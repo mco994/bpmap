@@ -1,6 +1,7 @@
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import os from "node:os";
+import { buffer } from "@turf/buffer";
 
 const tmp = os.tmpdir();
 const files = [
@@ -14,6 +15,7 @@ const files = [
 
 const round = (n) => Math.round(n * 1000) / 1000;
 const TOLERANCE = 0.005;
+const COAST_OFFSET_KM = 0.9;
 
 const ENCLAVE_DILATE_KM = { andorra: 0.5, monaco: 0.2 };
 
@@ -176,6 +178,17 @@ function polygonsOf(geometry) {
   throw new Error(`Géométrie inattendue: ${geometry.type}`);
 }
 
+function bufferedOuters(outerRing) {
+  const feature = {
+    type: "Feature",
+    properties: {},
+    geometry: { type: "Polygon", coordinates: [outerRing] },
+  };
+  const dilated = buffer(feature, COAST_OFFSET_KM, { units: "kilometers" });
+  if (!dilated) return [];
+  return polygonsOf(dilated.geometry).map((poly) => poly[0]);
+}
+
 function outersOf(file, { tolerance, minBboxArea }) {
   const geo = JSON.parse(readFileSync(path.join(tmp, file), "utf8"));
   const geometries =
@@ -185,14 +198,16 @@ function outersOf(file, { tolerance, minBboxArea }) {
   const outers = [];
   for (const geometry of geometries) {
     for (const poly of polygonsOf(geometry)) {
-      const outer = simplifyRing(poly[0], tolerance);
-      if (outer.length < 4) continue;
-      const lngs = outer.map((p) => p[0]);
-      const lats = outer.map((p) => p[1]);
-      const bboxArea =
-        (Math.max(...lngs) - Math.min(...lngs)) * (Math.max(...lats) - Math.min(...lats));
-      if (bboxArea < minBboxArea) continue;
-      outers.push(outer);
+      for (const dilatedOuter of bufferedOuters(poly[0])) {
+        const outer = simplifyRing(dilatedOuter, tolerance);
+        if (outer.length < 4) continue;
+        const lngs = outer.map((p) => p[0]);
+        const lats = outer.map((p) => p[1]);
+        const bboxArea =
+          (Math.max(...lngs) - Math.min(...lngs)) * (Math.max(...lats) - Math.min(...lats));
+        if (bboxArea < minBboxArea) continue;
+        outers.push(outer);
+      }
     }
   }
   return outers;
