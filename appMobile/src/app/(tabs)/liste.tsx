@@ -7,7 +7,8 @@ import {
   bestQueryMatch,
   filterFestivalsByQuery,
   getAllFestivals,
-  groupFestivals,
+  groupByLetter,
+  groupByMonth,
   type SortMode,
 } from '@bpmap/shared';
 
@@ -39,7 +40,9 @@ export default function ListeScreen() {
     () => filterFestivalsByQuery(applyFilters(all, filters, now), query),
     [all, filters, query, now],
   );
-  const sections = useMemo(() => groupFestivals(festivals, sortMode), [festivals, sortMode]);
+  const byDate = useMemo(() => groupByMonth(festivals), [festivals]);
+  const byAlpha = useMemo(() => groupByLetter(festivals), [festivals]);
+  const sections = sortMode === 'alpha' ? byAlpha : byDate;
   const active = activeFiltersCount(filters);
   const correction = useMemo(() => {
     const trimmed = query.trim();

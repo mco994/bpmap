@@ -13,7 +13,8 @@ import {
   isEmptyFilters,
   effectiveStatus,
   statusLabel,
-  groupFestivals,
+  groupByLetter,
+  groupByMonth,
   type Filters,
   type Festival,
   type SortMode,
@@ -32,10 +33,13 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setNow(new Date()), []);
 
-  const sections = useMemo(() => {
-    const base = filterFestivalsByQuery(applyFilters(festivals, filters, now), query);
-    return groupFestivals(base, sortMode);
-  }, [festivals, filters, now, query, sortMode]);
+  const filtered = useMemo(
+    () => filterFestivalsByQuery(applyFilters(festivals, filters, now), query),
+    [festivals, filters, now, query],
+  );
+  const byDate = useMemo(() => groupByMonth(filtered), [filtered]);
+  const byAlpha = useMemo(() => groupByLetter(filtered), [filtered]);
+  const sections = sortMode === "alpha" ? byAlpha : byDate;
 
   const filteredCount = useMemo(
     () => sections.reduce((total, section) => total + section.data.length, 0),

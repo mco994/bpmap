@@ -1,14 +1,17 @@
 import type { Festival } from "./types";
 
+const NAME_COLLATOR = new Intl.Collator("fr");
+const LOOSE_NAME_COLLATOR = new Intl.Collator("fr", { sensitivity: "base" });
+
 export function compareByDateThenName(a: Festival, b: Festival): number {
   const aDated = a.startDate !== null;
   const bDated = b.startDate !== null;
   if (aDated && !bDated) return -1;
   if (!aDated && bDated) return 1;
   if (aDated && bDated && a.startDate !== b.startDate) {
-    return (a.startDate as string).localeCompare(b.startDate as string);
+    return a.startDate! < b.startDate! ? -1 : 1;
   }
-  return a.name.localeCompare(b.name, "fr");
+  return NAME_COLLATOR.compare(a.name, b.name);
 }
 
 export function sortByDateThenName(festivals: Festival[]): Festival[] {
@@ -46,7 +49,7 @@ function monthTitle(startDate: string): string {
 export type SortMode = "date" | "alpha";
 
 function compareByName(a: Festival, b: Festival): number {
-  return a.name.localeCompare(b.name, "fr", { sensitivity: "base" });
+  return LOOSE_NAME_COLLATOR.compare(a.name, b.name);
 }
 
 function letterKey(name: string): string {
@@ -79,13 +82,6 @@ export function groupByLetter(festivals: Festival[]): FestivalSection[] {
     sections.push(...sections.splice(digits, 1));
   }
   return sections;
-}
-
-export function groupFestivals(
-  festivals: Festival[],
-  mode: SortMode,
-): FestivalSection[] {
-  return mode === "alpha" ? groupByLetter(festivals) : groupByMonth(festivals);
 }
 
 export function groupByMonth(festivals: Festival[]): FestivalSection[] {

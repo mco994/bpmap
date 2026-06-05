@@ -66,10 +66,14 @@ export function sizeTierLabel(tier: SizeTier): string {
   return SIZE_TIERS.find((t) => t.tier === tier)?.label ?? tier;
 }
 
+const FR_COLLATOR = new Intl.Collator("fr");
+
 export function getAllFestivals(): Festival[] {
-  return [...FESTIVALS].sort((a, b) =>
-    (a.startDate ?? "9999").localeCompare(b.startDate ?? "9999"),
-  );
+  return [...FESTIVALS].sort((a, b) => {
+    const aKey = a.startDate ?? "9999";
+    const bKey = b.startDate ?? "9999";
+    return aKey < bKey ? -1 : aKey > bKey ? 1 : 0;
+  });
 }
 
 export function getFestivalBySlug(slug: string): Festival | undefined {
@@ -80,12 +84,12 @@ export function getOrganizers(): string[] {
   const names = FESTIVALS.map((f) => f.organizer).filter(
     (o): o is string => !!o,
   );
-  return [...new Set(names)].sort((a, b) => a.localeCompare(b, "fr"));
+  return [...new Set(names)].sort(FR_COLLATOR.compare);
 }
 
 export function getArtists(): string[] {
   const all = FESTIVALS.flatMap((f) => f.lineup ?? []);
-  return [...new Set(all)].sort((a, b) => a.localeCompare(b, "fr"));
+  return [...new Set(all)].sort(FR_COLLATOR.compare);
 }
 
 export function getPriceBounds(): { maxDay: number; maxFull: number } {
