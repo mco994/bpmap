@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Keyboard, LayoutAnimation, Pressable, StyleSheet, TextInput, View } from 'react-native';
+import { Alert, Keyboard, LayoutAnimation, Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import {
   Camera,
   GeoJSONSource,
   Layer,
   Map,
+  UserLocation,
   type CameraRef,
   type StyleSpecification,
 } from '@maplibre/maplibre-react-native';
@@ -29,10 +30,12 @@ import {
 
 import { FilterPanel } from '@/components/filter-panel';
 import { GenreChips } from '@/components/genre-chips';
+import { ItineraryButton } from '@/components/itinerary-button';
 import { SearchSuggestions } from '@/components/search-suggestions';
 import { ThemedText } from '@/components/themed-text';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
+import { getCurrentCoords } from '@/lib/geo';
 import {
   activeFiltersCount,
   clearAllFilters,
@@ -78,6 +81,8 @@ export default function CarteScreen() {
   const [expanded, setExpanded] = useState(false);
   const [panelOpen, setPanelOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [showPuck, setShowPuck] = useState(false);
+  const [locating, setLocating] = useState(false);
   const cameraRef = useRef<CameraRef>(null);
 
   const festivals = useMemo(
@@ -121,6 +126,29 @@ export default function CarteScreen() {
     const slug = selected.slug;
     select(null);
     router.push({ pathname: '/festival/[slug]', params: { slug } });
+  };
+
+  const goToMyLocation = async () => {
+    if (locating) return;
+    setLocating(true);
+    try {
+      const coords = await getCurrentCoords();
+      if (!coords) {
+        Alert.alert(
+          'Position indisponible',
+          "Active la localisation pour BPMap dans les réglages de ton téléphone.",
+        );
+        return;
+      }
+      setShowPuck(true);
+      cameraRef.current?.flyTo({
+        center: [coords.lng, coords.lat],
+        zoom: 12,
+        duration: 900,
+      });
+    } finally {
+      setLocating(false);
+    }
   };
 
   const onSuggestionSelect = (festival: Festival) => {
@@ -207,7 +235,24 @@ export default function CarteScreen() {
             }}
           />
         </GeoJSONSource>
+        {showPuck ? <UserLocation animated /> : null}
       </Map>
+
+      <Pressable
+        onPress={goToMyLocation}
+        disabled={locating}
+        accessibilityLabel="Centrer sur ma position"
+        style={[
+          styles.locateFab,
+          { backgroundColor: theme.background, bottom: (selected ? 200 : 0) + insets.bottom + Spacing.four },
+        ]}
+      >
+        <Ionicons
+          name="locate"
+          size={20}
+          color={locating ? theme.textSecondary : theme.accent}
+        />
+      </Pressable>
 
       <View style={[styles.topArea, { top: insets.top + Spacing.two }]}>
         <View style={styles.topBar}>
@@ -345,6 +390,7 @@ export default function CarteScreen() {
           ) : null}
 
           <View style={styles.actions}>
+            <ItineraryButton festival={selected} />
             <Pressable onPress={openFiche} hitSlop={8}>
               <ThemedText type="smallBold" style={{ color: theme.accent }}>
                 Voir la fiche →
@@ -423,6 +469,20 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     elevation: 3,
   },
+  locateFab: {
+    position: 'absolute',
+    right: Spacing.three,
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000000',
+    shadowOpacity: 0.15,
+    shadowRadius: 6,
+    shadowOffset: { width: 0, height: 2 },
+    elevation: 3,
+  },
   popin: {
     position: 'absolute',
     left: Spacing.three,
@@ -454,7 +514,7 @@ const styles = StyleSheet.create({
   details: { gap: Spacing.one, marginTop: Spacing.one },
   actions: {
     flexDirection: 'row',
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
     alignItems: 'center',
     marginTop: Spacing.two,
   },
