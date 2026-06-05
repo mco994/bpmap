@@ -42,6 +42,11 @@ jobs:
       - name: Journal des changements (diff vs version committée → changes.json)
         run: npx tsx web/scripts/diff-changes.mjs
 
+      - name: Migrations Neon (idempotentes)
+        run: node web/scripts/db-migrate.mjs
+        env:
+          CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
+
       - name: Charger dans Neon
         run: node web/scripts/db-load.mjs
         env:
@@ -49,6 +54,11 @@ jobs:
 
       - name: Cycle de vie (marque "passé" + purge à +1 mois)
         run: node web/scripts/db-lifecycle.mjs
+        env:
+          CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
+
+      - name: Notifications push (changements du jour → Expo Push)
+        run: node web/scripts/send-push.mjs
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
 

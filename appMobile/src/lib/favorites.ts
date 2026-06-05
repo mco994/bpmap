@@ -1,6 +1,8 @@
 import { useSyncExternalStore } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import { syncPushSubscription } from './push';
+
 const STORAGE_KEY = 'bpmap:favorites';
 
 let favorites = new Set<string>();
@@ -38,6 +40,12 @@ export function toggleFavorite(id: string) {
   favorites = next;
   emit();
   void persist();
+  void syncPushSubscription(favorites);
+}
+
+export async function currentFavorites(): Promise<Set<string>> {
+  await load();
+  return favorites;
 }
 
 function subscribe(listener: () => void) {

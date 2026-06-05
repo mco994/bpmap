@@ -6,6 +6,12 @@ import { useColorScheme } from 'react-native';
 import * as Notifications from 'expo-notifications';
 
 import { checkChangesAndNotify } from '@/lib/changes';
+import { currentFavorites } from '@/lib/favorites';
+import { syncPushSubscription } from '@/lib/push';
+
+async function syncPush() {
+  syncPushSubscription(await currentFavorites());
+}
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
@@ -14,9 +20,11 @@ export default function RootLayout() {
 
   useEffect(() => {
     void checkChangesAndNotify();
+    void syncPush();
     const subscription = AppState.addEventListener('change', (next: AppStateStatus) => {
       if (appState.current.match(/inactive|background/) && next === 'active') {
         void checkChangesAndNotify();
+        void syncPush();
       }
       appState.current = next;
     });
