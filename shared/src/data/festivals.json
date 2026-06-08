@@ -833,6 +833,31 @@
     "officialUrl": "https://www.welovegreen.fr/",
     "status": "confirmed",
     "eclectic": true,
+    "lineup": [
+      "Little Simz",
+      "Dijon",
+      "Sebastien Tellier",
+      "¥ØU$UK€ ¥UK1MAT$U",
+      "DJ Gigola",
+      "Sudan Archives",
+      "Tatyana Jane",
+      "Oklou",
+      "KI/KI",
+      "Overmono",
+      "DJ Heartstring",
+      "LB aka LABAT",
+      "TOCCORORO",
+      "The xx",
+      "Charlotte de Witte",
+      "Dom Dolla",
+      "KETTAMA",
+      "Bambounou",
+      "HAAi",
+      "Ninajirachi",
+      "Six Sex",
+      "TTristana",
+      "Camporeale (FR)"
+    ],
     "sources": [
       "https://www.welovegreen.fr/",
       "https://ra.co/events/2351025"
@@ -922,6 +947,14 @@
     "officialUrl": "https://ra.co/events/2437374",
     "status": "confirmed",
     "eventType": "soiree",
+    "lineup": [
+      "Dr. Rubinstein",
+      "DJ MELL G",
+      "abs8lute",
+      "Zadig",
+      "Hadone",
+      "UFO95"
+    ],
     "sources": [
       "https://ra.co/events/2437374",
       "https://www.parisbouge.com/events/313498"
@@ -1072,6 +1105,11 @@
     "officialUrl": "https://larotondestalingrad.com/programmation/",
     "status": "confirmed",
     "eventType": "open-air",
+    "lineup": [
+      "DJ Tjizza",
+      "Helly",
+      "TRAJANO"
+    ],
     "sources": [
       "https://ra.co/events/2436100",
       "https://larotondestalingrad.com/programmation/"
