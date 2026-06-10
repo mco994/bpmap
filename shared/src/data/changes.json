@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "id": "2026-06-10:we-love-green:lineup",
+    "festivalId": "we-love-green",
+    "festivalSlug": "we-love-green",
+    "festivalName": "We Love Green",
+    "type": "lineup",
+    "date": "2026-06-10",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-06-10:futurs-proches-mia-mao:lineup",
+    "festivalId": "futurs-proches-mia-mao",
+    "festivalSlug": "futurs-proches-mia-mao",
+    "festivalName": "Futurs Proches (Dr Rubinstein b2b DJ Mell G)",
+    "type": "lineup",
+    "date": "2026-06-10",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-06-10:vinyle-village-wax-sun:lineup",
+    "festivalId": "vinyle-village-wax-sun",
+    "festivalSlug": "vinyle-village-wax-sun",
+    "festivalName": "Vinyle Village — Wax & Sun",
+    "type": "lineup",
+    "date": "2026-06-10",
+    "summary": "Le line-up a été mis à jour."
+  }
+]
