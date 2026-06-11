@@ -1,61 +1,5 @@
 [
   {
-    "id": "ref-festival",
-    "slug": "ref-festival",
-    "name": "REF Festival",
-    "description": "Le plus grand festival house de la Côte d'Azur, au 109 à Nice : trois nuits, cinq scènes et plus de vingt artistes, où musique électronique et installations artistiques fusionnent.",
-    "startDate": "2026-05-08",
-    "endDate": "2026-05-10",
-    "lat": 43.71273,
-    "lng": 7.25092,
-    "city": "Nice",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "house",
-      "techno",
-      "electro"
-    ],
-    "priceDay": null,
-    "priceFull": 35,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://reffestival.com/",
-    "status": "confirmed",
-    "lineup": [
-      "Daox",
-      "Djudah",
-      "DJ Tennis",
-      "Doudou MD",
-      "Laura de Greef",
-      "Matisa",
-      "Nicolas Masseyeff",
-      "Parallelle",
-      "Rammö",
-      "Saoirse",
-      "Sweely",
-      "Raresh",
-      "Barbara Babaoo",
-      "Legri",
-      "Ambre Ballester",
-      "Andy Book",
-      "Ay:Yu",
-      "Gioe",
-      "Gab Jr",
-      "Enrico Vergo",
-      "Loquace",
-      "Lüna",
-      "Say Less",
-      "Vatten",
-      "Whitenoise",
-      "Juan Atkins"
-    ],
-    "sources": [
-      "https://reffestival.com/"
-    ]
-  },
-  {
     "id": "nuits-sonores",
     "slug": "nuits-sonores",
     "name": "Nuits Sonores",
@@ -833,6 +777,31 @@
     "officialUrl": "https://www.welovegreen.fr/",
     "status": "confirmed",
     "eclectic": true,
+    "lineup": [
+      "Little Simz",
+      "Dijon",
+      "Sebastien Tellier",
+      "¥ØU$UK€ ¥UK1MAT$U",
+      "DJ Gigola",
+      "Sudan Archives",
+      "Tatyana Jane",
+      "Oklou",
+      "KI/KI",
+      "Overmono",
+      "DJ Heartstring",
+      "LB aka LABAT",
+      "TOCCORORO",
+      "The xx",
+      "Charlotte de Witte",
+      "Dom Dolla",
+      "KETTAMA",
+      "Bambounou",
+      "HAAi",
+      "Ninajirachi",
+      "Six Sex",
+      "TTristana",
+      "Camporeale (FR)"
+    ],
     "sources": [
       "https://www.welovegreen.fr/",
       "https://ra.co/events/2351025"
@@ -922,6 +891,14 @@
     "officialUrl": "https://ra.co/events/2437374",
     "status": "confirmed",
     "eventType": "soiree",
+    "lineup": [
+      "Dr. Rubinstein",
+      "DJ MELL G",
+      "abs8lute",
+      "Zadig",
+      "Hadone",
+      "UFO95"
+    ],
     "sources": [
       "https://ra.co/events/2437374",
       "https://www.parisbouge.com/events/313498"
@@ -1072,6 +1049,11 @@
     "officialUrl": "https://larotondestalingrad.com/programmation/",
     "status": "confirmed",
     "eventType": "open-air",
+    "lineup": [
+      "DJ Tjizza",
+      "Helly",
+      "TRAJANO"
+    ],
     "sources": [
       "https://ra.co/events/2436100",
       "https://larotondestalingrad.com/programmation/"
@@ -1387,7 +1369,7 @@
       "french-touch",
       "techno"
     ],
-    "priceDay": 9,
+    "priceDay": 20,
     "priceFull": null,
     "currency": "EUR",
     "ticketUrl": "https://shotgun.live/fr/events/house-of-groove-leo-pol-alan-braxe-bonito-boy-kilometre25",
@@ -1556,11 +1538,12 @@
       "OMAKS",
       "Sköne",
       "LESSSS",
-      "Dj Mad Dog",
+      "DJ Mad Dog",
       "Billx",
       "Le Bask",
       "Russian Village Boys",
-      "Acidpach"
+      "Acidpach",
+      "DØRY"
     ],
     "sources": [
       "https://shotgun.live/fr/events/illusion-2026-colmar",

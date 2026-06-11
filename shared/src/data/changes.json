@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "2026-06-11:ref-festival:removed",
+    "festivalId": "ref-festival",
+    "festivalSlug": "ref-festival",
+    "festivalName": "REF Festival",
+    "type": "removed",
+    "date": "2026-06-11",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-06-11:we-love-green:lineup",
+    "festivalId": "we-love-green",
+    "festivalSlug": "we-love-green",
+    "festivalName": "We Love Green",
+    "type": "lineup",
+    "date": "2026-06-11",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-06-11:futurs-proches-mia-mao:lineup",
+    "festivalId": "futurs-proches-mia-mao",
+    "festivalSlug": "futurs-proches-mia-mao",
+    "festivalName": "Futurs Proches (Dr Rubinstein b2b DJ Mell G)",
+    "type": "lineup",
+    "date": "2026-06-11",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-06-11:vinyle-village-wax-sun:lineup",
+    "festivalId": "vinyle-village-wax-sun",
+    "festivalSlug": "vinyle-village-wax-sun",
+    "festivalName": "Vinyle Village — Wax & Sun",
+    "type": "lineup",
+    "date": "2026-06-11",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-06-11:house-of-groove-km25:price",
+    "festivalId": "house-of-groove-km25",
+    "festivalSlug": "house-of-groove-km25",
+    "festivalName": "Open Air House of Groove (Kilomètre25)",
+    "type": "price",
+    "date": "2026-06-11",
+    "summary": "Les tarifs ont été mis à jour."
+  },
+  {
+    "id": "2026-06-11:illusion-colmar:lineup",
+    "festivalId": "illusion-colmar",
+    "festivalSlug": "illusion-colmar",
+    "festivalName": "Illusion 2026 — Colmar",
+    "type": "lineup",
+    "date": "2026-06-11",
+    "summary": "Le line-up a été mis à jour."
+  }
+]
