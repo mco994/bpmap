@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "2026-06-15:ref-festival:removed",
+    "festivalId": "ref-festival",
+    "festivalSlug": "ref-festival",
+    "festivalName": "REF Festival",
+    "type": "removed",
+    "date": "2026-06-15",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-06-15:we-love-green:lineup",
+    "festivalId": "we-love-green",
+    "festivalSlug": "we-love-green",
+    "festivalName": "We Love Green",
+    "type": "lineup",
+    "date": "2026-06-15",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-06-15:futurs-proches-mia-mao:lineup",
+    "festivalId": "futurs-proches-mia-mao",
+    "festivalSlug": "futurs-proches-mia-mao",
+    "festivalName": "Futurs Proches (Dr Rubinstein b2b DJ Mell G)",
+    "type": "lineup",
+    "date": "2026-06-15",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-06-15:vinyle-village-wax-sun:lineup",
+    "festivalId": "vinyle-village-wax-sun",
+    "festivalSlug": "vinyle-village-wax-sun",
+    "festivalName": "Vinyle Village — Wax & Sun",
+    "type": "lineup",
+    "date": "2026-06-15",
+    "summary": "Le line-up a été mis à jour."
+  }
+]
