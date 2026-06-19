@@ -112,6 +112,7 @@ export default function Map({
 }: MapProps) {
   const mapRef = useRef<MapRef>(null);
   const [cursor, setCursor] = useState<string>("");
+  const [labelLayerId, setLabelLayerId] = useState<string | undefined>(undefined);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinnedUntil = useRef(0);
   const interactionLock = useRef(false);
@@ -222,7 +223,11 @@ export default function Map({
       mapStyle={MAP_STYLE}
       onLoad={(e) => {
         const map = e.target;
+        let firstLabelId: string | undefined;
         for (const layer of map.getStyle().layers ?? []) {
+          if (layer.type === "symbol" && !firstLabelId) {
+            firstLabelId = layer.id;
+          }
           if (isCountryLabelLayer(layer)) {
             map.setFilter(
               layer.id,
@@ -232,6 +237,7 @@ export default function Map({
             );
           }
         }
+        setLabelLayerId(firstLabelId);
       }}
       style={{ width: "100%", height: "100%" }}
       interactiveLayerIds={["festival-hit", "festival-points", "selected-point"]}
@@ -263,9 +269,9 @@ export default function Map({
       </Source>
 
       <Source id={SOURCE_ID} type="geojson" data={geojson}>
-        <Layer {...hitLayer} />
-        <Layer {...pointLayer} />
-        <Layer {...selectedLayer} />
+        <Layer {...hitLayer} beforeId={labelLayerId} />
+        <Layer {...pointLayer} beforeId={labelLayerId} />
+        <Layer {...selectedLayer} beforeId={labelLayerId} />
       </Source>
 
       {selected && (
