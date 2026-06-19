@@ -21,7 +21,8 @@ import {
   franceEnclavesGeoJSON,
   franceMaskGeoJSON,
   isCountryLabelLayer,
-  maskedCountryLabelFilter,
+  isCityLabelLayer,
+  maskedPlaceLabelFilter,
   sizeTierForCapacity,
   SIZE_TIERS,
   type Festival,
@@ -113,6 +114,7 @@ export default function Map({
   const mapRef = useRef<MapRef>(null);
   const [cursor, setCursor] = useState<string>("");
   const [labelLayerId, setLabelLayerId] = useState<string | undefined>(undefined);
+  const [maskBeforeId, setMaskBeforeId] = useState<string | undefined>(undefined);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinnedUntil = useRef(0);
   const interactionLock = useRef(false);
@@ -224,20 +226,27 @@ export default function Map({
       onLoad={(e) => {
         const map = e.target;
         let firstLabelId: string | undefined;
+        let cityLabelId: string | undefined;
         for (const layer of map.getStyle().layers ?? []) {
           if (layer.type === "symbol" && !firstLabelId) {
             firstLabelId = layer.id;
           }
+          if (layer.id === "label_city") {
+            cityLabelId = layer.id;
+          }
           if (isCountryLabelLayer(layer)) {
+            map.setLayoutProperty(layer.id, "visibility", "none");
+          } else if (isCityLabelLayer(layer)) {
             map.setFilter(
               layer.id,
-              maskedCountryLabelFilter(
+              maskedPlaceLabelFilter(
                 map.getFilter(layer.id),
               ) as Parameters<typeof map.setFilter>[1],
             );
           }
         }
         setLabelLayerId(firstLabelId);
+        setMaskBeforeId(cityLabelId ?? firstLabelId);
       }}
       style={{ width: "100%", height: "100%" }}
       interactiveLayerIds={["festival-hit", "festival-points", "selected-point"]}
@@ -259,13 +268,13 @@ export default function Map({
       />
 
       <Source id="france-mask" type="geojson" data={FRANCE_MASK}>
-        <Layer {...maskLayer} />
+        <Layer {...maskLayer} beforeId={maskBeforeId} />
       </Source>
       <Source id="france-enclaves" type="geojson" data={FRANCE_ENCLAVES}>
-        <Layer {...enclavesLayer} />
+        <Layer {...enclavesLayer} beforeId={maskBeforeId} />
       </Source>
       <Source id="france-border" type="geojson" data={FRANCE_BORDER}>
-        <Layer {...borderLayer} />
+        <Layer {...borderLayer} beforeId={maskBeforeId} />
       </Source>
 
       <Source id={SOURCE_ID} type="geojson" data={geojson}>
