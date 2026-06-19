@@ -113,7 +113,6 @@ export default function Map({
 }: MapProps) {
   const mapRef = useRef<MapRef>(null);
   const [cursor, setCursor] = useState<string>("");
-  const [labelLayerId, setLabelLayerId] = useState<string | undefined>(undefined);
   const [maskBeforeId, setMaskBeforeId] = useState<string | undefined>(undefined);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinnedUntil = useRef(0);
@@ -245,7 +244,6 @@ export default function Map({
             );
           }
         }
-        setLabelLayerId(firstLabelId);
         setMaskBeforeId(cityLabelId ?? firstLabelId);
       }}
       style={{ width: "100%", height: "100%" }}
@@ -278,9 +276,9 @@ export default function Map({
       </Source>
 
       <Source id={SOURCE_ID} type="geojson" data={geojson}>
-        <Layer {...hitLayer} beforeId={labelLayerId} />
-        <Layer {...pointLayer} beforeId={labelLayerId} />
-        <Layer {...selectedLayer} beforeId={labelLayerId} />
+        <Layer {...hitLayer} beforeId={maskBeforeId} />
+        <Layer {...pointLayer} beforeId={maskBeforeId} />
+        <Layer {...selectedLayer} beforeId={maskBeforeId} />
       </Source>
 
       {selected && (
