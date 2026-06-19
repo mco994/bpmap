@@ -5,3 +5,4 @@ export * from "./france";
 export * from "./basemap";
 export * from "./changes";
 export * from "./grouping";
+export * from "./geo";
