@@ -2690,6 +2690,36 @@
     ]
   },
   {
+    "id": "nataraja-psychedelic-gathering",
+    "slug": "nataraja-psychedelic-gathering",
+    "name": "Nataraja Psychedelic Gathering",
+    "description": "Dixième édition du rassemblement psytrance Nataraja à Domats, dans l'Yonne, à 1h30 au sud de Paris : quatre jours et trois nuits avec scène psytrance, scène chill et scène alternative, décor psychédélique et camping gratuit.",
+    "startDate": "2026-07-16",
+    "endDate": "2026-07-19",
+    "lat": 48.12197,
+    "lng": 3.07001,
+    "city": "Domats",
+    "region": "Bourgogne-Franche-Comté",
+    "organizer": "Nataraja",
+    "capacity": null,
+    "genres": [
+      "psytrance",
+      "trance"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://www.billetweb.fr/nataraja-festival-2026",
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "festival",
+    "sources": [
+      "https://www.billetweb.fr/nataraja-festival-2026",
+      "https://psytranceportal.com/event/nataraja-festival-france/",
+      "https://www.goabase.net/festival/nataraja-psychedelic-gathering-2026-10-years/116240"
+    ]
+  },
+  {
     "id": "aelipse",
     "slug": "aelipse",
     "name": "Aelipse",
@@ -2935,6 +2965,37 @@
     "sources": [
       "https://um-festival.fr/programmation",
       "https://www.festivalenfrance.com/festival/underground-mountain-festival"
+    ]
+  },
+  {
+    "id": "fraktal-forest-festival",
+    "slug": "fraktal-forest-festival",
+    "name": "Fraktal Forest Festival",
+    "description": "Troisième édition du festival forest et psytrance de l'association Fraktal Forest sur le plateau de l'Aubrac, à la cascade du Déroc : deux scènes sous chapiteau de cirque, mainstage forest, dark psy et hi-tech, scène chill psydub et ambient, camping et galerie d'art.",
+    "startDate": "2026-07-24",
+    "endDate": "2026-07-26",
+    "lat": 44.66855,
+    "lng": 3.05672,
+    "city": "Nasbinals",
+    "region": "Occitanie",
+    "organizer": "Fraktal Forest",
+    "capacity": null,
+    "genres": [
+      "psytrance",
+      "ambient",
+      "dub"
+    ],
+    "priceDay": null,
+    "priceFull": 85,
+    "currency": "EUR",
+    "ticketUrl": "https://www.helloasso.com/associations/fraktal-forest/evenements/fraktal-forest-festival-2026-1",
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "festival",
+    "sources": [
+      "https://www.helloasso.com/associations/fraktal-forest/evenements/fraktal-forest-festival-2026-1",
+      "https://electro-news.eu/44-heures-de-son-dans-la-nature-en-lozere-le-concept-dun-festival-psytrance-intimiste/",
+      "https://www.trancegoa.net/event/fraktal-forest-festival-2026/"
     ]
   },
   {
@@ -3871,6 +3932,37 @@
     "sources": [
       "https://www.festivalenfrance.com/festival/les-ilots-electroniques",
       "https://leprog.com/agenda/les-ilots-electroniques-au-soleil"
+    ]
+  },
+  {
+    "id": "teknodyssee-festival",
+    "slug": "teknodyssee-festival",
+    "name": "Tekn'Odyssée Festival",
+    "description": "Troisième chapitre du festival tekno du Collectif 909 au château de Brie, à Champagnac-la-Rivière : deux jours et deux nuits de tekno live avec plus de trente artistes, scène dub, soundsystem, village et camping inclus.",
+    "startDate": "2026-09-04",
+    "endDate": "2026-09-06",
+    "lat": 45.70316,
+    "lng": 0.91351,
+    "city": "Champagnac-la-Rivière",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": "Collectif 909",
+    "capacity": 2500,
+    "genres": [
+      "techno",
+      "hard-techno",
+      "dub"
+    ],
+    "priceDay": null,
+    "priceFull": 55,
+    "currency": "EUR",
+    "ticketUrl": "https://plusbilletterie.helloasso.com/fr/evenements/69a49d1c630d37d47561ace9",
+    "officialUrl": "https://www.collectif909.com/teknodyss%C3%A9e",
+    "status": "confirmed",
+    "eventType": "festival",
+    "sources": [
+      "https://www.collectif909.com/teknodyss%C3%A9e",
+      "https://plusbilletterie.helloasso.com/fr/evenements/69a49d1c630d37d47561ace9",
+      "https://www.jds.fr/limoges/manifestations/festival/tekn-odyssee-2026-ecailles-cendres-et-sortileges-1420039_A"
     ]
   },
   {
