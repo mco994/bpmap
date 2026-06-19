@@ -6,3 +6,7 @@ export * from "./basemap";
 export * from "./changes";
 export * from "./grouping";
 export * from "./geo";
+export * from "./seo";
+export * from "./artists";
+export * from "./ics";
+export * from "./distance";

@@ -3,6 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import FavoriteButton from "@/components/FavoriteButton";
 import ItineraryButton from "@/components/ItineraryButton";
+import AddToCalendar from "@/components/AddToCalendar";
+import ReportError from "@/components/ReportError";
+import ArtistLinks from "@/components/ArtistLinks";
+import { affiliateUrl } from "@/lib/affiliate";
 import {
   getAllFestivals,
   getFestivalBySlug,
@@ -162,6 +166,8 @@ export default async function FestivalPage({
     ...(festival.tariffs ?? []),
   ];
 
+  const billetterie = affiliateUrl(billetterieUrl(festival));
+
   return (
     <article className="pb-12">
       <script
@@ -169,7 +175,6 @@ export default async function FestivalPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(festival, url)) }}
       />
 
-      {/* Hero */}
       <div className="bg-gradient-to-br from-violet-700 via-fuchsia-600 to-fuchsia-500 text-white">
         <div className="mx-auto max-w-3xl px-4 py-8 sm:py-10">
           <nav aria-label="Fil d'Ariane" className="mb-6 text-sm">
@@ -235,7 +240,6 @@ export default async function FestivalPage({
         </div>
       </div>
 
-      {/* Body */}
       <div className="mx-auto max-w-3xl px-4">
         <p className="mt-8 text-base leading-relaxed text-zinc-700 sm:text-lg dark:text-zinc-300">
           {festival.description}
@@ -247,16 +251,9 @@ export default async function FestivalPage({
             <p className="mt-0.5 text-sm text-zinc-500 dark:text-zinc-400">
               Têtes d&apos;affiche annoncées (programmation partielle)
             </p>
-            <ul className="mt-3 flex flex-wrap gap-2">
-              {festival.lineup.map((a) => (
-                <li
-                  key={a}
-                  className="rounded-lg border border-zinc-200 bg-white px-3 py-1.5 text-sm font-medium dark:border-zinc-800 dark:bg-zinc-900"
-                >
-                  {a}
-                </li>
-              ))}
-            </ul>
+            <div className="mt-3">
+              <ArtistLinks lineup={festival.lineup} />
+            </div>
           </section>
         )}
 
@@ -304,9 +301,10 @@ export default async function FestivalPage({
         <div className="mt-8 flex flex-wrap gap-3">
           <FavoriteButton festivalId={festival.id} withLabel />
           <ItineraryButton festival={festival} />
-          {billetterieUrl(festival) && (
+          <AddToCalendar festival={festival} />
+          {billetterie && (
             <a
-              href={billetterieUrl(festival) as string}
+              href={billetterie}
               target="_blank"
               rel="sponsored noopener noreferrer"
               className="rounded-xl bg-fuchsia-600 px-6 py-3 font-semibold text-white shadow-sm transition-colors hover:bg-fuchsia-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 focus-visible:ring-offset-2"
@@ -350,6 +348,10 @@ export default async function FestivalPage({
             ))}
           </p>
         )}
+
+        <div className="mt-6">
+          <ReportError slug={festival.slug} />
+        </div>
       </div>
     </article>
   );
