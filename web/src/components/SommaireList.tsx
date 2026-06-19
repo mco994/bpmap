@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import {
   EMPTY_FILTERS,
   applyFilters,
@@ -15,21 +16,55 @@ import {
   statusLabel,
   groupByLetter,
   groupByMonth,
+  haversineKm,
   type Filters,
   type Festival,
+  type LatLng,
   type SortMode,
 } from "@bpmap/shared";
 import FavoriteButton from "@/components/FavoriteButton";
 import FiltersPanel from "@/components/Filters";
 import FestivalGridCard from "@/components/FestivalGridCard";
 import GenreChips from "@/components/GenreChips";
+import { getCurrentCoords } from "@/lib/geo";
+
+const CalendarView = dynamic(() => import("@/components/CalendarView"), {
+  ssr: false,
+  loading: () => (
+    <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
+      Chargement de l’agenda…
+    </p>
+  ),
+});
+
+type View = "list" | "grid" | "calendar";
+type SortChoice = SortMode | "near";
+
+const MS_PER_DAY = 86_400_000;
+
+function proximityBadge(
+  startDate: string | null,
+  now: Date | null,
+): "week" | "month" | null {
+  if (!startDate || !now) return null;
+  const start = new Date(`${startDate}T00:00:00`);
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const diffDays = Math.floor((start.getTime() - today.getTime()) / MS_PER_DAY);
+  if (diffDays < 0) return null;
+  if (diffDays <= 7) return "week";
+  if (diffDays <= 31) return "month";
+  return null;
+}
 
 export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS);
   const [query, setQuery] = useState("");
-  const [view, setView] = useState<"list" | "grid">("list");
-  const [sortMode, setSortMode] = useState<SortMode>("date");
+  const [view, setView] = useState<View>("list");
+  const [sortMode, setSortMode] = useState<SortChoice>("date");
   const [now, setNow] = useState<Date | null>(null);
+  const [origin, setOrigin] = useState<LatLng | null>(null);
+  const [locating, setLocating] = useState(false);
+  const [geoError, setGeoError] = useState<string | null>(null);
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setNow(new Date()), []);
 
@@ -37,14 +72,62 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
     () => filterFestivalsByQuery(applyFilters(festivals, filters, now), query),
     [festivals, filters, now, query],
   );
+
+  const distances = useMemo(() => {
+    if (!origin) return null;
+    const map = new Map<string, number>();
+    for (const f of filtered) {
+      map.set(f.id, haversineKm(origin, { lat: f.lat, lng: f.lng }));
+    }
+    return map;
+  }, [filtered, origin]);
+
+  const byNear = useMemo(() => {
+    if (!distances) return null;
+    const sorted = [...filtered].sort(
+      (a, b) => (distances.get(a.id) ?? 0) - (distances.get(b.id) ?? 0),
+    );
+    return [
+      { key: "near", title: "Par distance", data: sorted },
+    ];
+  }, [filtered, distances]);
+
   const byDate = useMemo(() => groupByMonth(filtered), [filtered]);
   const byAlpha = useMemo(() => groupByLetter(filtered), [filtered]);
-  const sections = sortMode === "alpha" ? byAlpha : byDate;
+  const sections =
+    sortMode === "near" && byNear
+      ? byNear
+      : sortMode === "alpha"
+        ? byAlpha
+        : byDate;
 
   const filteredCount = useMemo(
     () => sections.reduce((total, section) => total + section.data.length, 0),
     [sections],
   );
+
+  const requestNearMe = async () => {
+    setGeoError(null);
+    setLocating(true);
+    const coords = await getCurrentCoords();
+    setLocating(false);
+    if (!coords) {
+      setGeoError(
+        "Position indisponible : autorisez la géolocalisation pour trier par distance.",
+      );
+      return;
+    }
+    setOrigin(coords);
+    setSortMode("near");
+  };
+
+  const setDistanceSort = () => {
+    if (origin) {
+      setSortMode("near");
+      return;
+    }
+    void requestNearMe();
+  };
 
   const hasActive = !isEmptyFilters(filters) || query.trim() !== "";
 
@@ -114,6 +197,20 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
             >
               A–Z
             </button>
+            <button
+              type="button"
+              onClick={setDistanceSort}
+              aria-pressed={sortMode === "near"}
+              aria-busy={locating}
+              disabled={locating}
+              className={`rounded-md px-2.5 py-1 text-xs font-medium disabled:opacity-60 ${
+                sortMode === "near"
+                  ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
+                  : "text-zinc-400 hover:bg-zinc-100 hover:text-zinc-600 dark:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-400"
+              }`}
+            >
+              {locating ? "Localisation…" : "Près de moi"}
+            </button>
           </div>
           <div
             className="flex items-center gap-1 rounded-lg border border-zinc-200 p-0.5 dark:border-zinc-800"
@@ -144,14 +241,34 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
             >
               Mosaïque
             </button>
+            <button
+              type="button"
+              onClick={() => setView("calendar")}
+              aria-pressed={view === "calendar"}
+              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+                view === "calendar"
+                  ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
+                  : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+              }`}
+            >
+              Agenda
+            </button>
           </div>
           </div>
         </div>
+
+        <p className="mt-2 text-xs text-red-600 dark:text-red-400" role="status">
+          {geoError}
+        </p>
 
         {filteredCount === 0 ? (
           <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
             Aucun événement ne correspond à votre recherche.
           </p>
+        ) : view === "calendar" ? (
+          <div className="mt-4">
+            <CalendarView festivals={filtered} />
+          </div>
         ) : (
           <div className="mt-4 space-y-8">
             {sections.map((section) => (
@@ -169,6 +286,9 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                       const showStatus =
                         status === "passed" || status === "cancelled";
                       const match = bestQueryMatch(f, query);
+                      const isFree = priceFrom(f) === 0;
+                      const proximity = proximityBadge(f.startDate, now);
+                      const distanceKm = distances?.get(f.id) ?? null;
                       return (
                         <li key={f.id} className="relative">
                           <Link
@@ -189,6 +309,18 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                                     }`}
                                   >
                                     {statusLabel(status)}
+                                  </span>
+                                )}
+                                {isFree && (
+                                  <span className="shrink-0 rounded bg-emerald-100 px-1.5 py-0.5 text-[11px] font-semibold text-emerald-700 dark:bg-emerald-950 dark:text-emerald-300">
+                                    Gratuit
+                                  </span>
+                                )}
+                                {!showStatus && proximity && (
+                                  <span className="shrink-0 rounded bg-fuchsia-100 px-1.5 py-0.5 text-[11px] font-semibold text-fuchsia-700 dark:bg-fuchsia-950 dark:text-fuchsia-300">
+                                    {proximity === "week"
+                                      ? "Cette semaine"
+                                      : "Ce mois-ci"}
                                   </span>
                                 )}
                               </span>
@@ -216,6 +348,11 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                               <span className="font-medium text-zinc-700 dark:text-zinc-300">
                                 {formatPrice(priceFrom(f))}
                               </span>
+                              {distanceKm !== null && (
+                                <span className="mt-0.5 block text-[11px] font-medium text-fuchsia-600 dark:text-fuchsia-400">
+                                  à {Math.round(distanceKm)} km
+                                </span>
+                              )}
                             </span>
                           </Link>
                           <span className="absolute right-3 top-1/2 -translate-y-1/2">
