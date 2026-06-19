@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
@@ -41,7 +41,23 @@ export const metadata: Metadata = {
       "La carte interactive des événements électro français : festivals, open airs, soirées. Filtrez par type, genre, date, taille et prix.",
     url: SITE_URL,
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "BPMap — Carte des événements de musique électronique en France",
+    description:
+      "La carte interactive des événements électro français : festivals, open airs, soirées.",
+  },
   alternates: { canonical: "/" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#c026d3",
 };
 
 export default function RootLayout({
