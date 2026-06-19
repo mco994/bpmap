@@ -1,30 +1,6 @@
-const COUNTRY_LABELS_TO_HIDE = ["Andorra", "Monaco"];
+import { franceWithinGeometry } from "./france";
 
-const FOREIGN_PLACE_LABELS_TO_HIDE = [
-  "Geneva", "Genève", "Genf",
-  "Lausanne", "Basel", "Bâle", "Basle",
-  "Bern", "Berne", "Zürich", "Zurich", "Lugano", "Sion",
-  "Neuchâtel", "Fribourg", "Biel/Bienne", "La Chaux-de-Fonds",
-  "Montreux", "Vevey", "Nyon", "Yverdon-les-Bains", "Winterthur",
-  "Turin", "Torino", "Genoa", "Genova", "Aosta", "Aoste",
-  "Milan", "Milano", "Cuneo", "Ventimiglia", "Vintimille",
-  "Imperia", "Sanremo", "San Remo", "Asti", "Alessandria", "Savona", "Novara",
-  "Barcelona", "Barcelone", "Girona", "Gerona", "Gérone",
-  "San Sebastián", "Donostia", "Saint-Sébastien", "Bilbao",
-  "Pamplona", "Pampelune", "Iruña", "Figueres", "Figueras",
-  "Huesca", "Zaragoza", "Saragosse", "Lleida", "Lérida",
-  "Vitoria-Gasteiz", "Vitoria", "Logroño",
-  "Saarbrücken", "Sarrebruck", "Freiburg", "Freiburg im Breisgau",
-  "Fribourg-en-Brisgau", "Karlsruhe", "Stuttgart", "Mannheim",
-  "Trier", "Trèves", "Kaiserslautern", "Offenburg", "Heidelberg", "Pforzheim",
-  "Brussels", "Bruxelles", "Brussel", "Charleroi", "Mons", "Bergen",
-  "Liège", "Lüttich", "Luik", "Namur", "Namen", "Tournai", "Doornik",
-  "Gent", "Ghent", "Gand", "Antwerp", "Antwerpen", "Anvers",
-  "Bruges", "Brugge", "Mouscron", "Kortrijk", "Courtrai", "Arlon",
-  "Luxembourg", "Luxemburg", "Esch-sur-Alzette", "Differdange", "Dudelange",
-  "Andorra la Vella", "Andorre-la-Vieille",
-  "Monaco", "Monte-Carlo",
-];
+const COUNTRY_LABELS_TO_HIDE = ["Andorra", "Monaco"];
 
 type StyleLayer = {
   id: string;
@@ -50,20 +26,8 @@ function countryLabelExclusion(): unknown[] {
   ];
 }
 
-function nameInForeignList(field: string): unknown[] {
-  return ["in", ["get", field], ["literal", FOREIGN_PLACE_LABELS_TO_HIDE]];
-}
-
-function foreignPlaceExclusion(): unknown[] {
-  return [
-    "!",
-    [
-      "any",
-      nameInForeignList("name:latin"),
-      nameInForeignList("name_en"),
-      nameInForeignList("name"),
-    ],
-  ];
+function withinFrance(): unknown[] {
+  return ["within", franceWithinGeometry()];
 }
 
 export function isCountryLabelLayer(layer: { id: string }): boolean {
@@ -82,8 +46,8 @@ export function maskedCountryLabelFilter(current: unknown): unknown[] {
 
 export function maskedPlaceLabelFilter(current: unknown): unknown[] {
   return current
-    ? ["all", current, foreignPlaceExclusion()]
-    : ["all", foreignPlaceExclusion()];
+    ? ["all", current, withinFrance()]
+    : ["all", withinFrance()];
 }
 
 export function hideEnclaveCountryLabels(style: StyleDocument): StyleDocument {
