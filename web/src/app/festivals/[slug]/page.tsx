@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import FavoriteButton from "@/components/FavoriteButton";
+import ItineraryButton from "@/components/ItineraryButton";
 import {
   getAllFestivals,
   getFestivalBySlug,
@@ -302,6 +303,7 @@ export default async function FestivalPage({
 
         <div className="mt-8 flex flex-wrap gap-3">
           <FavoriteButton festivalId={festival.id} withLabel />
+          <ItineraryButton festival={festival} />
           {billetterieUrl(festival) && (
             <a
               href={billetterieUrl(festival) as string}

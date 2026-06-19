@@ -7,6 +7,7 @@ import MapGL, {
   Layer,
   Popup,
   NavigationControl,
+  GeolocateControl,
   type MapRef,
   type MapLayerMouseEvent,
   type LayerProps,
@@ -21,9 +22,12 @@ import {
   franceMaskGeoJSON,
   isCountryLabelLayer,
   maskedCountryLabelFilter,
+  sizeTierForCapacity,
+  SIZE_TIERS,
   type Festival,
 } from "@bpmap/shared";
 import GenreChips from "@/components/GenreChips";
+import ItineraryButton from "@/components/ItineraryButton";
 
 const MAP_STYLE =
   process.env.NEXT_PUBLIC_MAP_STYLE ??
@@ -110,6 +114,7 @@ export default function Map({
   const [cursor, setCursor] = useState<string>("");
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinnedUntil = useRef(0);
+  const interactionLock = useRef(false);
 
   const cancelClose = () => {
     if (closeTimer.current) {
@@ -118,6 +123,7 @@ export default function Map({
     }
   };
   const scheduleClose = () => {
+    if (interactionLock.current) return;
     if (Date.now() < pinnedUntil.current) return;
     if (closeTimer.current) return;
     closeTimer.current = setTimeout(() => {
@@ -138,6 +144,10 @@ export default function Map({
     [festivals, selectedId],
   );
   const selectedMatch = selected ? bestQueryMatch(selected, query) : null;
+  const selectedTier = selected ? sizeTierForCapacity(selected.capacity) : null;
+  const selectedSizeLabel = selectedTier
+    ? SIZE_TIERS.find((s) => s.tier === selectedTier)?.label
+    : null;
 
   const geojson = useMemo(
     () => ({
@@ -235,6 +245,12 @@ export default function Map({
       attributionControl={{ compact: true }}
     >
       <NavigationControl position="top-right" showCompass={false} />
+      <GeolocateControl
+        position="top-right"
+        trackUserLocation
+        showUserLocation
+        positionOptions={{ enableHighAccuracy: false }}
+      />
 
       <Source id="france-mask" type="geojson" data={FRANCE_MASK}>
         <Layer {...maskLayer} />
@@ -265,7 +281,9 @@ export default function Map({
           <div
             className="space-y-1.5 p-1"
             onMouseEnter={cancelClose}
-            onMouseLeave={() => onSelect(null)}
+            onMouseLeave={() => {
+              if (!interactionLock.current) onSelect(null);
+            }}
           >
             <h3 className="text-sm font-semibold text-zinc-900">
               {selected.name}
@@ -285,11 +303,29 @@ export default function Map({
             <p className="text-xs font-medium text-zinc-700">
               {formatFromPrice(selected)}
             </p>
+            {selected.description && (
+              <p className="line-clamp-4 text-xs text-zinc-600">
+                {selected.description}
+              </p>
+            )}
+            {(selected.organizer || selectedSizeLabel) && (
+              <p className="text-xs text-zinc-500">
+                {[
+                  selected.organizer,
+                  selectedSizeLabel,
+                  selected.capacity
+                    ? `~${selected.capacity.toLocaleString("fr-FR")} pers.`
+                    : null,
+                ]
+                  .filter(Boolean)
+                  .join(" · ")}
+              </p>
+            )}
             {selected.lineup && selected.lineup.length > 0 && (
               <p className="text-xs text-zinc-600">
                 <span className="text-zinc-500">Line-up&nbsp;: </span>
-                {selected.lineup.slice(0, 5).join(", ")}
-                {selected.lineup.length > 5 ? "…" : ""}
+                {selected.lineup.slice(0, 8).join(", ")}
+                {selected.lineup.length > 8 ? "…" : ""}
               </p>
             )}
             {(selected.ticketUrl || selected.officialUrl) && (
@@ -317,7 +353,14 @@ export default function Map({
               </p>
             )}
 
-            <div className="flex items-center justify-end gap-2 pt-0.5">
+            <div className="flex items-center justify-between gap-2 pt-0.5">
+              <ItineraryButton
+                festival={selected}
+                variant="link"
+                onInteractingChange={(v) => {
+                  interactionLock.current = v;
+                }}
+              />
               <Link
                 href={`/festivals/${selected.slug}`}
                 onClick={(e) => e.stopPropagation()}
