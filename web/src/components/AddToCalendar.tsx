@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { createPortal } from "react-dom";
 import { festivalIcs, type Festival } from "@bpmap/shared";
+import DialogOverlay from "@/components/DialogOverlay";
+import { useDialog } from "@/lib/use-dialog";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "";
 
@@ -54,20 +54,9 @@ function googleCalendarUrl(festival: Festival): string | null {
 }
 
 export default function AddToCalendar({ festival }: { festival: Festival }) {
-  const [open, setOpen] = useState(false);
+  const { open, openDialog, closeDialog, dialogRef } = useDialog();
   const hasDate = Boolean(festival.startDate);
   const gcalUrl = googleCalendarUrl(festival);
-
-  const close = () => setOpen(false);
-
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") close();
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [open]);
 
   const downloadIcs = () => {
     const content = festivalIcs(festival, SITE_URL || undefined);
@@ -81,13 +70,13 @@ export default function AddToCalendar({ festival }: { festival: Festival }) {
     a.click();
     a.remove();
     URL.revokeObjectURL(href);
-    close();
+    closeDialog();
   };
 
   const trigger = (
     <button
       type="button"
-      onClick={() => setOpen(true)}
+      onClick={openDialog}
       disabled={!hasDate}
       aria-label="Ajouter à mon agenda"
       className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 px-6 py-3 font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 disabled:cursor-not-allowed disabled:opacity-40 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
@@ -98,26 +87,23 @@ export default function AddToCalendar({ festival }: { festival: Festival }) {
   );
 
   const modal =
-    open && typeof document !== "undefined"
-      ? createPortal(
-          <div
-            className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-0 sm:items-center sm:p-4"
-            onClick={close}
-          >
-            <div
-              role="dialog"
-              aria-modal="true"
-              aria-label={`Ajouter ${festival.name} à mon agenda`}
-              onClick={(e) => e.stopPropagation()}
-              className="w-full max-w-md space-y-3 rounded-t-2xl bg-white p-5 shadow-xl sm:rounded-2xl dark:bg-zinc-900"
-            >
+    open ? (
+      <DialogOverlay onClose={closeDialog}>
+        <div
+          ref={dialogRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Ajouter ${festival.name} à mon agenda`}
+          tabIndex={-1}
+          className="w-full max-w-md space-y-3 rounded-t-2xl bg-white p-5 shadow-xl outline-none sm:rounded-2xl dark:bg-zinc-900"
+        >
               <div className="flex items-start justify-between gap-3">
                 <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-50">
                   Ajouter à mon agenda
                 </h2>
                 <button
                   type="button"
-                  onClick={close}
+                  onClick={closeDialog}
                   aria-label="Fermer"
                   className="-mr-1 -mt-1 rounded-md p-1 text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800"
                 >
@@ -139,17 +125,15 @@ export default function AddToCalendar({ festival }: { festival: Festival }) {
                   href={gcalUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  onClick={close}
+                  onClick={closeDialog}
                   className="flex w-full items-center justify-center gap-2 rounded-xl bg-fuchsia-100 px-4 py-3 font-semibold text-fuchsia-700 transition-colors hover:bg-fuchsia-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                 >
                   Google Agenda ↗
                 </a>
-              )}
-            </div>
-          </div>,
-          document.body,
-        )
-      : null;
+          )}
+        </div>
+      </DialogOverlay>
+    ) : null;
 
   return (
     <>

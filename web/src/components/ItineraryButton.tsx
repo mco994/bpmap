@@ -1,13 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { createPortal } from "react-dom";
+import { useRef, useState } from "react";
 import type { Festival } from "@bpmap/shared";
 import {
   openDirections,
   suggestAddresses,
   type AddressSuggestion,
 } from "@/lib/geo";
+import DialogOverlay from "@/components/DialogOverlay";
+import { useDialog } from "@/lib/use-dialog";
 
 function NavigateIcon({ className }: { className?: string }) {
   return (
@@ -35,29 +36,20 @@ export default function ItineraryButton({
   variant?: "button" | "link";
   onInteractingChange?: (interacting: boolean) => void;
 }) {
-  const [open, setOpen] = useState(false);
   const [address, setAddress] = useState("");
   const [suggestions, setSuggestions] = useState<AddressSuggestion[]>([]);
   const [picked, setPicked] = useState<AddressSuggestion | null>(null);
   const debounce = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const close = () => {
-    setOpen(false);
-    setSuggestions([]);
-  };
-
-  useEffect(() => {
-    onInteractingChange?.(open);
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") close();
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [open, onInteractingChange]);
+  const { open, openDialog, closeDialog, dialogRef } = useDialog({
+    onOpenChange: (next) => {
+      onInteractingChange?.(next);
+      if (!next) setSuggestions([]);
+    },
+  });
 
   const go = (origin?: string | { lat: number; lng: number }) => {
-    close();
+    closeDialog();
     void openDirections(festival, origin);
   };
 
@@ -87,7 +79,7 @@ export default function ItineraryButton({
         type="button"
         onClick={(e) => {
           e.stopPropagation();
-          setOpen(true);
+          openDialog();
         }}
         className="inline-flex items-center gap-1 text-xs font-semibold text-fuchsia-700 hover:text-fuchsia-900"
       >
@@ -97,7 +89,7 @@ export default function ItineraryButton({
     ) : (
       <button
         type="button"
-        onClick={() => setOpen(true)}
+        onClick={openDialog}
         className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 px-6 py-3 font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
       >
         <NavigateIcon className="h-4 w-4 text-fuchsia-600" />
@@ -106,26 +98,23 @@ export default function ItineraryButton({
     );
 
   const modal =
-    open && typeof document !== "undefined"
-      ? createPortal(
-          <div
-            className="fixed inset-0 z-50 flex items-end justify-center bg-black/40 p-0 sm:items-center sm:p-4"
-            onClick={close}
-          >
-          <div
-            role="dialog"
-            aria-modal="true"
-            aria-label={`Itinéraire vers ${festival.name}`}
-            onClick={(e) => e.stopPropagation()}
-            className="w-full max-w-md space-y-3 rounded-t-2xl bg-white p-5 shadow-xl sm:rounded-2xl dark:bg-zinc-900"
-          >
+    open ? (
+      <DialogOverlay onClose={closeDialog}>
+        <div
+          ref={dialogRef}
+          role="dialog"
+          aria-modal="true"
+          aria-label={`Itinéraire vers ${festival.name}`}
+          tabIndex={-1}
+          className="w-full max-w-md space-y-3 rounded-t-2xl bg-white p-5 shadow-xl outline-none sm:rounded-2xl dark:bg-zinc-900"
+        >
             <div className="flex items-start justify-between gap-3">
               <h2 className="text-base font-semibold text-zinc-900 dark:text-zinc-50">
                 Itinéraire vers {festival.name}
               </h2>
               <button
                 type="button"
-                onClick={close}
+                onClick={closeDialog}
                 aria-label="Fermer"
                 className="-mr-1 -mt-1 rounded-md p-1 text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800"
               >
@@ -182,11 +171,9 @@ export default function ItineraryButton({
             >
               Y aller depuis cette adresse
             </button>
-          </div>
-        </div>,
-          document.body,
-        )
-      : null;
+        </div>
+      </DialogOverlay>
+    ) : null;
 
   return (
     <>
