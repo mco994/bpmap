@@ -1470,6 +1470,37 @@
     ]
   },
   {
+    "id": "parc-o-tyson-2026",
+    "slug": "parc-o-tyson-2026",
+    "name": "Parc O Tyson",
+    "description": "Open air XXL et gratuit du collectif Paco Tyson à Station Nuage (Île Forget, Saint-Sébastien-sur-Loire) : le plus gros dancefloor à ciel ouvert de la métropole nantaise sur deux scènes, avec Olympe4000, U.R. Trax et Cassie Raptor en closing acid/indus, plus Alder, Karbon14, Gritz et le collectif Bloom.",
+    "startDate": "2026-06-24",
+    "endDate": "2026-06-24",
+    "lat": 47.19935,
+    "lng": -1.50268,
+    "city": "Saint-Sébastien-sur-Loire",
+    "region": "Pays de la Loire",
+    "organizer": "Paco Tyson",
+    "capacity": 5000,
+    "genres": [
+      "techno",
+      "house",
+      "trance",
+      "acid"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://pacotyson.fr/",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.durevie.paris/article/paco-tyson-annonce-un-open-air-xxl-en-juin",
+      "https://www.festivalenfrance.com/festival/paco-tyson"
+    ]
+  },
+  {
     "id": "les-siestes-electroniques",
     "slug": "les-siestes-electroniques",
     "name": "Les Siestes Électroniques",
@@ -3791,6 +3822,37 @@
     ]
   },
   {
+    "id": "pain-benit-festival",
+    "slug": "pain-benit-festival",
+    "name": "Pain Bénit Festival",
+    "description": "Troisième édition du festival toulousain de la famille Pain Bénit au château de Bonrepos-Riquet : open air gratuit face au château l'après-midi (house, tech house, afro house), puis nuit de club dans l'Orangerie, l'une des plus grandes du Sud de la France.",
+    "startDate": "2026-08-22",
+    "endDate": "2026-08-23",
+    "lat": 43.67741,
+    "lng": 1.6235,
+    "city": "Bonrepos-Riquet",
+    "region": "Occitanie",
+    "organizer": "Pain Bénit",
+    "capacity": 700,
+    "genres": [
+      "house",
+      "techno",
+      "disco"
+    ],
+    "priceDay": 0,
+    "priceFull": 15,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/fr/festivals/pbf-26",
+    "officialUrl": "https://shotgun.live/fr/festivals/pbf-26",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://shotgun.live/en/festivals/pbf-26",
+      "https://www.lepetitjournal.net/31-haute-garonne/e31t-pays-tolosan/2025/07/14/le-pain-benit-festival-revient-electriser-le-chateau-de-bonrepos-riquet/",
+      "https://actu.fr/occitanie/bonrepos-riquet_31074/un-enorme-open-air-electro-et-gratuit-dans-un-magnifique-ecrin-aux-portes-de-toulouse_62945949.html"
+    ]
+  },
+  {
     "id": "hadra-trance-festival",
     "slug": "hadra-trance-festival",
     "name": "Hadra Trance Festival",
@@ -5011,37 +5073,6 @@
     "sources": [
       "https://www.festivalenfrance.com/festival/paco-tyson",
       "https://www.bigcitynantes.fr/que-faire-a-nantes/open-air-paco-tyson-a-la-station-nuage/"
-    ]
-  },
-  {
-    "id": "pain-benit-festival",
-    "slug": "pain-benit-festival",
-    "name": "Pain Bénit Festival",
-    "description": "Troisième édition du festival toulousain de la famille Pain Bénit au château de Bonrepos-Riquet : open air gratuit face au château l'après-midi (house, tech house, afro house), puis nuit de club dans l'Orangerie, l'une des plus grandes du Sud de la France.",
-    "startDate": null,
-    "endDate": null,
-    "lat": 43.67741,
-    "lng": 1.6235,
-    "city": "Bonrepos-Riquet",
-    "region": "Occitanie",
-    "organizer": "Pain Bénit",
-    "capacity": 700,
-    "genres": [
-      "house",
-      "techno",
-      "disco"
-    ],
-    "priceDay": 0,
-    "priceFull": 15,
-    "currency": "EUR",
-    "ticketUrl": "https://shotgun.live/fr/festivals/pbf-26",
-    "officialUrl": "https://shotgun.live/fr/festivals/pbf-26",
-    "status": "announced",
-    "eventType": "open-air",
-    "sources": [
-      "https://shotgun.live/en/venues/pain-benit",
-      "https://www.lepetitjournal.net/31-haute-garonne/e31t-pays-tolosan/2025/07/14/le-pain-benit-festival-revient-electriser-le-chateau-de-bonrepos-riquet/",
-      "https://actu.fr/occitanie/bonrepos-riquet_31074/un-enorme-open-air-electro-et-gratuit-dans-un-magnifique-ecrin-aux-portes-de-toulouse_62945949.html"
     ]
   }
 ]

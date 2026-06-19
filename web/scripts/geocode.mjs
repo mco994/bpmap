@@ -14,6 +14,7 @@ const descriptions = JSON.parse(
   readFileSync(path.join(dataDir, "descriptions.json"), "utf8"),
 );
 const prices = JSON.parse(readFileSync(path.join(dataDir, "prices.json"), "utf8"));
+const dates = JSON.parse(readFileSync(path.join(dataDir, "dates.json"), "utf8"));
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -119,8 +120,8 @@ for (const f of source) {
     slug: f.slug,
     name: f.name,
     description: descriptions[f.slug] ?? f.description ?? "",
-    startDate: f.startDate,
-    endDate: f.endDate,
+    startDate: f.startDate ?? dates[f.slug]?.startDate ?? null,
+    endDate: f.endDate ?? dates[f.slug]?.endDate ?? null,
     lat: Number(lat.toFixed(5)),
     lng: Number(lng.toFixed(5)),
     city: f.city,
