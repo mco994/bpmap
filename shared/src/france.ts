@@ -44,3 +44,13 @@ export function franceBorderGeoJSON() {
     },
   };
 }
+
+export function franceWithinGeometry() {
+  return {
+    type: "MultiPolygon" as const,
+    coordinates: [
+      ...france.map((ring) => [ring]),
+      ...enclaves.map((ring) => [ring]),
+    ],
+  };
+}

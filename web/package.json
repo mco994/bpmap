@@ -13,6 +13,7 @@
     "db:lifecycle": "node --env-file=.env.local scripts/db-lifecycle.mjs",
     "geocode": "node scripts/geocode.mjs",
     "ingest": "node --env-file-if-exists=.env.local scripts/ingest.mjs",
+    "fb:update": "node scripts/fb-update.mjs",
     "verify-promote": "node scripts/verify-promote.mjs",
     "ra-lineups": "node scripts/ra-lineups.mjs",
     "dt:debug": "node --env-file-if-exists=.env.local scripts/datatourisme-debug.mjs"
