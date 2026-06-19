@@ -350,24 +350,39 @@
     "priceFull": null
   },
   "nemoria-festival": {
-    "priceDay": 23.99,
+    "priceDay": 27.04,
     "priceFull": null
   },
   "underground-mountain-festival": {
     "priceDay": 19,
     "priceFull": 42,
     "tariffs": [
-      { "label": "Vendredi 24/07", "price": 19 },
-      { "label": "Samedi 25/07", "price": 29 },
-      { "label": "Pass 2 jours", "price": 42 }
+      {
+        "label": "Vendredi 24/07",
+        "price": 19
+      },
+      {
+        "label": "Samedi 25/07",
+        "price": 29
+      },
+      {
+        "label": "Pass 2 jours",
+        "price": 42
+      }
     ]
   },
   "aeronautic-rave-museum": {
     "priceDay": null,
     "priceFull": 50.47,
     "tariffs": [
-      { "label": "Prévente / open air", "price": 19 },
-      { "label": "Plein tarif", "price": 50.47 }
+      {
+        "label": "Prévente / open air",
+        "price": 19
+      },
+      {
+        "label": "Plein tarif",
+        "price": 50.47
+      }
     ]
   }
 }
