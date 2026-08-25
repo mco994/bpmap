@@ -1,5 +1,6 @@
 import type { Festival } from "./types";
-import { getAllFestivals, GENRES, effectiveStatus } from "./festivals";
+import { GENRES, effectiveStatus } from "./festivals";
+import { getAllFestivals } from "./dataset";
 
 export function regionSlug(region: string): string {
   return region

@@ -24,12 +24,14 @@ jobs:
       - run: npm ci
       - name: Lint (web)
         run: npm run lint --workspace web
-      - name: Typecheck (@bpmap/shared)
-        run: npm run typecheck:shared
+      - name: Typecheck (@bpmap/shared + web)
+        run: npm run typecheck
       - name: Tests unitaires
         run: npm test
       - name: Contrôle d'intégrité des données
-        run: npx tsx web/scripts/check-data.mjs shared/src/data/festivals.json
+        run: npm run check:data
+      - name: Palette des genres synchronisée avec globals.css
+        run: npm run check:genre-css --workspace web
       - name: Build (web)
         run: npm run build --workspace web
 

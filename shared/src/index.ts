@@ -1,5 +1,6 @@
 export * from "./types";
 export * from "./festivals";
+export * from "./dataset";
 export * from "./filters";
 export * from "./france";
 export * from "./basemap";

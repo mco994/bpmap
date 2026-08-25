@@ -22,3 +22,70 @@
 body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
+
+/* genres — généré par npm run build:genre-css */
+@layer components {
+  .genre-techno { background-color: #f6e1f9; color: #ac22bd; }
+  .genre-techno[data-active] { background-color: #c026d3; color: #ffffff; }
+  .genre-house { background-color: #fef1dd; color: #996206; }
+  .genre-house[data-active] { background-color: #a36907; color: #ffffff; }
+  .genre-french-touch { background-color: #e4eefe; color: #0b61ee; }
+  .genre-french-touch[data-active] { background-color: #1e6ff5; color: #ffffff; }
+  .genre-drum-n-bass { background-color: #def5ed; color: #0b7c56; }
+  .genre-drum-n-bass[data-active] { background-color: #0c855d; color: #ffffff; }
+  .genre-trance { background-color: #efe8fe; color: #763ff4; }
+  .genre-trance[data-active] { background-color: #8452f5; color: #ffffff; }
+  .genre-psytrance { background-color: #e0f7e8; color: #157b3b; }
+  .genre-psytrance[data-active] { background-color: #178841; color: #ffffff; }
+  .genre-hard-techno { background-color: #f1dfdf; color: #991b1b; }
+  .genre-hard-techno[data-active] { background-color: #991b1b; color: #ffffff; }
+  .genre-hardstyle { background-color: #fde5e5; color: #d01212; }
+  .genre-hardstyle[data-active] { background-color: #eb1515; color: #ffffff; }
+  .genre-electro { background-color: #fce5f1; color: #c8156e; }
+  .genre-electro[data-active] { background-color: #e0177a; color: #ffffff; }
+  .genre-minimal { background-color: #e9ecef; color: #5b6a7f; }
+  .genre-minimal[data-active] { background-color: #64748b; color: #ffffff; }
+  .genre-edm { background-color: #dcf5f9; color: #04768a; }
+  .genre-edm[data-active] { background-color: #047f94; color: #ffffff; }
+  .genre-disco { background-color: #feebde; color: #b44c05; }
+  .genre-disco[data-active] { background-color: #c35305; color: #ffffff; }
+  .genre-dub { background-color: #eef8de; color: #4e790d; }
+  .genre-dub[data-active] { background-color: #54820e; color: #ffffff; }
+  .genre-dubstep { background-color: #e9eafd; color: #5054ef; }
+  .genre-dubstep[data-active] { background-color: #5e61f1; color: #ffffff; }
+  .genre-ambient { background-color: #def5f3; color: #0d786c; }
+  .genre-ambient[data-active] { background-color: #0e8174; color: #ffffff; }
+
+  @media (prefers-color-scheme: dark) {
+    [data-tone="auto"] .genre-techno { background-color: #3d1b43; color: #d45ee2; }
+    [data-tone="auto"] .genre-techno[data-active] { background-color: #c026d3; color: #ffffff; }
+    [data-tone="auto"] .genre-house { background-color: #493517; color: #f59e0b; }
+    [data-tone="auto"] .genre-house[data-active] { background-color: #a36907; color: #ffffff; }
+    [data-tone="auto"] .genre-french-touch { background-color: #202f4b; color: #5d98f8; }
+    [data-tone="auto"] .genre-french-touch[data-active] { background-color: #1e6ff5; color: #ffffff; }
+    [data-tone="auto"] .genre-drum-n-bass { background-color: #163b31; color: #10b981; }
+    [data-tone="auto"] .genre-drum-n-bass[data-active] { background-color: #0c855d; color: #ffffff; }
+    [data-tone="auto"] .genre-trance { background-color: #31274b; color: #a37ef8; }
+    [data-tone="auto"] .genre-trance[data-active] { background-color: #8452f5; color: #ffffff; }
+    [data-tone="auto"] .genre-psytrance { background-color: #1a3e2a; color: #22c55e; }
+    [data-tone="auto"] .genre-psytrance[data-active] { background-color: #178841; color: #ffffff; }
+    [data-tone="auto"] .genre-hard-techno { background-color: #34191b; color: #e25c5c; }
+    [data-tone="auto"] .genre-hard-techno[data-active] { background-color: #991b1b; color: #ffffff; }
+    [data-tone="auto"] .genre-hardstyle { background-color: #472224; color: #f26a6a; }
+    [data-tone="auto"] .genre-hardstyle[data-active] { background-color: #eb1515; color: #ffffff; }
+    [data-tone="auto"] .genre-electro { background-color: #472337; color: #ef64a8; }
+    [data-tone="auto"] .genre-electro[data-active] { background-color: #e0177a; color: #ffffff; }
+    [data-tone="auto"] .genre-minimal { background-color: #292c34; color: #8896a9; }
+    [data-tone="auto"] .genre-minimal[data-active] { background-color: #64748b; color: #ffffff; }
+    [data-tone="auto"] .genre-edm { background-color: #143b44; color: #06b6d4; }
+    [data-tone="auto"] .genre-edm[data-active] { background-color: #047f94; color: #ffffff; }
+    [data-tone="auto"] .genre-disco { background-color: #4a2c1a; color: #f9761b; }
+    [data-tone="auto"] .genre-disco[data-active] { background-color: #c35305; color: #ffffff; }
+    [data-tone="auto"] .genre-dub { background-color: #30401a; color: #84cc16; }
+    [data-tone="auto"] .genre-dub[data-active] { background-color: #54820e; color: #ffffff; }
+    [data-tone="auto"] .genre-dubstep { background-color: #29294a; color: #888bf4; }
+    [data-tone="auto"] .genre-dubstep[data-active] { background-color: #5e61f1; color: #ffffff; }
+    [data-tone="auto"] .genre-ambient { background-color: #173b3a; color: #14b8a6; }
+    [data-tone="auto"] .genre-ambient[data-active] { background-color: #0e8174; color: #ffffff; }
+  }
+}

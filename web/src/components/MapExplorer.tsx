@@ -6,6 +6,7 @@ import {
   EMPTY_FILTERS,
   applyFilters,
   filterFestivalsByQuery,
+  getPriceBoundsFor,
   isEmptyFilters,
   type Filters,
   type Festival,
@@ -46,6 +47,8 @@ export default function MapExplorer({ festivals }: { festivals: Festival[] }) {
     };
   }, []);
 
+  const priceBounds = useMemo(() => getPriceBoundsFor(festivals), [festivals]);
+
   const filtered = useMemo(
     () => filterFestivalsByQuery(applyFilters(festivals, filters, now), query),
     [festivals, filters, now, query],
@@ -72,6 +75,7 @@ export default function MapExplorer({ festivals }: { festivals: Festival[] }) {
         <FiltersPanel
           filters={filters}
           onChange={setFilters}
+          bounds={priceBounds}
           onReset={resetAll}
           resetActive={hasActive}
         />

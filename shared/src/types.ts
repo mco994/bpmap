@@ -36,3 +36,8 @@ export interface Genre {
   slug: string;
   label: string;
 }
+
+export interface PriceBounds {
+  maxDay: number;
+  maxFull: number;
+}
