@@ -2,20 +2,28 @@ name: Mise à jour quotidienne des festivals
 
 on:
   schedule:
-    - cron: "0 5 * * *" # tous les jours à 05:00 UTC
-  workflow_dispatch: {} # déclenchement manuel possible
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}
 
 permissions:
   contents: write
   pull-requests: write
+  statuses: write
+
+concurrency:
+  group: donnees-quotidiennes
+  cancel-in-progress: false
+
+env:
+  REQUIRED_CHECK_CONTEXT: "Web — lint · types · build"
 
 jobs:
   update:
+    name: Ingestion · vérification · publication
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
-        with:
-          token: ${{ secrets.BOT_PAT }}
 
       - uses: actions/setup-node@v5
         with:
@@ -24,7 +32,10 @@ jobs:
 
       - run: npm ci
 
-      - name: Ingestion (Wikidata + OpenAgenda + RA + DATAtourisme) → candidats
+      - name: Instantané des données avant ingestion
+        run: cp shared/src/data/festivals.json "$RUNNER_TEMP/festivals-avant.json"
+
+      - name: Ingestion (Wikidata + OpenAgenda + RA + DICE + DATAtourisme) → candidats
         run: node web/scripts/ingest.mjs
         env:
           DATATOURISME_FLUX_URL: ${{ secrets.DATATOURISME_FLUX_URL }}
@@ -41,8 +52,25 @@ jobs:
       - name: Géocodage (régénère shared/src/data/festivals.json via la BAN)
         run: npm run geocode --workspace web
 
+      - name: Contrôle d'intégrité des données
+        run: npx tsx web/scripts/check-data.mjs "$RUNNER_TEMP/festivals-avant.json" shared/src/data/festivals.json
+
       - name: Journal des changements (diff vs version committée → changes.json)
         run: npx tsx web/scripts/diff-changes.mjs
+        env:
+          PREV_FESTIVALS_PATH: ${{ runner.temp }}/festivals-avant.json
+
+      - name: Lint (web)
+        run: npm run lint --workspace web
+
+      - name: Typecheck (@bpmap/shared)
+        run: npm run typecheck:shared
+
+      - name: Tests unitaires
+        run: npm test
+
+      - name: Build (web)
+        run: npm run build --workspace web
 
       - name: Migrations Neon (idempotentes)
         run: node web/scripts/db-migrate.mjs
@@ -64,19 +92,7 @@ jobs:
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
 
-      - name: Ouvrir une PR de rafraîchissement (auto-merge après CI)
+      - name: Ouvrir la PR de rafraîchissement (auto-merge après contrôle)
         env:
-          GH_TOKEN: ${{ secrets.BOT_PAT }}
-        run: |
-          git config user.name "bpmap-bot"
-          git config user.email "bpmap-bot@users.noreply.github.com"
-          git add shared/src/data/festivals.json shared/src/data/festivals.source.json shared/src/data/lineups.json shared/src/data/prices.json shared/src/data/festivals.candidates.json shared/src/data/changes.json
-          if git diff --staged --quiet; then echo "Aucun changement de données."; exit 0; fi
-          BRANCH="data/refresh-${{ github.run_id }}"
-          git checkout -b "$BRANCH"
-          git commit -m "chore: rafraîchissement quotidien des données (ingestion + vérif auto)"
-          git push origin "$BRANCH"
-          gh pr create --base main --head "$BRANCH" \
-            --title "chore: données quotidiennes" \
-            --body "Rafraîchissement automatique (ingestion + vérification croisée des sources)."
-          gh pr merge "$BRANCH" --auto --merge --delete-branch
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/publish-data-refresh.sh

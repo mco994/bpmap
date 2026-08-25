@@ -6,10 +6,15 @@ on:
   pull_request:
   workflow_dispatch:
 
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   web:
     name: Web — lint · types · build
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -21,12 +26,17 @@ jobs:
         run: npm run lint --workspace web
       - name: Typecheck (@bpmap/shared)
         run: npm run typecheck:shared
+      - name: Tests unitaires
+        run: npm test
+      - name: Contrôle d'intégrité des données
+        run: npx tsx web/scripts/check-data.mjs shared/src/data/festivals.json
       - name: Build (web)
         run: npm run build --workspace web
 
   mobile:
     name: App mobile — types
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5

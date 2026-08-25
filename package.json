@@ -13,13 +13,16 @@
     "lint": "npm run lint --workspace web",
     "typecheck:shared": "npm run typecheck --workspace @bpmap/shared",
     "mobile": "npm run start --workspace @bpmap/app-mobile",
-    "mobile:android": "npm run android --workspace @bpmap/app-mobile"
+    "mobile:android": "npm run android --workspace @bpmap/app-mobile",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "overrides": {
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "tsx": "^4.22.4"
+    "tsx": "^4.22.4",
+    "vitest": "^4.1.11"
   }
 }
