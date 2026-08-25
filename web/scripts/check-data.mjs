@@ -1,8 +1,10 @@
 import { readFileSync } from "node:fs";
 import { validateDataset } from "@bpmap/shared";
 
-const [previousPath, currentPath] = process.argv.slice(2);
-if (!currentPath) {
+const args = process.argv.slice(2);
+const currentPath = args.at(-1);
+const previousPath = args.length > 1 ? args[0] : undefined;
+if (args.length === 0) {
   console.error("✖ Usage: npx tsx web/scripts/check-data.mjs [precedent.json] <courant.json>");
   process.exit(2);
 }
