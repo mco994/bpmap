@@ -6,6 +6,7 @@ import {
   effectiveStatus,
   formatDateRange,
   formatFromPrice,
+  genreColor,
   statusLabel,
   type Festival,
 } from '@bpmap/shared';
@@ -15,7 +16,6 @@ import { ThemedText } from '@/components/themed-text';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import { toggleFavorite, useIsFavorite } from '@/lib/favorites';
-import { genreColor } from '@/lib/genre-colors';
 
 type Props = {
   festival: Festival;

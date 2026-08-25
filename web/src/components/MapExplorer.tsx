@@ -85,6 +85,10 @@ export default function MapExplorer({ festivals }: { festivals: Festival[] }) {
       </aside>
 
       <section aria-label="Carte" className="min-w-0">
+        <p className="sr-only">
+          La carte est une zone graphique interactive. Pour parcourir les mêmes
+          événements au clavier, utilisez le sommaire sur la page « Événements ».
+        </p>
         <div className="relative z-20 mb-3">
           <SearchBox
             value={query}

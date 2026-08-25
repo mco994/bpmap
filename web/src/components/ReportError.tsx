@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import DialogOverlay from "@/components/DialogOverlay";
 import { useDialog } from "@/lib/use-dialog";
 
@@ -16,14 +16,13 @@ export default function ReportError({ slug }: { slug: string }) {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
 
-  const { open, openDialog, closeDialog, dialogRef } = useDialog({
-    onOpenChange: (next) => {
-      if (!next) {
-        setStatus("idle");
-        setError("");
-      }
-    },
-  });
+  const onOpenChange = useCallback((next: boolean) => {
+    if (next) return;
+    setStatus("idle");
+    setError("");
+  }, []);
+
+  const { open, openDialog, closeDialog, dialogRef } = useDialog({ onOpenChange });
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -91,11 +90,14 @@ export default function ReportError({ slug }: { slug: string }) {
                 </button>
               </div>
 
+              <p role="status" className="sr-only">
+                {status === "success"
+                  ? "Merci, votre signalement a bien été envoyé."
+                  : ""}
+              </p>
+
               {status === "success" ? (
-                <p
-                  aria-live="polite"
-                  className="rounded-lg bg-green-50 px-3 py-3 text-sm text-green-800 dark:bg-green-950 dark:text-green-200"
-                >
+                <p className="rounded-lg bg-green-50 px-3 py-3 text-sm text-green-800 dark:bg-green-950 dark:text-green-200">
                   Merci, votre signalement a bien été envoyé.
                 </p>
               ) : (
@@ -134,7 +136,10 @@ export default function ReportError({ slug }: { slug: string }) {
                     />
                   </div>
 
-                  <p aria-live="assertive" className="min-h-[1.25rem] text-sm text-red-600 dark:text-red-400">
+                  <p
+                    role="alert"
+                    className="min-h-[1.25rem] text-sm text-red-700 dark:text-red-400"
+                  >
                     {status === "error" ? error : ""}
                   </p>
 

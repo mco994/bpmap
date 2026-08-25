@@ -180,7 +180,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               className={`rounded-md px-2.5 py-1 text-xs font-medium ${
                 sortMode === "date"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
-                  : "text-zinc-400 hover:bg-zinc-100 hover:text-zinc-600 dark:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-400"
+                  : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
               }`}
             >
               Date
@@ -192,7 +192,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               className={`rounded-md px-2.5 py-1 text-xs font-medium ${
                 sortMode === "alpha"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
-                  : "text-zinc-400 hover:bg-zinc-100 hover:text-zinc-600 dark:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-400"
+                  : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
               }`}
             >
               A–Z
@@ -206,7 +206,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               className={`rounded-md px-2.5 py-1 text-xs font-medium disabled:opacity-60 ${
                 sortMode === "near"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
-                  : "text-zinc-400 hover:bg-zinc-100 hover:text-zinc-600 dark:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-400"
+                  : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
               }`}
             >
               {locating ? "Localisation…" : "Près de moi"}
@@ -275,7 +275,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               <section key={section.key} aria-label={section.title}>
                 <h2 className="sticky top-0 z-10 -mx-1 mb-3 bg-white/85 px-1 py-2 text-sm font-bold uppercase tracking-wide text-fuchsia-700 backdrop-blur dark:bg-zinc-950/85 dark:text-fuchsia-300">
                   {section.title}
-                  <span className="ml-2 text-xs font-medium text-zinc-400 dark:text-zinc-500">
+                  <span className="ml-2 text-xs font-medium text-zinc-600 dark:text-zinc-400">
                     {section.data.length}
                   </span>
                 </h2>
@@ -342,7 +342,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                               </span>
                             </span>
                             <span className="shrink-0 text-right text-sm">
-                              <span className="block text-[11px] text-zinc-400 dark:text-zinc-500">
+                              <span className="block text-[11px] text-zinc-600 dark:text-zinc-400">
                                 dès
                               </span>
                               <span className="font-medium text-zinc-700 dark:text-zinc-300">

@@ -314,6 +314,7 @@ export default function Map({
               highlight={
                 selectedMatch?.field === "genre" ? selectedMatch.genreSlug : undefined
               }
+              tone="light"
             />
 
             <p className="text-xs font-medium text-zinc-700">
