@@ -2,6 +2,8 @@ import Link from "next/link";
 import MapExplorer from "@/components/MapExplorer";
 import { getAllFestivals } from "@bpmap/shared";
 
+export const revalidate = 86400;
+
 export default function Home() {
   const festivals = getAllFestivals();
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import FestivalGridCard from "@/components/FestivalGridCard";
+import { absoluteUrl, inlineJson } from "@/lib/site";
 import {
   getRegionsWithCounts,
   getRegionBySlug,
@@ -9,7 +10,8 @@ import {
   type Festival,
 } from "@bpmap/shared";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+export const revalidate = 86400;
 
 export function generateStaticParams() {
   return getRegionsWithCounts().map((r) => ({ slug: r.slug }));
@@ -24,7 +26,7 @@ export async function generateMetadata({
   const region = getRegionBySlug(slug);
   if (!region) return { title: "Région introuvable" };
 
-  const title = `Festivals & open airs en ${region} — BPMap`;
+  const title = `Festivals & open airs en ${region}`;
   const description = `Tous les festivals, open airs et soirées de musique électronique à venir en ${region} : dates, lieux, tarifs et billetterie sur BPMap.`;
   const url = `/regions/${slug}`;
 
@@ -35,7 +37,7 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       locale: "fr_FR",
-      title,
+      title: `${title} · BPMap`,
       description,
       url,
     },
@@ -51,7 +53,7 @@ function itemListJsonLd(region: string, festivals: Festival[]) {
     itemListElement: festivals.map((f, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      url: `${SITE_URL}/festivals/${f.slug}`,
+      url: absoluteUrl(`/festivals/${f.slug}`),
       name: f.name,
     })),
   };
@@ -74,7 +76,7 @@ export default async function RegionPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(itemListJsonLd(region, festivals)),
+          __html: inlineJson(itemListJsonLd(region, festivals)),
         }}
       />
 

@@ -7,6 +7,7 @@ import AddToCalendar from "@/components/AddToCalendar";
 import ReportError from "@/components/ReportError";
 import ArtistLinks from "@/components/ArtistLinks";
 import { affiliateUrl } from "@/lib/affiliate";
+import { SITE_URL, absoluteUrl, inlineJson } from "@/lib/site";
 import {
   getAllFestivals,
   getFestivalBySlug,
@@ -20,8 +21,13 @@ import {
   statusLabel,
   effectiveEventType,
   eventTypeLabel,
+  priceFrom,
+  sanitizeUrl,
+  isHttpUrl,
   type Festival,
 } from "@bpmap/shared";
+
+export const revalidate = 86400;
 
 export function generateStaticParams() {
   return getAllFestivals().map((f) => ({ slug: f.slug }));
@@ -59,18 +65,31 @@ export async function generateMetadata({
   };
 }
 
-function jsonLd(festival: Festival, url: string) {
+function eventStatusUrl(festival: Festival, now: Date): string {
+  const status = effectiveStatus(festival, now);
+  if (status === "cancelled") return "https://schema.org/EventCancelled";
+  return "https://schema.org/EventScheduled";
+}
+
+function offerAvailability(festival: Festival, now: Date): string {
+  const status = effectiveStatus(festival, now);
+  if (status === "cancelled") return "https://schema.org/Discontinued";
+  if (status === "passed") return "https://schema.org/SoldOut";
+  return "https://schema.org/InStock";
+}
+
+function jsonLd(festival: Festival, url: string, now: Date) {
+  const price = priceFrom(festival);
+
   return {
     "@context": "https://schema.org",
     "@type": "MusicEvent",
     name: festival.name,
     description: festival.description,
+    image: `${url}/opengraph-image`,
     ...(festival.startDate && { startDate: festival.startDate }),
     ...(festival.endDate && { endDate: festival.endDate }),
-    eventStatus:
-      festival.status === "cancelled"
-        ? "https://schema.org/EventCancelled"
-        : "https://schema.org/EventScheduled",
+    eventStatus: eventStatusUrl(festival, now),
     eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
     location: {
       "@type": "Place",
@@ -87,21 +106,44 @@ function jsonLd(festival: Festival, url: string) {
         longitude: festival.lng,
       },
     },
-    organizer: { "@type": "Organization", name: festival.organizer },
-    ...(festival.priceFull !== null && {
+    ...(festival.organizer && {
+      organizer: { "@type": "Organization", name: festival.organizer },
+    }),
+    ...(festival.lineup?.length && {
+      performer: festival.lineup.map((name) => ({
+        "@type": "MusicGroup",
+        name,
+      })),
+    }),
+    ...(price !== null && {
       offers: {
         "@type": "Offer",
-        price: festival.priceFull,
+        price,
         priceCurrency: festival.currency,
-        url: festival.ticketUrl ?? festival.officialUrl ?? url,
-        availability: "https://schema.org/InStock",
+        url: sanitizeUrl(festival.ticketUrl) ?? sanitizeUrl(festival.officialUrl) ?? url,
+        availability: offerAvailability(festival, now),
       },
     }),
     url,
   };
 }
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+function breadcrumbJsonLd(festival: Festival, url: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Accueil", item: absoluteUrl("/") },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Événements",
+        item: absoluteUrl("/festivals"),
+      },
+      { "@type": "ListItem", position: 3, name: festival.name, item: url },
+    ],
+  };
+}
 
 function siteLinkLabel(url: string): string {
   let host = "";
@@ -132,9 +174,10 @@ function isTicketHost(url: string | null): boolean {
 }
 
 function billetterieUrl(f: Festival): string | null {
-  if (f.ticketUrl) return f.ticketUrl;
-  if (isTicketHost(f.officialUrl)) return f.officialUrl;
-  return null;
+  const ticket = sanitizeUrl(f.ticketUrl);
+  if (ticket) return ticket;
+  const official = sanitizeUrl(f.officialUrl);
+  return isTicketHost(official) ? official : null;
 }
 
 export default async function FestivalPage({
@@ -147,7 +190,8 @@ export default async function FestivalPage({
   if (!festival) notFound();
 
   const url = `${SITE_URL}/festivals/${festival.slug}`;
-  const status = effectiveStatus(festival);
+  const now = new Date();
+  const status = effectiveStatus(festival, now);
   const tier = sizeTierForCapacity(festival.capacity);
 
   const info = [
@@ -167,12 +211,17 @@ export default async function FestivalPage({
   ];
 
   const billetterie = affiliateUrl(billetterieUrl(festival));
+  const officialUrl = sanitizeUrl(festival.officialUrl);
 
   return (
     <article className="pb-12">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(festival, url)) }}
+        dangerouslySetInnerHTML={{ __html: inlineJson(jsonLd(festival, url, now)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: inlineJson(breadcrumbJsonLd(festival, url)) }}
       />
 
       <div className="bg-gradient-to-br from-violet-700 via-fuchsia-600 to-fuchsia-500 text-white">
@@ -301,7 +350,7 @@ export default async function FestivalPage({
         <div className="mt-8 flex flex-wrap gap-3">
           <FavoriteButton festivalId={festival.id} withLabel />
           <ItineraryButton festival={festival} />
-          <AddToCalendar festival={festival} />
+          <AddToCalendar festival={festival} siteUrl={SITE_URL} />
           {billetterie && (
             <a
               href={billetterie}
@@ -312,14 +361,14 @@ export default async function FestivalPage({
               🎟️ Billetterie
             </a>
           )}
-          {festival.officialUrl && !isTicketHost(festival.officialUrl) && (
+          {officialUrl && !isTicketHost(officialUrl) && (
             <a
-              href={festival.officialUrl}
+              href={officialUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-xl border border-zinc-300 px-6 py-3 font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
             >
-              {siteLinkLabel(festival.officialUrl)} ↗
+              {siteLinkLabel(officialUrl)} ↗
             </a>
           )}
         </div>
@@ -327,7 +376,7 @@ export default async function FestivalPage({
         {festival.sources && festival.sources.length > 0 && (
           <p className="mt-8 text-xs text-zinc-500 dark:text-zinc-500">
             Sources vérifiées&nbsp;:{" "}
-            {festival.sources.map((s, i) => (
+            {festival.sources.filter(isHttpUrl).map((s, i) => (
               <span key={s}>
                 {i > 0 && " · "}
                 <a
