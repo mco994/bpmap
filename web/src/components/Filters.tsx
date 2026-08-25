@@ -216,6 +216,9 @@ export default function FiltersPanel({
           min={0}
           max={maxDay}
           step={5}
+          aria-valuetext={
+            filters.priceDayMax === null ? "Tous les tarifs" : `${dayValue} euros au plus`
+          }
           value={dayValue}
           onChange={(e) => {
             const v = Number(e.target.value);
@@ -241,6 +244,11 @@ export default function FiltersPanel({
           min={0}
           max={maxFull}
           step={5}
+          aria-valuetext={
+            filters.priceFullMax === null
+              ? "Tous les tarifs"
+              : `${fullValue} euros au plus`
+          }
           value={fullValue}
           onChange={(e) => {
             const v = Number(e.target.value);

@@ -1,29 +1,48 @@
-import { genreLabel } from "@bpmap/shared";
-import { genreColor, withAlpha } from "@/lib/genre-colors";
+import { genreLabel, genrePalette } from "@bpmap/shared";
+
+type Tone = "auto" | "light";
+
+const AUTO_CLASSES =
+  "bg-[color:var(--chip-bg)] text-[color:var(--chip-fg)] dark:bg-[color:var(--chip-bg-dark)] dark:text-[color:var(--chip-fg-dark)]";
+const LIGHT_CLASSES = "bg-[color:var(--chip-bg)] text-[color:var(--chip-fg)]";
 
 export default function GenreChips({
   genres,
   highlight,
+  tone = "auto",
 }: {
   genres: string[];
   highlight?: string;
+  tone?: Tone;
 }) {
   return (
     <ul className="flex flex-wrap items-center gap-1" aria-label="Genres">
-      {genres.map((g) => {
-        const active = g === highlight;
-        const color = genreColor(g);
+      {genres.map((slug) => {
+        const palette = genrePalette(slug);
+        const active = slug === highlight;
+        const style = active
+          ? ({
+              "--chip-bg": palette.solid,
+              "--chip-fg": "#ffffff",
+              "--chip-bg-dark": palette.solid,
+              "--chip-fg-dark": "#ffffff",
+            } as React.CSSProperties)
+          : ({
+              "--chip-bg": palette.light.bg,
+              "--chip-fg": palette.light.fg,
+              "--chip-bg-dark": palette.dark.bg,
+              "--chip-fg-dark": palette.dark.fg,
+            } as React.CSSProperties);
+
         return (
           <li
-            key={g}
-            className="rounded-full px-2 py-0.5 text-[11px] font-semibold"
-            style={
-              active
-                ? { backgroundColor: color, color: "#ffffff" }
-                : { backgroundColor: withAlpha(color, 0.14), color }
-            }
+            key={slug}
+            style={style}
+            className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${
+              tone === "light" ? LIGHT_CLASSES : AUTO_CLASSES
+            }`}
           >
-            {genreLabel(g)}
+            {genreLabel(slug)}
           </li>
         );
       })}

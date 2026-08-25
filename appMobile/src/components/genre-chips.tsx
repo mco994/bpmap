@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native';
-import { genreLabel } from '@bpmap/shared';
+import { genreLabel, genrePalette } from '@bpmap/shared';
 
 import { Spacing } from '@/constants/theme';
-import { genreColor, withAlpha } from '@/lib/genre-colors';
+import { useColorScheme } from '@/hooks/use-color-scheme';
 
 type Props = {
   genres: string[];
@@ -10,21 +10,21 @@ type Props = {
 };
 
 export function GenreChips({ genres, highlight }: Props) {
+  const scheme = useColorScheme();
+  const isDark = scheme === 'dark';
+
   return (
     <View style={styles.row}>
       {genres.map((g) => {
+        const palette = genrePalette(g);
         const active = g === highlight;
+        const tone = isDark ? palette.dark : palette.light;
+        const background = active ? palette.solid : tone.bg;
+        const color = active ? '#FFFFFF' : tone.fg;
+
         return (
-          <View
-            key={g}
-            style={[
-              styles.chip,
-              { backgroundColor: active ? genreColor(g) : withAlpha(genreColor(g), 0.16) },
-            ]}
-          >
-            <Text style={[styles.label, { color: active ? '#FFFFFF' : genreColor(g) }]}>
-              {genreLabel(g)}
-            </Text>
+          <View key={g} style={[styles.chip, { backgroundColor: background }]}>
+            <Text style={[styles.label, { color }]}>{genreLabel(g)}</Text>
           </View>
         );
       })}

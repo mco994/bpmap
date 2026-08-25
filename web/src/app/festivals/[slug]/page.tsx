@@ -358,7 +358,7 @@ export default async function FestivalPage({
               rel="sponsored noopener noreferrer"
               className="rounded-xl bg-fuchsia-600 px-6 py-3 font-semibold text-white shadow-sm transition-colors hover:bg-fuchsia-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 focus-visible:ring-offset-2"
             >
-              🎟️ Billetterie
+              <span aria-hidden>🎟️</span> Billetterie
             </a>
           )}
           {officialUrl && !isTicketHost(officialUrl) && (
