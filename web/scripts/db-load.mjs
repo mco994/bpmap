@@ -42,7 +42,7 @@ if (!url) {
 
 const client = new pg.Client({
   connectionString: url,
-  ssl: { rejectUnauthorized: false },
+  ssl: true,
 });
 await client.connect();
 

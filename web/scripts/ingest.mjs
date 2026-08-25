@@ -11,7 +11,7 @@ const source = JSON.parse(
 const known = new Set(source.map((f) => f.slug));
 
 const ELECTRO_HINTS =
-  /\b(électro|electro|techno|house|trance|psytrance|hardstyle|hardcore|hardtek|drum.?n.?bass|dnb|dub|dubstep|disco|french touch|rave|EDM|minimal)\b/i;
+  /(?<![\p{L}\d])(électro|electro|techno|house|trance|psytrance|hardstyle|hardcore|hardtek|drum.?n.?bass|dnb|dub|dubstep|disco|french touch|rave|EDM|minimal)(?![\p{L}\d])/iu;
 
 function slugify(name) {
   return name
