@@ -10,3 +10,4 @@ export * from "./seo";
 export * from "./artists";
 export * from "./ics";
 export * from "./distance";
+export * from "./validation";
