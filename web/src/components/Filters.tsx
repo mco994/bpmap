@@ -7,7 +7,7 @@ import {
   GENRES,
   SIZE_TIERS,
   EVENT_TYPES,
-  getPriceBounds,
+  type PriceBounds,
   type Filters,
   type SizeTier,
   type EventType,
@@ -16,11 +16,10 @@ import {
 interface FiltersPanelProps {
   filters: Filters;
   onChange: (filters: Filters) => void;
+  bounds: PriceBounds;
   onReset?: () => void;
   resetActive?: boolean;
 }
-
-const { maxDay, maxFull } = getPriceBounds();
 
 function Chip({
   active,
@@ -50,9 +49,11 @@ function Chip({
 export default function FiltersPanel({
   filters,
   onChange,
+  bounds,
   onReset,
   resetActive,
 }: FiltersPanelProps) {
+  const { maxDay, maxFull } = bounds;
   const ids = {
     from: useId(),
     to: useId(),

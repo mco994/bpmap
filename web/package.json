@@ -16,7 +16,11 @@
     "fb:update": "node scripts/fb-update.mjs",
     "verify-promote": "node scripts/verify-promote.mjs",
     "ra-lineups": "node scripts/ra-lineups.mjs",
-    "dt:debug": "node --env-file-if-exists=.env.local scripts/datatourisme-debug.mjs"
+    "dt:debug": "node --env-file-if-exists=.env.local scripts/datatourisme-debug.mjs",
+    "build:genre-css": "tsx scripts/build-genre-css.mjs",
+    "check:genre-css": "tsx scripts/build-genre-css.mjs --check",
+    "smoke": "node scripts/smoke.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@bpmap/shared": "*",

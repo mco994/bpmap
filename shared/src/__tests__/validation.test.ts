@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { FESTIVALS } from "../festivals";
+import { FESTIVALS } from "../dataset";
 import { isHttpUrl, sanitizeUrl, validateDataset } from "../validation";
 import { makeFestival } from "./fixtures";
 

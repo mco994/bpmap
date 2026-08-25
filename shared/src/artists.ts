@@ -1,5 +1,6 @@
 import type { Festival } from "./types";
-import { FESTIVALS, isPast } from "./festivals";
+import { isPast } from "./festivals";
+import { FESTIVALS } from "./dataset";
 
 const FR_COLLATOR = new Intl.Collator("fr");
 
@@ -18,7 +19,11 @@ interface ArtistEntry {
   count: number;
 }
 
+let cachedIndex: Map<string, ArtistEntry> | null = null;
+
 function buildIndex(): Map<string, ArtistEntry> {
+  if (cachedIndex) return cachedIndex;
+
   const bySlug = new Map<string, ArtistEntry>();
   for (const festival of FESTIVALS) {
     const seen = new Set<string>();
@@ -34,6 +39,7 @@ function buildIndex(): Map<string, ArtistEntry> {
       }
     }
   }
+  cachedIndex = bySlug;
   return bySlug;
 }
 

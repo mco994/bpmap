@@ -13,6 +13,7 @@ import {
   priceFrom,
   isEmptyFilters,
   effectiveStatus,
+  getPriceBoundsFor,
   statusLabel,
   groupByLetter,
   groupByMonth,
@@ -67,6 +68,8 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   const [geoError, setGeoError] = useState<string | null>(null);
   // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setNow(new Date()), []);
+
+  const priceBounds = useMemo(() => getPriceBoundsFor(festivals), [festivals]);
 
   const filtered = useMemo(
     () => filterFestivalsByQuery(applyFilters(festivals, filters, now), query),
@@ -142,6 +145,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
         <FiltersPanel
           filters={filters}
           onChange={setFilters}
+          bounds={priceBounds}
           onReset={resetAll}
           resetActive={hasActive}
         />
@@ -285,7 +289,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                       const status = now ? effectiveStatus(f, now) : f.status;
                       const showStatus =
                         status === "passed" || status === "cancelled";
-                      const match = bestQueryMatch(f, query);
+                      const match = query.trim() ? bestQueryMatch(f, query) : null;
                       const isFree = priceFrom(f) === 0;
                       const proximity = proximityBadge(f.startDate, now);
                       const distanceKm = distances?.get(f.id) ?? null;
@@ -365,7 +369,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                 ) : (
                   <ul className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
                     {section.data.map((f) => {
-                      const match = bestQueryMatch(f, query);
+                      const match = query.trim() ? bestQueryMatch(f, query) : null;
                       return (
                         <li key={f.id}>
                           <FestivalGridCard

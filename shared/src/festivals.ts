@@ -1,14 +1,11 @@
 import type {
   Festival,
+  PriceBounds,
   FestivalStatus,
   Genre,
   SizeTier,
   EventType,
 } from "./types";
-import generated from "./data/festivals.json";
-
-export const FESTIVALS = generated as unknown as Festival[];
-
 export const GENRES: Genre[] = [
   { slug: "techno", label: "Techno" },
   { slug: "house", label: "House" },
@@ -66,37 +63,11 @@ export function sizeTierLabel(tier: SizeTier): string {
   return SIZE_TIERS.find((t) => t.tier === tier)?.label ?? tier;
 }
 
-const FR_COLLATOR = new Intl.Collator("fr");
-
-export function getAllFestivals(): Festival[] {
-  return [...FESTIVALS].sort((a, b) => {
-    const aKey = a.startDate ?? "9999";
-    const bKey = b.startDate ?? "9999";
-    return aKey < bKey ? -1 : aKey > bKey ? 1 : 0;
-  });
-}
-
-export function getFestivalBySlug(slug: string): Festival | undefined {
-  return FESTIVALS.find((f) => f.slug === slug);
-}
-
-export function getOrganizers(): string[] {
-  const names = FESTIVALS.map((f) => f.organizer).filter(
-    (o): o is string => !!o,
-  );
-  return [...new Set(names)].sort(FR_COLLATOR.compare);
-}
-
-export function getArtists(): string[] {
-  const all = FESTIVALS.flatMap((f) => f.lineup ?? []);
-  return [...new Set(all)].sort(FR_COLLATOR.compare);
-}
-
-export function getPriceBounds(): { maxDay: number; maxFull: number } {
+export function getPriceBoundsFor(festivals: Festival[]): PriceBounds {
   const round = (n: number) => Math.ceil(n / 10) * 10;
   const notNull = (n: number | null): n is number => n !== null;
-  const days = FESTIVALS.map((f) => f.priceDay).filter(notNull);
-  const fulls = FESTIVALS.map((f) => f.priceFull).filter(notNull);
+  const days = festivals.map((f) => f.priceDay).filter(notNull);
+  const fulls = festivals.map((f) => f.priceFull).filter(notNull);
   return {
     maxDay: round(Math.max(0, ...days)),
     maxFull: round(Math.max(0, ...fulls)),

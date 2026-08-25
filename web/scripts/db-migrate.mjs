@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const migrationsDir = path.join(here, "..", "supabase", "migrations");
+const migrationsDir = path.join(here, "..", "migrations");
 
 const url = process.env.CONNECTION_STRING || process.env.DATABASE_URL;
 if (!url) {

@@ -15,7 +15,9 @@
     "mobile": "npm run start --workspace @bpmap/app-mobile",
     "mobile:android": "npm run android --workspace @bpmap/app-mobile",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "typecheck": "npm run typecheck --workspace @bpmap/shared && npm run typecheck --workspace web",
+    "check:data": "tsx web/scripts/check-data.mjs shared/src/data/festivals.json"
   },
   "overrides": {
     "react": "19.2.3",
