@@ -3,6 +3,8 @@ import { FESTIVALS } from "../dataset";
 import { isHttpUrl, sanitizeUrl, validateDataset } from "../validation";
 import { makeFestival } from "./fixtures";
 
+const NOW = new Date(2026, 7, 25);
+
 describe("isHttpUrl / sanitizeUrl", () => {
   it("n'accepte que http et https", () => {
     expect(isHttpUrl("https://bpmap.fr")).toBe(true);
@@ -58,26 +60,86 @@ describe("validateDataset", () => {
 
   it("bloque une chute massive du jeu de données", () => {
     const previous = Array.from({ length: 100 }, (_, i) =>
-      makeFestival({ id: `f${i}`, slug: `festival-${i}` }),
+      makeFestival({
+        id: `f${i}`,
+        slug: `festival-${i}`,
+        startDate: "2026-09-01",
+        endDate: "2026-09-02",
+      }),
     );
     const current = previous.slice(0, 50);
-    const { errors } = validateDataset(current, previous);
+    const { errors } = validateDataset(current, previous, NOW);
     expect(errors.some((e) => e.includes("chute anormale"))).toBe(true);
   });
 
   it("tolère une baisse modérée mais la signale", () => {
     const previous = Array.from({ length: 100 }, (_, i) =>
-      makeFestival({ id: `f${i}`, slug: `festival-${i}` }),
+      makeFestival({
+        id: `f${i}`,
+        slug: `festival-${i}`,
+        startDate: "2026-09-01",
+        endDate: "2026-09-02",
+      }),
     );
     const current = previous.slice(0, 90);
-    const { errors, warnings } = validateDataset(current, previous);
+    const { errors, warnings } = validateDataset(current, previous, NOW);
     expect(errors).toEqual([]);
-    expect(warnings[0]).toContain("10 événement(s) retiré(s)");
+    expect(warnings.some((w) => w.includes("10 événement(s) retiré(s)"))).toBe(true);
   });
 
   it("ne compare pas contre un jeu précédent trop petit", () => {
     const previous = [makeFestival()];
-    expect(validateDataset([], previous).errors).toEqual([]);
+    expect(validateDataset([], previous, NOW).errors).toEqual([]);
+  });
+
+  it("ne compte pas comme une chute la purge des événements trop anciens", () => {
+    const expired = Array.from({ length: 74 }, (_, i) =>
+      makeFestival({
+        id: `old${i}`,
+        slug: `ancien-${i}`,
+        startDate: "2026-05-01",
+        endDate: "2026-05-02",
+      }),
+    );
+    const upcoming = Array.from({ length: 60 }, (_, i) =>
+      makeFestival({
+        id: `next${i}`,
+        slug: `a-venir-${i}`,
+        startDate: "2026-09-01",
+        endDate: "2026-09-02",
+      }),
+    );
+    const previous = [...expired, ...upcoming];
+
+    const { errors, warnings } = validateDataset(upcoming, previous, NOW);
+    expect(errors).toEqual([]);
+    expect(warnings.some((w) => w.includes("74 événement(s) purgé(s)"))).toBe(true);
+  });
+
+  it("bloque quand même une perte au-delà de la purge légitime", () => {
+    const expired = Array.from({ length: 74 }, (_, i) =>
+      makeFestival({
+        id: `old${i}`,
+        slug: `ancien-${i}`,
+        startDate: "2026-05-01",
+        endDate: "2026-05-02",
+      }),
+    );
+    const upcoming = Array.from({ length: 60 }, (_, i) =>
+      makeFestival({
+        id: `next${i}`,
+        slug: `a-venir-${i}`,
+        startDate: "2026-09-01",
+        endDate: "2026-09-02",
+      }),
+    );
+
+    const { errors } = validateDataset(
+      upcoming.slice(0, 20),
+      [...expired, ...upcoming],
+      NOW,
+    );
+    expect(errors.some((e) => e.includes("chute anormale"))).toBe(true);
   });
 });
 
