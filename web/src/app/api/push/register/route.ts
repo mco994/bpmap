@@ -1,25 +1,21 @@
-import pg from "pg";
+import { getPool } from "@/lib/db";
 import { enforceRateLimit } from "@/lib/rate-limit";
 
 export const dynamic = "force-dynamic";
 
 const TOKEN_PATTERN = /^Expo(nent)?PushToken\[[\w+/=-]{10,80}\]$/;
 const MAX_FAVORITES = 500;
+const MAX_FAVORITE_LENGTH = 100;
 
-function connectionString(): string | null {
-  return process.env.CONNECTION_STRING ?? process.env.DATABASE_URL ?? null;
-}
+const UNAVAILABLE = "Enregistrement push indisponible pour le moment.";
 
 export async function POST(request: Request) {
   const limited = await enforceRateLimit("api-push-register", request);
   if (limited) return limited;
 
-  const url = connectionString();
-  if (!url) {
-    return Response.json(
-      { error: "Enregistrement push indisponible pour le moment." },
-      { status: 503 },
-    );
+  const pool = getPool();
+  if (!pool) {
+    return Response.json({ error: UNAVAILABLE }, { status: 503 });
   }
 
   let body: unknown;
@@ -41,17 +37,18 @@ export async function POST(request: Request) {
   if (
     !Array.isArray(favorites) ||
     favorites.length > MAX_FAVORITES ||
-    favorites.some((f) => typeof f !== "string" || f.length > 100)
+    favorites.some(
+      (favorite) =>
+        typeof favorite !== "string" || favorite.length > MAX_FAVORITE_LENGTH,
+    )
   ) {
     return Response.json({ error: "Liste de suivis invalide." }, { status: 400 });
   }
   const safePlatform =
     platform === "android" || platform === "ios" ? platform : null;
 
-  const client = new pg.Client({ connectionString: url, ssl: true });
   try {
-    await client.connect();
-    await client.query(
+    await pool.query(
       `insert into push_subscriptions (token, favorites, platform, updated_at)
        values ($1, $2::jsonb, $3, now())
        on conflict (token) do update
@@ -59,12 +56,7 @@ export async function POST(request: Request) {
       [token, JSON.stringify(favorites), safePlatform],
     );
   } catch {
-    return Response.json(
-      { error: "Enregistrement push indisponible pour le moment." },
-      { status: 503 },
-    );
-  } finally {
-    await client.end().catch(() => {});
+    return Response.json({ error: UNAVAILABLE }, { status: 503 });
   }
 
   return Response.json({ ok: true });

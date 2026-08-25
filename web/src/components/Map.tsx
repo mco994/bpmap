@@ -23,6 +23,7 @@ import {
   isCountryLabelLayer,
   isCityLabelLayer,
   maskedPlaceLabelFilter,
+  sanitizeUrl,
   sizeTierForCapacity,
   SIZE_TIERS,
   type Festival,
@@ -147,6 +148,8 @@ export default function Map({
   );
   const selectedMatch = selected ? bestQueryMatch(selected, query) : null;
   const selectedTier = selected ? sizeTierForCapacity(selected.capacity) : null;
+  const selectedTicketUrl = selected ? sanitizeUrl(selected.ticketUrl) : null;
+  const selectedOfficialUrl = selected ? sanitizeUrl(selected.officialUrl) : null;
   const selectedSizeLabel = selectedTier
     ? SIZE_TIERS.find((s) => s.tier === selectedTier)?.label
     : null;
@@ -341,11 +344,11 @@ export default function Map({
                 {selected.lineup.length > 8 ? "…" : ""}
               </p>
             )}
-            {(selected.ticketUrl || selected.officialUrl) && (
+            {(selectedTicketUrl || selectedOfficialUrl) && (
               <p className="flex flex-wrap gap-x-3 text-xs">
-                {selected.ticketUrl && (
+                {selectedTicketUrl && (
                   <a
-                    href={selected.ticketUrl}
+                    href={selectedTicketUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium text-fuchsia-700 hover:underline"
@@ -353,9 +356,9 @@ export default function Map({
                     Billetterie ↗
                   </a>
                 )}
-                {selected.officialUrl && (
+                {selectedOfficialUrl && (
                   <a
-                    href={selected.officialUrl}
+                    href={selectedOfficialUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium text-fuchsia-700 hover:underline"

@@ -17,7 +17,7 @@ const source = JSON.parse(readFileSync(srcPath, "utf8"));
 const lineups = JSON.parse(readFileSync(lineupsPath, "utf8"));
 
 const ELECTRO =
-  /\b(électro|electro|techno|house|trance|psytrance|hardstyle|hardcore|drum.?n.?bass|dnb|dub|disco|french touch|rave|EDM|minimal|acid)\b/i;
+  /(?<![\p{L}\d])(électro|electro|techno|house|trance|psytrance|hardstyle|hardcore|drum.?n.?bass|dnb|dub|disco|french touch|rave|EDM|minimal|acid)(?![\p{L}\d])/iu;
 
 function normName(s) {
   return (s ?? "")
@@ -27,6 +27,10 @@ function normName(s) {
     .replace(/festival|festiv/g, "")
     .replace(/[^a-z0-9]/g, "");
 }
+
+const ELECTRO_GLOBAL = new RegExp(ELECTRO.source, "giu");
+const CURRENT_YEAR = new Date().getFullYear();
+const UPCOMING_YEARS = [CURRENT_YEAR, CURRENT_YEAR + 1].map(String);
 
 const knownSlugs = new Set(source.map((f) => f.slug));
 const knownNames = new Set(source.map((f) => normName(f.name)));
@@ -95,8 +99,8 @@ async function officialVerified(url) {
     });
     if (!res.ok) return false;
     const body = (await res.text()).toLowerCase();
-    const electroHits = (body.match(ELECTRO) || []).length;
-    return electroHits >= 2 && body.includes("2026");
+    const electroHits = (body.match(ELECTRO_GLOBAL) || []).length;
+    return electroHits >= 2 && UPCOMING_YEARS.some((year) => body.includes(year));
   } catch {
     return false;
   }
