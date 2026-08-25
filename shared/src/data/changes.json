@@ -1,1 +1,695 @@
-[]
+[
+  {
+    "id": "2026-08-25:le-bon-air:removed",
+    "festivalId": "le-bon-air",
+    "festivalSlug": "le-bon-air",
+    "festivalName": "Le Bon Air",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:electropicales:removed",
+    "festivalId": "electropicales",
+    "festivalSlug": "electropicales",
+    "festivalName": "Electropicales",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:cercle-festival:removed",
+    "festivalId": "cercle-festival",
+    "festivalSlug": "cercle-festival",
+    "festivalName": "Cercle Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:millesime-festival:removed",
+    "festivalId": "millesime-festival",
+    "festivalSlug": "millesime-festival",
+    "festivalName": "Millésime Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:la-nievre-et-la-tortue:removed",
+    "festivalId": "la-nievre-et-la-tortue",
+    "festivalSlug": "la-nievre-et-la-tortue",
+    "festivalName": "La Nièvre et la Tortue",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:marvellous-island:removed",
+    "festivalId": "marvellous-island",
+    "festivalSlug": "marvellous-island",
+    "festivalName": "Marvellous Island",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:brunch-electronik-bordeaux:removed",
+    "festivalId": "brunch-electronik-bordeaux",
+    "festivalSlug": "brunch-electronik-bordeaux",
+    "festivalName": "Brunch Electronik Bordeaux",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:festival-magnetik:removed",
+    "festivalId": "festival-magnetik",
+    "festivalSlug": "festival-magnetik",
+    "festivalName": "Magnetik Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:ctrlf-festival:removed",
+    "festivalId": "ctrlf-festival",
+    "festivalSlug": "ctrlf-festival",
+    "festivalName": "CTRLF",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:okami-festival:removed",
+    "festivalId": "okami-festival",
+    "festivalSlug": "okami-festival",
+    "festivalName": "Okami Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:we-love-green:removed",
+    "festivalId": "we-love-green",
+    "festivalSlug": "we-love-green",
+    "festivalName": "We Love Green",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:mimo-festival:removed",
+    "festivalId": "mimo-festival",
+    "festivalSlug": "mimo-festival",
+    "festivalName": "MIMO Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:samsam-festival:removed",
+    "festivalId": "samsam-festival",
+    "festivalSlug": "samsam-festival",
+    "festivalName": "SAMSAM Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:futurs-proches-mia-mao:removed",
+    "festivalId": "futurs-proches-mia-mao",
+    "festivalSlug": "futurs-proches-mia-mao",
+    "festivalName": "Futurs Proches (Dr Rubinstein b2b DJ Mell G)",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:pentagon-ryugu-barboteur:removed",
+    "festivalId": "pentagon-ryugu-barboteur",
+    "festivalSlug": "pentagon-ryugu-barboteur",
+    "festivalName": "Pentagon x Ryugu Open Air (Barboteur)",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:pelouses-electroniques:removed",
+    "festivalId": "pelouses-electroniques",
+    "festivalSlug": "pelouses-electroniques",
+    "festivalName": "Pelouses Électroniques",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:pure-open-air:removed",
+    "festivalId": "pure-open-air",
+    "festivalSlug": "pure-open-air",
+    "festivalName": "Pure Open Air",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:atrium-open-air:removed",
+    "festivalId": "atrium-open-air",
+    "festivalSlug": "atrium-open-air",
+    "festivalName": "Atrium Open Air",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:vinyle-village-wax-sun:removed",
+    "festivalId": "vinyle-village-wax-sun",
+    "festivalSlug": "vinyle-village-wax-sun",
+    "festivalName": "Vinyle Village — Wax & Sun",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:resonance-volume-iii:removed",
+    "festivalId": "resonance-volume-iii",
+    "festivalSlug": "resonance-volume-iii",
+    "festivalName": "Résonance Volume III",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:electroniquement-notre:removed",
+    "festivalId": "electroniquement-notre",
+    "festivalSlug": "electroniquement-notre",
+    "festivalName": "Electroniquement Nôtre",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:people-are-strange:removed",
+    "festivalId": "people-are-strange",
+    "festivalSlug": "people-are-strange",
+    "festivalName": "People Are Strange Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:madame-loyal-sonora-bordeaux:removed",
+    "festivalId": "madame-loyal-sonora-bordeaux",
+    "festivalSlug": "madame-loyal-sonora-bordeaux",
+    "festivalName": "Madame Loyal x Sonora Bordeaux",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:biches-festival:removed",
+    "festivalId": "biches-festival",
+    "festivalSlug": "biches-festival",
+    "festivalName": "BiCHES Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:musee-electronique-festival:removed",
+    "festivalId": "musee-electronique-festival",
+    "festivalSlug": "musee-electronique-festival",
+    "festivalName": "Musée Électronique Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:braises-sonores:removed",
+    "festivalId": "braises-sonores",
+    "festivalSlug": "braises-sonores",
+    "festivalName": "Braises Sonores",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:brunch-electronik-paris:removed",
+    "festivalId": "brunch-electronik-paris",
+    "festivalSlug": "brunch-electronik-paris",
+    "festivalName": "Brunch Electronik Paris",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:house-of-groove-km25:removed",
+    "festivalId": "house-of-groove-km25",
+    "festivalSlug": "house-of-groove-km25",
+    "festivalName": "Open Air House of Groove (Kilomètre25)",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:aeronautic-rave-museum:removed",
+    "festivalId": "aeronautic-rave-museum",
+    "festivalSlug": "aeronautic-rave-museum",
+    "festivalName": "Aeronautic Rave Museum XXL",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:undersound-open-air:removed",
+    "festivalId": "undersound-open-air",
+    "festivalSlug": "undersound-open-air",
+    "festivalName": "Undersound Open Air",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:lateral-festival:removed",
+    "festivalId": "lateral-festival",
+    "festivalSlug": "lateral-festival",
+    "festivalName": "Latéral Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:we-music-festival:removed",
+    "festivalId": "we-music-festival",
+    "festivalSlug": "we-music-festival",
+    "festivalName": "WE Music Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:illusion-colmar:removed",
+    "festivalId": "illusion-colmar",
+    "festivalSlug": "illusion-colmar",
+    "festivalName": "Illusion 2026 — Colmar",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:goutez-electronique-1:removed",
+    "festivalId": "goutez-electronique-1",
+    "festivalSlug": "goutez-electronique-1",
+    "festivalName": "Goûtez Électronique #1",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:fete-de-la-hard-music:removed",
+    "festivalId": "fete-de-la-hard-music",
+    "festivalSlug": "fete-de-la-hard-music",
+    "festivalName": "Fête de la Hard Music",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:kodz-open-air:removed",
+    "festivalId": "kodz-open-air",
+    "festivalSlug": "kodz-open-air",
+    "festivalName": "KODZ Open Air x Acidelics x Blizzard",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:open-air-house-lancry:removed",
+    "festivalId": "open-air-house-lancry",
+    "festivalSlug": "open-air-house-lancry",
+    "festivalName": "Open Air House (Fête de la Musique)",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:passerelle-electronique:removed",
+    "festivalId": "passerelle-electronique",
+    "festivalSlug": "passerelle-electronique",
+    "festivalName": "Passerelle Électronique",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:sacre-vehemence-open-air:removed",
+    "festivalId": "sacre-vehemence-open-air",
+    "festivalSlug": "sacre-vehemence-open-air",
+    "festivalName": "Sacré Véhémence — The Night in the Day",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:parc-o-tyson-2026:removed",
+    "festivalId": "parc-o-tyson-2026",
+    "festivalSlug": "parc-o-tyson-2026",
+    "festivalName": "Parc O Tyson",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:les-siestes-electroniques:removed",
+    "festivalId": "les-siestes-electroniques",
+    "festivalSlug": "les-siestes-electroniques",
+    "festivalName": "Les Siestes Électroniques",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:chateau-perche:removed",
+    "festivalId": "chateau-perche",
+    "festivalSlug": "chateau-perche",
+    "festivalName": "Château Perché Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:dox-art-festival:removed",
+    "festivalId": "dox-art-festival",
+    "festivalSlug": "dox-art-festival",
+    "festivalName": "Dox'Art Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:dub-station-festival:removed",
+    "festivalId": "dub-station-festival",
+    "festivalSlug": "dub-station-festival",
+    "festivalName": "Dub Station Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:m2a-festival:removed",
+    "festivalId": "m2a-festival",
+    "festivalSlug": "m2a-festival",
+    "festivalName": "M2A Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:forever-electro-open-air:removed",
+    "festivalId": "forever-electro-open-air",
+    "festivalSlug": "forever-electro-open-air",
+    "festivalName": "Forever Electro Open Air",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:chateau-amour-festival:removed",
+    "festivalId": "chateau-amour-festival",
+    "festivalSlug": "chateau-amour-festival",
+    "festivalName": "Château Amour Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:open-spirit-festival:removed",
+    "festivalId": "open-spirit-festival",
+    "festivalSlug": "open-spirit-festival",
+    "festivalName": "Open Spirit Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:apollo-festival:removed",
+    "festivalId": "apollo-festival",
+    "festivalSlug": "apollo-festival",
+    "festivalName": "Apollo Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:evasion-festival:removed",
+    "festivalId": "evasion-festival",
+    "festivalSlug": "evasion-festival",
+    "festivalName": "Évasion Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:festival-plein-air:removed",
+    "festivalId": "festival-plein-air",
+    "festivalSlug": "festival-plein-air",
+    "festivalName": "Festival Plein Air",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:worldwide-festival:removed",
+    "festivalId": "worldwide-festival",
+    "festivalSlug": "worldwide-festival",
+    "festivalName": "Worldwide Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:astropolis:removed",
+    "festivalId": "astropolis",
+    "festivalSlug": "astropolis",
+    "festivalName": "Astropolis",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:ethereal-decibel:removed",
+    "festivalId": "ethereal-decibel",
+    "festivalSlug": "ethereal-decibel",
+    "festivalName": "Ethereal Decibel Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:114d-festival:removed",
+    "festivalId": "114d-festival",
+    "festivalSlug": "114d-festival",
+    "festivalName": "114D Festival in Corti",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:la-recre-festival:removed",
+    "festivalId": "la-recre-festival",
+    "festivalSlug": "la-recre-festival",
+    "festivalName": "La Récré Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:green-fest:removed",
+    "festivalId": "green-fest",
+    "festivalSlug": "green-fest",
+    "festivalName": "Green Fest",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:club-peyrou:removed",
+    "festivalId": "club-peyrou",
+    "festivalSlug": "club-peyrou",
+    "festivalName": "Club Peyrou",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:o-lac-festival:removed",
+    "festivalId": "o-lac-festival",
+    "festivalSlug": "o-lac-festival",
+    "festivalName": "Ō Lac Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:organik-open-rave:removed",
+    "festivalId": "organik-open-rave",
+    "festivalSlug": "organik-open-rave",
+    "festivalName": "Organïk Open Rave Paris",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:solar-festival:removed",
+    "festivalId": "solar-festival",
+    "festivalSlug": "solar-festival",
+    "festivalName": "Solar Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:the-peacock-society:removed",
+    "festivalId": "the-peacock-society",
+    "festivalSlug": "the-peacock-society",
+    "festivalName": "The Peacock Society",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:dub-camp:removed",
+    "festivalId": "dub-camp",
+    "festivalSlug": "dub-camp",
+    "festivalName": "Dub Camp Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:cocorico-electro:removed",
+    "festivalId": "cocorico-electro",
+    "festivalSlug": "cocorico-electro",
+    "festivalName": "Cocorico Electro",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:adn-music-festival:removed",
+    "festivalId": "adn-music-festival",
+    "festivalSlug": "adn-music-festival",
+    "festivalName": "ADN Music Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:chauffer-dans-la-noirceur:removed",
+    "festivalId": "chauffer-dans-la-noirceur",
+    "festivalSlug": "chauffer-dans-la-noirceur",
+    "festivalName": "Chauffer Dans La Noirceur",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:nemoria-festival:removed",
+    "festivalId": "nemoria-festival",
+    "festivalSlug": "nemoria-festival",
+    "festivalName": "Nemoria Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:electrobeach-music-festival:removed",
+    "festivalId": "electrobeach-music-festival",
+    "festivalSlug": "electrobeach-music-festival",
+    "festivalName": "Electrobeach Music Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:xnv-beach-festival:removed",
+    "festivalId": "xnv-beach-festival",
+    "festivalSlug": "xnv-beach-festival",
+    "festivalName": "XNV Beach Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:balterno-caravane-tour:removed",
+    "festivalId": "balterno-caravane-tour",
+    "festivalSlug": "balterno-caravane-tour",
+    "festivalName": "Balterno Caravane Tour (Pont Simone Veil)",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:planete-sauvage-festival:removed",
+    "festivalId": "planete-sauvage-festival",
+    "festivalSlug": "planete-sauvage-festival",
+    "festivalName": "Planète Sauvage Festival",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:nataraja-psychedelic-gathering:removed",
+    "festivalId": "nataraja-psychedelic-gathering",
+    "festivalSlug": "nataraja-psychedelic-gathering",
+    "festivalName": "Nataraja Psychedelic Gathering",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:aelipse:removed",
+    "festivalId": "aelipse",
+    "festivalSlug": "aelipse",
+    "festivalName": "Aelipse",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:le-bouchonnois:removed",
+    "festivalId": "le-bouchonnois",
+    "festivalSlug": "le-bouchonnois",
+    "festivalName": "Le Bouchonnois",
+    "type": "removed",
+    "date": "2026-08-25",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-25:dream-nation:lineup",
+    "festivalId": "dream-nation",
+    "festivalSlug": "dream-nation",
+    "festivalName": "Dream Nation",
+    "type": "lineup",
+    "date": "2026-08-25",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
+    "id": "2026-08-25:electronest:price",
+    "festivalId": "electronest",
+    "festivalSlug": "electronest",
+    "festivalName": "Electronest",
+    "type": "price",
+    "date": "2026-08-25",
+    "summary": "Les tarifs ont été mis à jour."
+  },
+  {
+    "id": "2026-08-25:electronest:lineup",
+    "festivalId": "electronest",
+    "festivalSlug": "electronest",
+    "festivalName": "Electronest",
+    "type": "lineup",
+    "date": "2026-08-25",
+    "summary": "Le line-up a été mis à jour."
+  }
+]
