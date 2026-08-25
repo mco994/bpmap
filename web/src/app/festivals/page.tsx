@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/festivals" },
 };
 
+export const revalidate = 86400;
+
 export default function FestivalsPage() {
   const festivals = getAllFestivals();
 

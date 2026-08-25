@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/artistes" },
 };
 
+export const revalidate = 86400;
+
 export default function ArtistesPage() {
   const artists = getArtistsWithCounts();
 

@@ -4,8 +4,6 @@ import { festivalIcs, type Festival } from "@bpmap/shared";
 import DialogOverlay from "@/components/DialogOverlay";
 import { useDialog } from "@/lib/use-dialog";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "";
-
 function CalendarIcon({ className }: { className?: string }) {
   return (
     <svg
@@ -36,11 +34,11 @@ function nextDay(value: string): string {
   return d.toISOString().slice(0, 10).replace(/-/g, "");
 }
 
-function googleCalendarUrl(festival: Festival): string | null {
+function googleCalendarUrl(festival: Festival, siteUrl: string): string | null {
   if (!festival.startDate) return null;
   const start = icsDate(festival.startDate);
   const end = festival.endDate ? nextDay(festival.endDate) : nextDay(festival.startDate);
-  const pageUrl = SITE_URL ? `${SITE_URL.replace(/\/$/, "")}/festivals/${festival.slug}` : "";
+  const pageUrl = siteUrl ? `${siteUrl}/festivals/${festival.slug}` : "";
   const details = [festival.description, pageUrl].filter(Boolean).join("\n\n");
   const location = [festival.city, festival.region].filter(Boolean).join(", ");
   const params = new URLSearchParams({
@@ -53,13 +51,19 @@ function googleCalendarUrl(festival: Festival): string | null {
   return `https://calendar.google.com/calendar/render?${params.toString()}`;
 }
 
-export default function AddToCalendar({ festival }: { festival: Festival }) {
+export default function AddToCalendar({
+  festival,
+  siteUrl,
+}: {
+  festival: Festival;
+  siteUrl: string;
+}) {
   const { open, openDialog, closeDialog, dialogRef } = useDialog();
   const hasDate = Boolean(festival.startDate);
-  const gcalUrl = googleCalendarUrl(festival);
+  const gcalUrl = googleCalendarUrl(festival, siteUrl);
 
   const downloadIcs = () => {
-    const content = festivalIcs(festival, SITE_URL || undefined);
+    const content = festivalIcs(festival, siteUrl || undefined);
     if (!content) return;
     const blob = new Blob([content], { type: "text/calendar;charset=utf-8" });
     const href = URL.createObjectURL(blob);

@@ -30,6 +30,8 @@ function groupByDate(changes: Change[]): [string, Change[]][] {
   return [...groups.entries()];
 }
 
+export const revalidate = 86400;
+
 export default function NouveautesPage() {
   const groups = groupByDate(getChanges());
 

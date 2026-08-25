@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/regions" },
 };
 
+export const revalidate = 86400;
+
 export default function RegionsHubPage() {
   const regions = getRegionsWithCounts();
 

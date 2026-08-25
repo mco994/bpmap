@@ -9,6 +9,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/genres" },
 };
 
+export const revalidate = 86400;
+
 export default function GenresHubPage() {
   const genres = getGenresWithCounts();
 

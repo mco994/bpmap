@@ -8,6 +8,9 @@ import {
 } from "@bpmap/shared";
 import FestivalGridCard from "@/components/FestivalGridCard";
 import FollowArtistButton from "@/components/FollowArtistButton";
+import { absoluteUrl, inlineJson } from "@/lib/site";
+
+export const revalidate = 86400;
 
 export function generateStaticParams() {
   return getArtistsWithCounts().map((artist) => ({ slug: artist.slug }));
@@ -36,7 +39,6 @@ export async function generateMetadata({
   };
 }
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export default async function ArtistPage({
   params,
@@ -58,7 +60,7 @@ export default async function ArtistPage({
     itemListElement: festivals.map((festival, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: `${SITE_URL}/festivals/${festival.slug}`,
+      url: absoluteUrl(`/festivals/${festival.slug}`),
       name: festival.name,
     })),
   };
@@ -67,7 +69,7 @@ export default async function ArtistPage({
     <div className="mx-auto max-w-7xl px-4 py-8">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: inlineJson(jsonLd) }}
       />
 
       <nav aria-label="Fil d'Ariane" className="mb-6 text-sm">

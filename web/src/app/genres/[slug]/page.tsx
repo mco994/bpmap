@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import FestivalGridCard from "@/components/FestivalGridCard";
+import { absoluteUrl, inlineJson } from "@/lib/site";
 import {
   getGenresWithCounts,
   getFestivalsByGenre,
@@ -9,7 +10,8 @@ import {
   type Festival,
 } from "@bpmap/shared";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+export const revalidate = 86400;
 
 export function generateStaticParams() {
   return getGenresWithCounts().map((g) => ({ slug: g.slug }));
@@ -28,7 +30,7 @@ export async function generateMetadata({
   if (!isKnownGenre(slug)) return { title: "Genre introuvable" };
 
   const label = genreLabel(slug);
-  const title = `Festivals ${label} en France 2026 — BPMap`;
+  const title = `Festivals ${label} en France`;
   const description = `Tous les festivals, open airs et soirées ${label} à venir en France : dates, lieux, tarifs et billetterie. L'annuaire ${label} de BPMap.`;
   const url = `/genres/${slug}`;
 
@@ -39,7 +41,7 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       locale: "fr_FR",
-      title: `${title}`,
+      title: `${title} · BPMap`,
       description,
       url,
     },
@@ -55,7 +57,7 @@ function itemListJsonLd(label: string, festivals: Festival[]) {
     itemListElement: festivals.map((f, i) => ({
       "@type": "ListItem",
       position: i + 1,
-      url: `${SITE_URL}/festivals/${f.slug}`,
+      url: absoluteUrl(`/festivals/${f.slug}`),
       name: f.name,
     })),
   };
@@ -78,7 +80,7 @@ export default async function GenrePage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(itemListJsonLd(label, festivals)),
+          __html: inlineJson(itemListJsonLd(label, festivals)),
         }}
       />
 
