@@ -38,5 +38,11 @@ gh pr create --base main --head "$BRANCH" \
   --title "chore: données quotidiennes" \
   --body "Rafraîchissement automatique : ingestion multi-sources, vérification croisée, contrôle d'intégrité, puis \`lint\` + \`typecheck\` + \`build\` exécutés dans [ce run](${RUN_URL})."
 
-gh pr merge "$BRANCH" --auto --merge --delete-branch
-echo "✓ PR ouverte sur $BRANCH et auto-merge armé."
+if gh pr merge "$BRANCH" --merge --delete-branch; then
+  echo "✓ Données publiées : PR fusionnée sur main."
+elif gh pr merge "$BRANCH" --auto --merge --delete-branch; then
+  echo "✓ PR ouverte sur $BRANCH, auto-merge armé."
+else
+  echo "✖ PR ouverte sur $BRANCH mais ni fusionnée ni armée — intervention manuelle requise." >&2
+  exit 1
+fi
