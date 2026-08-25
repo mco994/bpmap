@@ -1,4 +1,5 @@
 import type { Festival } from "./types";
+import { isPurgeable } from "./festivals";
 
 export const FRANCE_BOUNDS = {
   minLat: -22,
@@ -97,6 +98,7 @@ export function validateFestival(festival: unknown, index: number): string[] {
 export function validateDataset(
   current: unknown,
   previous?: unknown,
+  now: Date = new Date(),
 ): DatasetReport {
   const errors: string[] = [];
   const warnings: string[] = [];
@@ -120,17 +122,31 @@ export function validateDataset(
     }
   }
 
-  if (Array.isArray(previous) && previous.length >= SIGNIFICANT_SET) {
-    const ratio = current.length / previous.length;
-    if (ratio < MIN_RETAINED_RATIO) {
-      errors.push(
-        `chute anormale du jeu de données : ${previous.length} → ${current.length} entrées ` +
-          `(${Math.round(ratio * 100)} % conservés, seuil ${Math.round(MIN_RETAINED_RATIO * 100)} %)`,
-      );
-    } else if (current.length < previous.length) {
+  if (Array.isArray(previous)) {
+    const expired = previous.filter((festival) =>
+      isPurgeable(festival as Festival, now),
+    );
+    const expected = previous.length - expired.length;
+
+    if (expired.length > 0) {
       warnings.push(
-        `${previous.length - current.length} événement(s) retiré(s) depuis la version précédente.`,
+        `${expired.length} événement(s) purgé(s) par ancienneté (terminés depuis plus d'un mois).`,
       );
+    }
+
+    if (expected >= SIGNIFICANT_SET) {
+      const ratio = current.length / expected;
+      if (ratio < MIN_RETAINED_RATIO) {
+        errors.push(
+          `chute anormale du jeu de données : ${expected} entrées encore valides → ` +
+            `${current.length} conservées (${Math.round(ratio * 100)} %, ` +
+            `seuil ${Math.round(MIN_RETAINED_RATIO * 100)} %)`,
+        );
+      } else if (current.length < expected) {
+        warnings.push(
+          `${expected - current.length} événement(s) retiré(s) sans lien avec la purge.`,
+        );
+      }
     }
   }
 
