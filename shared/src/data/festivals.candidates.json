@@ -1330,6 +1330,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "le-cafe-bien-fait-sa-rentree",
+    "name": "Le Café Bien fait sa rentrée !",
+    "city": "Le Blanc",
+    "region": null,
+    "description": "Le Café Bien est le café-cantine associatif de Carte Blanche ! Pour sa rentrée, il propose à partir de 18h un marché de producteurs et productrices, en collaboration avec Cagette & Fourchette et à partir de 20h un concert de LOUV (solo électro tribal) gratuit ! Bar et restauration sur place.",
+    "startDate": "2026-09-17",
+    "endDate": "2026-09-17",
+    "lat": 46.633237,
+    "lng": 1.0689392,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/09f81b94-3f67-3d5d-af9c-58019ac26326"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "hilight-tribe-louv-nirmata",
     "name": "Hilight Tribe + Louv + Nirmata",
     "city": "Tours",
@@ -1556,25 +1575,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "concert-de-sangue-chez-laurette",
-    "name": "Concert de \"Sangue\" Chez Laurette",
-    "city": "Montcléra",
-    "region": null,
-    "description": "<p>Le Bistrot de Montcléra<em> Chez Laurette </em>ouvre sa scène pour un concert du groupe &quot;Sangue&quot;</p><p><br></p><p>&quot;Sangue, c’est la pierre en persan, le socle sur lequel on construit des montagnes.</p><p>Arbre aux multiples racines, la chanson, le hip-hop, l’électro, l’accordéon, se côtoient et fabriquent une autoroute jubilatoire",
-    "startDate": "2026-08-25",
-    "endDate": "2026-08-25",
-    "lat": 44.6193614,
-    "lng": 1.2104607,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/cea76dcf-1808-3de4-909b-fc524b0ff2a6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "la-micro-folie-de-la-cab-anne-frank-house-vr-immersion-dans-l-annexe",
@@ -2812,6 +2812,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "soiree-jeux-exterieurs-et-concert",
+    "name": "Soirée jeux extérieurs et concert",
+    "city": "Castelnau-Magnoac",
+    "region": null,
+    "description": "SAMEDI SOIR AU HAMEAU \n\nOn remet ça les amis ! Après deux belles soirées au Hameau, on vous donne rendez-vous pour une dernière soirée d’été placée sous le signe de la convivialité, des jeux, de la musique et des saveurs marocaines.\n.\nDès 18h, venez profiter du parc autour d’un verre, jouer au mölkky, ping-pong, jeu de la grenouille… et partager un bon moment entre amis ou en famille. \n.\nAu menu : une assiette marocaine composée de…\nZaalouk d’aubergines\nSalade marocaine\nBatbout maison\nOmelette aux tomates, poivrons & oignons\nEt pour finir, une Basboussa, gâteau de semoule traditionnel à la fleur d’oranger \n.\nÀ 21h, place à DJAZADOR !\n.\nUn voyage entre jazz libre, rythmes électro et sonorités marocaines, porté par une batterie en improvisation, une basse électro, un piano incandescent et un spoken word franco-marocain.\n.\nUn univers vibrant et singulier, entre transe, émotion et partage.",
+    "startDate": "2026-08-29",
+    "endDate": "2026-08-29",
+    "lat": 43.2838518,
+    "lng": 0.4990407,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/66bfcdc4-7248-302f-9ef7-ba74297be13e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "saint-mont-vignoble-en-course-aprem-electro-soiree-concert",
     "name": "Saint Mont Vignoble en Course - Aprèm électro & soirée concert",
     "city": "Lelin-Lapujolle",
@@ -3166,25 +3185,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/45/6bd8642b-9671-3e8c-b951-966ed644c21d"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-a-la-pompe-grand-ressac",
-    "name": "CONCERT À LA POMPE - GRAND RESSAC",
-    "city": "Florac Trois Rivières",
-    "region": null,
-    "description": "Concert à La pompe à 21h de GRAND RESSAC [Pop electro]",
-    "startDate": "2026-08-25",
-    "endDate": "2026-08-25",
-    "lat": 44.3262674,
-    "lng": 3.5948953,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/45/a2c3890a-ef99-3f36-8f8a-76a0ab4b770b"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3551,25 +3551,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "carte-blanche-les-aperos-du-4-5",
-    "name": "Carte blanche -  Les Apéros du 4-5",
-    "city": "Marseille 4e Arrondissement",
-    "region": null,
-    "description": "Le Makeda et Marsatac vous donnent rendez-vous au Parc Longchamp avec cinq apéros festifs de musiques actuelles et d'electro !",
-    "startDate": "2026-07-07",
-    "endDate": "2026-08-25",
-    "lat": 43.304364,
-    "lng": 5.395251,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/3543cfb3-3978-3bcd-ad2c-f6d82fe28e73"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "circa-137-electro-jazz",

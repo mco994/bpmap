@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-08-26:stereoparc:removed",
+    "festivalId": "stereoparc",
+    "festivalSlug": "stereoparc",
+    "festivalName": "Stéréoparc Festival",
+    "type": "removed",
+    "date": "2026-08-26",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-26:techno-cambrousse:removed",
+    "festivalId": "techno-cambrousse",
+    "festivalSlug": "techno-cambrousse",
+    "festivalName": "Techno Cambrousse Festival",
+    "type": "removed",
+    "date": "2026-08-26",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-26:pilat-fest:removed",
+    "festivalId": "pilat-fest",
+    "festivalSlug": "pilat-fest",
+    "festivalName": "Pilat Fest",
+    "type": "removed",
+    "date": "2026-08-26",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-08-25:le-bon-air:removed",
     "festivalId": "le-bon-air",
     "festivalSlug": "le-bon-air",
