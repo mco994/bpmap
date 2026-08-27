@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-08-27:underground-mountain-festival:removed",
+    "festivalId": "underground-mountain-festival",
+    "festivalSlug": "underground-mountain-festival",
+    "festivalName": "Underground Mountain Festival",
+    "type": "removed",
+    "date": "2026-08-27",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-27:fraktal-forest-festival:removed",
+    "festivalId": "fraktal-forest-festival",
+    "festivalSlug": "fraktal-forest-festival",
+    "festivalName": "Fraktal Forest Festival",
+    "type": "removed",
+    "date": "2026-08-27",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-08-27:kolorz-festival:removed",
+    "festivalId": "kolorz-festival",
+    "festivalSlug": "kolorz-festival",
+    "festivalName": "Kolorz Festival",
+    "type": "removed",
+    "date": "2026-08-27",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-08-26:stereoparc:removed",
     "festivalId": "stereoparc",
     "festivalSlug": "stereoparc",

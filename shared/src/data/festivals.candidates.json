@@ -1273,6 +1273,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "la-place-des-clercs-passe-en-mode-disco",
+    "name": "La Place des Clercs passe en mode Disco !",
+    "city": "Valence",
+    "region": null,
+    "description": "Pour clôturer l’été, la Place des Clercs vous donne rendez-vous samedi 29 août pour une soirée placée sous le signe du disco et de la fête !",
+    "startDate": "2026-08-29",
+    "endDate": "2026-08-29",
+    "lat": 44.931689,
+    "lng": 4.890306,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/da2d8ad7-942b-3c21-9754-5a6ae0a270f4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-de-cloture-de-la-guinguette-des-pimprenelles",
     "name": "Soirée de clôture de la Guinguette des Pimprenelles",
     "city": "Retournac",
@@ -1328,6 +1347,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "fete-patronale",
+    "name": "Fête patronale",
+    "city": "Félines",
+    "region": null,
+    "description": "Fête patronale de Félines avec un concours de pétanque le samedi après-midi suivi d'un repas, grand feu d'artifice pyromusical, bals musette et disco en soirée et le dimanche : repas des écoles, animations enfants, défilé de chars fleuris et spectacle…",
+    "startDate": "2026-09-19",
+    "endDate": "2026-09-20",
+    "lat": 45.271784,
+    "lng": 3.743571,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/f9c7bbb9-8348-3d46-b1cc-924f07d2cfb7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "le-cafe-bien-fait-sa-rentree",
@@ -1779,25 +1817,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/7986534e-f41c-3b42-9108-65014f689c9c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "marche-gourmand-de-pujols-2026",
-    "name": "Marché gourmand de Pujols 2026",
-    "city": "Pujols",
-    "region": null,
-    "description": "Marché gourmand animé par What's the Fonk (Funk/Soul/Disco).",
-    "startDate": "2026-08-26",
-    "endDate": "2026-08-26",
-    "lat": 44.38574,
-    "lng": 0.68871,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/7ab54e66-94aa-3b89-ac00-920fc261b048"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2698,25 +2717,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "base-de-canoe-de-broquies-los-gozzos",
-    "name": "Base de Canoë de Broquiès - Los Gozzos",
-    "city": "Broquiès",
-    "region": null,
-    "description": "Venez écouter de l'électro Cumbia à la base de Canoë de Broquiès",
-    "startDate": "2026-08-26",
-    "endDate": "2026-08-26",
-    "lat": 44.00151274,
-    "lng": 2.70597875,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/31/6d0de870-f94b-3bf1-ad53-b5bb3a9708af"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soiree-dub-bass-music",
     "name": "Soirée dub & bass music",
     "city": "Rodez",
@@ -2850,25 +2850,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "marches-d-ete",
-    "name": "Marchés d'été",
-    "city": "Arrens-Marsous",
-    "region": null,
-    "description": "Tous les mercredis, rendez-vous incontournable de l'été dans le Val d'Azun ! Concerts et buvette animés par l'association Balaï'tous Ensemble.\nListe des groupes : \n08/07 : \"Alkimistao\" : poésie pop jazz.\n15/07 : \"Daunas de cor\" : quatuor féminin de polyphonie pyrénéenne.\n22/07 : \"Upper Land\" : duo guitare-voix & looper et batterie.\n29/07 : \"Brenda\" : pop soul 90's.\n05/08 : \"Alegria Gipsy\" : répertoire gipsy.\n12/08 : \"La fanfare B7\" : fanfare de rue festive et communicative.\n19/08 : \"Ascèse\" : fusion d'influences rock reggae dub hip-hop.\n26/08 : \"Dafra\" : one man band.",
-    "startDate": "2026-07-08",
-    "endDate": "2026-08-26",
-    "lat": 42.9553946,
-    "lng": -0.2138629,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/9180f5db-0b21-37be-874a-ea7c5f995d2a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "paradoxe-experience-a-la-tour",
     "name": "Paradoxe Experience à la Tour",
     "city": "Termes-d'Armagnac",
@@ -2905,6 +2886,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+  },
+  {
+    "slug": "spectacle-dire-et-lire-a-l-air",
+    "name": "Spectacle \"Dire et Lire à l'Air\"",
+    "city": "Riscle",
+    "region": null,
+    "description": "Spectacle \"La Soupe à l'Oignon\", organisé dans le cadre du Festival Dire et Lire à l'Air, les Médiathèques en Vadrouille, avec la Médiathèque Départementale du Gers, les associations Alavetz et Sol'Adour.\n\nLe tout nouveau spectacle d’Arnaud Cance est un joyeux mélange de contes, de musique, de cuisine et d’humour sélectionnés au marché de la culture populaire. Une soupe polyglotte aux arômes Gascons, Limousins, Languedociens, Provençaux, Auvergnats... Un voyage culinaire à travers les histoires des femmes et des hommes des pays Occitans...\nLe spectacle est multilingue français et occitan, avec ses différentes variantes. Il est aussi musical, car la préparation de la soupe est l’occasion de faire naître la musique par le détournement des objets du quotidien (relative à une pratique musicale très présente dans les chansons traditionnelles).\nArnaud Cance est un musicien qui joue sur scène depuis plus de 20 ans, seul ou accompagné. Il chante et joue des chansons populaires occitanes, mais il sait aussi fort bien mélanger ces musiques avec de l’électro, du ragga, etc.\nÉcriture et jeu : Arnaud Cance et Éric Destout\nExpertise linguistique : Laurent Labadie\nProduction : Sirventés\n\nAvant le spectacle, l'association Alavetz proposera quelques chants Gascons.",
+    "startDate": "2026-09-17",
+    "endDate": "2026-09-17",
+    "lat": 43.65532,
+    "lng": -0.08816,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/da745ce7-ec94-346c-bbf5-f446c485e425"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "big-bag-festival",
@@ -3185,6 +3185,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/45/6bd8642b-9671-3e8c-b951-966ed644c21d"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "syrano-full-tukan",
+    "name": "SYRANO & FULL TÜKAN",
+    "city": "Langogne",
+    "region": null,
+    "description": "Syrano (Feat Danielito de Tryo) véritable artisan des mots et des sons, ce poète moderne a su briser les codes en fusionnant avec brio le rap et la chanson française.\nFull Tükan est un quatuor d'électropical qui aime mélanger les styles pour créer un univers atypique et contrasté. Leurs influences mutliples s'entrelacent et se retrouvent autour d'une base techno et des sonorités latines...",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "lat": 44.7269885,
+    "lng": 3.8562097,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/45/a086fb0c-40c8-3983-b3e6-b950ab108853"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3646,6 +3665,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "exposition-peinture-helene-carron-au-golf-du-chateau-d-avoise-club-house",
+    "name": "Exposition Peinture Hélène Carron au Golf du Château d'Avoise - Club-house",
+    "city": "Montchanin",
+    "region": null,
+    "description": "",
+    "startDate": "2026-08-29",
+    "endDate": "2026-09-30",
+    "lat": 46.7526304,
+    "lng": 4.48581073,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/6/1b6350ff-977f-3360-892d-3a077409cdcb"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "les-nuits-electro-a-coulanges-les-nevers",
@@ -4398,6 +4436,26 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "rooftop-session-happiness-therapy-x-mob-hotel-open-air-gratuit",
+    "name": "Rooftop Session: Happiness Therapy x MOB Hotel [Open Air Gratuit]",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-06",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522774",
+    "lineup": [
+      "Maggy Smiss",
+      "Crowd Control"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2522774"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "ouroboros-festival-2026",
     "name": "Ouroboros Festival 2026",
     "city": null,
@@ -4638,11 +4696,14 @@
     "region": null,
     "startDate": "2026-09-04",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2507161",
-    "lineup": [],
+    "officialUrl": "https://ra.co/events/2518596",
+    "lineup": [
+      "Maggie",
+      "Sorun"
+    ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2507161"
+      "https://ra.co/events/2518596"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5036,14 +5097,15 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "loophole-open-air-iman-janes-sam-ama-masa-lola-fat-more",
-    "name": "Loophole Open Air: Iman Janes, Sam Ama, Masa, Lola Fat &More",
+    "slug": "loophole-open-air-iman-janes-keut-sam-ama-masa-lola-fat-more",
+    "name": "Loophole Open Air: Iman Janes, KEUT, Sam Ama, Masa, Lola Fat & More",
     "city": null,
     "region": null,
     "startDate": "2026-08-29",
     "endDate": null,
     "officialUrl": "https://ra.co/events/2503485",
     "lineup": [
+      "KEUT",
       "MASA",
       "Sinesthesia",
       "Iman Janes",
@@ -5497,6 +5559,40 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "yoyaku-x-slapfunk-paris-24-hour-marathon",
+    "name": "Yoyaku x SlapFunk Paris 24 hour Marathon",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2466365",
+    "lineup": [
+      "A.M. Project",
+      "DJ Senc",
+      "Dr. Rubinstein",
+      "Doudou MD",
+      "Dyed Soundorom",
+      "Ellen Allien",
+      "Garrett David",
+      "Laidlaw",
+      "Lea Occhi",
+      "Krol",
+      "Margaret Dygas",
+      "Mari.te",
+      "Samuel Deep",
+      "Sonja Moonear",
+      "Woddd",
+      "Zeina"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2466365"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "maintenant-festival-2026",
     "name": "Maintenant Festival 2026",
     "city": null,
@@ -5661,6 +5757,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "closing-rooftop-2026-roni-blum-house",
+    "name": "Closing Rooftop 2026: RONI + Blum House",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522652",
+    "lineup": [
+      "RONI"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2522652"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "michoun-open-festival",
