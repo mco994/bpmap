@@ -323,6 +323,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "foire-aux-disques",
+    "name": "Foire aux disques",
+    "city": "Metz",
+    "region": null,
+    "description": "Considérée comme l’une des plus belles foires aux disques de France, la Foire aux Disques de Metz revient cette année encore dans le cadre exceptionnel de la Place Saint-Louis.\nOrganisée par l’association Mets des Disques et La Face Cachée, en partenariat avec Radio Nostalgie, elle réunira plus de 50 exposants, venus de toute la France mais également de plusieurs pays européens.\nSous les arcades et sur les pavés de la place, les visiteurs pourront découvrir des milliers de références : vinyles, CD, DVD, affiches, livres musicaux, goodies, objets de collection, raretés, pressages recherchés et disques à petits prix.\nRock, pop, jazz, soul, funk, punk, métal, électro, musiques de films, chanson, musiques du monde… il y en aura pour tous les goûts, du simple curieux au collectionneur averti.\nUne journée entièrement consacrée à la musique, à la découverte et aux rencontres, au cœur du centre historique de Metz.",
+    "startDate": "2026-09-06",
+    "endDate": "2026-09-06",
+    "lat": 49.11648,
+    "lng": 6.178848,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/a58a485c-88a1-3c5c-b57d-28726dddb736"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "la-p-tite-fumee",
     "name": "La P'tite Fumée",
     "city": "Meisenthal",
@@ -666,14 +685,14 @@
   },
   {
     "slug": "concert-daoud-mounam-eleves-de-jazz-action-valence",
-    "name": "Concert Daoud + Mounam + élèves de Jazz Action Valence",
+    "name": "Concert : Daoud + Mounam + élèves de Jazz Action Valence",
     "city": "Romans-sur-Isère",
     "region": null,
-    "description": "Un jazz teinté de groove, d’électro et de hip-hop. Concert programmé en partenariat avec Jazz Action Valence. Fermeture de la billetterie en ligne 30 minutes avant le début du concert. \r\nBar et restauration sur place dès 19h.",
+    "description": "Un jazz teinté de groove, d’électro et de hip-hop. Concert programmé en partenariat avec Jazz Action Valence. Fermeture de la billetterie en ligne 30 minutes avant le début du concert. \r\n\r\nBar et restauration sur place dès 19h.",
     "startDate": "2026-12-11",
     "endDate": "2026-12-11",
-    "lat": 45.043172,
-    "lng": 5.04388,
+    "lat": 45.043415,
+    "lng": 5.043912,
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/2709df66-0d55-3f5c-bf29-106842a2f1d2"
@@ -681,7 +700,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-zentone-amiby",
@@ -855,6 +874,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "jam-electro",
+    "name": "Jam Electro",
+    "city": "Romans-sur-Isère",
+    "region": null,
+    "description": "Plongez dans l'histoire des machines et des musiques électroniques grâce à la soirée JAM ÉLECTRO.\r\nGratuit et sur inscription.",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-10",
+    "lat": 45.043415,
+    "lng": 5.043912,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/75b2c9cf-b603-3457-9dbe-896feaa2a7e0"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "festival-bisou",
     "name": "Festival Bisou",
     "city": "Angoulême",
@@ -931,25 +969,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-sheila-fete-de-pamiers",
-    "name": "Concert Sheila - Fête de Pamiers",
-    "city": "Pamiers",
-    "region": null,
-    "description": "A l'occasion des fêtes de Pamiers, Sheila icône de la chanson et du disco français, présente un nouveau spectacle.",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 43.113852,
-    "lng": 1.607232,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/919398e9-124d-3e6b-a865-4c2d793783b2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "il-est-vilaine-douran",
     "name": "Il est Vilaine + Douran",
     "city": "Nîmes",
@@ -986,25 +1005,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-de-metal-punk-hardcore-ignite-cancer-bats-death-by-stereo",
-    "name": "Concert de métal punk hardcore - IGNITE + Cancer Bats + Death by Stereo",
-    "city": "Romans-sur-Isère",
-    "region": null,
-    "description": "Trois visions du hardcore, une seule direction : La Cordo!",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 45.04321,
-    "lng": 5.043939,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/9b666684-5840-3998-b577-15b8df87d0f3"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "ballet-de-l-opera-de-lyon-house-de-sharon-eyal-le-sacre-du-printemps-de-mats-ek",
@@ -1057,6 +1057,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/ae13b835-8082-3b09-bdd9-19fce40d6f17"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-ignite-cancer-bats-guest",
+    "name": "Concert : IGNITE + Cancer Bats + Guest",
+    "city": "Romans-sur-Isère",
+    "region": null,
+    "description": "Depuis plus de 30 ans, Ignite distille un hardcore mélodique porté par des textes engagés. En live, Ignite, c’est la sincérité, l’énergie et l’urgence : la voix qui porte un message, les guitares qui frappent, et cette capacité à fédérer autour d’un idéal",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 45.043415,
+    "lng": 5.043912,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/b15a30ea-c13d-3331-bcb3-e27d6bc9c850"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1171,25 +1190,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/d521335d-73a0-3f9b-bef9-dc504b979201"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "la-place-des-clercs-passe-en-mode-disco",
-    "name": "La Place des Clercs passe en mode Disco !",
-    "city": "Valence",
-    "region": null,
-    "description": "Pour clôturer l’été, la Place des Clercs vous donne rendez-vous samedi 29 août pour une soirée placée sous le signe du disco et de la fête !",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 44.931689,
-    "lng": 4.890306,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/da2d8ad7-942b-3c21-9754-5a6ae0a270f4"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1615,44 +1615,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "guinguette-de-l-arbre-couche-dj-set-electro-swing",
-    "name": "Guinguette de l'Arbre Couché - DJ Set Electro Swing",
-    "city": "Mauléon",
-    "region": null,
-    "description": "",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 46.950173,
-    "lng": -0.685845,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/4e80f605-4405-3169-87bb-aa2e38beb329"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "orliac-repas-champetre-et-disco",
-    "name": "Orliac : repas champêtre et disco",
-    "city": "Orliac",
-    "region": null,
-    "description": "Repas champêtre sous la Halle, à partir de 20h00.\nMenu : Salade de gésiers- jambon braisé- haricots -couennes- fromage- glace -café .\nTarif : Adulte 23€ enfants - de 12 ans  12€.\nPesée du jambon. Buvette-pression.\nRéservations -> 26/08 au 06 73 65 72 61 \nSoirée cadeaux avec Disco Mobile La Nuit",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 44.71689,
-    "lng": 1.06763,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/6513308e-f905-33a0-a87b-242af226b3ba"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-dub-inc",
     "name": "Concert - Dub Inc",
     "city": "Seignosse",
@@ -1843,25 +1805,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "disco-salades-de-l-ete",
-    "name": "Disco salades de l'été",
-    "city": "Eymet",
-    "region": null,
-    "description": "",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 44.6663491,
-    "lng": 0.39530664,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/c285a255-5f26-3e4d-8f93-ce030cc7f748"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "electro-symphony-orchestra-dance-party-zenith-delimoges",
     "name": "Electro symphony : orchestra dance party - Zénith deLimoges",
     "city": "Limoges",
@@ -2050,25 +1993,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "better-rave-festival-a-mortefontaine",
-    "name": "Better'Rave Festival à Mortefontaine",
-    "city": "Mortefontaine",
-    "region": null,
-    "description": "Préparez-vous à vivre la fête autrement, le temps d’un week-end musical au cœur des forêts de l’Oise. On vous propose de célébrer la musique et l’énergie collective avec des artistes qu’on adore, qui portent nos valeurs et qui régaleront vos oreilles.",
-    "startDate": "2026-08-28",
-    "endDate": "2026-08-29",
-    "lat": 49.111986,
-    "lng": 2.600507,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/387448b1-9b21-3a20-a549-98d69abc0318"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
     "slug": "concert-camille-yembe-premiere-partie",
@@ -2565,23 +2489,42 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "apero-concert-au-dormy-house",
-    "name": "Apéro-concert au Dormy House",
-    "city": "Étretat",
+    "slug": "octobre-rose-soiree-disco",
+    "name": "Octobre Rose - Soirée Disco",
+    "city": "Villefranche-de-Rouergue",
     "region": null,
-    "description": "",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 49.7061346,
-    "lng": 0.2014304,
+    "description": "Une soirée pour une belle cause !",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-03",
+    "lat": 44.35772531,
+    "lng": 2.02700973,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/30/f45bfdaa-cc1a-3098-b32f-33c3ab3ef9e1"
+      "https://data.datatourisme.fr/31/47efcaf1-4f4c-343b-9dcc-768868e2128e"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "cinema-les-matins-merveilleux",
+    "name": "Cinéma : Les matins merveilleux",
+    "city": "Saint-Affrique",
+    "region": null,
+    "description": "De vieux vinyles disco dans le coffre de sa Twingo, à peine remise de la mort de sa grand-mère, Charlie roule.",
+    "startDate": "2026-08-28",
+    "endDate": "2026-09-01",
+    "lat": 43.95567636,
+    "lng": 2.88395483,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/31/5e5bb8c1-81b9-3ae7-b487-cda27a2f7c9d"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "soiree-dub-bass-music",
@@ -2639,44 +2582,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "soiree-jeux-exterieurs-et-concert",
-    "name": "Soirée jeux extérieurs et concert",
-    "city": "Castelnau-Magnoac",
-    "region": null,
-    "description": "SAMEDI SOIR AU HAMEAU \n\nOn remet ça les amis ! Après deux belles soirées au Hameau, on vous donne rendez-vous pour une dernière soirée d’été placée sous le signe de la convivialité, des jeux, de la musique et des saveurs marocaines.\n.\nDès 18h, venez profiter du parc autour d’un verre, jouer au mölkky, ping-pong, jeu de la grenouille… et partager un bon moment entre amis ou en famille. \n.\nAu menu : une assiette marocaine composée de…\nZaalouk d’aubergines\nSalade marocaine\nBatbout maison\nOmelette aux tomates, poivrons & oignons\nEt pour finir, une Basboussa, gâteau de semoule traditionnel à la fleur d’oranger \n.\nÀ 21h, place à DJAZADOR !\n.\nUn voyage entre jazz libre, rythmes électro et sonorités marocaines, porté par une batterie en improvisation, une basse électro, un piano incandescent et un spoken word franco-marocain.\n.\nUn univers vibrant et singulier, entre transe, émotion et partage.",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 43.2838518,
-    "lng": 0.4990407,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/66bfcdc4-7248-302f-9ef7-ba74297be13e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "saint-mont-vignoble-en-course-aprem-electro-soiree-concert",
-    "name": "Saint Mont Vignoble en Course - Aprèm électro & soirée concert",
-    "city": "Lelin-Lapujolle",
-    "region": null,
-    "description": "Pas besoin d'avoir des baskets aux pieds pour profiter du Saint Mont Vignoble en Course ! Le samedi 29 août 2026, le village de Lelin-Lapujolle vous ouvre gratuitement ses portes pour une grande journée festive et gourmande au cœur du vignoble : musique, bar à cocktails, animations oenologiques, food trucks et concerts gratuits jusqu’à 1h du matin !\n\n🎧 De 14h00 à 20h00 — L'Aprèm Électro & Détente au Vignoble\nQue vous veniez encourager les participants ou simplement passer un agréable moment entre amis, le village s'anime dès le début de l'après-midi :\nSets DJ Électro : Le collectif Beaujour pose ses platines au milieu des vignes pour une ambiance chill & festive.\nEspace Lounge & Bar à Cocktails : Détendez-vous autour d'un cocktail ou d'un verre de vin de l'AOC Saint Mont.\nAnimations autour du vin : Dégustations de cuvées locales, jeux et expériences immersives (comme la découverte du vignoble en réalité virtuelle).\n\n🎸 De 20h00 à 01h00 — La Grande Soirée Concerts Live\nÀ la tombée de la nuit, changement de décor et de rythme ! Trois groupes se succèdent sur scène pour faire vibrer le village :\nGolden Parachute (un mix détonant d'énergie, de folk et de rock)\nAC/DFE (reprises rock explosives)\nLes Ducks (rock dynamique et populaire)\n\n🍔 Restauration locale & Food Trucks\nMidi et soir, plusieurs traiteurs et producteurs locaux seront présents pour vous régaler (Betty Beef, Ferme du Bernon, Ferme Gioulé, La Choukoun, Lait pot de vache, etc.).\n\nServices sur place : Buvette, bar à vins Saint Mont, food trucks, et aire de camping/stationnement aménagée gratuite (tentes, vans, camping-cars avec douches et WC).",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 43.706407,
-    "lng": -0.145592,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/891e177c-1404-3c3c-82ec-a4ac92a7b7ae"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "paradoxe-experience-a-la-tour",
@@ -3306,25 +3211,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "beach-party",
-    "name": "Beach Party",
-    "city": "Colmar",
-    "region": null,
-    "description": "Prolongez l'été en beauté à la Base nautique de Colmar-Houssen, le temps d'une soirée festive, portée par 11 DJ électro amateurs locaux. Rendez-vous pour profiter d'une ambiance musicale conviviale sur le sable fin pour clôturer la saison estivale en douceur.",
-    "startDate": "2026-08-29",
-    "endDate": "2026-08-29",
-    "lat": 48.1130685,
-    "lng": 7.3774881,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/5/efbb6153-3e35-39c0-b245-68e13c6f836f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-vallee-vagabonde-roller-disco",
     "name": "La vallée vagabonde : Roller Disco",
     "city": "Villé",
@@ -3690,26 +3576,6 @@
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
-    "slug": "nacre-open-air-dan-ghenacia",
-    "name": "Nacre open air: Dan Ghenacia",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2513309",
-    "lineup": [
-      "Dan Ghenacia",
-      "DJ Deep"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2513309"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "heavydance-4-years-open-air-club",
     "name": "HEAVYDANCE 4 YEARS: Open Air + Club",
     "city": null,
@@ -3750,6 +3616,23 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "afterline-festival-void-theory-2026",
+    "name": "AFTERLINE FESTIVAL – VOID THEORY 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-08-30",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2513903",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2513903"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "hoopoe-sound-festival-2",
     "name": "Hoopoe Sound Festival #2",
     "city": null,
@@ -3765,43 +3648,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2485545"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
-    "name": "OPEN AIR: FLOWER NATION by Dusty Nation & La Butinerie",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2523014",
-    "lineup": [
-      "Tatie Dee",
-      "Saint Louïs"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2523014"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "afterline-festival-void-theory-2026",
-    "name": "AFTERLINE FESTIVAL – VOID THEORY 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2513903",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2513903"
     ],
     "status": "announced",
     "needsReview": true,
@@ -3934,48 +3780,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2486660"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "the-third-room-andy-martin-costanza-marcal-felix-fleer-justine-perry",
-    "name": "The Third Room: Andy Martin, Costanza, Marcal, Felix Fleer, Justine Perry ",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2466318",
-    "lineup": [
-      "Justine Perry",
-      "Marcal",
-      "Felix Fleer",
-      "Mezza",
-      "Andy Martin",
-      "Costanza",
-      "Dimë"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2466318"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "trb-saint-sabine-open-air",
-    "name": "trb! SAINT SABINE - Open air",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2519029",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2519029"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4279,23 +4083,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "ez-95-transbo-open-air",
-    "name": "EZ! #95 - TRANSBO OPEN AIR",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2500659",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2500659"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "rooftop-session-happiness-therapy-x-mob-hotel-open-air-gratuit",
     "name": "Rooftop Session: Happiness Therapy x MOB Hotel [Open Air Gratuit]",
     "city": null,
@@ -4491,28 +4278,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "kumquat-presente-le-chateau-de-ma-mere-chapitre-iii-open-air",
-    "name": "Kumquat présente 'Le Château de Ma Mère' – Chapitre III [OPEN AIR]",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2507925",
-    "lineup": [
-      "Camion Bazar",
-      "Giammarco Orsini",
-      "Monile",
-      "One Tough Cookie"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2507925"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "adelphe-festival-with-maggie-sorun-hyperlison",
     "name": "Adelphe Festival with Maggie, Sorun, Hyperlison",
     "city": null,
@@ -4599,23 +4364,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "festival-pen-beach",
-    "name": "Festival Pen Beach",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-28",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2477084",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2477084"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "rave-in-da-club-x-wolf-city-hysta-lekkerfaces-ophidian-rd-nantes",
     "name": "Rave in Da Club x Wolf City: Hysta, Lekkerfaces, Ophidian, RDØ Nantes",
     "city": null,
@@ -4659,55 +4407,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "touquet-music-beach-festival",
-    "name": "Touquet Music Beach Festival",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-28",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2393511",
-    "lineup": [
-      "Artbat",
-      "Armin van Buuren",
-      "Bob Sinclar",
-      "Carlita",
-      "Chris Stassy",
-      "Funk Tribu",
-      "Indira Paganotto",
-      "MALUGI",
-      "Mischluft",
-      "Nico Moreno",
-      "NOVAH",
-      "Peggy Gou",
-      "Purple Disco Machine",
-      "Sammy Virji",
-      "VTSS",
-      "Akalex",
-      "Alex Wann",
-      "Alycia Bezgo",
-      "camoufly",
-      "CIEL.",
-      "Jackyboom",
-      "John Noseda",
-      "Kichta",
-      "Mary Droppinz",
-      "Nico Morano",
-      "Nicolas Cuer",
-      "Sasson",
-      "Todiefor",
-      "TSHA",
-      "Urumi",
-      "Vitaline"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2393511"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "doublon (déjà en base)"
-  },
-  {
     "slug": "braderie-2026-weekender",
     "name": "Braderie 2026 Weekender",
     "city": null,
@@ -4729,195 +4428,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2512541"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "animalia-x-useless-seconds",
-    "name": "Animalia x useless seconds",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2419190",
-    "lineup": [
-      "Christian Coiffure",
-      "Kia (AU)",
-      "livwutang",
-      "mad miran",
-      "Atrice",
-      "Surface Access"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2419190"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "flash-cocotte",
-    "name": "Flash Cocotte",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2500975",
-    "lineup": [
-      "ADAM MUNNINGS",
-      "Chippy Nonstop",
-      "Gigi L'Amour",
-      "Kandelissa",
-      "Lucia Lu",
-      "TYGAPAW"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2500975"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "open-air-hors-sol",
-    "name": "[OPEN-AIR] HORS-SOL",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2504749",
-    "lineup": [
-      "CallBackSami",
-      "Forest"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2504749"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "roar-x-organik-x-23-59-open-rave-afterparty",
-    "name": "ROAR x ORGANÏK x 23:59: OPEN RAVE AFTERPARTY",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2484807",
-    "lineup": [
-      "Radar (RU)",
-      "Rebekah",
-      "Stan Christ"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2484807"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-roulita-arrabiata-mariad",
-    "name": "After O'Clock X La Plage Open Air: Roulita, Arrabiata, MARIAD",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2499709",
-    "lineup": [
-      "Roulita",
-      "MARIAD"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2499709"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "la-mona-open-air-a-la-javelle-special-rentree-prix-libre",
-    "name": "La Mona Open Air à La Javelle / Special rentrée (prix libre)",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2506891",
-    "lineup": [
-      "Nick V",
-      "Mona Bone"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2506891"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "monarch-open-air-2026",
-    "name": "Monarch Open Air 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2503482",
-    "lineup": [
-      "Acid Oslo"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2503482"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "loophole-open-air-iman-janes-keut-sam-ama-masa-lola-fat-more",
-    "name": "Loophole Open Air: Iman Janes, KEUT, Sam Ama, Masa, Lola Fat & More",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2503485",
-    "lineup": [
-      "KEUT",
-      "MASA",
-      "Sinesthesia",
-      "Iman Janes",
-      "Sam Ama",
-      "Lola Fat"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2503485"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "open-air-summer-party",
-    "name": "Open Air Summer Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2520887",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2520887"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4963,6 +4473,26 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "la-mona-open-air-a-la-javelle-special-rentree-prix-libre",
+    "name": "La Mona Open Air à La Javelle / Special rentrée (prix libre)",
+    "city": null,
+    "region": null,
+    "startDate": "2026-08-29",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2506891",
+    "lineup": [
+      "Nick V",
+      "Mona Bone"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2506891"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "deep-sunday-rooftop-party",
@@ -5382,6 +4912,30 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "resilience-x-cite-fertile-invites-pattern-warehouse-day",
+    "name": "Résilience X Cité Fertile Invites Pattern - Warehouse Day",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2521905",
+    "lineup": [
+      "Gareth Wild",
+      "TEHOTU",
+      "Maemm",
+      "Mersel",
+      "A.mo",
+      "HEKA (FR)"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2521905"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "voltage-open-air-curated-by-camion-bazar",
     "name": "Voltage open air, curated by Camion Bazar",
     "city": null,
@@ -5403,24 +4957,99 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "resilience-x-cite-fertile-invites-pattern-warehouse-day",
-    "name": "Résilience X Cité Fertile Invites Pattern - Warehouse Day",
+    "slug": "club-la-ch-ck-tumblr-rave",
+    "name": "Club — LA CH!CK: TUMBLR RAVE",
     "city": null,
     "region": null,
-    "startDate": "2026-09-12",
+    "startDate": "2026-09-17",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2521905",
+    "officialUrl": "https://ra.co/events/2519720",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2519720"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "the-third-room-32h",
+    "name": "The Third Room: 32H",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2500043",
     "lineup": [
-      "Gareth Wild",
-      "TEHOTU",
-      "Maemm",
-      "Mersel",
-      "A.mo",
-      "HEKA (FR)"
+      "Ahmet Sisman",
+      "abs8lute",
+      "Call Super",
+      "Rami Chami",
+      "Christian AB",
+      "Fadi Mohem",
+      "Nastia Reigel",
+      "Felix Fleer",
+      "Fred P",
+      "Isabel Soto",
+      "Oscar Mulero",
+      "Psyk",
+      "ORBE",
+      "Tauceti (FR)",
+      ".VRIL"
     ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2521905"
+      "https://ra.co/events/2500043"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "p2z-fertile-thomas-melchior-lawrence-cosmo",
+    "name": "P2z Fertile - Thomas Melchior, Lawrence & Cosmo",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2466368",
+    "lineup": [
+      "Thomas Melchior",
+      "Lawrence",
+      "Cosmo (KR)",
+      "Deep Tears On Clamart",
+      "P2z",
+      "Abn - P2z"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2466368"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "el-hey-with-massai-b2b-gabriel-belabbas-iambp-maco-maria-el-hey",
+    "name": "El Hey with Massaï B2B Gabriel Belabbas, IAMBP, Maco Maria, El Hey",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2510672",
+    "lineup": [
+      "Massaï",
+      "Gabriel Belabbas",
+      "IAMBP",
+      "Maco Maria",
+      "El Hey",
+      "NOCH (2)",
+      "Sebizarre"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2510672"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5475,26 +5104,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "aurasaone-festival-3eme-edition",
-    "name": "AuraSaône Festival: 3ème Edition",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2411551",
-    "lineup": [
-      "Montee",
-      "Axel Blanc"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2411551"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "subside-festival",
     "name": "Subside Festival",
     "city": null,
@@ -5517,6 +5126,26 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
+  },
+  {
+    "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
+    "name": "OPEN AIR: FLOWER NATION by Dusty Nation & La Butinerie",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2523009",
+    "lineup": [
+      "Tatie Dee",
+      "Saint Louïs"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2523009"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "vezania-festival-2",
@@ -5655,28 +5284,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "feodum-festival-murmures-du-ciel",
-    "name": "Feodum Festival, Murmures du ciel",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-28",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2485416",
-    "lineup": [
-      "Brussi",
-      "Juste S",
-      "Lüma-G",
-      "Oonagh Haines"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2485416"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
   },
   {
     "slug": "festival-electro-corner-2026",
