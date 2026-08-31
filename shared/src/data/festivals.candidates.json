@@ -665,6 +665,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-dub-a-the-roof-vercors",
+    "name": "Soirée Dub à The Roof Vercors",
+    "city": "Bourg-de-Péage",
+    "region": null,
+    "description": "Avis aux amateur.rice.s de bonnes basses et de vibes positives ! Vendredi 18 septembre, on passe en mode Sound System dans le jardin. Venez chiller, danser et vibrer avec nous !",
+    "startDate": "2026-09-18",
+    "endDate": "2026-09-18",
+    "lat": 45.017886,
+    "lng": 5.041293,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/1db1ebb6-24ea-3381-a10d-1efd35ad9f38"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "dj-set-mosimann-longines-league-of-nations-au-haras-de-gassin",
     "name": "DJ Set Mosimann – Longines League of Nations au Haras de Gassin",
     "city": "Gassin",
@@ -1406,25 +1425,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "berry-sunday-2026",
-    "name": "Berry Sunday 2026",
-    "city": "Bourges",
-    "region": null,
-    "description": "Organisé par Good Berry, Berry Sunday revient cet été avec trois rendez-vous festifs à Bourges mêlant house, disco, hip-hop et techno.\nProgrammation à venir.",
-    "startDate": "2026-06-28",
-    "endDate": "2026-08-30",
-    "lat": 47.0812405,
-    "lng": 2.3979615,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/f94dee30-4535-3b61-a550-ff91a928c1a3"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "nirmata-chill-live",
     "name": "Nirmata • “CHILL & LIVE”",
     "city": "Tours",
@@ -1860,25 +1860,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "fetes-locales",
-    "name": "Fêtes locales",
-    "city": "Pujo-le-Plan",
-    "region": null,
-    "description": "C'est les fêtes à Pujo le Plan !\nLoto, repas champêtre, exposition de peinture, randonnée pédestre, concours de pétanque, foodtruck, concours créatif, lancer d'espadrilles, soirée tapas, bal disco, messe en musique, repas brasero et course landaise viendront animer pendant 4 jours le village !",
-    "startDate": "2026-08-27",
-    "endDate": "2026-08-30",
-    "lat": 43.86344,
-    "lng": -0.33303,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/f739f3f2-4dbb-366d-b518-b174eac87a82"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "halloween-party-dans-le-village-de-duras",
@@ -2513,7 +2494,7 @@
     "city": "Saint-Affrique",
     "region": null,
     "description": "De vieux vinyles disco dans le coffre de sa Twingo, à peine remise de la mort de sa grand-mère, Charlie roule.",
-    "startDate": "2026-08-28",
+    "startDate": "2026-08-30",
     "endDate": "2026-09-01",
     "lat": 43.95567636,
     "lng": 2.88395483,
@@ -3192,25 +3173,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-excalembour",
-    "name": "Concert Excalembour",
-    "city": "Obermorschwihr",
-    "region": null,
-    "description": "Airs inspirés des terres celtes mariant les riffs électro-jazz-rock aux textures sonores étonnantes d'instruments anciens et créés, Excalembour a évolué au gré de leur sensibilité et de leurs rencontres musicales.",
-    "startDate": "2026-08-30",
-    "endDate": "2026-08-30",
-    "lat": 48.0250838218685,
-    "lng": 7.27521354940202,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/5/a83a5ad4-8a20-3a30-810e-b003c4bce625"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-vallee-vagabonde-roller-disco",
     "name": "La vallée vagabonde : Roller Disco",
     "city": "Villé",
@@ -3616,44 +3578,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "afterline-festival-void-theory-2026",
-    "name": "AFTERLINE FESTIVAL – VOID THEORY 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2513903",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2513903"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "hoopoe-sound-festival-2",
-    "name": "Hoopoe Sound Festival #2",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-28",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2485545",
-    "lineup": [
-      "Vitaline",
-      "RoMix",
-      "Oskar (3)"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2485545"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "au-creux-du-chene-tanso-festival-2026",
     "name": "Au Creux Du Chêne - Tanso Festival 2026",
     "city": null,
@@ -3834,30 +3758,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "dina",
-    "name": "DINA",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2499378",
-    "lineup": [
-      "DINA",
-      "ANNUN",
-      "Arbo",
-      "Mezza",
-      "Zhar",
-      "Halès"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2499378"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "park-n-sound-opening-2026-open-air-gratuit",
@@ -4416,6 +4316,7 @@
     "officialUrl": "https://ra.co/events/2512541",
     "lineup": [
       "Thibbv",
+      "Miroloja",
       "Yamos",
       "Walid",
       "Rocta",
@@ -4434,95 +4335,17 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "after-o-clock-x-la-plage-open-air-alhena-christie-scolcab",
-    "name": "After O'clock X La Plage Open Air: Alhena, Christie, Scolcab",
+    "slug": "skybar-rooftop-party",
+    "name": "Skybar Rooftop Party",
     "city": null,
     "region": null,
-    "startDate": "2026-08-30",
+    "startDate": "2026-09-01",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2509521",
-    "lineup": [
-      "Alhena_",
-      "Christie"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2509521"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "apero-notturno-friends-free-open-air",
-    "name": "Apéro Notturno & Friends: Free Open Air",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516399",
-    "lineup": [
-      "Apéro Notturno",
-      "Colapso",
-      "Cami Roams"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2516399"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "la-mona-open-air-a-la-javelle-special-rentree-prix-libre",
-    "name": "La Mona Open Air à La Javelle / Special rentrée (prix libre)",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-29",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2506891",
-    "lineup": [
-      "Nick V",
-      "Mona Bone"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2506891"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "deep-sunday-rooftop-party",
-    "name": "Deep Sunday Rooftop Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2520853",
+    "officialUrl": "https://ra.co/events/2524831",
     "lineup": [],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2520853"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "open-air-noon-to-midnight-5",
-    "name": "Open Air: Noon To Midnight #5",
-    "city": null,
-    "region": null,
-    "startDate": "2026-08-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2519928",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2519928"
+      "https://ra.co/events/2524831"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4553,6 +4376,27 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "bonne-nuit-rooftop-party",
+    "name": "Bonne Nuit Rooftop Party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2519328",
+    "lineup": [
+      "Larry Houl",
+      "Mogan",
+      "Housecall"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2519328"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "durum-records-hold-my-breath-release-party",
     "name": "Dürüm Records | Hold My Breath [Release Party]",
     "city": null,
@@ -4572,27 +4416,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2503488"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "bonne-nuit-rooftop-party",
-    "name": "Bonne Nuit Rooftop Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2519328",
-    "lineup": [
-      "Larry Houl",
-      "Mogan",
-      "Housecall"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2519328"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5050,6 +4873,30 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2510672"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "sxm-festival-x-kalua-yoyo-palais-de-tokyo",
+    "name": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2516189",
+    "lineup": [
+      "Sebastien Leger",
+      "Sistek",
+      "Deer Jade",
+      "Paso Doble",
+      "Julian Prince",
+      "Andera"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2516189"
     ],
     "status": "announced",
     "needsReview": true,
