@@ -176,7 +176,7 @@
     "city": "Saint-Avold",
     "region": null,
     "description": "Vous ne savez pas quoi faire le dimanche après-midi ? Venez découvrir des groupes dans un jolie cadre naturel. \nAu programme : \n- le 21 juin : M.Road (Pop- Rock, Blues) \n- le 28 juin : Slinkysboys (celtique festif) \n\nJUILLET : \n- le 05 juillet : Les Sisters Hearts (variétés internationales, pop et soul) \n- le 12 juillet : Bonsoir Paris (Pop-Rock) \n- le 14 juillet : Refuge (variétés françaises et italiennes, pop rock)\n- le 19 juillet : Valent'1 (variétés françaises et internationales)\n- le 26 juillet : Cédric Kopf (variétés françaises et allemandes, disco, tango et samba)\n\nAOÛT : \n- le 02 août : Crystal Noir (variétés internationales, pop, soul et reggae)\n- le 09 août : Pole position (variétés internationales et danses de salon\n- le 15 août : Grain de sel (variétés françaises et internationales \n- le 16 août : Loou and the loops (Rock, Blues et pop)\n- le 23 août : Ben'z\n- le 30 août : Decib'Hells (Pop Rock)\n\nSEPTEMBRE: \n- le 06 septembre : Harmonie de Saint-Avold\nRestauration et buvette sur place.",
-    "startDate": "2026-08-30",
+    "startDate": "2026-09-06",
     "endDate": "2026-09-06",
     "lat": 49.1009390610968,
     "lng": 6.70990836004945,
@@ -187,7 +187,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-marcia",
@@ -3344,25 +3344,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "exposition-au-temple-palden-shangpa-bodhi-tree-house",
-    "name": "Exposition au Temple Palden Shangpa & Bodhi Tree House",
-    "city": "La Boulaye",
-    "region": null,
-    "description": "",
-    "startDate": "2026-06-01",
-    "endDate": "2026-08-31",
-    "lat": 46.75508,
-    "lng": 4.13957,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/9a72e2e2-023f-3b6d-9876-fc7641c6dd1e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "silent-disco",
     "name": "Silent Disco",
     "city": "Auxerre",
@@ -3915,30 +3896,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "backspin-records-regal-steve-redhead-isaiah-carmen-electro",
-    "name": "Backspin Records: Regal, Steve RedHead, Isaiah & Carmen Electro",
-    "city": null,
-    "region": null,
-    "startDate": "2026-10-31",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2492130",
-    "lineup": [
-      "Regal",
-      "Steve RedHead",
-      "Isaiah (NL)",
-      "Mezza",
-      "Carmen Electro",
-      "Dima Roas"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2492130"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "the-holy-rave-36-metz",
     "name": "The Holy Rave #36 - Metz",
     "city": null,
@@ -3953,30 +3910,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2518903"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "fvtvr-rene-wise-eman-alex-kassian-full-sentimental",
-    "name": "FVTVR: Rene Wise, Eman, Alex Kassian, Full Sentimental",
-    "city": null,
-    "region": null,
-    "startDate": "2026-11-21",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2502563",
-    "lineup": [
-      "Rene Wise",
-      "Chill (FR)",
-      "EMAN (FR)",
-      "Mezza",
-      "Alex Kassian",
-      "Full Sentimental"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2502563"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4352,6 +4285,23 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "trocadero-summer-club-open-air-party",
+    "name": "Trocadero Summer Club — open air party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-03",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525442",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2525442"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "discovery-weekender-04-05-septembre-2026",
     "name": "DISCOvery Weekender 04 & 05 septembre 2026",
     "city": null,
@@ -4446,8 +4396,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "raw-warehouse-perc-schacke-obscure-shape-b2b-alex-nantaya-blame-the-mono-mza",
-    "name": "RAW Warehouse • Perc, Schacke, Obscure Shape B2B Alex Nantaya, Blame The Mono, MZA",
+    "slug": "raw-perc-schacke-obscure-shape-b2b-alex-nantaya-blame-the-mono-mza",
+    "name": "RAW • Perc, Schacke, Obscure Shape B2B Alex Nantaya, Blame The Mono, MZA",
     "city": null,
     "region": null,
     "startDate": "2026-09-05",
@@ -4485,6 +4435,26 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2516809"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-janein-daher-more",
+    "name": "After O'clock X La Plage Open Air: JANEIN, Daher & More",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525205",
+    "lineup": [
+      "Dialectics",
+      "JANEIN"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2525205"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4716,12 +4686,14 @@
       "Dyed Soundorom",
       "Ellen Allien",
       "Garrett David",
+      "Labouts",
       "Laidlaw",
       "Lea Occhi",
       "Krol",
       "Margaret Dygas",
       "Mari.te",
       "Samuel Deep",
+      "Satoshi Tomiie",
       "Sonja Moonear",
       "Woddd",
       "Zeina"
