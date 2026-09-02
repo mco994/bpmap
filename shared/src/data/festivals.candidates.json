@@ -2489,25 +2489,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "cinema-les-matins-merveilleux",
-    "name": "Cinéma : Les matins merveilleux",
-    "city": "Saint-Affrique",
-    "region": null,
-    "description": "De vieux vinyles disco dans le coffre de sa Twingo, à peine remise de la mort de sa grand-mère, Charlie roule.",
-    "startDate": "2026-08-30",
-    "endDate": "2026-09-01",
-    "lat": 43.95567636,
-    "lng": 2.88395483,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/31/5e5bb8c1-81b9-3ae7-b487-cda27a2f7c9d"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "soiree-dub-bass-music",
     "name": "Soirée dub & bass music",
     "city": "Rodez",
@@ -4197,6 +4178,62 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "cloture-actoral-festival-petit-cab",
+    "name": "Clôture Actoral Festival @ Petit Cab",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522625",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2522625"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
+    "slug": "hors-sol-open-air-marseille",
+    "name": "HORS-SOL [open-air] — Marseille",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2496054",
+    "lineup": [
+      "Domi (FR)",
+      "Cristobal",
+      "Jolly (FR)",
+      "Forest"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2496054"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "dreamachine-festival-petit-cab",
+    "name": "Dreamachine Festival @ Petit Cab",
+    "city": null,
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522670",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2522670"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "rave-in-da-club-x-wolf-city-hysta-lekkerfaces-ophidian-rd-nantes",
     "name": "Rave in Da Club x Wolf City: Hysta, Lekkerfaces, Ophidian, RDØ Nantes",
     "city": null,
@@ -4262,23 +4299,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2512541"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "skybar-rooftop-party",
-    "name": "Skybar Rooftop Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-01",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2524831",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2524831"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4539,6 +4559,23 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "open-air-party-mini-festival",
+    "name": "Open Air Party - Mini Festival",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2526768",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2526768"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "after-o-clock-x-la-plage-open-air-audio-units-rrose-selavy-b2b-maast",
     "name": "After O'clock X La Plage Open Air: Audio Units, Rrose Sélavy B2B Maast",
     "city": null,
@@ -4557,6 +4594,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "la-mona-dimanche-open-air-au-canal-barboteur",
+    "name": "La Mona Dimanche Open Air au Canal Barboteur",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-06",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525989",
+    "lineup": [
+      "Nick V"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2525989"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "virage-presente-jump-source-live-hors-sol-dj-act-nesa-azadikhah-katia-curie",
@@ -4826,55 +4882,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "el-hey-with-massai-b2b-gabriel-belabbas-iambp-maco-maria-el-hey",
-    "name": "El Hey with Massaï B2B Gabriel Belabbas, IAMBP, Maco Maria, El Hey",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2510672",
-    "lineup": [
-      "Massaï",
-      "Gabriel Belabbas",
-      "IAMBP",
-      "Maco Maria",
-      "El Hey",
-      "NOCH (2)",
-      "Sebizarre"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2510672"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "sxm-festival-x-kalua-yoyo-palais-de-tokyo",
-    "name": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516189",
-    "lineup": [
-      "Sebastien Leger",
-      "Sistek",
-      "Deer Jade",
-      "Paso Doble",
-      "Julian Prince",
-      "Andera"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2516189"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "maintenant-festival-2026",
     "name": "Maintenant Festival 2026",
     "city": null,
@@ -5005,6 +5012,23 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "romance-aux-jardins-psychedelic-open-air",
+    "name": "Romance aux jardins - Psychedelic open air",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2526235",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2526235"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "bordeaux-open-air-parc-bordelais",
     "name": "Bordeaux Open Air - Parc Bordelais",
     "city": null,
@@ -5116,8 +5140,7 @@
       "Scan X",
       "Pierre",
       "Lö Pagani",
-      "GuyOhm",
-      "NIKO"
+      "GuyOhm"
     ],
     "genreVerified": true,
     "sources": [
