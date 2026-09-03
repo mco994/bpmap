@@ -1,5 +1,41 @@
 [
   {
+    "id": "2026-09-03:little-festival:removed",
+    "festivalId": "little-festival",
+    "festivalSlug": "little-festival",
+    "festivalName": "Little Festival",
+    "type": "removed",
+    "date": "2026-09-03",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-03:eskape-festival:removed",
+    "festivalId": "eskape-festival",
+    "festivalSlug": "eskape-festival",
+    "festivalName": "Eskape Festival",
+    "type": "removed",
+    "date": "2026-09-03",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-03:family-piknik:removed",
+    "festivalId": "family-piknik",
+    "festivalSlug": "family-piknik",
+    "festivalName": "Family Piknik",
+    "type": "removed",
+    "date": "2026-09-03",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-03:zamna-cote-d-azur:removed",
+    "festivalId": "zamna-cote-d-azur",
+    "festivalSlug": "zamna-cote-d-azur",
+    "festivalName": "Zamna Festival Côte d'Azur",
+    "type": "removed",
+    "date": "2026-09-03",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-08-27:underground-mountain-festival:removed",
     "festivalId": "underground-mountain-festival",
     "festivalSlug": "underground-mountain-festival",
