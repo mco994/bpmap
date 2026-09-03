@@ -1368,6 +1368,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "festival-de-techno-transe-floraison-tardive",
+    "name": "Festival de techno transe : Floraison tardive",
+    "city": "Rosnay",
+    "region": null,
+    "description": "Après un été quelque peu tourmenté et l'annulation de l'édition estivale \"Brenn'Storming\" de cette année, ACF ne voulait pas nous laissez patienter jusqu'en 2027...",
+    "startDate": "2026-09-19",
+    "endDate": "2026-09-20",
+    "lat": 46.6836856,
+    "lng": 1.19717382,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/b91d4176-174c-3234-b6bd-38ce19bfb4c5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+  },
+  {
     "slug": "concert-james-baker-blanche-esther",
     "name": "Concert - James Baker - Blanche Esther",
     "city": "Bourges",
@@ -1407,7 +1426,7 @@
   },
   {
     "slug": "un-ete-en-blanc-soiree-dj-set-house-to-techno-avec-thomas-moulene",
-    "name": "Un été en blanc : Soirée DJ Set House to Techno avec Thomas MOULENE",
+    "name": "Un été en blanc : Soirée DJ Set House to Techno avec Thomas Moulene",
     "city": "Le Blanc",
     "region": null,
     "description": "Une belle soirée de musique, de convivialité et de partage vous attend dans un cadre exceptionnel !",
@@ -1482,6 +1501,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "concert-de-lady-nazca-a-la-scenette",
+    "name": "Concert de Lady Nazca à La Scénette",
+    "city": "Léobard",
+    "region": null,
+    "description": "<p><em>La Scénette</em>, le nouvel antre artistique de l&#39;Abbaye Nouvelle à Léobard, créé pour accueillir et permettre à des artistes de tous horizons de s&#39;exprimer, vous propose un concert de <em>Lady Nazca</em>.</p><p>Envie d&#39;un voyage poétique ? Les ingrédients : piano, voix, contrebasse et paysage électro.</p><p>Artiste libre et inclassable aux sonorités voyageuses, inspirée par l&#39;impressionnisme musical de Debussy, l&#39;éclectisme bohème de Frida Kahlo, l&#39;universalité poético-pop de Peter Gabriel, les jeux de mots de Gainsbourg, la plume de Nougaro...</p>",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 44.7092148,
+    "lng": 1.31280135,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/22/3383d186-ff36-32de-bf97-4722ab6acc21"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "l-orange-fluo-presente-june-bug",
     "name": "L'Orange Fluo présente June Bug",
     "city": "Latronquière",
@@ -1520,8 +1558,27 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "la-micro-folie-de-la-cab-anne-frank-house-vr-immersion-dans-l-annexe",
-    "name": "La Micro Folie de la CAB | Anne Frank House VR, Immersion dans l’annexe",
+    "slug": "concert-l-wazo",
+    "name": "Concert  \"L'Wazo\"",
+    "city": "Gourdon",
+    "region": null,
+    "description": "<p>Un duo de voix qui met à nu l&#39;Humain avec ses faiblesses, ses doutes et aussi ses bonheurs et un arrangeur issu du milieu électro convoquent les textes de Bashung à Placebo pour un voyage sonore, un visuel poétique teinté d&#39;onirisme...</p>",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-25",
+    "lat": 44.7368901,
+    "lng": 1.38079854,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/22/91901d92-c0c7-3a0a-b1cf-fb9911294c71"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "micro-folie-de-la-cab-anne-frank-house-vr-immersion-dans-l-annexe",
+    "name": "Micro-Folie de la CAB | Anne Frank House VR, Immersion dans l’annexe",
     "city": "Bergerac",
     "region": null,
     "description": "",
@@ -1539,8 +1596,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "festival-aft-air-sound-soiree-electro",
-    "name": "Festival \"Aft'air Sound\"- Soirée électro",
+    "slug": "annule-festival-aft-air-sound-soiree-electro",
+    "name": "ANNULÉ- Festival \"Aft'air Sound\"- Soirée électro",
     "city": "Pau",
     "region": null,
     "description": "",
@@ -1594,6 +1651,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-electro-acid-nightmare",
+    "name": "Concert électro - Acid Nightmare",
+    "city": "Malemort",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-04",
+    "lat": 45.1689848,
+    "lng": 1.5605601,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/44cd52ec-7cbc-3adf-8408-dfc0296f9527"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "concert-pour-la-ligue-contre-le-cancer",
@@ -2337,6 +2413,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-disco-pop-80-s-avec-elan-de-solidarite-cotentin-ukraine-p200",
+    "name": "Soirée disco / Pop 80’s - Avec Élan de Solidarité Cotentin-Ukraine | P200",
+    "city": "Cherbourg-en-Cotentin",
+    "region": null,
+    "description": "",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 49.6437731,
+    "lng": -1.6410784,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/0e2fb492-0696-3910-8ad7-4d3e888ec02c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "concert-aymaric-simon-howling-house-band",
     "name": "Concert Aymaric SIMON & Howling House Band",
     "city": "Saint-Pierre-Église",
@@ -2380,7 +2475,7 @@
     "city": "Vaucelles",
     "region": null,
     "description": "Un vendredi par mois, la Brasserie Baya vous attend pour une soirée concert exceptionnelle.🎤✨\nVenez vibrer au son de des reprises pop / rock / disco, dans une ambiance conviviale et authentique. 🍻",
-    "startDate": "2026-08-28",
+    "startDate": "2026-09-25",
     "endDate": "2026-09-25",
     "lat": 49.2829513,
     "lng": -0.7257376,
@@ -2391,7 +2486,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "after-show-concert-de-rougir",
@@ -2411,6 +2506,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-hardcore-pain-society-pledge-of-silence-explicit-silence",
+    "name": "Concert hardcore : Pain Society - Pledge of Silence - Explicit Silence",
+    "city": "Ifs",
+    "region": null,
+    "description": "Après le métal, place au hardcore ! Le Valhalla accueille trois groupes incontournables pour une soirée intense, entre riffs incisifs, rythmiques percutantes et énergie communicative.",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 49.144476,
+    "lng": -0.3396846,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/9cc2df83-11fb-346e-97c3-72fda1b51567"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "danse-rave-lucid",
@@ -2520,6 +2634,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/33/9403d48e-41ac-3a7c-9006-7ed5705ade00"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-bass-yard-session",
+    "name": "CONCERT \"BASS YARD SESSION\"",
+    "city": "Bezins-Garraux",
+    "region": null,
+    "description": "Peuneu Selectah / Xufasound  + Game over selectors + Mista T Chalice sound\nReggae, dub, roots, dancehall, rap, jungle & +",
+    "startDate": "2026-09-05",
+    "endDate": "2026-09-05",
+    "lat": 42.93283,
+    "lng": 0.69048,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/d3335375-c144-3a83-badc-e6f1e161f24a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2755,6 +2888,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "jep-2026-visite-du-chateau-et-concert-d-ania-reynolds",
+    "name": "JEP 2026 - VISITE DU CHÂTEAU ET CONCERT D'ANIA REYNOLDS",
+    "city": "Puichéric",
+    "region": null,
+    "description": "Le château féodal de Puichéric, situé au cœur du village, ouvre ses portes au public à l'occasion des Journées du patrimoine. L'occasion de découvrir sa belle histoire et de se régaler d'un bon set de groove...\n\nLe Château partage son emplacement avec l'église. Sa construction s'est étendue du début du XIIIe siècle au XVIIIe siècle. Témoin de l'histoire cathare, il fut malheureusement incendié par le Prince Noir en 1355. Par la suite, Pierre-Paul Riquet l'a occupé pendant la construction du Canal du Midi, tandis que sa belle-fille, Marie-Louise de Montaigne, connue sous le nom de « Présidente Riquet », l'a acheté et y a résidé pendant plus de 30 ans.\nD'importants travaux de restauration ont été réalisés au début du XXe siècle. \nEn 1991, le château est tombé dans un profond sommeil, les propriétaires se rendant sur place uniquement pour entretenir le jardin suspendu et récupérer l'eau des gouttières.\nVingt ans plus tard, des travaux d'urgence ont été entrepris, suivis de l'aménagement de cinq chambres d'hôtes. \n\n20 personnes maximum pour chaque visite (l'une à 15h, l'autre à 17h). Gratuit mais réservation obligatoire.\n\nParking face à l'enclos sous les remparts du château. \n\nExceptionnellement, le café associatif sera ouvert dès 14 h 30 et un petit en-cas sera proposé à partir de 19h.\n\nCar suivra, à 20h, le concert d'Ania Reynolds au saxophone baryton et au piano (\"cosmic groove\" et \"techno jazz\"), sur réservation également (paiement \"au chapeau, conseillé : 10 € par personne, entièrement reversé à l’artiste).",
+    "startDate": "2026-09-19",
+    "endDate": "2026-09-19",
+    "lat": 43.2240746,
+    "lng": 2.62432999,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/41/860b581e-f9fa-3251-ba62-c3e60ba9e43c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "ves-2026-rencontres-vigneronnes-vendanges-en-fete",
     "name": "VES 2026 - RENCONTRES VIGNERONNES & VENDANGES EN FÊTE",
     "city": "Limoux",
@@ -2767,6 +2919,44 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/41/9f6c2495-b8d8-398b-910f-9949fc3f70c5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "festival-des-4-vents",
+    "name": "FESTIVAL DES 4 VENTS",
+    "city": "Duilhac-sous-Peyrepertuse",
+    "region": null,
+    "description": "Le 4 Vents Festival investit le village de Duilhac-sous-Peyrepertuse pour une journée placée sous le signe du partage, de la culture et de la fête !\nÀ partir de 13h, le village s'anime avec un marché de producteurs et d'artisans locaux, des stands associatifs, des spectacles d'arts de rue, clown, jonglerie, théâtre, conte, jeux en bois, concours de pétanque, défilé de mode et bien d'autres surprises. Il y en aura pour tous les âges et toutes les envies !\nÀ partir de 19h, place aux concerts sous les halles avec Souffle Nomade, Moya Vida, Balaphonik Sound System et PölÖ Hypotrope, qui se succéderont jusqu'à 1h du matin pour faire voyager le public entre musiques du monde, dub, électro, reggae, hip-hop, funky, bass et house music.\nCôté gourmandise, une paëlla géante traditionnelle ou végétarienne, sur réservation, sera proposée dans une ambiance conviviale et festive.\nL'objectif du festival : faire vivre le village et offrir une belle journée de partage dans un cadre exceptionnel, au pied du château de Peyrepertuse.",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 42.86402,
+    "lng": 2.56694,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/41/b74745e2-4c26-3f65-a781-149fa0d27b8a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+  },
+  {
+    "slug": "concert-mirkut-la-manufacture-des-sons",
+    "name": "CONCERT MÎRKUT - LA MANUFACTURE DES SONS",
+    "city": "Montolieu",
+    "region": null,
+    "description": "Né des scènes ouvertes kurdes de Toulouse, Mîrkut réunit des musiciens venus d'horizons différents autour d'une même envie : faire vivre le patrimoine musical kurde en le confrontant aux sonorités d'aujourd'hui. \nInstruments traditionnels, compositions originales et influences électro, funk et psychédéliques se rencontrent dans une musique libre, inventive et profondément ancrée dans son époque.\n\nSur scène, le groupe déploie une énergie communicative où les grooves hypnotiques côtoient les mélodies héritées de la tradition. Entre moments de transe, improvisations et rythmes irrésistibles, Mîrkut propose un concert intense et généreux, qui invite autant à l'écoute qu'à la danse.\n\nRéservation par mail.\nUne adhésion ponctuelle de 5 € est incluse dans le tarif public",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-25",
+    "lat": 43.3087014,
+    "lng": 2.217316,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/41/c8fd44f7-32aa-392c-8e5b-34cf5997a57f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2881,6 +3071,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/45/a086fb0c-40c8-3983-b3e6-b950ab108853"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-gourmande-et-concert",
+    "name": "SOIRÉE GOURMANDE ET CONCERT",
+    "city": "Saint-Étienne-du-Valdonnez",
+    "region": null,
+    "description": "L'association EOLE organise une soirée gourmande vendredi 4 septembre à Varazoux,  autour du four banal du village avec cuisson et vente de pizzas, brioches, pains.\nÀ partir de 21 h, place à la musique avec AKESTEKO, qui viendra présenter son nouvel album. Leur « swing destourbâ », autrement dit un swing un brin dérangé , navigue librement entre chanson française, électro, swing et rock.",
+    "startDate": "2026-09-04",
+    "endDate": "2026-09-04",
+    "lat": 44.467407,
+    "lng": 3.551626,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/45/f3939078-659d-3f6a-92b1-f0975687fd36"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3076,6 +3285,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "gren-seme",
+    "name": "Grèn Sémé",
+    "city": "Doué-en-Anjou",
+    "region": null,
+    "description": "Entre poésie rock, pulsations dub et rythmes ternaires, Grèn Sémé invente une chanson inédite imprégnée du créole et du maloya de La Réunion.",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-04",
+    "lat": 47.19593,
+    "lng": -0.275583,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/baf2d742-efe4-3969-a645-610d5cd0c63b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "la-saison-culturelle-le-disco-des-oiseaux-mosai-et-vincent",
@@ -4098,18 +4326,41 @@
     "region": null,
     "startDate": "2026-09-04",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2518596",
-    "lineup": [
-      "Maggie",
-      "Sorun"
-    ],
+    "officialUrl": "https://ra.co/events/2507161",
+    "lineup": [],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2518596"
+      "https://ra.co/events/2507161"
     ],
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
+  },
+  {
+    "slug": "kumquat-pres-le-chateau-de-ma-mere-chap-iv-closing",
+    "name": "Kumquat prés. Le Château de Ma Mère – Chap IV. (Closing)",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2527262",
+    "lineup": [
+      "Faciendo Soundsystem",
+      "Burchan Acar",
+      "Desyn",
+      "Keras",
+      "Rama NYC",
+      "Rowan",
+      "Tom Morgan",
+      "Tommy Pickles"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2527262"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "utopia-festival-tome-vi",
@@ -4303,6 +4554,28 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "paloma-festival-2026",
+    "name": "Paloma Festival 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2527694",
+    "lineup": [
+      "Niponika",
+      "VM4 (1)",
+      "ESHU",
+      "Vica"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2527694"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
   },
   {
     "slug": "trocadero-summer-club-open-air-party",
@@ -4852,30 +5125,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2500043"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "p2z-fertile-thomas-melchior-lawrence-cosmo",
-    "name": "P2z Fertile - Thomas Melchior, Lawrence & Cosmo",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2466368",
-    "lineup": [
-      "Thomas Melchior",
-      "Lawrence",
-      "Cosmo (KR)",
-      "Deep Tears On Clamart",
-      "P2z",
-      "Abn - P2z"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2466368"
     ],
     "status": "announced",
     "needsReview": true,
