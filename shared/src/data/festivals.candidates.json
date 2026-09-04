@@ -2869,6 +2869,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "sauvons-la-saison-nouvelle-programmation-avec-l-ete-indien-chat-barre",
+    "name": "SAUVONS LA SAISON, NOUVELLE PROGRAMMATION AVEC L’ÉTÉ INDIEN ! - CHAT BARRÉ",
+    "city": "Fontiers-Cabardès",
+    "region": null,
+    "description": "Une belle soirée musicale en perspective !\n\n18h : Apéro vinyles\nOn commence tranquillement la soirée autour d’un apéro et d’une sélection de vinyles pour se mettre dans l’ambiance.\n\n20h30 : Concert de Slide Block\nPlace au groove avec Slide Block ! Un savoureux mélange de funk et de soul, saupoudré d’électro, où les genres se croisent et se réinventent. Une musique qui reste profondément ancrée dans la tradition jazzistique de l’improvisation, pour un concert vivant, généreux et plein de surprises.\n\nDu groove, du partage et de l’impro : venez vivre la soirée avec nous !",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 43.3725415,
+    "lng": 2.24110972,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/41/2ec39f6e-4ced-3558-a786-5a4bfc961ca9"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "ves-2026-le-banquet-insolite-au-chateau-de-villemartin",
     "name": "VES 2026 - LE BANQUET INSOLITE AU CHÂTEAU DE VILLEMARTIN",
     "city": "Gaja-et-Villedieu",
@@ -4084,6 +4103,30 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "klub-camina-zenker-brothers-4hs-set-pacome-orzi-itaho-euromax-dj-jeanneto",
+    "name": "KLUB CAMINA [Zenker Brothers (4hs set), Pacôme Orzi & Itaho, EUROMAX DJ, JeanneTo]",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2528826",
+    "lineup": [
+      "Zenker Brothers",
+      "Dario Zenker",
+      "Marco Zenker",
+      "Pacôme Orzi",
+      "Itaho",
+      "EUROMAX DJ"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2528826"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "the-holy-rave-34-besancon",
     "name": "The Holy Rave #34 - Besançon",
     "city": null,
@@ -4528,6 +4571,35 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "platurne-xxl",
+    "name": "Platurne XXL",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2528737",
+    "lineup": [
+      "HiTMiLØW",
+      "ECZODIA",
+      "FC Kabagar",
+      "t e s t p r e s s",
+      "DJ Achim Feuervogel",
+      "Niotech",
+      "Eskha",
+      "Pixie Dust",
+      "Westfall",
+      "KARISH",
+      "YËDM"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2528737"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "braderie-2026-weekender",
     "name": "Braderie 2026 Weekender",
     "city": null,
@@ -4576,23 +4648,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "trocadero-summer-club-open-air-party",
-    "name": "Trocadero Summer Club — open air party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2525442",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2525442"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "discovery-weekender-04-05-septembre-2026",
@@ -4793,25 +4848,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "festival-ito-2026-la-giga-recre",
-    "name": "Festival(ito) 2026: La giga récré",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2513834",
-    "lineup": [
-      "Lorenzi (2)"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2513834"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "open-air-coucool-x-corps-libres",
     "name": "open air Coucool x Corps Libres",
     "city": null,
@@ -4849,6 +4885,25 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "festival-ito-2026-la-giga-recre",
+    "name": "Festival(ito) 2026: La giga récré",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2513834",
+    "lineup": [
+      "Lorenzi (2)"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2513834"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "after-o-clock-x-la-plage-open-air-audio-units-rrose-selavy-b2b-maast",
     "name": "After O'clock X La Plage Open Air: Audio Units, Rrose Sélavy B2B Maast",
     "city": null,
@@ -4867,6 +4922,23 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "deep-sunday-rooftop-party",
+    "name": "Deep Sunday Rooftop Party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-06",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2527900",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2527900"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "la-mona-dimanche-open-air-au-canal-barboteur",
@@ -5079,6 +5151,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-eloisa-ultranouk-more",
+    "name": "After O'clock X La Plage Open Air: ELOISA, Ultranoük & More",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-13",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529393",
+    "lineup": [
+      "ELOISA",
+      "In-Tan",
+      "ULTRANÖUK"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529393"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "club-la-ch-ck-tumblr-rave",
