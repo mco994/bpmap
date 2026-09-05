@@ -1216,23 +1216,23 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-de-cloture-de-la-guinguette-des-pimprenelles",
-    "name": "Soirée de clôture de la Guinguette des Pimprenelles",
-    "city": "Retournac",
+    "slug": "cine-opera-ou-ballet-representation-sur-grand-ecran",
+    "name": "Ciné-Opéra ou Ballet - Représentation sur grand écran",
+    "city": "Jonzac",
     "region": null,
-    "description": "Venez à la soirée de clôture de la Guinguette des Pimprenelles. Au programme, stands de fripes, jeux et animations, vous attendent avec Free Sdorvia et DJ Fiura Rose pour une ambiance musicale électro urbaine & bass music. Buvette et restauration.",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-04",
-    "lat": 45.211976,
-    "lng": 4.055888,
+    "description": "Retransmission du Royal Opera House de Londres. Le cinéma Le Familia projette, parfois en direct, les plus beaux ballets ou opéras joués en Europe.",
+    "startDate": "2026-02-03",
+    "endDate": "2026-12-01",
+    "lat": 45.44529,
+    "lng": -0.434858,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/13/e960390e-d5c6-338b-8be5-f9c6d8a6ae0d"
+      "https://data.datatourisme.fr/13/d5d2c5d0-0c27-3537-afba-7009fad31908"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "animation-soiree-bloomoon-val-dj-set-sur-le-rooftop-du-gaee",
@@ -1425,25 +1425,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "un-ete-en-blanc-soiree-dj-set-house-to-techno-avec-thomas-moulene",
-    "name": "Un été en blanc : Soirée DJ Set House to Techno avec Thomas Moulene",
-    "city": "Le Blanc",
-    "region": null,
-    "description": "Une belle soirée de musique, de convivialité et de partage vous attend dans un cadre exceptionnel !",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-04",
-    "lat": 46.628778,
-    "lng": 1.06271814,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/e920dfe4-b276-3356-8679-439263858882"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "nirmata-chill-live",
     "name": "Nirmata • “CHILL & LIVE”",
     "city": "Tours",
@@ -1486,7 +1467,7 @@
     "name": "Le Meules Bleues Festival : Zaz + Adèle Castillon + Chiloo + Bleu Soleil",
     "city": "Cahors",
     "region": null,
-    "description": "<p>Avec ZAZ, Adèle Castillon, Chiloo et le duo Bleu Soleil, préparez-vous à une soirée entre pop, électro et chanson française.</p><p><br></p><p><strong style=\"font-size: 21px; font-family: inherit; color: inherit;\">Au programme</strong></p><ul><li><span style=\"font-family: inherit; color: inherit;\">ZAZ</span></li><li><span style=\"font-family: inherit; color: inherit;\">Adèle Castillon</span></li><li><span style=\"font-family: inherit; color: inherit;\">Chiloo</span></li><li><span style=\"font-family: inherit; color: inherit;\">Bleu Soleil</span></li><li><span style=\"font-family: inherit; color: inherit;\">WepaWepa</span></li><li><span style=\"font-family: inherit; color: inherit;\">Kokyages (Groupe gagnant du Tremplin 2025)</span></li></ul>",
+    "description": "<p>Avec ZAZ, Adèle Castillon, Chiloo et le duo Bleu Soleil, préparez-vous à une soirée entre pop, électro et chanson française.</p><p><br></p><p><strong style=\"font-size: 21px; font-family: inherit; color: inherit;\">Au programme</strong></p><ul><li>17H55-18H55 KOKYAGES </li><li>19H00-20H00 WEPA WEPA </li><li>20H05-21H20 ADÈLE CASTILLON </li><li>21H25-22H25 CHILOO </li><li>22H30-00H00 ZAZ </li><li>00H00-01H15 BLEU SOLEIL</li></ul>",
     "startDate": "2026-09-11",
     "endDate": "2026-09-11",
     "lat": 44.467509,
@@ -1537,6 +1518,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "cine-lot-les-matins-merveilleux",
+    "name": "Ciné-Lot : \"Les matins merveilleux\"",
+    "city": "Cézac",
+    "region": null,
+    "description": "<p>Synopsis :</p><p>De vieux vinyles disco dans le coffre de sa Twingo, à peine remise de la mort de sa grand-mère, Charlie roule",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-01",
+    "lat": 44.3400666,
+    "lng": 1.34238857,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/22/652e6b94-e631-3d21-9336-370f36170adb"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "anita-en-concert-pour-le-folk-club-de-cahors-avec-chanson-pop-electro",
@@ -1836,25 +1836,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/aa689e84-140b-3f2a-b4ce-00f9bc22e960"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-electro-batucaddie",
-    "name": "Concert | Électro Batucaddie",
-    "city": "Faux-en-Périgord",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-04",
-    "lat": 44.7894032,
-    "lng": 0.64191005,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/aef35011-e2d4-3de4-adc2-5aaa5aad2070"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2736,23 +2717,23 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "big-bag-festival",
-    "name": "Big Bag Festival",
-    "city": "Bagnères-de-Bigorre",
+    "slug": "soiree-disco-80-s",
+    "name": "Soirée disco 80's",
+    "city": "Saint-Cast-le-Guildo",
     "region": null,
-    "description": "Les 17, 18 et 19 septembre, le Cartel Bigourdan présente la 13e édition du Big Bag Festival à Bagnères-de-Bigorre ! Reggae, électro, hip-hop, fanfares… une programmation éclectique et festive pour clore l'été en musique.",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-19",
-    "lat": 43.0676791,
-    "lng": 0.15451591,
+    "description": "",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 48.6287469,
+    "lng": -2.2525796,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/36/ec1fc49d-f451-38d1-9d60-7646120e0a5b"
+      "https://data.datatourisme.fr/38/ddc080cd-19e9-3da8-895d-a55bac30fce1"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-skunt-kut-monkey-d-dub-dynasty-bass-trooperz",
@@ -2843,139 +2824,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/f6b25f8c-3fbe-3f98-97eb-3f5cd4c03b65"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "jazz-au-caveau-concert-de-noel",
-    "name": "JAZZ AU CAVEAU - CONCERT DE NOËL",
-    "city": "Caunes-Minervois",
-    "region": null,
-    "description": "Concert de Noël avec Turbo Niglo, Electro Manouche.\nMika Davis, guitare\nSam Chabi, guitare",
-    "startDate": "2026-12-20",
-    "endDate": "2026-12-20",
-    "lat": 43.3261902,
-    "lng": 2.52684756,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/41/2eaa65f2-3bd4-3eab-abe1-dcc05b991960"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "sauvons-la-saison-nouvelle-programmation-avec-l-ete-indien-chat-barre",
-    "name": "SAUVONS LA SAISON, NOUVELLE PROGRAMMATION AVEC L’ÉTÉ INDIEN ! - CHAT BARRÉ",
-    "city": "Fontiers-Cabardès",
-    "region": null,
-    "description": "Une belle soirée musicale en perspective !\n\n18h : Apéro vinyles\nOn commence tranquillement la soirée autour d’un apéro et d’une sélection de vinyles pour se mettre dans l’ambiance.\n\n20h30 : Concert de Slide Block\nPlace au groove avec Slide Block ! Un savoureux mélange de funk et de soul, saupoudré d’électro, où les genres se croisent et se réinventent. Une musique qui reste profondément ancrée dans la tradition jazzistique de l’improvisation, pour un concert vivant, généreux et plein de surprises.\n\nDu groove, du partage et de l’impro : venez vivre la soirée avec nous !",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 43.3725415,
-    "lng": 2.24110972,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/41/2ec39f6e-4ced-3558-a786-5a4bfc961ca9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "ves-2026-le-banquet-insolite-au-chateau-de-villemartin",
-    "name": "VES 2026 - LE BANQUET INSOLITE AU CHÂTEAU DE VILLEMARTIN",
-    "city": "Gaja-et-Villedieu",
-    "region": null,
-    "description": "Le temps d'une soirée, le Château de Villemartin ouvre les portes de son univers élégant et singulier. \nSur sa terrasse dominant les vignes ou dans le cadre raffiné de son emblématique salle de bal, les convives sont invités à vivre une expérience où gastronomie, vins et art de vivre se rencontrent.\n\nAu fil d'un dîner accords mets et vins, les vignerons partenaires partageront leur passion et les histoires qui se cachent derrière chaque cuvée, offrant un véritable voyage au cœur du vignoble limouxin. \nDans une atmosphère inspirée des célèbres ambiances Bouddha Bar, les saveurs, les échanges et la musique se mêleront pour créer un moment hors du temps.\n\nLorsque la nuit tombera sur les vignes, la soirée se prolongera sur la piste de danse au rythme d'un bal électro, transformant le château en un lieu de fête et de convivialité.\n\nPour parfaire l'expérience, les participants sont invités à laisser libre cours à leur imagination en arborant accessoires ou tenues inspirés de l'univers du vignoble limouxin.\nUne touche créative qui promet de faire de cette soirée un moment aussi festif qu'inoubliable.",
-    "startDate": "2026-10-16",
-    "endDate": "2026-10-16",
-    "lat": 43.082759,
-    "lng": 2.197906,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/41/3449d483-9c0b-3340-b3c4-22dbf9dfbab2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "jep-2026-visite-du-chateau-et-concert-d-ania-reynolds",
-    "name": "JEP 2026 - VISITE DU CHÂTEAU ET CONCERT D'ANIA REYNOLDS",
-    "city": "Puichéric",
-    "region": null,
-    "description": "Le château féodal de Puichéric, situé au cœur du village, ouvre ses portes au public à l'occasion des Journées du patrimoine. L'occasion de découvrir sa belle histoire et de se régaler d'un bon set de groove...\n\nLe Château partage son emplacement avec l'église. Sa construction s'est étendue du début du XIIIe siècle au XVIIIe siècle. Témoin de l'histoire cathare, il fut malheureusement incendié par le Prince Noir en 1355. Par la suite, Pierre-Paul Riquet l'a occupé pendant la construction du Canal du Midi, tandis que sa belle-fille, Marie-Louise de Montaigne, connue sous le nom de « Présidente Riquet », l'a acheté et y a résidé pendant plus de 30 ans.\nD'importants travaux de restauration ont été réalisés au début du XXe siècle. \nEn 1991, le château est tombé dans un profond sommeil, les propriétaires se rendant sur place uniquement pour entretenir le jardin suspendu et récupérer l'eau des gouttières.\nVingt ans plus tard, des travaux d'urgence ont été entrepris, suivis de l'aménagement de cinq chambres d'hôtes. \n\n20 personnes maximum pour chaque visite (l'une à 15h, l'autre à 17h). Gratuit mais réservation obligatoire.\n\nParking face à l'enclos sous les remparts du château. \n\nExceptionnellement, le café associatif sera ouvert dès 14 h 30 et un petit en-cas sera proposé à partir de 19h.\n\nCar suivra, à 20h, le concert d'Ania Reynolds au saxophone baryton et au piano (\"cosmic groove\" et \"techno jazz\"), sur réservation également (paiement \"au chapeau, conseillé : 10 € par personne, entièrement reversé à l’artiste).",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 43.2240746,
-    "lng": 2.62432999,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/41/860b581e-f9fa-3251-ba62-c3e60ba9e43c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "ves-2026-rencontres-vigneronnes-vendanges-en-fete",
-    "name": "VES 2026 - RENCONTRES VIGNERONNES & VENDANGES EN FÊTE",
-    "city": "Limoux",
-    "region": null,
-    "description": "17h à 19h30 :\nMoment privilégié avec nos vignerons, découvrez leur philosophie et leurs produits de l’AOP Limoux et l’IGP Haute Vallée de l’Aude ; dégustation et vente en accès libre. \n\n18h30 à 00h30 :\nSoirée conviviale et festive pour célébrer tous ensemble la fin des vendanges ; bars à vins et bulles par les vignerons ; food trucks locaux ; concerts éclectiques.\n\nLos Cepos originaire d’Ariège, cette banda d’une trentaine de jeunes musiciens passionnés, revisite les classiques des bandas et les grands tubes populaires avec une énergie débordante.\n\nYouthie du soleil Andalou à l’ombre d’une forêt indonésienne, cette jeune multi-instrumentiste vous embarque dans son univers au rythme des skanks dub reggae roots et musiques du monde. \n\nSergent Garcia formation incontournable de musiciens chevronnés au répertoire métissé, où salsa, reggae, ska et rythmes afro-caribéens se mêlent avec une généreuse énergie communicative pour une soirée résolument festive et dansante...\nAccès libre et gratuit",
-    "startDate": "2026-10-17",
-    "endDate": "2026-10-17",
-    "lat": 43.055484,
-    "lng": 2.2141637,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/41/9f6c2495-b8d8-398b-910f-9949fc3f70c5"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "festival-des-4-vents",
-    "name": "FESTIVAL DES 4 VENTS",
-    "city": "Duilhac-sous-Peyrepertuse",
-    "region": null,
-    "description": "Le 4 Vents Festival investit le village de Duilhac-sous-Peyrepertuse pour une journée placée sous le signe du partage, de la culture et de la fête !\nÀ partir de 13h, le village s'anime avec un marché de producteurs et d'artisans locaux, des stands associatifs, des spectacles d'arts de rue, clown, jonglerie, théâtre, conte, jeux en bois, concours de pétanque, défilé de mode et bien d'autres surprises. Il y en aura pour tous les âges et toutes les envies !\nÀ partir de 19h, place aux concerts sous les halles avec Souffle Nomade, Moya Vida, Balaphonik Sound System et PölÖ Hypotrope, qui se succéderont jusqu'à 1h du matin pour faire voyager le public entre musiques du monde, dub, électro, reggae, hip-hop, funky, bass et house music.\nCôté gourmandise, une paëlla géante traditionnelle ou végétarienne, sur réservation, sera proposée dans une ambiance conviviale et festive.\nL'objectif du festival : faire vivre le village et offrir une belle journée de partage dans un cadre exceptionnel, au pied du château de Peyrepertuse.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 42.86402,
-    "lng": 2.56694,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/41/b74745e2-4c26-3f65-a781-149fa0d27b8a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "concert-mirkut-la-manufacture-des-sons",
-    "name": "CONCERT MÎRKUT - LA MANUFACTURE DES SONS",
-    "city": "Montolieu",
-    "region": null,
-    "description": "Né des scènes ouvertes kurdes de Toulouse, Mîrkut réunit des musiciens venus d'horizons différents autour d'une même envie : faire vivre le patrimoine musical kurde en le confrontant aux sonorités d'aujourd'hui. \nInstruments traditionnels, compositions originales et influences électro, funk et psychédéliques se rencontrent dans une musique libre, inventive et profondément ancrée dans son époque.\n\nSur scène, le groupe déploie une énergie communicative où les grooves hypnotiques côtoient les mélodies héritées de la tradition. Entre moments de transe, improvisations et rythmes irrésistibles, Mîrkut propose un concert intense et généreux, qui invite autant à l'écoute qu'à la danse.\n\nRéservation par mail.\nUne adhésion ponctuelle de 5 € est incluse dans le tarif public",
-    "startDate": "2026-09-25",
-    "endDate": "2026-09-25",
-    "lat": 43.3087014,
-    "lng": 2.217316,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/41/c8fd44f7-32aa-392c-8e5b-34cf5997a57f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3090,25 +2938,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/45/a086fb0c-40c8-3983-b3e6-b950ab108853"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-gourmande-et-concert",
-    "name": "SOIRÉE GOURMANDE ET CONCERT",
-    "city": "Saint-Étienne-du-Valdonnez",
-    "region": null,
-    "description": "L'association EOLE organise une soirée gourmande vendredi 4 septembre à Varazoux,  autour du four banal du village avec cuisson et vente de pizzas, brioches, pains.\nÀ partir de 21 h, place à la musique avec AKESTEKO, qui viendra présenter son nouvel album. Leur « swing destourbâ », autrement dit un swing un brin dérangé , navigue librement entre chanson française, électro, swing et rock.",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-04",
-    "lat": 44.467407,
-    "lng": 3.551626,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/45/f3939078-659d-3f6a-92b1-f0975687fd36"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3382,6 +3211,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "spectacle-jeune-public-que-vois-tu-olor",
+    "name": "Spectacle jeune public: que vois-tu? Olor",
+    "city": "Pornic",
+    "region": null,
+    "description": "Spectacle olor : conte musical electro pop, dans le cadre de Ma P’tite Saison en pays de Retz.",
+    "startDate": "2027-02-25",
+    "endDate": "2027-02-25",
+    "lat": 47.11725,
+    "lng": -2.09286,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/f0c69473-70e5-3893-a2ea-6015f890a2c6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "royal-ballet-opera-au-cinema-cosi-fan-tutte",
     "name": "Royal Ballet & Opera au cinéma - COSÌ FAN TUTTE",
     "city": "Pouzauges",
@@ -3394,6 +3242,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/fee14b0b-f16d-32af-bf0b-28b6f485eb75"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "schlumpf-moutain-fest",
+    "name": "Schlumpf Moutain Fest",
+    "city": "Dolleren",
+    "region": null,
+    "description": "Une journée dédiée à la musique, à la découverte et au partage ! Quatre scènes proposeront des univers variés : 80’s/90’s/2000’s, nouveaux talents, guinguette et électro/techno. Le festival débutera à 12h sous le chapiteau jusqu'à 1h du matin. Tartes flambées, food trucks et animations rythmeront la journée. Une montagne, des artistes, quatre scènes !",
+    "startDate": "2026-09-19",
+    "endDate": "2026-09-19",
+    "lat": 47.793178541138,
+    "lng": 6.92267417907715,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/31a2ef31-4d81-3339-af64-4ef342e89d1a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3553,6 +3420,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "soiree-electro-techno-au-gout-du-risoux",
+    "name": "Soirée électro techno au Goût du Risoux",
+    "city": "Bellefontaine",
+    "region": null,
+    "description": "",
+    "startDate": "2026-09-19",
+    "endDate": "2026-09-19",
+    "lat": 46.55742,
+    "lng": 6.06991,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/6/2bccdcfd-3948-38cb-84dd-55cd8df72e67"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "les-nuits-electro-a-coulanges-les-nevers",
     "name": "Les Nuits électro à Coulanges les Nevers",
     "city": "Coulanges-lès-Nevers",
@@ -3608,44 +3494,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "doullens-summer-break-festival",
-    "name": "Doullens Summer Break Festival",
-    "city": "Doullens",
-    "region": "Hauts-de-France",
-    "description": "Le rendez-vous électro incontournable en Picardie. Organisé chaque premier week-end de septembre, il marque la clôture de la tournée Summer Break, qui parcourt la France tout l’été.",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-05",
-    "lat": 50.155812,
-    "lng": 2.343064,
-    "officialUrl": "https://openagenda.com/festivals-dete/events/doullens-summer-break-festival",
-    "sources": [
-      "https://openagenda.com/festivals-dete/events/doullens-summer-break-festival"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "la-pre-braderie-de-st-so",
-    "name": "La Pré-Braderie de St So !",
-    "city": "Lille",
-    "region": "Hauts-de-France",
-    "description": "Disco • House • UK Garage • Techno • Retro",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-05",
-    "lat": 50.627319,
-    "lng": 3.069793,
-    "officialUrl": "https://openagenda.com/planlibre/events/la-pre-braderie-de-st-so",
-    "sources": [
-      "https://openagenda.com/planlibre/events/la-pre-braderie-de-st-so"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "rave-lucid-danse",
@@ -3745,29 +3593,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "heavydance-4-years-open-air-club",
-    "name": "HEAVYDANCE 4 YEARS: Open Air + Club",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2523540",
-    "lineup": [
-      "GNMR",
-      "Salomée",
-      "Maj.Tom",
-      "Evita",
-      "Josépha"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2523540"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "off-bordeaux-open-air-x-cite-du-vin-11-09",
@@ -3946,29 +3771,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "exb-festival-16e-edition",
-    "name": "EXB festival 16e édition",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516059",
-    "lineup": [
-      "Lude (2)",
-      "Mute.",
-      "Justine Maze",
-      "Wolves (1)",
-      "Zhar"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2516059"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "park-n-sound-opening-2026-open-air-gratuit",
     "name": "Park'n'Sound Opening 2026 — Open Air Gratuit",
     "city": null,
@@ -4103,8 +3905,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "klub-camina-zenker-brothers-4hs-set-pacome-orzi-itaho-euromax-dj-jeanneto",
-    "name": "KLUB CAMINA [Zenker Brothers (4hs set), Pacôme Orzi & Itaho, EUROMAX DJ, JeanneTo]",
+    "slug": "klub-camina-zenker-brothers-4hs-set-itaho-pacome-orzi-euromax-dj-jeanneto",
+    "name": "KLUB CAMINA [Zenker Brothers (4hs set), Itaho & Pacôme Orzi, EUROMAX DJ, JeanneTo]",
     "city": null,
     "region": null,
     "startDate": "2026-09-26",
@@ -4114,8 +3916,8 @@
       "Zenker Brothers",
       "Dario Zenker",
       "Marco Zenker",
-      "Pacôme Orzi",
       "Itaho",
+      "Pacôme Orzi",
       "EUROMAX DJ"
     ],
     "genreVerified": true,
@@ -4363,21 +4165,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "adelphe-festival-with-maggie-sorun-hyperlison",
-    "name": "Adelphe Festival with Maggie, Sorun, Hyperlison",
+    "slug": "inter-rave-by-agoya",
+    "name": "INTER RAVE BY AGOYA",
     "city": null,
     "region": null,
-    "startDate": "2026-09-04",
+    "startDate": "2026-09-11",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2507161",
-    "lineup": [],
+    "officialUrl": "https://ra.co/events/2529467",
+    "lineup": [
+      "Lucy Snake",
+      "Pyrame",
+      "atom"
+    ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2507161"
+      "https://ra.co/events/2529467"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "localisation manquante"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "kumquat-pres-le-chateau-de-ma-mere-chap-iv-closing",
@@ -4528,27 +4334,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "rave-in-da-club-x-wolf-city-hysta-lekkerfaces-ophidian-rd-nantes",
-    "name": "Rave in Da Club x Wolf City: Hysta, Lekkerfaces, Ophidian, RDØ Nantes",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2449193",
-    "lineup": [
-      "Lekkerfaces",
-      "Ophidian",
-      "EVN (2)"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2449193"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
     "name": "NANTES RAVE TECHNO XXL with NOVAH, MATRAKK, Maudux, DJ Caline, Mosmoz",
     "city": null,
@@ -4571,33 +4356,26 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "platurne-xxl",
-    "name": "Platurne XXL",
+    "slug": "nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-more",
+    "name": "Nantes Rave Techno W/ Vladimir Cauchemar, Shanixx, Noir Mat & More",
     "city": null,
     "region": null,
-    "startDate": "2026-09-04",
+    "startDate": "2026-10-30",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2528737",
+    "officialUrl": "https://ra.co/events/2529503",
     "lineup": [
-      "HiTMiLØW",
-      "ECZODIA",
-      "FC Kabagar",
-      "t e s t p r e s s",
-      "DJ Achim Feuervogel",
-      "Niotech",
-      "Eskha",
-      "Pixie Dust",
-      "Westfall",
-      "KARISH",
-      "YËDM"
+      "Vladimir Cauchemar",
+      "Shanixx",
+      "Azhar Sistorms",
+      "BSD"
     ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2528737"
+      "https://ra.co/events/2529503"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "braderie-2026-weekender",
@@ -4650,76 +4428,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "discovery-weekender-04-05-septembre-2026",
-    "name": "DISCOvery Weekender 04 & 05 septembre 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2471509",
-    "lineup": [
-      "Young Pulse",
-      "Mark Grusane",
-      "Red Greg",
-      "Rebecca Vasmant",
-      "Donna Gibson",
-      "Chris Wheatley"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2471509"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "bonne-nuit-rooftop-party",
-    "name": "Bonne Nuit Rooftop Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2519328",
-    "lineup": [
-      "Larry Houl",
-      "Mogan",
-      "Housecall"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2519328"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "durum-records-hold-my-breath-release-party",
-    "name": "Dürüm Records | Hold My Breath [Release Party]",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2503488",
-    "lineup": [
-      "Meli Mena",
-      "ohjeelo",
-      "piaconcept",
-      "Fatale Furylax",
-      "encore une autre",
-      "vendredear",
-      "MARIAD"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2503488"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "erreur-de-jeunesse-x-with-us",
     "name": "ERREUR DE JEUNESSE X WITH US",
     "city": null,
@@ -4766,6 +4474,30 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "discovery-weekender-04-05-septembre-2026",
+    "name": "DISCOvery Weekender 04 & 05 septembre 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2471509",
+    "lineup": [
+      "Young Pulse",
+      "Mark Grusane",
+      "Red Greg",
+      "Rebecca Vasmant",
+      "Donna Gibson",
+      "Chris Wheatley"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2471509"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "cafe-croissant-september-open-air-anthea-giammarco-orsini",
@@ -4868,23 +4600,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "open-air-party-mini-festival",
-    "name": "Open Air Party - Mini Festival",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2526768",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2526768"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "festival-ito-2026-la-giga-recre",
     "name": "Festival(ito) 2026: La giga récré",
     "city": null,
@@ -4898,6 +4613,23 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2513834"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
+    "slug": "open-air-party-mini-festival",
+    "name": "Open Air Party - Mini Festival",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2526768",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2526768"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4924,23 +4656,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "deep-sunday-rooftop-party",
-    "name": "Deep Sunday Rooftop Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2527900",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2527900"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-mona-dimanche-open-air-au-canal-barboteur",
     "name": "La Mona Dimanche Open Air au Canal Barboteur",
     "city": null,
@@ -4954,6 +4669,23 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2525989"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "deep-sunday-rooftop-party",
+    "name": "Deep Sunday Rooftop Party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-06",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2527900",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2527900"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5070,6 +4802,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-camporeale-opak-sonia-michigan",
+    "name": "After O'clock X La Plage Open Air: Camporeale, OPÄK & Sonia Michigan",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529407",
+    "lineup": [
+      "Camporeale (FR)",
+      "OPÄK",
+      "Sonia Michigan"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529407"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "yoyaku-x-slapfunk-paris-24-hour-marathon",
@@ -5222,6 +4975,100 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "p2z-fertile-thomas-melchior-lawrence-cosmo",
+    "name": "P2z Fertile - Thomas Melchior, Lawrence & Cosmo",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2466368",
+    "lineup": [
+      "Thomas Melchior",
+      "Lawrence",
+      "Cosmo (KR)",
+      "Deep Tears On Clamart",
+      "P2z",
+      "Abn - P2z"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2466368"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "el-hey-with-massai-b2b-gabriel-belabbas-iambp-maco-maria-el-hey",
+    "name": "El Hey with Massaï B2B Gabriel Belabbas, IAMBP, Maco Maria, El Hey",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2510672",
+    "lineup": [
+      "Massaï",
+      "Gabriel Belabbas",
+      "IAMBP",
+      "Maco Maria",
+      "El Hey",
+      "NOCH (2)",
+      "Sebizarre"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2510672"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "area-open-air-club-dj-bax-y-oshit-servye",
+    "name": "AREA · Open-air + Club: DJ Bax · Y.oshit · Servye",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2524327",
+    "lineup": [
+      "DJ Bax",
+      "KLAMER",
+      "Stupid Child"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2524327"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "sxm-festival-x-kalua-yoyo-palais-de-tokyo",
+    "name": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2516189",
+    "lineup": [
+      "Sebastien Leger",
+      "Sistek",
+      "Deer Jade",
+      "Paso Doble",
+      "Julian Prince",
+      "Andera"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2516189"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "maintenant-festival-2026",
