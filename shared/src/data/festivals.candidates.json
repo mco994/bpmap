@@ -171,6 +171,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "concert-dafne-kritharas",
+    "name": "Concert - Dafné Kritharas",
+    "city": "Bar-le-Duc",
+    "region": null,
+    "description": "concert : world pop / concert chansigné !\n\nUne voix qui traverse les frontières, un répertoire qui voyage entre la Grèce, l’Anatolie et la Méditerranée. Dafné Kritharas chante en français et en grec, accompagnée de quatre musiciens, et mêle musiques traditionnelles, jazz, rock et électro. Intime ou déchirante, puissante ou solaire, sa voix emporte tout sur son passage.\n\nUn concert généreux et vibrant, entre mélancolie et fête.",
+    "startDate": "2027-02-17",
+    "endDate": "2027-02-17",
+    "lat": 48.7734941,
+    "lng": 5.1648052,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/668944b9-ed21-33ea-8cc2-3edbf5c7e9f8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "estivales-du-kiosque",
     "name": "Estivales du kiosque",
     "city": "Saint-Avold",
@@ -361,6 +380,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "spectacle-ballet-de-lorraine",
+    "name": "Spectacle - Ballet de Lorraine",
+    "city": "Bar-le-Duc",
+    "region": null,
+    "description": "Danse électro / 1h10 / tout public\n\nQuel plaisir de retrouver le Ballet de Lorraine sur le grand plateau de l’acb, sous la direction de Maud Le Pladec ! Au programme : \"L’âge d’or\" de MazelFreten et \"Rave\", la pièce mythique de Karole Armitage. Deux chorégraphies qui font vibrer les corps au rythme de musiques puissantes et électrisantes.\n\nÉnergie brute, précision, intensité : une véritable fête de la danse, portée par les magnifiques danseur·euse·s du Ballet de Lorraine. Un feu d’artifice à ne pas manquer !",
+    "startDate": "2026-12-17",
+    "endDate": "2026-12-17",
+    "lat": 48.7734941,
+    "lng": 5.1648052,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/b214f598-dda9-334f-8047-fee84696c6b8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "electronest-club-1",
     "name": "Electronest Club #1",
     "city": "Metz",
@@ -475,6 +513,25 @@
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
+    "slug": "concert-z-f",
+    "name": "Concert - Z & F",
+    "city": "Bar-le-Duc",
+    "region": null,
+    "description": "Zister + Franck Vigroux / rap + électro \n\nQuand l’électronique expérimentale de Franck Vigroux rencontre le flow de Zister, figure montante du rap trap, ça promet de faire des étincelles ! Les deux artistes se sont rencontrés à Chicago et mêlent ici leurs univers pour inventer un live où beats, machines et voix se répondent sans frontières.\nUn projet qui bouscule les frontières et promet de faire trembler le grand plateau de l’acb !\n\nEn avant-première du festival Créactions",
+    "startDate": "2027-05-27",
+    "endDate": "2027-05-27",
+    "lat": 48.7734941,
+    "lng": 5.1648052,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/d4e2da86-2e69-3d6b-8a51-72badc0aa23c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-casa-la-rose",
     "name": "Concert – Casa La Rose",
     "city": "Blénod-lès-Pont-à-Mousson",
@@ -551,18 +608,18 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "spectacle-abysses",
-    "name": "Spectacle Abysses",
-    "city": "Basse-Ham",
+    "slug": "la-barmacie-en-musique",
+    "name": "La Barmacie en Musique",
+    "city": "Vaubecourt",
     "region": null,
-    "description": "Laissez-vous entraîner dans une extraordinaire odyssée au cœur des profondeurs marines avec « Abysse », un spectaculaire défilé lumineux imaginé par la Compagnie Remue Ménage. Au fil d’une déambulation féerique, méduses lumineuses, hippocampe géant, créatures marines fantastiques, échassiers et marionnettes monumentales prennent vie dans un univers où le ciel et la mer semblent se confondre. Porté par une création musicale originale mêlant percussions japonaises et sonorités électro, ce spectacle poétique et immersif émerveillera petits et grands.",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 49.3848742854696,
-    "lng": 6.22395255276491,
+    "description": "POLSËT est un duo qui mêle folk acoustique et électro atmosphérique pour proposer une musique poétique et festive, entre racines et voyage, portée par guitares, percussions tribales, nappes synthétiques et un chant envoûtant.\n\nFOODTRUCK Chez Patoch' + planches apéritives",
+    "startDate": "2026-09-19",
+    "endDate": "2026-09-19",
+    "lat": 48.935597,
+    "lng": 5.1116029,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/10/ea795a27-a589-30cd-8498-23fbda37f8cd"
+      "https://data.datatourisme.fr/10/e976bd66-b7ec-3ff1-9587-edf6a6a5e3fe"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -703,6 +760,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "soiree-dansante-le-hot-local-dj-skouss-set-house",
+    "name": "Soirée dansante : Le Hot Local – DJ SKOUSS, set house",
+    "city": "Marennes-Hiers-Brouage",
+    "region": null,
+    "description": "DJ SKOUSS, alias Louis Gillardeau, jeune talent de Marennes, prend les platines pour un set house : la scène locale de demain, à découvrir au plus près.",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-26",
+    "lat": 45.828161,
+    "lng": -1.096219,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/26c68a55-35ad-33e2-8d9a-60b28f722d29"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-daoud-mounam-eleves-de-jazz-action-valence",
     "name": "Concert : Daoud + Mounam + élèves de Jazz Action Valence",
     "city": "Romans-sur-Isère",
@@ -836,25 +912,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "dj-paul-404-la-sahunaise",
-    "name": "DJ Paul 404 (La Sahunaise)",
-    "city": "Sahune",
-    "region": null,
-    "description": "Electro Disco Groovy\r\nEnfant du pays et pur Sahunais, Paul est un amoureux de musiques électroniques qui joue à domicile. Sa mission : démocratiser le son qu'il aime et transformer la guinguette en dancefloor avec un mix Electro-Disco.",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 44.416857,
-    "lng": 5.27281,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/50486734-e3c7-3171-b72a-022a24155e98"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "mini-concert-shaker-dj-la-scandaleuse",
     "name": "Mini concert Shaker - DJ la Scandaleuse",
     "city": "Saint-Jean-en-Royans",
@@ -981,6 +1038,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/90717a6d-e388-3517-a3ad-196c1e987fbf"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "the-celtic-social-club-nott",
+    "name": "The Celtic social club + Nòtt",
+    "city": "Cluses",
+    "region": null,
+    "description": "The Celtic Social Club bouscule les codes en mélangeant les sonorités celtiques traditionnelles, le rock, la folk et même des touches d’électro. \r\nEn première partie, le duo indie folk-rock chambérien Nótt nous plongera dans leur univers musical envoutant.",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 46.070869,
+    "lng": 6.564328,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/9449f26c-445e-3ac2-9600-6f7e7459ce28"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1406,25 +1482,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "berry-social-club-35",
-    "name": "Berry Social Club #35",
-    "city": "Morogues",
-    "region": null,
-    "description": "Berry Social Club #35 vous donne rendez-vous à Morogues avec une soirée entre rock’n’techno, dub instrumental et hard techno au Chezal Masseron.",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 47.276148,
-    "lng": 2.563987,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/e859dfbd-a0cb-307a-8bb3-e6946d427dfa"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "nirmata-chill-live",
     "name": "Nirmata • “CHILL & LIVE”",
     "city": "Tours",
@@ -1594,44 +1651,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "annule-festival-aft-air-sound-soiree-electro",
-    "name": "ANNULÉ- Festival \"Aft'air Sound\"- Soirée électro",
-    "city": "Pau",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 43.3345287,
-    "lng": -0.3739653,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/1fe27de5-35bd-3230-ba38-3bebbe0724fd"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "tropicool-party-8eme-edition",
-    "name": "Tropicool Party 8ème édition",
-    "city": "Daglan",
-    "region": null,
-    "description": "TROPICOOL Party#8 : Daglan va vibrer le 5 septembre 2026!\nUne soirée unique, une programmation explosive, une énergie collective\nUne programmation entre poésie, dub, trance et electro 06 43 57 93 42",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 44.73797,
-    "lng": 1.19656,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/39405b17-79cb-38dd-ba4a-8eec42176fe0"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "repas-dansant-annees-80",
@@ -2280,25 +2299,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "zik-o-matz-festival",
-    "name": "Zik O' Matz Festival",
-    "city": "Ressons-sur-Matz",
-    "region": null,
-    "description": "Ressons-sur-Matz et le Pays des Sources s’apprêtent à vivre d’un des temps forts de sa rentrée culturelle !\n\nLa première édition du Zik O’Matz Festival transformera le Centre de Culture et de Loisirs en véritable village musical à ciel ouvert avec deux scènes en plein air, garantissant une qualité sonore et visuelle digne des grands rendez-vous estivaux.\n\nLa programmation mêlera groupes amateurs et formations professionnelles, reflétant la diversité de la scène actuelle aux couleurs du Reggae, du Rock 70’s, de la new wave, de la power soul, du rock alternatif et de la bass house.\n\nBuvette, food-trucks variés.\n\nUne grille de tarifs progressifs est proposée selon la date de réservation.\nLe prix du billet est donc en fonction de l’anticipation des participants.",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 49.5373162,
-    "lng": 2.7536583,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/d58f9dd8-34cc-34d6-912f-ae0a8e9fe70b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
     "slug": "concert-joe-yorke-la-lune-des-pirates",
     "name": "CONCERT : Joe Yorke - La Lune des Pirates",
     "city": "Amiens",
@@ -2546,25 +2546,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "guinguette-electro-by-senary-5",
-    "name": "Guinguette Electro by Senary #5",
-    "city": "Mondeville",
-    "region": null,
-    "description": "Le Bois du Biez accueille la cinquième édition de la Guinguette Electro by Senary. Au programme : des DJ sets de musique électronique dans une ambiance festive et conviviale, accompagnés de stands, d’un bar et d’une offre de restauration sur place.",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 49.178095,
-    "lng": -0.312192,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/c9865280-7e99-37c5-83d1-493ea02c0a54"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "octobre-rose-soiree-disco",
     "name": "Octobre Rose - Soirée Disco",
     "city": "Villefranche-de-Rouergue",
@@ -2622,25 +2603,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-bass-yard-session",
-    "name": "CONCERT \"BASS YARD SESSION\"",
-    "city": "Bezins-Garraux",
-    "region": null,
-    "description": "Peuneu Selectah / Xufasound  + Game over selectors + Mista T Chalice sound\nReggae, dub, roots, dancehall, rap, jungle & +",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-05",
-    "lat": 42.93283,
-    "lng": 0.69048,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/33/d3335375-c144-3a83-badc-e6f1e161f24a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "pyrenees-reggae-dub-fest-3",
     "name": "Pyrénées reggae dub fest #3",
     "city": "Esbareich",
@@ -2677,25 +2639,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "festival-electro-corner",
-    "name": "Festival Electro Corner",
-    "city": "Maubourguet",
-    "region": null,
-    "description": "Le son monte. Les lumières s’allument. La nuit commence. Electro Corner revient aux arènes pour une 4e édition placée sous le signe du groove et de la techno. \n\n🎶 Vendredi 4 septembre – La Nuit du Groove\nDe 18h à 2h, laissez-vous porter par une programmation house groovy.\nDeep House · Tech House · Groove : Machines chaudes, montée patiente, groove organique. La nuit qui te prend par la main.\n\n⚡Samedi 5 septembre – La Nuit Techno\nRendez-vous à partir de 14h pour une journée et une nuit consacrées à la techno, avec une programmation internationale et des artistes reconnus de la scène électronique.\nTechno · Live Techno : La nuit bascule, techno, live techno, jusqu'au bout.\n\n🎧 Le line-up complet\nSmall Ewok\nGuyohm\nStenman\nEvan Bell\nDeep Brothers\nClément Ley\nMax Muller B2B Nikko\nLo Pagani\nDJ Pierre – Fuse Bruxelles\nScan X Live – F-Communications\n\n🍔 Food trucks et buvettes seront présents sur place pour profiter pleinement du festival.\n🚐 Parking et camping gratuits.",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-05",
-    "lat": 43.469563,
-    "lng": 0.03945668,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/cd61ea7b-ef78-3700-bd92-fa10c6acd303"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
     "slug": "spectacle-dire-et-lire-a-l-air",
@@ -3458,6 +3401,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "dub-to-jungle",
+    "name": "Dub to jungle",
+    "city": "Saint-Sauveur-en-Puisaye",
+    "region": null,
+    "description": "",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 47.61411,
+    "lng": 3.21349,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/6/7cd32733-6384-32a5-b73a-b3ae371adecb"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "silent-disco",
     "name": "Silent Disco",
     "city": "Auxerre",
@@ -3738,69 +3700,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2486660"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "exb-festival-16e-edition-open-air",
-    "name": "EXB festival 16e édition - OPEN AIR",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2511130",
-    "lineup": [
-      "Lude (2)",
-      "Zhar",
-      "1client",
-      "Justine Maze",
-      "Mute",
-      "Mister Natasha",
-      "Perruche",
-      "Wolves (1)",
-      "Tal Stef"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2511130"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "park-n-sound-opening-2026-open-air-gratuit",
-    "name": "Park'n'Sound Opening 2026 — Open Air Gratuit",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2504351",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2504351"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "open-air-everybody-trance",
-    "name": "𖣘 OPEN AIR 𖣘 Everybody Trance",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516419",
-    "lineup": [
-      "Mariiin"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2516419"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4428,214 +4327,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "erreur-de-jeunesse-x-with-us",
-    "name": "ERREUR DE JEUNESSE X WITH US",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2514581",
-    "lineup": [
-      "NEGRACONDA",
-      "Albal",
-      "Juguete",
-      "Cici That Walk",
-      "Julie Desire",
-      "Thérapie de Club"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2514581"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "raw-perc-schacke-obscure-shape-b2b-alex-nantaya-blame-the-mono-mza",
-    "name": "RAW • Perc, Schacke, Obscure Shape B2B Alex Nantaya, Blame The Mono, MZA",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2494612",
-    "lineup": [
-      "Perc",
-      "Schacke",
-      "Obscure Shape",
-      "Alex Nantaya",
-      "Blame The Mono",
-      "MZA (FR)"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2494612"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "discovery-weekender-04-05-septembre-2026",
-    "name": "DISCOvery Weekender 04 & 05 septembre 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2471509",
-    "lineup": [
-      "Young Pulse",
-      "Mark Grusane",
-      "Red Greg",
-      "Rebecca Vasmant",
-      "Donna Gibson",
-      "Chris Wheatley"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2471509"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "cafe-croissant-september-open-air-anthea-giammarco-orsini",
-    "name": "Café Croissant - September open-air: Anthea, Giammarco Orsini",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516809",
-    "lineup": [
-      "Anthea",
-      "Giammarco Orsini",
-      "Alyhas"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2516809"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-janein-daher-more",
-    "name": "After O'clock X La Plage Open Air: JANEIN, Daher & More",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2525205",
-    "lineup": [
-      "Dialectics",
-      "JANEIN"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2525205"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "open-air-dub-delights-001-daytime-party",
-    "name": "OPEN AIR ~ DUB DELIGHTS #001 (DAYTIME PARTY)",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2507637",
-    "lineup": [
-      "Hewan Aman",
-      "Tangela",
-      "Christian Coiffure",
-      "Elvira (1)"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2507637"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "la-rentree-nowadays-open-air-club-xxl",
-    "name": "La rentrée Nowadays Open Air & Club XXL",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2494497",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2494497"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "open-air-coucool-x-corps-libres",
-    "name": "open air Coucool x Corps Libres",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2523542",
-    "lineup": [
-      "Groove",
-      "After X"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2523542"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "festival-ito-2026-la-giga-recre",
-    "name": "Festival(ito) 2026: La giga récré",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2513834",
-    "lineup": [
-      "Lorenzi (2)"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2513834"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "open-air-party-mini-festival",
-    "name": "Open Air Party - Mini Festival",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2526768",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2526768"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "after-o-clock-x-la-plage-open-air-audio-units-rrose-selavy-b2b-maast",
     "name": "After O'clock X La Plage Open Air: Audio Units, Rrose Sélavy B2B Maast",
     "city": null,
@@ -5071,6 +4762,107 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
+    "name": "Circulaires Radio Campus Paris: Vice Experience x Festival Printemps des Humanités",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525133",
+    "lineup": [
+      "Vice Experience"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2525133"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "open-air-who-runs-the-decks-by-kumo",
+    "name": "Open air - Who Runs The Decks!? By Kumo",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2526194",
+    "lineup": [
+      "Stanislawa",
+      "Shfoosja"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2526194"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "sauvage-w-offshore",
+    "name": "¡Sauvage W/Offshore",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529483",
+    "lineup": [
+      "Art of Tones",
+      "Young Pulse",
+      "Tour-Maubourg",
+      "PEPIITA",
+      "BAB MUSIQUE",
+      "Vickies"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529483"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-keepsakes-ombrar-tina-tornade",
+    "name": "After O'clock X La Plage Open Air: Keepsakes, OMBRAR & Tina Tornade",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-20",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525975",
+    "lineup": [
+      "Keepsakes",
+      "Tina Tornade",
+      "OMBRAR"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2525975"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "saazbuzz-jazz-festival",
+    "name": "SaazBuzz Jazz Festival",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-23",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2513280",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2513280"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "maintenant-festival-2026",
     "name": "Maintenant Festival 2026",
     "city": null,
@@ -5163,23 +4955,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "vezania-festival-2",
-    "name": "Vezania Festival 2",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2514433",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2514433"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "bordeaux-open-air-parc-treulon",
     "name": "Bordeaux Open Air - Parc Treulon",
     "city": null,
@@ -5199,6 +4974,23 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "vezania-festival-2",
+    "name": "Vezania Festival 2",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2514433",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2514433"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
   },
   {
     "slug": "romance-aux-jardins-psychedelic-open-air",
@@ -5312,45 +5104,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2440892"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "festival-electro-corner-2026",
-    "name": "Festival Electro Corner 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2515432",
-    "lineup": [
-      "Scan X",
-      "Pierre",
-      "Lö Pagani",
-      "GuyOhm"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2515432"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "open-air-turbulences",
-    "name": "Open Air: TURBULENCES",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2513311",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2513311"
     ],
     "status": "announced",
     "needsReview": true,
