@@ -190,25 +190,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "estivales-du-kiosque",
-    "name": "Estivales du kiosque",
-    "city": "Saint-Avold",
-    "region": null,
-    "description": "Vous ne savez pas quoi faire le dimanche après-midi ? Venez découvrir des groupes dans un jolie cadre naturel. \nAu programme : \n- le 21 juin : M.Road (Pop- Rock, Blues) \n- le 28 juin : Slinkysboys (celtique festif) \n\nJUILLET : \n- le 05 juillet : Les Sisters Hearts (variétés internationales, pop et soul) \n- le 12 juillet : Bonsoir Paris (Pop-Rock) \n- le 14 juillet : Refuge (variétés françaises et italiennes, pop rock)\n- le 19 juillet : Valent'1 (variétés françaises et internationales)\n- le 26 juillet : Cédric Kopf (variétés françaises et allemandes, disco, tango et samba)\n\nAOÛT : \n- le 02 août : Crystal Noir (variétés internationales, pop, soul et reggae)\n- le 09 août : Pole position (variétés internationales et danses de salon\n- le 15 août : Grain de sel (variétés françaises et internationales \n- le 16 août : Loou and the loops (Rock, Blues et pop)\n- le 23 août : Ben'z\n- le 30 août : Decib'Hells (Pop Rock)\n\nSEPTEMBRE: \n- le 06 septembre : Harmonie de Saint-Avold\nRestauration et buvette sur place.",
-    "startDate": "2026-09-06",
-    "endDate": "2026-09-06",
-    "lat": 49.1009390610968,
-    "lng": 6.70990836004945,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/69828e3c-943f-3edb-8dc8-6134beec436e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-marcia",
     "name": "Concert Marcia",
     "city": "Épinal",
@@ -335,25 +316,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/8fdb3616-a7b1-324c-8d10-f6d4a5393cdd"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "foire-aux-disques",
-    "name": "Foire aux disques",
-    "city": "Metz",
-    "region": null,
-    "description": "Considérée comme l’une des plus belles foires aux disques de France, la Foire aux Disques de Metz revient cette année encore dans le cadre exceptionnel de la Place Saint-Louis.\nOrganisée par l’association Mets des Disques et La Face Cachée, en partenariat avec Radio Nostalgie, elle réunira plus de 50 exposants, venus de toute la France mais également de plusieurs pays européens.\nSous les arcades et sur les pavés de la place, les visiteurs pourront découvrir des milliers de références : vinyles, CD, DVD, affiches, livres musicaux, goodies, objets de collection, raretés, pressages recherchés et disques à petits prix.\nRock, pop, jazz, soul, funk, punk, métal, électro, musiques de films, chanson, musiques du monde… il y en aura pour tous les goûts, du simple curieux au collectionneur averti.\nUne journée entièrement consacrée à la musique, à la découverte et aux rencontres, au cœur du centre historique de Metz.",
-    "startDate": "2026-09-06",
-    "endDate": "2026-09-06",
-    "lat": 49.11648,
-    "lng": 6.178848,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/a58a485c-88a1-3c5c-b57d-28726dddb736"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1556,6 +1518,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "festival-resurgence-x-conference-art-et-technologie",
+    "name": "Festival Résurgence X - Conférence \"Art et technologie\"",
+    "city": "Pinsac",
+    "region": null,
+    "description": "<p>Le travail collectif, le partage de savoir-faire, l’émancipation par la pratique sont des principes défendus par certains artistes actuels qui utilisent les technologies dans leurs œuvres</p><p>À travers différents projets utilisant les technologies numériques (programmation informatique, électronique, robotique etc.), Quentin Destieu cherchera à identifier les liens qui unissent les créateurs à certains mouvements de contre-culture numériques : mouvement hacker, Do it yourself, et l’Open source</p><p>L’analyse de leurs démarche permettra de mettre en avant et de comprendre des questionnements faisant référence à un mouvement qui tend à s’émanciper du discours techno-libéral dominant, en renouant avec les enjeux de certaines</p><p>avant-gardes artistiques du siècle dernier</p><p>Quentin Destieu, artiste, est co-fondateur de La Pouponnière à Cahors, un lieu collectif de création artistique contemporaine",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-13",
+    "lat": 44.8555,
+    "lng": 1.51487,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/22/362c9d78-a558-3cd7-803a-86c24bf145cf"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "l-orange-fluo-presente-june-bug",
@@ -3249,6 +3230,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "saison-cerdane-sous-la-surface-delf-musique-actuelle",
+    "name": "SAISON CERDANE - SOUS LA SURFACE - DELF: MUSIQUE ACTUELLE",
+    "city": "Saillagouse",
+    "region": null,
+    "description": "Une soirée à l’univers pop et électro avec une narration qui fait voyage au cœur des émotions.\n\nMUSIQUE \n\nVendredi 9 octobre 20h30 - Médiathèque – Saillagouse\n  \nSOUS LA SURFACE - DELF\n\nAuteure, compositrice, interprète, Delf trace sa route entre émo...",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-09",
+    "lat": 42.4577408,
+    "lng": 2.0384848,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/56/c5ad4ce7-6281-383f-b6b1-aaf987d7d8c0"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "circa-137-electro-jazz",
     "name": "Circa 137 (électro jazz)",
     "city": "Marseille 2e Arrondissement",
@@ -3574,23 +3574,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "au-creux-du-chene-tanso-festival-2026",
-    "name": "Au Creux Du Chêne - Tanso Festival 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2410185",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2410185"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "moga-essaouira-2026",
     "name": "Moga Essaouira 2026",
     "city": null,
@@ -3867,26 +3850,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "rooftop-session-happiness-therapy-x-mob-hotel-open-air-gratuit",
-    "name": "Rooftop Session: Happiness Therapy x MOB Hotel [Open Air Gratuit]",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2522774",
-    "lineup": [
-      "Maggy Smiss",
-      "Crowd Control"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2522774"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "ouroboros-festival-2026",
@@ -4277,34 +4240,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "braderie-2026-weekender",
-    "name": "Braderie 2026 Weekender",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2512541",
-    "lineup": [
-      "Thibbv",
-      "Miroloja",
-      "Yamos",
-      "Walid",
-      "Rocta",
-      "Adema",
-      "Amin",
-      "Lowris",
-      "Omar Khe",
-      "Miss Noa"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2512541"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "paloma-festival-2026",
     "name": "Paloma Festival 2026",
     "city": null,
@@ -4325,62 +4260,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-audio-units-rrose-selavy-b2b-maast",
-    "name": "After O'clock X La Plage Open Air: Audio Units, Rrose Sélavy B2B Maast",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2518557",
-    "lineup": [
-      "Audio Units",
-      "Rrose Sélavy"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2518557"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "la-mona-dimanche-open-air-au-canal-barboteur",
-    "name": "La Mona Dimanche Open Air au Canal Barboteur",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2525989",
-    "lineup": [
-      "Nick V"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2525989"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "deep-sunday-rooftop-party",
-    "name": "Deep Sunday Rooftop Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2527900",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2527900"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "virage-presente-jump-source-live-hors-sol-dj-act-nesa-azadikhah-katia-curie",
@@ -4863,6 +4742,27 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "open-herbe-14h-rooftop-party",
+    "name": "OPEN HERBE - 14H ROOFTOP PARTY",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2517434",
+    "lineup": [
+      "Dielli",
+      "Pontcho",
+      "Longneck"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2517434"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "maintenant-festival-2026",
     "name": "Maintenant Festival 2026",
     "city": null,
@@ -4911,30 +4811,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "subside-festival",
-    "name": "Subside Festival",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2493375",
-    "lineup": [
-      "Roots I-vories",
-      "Radikal Vibration (2)",
-      "Soul Vibes",
-      "IMA:R",
-      "Nins OHM Sound",
-      "High Budub Sound"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2493375"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
     "name": "OPEN AIR: FLOWER NATION by Dusty Nation & La Butinerie",
     "city": null,
@@ -4953,44 +4829,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "bordeaux-open-air-parc-treulon",
-    "name": "Bordeaux Open Air - Parc Treulon",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2509110",
-    "lineup": [
-      "Maison Blanche",
-      "Nightchou",
-      "Young Pulse"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2509110"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "vezania-festival-2",
-    "name": "Vezania Festival 2",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2514433",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2514433"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
   },
   {
     "slug": "romance-aux-jardins-psychedelic-open-air",
