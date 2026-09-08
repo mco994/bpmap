@@ -95,6 +95,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "electronest-festival",
+    "name": "Electronest Festival",
+    "city": "Metz",
+    "region": null,
+    "description": "Une première à Metz ! Une seule nuit. Dix heures de musique électronique. Electronest signe l'arrivée du premier grand festival de musiques électroniques à Metz.\n\nDe 20h à 5h, artistes émergents du Grand Est, talents locaux et têtes d'affiche internationales se succèdent pour une nuit où l'intimité de la culture club rencontre la puissance d'une grande salle.Pensé comme un voyage musical all night long, Electronest fait monter la tension heure après heure jusqu'au dernier morceau. Une nuit pour découvrir, danser, vibrer et partager une même énergie. Parce que certaines émotions ne se racontent pas : elles se vivent.\n\nDepuis plus d'une décennie, @fjaak duo venu de Berlin, s'est imposé sur les plus grandes scènes électroniques du monde, du Berghain aux plus grands festivals techno et électroniques internationaux. Leur réputation est simple : des sets intenses, physiques et sans temps mort, pensés pour faire monter un dancefloor jusqu'au bout de la nuit.\nIls seront à Metz pour la première fois.\nEt FJAAK n'est que le début. D'autres noms arrivent très bientôt.",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 49.1089036942235,
+    "lng": 6.18404746055603,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/20af72ba-b57c-3260-a5df-71c1561b90a9"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "doublon (déjà en base)"
+  },
+  {
     "slug": "concert-boneym",
     "name": "Concert - BoneyM",
     "city": "Vandœuvre-lès-Nancy",
@@ -2831,6 +2850,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "system-b",
+    "name": "System B",
+    "city": "Rethel",
+    "region": null,
+    "description": "Concert rock électro gratuit et interactif avec les clients ! Barnum prévu pour les clients sur le parking et places climatisées à l’intérieur. Le groupe occupera toute la terrasse. System B a participé, entre autres, au Printemps de Bourges. Sur place, Un Truck de Food pour vous régaler avec ses gourmands burgers à prix unique et ses frites fraîches. 15 becs à bières artisanales à la pression...",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 49.50324,
+    "lng": 4.364669,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/42/b8206ba7-8cf3-398a-9713-eed28eacf5e7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "danse-matiere-s-premiere-s",
     "name": "Danse - Matière(s) première(s)",
     "city": "Charleville-Mézières",
@@ -4179,6 +4217,23 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "pass-dreamachine-festival",
+    "name": "Pass Dreamachine Festival",
+    "city": null,
+    "region": null,
+    "startDate": "2026-11-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2531187",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2531187"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "dreamachine-festival-petit-cab",
     "name": "Dreamachine Festival @ Petit Cab",
     "city": null,
@@ -4304,6 +4359,31 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2498403"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "volatil-8-years",
+    "name": "Volatil 8 Years",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2531184",
+    "lineup": [
+      "Blinkduus Dischetto (2)",
+      "Hicham",
+      "Josefina Tapia",
+      "Seabra",
+      "Delskiz",
+      "Venetia",
+      "Von Riu"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2531184"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4641,6 +4721,30 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "sauvage-w-offshore",
+    "name": "¡Sauvage W/Offshore",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529483",
+    "lineup": [
+      "Art of Tones",
+      "Young Pulse",
+      "Tour-Maubourg",
+      "PEPIITA",
+      "BAB MUSIQUE",
+      "Vickies"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529483"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
     "name": "Circulaires Radio Campus Paris: Vice Experience x Festival Printemps des Humanités",
     "city": null,
@@ -4680,30 +4784,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "sauvage-w-offshore",
-    "name": "¡Sauvage W/Offshore",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529483",
-    "lineup": [
-      "Art of Tones",
-      "Young Pulse",
-      "Tour-Maubourg",
-      "PEPIITA",
-      "BAB MUSIQUE",
-      "Vickies"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529483"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "after-o-clock-x-la-plage-open-air-keepsakes-ombrar-tina-tornade",
     "name": "After O'clock X La Plage Open Air: Keepsakes, OMBRAR & Tina Tornade",
     "city": null,
@@ -4725,6 +4805,27 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "inka-trip-to-ibiza-open-air-mini-festival-edition",
+    "name": "Inka Trip To Ibiza - Open Air (Mini Festival Edition)",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-20",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2530909",
+    "lineup": [
+      "Bigstate",
+      "Catsinka",
+      "Gostoso"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2530909"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "saazbuzz-jazz-festival",
     "name": "SaazBuzz Jazz Festival",
     "city": null,
@@ -4740,27 +4841,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "open-herbe-14h-rooftop-party",
-    "name": "OPEN HERBE - 14H ROOFTOP PARTY",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2517434",
-    "lineup": [
-      "Dielli",
-      "Pontcho",
-      "Longneck"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2517434"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "maintenant-festival-2026",
