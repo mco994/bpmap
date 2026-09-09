@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-09-09:fort-decibel:removed",
+    "festivalId": "fort-decibel",
+    "festivalSlug": "fort-decibel",
+    "festivalName": "Fort Décibel Festival",
+    "type": "removed",
+    "date": "2026-09-09",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-09:ecume-festival:removed",
+    "festivalId": "ecume-festival",
+    "festivalSlug": "ecume-festival",
+    "festivalName": "Écume Festival",
+    "type": "removed",
+    "date": "2026-09-09",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-09-03:little-festival:removed",
     "festivalId": "little-festival",
     "festivalSlug": "little-festival",

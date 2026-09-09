@@ -194,7 +194,7 @@
     "name": "Concert - Dafné Kritharas",
     "city": "Bar-le-Duc",
     "region": null,
-    "description": "concert : world pop / concert chansigné !\n\nUne voix qui traverse les frontières, un répertoire qui voyage entre la Grèce, l’Anatolie et la Méditerranée. Dafné Kritharas chante en français et en grec, accompagnée de quatre musiciens, et mêle musiques traditionnelles, jazz, rock et électro. Intime ou déchirante, puissante ou solaire, sa voix emporte tout sur son passage.\n\nUn concert généreux et vibrant, entre mélancolie et fête.",
+    "description": "Concert : world pop / concert chansigné !\n\nUne voix qui traverse les frontières, un répertoire qui voyage entre la Grèce, l’Anatolie et la Méditerranée. Dafné Kritharas chante en français et en grec, accompagnée de quatre musiciens, et mêle musiques traditionnelles, jazz, rock et électro. Intime ou déchirante, puissante ou solaire, sa voix emporte tout sur son passage.\n\nUn concert généreux et vibrant, entre mélancolie et fête.",
     "startDate": "2027-02-17",
     "endDate": "2027-02-17",
     "lat": 48.7734941,
@@ -1938,6 +1938,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "saison-culturelle-klt-alice-chahbazian-a-new-dawn-release-party",
+    "name": "Saison culturelle // Klt + Alice Chahbazian : A new dawn (release party)",
+    "city": "Capbreton",
+    "region": null,
+    "description": "Après six années de complicité artistique, ce quatrième album intitulé A New Dawn marque une nouvelle étape pour le trio, rejoint par la prodigieuse Alice Chahbazian, chanteuse et musicienne. Ensemble, ils nous livrent une soul moderne, nourrie de leurs influences jazz, hip-hop, électro et pop...",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-25",
+    "lat": 43.6411285,
+    "lng": -1.4327939,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/f45ef43a-741a-30c1-a018-3cb51a7bc089"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "halloween-party-dans-le-village-de-duras",
     "name": "Halloween party dans le village de Duras",
     "city": "Duras",
@@ -3059,6 +3078,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "dub-impakt-4",
+    "name": "DUB IMPAKT #4",
+    "city": "Saint-Brevin-les-Pins",
+    "region": null,
+    "description": "",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-26",
+    "lat": 47.23646,
+    "lng": -2.15601,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/7429db67-9ad9-34bf-ad30-dcb3e2dc242e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "royal-ballet-opera-au-cinema-casse-noisette",
     "name": "Royal Ballet & Opera au cinéma - CASSE-NOISETTE",
     "city": "Pouzauges",
@@ -3337,25 +3375,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/58/cd712fe3-0500-351b-a8df-44fe1163cad9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "tournee-d-ete-la-marseillaise-france-bleu",
-    "name": "Tournée d'été La Marseillaise - France Bleu",
-    "city": "Port-de-Bouc",
-    "region": null,
-    "description": "A partir de 20h30 : concert gratuit\r\nMusique, chanson et grosse fiesta seront au rendez-vous de cette nouvelle édition, plus que quatre heures de Funky Disco Music !",
-    "startDate": "2027-08-01",
-    "endDate": "2027-08-01",
-    "lat": 43.401537,
-    "lng": 4.979917,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/eca4ed48-7814-3869-b648-8530f5687073"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3825,8 +3844,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "klub-camina-zenker-brothers-4hs-set-itaho-pacome-orzi-euromax-dj-jeanneto",
-    "name": "KLUB CAMINA [Zenker Brothers (4hs set), Itaho & Pacôme Orzi, EUROMAX DJ, JeanneTo]",
+    "slug": "kc-zenker-brothers-itaho-pacome-orzi-euromax-dj-jeanneto",
+    "name": "KC [Zenker Brothers • Itaho & Pacôme Orzi • EUROMAX DJ • JeanneTo]",
     "city": null,
     "region": null,
     "startDate": "2026-09-26",
@@ -3888,6 +3907,23 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "eyeland-festival-guadeloupe",
+    "name": "Eyeland Festival Guadeloupe",
+    "city": null,
+    "region": null,
+    "startDate": "2026-12-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2532230",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2532230"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
   },
   {
     "slug": "ouroboros-festival-2026",
@@ -4317,6 +4353,23 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "trocadero-summer-club-open-air-party",
+    "name": "Trocadero Summer Club — open air party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2532324",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2532324"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "virage-presente-jump-source-live-hors-sol-dj-act-nesa-azadikhah-katia-curie",
     "name": "Virage Présente : Jump Source (live), HORS-SOL (DJ act), Nesa Azadikhah, Katia Curie",
     "city": null,
@@ -4545,7 +4598,8 @@
     "lineup": [
       "Camion Bazar",
       "Jacky Jeane",
-      "H2O"
+      "H2O",
+      "Lou"
     ],
     "genreVerified": true,
     "sources": [
@@ -4556,8 +4610,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "rooftop-edition-paris",
+    "name": "Rooftop Edition Paris",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2532396",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2532396"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "after-o-clock-x-la-plage-open-air-eloisa-ultranouk-more",
-    "name": "After O'clock X La Plage Open Air: ELOISA, Ultranoük & More",
+    "name": "After O'clock X La Plage Open Air: ELOISA, ULTRANÖUK & More",
     "city": null,
     "region": null,
     "startDate": "2026-09-13",
@@ -4575,6 +4646,23 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "deep-sunday-rooftop-party",
+    "name": "Deep Sunday Rooftop Party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-13",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2532345",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2532345"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "club-la-ch-ck-tumblr-rave",
@@ -4721,30 +4809,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "sauvage-w-offshore",
-    "name": "¡Sauvage W/Offshore",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529483",
-    "lineup": [
-      "Art of Tones",
-      "Young Pulse",
-      "Tour-Maubourg",
-      "PEPIITA",
-      "BAB MUSIQUE",
-      "Vickies"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529483"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
     "name": "Circulaires Radio Campus Paris: Vice Experience x Festival Printemps des Humanités",
     "city": null,
@@ -4778,6 +4842,30 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2526194"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "sauvage-w-offshore",
+    "name": "¡Sauvage W/Offshore",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529483",
+    "lineup": [
+      "Art of Tones",
+      "Young Pulse",
+      "Tour-Maubourg",
+      "PEPIITA",
+      "BAB MUSIQUE",
+      "Vickies"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529483"
     ],
     "status": "announced",
     "needsReview": true,
