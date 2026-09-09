@@ -26,7 +26,7 @@
     "@bpmap/shared": "*",
     "@vercel/firewall": "^1.2.1",
     "adm-zip": "^0.5.17",
-    "maplibre-gl": "^5.24.0",
+    "maplibre-gl": "^6.4.1",
     "next": "16.2.12",
     "pg": "^8.21.0",
     "react": "19.2.3",
