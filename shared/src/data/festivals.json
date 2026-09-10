@@ -30,130 +30,6 @@
     ]
   },
   {
-    "id": "les-plages-electroniques",
-    "slug": "les-plages-electroniques",
-    "name": "Les Plages Électroniques",
-    "description": "Festival électro fêtant ses 20 ans sur la plage du Palais des Festivals à Cannes, avec une affiche XXL techno, house et grand public. Plus de 120 artistes sur plusieurs scènes face à la Méditerranée, avec afters dédiés.",
-    "startDate": "2026-08-07",
-    "endDate": "2026-08-09",
-    "lat": 43.55547,
-    "lng": 7.00458,
-    "city": "Cannes",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "organizer": "Panda Events",
-    "capacity": 60000,
-    "genres": [
-      "house",
-      "techno",
-      "edm",
-      "electro"
-    ],
-    "priceDay": 66,
-    "priceFull": 163,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://www.plages-electroniques.com/",
-    "status": "confirmed",
-    "lineup": [
-      "DJ Snake",
-      "Martin Garrix",
-      "Marshmello",
-      "Amelie Lens",
-      "PLK",
-      "Mosimann",
-      "Nico Moreno",
-      "Vladimir Cauchemar",
-      "Sonny Fodera",
-      "Maceo Plex",
-      "Mind Against",
-      "Ben Sterling",
-      "Mathame",
-      "Pardon My French",
-      "Alignment",
-      "Clara Cuvé",
-      "Interplanetary Criminal",
-      "Djudah",
-      "Lachica",
-      "Roüge",
-      "Venga",
-      "Yasmin Regisford"
-    ],
-    "sources": [
-      "https://www.plages-electroniques.com/en/"
-    ]
-  },
-  {
-    "id": "nous-festival",
-    "slug": "nous-festival",
-    "name": "NOUS Festival",
-    "description": "Festival intimiste au Château de Bellocq, en Béarn : trois jours, trois scènes et plus de 25 artistes basques, français et internationaux, dans un esprit de joie collective.",
-    "startDate": "2026-08-07",
-    "endDate": "2026-08-09",
-    "lat": 43.51786,
-    "lng": -0.91958,
-    "city": "Bellocq",
-    "region": "Nouvelle-Aquitaine",
-    "organizer": null,
-    "capacity": 1000,
-    "genres": [
-      "techno",
-      "house",
-      "electro",
-      "ambient",
-      "dub"
-    ],
-    "priceDay": 29,
-    "priceFull": 50,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://nous-festival.com/",
-    "status": "confirmed",
-    "lineup": [
-      "Red Axes",
-      "Kalipo",
-      "Simple Symmetry",
-      "Joe Lewandowski",
-      "Coque Freedonia",
-      "Chris Gavin",
-      "Martin Noise",
-      "Bizarre Billy",
-      "Armela",
-      "Amina",
-      "Santy Le Funke",
-      "Bass-Ka"
-    ],
-    "sources": [
-      "https://nous-festival.com/"
-    ]
-  },
-  {
-    "id": "garten-on-the-beach",
-    "slug": "garten-on-the-beach",
-    "name": "Gärten on the Beach",
-    "description": "Festival électro open air à l'hippodrome de Clairefontaine, près de Deauville : techno et house sur la côte normande.",
-    "startDate": "2026-08-08",
-    "endDate": "2026-08-09",
-    "lat": 49.31918,
-    "lng": 0.07485,
-    "city": "Tourgéville",
-    "region": "Normandie",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "techno",
-      "house"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://www.garten-onthebeach.fr/",
-    "status": "confirmed",
-    "sources": [
-      "https://www.garten-onthebeach.fr/"
-    ]
-  },
-  {
     "id": "positiv-festival",
     "slug": "positiv-festival",
     "name": "Positiv Festival",
@@ -1406,14 +1282,15 @@
       "electro",
       "house"
     ],
-    "priceDay": 20,
+    "priceDay": 27,
     "priceFull": null,
     "currency": "EUR",
     "ticketUrl": "https://shotgun.live/en/festivals/electronest-2026",
     "officialUrl": "https://electronest-festival.com/",
     "status": "confirmed",
     "lineup": [
-      "FJAAK"
+      "FJAAK",
+      "Jen Cardini"
     ],
     "sources": [
       "https://electronest-festival.com/",
