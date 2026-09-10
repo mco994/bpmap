@@ -57,6 +57,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-decentralise-du-nancy-jazz-pulsations-james-baker",
+    "name": "Concert décentralisé du Nancy Jazz Pulsations - James Baker",
+    "city": "Mirecourt",
+    "region": null,
+    "description": "Concert décentralisé du Nancy Jazz Pulsations - James Baker\nÀ 24 ans, James Baker trace un chemin singulier dans la nouvelle scène musicale française. Originaire de la banlieue parisienne, cet artiste autodidacte mêle indie pop, rock alternatif, électro et rap. Auteur, compositeur, interprète et producteur, il façonne chaque recoin de son univers, nourri par un imaginaire très visuel. Plus que de simples morceaux, ses titres racontent des histoires, influencées par son amour du cinéma. Son prochain projet, Romy Rose, s’inspire du film Eternal Sunshine of the Spotless Mind. Ce double EP conceptuel, aux accents pop mélancoliques et électro, puise dans des influences comme Djo, Fontaines D.C., Daft Punk ou The Strokes. Il y explore mémoire, désir d’effacement et résilience émotionnelle. Avec une sensibilité brute, James Baker questionne le déni, l’amour et l’identité. Chaque morceau agit comme une scène trouble et sincère, fidèle à une vision artistique qui préfère la vérité au confort.\nBilletterie en ligne en cliquant sur le lien réserver ou à l'Office de Tourisme de Mirecourt et ses environs \nOrganisé par la Ville de Mirecourt",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "lat": 48.3000418,
+    "lng": 6.1327395,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/18861b2f-08ea-34ed-aa13-7caf324c5dc0"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "concert-mania-the-abba-tribute",
     "name": "Concert - Mania The Abba Tribute",
     "city": "Maxéville",
@@ -703,6 +722,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "dub-meeting-47",
+    "name": "Dub'Meeting #47",
+    "city": "Valence",
+    "region": null,
+    "description": "Du lourd pour débuter cette nouvelle saison des Dub Meeting au Mistral Palace, avec la venue exceptionnelle de Craigy Wonder du Mungo’s Hi-Fi !\r\nCB et bar sur place, pas de restauration.",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-03",
+    "lat": 44.928898,
+    "lng": 4.891791,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/16d142b4-205b-32fa-abdc-d2d07979bfda"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-dub-a-the-roof-vercors",
     "name": "Soirée Dub à The Roof Vercors",
     "city": "Bourg-de-Péage",
@@ -929,6 +967,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "fantasy-en-live-concert-de-dahu-boycott-et-k-voerk",
+    "name": "Fantasy en Live - Concert de Dahu, Boycott et K.Voerk",
+    "city": "Saint-Didier-sur-Chalaronne",
+    "region": null,
+    "description": "Fantasy en live réunion Dahu, Boycott et K.Voerk pour une nuit métal, punk rock et électro, en soutien au festival Fantasy en Beaujolais. \r\nBar et restauration sur place.",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-13",
+    "lat": 46.178079,
+    "lng": 4.816847,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/708a0ccc-ee08-3787-9723-c590caa10333"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "jam-electro",
@@ -2603,6 +2660,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-musicale-tara-de-retour-aux-magnolias",
+    "name": "Soirée musicale :Tara de retour aux Magnolias",
+    "city": "Plaisance",
+    "region": null,
+    "description": "Vener redécouvrir \"TEMPETE PAILLETTES\"électro-pop endiablée chansons 90’/2000 en version Française avec la belle et talentueuse TARA BEAUFILS !!",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 43.9269498,
+    "lng": 2.54859726,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/31/e468beee-56bf-3f2f-b62f-9237943e9f17"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-les-baltringues",
     "name": "CONCERT - LES BALTRINGUES",
     "city": "Cassagnabère-Tournas",
@@ -3515,6 +3591,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-more",
+    "name": "Nantes Rave Techno W/ Vladimir Cauchemar, Shanixx, Noir Mat & More",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "NANTES RAVE TECHNO w/ VLADIMIR CAUCHEMAR, SHANIXX, NOIR MAT & MORE au Warehouse Nantes le vendredi 30 octobre 2026.",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-31",
+    "lat": 47.20077,
+    "lng": -1.57328,
+    "officialUrl": "https://openagenda.com/nantesmetropole/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more",
+    "sources": [
+      "https://openagenda.com/nantesmetropole/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "rave-lucid-danse",
     "name": "Rave Lucid | Danse",
     "city": "Carquefou",
@@ -3993,6 +4088,26 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "festival-69bpm",
+    "name": "FESTIVAL 69BPM",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-24",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2533231",
+    "lineup": [
+      "Hyas",
+      "Saku Sahara"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2533231"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "23-59-weekender-2026",
     "name": "23:59 - WEEKENDER 2026",
     "city": null,
@@ -4253,14 +4368,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "pass-dreamachine-festival",
-    "name": "Pass Dreamachine Festival",
+    "slug": "dreamachine-festival",
+    "name": "Dreamachine Festival",
     "city": null,
     "region": null,
     "startDate": "2026-11-12",
     "endDate": null,
     "officialUrl": "https://ra.co/events/2531187",
-    "lineup": [],
+    "lineup": [
+      "Vanda Forte",
+      "keiyaA",
+      "Le Kaiju"
+    ],
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2531187"
@@ -4303,28 +4422,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2461679"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-more",
-    "name": "Nantes Rave Techno W/ Vladimir Cauchemar, Shanixx, Noir Mat & More",
-    "city": null,
-    "region": null,
-    "startDate": "2026-10-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529503",
-    "lineup": [
-      "Vladimir Cauchemar",
-      "Shanixx",
-      "Azhar Sistorms",
-      "BSD"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529503"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4418,6 +4515,30 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "ultra-suave-3rd-anniversary",
+    "name": "ULTRA SUAVE 3RD ANNIVERSARY ",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2510489",
+    "lineup": [
+      "Andy4000",
+      "Erna (FR)",
+      "Mensik",
+      "Rebequita",
+      "Isa Castelari",
+      "MALAISE VAGAL"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2510489"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "volatil-8-years",
     "name": "Volatil 8 Years",
     "city": null,
@@ -4458,6 +4579,29 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "3-years-of-gruv-open-air-chlar-ruiz-osc1-kuss-live-beau-didier-kaltblume-b2b-siana",
+    "name": "3 YEARS OF GRÜV (OPEN AIR) • Chlär, RUIZ OSC1, KUSS (live), Beau Didier, KALTBLUME b2b Siana",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2494615",
+    "lineup": [
+      "Chlär",
+      "RUIZ OSC1",
+      "KUSS",
+      "Beau Didier",
+      "KALTBLUME"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2494615"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "hors-sol-extended-outdoor-indoor",
@@ -4693,7 +4837,7 @@
       "Ahmet Sisman",
       "abs8lute",
       "Call Super",
-      "Rami Chami",
+      "Chami",
       "Christian AB",
       "Fadi Mohem",
       "Nastia Reigel",
@@ -4713,6 +4857,28 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-anechoic-joton-noise-catalog-b2b-fortnum",
+    "name": "After O'clock X La Plage Open Air: Anechoic, Joton, Noise Catalog B2B Fortnum",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2533233",
+    "lineup": [
+      "Joton",
+      "Anechoic",
+      "Noise Catalog",
+      "Fortnum"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2533233"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "p2z-fertile-thomas-melchior-lawrence-cosmo",

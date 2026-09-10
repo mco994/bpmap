@@ -1,5 +1,50 @@
 [
   {
+    "id": "2026-09-10:les-plages-electroniques:removed",
+    "festivalId": "les-plages-electroniques",
+    "festivalSlug": "les-plages-electroniques",
+    "festivalName": "Les Plages Électroniques",
+    "type": "removed",
+    "date": "2026-09-10",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-10:nous-festival:removed",
+    "festivalId": "nous-festival",
+    "festivalSlug": "nous-festival",
+    "festivalName": "NOUS Festival",
+    "type": "removed",
+    "date": "2026-09-10",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-10:garten-on-the-beach:removed",
+    "festivalId": "garten-on-the-beach",
+    "festivalSlug": "garten-on-the-beach",
+    "festivalName": "Gärten on the Beach",
+    "type": "removed",
+    "date": "2026-09-10",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-10:electronest:price",
+    "festivalId": "electronest",
+    "festivalSlug": "electronest",
+    "festivalName": "Electronest",
+    "type": "price",
+    "date": "2026-09-10",
+    "summary": "Les tarifs ont été mis à jour."
+  },
+  {
+    "id": "2026-09-10:electronest:lineup",
+    "festivalId": "electronest",
+    "festivalSlug": "electronest",
+    "festivalName": "Electronest",
+    "type": "lineup",
+    "date": "2026-09-10",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
     "id": "2026-09-09:fort-decibel:removed",
     "festivalId": "fort-decibel",
     "festivalSlug": "fort-decibel",
