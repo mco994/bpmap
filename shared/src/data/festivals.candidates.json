@@ -874,6 +874,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "concert-afro-world-sofaz-radio-barjo",
+    "name": "Concert Afro-World : Sofaz + Radio Barjo",
+    "city": "Chadrac",
+    "region": null,
+    "description": "Concert de Sofaz et Radio Barjo samedi 10 octobre à la Couveuse : mélanges d'afrobeat, de musiques sud-américaines et d'afro électro pour une soirée endiablée !",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 45.061049,
+    "lng": 3.905256,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/36eaa12f-b78e-35a4-9551-a18477d710a2"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "ludivine-issambourg-theatre-d-angouleme-scene-nationale",
     "name": "Ludivine Issambourg -Théâtre d'Angoulême Scène Nationale",
     "city": "Angoulême",
@@ -962,6 +981,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/56cd8e1f-2eae-31dd-8290-9571af022576"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "apero-concert-a-la-brasserie-artisanale-explore",
+    "name": "Apéro Concert à la Brasserie Artisanale Explore",
+    "city": "Sauzet",
+    "region": null,
+    "description": "La DJ \"D.Juice\" proposera un «sunset set» entre Disco et Afro Bass House ! (playlist 18-20h et concert 20- 22h), solaire et tropical !\r\nBières artisanales, boissons sans alcool, vins, petite restauration (charcuterie, fromage, olives, tartinables, glaces)",
+    "startDate": "2026-09-11",
+    "endDate": "2026-09-11",
+    "lat": 44.602022,
+    "lng": 4.818412,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/60aa92cf-f7ee-3f7b-9a8c-dce856adbe8f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1532,25 +1570,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/fb848579-3922-38fb-bcc9-cd3cad626970"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-guinguette",
-    "name": "Soirée guinguette",
-    "city": "Bonny-sur-Loire",
-    "region": null,
-    "description": "La Guinguette Bonnychonne revient le samedi 12 septembre à Bonny-sur-Loire ! Ambiance vintage, repas dansant, élection Miss et Mister Vintage, et DJ Disco Sono pour toutes les générations. Une animation proposée par l'Amicale Bonnychonne. Réservation obligatoire avant le 6/09 au 06 82 72 11 68.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 47.55885,
-    "lng": 2.84064,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/fdc52089-865b-3507-ae1e-c89152ec76e0"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2698,6 +2717,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-mmusicale",
+    "name": "Soirée mmusicale",
+    "city": "Avéron-Bergelle",
+    "region": null,
+    "description": "Et si dimanche soir, on partait en voyage sans prendre la voiture ?\n\nDirection Le Pouteou, pour découvrir Elektro Kora, un concert qui promet de faire voyager les oreilles… et probablement les pieds aussi.\n\nÀ partir de 21 h, Zaky Diarra à la kora et au chant, accompagné de Jonathan Mailhat au saxophone et Mickaël Mazaleyrat à l’harmonica, aux percussions et aux guimbardes, vont mélanger musique afro-mandingue, afro-beat, blues du désert, groove, funk et jazz électro.\n\nUn joyeux mélange entre traditions et sonorités actuelles, avec des rythmes généreux et dansants. Bref, le genre de concert où l’on peut venir en se disant « je vais juste écouter » et finir par bouger la tête sans même s’en rendre compte.\n\nLe Pouteou, c’est aussi une buvette et de la petite restauration sur place, dès 19h.\n\nLa participation est libre et consciente, alors pas besoin de casser sa tirelire pour profiter du voyage.",
+    "startDate": "2026-09-13",
+    "endDate": "2026-09-13",
+    "lat": 43.748384,
+    "lng": 0.076888,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/4ef5a785-6c02-35a6-9a59-72380c210c1e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "pyrenees-reggae-dub-fest-3",
     "name": "Pyrénées reggae dub fest #3",
     "city": "Esbareich",
@@ -3420,6 +3458,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "exposition-la-responsabilite-des-reves-biennale-des-imaginaires-numeriques",
+    "name": "Exposition - La responsabilité des rêves - Biennale des Imaginaires Numériques",
+    "city": "Aix-en-Provence",
+    "region": null,
+    "description": "Cette installation vidéo documentaire, tournée comme un techno-thriller, adopte une approche critique post-anthropocène en témoignant de l’impact des technologies cyber numériques sur l’environnement, en particulier sur notre consommation d’eau.",
+    "startDate": "2026-03-20",
+    "endDate": "2027-03-20",
+    "lat": 43.522785,
+    "lng": 5.43849,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/6919616b-9bd1-3914-8cc4-90498f780cd8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "vioflesh-bellog-guest",
     "name": "Vioflesh + Bellog + Guest",
     "city": "Marseille 6e Arrondissement",
@@ -3862,8 +3919,8 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "park-n-sound-2-open-air-gratuit-parc-du-contades",
-    "name": "Park'n'Sound #2 — Open Air gratuit • Parc du Contades",
+    "slug": "park-n-sound-2-open-air-gratuit-parc-du-heyritz",
+    "name": "Park'n'Sound #2 — Open Air gratuit • Parc du Heyritz",
     "city": null,
     "region": null,
     "startDate": "2026-09-12",
@@ -4106,6 +4163,26 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
+  },
+  {
+    "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
+    "name": "Open Air: Flower Nation By Dusty Nation & La Butinerie",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2534939",
+    "lineup": [
+      "Tatie Dee",
+      "Saint Louïs"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2534939"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "23-59-weekender-2026",
@@ -4428,6 +4505,32 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "gloria-100eme-edition-etapp-kyle-cromby-louison-b2b-combe-akira-b2b-basic-chanel",
+    "name": "GLORIA - 100ème édition · Etapp Kyle ~ Cromby ~ Louison B2B Combe ~ Akira B2B Basic Chanel ",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2534422",
+    "lineup": [
+      "Etapp Kyle",
+      "Cromby",
+      "Combe",
+      "Louison",
+      "Budino",
+      "Akira Yamagata",
+      "Basic Channel",
+      "PALLAR"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2534422"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "paloma-festival-2026",
     "name": "Paloma Festival 2026",
     "city": null,
@@ -4450,25 +4553,8 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "trocadero-summer-club-open-air-party",
-    "name": "Trocadero Summer Club — open air party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2532324",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2532324"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "virage-presente-jump-source-live-hors-sol-dj-act-nesa-azadikhah-katia-curie",
-    "name": "Virage Présente : Jump Source (live), HORS-SOL (DJ act), Nesa Azadikhah, Katia Curie",
+    "slug": "virage-presente-jump-source-live-hors-sol-dj-act-nesa-azadikhah-mathiou",
+    "name": "Virage Présente : Jump Source (live), HORS-SOL (DJ act), Nesa Azadikhah, Mathiou",
     "city": null,
     "region": null,
     "startDate": "2026-09-11",
@@ -4480,7 +4566,7 @@
       "Patrick Holland",
       "HORS-SOL",
       "Nesa Azadikhah",
-      "Katia Curie"
+      "Mathiou"
     ],
     "genreVerified": true,
     "sources": [
@@ -4951,6 +5037,30 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "sauvage-w-offshore",
+    "name": "¡Sauvage W/Offshore",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529483",
+    "lineup": [
+      "Art of Tones",
+      "Young Pulse",
+      "Tour-Maubourg",
+      "PEPIITA",
+      "BAB MUSIQUE",
+      "Vickies"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529483"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "sxm-festival-x-kalua-yoyo-palais-de-tokyo",
     "name": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
     "city": null,
@@ -5008,30 +5118,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2526194"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "sauvage-w-offshore",
-    "name": "¡Sauvage W/Offshore",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529483",
-    "lineup": [
-      "Art of Tones",
-      "Young Pulse",
-      "Tour-Maubourg",
-      "PEPIITA",
-      "BAB MUSIQUE",
-      "Vickies"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529483"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5143,26 +5229,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
-    "name": "OPEN AIR: FLOWER NATION by Dusty Nation & La Butinerie",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2523009",
-    "lineup": [
-      "Tatie Dee",
-      "Saint Louïs"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2523009"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "romance-aux-jardins-psychedelic-open-air",
