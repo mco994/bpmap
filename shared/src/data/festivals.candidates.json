@@ -152,6 +152,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "la-nuit-des-gadz-29e-edition-exposition-universelle",
+    "name": "La Nuit des Gadz - 29e edition - Exposition Universelle",
+    "city": "Metz",
+    "region": null,
+    "description": "Venez passer une soirée inoubliable au parc des Expositions de Metz à l'occasion de la Nuit des Gadz. Cette 29 ème édition vous transportera au cœur des expositions universelles grâce aux décors réalisés par les premiers années. Nos salles commerciale et techno sont là pour réunir toutes les générations en un seul lieu.",
+    "startDate": "2026-09-12",
+    "endDate": "2026-09-12",
+    "lat": 49.0901478150184,
+    "lng": 6.2341833114624,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/480bd749-6a29-3e50-a06f-c20759d39091"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-floating",
     "name": "Concert - Floating",
     "city": "Metz",
@@ -988,25 +1007,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "apero-concert-a-la-brasserie-artisanale-explore",
-    "name": "Apéro Concert à la Brasserie Artisanale Explore",
-    "city": "Sauzet",
-    "region": null,
-    "description": "La DJ \"D.Juice\" proposera un «sunset set» entre Disco et Afro Bass House ! (playlist 18-20h et concert 20- 22h), solaire et tropical !\r\nBières artisanales, boissons sans alcool, vins, petite restauration (charcuterie, fromage, olives, tartinables, glaces)",
-    "startDate": "2026-09-11",
-    "endDate": "2026-09-11",
-    "lat": 44.602022,
-    "lng": 4.818412,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/60aa92cf-f7ee-3f7b-9a8c-dce856adbe8f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "fantasy-en-live-concert-de-dahu-boycott-et-k-voerk",
     "name": "Fantasy en Live - Concert de Dahu, Boycott et K.Voerk",
     "city": "Saint-Didier-sur-Chalaronne",
@@ -1575,25 +1575,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "le-meules-bleues-festival-zaz-adele-castillon-chiloo-bleu-soleil",
-    "name": "Le Meules Bleues Festival : Zaz + Adèle Castillon + Chiloo + Bleu Soleil",
-    "city": "Cahors",
-    "region": null,
-    "description": "<p>Avec ZAZ, Adèle Castillon, Chiloo et le duo Bleu Soleil, préparez-vous à une soirée entre pop, électro et chanson française.</p><p><br></p><p><strong style=\"font-size: 21px; font-family: inherit; color: inherit;\">Au programme</strong></p><ul><li>17H55-18H55 KOKYAGES </li><li>19H00-20H00 WEPA WEPA </li><li>20H05-21H20 ADÈLE CASTILLON </li><li>21H25-22H25 CHILOO </li><li>22H30-00H00 ZAZ </li><li>00H00-01H15 BLEU SOLEIL</li></ul>",
-    "startDate": "2026-09-11",
-    "endDate": "2026-09-11",
-    "lat": 44.467509,
-    "lng": 1.416214,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/0ddc2939-cc5b-3128-b7db-e7ed7a69ae42"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-de-lady-nazca-a-la-scenette",
@@ -2432,6 +2413,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "vernissage-des-expositions-d-automne-2026",
+    "name": "Vernissage des expositions d'automne 2026",
+    "city": "Roubaix",
+    "region": null,
+    "description": "Le **vendredi 9 ocotobre à partir de 18h** La Piscine vous invite au vernissage des nouvelles expositions de sa saison d'automne :\n\n*   **\\>** [**Ni Dieu ni maître ! Arts et anarchie de Courbet à Banksy**](https://www.roubaix-lapiscine.com/exposition/ni-dieu-ni-maitre-arts-et-anarchie-de-courbet-a-banksy/)\n\n*   **\\>** [**Révolution denim**](https://www.roubaix-lapiscine.com/exposition/revolution-denim/)\n\nCet automne, La Piscine – Musée d’art et d’industrie André Diligent, présente à travers sa programmation deux regards sur les dialogues possibles entre création et société.\n\nSynonyme de désordre dans le langage courant, l’anarchie devient au milieu du XIXe siècle une pensée politique à part entière. Par la place qu’elles réservent à la liberté individuelle, les idées anarchistes ont séduit dès leur émergence dans les années 1840, nombre d’artistes – de Courbet à Banksy, en passant par les acteurs de Mai 68 ou encore plus tard les punks. L’exposition **Ni Dieu ni maître ! Arts et anarchie de Courbet à Banksy** propose un aperçu de cette histoire méconnue, qui résonne avec des interrogations politiques et sociales d’une grande actualité.\n\nHéritier des toiles de Gênes et de Nîmes, porté outre-Atlantique comme vêtement de travail puis dans le monde entier comme basique du vestiaire quotidien, le jean revêt parfois aussi une dimension contestataire. Clamant l’identité de son porteur et page bleue investie par les créateurs, **Révolution denim** en brosse l’histoire à l’étage du bassin, associant mémoire industrielle et mode contemporaine.\n\nL’exposition « Ni Dieu ni maître ! Arts et anarchie » bénéficie du soutien et des prêts exceptionnels du musée d’Orsay, de la Bibliothèque Nationale de France et du musée de l’Annonciade de Saint-Tropez. Elle est conçue et organisée avec le musée des beaux-arts et d’archéologie de Besançon – Ville de Besançon\n\nLe vernissage est gratuit et ouvert à tous.  \n_**Les prises de parole seront suivies d’un concert du groupe d’électro-rock ACHAB**_",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-09",
+    "lat": 50.692168,
+    "lng": 3.167645,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/e7096991-719b-370a-9874-75d700ccf4ee"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-la-securite-dj-aftershow-par-schlagsahne",
     "name": "CONCERT : La Sécurité + DJ Aftershow par Schlagsahne",
     "city": "Amiens",
@@ -2468,25 +2468,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "disco-burlesque-show",
-    "name": "Disco Burlesque Show",
-    "city": "Ducey-Les Chéris",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-11",
-    "endDate": "2026-09-11",
-    "lat": 48.6178512,
-    "lng": -1.2865661,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/0b30ce9d-9502-3a3a-b6e3-d518fafcd2fa"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "soiree-disco-pop-80-s-avec-elan-de-solidarite-cotentin-ukraine-p200",
@@ -2964,6 +2945,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "juke-box-madmoizel-quartet",
+    "name": "Juke-Box Madmoizel Quartet",
+    "city": "Revin",
+    "region": null,
+    "description": "Le Madmoizel Quartet est, vous l'aurez deviné, un quatuor à cordes féminin. Leur concert Jukebox est un condensé de certaines des meilleures pages de l'histoire de la musique, un voyage à travers les époques, du baroque à l'électro en passant par le rock, la pop et le jazz avec une présence scénique captivante et une capacité d'improvisation exceptionnelle. Ces musiciennes talentueuses embarquent le public dans une expérience interactive où ils sont invités à élaborer le programme du soir, voir même à y participer directement. Ce spectacle haut en couleur promet des moments de surprise, d'humour et d'émotion ! Durée : 1h20 Tout public à partir de 14 ans. BON À SAVOIR : Soirée spéciale \"Le Cabaret Au Merle moqueur\".Autrement dit... Nourrir son corps et son esprit !Dans le cadre des soirées spéciales \"Cabaret Au Merle moqueur\", à 19h, l'espace Jean Vilar vous propose une petite restauration dans son hall au \"Resto du Merle\".Vous pourrez donc, en toute convivialité et pour 18€ déguster le petit plat du soir et assister ensuite au spectacle à 20h30.Ne vous en privez pas !!!ATTENTION : Dans un souci d'organisation (nombre de places limité), le règlement de la formule repas et spectacle doit se faire au plus tard le mardi qui précède le spectacle.",
+    "startDate": "2027-03-12",
+    "endDate": "2027-03-12",
+    "lat": 49.93279,
+    "lng": 4.679727,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/42/93a9f8c6-a4db-34e6-817e-e8bd7a8dbcdb"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "les-plaines-sonores",
     "name": "Les Plaines Sonores",
     "city": "Sault-Saint-Remy",
@@ -3014,6 +3014,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/42/d861fdac-197b-3bd4-b3bc-96af98c382e9"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "courts-circuits-d-a-anomaly-red-cosmic-orchestra",
+    "name": "COURTS CIRCUITS - D.A ANOMALY & RED COSMIC ORCHESTRA",
+    "city": "Langogne",
+    "region": null,
+    "description": "D.N Anomaly, formé autour d’une passion commune pour le rock alternatif, le grunge et le rock britannique, le  trio revisite un répertoire mêlant Nirvana, Muse... \nRed Cosmic Orchestra s'est donné pour mission de faire danser, chanter, funker toute personne qui viendra à sa rencontre. Pendant ce voyage cosmique, ses membres explorent les genres, mélangeant le rock, la funk, l’électro...",
+    "startDate": "2027-04-03",
+    "endDate": "2027-04-03",
+    "lat": 44.7265006,
+    "lng": 3.8562097,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/45/382cd7fb-8935-3c8d-968e-4fb31772de0b"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3766,21 +3785,24 @@
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
-    "slug": "off-bordeaux-open-air-x-cite-du-vin-11-09",
-    "name": "OFF Bordeaux Open Air x Cité du Vin - 11.09",
+    "slug": "shake-shake-shake-open-air",
+    "name": "SHAKE! SHAKE! SHAKE! Open Air",
     "city": null,
     "region": null,
-    "startDate": "2026-09-11",
+    "startDate": "2026-09-19",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2520929",
-    "lineup": [],
+    "officialUrl": "https://ra.co/events/2535279",
+    "lineup": [
+      "NairLess",
+      "Owlshake"
+    ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2520929"
+      "https://ra.co/events/2535279"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "moga-essaouira-2026",
@@ -4185,6 +4207,35 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "le-sucre-24-heures",
+    "name": "Le Sucre, 24 heures",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2535154",
+    "lineup": [
+      "THELMA",
+      "DJ Physical",
+      "Surusinghe",
+      "RIGO",
+      "CallBackSami",
+      "Tony Romera",
+      "Skin On Skin",
+      "LEGRAM VG",
+      "Airod",
+      "Jacidorex",
+      "KIRARA"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2535154"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "23-59-weekender-2026",
     "name": "23:59 - WEEKENDER 2026",
     "city": null,
@@ -4224,6 +4275,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "open-air-techno-360-hidden-garden-x-sphere-villeurbanne",
+    "name": "OPEN AIR TECHNO 360° - HIDDEN GARDEN x SPHERE - VILLEURBANNE",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2535362",
+    "lineup": [
+      "Messina"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2535362"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "encore-x-23-59-line-up-xxl",
@@ -4287,27 +4357,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2495767"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "inter-rave-by-agoya",
-    "name": "INTER RAVE BY AGOYA",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529467",
-    "lineup": [
-      "Lucy Snake",
-      "Pyrame",
-      "atom"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529467"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4553,103 +4602,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "virage-presente-jump-source-live-hors-sol-dj-act-nesa-azadikhah-mathiou",
-    "name": "Virage Présente : Jump Source (live), HORS-SOL (DJ act), Nesa Azadikhah, Mathiou",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2493564",
-    "lineup": [
-      "Jump Source",
-      "Priori",
-      "Patrick Holland",
-      "HORS-SOL",
-      "Nesa Azadikhah",
-      "Mathiou"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2493564"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "fete-de-l-humanite-2026",
-    "name": "Fête De L'humanité 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2498403",
-    "lineup": [
-      "KNEECAP",
-      "Soprano",
-      "Belaria",
-      "Chippy Nonstop",
-      "LB aka LABAT",
-      "The Avener"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2498403"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "ultra-suave-3rd-anniversary",
-    "name": "ULTRA SUAVE 3RD ANNIVERSARY ",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2510489",
-    "lineup": [
-      "Andy4000",
-      "Erna (FR)",
-      "Mensik",
-      "Rebequita",
-      "Isa Castelari",
-      "MALAISE VAGAL"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2510489"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "volatil-8-years",
-    "name": "Volatil 8 Years",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2531184",
-    "lineup": [
-      "Blinkduus Dischetto (2)",
-      "Hicham",
-      "Josefina Tapia",
-      "Seabra",
-      "Delskiz",
-      "Venetia",
-      "Von Riu"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2531184"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "spectrum-waves-open-air",
     "name": "Spectrum Waves: OPEN AIR",
     "city": null,
@@ -4840,6 +4792,55 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "fete-de-l-humanite-2026",
+    "name": "Fête De L'humanité 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2498403",
+    "lineup": [
+      "KNEECAP",
+      "Soprano",
+      "Belaria",
+      "Chippy Nonstop",
+      "LB aka LABAT",
+      "The Avener"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2498403"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "volatil-8-years",
+    "name": "Volatil 8 Years",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2531184",
+    "lineup": [
+      "Blinkduus Dischetto (2)",
+      "Hicham",
+      "Josefina Tapia",
+      "Seabra",
+      "Delskiz",
+      "Venetia",
+      "Von Riu"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2531184"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "rooftop-edition-paris",
     "name": "Rooftop Edition Paris",
     "city": null,
@@ -4991,6 +4992,30 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "automatic-calabasa-sibil-b2b-pocket-club-more",
+    "name": "Automatic: Calabasa, Sibil b2b Pocket Club & more",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2521526",
+    "lineup": [
+      "Calabasa",
+      "Paul Cut",
+      "Poggio",
+      "Sibil (1)",
+      "Alex Troubetzkoy",
+      "Automatic Writing"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2521526"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "el-hey-with-massai-b2b-gabriel-belabbas-iambp-maco-maria-el-hey",
     "name": "El Hey with Massaï B2B Gabriel Belabbas, IAMBP, Maco Maria, El Hey",
     "city": null,
@@ -5037,30 +5062,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "sauvage-w-offshore",
-    "name": "¡Sauvage W/Offshore",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529483",
-    "lineup": [
-      "Art of Tones",
-      "Young Pulse",
-      "Tour-Maubourg",
-      "PEPIITA",
-      "BAB MUSIQUE",
-      "Vickies"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529483"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "sxm-festival-x-kalua-yoyo-palais-de-tokyo",
     "name": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
     "city": null,
@@ -5083,6 +5084,30 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "sauvage-w-offshore",
+    "name": "¡Sauvage W/Offshore",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529483",
+    "lineup": [
+      "Art of Tones",
+      "Young Pulse",
+      "Tour-Maubourg",
+      "PEPIITA",
+      "BAB MUSIQUE",
+      "Vickies"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529483"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
@@ -5181,6 +5206,63 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-terminal-trax-lymsa-deleter",
+    "name": "After O'Clock X La Plage Open Air: Terminal Trax, Lymsa, Deleter",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2530967",
+    "lineup": [
+      "Terminal Trax"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2530967"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "pisitrance-open-air-w-athzira-faders-talamasca-more",
+    "name": "Pisitrance Open Air W/ Athzira, Faders, Talamasca & More",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2533195",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2533195"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "open-herbe-14h-rooftop-party",
+    "name": "OPEN HERBE - 14H ROOFTOP PARTY",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2517434",
+    "lineup": [
+      "Dielli",
+      "Pontcho",
+      "Longneck"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2517434"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "maintenant-festival-2026",

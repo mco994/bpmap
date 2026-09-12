@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-09-12:calvi-on-the-rocks:removed",
+    "festivalId": "calvi-on-the-rocks",
+    "festivalSlug": "calvi-on-the-rocks",
+    "festivalName": "Calvi on the Rocks",
+    "type": "removed",
+    "date": "2026-09-12",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-09-10:les-plages-electroniques:removed",
     "festivalId": "les-plages-electroniques",
     "festivalSlug": "les-plages-electroniques",
