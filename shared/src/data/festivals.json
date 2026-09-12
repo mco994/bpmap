@@ -1,35 +1,5 @@
 [
   {
-    "id": "calvi-on-the-rocks",
-    "slug": "calvi-on-the-rocks",
-    "name": "Calvi on the Rocks",
-    "description": "Festival emblématique de musique électronique dans la baie de Calvi en Corse, alliant sets de jour en bord de mer et soirées en club. L'édition 2026 a été annulée, comme celle de 2025, pour des raisons de site et d'organisation.",
-    "startDate": "2026-08-06",
-    "endDate": "2026-08-11",
-    "lat": 42.55002,
-    "lng": 8.7666,
-    "city": "Calvi",
-    "region": "Corse",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "house",
-      "electro",
-      "disco",
-      "techno"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://www.calviontherocks.com/",
-    "status": "cancelled",
-    "eclectic": true,
-    "sources": [
-      "https://www.calviontherocks.com/"
-    ]
-  },
-  {
     "id": "positiv-festival",
     "slug": "positiv-festival",
     "name": "Positiv Festival",
