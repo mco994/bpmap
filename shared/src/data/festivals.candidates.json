@@ -152,25 +152,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-nuit-des-gadz-29e-edition-exposition-universelle",
-    "name": "La Nuit des Gadz - 29e edition - Exposition Universelle",
-    "city": "Metz",
-    "region": null,
-    "description": "Venez passer une soirée inoubliable au parc des Expositions de Metz à l'occasion de la Nuit des Gadz. Cette 29 ème édition vous transportera au cœur des expositions universelles grâce aux décors réalisés par les premiers années. Nos salles commerciale et techno sont là pour réunir toutes les générations en un seul lieu.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 49.0901478150184,
-    "lng": 6.2341833114624,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/480bd749-6a29-3e50-a06f-c20759d39091"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-floating",
     "name": "Concert - Floating",
     "city": "Metz",
@@ -259,25 +240,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/6b0cd220-271e-3d17-9162-88ba345e7236"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-la-coka-nostra",
-    "name": "Concert - La Coka Nostra",
-    "city": "Meisenthal",
-    "region": null,
-    "description": "À l’occasion de leurs 20 ans de carrière, La Coka Nostra revient sur scène pour une série de concerts exceptionnels, célébrant une histoire profondément ancrée dans l’héritage du hip-hop hardcore et ses collaborations emblématiques.\n\nFormé dans les années 2000, le collectif réunit des figures majeures de la scène underground comme Ill Bill, Slaine et Danny Boy, mais puise aussi sa force dans son lien direct avec House of Pain, groupe culte dont plusieurs membres et proches collaborateurs ont contribué à façonner l’ADN de La Coka Nostra. Cette filiation artistique se traduit par une énergie brute et une esthétique sans compromis, à la croisée du boom bap, du punk et de la culture underground.\n\nAu fil des années, le groupe s’est distingué par de nombreuses collaborations avec des artistes influents de la scène hip-hop internationale, renforçant son statut de projet collectif ouvert, nourri par des connexions fortes et une vision artistique partagée.\n\nDepuis deux décennies, La Coka Nostra fédère une fanbase fidèle à travers le monde, portée par des textes incisifs et une présence scénique intense.\n\nPour célébrer cet anniversaire, le groupe prépare un retour sur scène spécial, revisitant ses classiques tout en mettant à l’honneur les collaborations et l’héritage de House of Pain — promettant une expérience live unique, entre mémoire collective, rage et communion avec le public.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 48.964757,
-    "lng": 7.352679,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/7409a88e-29b7-35ab-927a-97b83e0375c9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -430,25 +392,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/bcfa39f5-fe70-3c61-8dd4-e7fa1468dffc"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-electro-house",
-    "name": "SOIRÉE ELECTRO HOUSE",
-    "city": "Amnéville",
-    "region": null,
-    "description": "Le Paddock passe en mode électro pour une soirée rythmée par les beats House et les sonorités électroniques.\nAux platines dès 22h, DJ Ascori vous embarque dans un set énergique pour faire monter l’ambiance jusqu’au bout de la nuit.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 49.2483740606469,
-    "lng": 6.1395752010498,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/bde5fd35-4f55-3f14-aefd-871601af6d8d"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1406,25 +1349,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-electro-au-chateau-de-fontainebleau",
-    "name": "Concert électro au Château de Fontainebleau",
-    "city": "Fontainebleau",
-    "region": null,
-    "description": "Pour sa deuxième année consécutive, la musique électro s’invite au château de Fontainebleau le temps d’une soirée inédite et hors du temps.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 48.401787,
-    "lng": 2.699517,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/f343c8da-e291-3b1f-950f-68a1a85d6042"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "fete-patronale",
     "name": "Fête patronale",
     "city": "Félines",
@@ -1551,6 +1475,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/e1513976-d377-303d-83ee-b017a95a39e1"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "man-e-s",
+    "name": "MAN.E.S",
+    "city": "Saint-Amand-Montrond",
+    "region": null,
+    "description": "VENDREDI 6 NOVEMBRE À 20H30\nMAN.E.S\nCOMPAGNIE MARC PRÉPUS (71)\n\nAu Théâtre de la Carrosserie Mesnier\n3 rue Hôtel Dieu, Saint-Amand-Montrond\n\nPetits contes queer et musique électro-ménagère\nPublic à partir de 10 ans\nDurée 1h16\nTarifs habituels 14€ | 10€ | 5€",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 46.7213064,
+    "lng": 2.5092331,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/e7fdca86-7bfb-38c7-ae1a-7e3640e1a3c4"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1917,25 +1860,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "repair-cafe-electro",
-    "name": "Repair café électro",
-    "city": "Thiviers",
-    "region": null,
-    "description": "La Récréathiv vous propose Repair café électro. Venez avec vos appareils électroménagers endommagés et Rémi vous apprendra à réparer les petites pannes du quotidien!\nL'idée est d'apprendre à réparer ensemble afin de devenir plus autonome !",
-    "startDate": "2026-04-11",
-    "endDate": "2026-09-12",
-    "lat": 45.4194642,
-    "lng": 0.9227182,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/b87c111b-5127-34b0-acab-9e2574e02b91"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "electro-symphony-orchestra-dance-party-zenith-delimoges",
@@ -2470,25 +2394,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "soiree-disco-pop-80-s-avec-elan-de-solidarite-cotentin-ukraine-p200",
-    "name": "Soirée disco / Pop 80’s - Avec Élan de Solidarité Cotentin-Ukraine | P200",
-    "city": "Cherbourg-en-Cotentin",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 49.6437731,
-    "lng": -1.6410784,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/0e2fb492-0696-3910-8ad7-4d3e888ec02c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "concert-aymaric-simon-howling-house-band",
     "name": "Concert Aymaric SIMON & Howling House Band",
     "city": "Saint-Pierre-Église",
@@ -2565,25 +2470,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-hardcore-pain-society-pledge-of-silence-explicit-silence",
-    "name": "Concert hardcore : Pain Society - Pledge of Silence - Explicit Silence",
-    "city": "Ifs",
-    "region": null,
-    "description": "Après le métal, place au hardcore ! Le Valhalla accueille trois groupes incontournables pour une soirée intense, entre riffs incisifs, rythmiques percutantes et énergie communicative.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 49.144476,
-    "lng": -0.3396846,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/9cc2df83-11fb-346e-97c3-72fda1b51567"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "danse-rave-lucid",
     "name": "Danse : Rave Lucid",
     "city": "Le Havre",
@@ -2653,25 +2539,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/31/b1ce8e28-8b52-3266-9822-81cc4ffee32e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-musicale-tara-de-retour-aux-magnolias",
-    "name": "Soirée musicale :Tara de retour aux Magnolias",
-    "city": "Plaisance",
-    "region": null,
-    "description": "Vener redécouvrir \"TEMPETE PAILLETTES\"électro-pop endiablée chansons 90’/2000 en version Française avec la belle et talentueuse TARA BEAUFILS !!",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 43.9269498,
-    "lng": 2.54859726,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/31/e468beee-56bf-3f2f-b62f-9237943e9f17"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2869,25 +2736,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "insomni-techno-organic",
-    "name": "Insomni - Techno Organic",
-    "city": "Augan",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 47.9202573,
-    "lng": -2.2794776,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/f6b25f8c-3fbe-3f98-97eb-3f5cd4c03b65"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "spectacle-musical-l-appel-de-la-foret",
     "name": "Spectacle musical - L’Appel de la forêt",
     "city": "Charleville-Mézières",
@@ -2983,25 +2831,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "system-b",
-    "name": "System B",
-    "city": "Rethel",
-    "region": null,
-    "description": "Concert rock électro gratuit et interactif avec les clients ! Barnum prévu pour les clients sur le parking et places climatisées à l’intérieur. Le groupe occupera toute la terrasse. System B a participé, entre autres, au Printemps de Bourges. Sur place, Un Truck de Food pour vous régaler avec ses gourmands burgers à prix unique et ses frites fraîches. 15 becs à bières artisanales à la pression...",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 49.50324,
-    "lng": 4.364669,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/42/b8206ba7-8cf3-398a-9713-eed28eacf5e7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "danse-matiere-s-premiere-s",
     "name": "Danse - Matière(s) première(s)",
     "city": "Charleville-Mézières",
@@ -3052,6 +2881,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/45/a086fb0c-40c8-3983-b3e6-b950ab108853"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "la-saison-culturelle-le-disco-des-oiseaux",
+    "name": "LA! Saison culturelle : Le Disco Des Oiseaux",
+    "city": "Loireauxence",
+    "region": null,
+    "description": "Venez au spectacle \"La Disco des Oiseaux\", le mercredi 19 mai !",
+    "startDate": "2027-05-19",
+    "endDate": "2027-05-19",
+    "lat": 47.443008,
+    "lng": -1.066849,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/08447563-2016-37d5-b074-f0006e0b189a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3458,25 +3306,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "circa-137-electro-jazz",
-    "name": "Circa 137 (électro jazz)",
-    "city": "Marseille 2e Arrondissement",
-    "region": null,
-    "description": "Nourris d’influences très variées: musique classique, jazz, trad, rock, funk, électroacoustique… les 3 musiciens s’unissent dans l’énergie du jazz.",
-    "startDate": "2026-06-20",
-    "endDate": "2026-09-12",
-    "lat": 43.298828,
-    "lng": 5.368088,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/445bfc7b-5465-3b3c-b547-bf7052008ed0"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "exposition-la-responsabilite-des-reves-biennale-des-imaginaires-numeriques",
     "name": "Exposition - La responsabilité des rêves - Biennale des Imaginaires Numériques",
     "city": "Aix-en-Provence",
@@ -3584,44 +3413,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/6/2bccdcfd-3948-38cb-84dd-55cd8df72e67"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "les-nuits-electro-a-coulanges-les-nevers",
-    "name": "Les Nuits électro à Coulanges les Nevers",
-    "city": "Coulanges-lès-Nevers",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-11",
-    "endDate": "2026-09-12",
-    "lat": 47.01363,
-    "lng": 3.16824,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/51942bd7-de0e-3193-8af3-74d2bf0457ee"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "dub-to-jungle",
-    "name": "Dub to jungle",
-    "city": "Saint-Sauveur-en-Puisaye",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-12",
-    "lat": 47.61411,
-    "lng": 3.21349,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/7cd32733-6384-32a5-b73a-b3ae371adecb"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3920,44 +3711,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soundclash-festival",
-    "name": "SOUNDCLASH FESTIVAL",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2505018",
-    "lineup": [
-      "SHERELLE",
-      "Mad Professor",
-      "spectr"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2505018"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "park-n-sound-2-open-air-gratuit-parc-du-heyritz",
-    "name": "Park'n'Sound #2 — Open Air gratuit • Parc du Heyritz",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2510146",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2510146"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "the-holy-rave-32-dijon",
     "name": "The Holy Rave #32 - Dijon",
     "city": null,
@@ -4144,27 +3897,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "variante billetterie de « Brunch Electronik Lyon » (mêmes dates)"
-  },
-  {
-    "slug": "open-air-shining-hill-at-parc-des-berges",
-    "name": "✺ OPEN AIR ✺ SHINING HILL at PARC DES BERGES",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516423",
-    "lineup": [
-      "oma totem",
-      "Lumbago",
-      "oror"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2516423"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "festival-69bpm",
@@ -4580,130 +4312,21 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "paloma-festival-2026",
-    "name": "Paloma Festival 2026",
+    "slug": "after-o-clock-x-la-plage-open-air-eloisa-ultranouk-more",
+    "name": "After O'clock X La Plage Open Air: ELOISA, ULTRANÖUK & More",
     "city": null,
     "region": null,
-    "startDate": "2026-09-11",
+    "startDate": "2026-09-13",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2527694",
+    "officialUrl": "https://ra.co/events/2529393",
     "lineup": [
-      "Niponika",
-      "VM4 (1)",
-      "ESHU",
-      "Vica"
+      "ELOISA",
+      "In-Tan",
+      "ULTRANÖUK"
     ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2527694"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "spectrum-waves-open-air",
-    "name": "Spectrum Waves: OPEN AIR",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2428146",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2428146"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "3-years-of-gruv-open-air-chlar-ruiz-osc1-kuss-live-beau-didier-kaltblume-b2b-siana",
-    "name": "3 YEARS OF GRÜV (OPEN AIR) • Chlär, RUIZ OSC1, KUSS (live), Beau Didier, KALTBLUME b2b Siana",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2494615",
-    "lineup": [
-      "Chlär",
-      "RUIZ OSC1",
-      "KUSS",
-      "Beau Didier",
-      "KALTBLUME"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2494615"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "hors-sol-extended-outdoor-indoor",
-    "name": "HORS-SOL extended [outdoor+indoor]",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2492300",
-    "lineup": [
-      "Mars O10C",
-      "Khey Mysterio",
-      "Lastvuska",
-      "Forest",
-      "Jolly (FR)",
-      "Pureblast",
-      "Von Riu"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2492300"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "vinyle-village-back-to-school-open-air-club-xxl",
-    "name": "VINYLE VILLAGE - BACK TO SCHOOL: OPEN-AIR & CLUB XXL",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2510159",
-    "lineup": [
-      "ERIS",
-      "Dea (6)",
-      "Enrica Falqui",
-      "JL"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2510159"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-camporeale-opak-sonia-michigan",
-    "name": "After O'clock X La Plage Open Air: Camporeale, OPÄK & Sonia Michigan",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529407",
-    "lineup": [
-      "Camporeale (FR)",
-      "OPÄK",
-      "Sonia Michigan"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529407"
+      "https://ra.co/events/2529393"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4746,52 +4369,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "resilience-x-cite-fertile-invites-pattern-warehouse-day",
-    "name": "Résilience X Cité Fertile Invites Pattern - Warehouse Day",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2521905",
-    "lineup": [
-      "Gareth Wild",
-      "TEHOTU",
-      "Maemm",
-      "Mersel",
-      "A.mo",
-      "HEKA (FR)"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2521905"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "voltage-open-air-curated-by-camion-bazar",
-    "name": "Voltage open air, curated by Camion Bazar",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2514762",
-    "lineup": [
-      "Camion Bazar",
-      "Jacky Jeane",
-      "H2O",
-      "Lou"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2514762"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "fete-de-l-humanite-2026",
     "name": "Fête De L'humanité 2026",
     "city": null,
@@ -4814,69 +4391,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "volatil-8-years",
-    "name": "Volatil 8 Years",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2531184",
-    "lineup": [
-      "Blinkduus Dischetto (2)",
-      "Hicham",
-      "Josefina Tapia",
-      "Seabra",
-      "Delskiz",
-      "Venetia",
-      "Von Riu"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2531184"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "rooftop-edition-paris",
-    "name": "Rooftop Edition Paris",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2532396",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2532396"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-eloisa-ultranouk-more",
-    "name": "After O'clock X La Plage Open Air: ELOISA, ULTRANÖUK & More",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-13",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529393",
-    "lineup": [
-      "ELOISA",
-      "In-Tan",
-      "ULTRANÖUK"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529393"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "deep-sunday-rooftop-party",
@@ -5265,6 +4779,103 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "after-o-clock-x-la-plage-open-air-x-timit",
+    "name": "After O'clock X La Plage Open Air X TIMIT",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2531157",
+    "lineup": [
+      "Nicol",
+      "A-440",
+      "DjFREDDY"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2531157"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
+    "name": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2506953",
+    "lineup": [
+      "Alba Franch",
+      "Antonym",
+      "FØSS",
+      "franck",
+      "HANÀ",
+      "Westfall"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2506953"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "babecore-launch-showcase-jerk-off-after-party",
+    "name": "BabeCore Launch Showcase (Jerk Off After Party)",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529682",
+    "lineup": [
+      "Kontronatura",
+      "Cleo (AU)",
+      "Miss T Delight",
+      "Butch2Bitch",
+      "Mafille",
+      "Kiar Oscuro",
+      "Orion",
+      "Josef"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529682"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "temet-x-fata-morgana",
+    "name": "TEMET X FATA MORGANA",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522696",
+    "lineup": [
+      "Amnesia Scanner",
+      "k means",
+      "Simo Cell",
+      "Elvira (1)",
+      "Rosa Pistola",
+      "Less-O",
+      "Tamada (FR)",
+      "rxdazn"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2522696"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "maintenant-festival-2026",
     "name": "Maintenant Festival 2026",
     "city": null,
@@ -5311,23 +4922,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "romance-aux-jardins-psychedelic-open-air",
-    "name": "Romance aux jardins - Psychedelic open air",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2526235",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2526235"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "bordeaux-open-air-parc-bordelais",
