@@ -950,25 +950,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "fantasy-en-live-concert-de-dahu-boycott-et-k-voerk",
-    "name": "Fantasy en Live - Concert de Dahu, Boycott et K.Voerk",
-    "city": "Saint-Didier-sur-Chalaronne",
-    "region": null,
-    "description": "Fantasy en live réunion Dahu, Boycott et K.Voerk pour une nuit métal, punk rock et électro, en soutien au festival Fantasy en Beaujolais. \r\nBar et restauration sur place.",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-13",
-    "lat": 46.178079,
-    "lng": 4.816847,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/708a0ccc-ee08-3787-9723-c590caa10333"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "jam-electro",
     "name": "Jam Electro",
     "city": "Romans-sur-Isère",
@@ -2261,25 +2242,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "festival-jam-jazz-a-mers",
-    "name": "Festival JAM - Jazz à Mers",
-    "city": "Mers-les-Bains",
-    "region": null,
-    "description": "Pendant 2 jours, profitez de concerts gratuits en plein air et d'une grande soirée au Pavillon des Bains, avec des artistes de jazz, de blues et de rythm'n'blues.\n2 jours, 12 groupes, 3 scènes.\nJazz - Blues - Rythm'n'Blues.\nConcerts en plein air, ambiance festive, expositions, restauration sur place.\n3 scènes pour 12 concerts : \n- Scène 1 : L'esplanade, face à la mer.\n- Scène 2 : Place du Marché, face aux restaurants\n- Scène 3 : Le Pavillon des Bains, pour la grande soirée de gala.\nBilletterie ouverte du 31/08 au 11/09 les lundis et jeudis matins à la Villa Savoie (26 Avenue du Maréchal Foch).\n\nGroupes : Ann Diaz Yokatta bro - Black Hats - Camart Jazz - Charbonnel Vivien Geslin - exposition Peintures Ducroux à la médiathèque le samedi au 1er étage. - Guitario - Lombrics Bleus - Loscar Combo - Mers Melodie/atelier Jazz EMM - Red House - Salsetcho - So Watt - stephano Magenzani",
-    "startDate": "2026-09-12",
-    "endDate": "2026-09-13",
-    "lat": 50.0669259,
-    "lng": 1.38336468,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/cc64cdbf-fa40-3de7-a513-bb7eb2bc649f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
     "slug": "programme-seniors-2026",
     "name": "Programme Seniors 2026",
     "city": "Roubaix",
@@ -2565,25 +2527,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-mmusicale",
-    "name": "Soirée mmusicale",
-    "city": "Avéron-Bergelle",
-    "region": null,
-    "description": "Et si dimanche soir, on partait en voyage sans prendre la voiture ?\n\nDirection Le Pouteou, pour découvrir Elektro Kora, un concert qui promet de faire voyager les oreilles… et probablement les pieds aussi.\n\nÀ partir de 21 h, Zaky Diarra à la kora et au chant, accompagné de Jonathan Mailhat au saxophone et Mickaël Mazaleyrat à l’harmonica, aux percussions et aux guimbardes, vont mélanger musique afro-mandingue, afro-beat, blues du désert, groove, funk et jazz électro.\n\nUn joyeux mélange entre traditions et sonorités actuelles, avec des rythmes généreux et dansants. Bref, le genre de concert où l’on peut venir en se disant « je vais juste écouter » et finir par bouger la tête sans même s’en rendre compte.\n\nLe Pouteou, c’est aussi une buvette et de la petite restauration sur place, dès 19h.\n\nLa participation est libre et consciente, alors pas besoin de casser sa tirelire pour profiter du voyage.",
-    "startDate": "2026-09-13",
-    "endDate": "2026-09-13",
-    "lat": 43.748384,
-    "lng": 0.076888,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/4ef5a785-6c02-35a6-9a59-72380c210c1e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "pyrenees-reggae-dub-fest-3",
     "name": "Pyrénées reggae dub fest #3",
     "city": "Esbareich",
@@ -2677,25 +2620,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "microfestival-fondation-gouter-electro-et-soirees",
-    "name": "Microfestival FONDATION - Goûter Électro et Soirées",
-    "city": "La Croix-Helléan",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-11",
-    "endDate": "2026-09-13",
-    "lat": 47.9842129,
-    "lng": -2.505902,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/f19f3b18-bf90-348c-829d-c15b5645ce6a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "amala-dianor-dub",
@@ -3853,50 +3777,24 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "ouroboros-festival-2026",
-    "name": "Ouroboros Festival 2026",
+    "slug": "2sik-open-air-w-rotational-ohjeelo",
+    "name": "2sik! Open-Air W/ Rotational, Ohjeelo",
     "city": null,
     "region": null,
-    "startDate": "2026-09-11",
+    "startDate": "2026-09-19",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2347832",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2347832"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "variante billetterie de « Ouroboros Festival » (mêmes dates)"
-  },
-  {
-    "slug": "brunch-electronik-lyon-2026-nico-moreno-i-hate-models-vladimir-cauchemar",
-    "name": "Brunch Electronik Lyon 2026: Nico Moreno, I Hate Models, Vladimir Cauchemar ",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2426644",
+    "officialUrl": "https://ra.co/events/2536056",
     "lineup": [
-      "Nico Moreno",
-      "Vladimir Cauchemar",
-      "SPFDJ",
-      "TOCCORORO",
-      "ØTTA",
-      "Bérou",
-      "I Hate Models",
-      "NIKOLINA_",
-      "Onlynumbers",
-      "Alycia Bezgo",
-      "ROÜGE"
+      "Rotational",
+      "ohjeelo"
     ],
     "genreVerified": true,
     "sources": [
-      "https://ra.co/events/2426644"
+      "https://ra.co/events/2536056"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "variante billetterie de « Brunch Electronik Lyon » (mêmes dates)"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "festival-69bpm",
@@ -4215,7 +4113,8 @@
       "Domi (FR)",
       "Cristobal",
       "Jolly (FR)",
-      "Forest"
+      "Forest",
+      "Lumbago"
     ],
     "genreVerified": true,
     "sources": [
@@ -4286,8 +4185,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "gloria-100eme-edition-etapp-kyle-cromby-louison-b2b-combe-akira-b2b-basic-chanel",
-    "name": "GLORIA - 100ème édition · Etapp Kyle ~ Cromby ~ Louison B2B Combe ~ Akira B2B Basic Chanel ",
+    "slug": "gloria-100eme-edition-etapp-kyle-cromby-budino-louison-b2b-combe-akira-b2b-basic-chanel",
+    "name": "GLORIA - 100ème édition ·Etapp Kyle~Cromby~Budino ~ Louison B2B Combe ~ Akira B2B Basic Chanel ",
     "city": null,
     "region": null,
     "startDate": "2026-10-18",
@@ -4296,9 +4195,9 @@
     "lineup": [
       "Etapp Kyle",
       "Cromby",
+      "Budino",
       "Combe",
       "Louison",
-      "Budino",
       "Akira Yamagata",
       "Basic Channel",
       "PALLAR"
@@ -4310,104 +4209,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-eloisa-ultranouk-more",
-    "name": "After O'clock X La Plage Open Air: ELOISA, ULTRANÖUK & More",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-13",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529393",
-    "lineup": [
-      "ELOISA",
-      "In-Tan",
-      "ULTRANÖUK"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529393"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "yoyaku-x-slapfunk-paris-24-hour-marathon",
-    "name": "Yoyaku x SlapFunk Paris 24 hour Marathon",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2466365",
-    "lineup": [
-      "A.M. Project",
-      "DJ Senc",
-      "Dr. Rubinstein",
-      "Doudou MD",
-      "Dyed Soundorom",
-      "Ellen Allien",
-      "Garrett David",
-      "Labouts",
-      "Laidlaw",
-      "Lea Occhi",
-      "Krol",
-      "Margaret Dygas",
-      "Mari.te",
-      "Samuel Deep",
-      "Satoshi Tomiie",
-      "Sonja Moonear",
-      "Woddd",
-      "Zeina"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2466365"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "fete-de-l-humanite-2026",
-    "name": "Fête De L'humanité 2026",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2498403",
-    "lineup": [
-      "KNEECAP",
-      "Soprano",
-      "Belaria",
-      "Chippy Nonstop",
-      "LB aka LABAT",
-      "The Avener"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2498403"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "deep-sunday-rooftop-party",
-    "name": "Deep Sunday Rooftop Party",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-13",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2532345",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2532345"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "club-la-ch-ck-tumblr-rave",
@@ -4458,6 +4259,52 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "oniwave-x-girls-in-rave",
+    "name": "Oniwave X Girls In Rave",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2536067",
+    "lineup": [
+      "Killoverjoy"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2536067"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "bigfest-4-festival-food-teuf-18-sept-2026-18-00-20-sept-2026-03-00",
+    "name": "BIGFEST #4 - Festival Food & Teuf 18 sept. 2026 18:00 - 20 sept. 2026 03:00 ·",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2536436",
+    "lineup": [
+      "Cerrone",
+      "Mezerg",
+      "Traumer",
+      "Joe Lewandowski",
+      "Valentine Groove",
+      "Emma B",
+      "Baccus",
+      "Stereoclip",
+      "Lauren Lo Sung"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2536436"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-anechoic-joton-noise-catalog-b2b-fortnum",
@@ -4530,6 +4377,27 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "area-open-air-club-dj-bax-y-oshit-servye",
+    "name": "AREA · Open-air + Club: DJ Bax · Y.oshit · Servye",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2524327",
+    "lineup": [
+      "DJ Bax",
+      "KLAMER",
+      "Stupid Child"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2524327"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "el-hey-with-massai-b2b-gabriel-belabbas-iambp-maco-maria-el-hey",
     "name": "El Hey with Massaï B2B Gabriel Belabbas, IAMBP, Maco Maria, El Hey",
     "city": null,
@@ -4553,27 +4421,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "area-open-air-club-dj-bax-y-oshit-servye",
-    "name": "AREA · Open-air + Club: DJ Bax · Y.oshit · Servye",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2524327",
-    "lineup": [
-      "DJ Bax",
-      "KLAMER",
-      "Stupid Child"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2524327"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "sxm-festival-x-kalua-yoyo-palais-de-tokyo",
@@ -4624,25 +4471,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
-    "name": "Circulaires Radio Campus Paris: Vice Experience x Festival Printemps des Humanités",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2525133",
-    "lineup": [
-      "Vice Experience"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2525133"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "open-air-who-runs-the-decks-by-kumo",
     "name": "Open air - Who Runs The Decks!? By Kumo",
     "city": null,
@@ -4661,6 +4489,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
+    "name": "Circulaires Radio Campus Paris: Vice Experience x Festival Printemps des Humanités",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525133",
+    "lineup": [
+      "Vice Experience"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2525133"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-keepsakes-ombrar-tina-tornade",
@@ -4722,6 +4569,23 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "pisitrance-open-air-w-athzira-faders-talamasca-more",
+    "name": "Pisitrance Open Air W/ Athzira, Faders, Talamasca & More",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2533195",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2533195"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "after-o-clock-x-la-plage-open-air-terminal-trax-lymsa-deleter",
     "name": "After O'Clock X La Plage Open Air: Terminal Trax, Lymsa, Deleter",
     "city": null,
@@ -4735,23 +4599,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2530967"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "pisitrance-open-air-w-athzira-faders-talamasca-more",
-    "name": "Pisitrance Open Air W/ Athzira, Faders, Talamasca & More",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2533195",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2533195"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4850,32 +4697,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "temet-x-fata-morgana",
-    "name": "TEMET X FATA MORGANA",
-    "city": null,
-    "region": null,
-    "startDate": "2026-10-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2522696",
-    "lineup": [
-      "Amnesia Scanner",
-      "k means",
-      "Simo Cell",
-      "Elvira (1)",
-      "Rosa Pistola",
-      "Less-O",
-      "Tamada (FR)",
-      "rxdazn"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2522696"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "maintenant-festival-2026",
     "name": "Maintenant Festival 2026",
     "city": null,
@@ -4922,26 +4743,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "bordeaux-open-air-parc-bordelais",
-    "name": "Bordeaux Open Air - Parc Bordelais",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-13",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2509116",
-    "lineup": [
-      "Leen",
-      "Fasme"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2509116"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "demain-bellegarde-free-open-air-by-subkultur",
