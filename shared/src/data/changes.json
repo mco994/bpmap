@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-09-15:elektronikoa-besta:removed",
+    "festivalId": "elektronikoa-besta",
+    "festivalSlug": "elektronikoa-besta",
+    "festivalName": "Elektronikoa Besta",
+    "type": "removed",
+    "date": "2026-09-15",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-09-12:calvi-on-the-rocks:removed",
     "festivalId": "calvi-on-the-rocks",
     "festivalSlug": "calvi-on-the-rocks",

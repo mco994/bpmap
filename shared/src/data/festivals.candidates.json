@@ -4240,7 +4240,7 @@
       "abs8lute",
       "Call Super",
       "Chami",
-      "Christian AB",
+      "EMAN (FR)",
       "Fadi Mohem",
       "Nastia Reigel",
       "Felix Fleer",
@@ -4669,32 +4669,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "babecore-launch-showcase-jerk-off-after-party",
-    "name": "BabeCore Launch Showcase (Jerk Off After Party)",
-    "city": null,
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529682",
-    "lineup": [
-      "Kontronatura",
-      "Cleo (AU)",
-      "Miss T Delight",
-      "Butch2Bitch",
-      "Mafille",
-      "Kiar Oscuro",
-      "Orion",
-      "Josef"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529682"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "maintenant-festival-2026",
