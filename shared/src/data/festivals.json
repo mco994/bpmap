@@ -69,35 +69,6 @@
     ]
   },
   {
-    "id": "elektronikoa-besta",
-    "slug": "elektronikoa-besta",
-    "name": "Elektronikoa Besta",
-    "description": "Grande fête électronique en plein air sur la place du fronton d'Arcangues, au Pays basque : house, techno et electro de 18h à 3h, after à La Rhapsodie à Biarritz.",
-    "startDate": "2026-08-14",
-    "endDate": "2026-08-14",
-    "lat": 43.42934,
-    "lng": -1.51248,
-    "city": "Arcangues",
-    "region": "Nouvelle-Aquitaine",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "house",
-      "techno",
-      "electro"
-    ],
-    "priceDay": 10,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://www.jds.fr/bayonne/concerts/elektronikoa-besta-la-grande-fete-electronique-de-l-ete-1304567_A",
-    "status": "confirmed",
-    "eventType": "open-air",
-    "sources": [
-      "https://www.jds.fr/bayonne/concerts/elektronikoa-besta-la-grande-fete-electronique-de-l-ete-1304567_A"
-    ]
-  },
-  {
     "id": "ya-degun-festival",
     "slug": "ya-degun-festival",
     "name": "Ya Degun Festival",
