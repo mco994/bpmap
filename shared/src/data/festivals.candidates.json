@@ -3230,8 +3230,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "exposition-la-responsabilite-des-reves-biennale-des-imaginaires-numeriques",
-    "name": "Exposition - La responsabilité des rêves - Biennale des Imaginaires Numériques",
+    "slug": "exposition-la-responsabilite-des-reves",
+    "name": "Exposition - La responsabilité des rêves",
     "city": "Aix-en-Provence",
     "region": null,
     "description": "Cette installation vidéo documentaire, tournée comme un techno-thriller, adopte une approche critique post-anthropocène en témoignant de l’impact des technologies cyber numériques sur l’environnement, en particulier sur notre consommation d’eau.",
@@ -3246,7 +3246,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "vioflesh-bellog-guest",
@@ -3658,8 +3658,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "park-n-sound-3-parc-du-heyritz-open-air-gratuit",
-    "name": "Park'n'Sound #3 — Parc du Heyritz — Open Air Gratuit",
+    "slug": "park-n-sound-3-parc-du-contades-open-air-gratuit",
+    "name": "Park'n'Sound #3 — Parc du Contades — Open Air Gratuit",
     "city": null,
     "region": null,
     "startDate": "2026-09-19",
@@ -4163,6 +4163,23 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "open-air-pinata-radio",
+    "name": "Open Air Piñata Radio",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2537572",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2537572"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
     "name": "NANTES RAVE TECHNO XXL with NOVAH, MATRAKK, Maudux, DJ Caline, Mosmoz",
     "city": null,
@@ -4259,6 +4276,23 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "open-air-party-mini-festival",
+    "name": "Open Air Party - Mini Festival",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2537766",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2537766"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
   },
   {
     "slug": "oniwave-x-girls-in-rave",
@@ -4552,6 +4586,23 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "deep-sunday-rooftop-party-closing",
+    "name": "Deep Sunday Rooftop Party - Closing",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-20",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2537783",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2537783"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "saazbuzz-jazz-festival",
     "name": "SaazBuzz Jazz Festival",
     "city": null,
@@ -4567,6 +4618,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
+  },
+  {
+    "slug": "edging-tickets-en-vente-sur-place-complet-en-preventes",
+    "name": "EDGING (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2528536",
+    "lineup": [
+      "Bambii",
+      "Lancer (2)",
+      "Loraine James",
+      "Broodoo Ramses",
+      "Tati au Miel",
+      "Renoiterrible",
+      "Jay Mitta",
+      "Crystallmess"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2528536"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "pisitrance-open-air-w-athzira-faders-talamasca-more",
@@ -4647,6 +4724,23 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "open-air-noon-to-midnight-6",
+    "name": "Open Air: Noon To Midnight #6",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2537931",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2537931"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
     "name": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
     "city": null,
@@ -4708,6 +4802,7 @@
       "Dj Schnake",
       "EVN",
       "Fury (FR)",
+      "Majes",
       "Neko"
     ],
     "genreVerified": true,
