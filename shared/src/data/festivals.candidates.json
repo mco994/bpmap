@@ -247,6 +247,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-spectacle-primal-robot",
+    "name": "Concert-spectacle - Primal Robot",
+    "city": "Gondrecourt-le-Château",
+    "region": null,
+    "description": "Sortie de résidence : concert élecrto-rock avec projection d’animations SF\nÀ partir de 12 ans.\n\nAalehx vous embarque dans une histoire interstellaire dystopique, à l’ambiance visuelle et sonore electro-rock, immersive et captivante. Assistez à la naissance du premier Renard mécanique sur EL-357, robot issu de l’autonomie et de l’évolution permanente de l’IA.\n\nAalehx est auteur, dessinateur, musicien et réalisateur. Il lie dans ses concerts-spectacle son univers graphique et son univers sonore.\n\nGratuit. Spectacle suivi d’un moment convivial.\nAccès PMR.",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-09",
+    "lat": 48.513946,
+    "lng": 5.504582,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/73ce6efc-40cd-3c4b-918c-a7a21c6c71f5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "danse-hit-hip-pop-classic-parade-danse-participative",
     "name": "Danse - Hit Hip Pop Classic Parade, danse participative",
     "city": "Metz",
@@ -487,25 +506,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/d4e2da86-2e69-3d6b-8a51-72badc0aa23c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-casa-la-rose",
-    "name": "Concert – Casa La Rose",
-    "city": "Blénod-lès-Pont-à-Mousson",
-    "region": null,
-    "description": "Concert de Casa La Rose le mercredi 16 septembre à 18h30 au Conservatoire Jean Wiener, Salle Picasso\n\nAvec une puissance rythmique à couper le souffle et une grande complicité au service d’une musique où se mêlent danse, transe et envolées mélodiques, Casa Larose offre un show électro-acoustique spectaculaire. Entre pulsations hypnotiques, improvisation et énergie percussive, le groupe construit un univers immersif où se rencontrent héritages méditerranéens, énergie du live et culture du dancefloor.\n\nEntrée libre – Renseignements au 03 83 83 14 38",
-    "startDate": "2026-09-16",
-    "endDate": "2026-09-16",
-    "lat": 48.8821695943859,
-    "lng": 6.05258188458635,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/d6bee092-c949-3298-b865-5ecbd81048b8"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1463,6 +1463,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "lecture-musicale-le-courage-qu-il-faut-aux-rivieres",
+    "name": "Lecture musicale - Le courage qu'il faut aux rivières",
+    "city": "La Ferté-Vidame",
+    "region": null,
+    "description": "Emmanuelle Favier propose une lecture musicale des extraits de son premier roman, Le Courage qu'il faut aux rivières, en compagnie du musicien électro Anthony Augendre.",
+    "startDate": "2026-09-20",
+    "endDate": "2026-09-20",
+    "lat": 48.6072105,
+    "lng": 0.9177413,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/e56904f9-81cb-300b-8b8b-8de59096014f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "man-e-s",
     "name": "MAN.E.S",
     "city": "Saint-Amand-Montrond",
@@ -1615,6 +1634,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "disco-party",
+    "name": "Disco Party",
+    "city": "Naintré",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-04",
+    "lat": 46.764179,
+    "lng": 0.482845,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/04e1f51a-61c3-36a3-80b3-22add64642e7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "micro-folie-de-la-cab-anne-frank-house-vr-immersion-dans-l-annexe",
     "name": "Micro-Folie de la CAB | Anne Frank House VR, Immersion dans l’annexe",
     "city": "Bergerac",
@@ -1632,6 +1670,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "bal-trad-a-coulounieix-chamiers",
+    "name": "Bal Trad à coulounieix Chamiers",
+    "city": "Coulounieix-Chamiers",
+    "region": null,
+    "description": "Préparez-vous à faire chauffer la piste ! Nous avons le plaisir d'accueillir le groupe Tusta, débordant d’énergie qui revisite la musique traditionnelle occitane en y mêlant des influences actuelles (jazz, rock, électro)",
+    "startDate": "2026-09-20",
+    "endDate": "2026-09-20",
+    "lat": 45.1571996,
+    "lng": 0.6893283,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/1c5cefc3-0c35-3a36-b064-0c8aa89c880b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "repas-dansant-annees-80",
@@ -1917,6 +1974,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "soiree-disco",
+    "name": "Soirée disco",
+    "city": "Villetoureix",
+    "region": null,
+    "description": "Soirée disco, proposé par le Comité des fêtes, 19h30, salle polyvalente.",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-03",
+    "lat": 45.2766,
+    "lng": 0.3801,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/f878054f-42ad-34e2-a780-8d6804421e39"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "halloween-party-dans-le-village-de-duras",
@@ -2337,6 +2413,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-electro-soulful-chapelle",
+    "name": "Soirée électro - Soulful Chapelle",
+    "city": "Troyes",
+    "region": null,
+    "description": "",
+    "startDate": "2026-09-17",
+    "endDate": "2026-09-17",
+    "lat": 48.301041,
+    "lng": 4.071291,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/3/62674e2b-7804-33ab-8d89-20388c4c2d2b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "ndk-nights-mac-declos-all-night-long",
     "name": "NDK Nights - Mac Declos : All Night Long",
     "city": "Caen",
@@ -2354,6 +2449,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "spectacle-le-loup-et-pierre-cie-hors-d-oeuvre",
+    "name": "Spectacle \"Le loup et pierre\" – Cie Hors D’oeuvre",
+    "city": "Caen",
+    "region": null,
+    "description": "Dans cette version électro du conte mondialement connu de Prokovief, le loup est une louve et c’est elle qui raconte l’histoire ! Une manière joyeuse et décalée de questionner notre rapport au monde sauvage, d’interroger nos peurs, et de célébrer la différence.",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-30",
+    "lat": 49.1908524,
+    "lng": -0.3977267,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/24b99e5e-d7f1-3f75-aba0-700fb4248fca"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-aymaric-simon-howling-house-band",
@@ -2544,6 +2658,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "concert-doya-luna-bohemia",
+    "name": "Concert Doya Luna Bohemia",
+    "city": "Tarbes",
+    "region": null,
+    "description": "Bienvenue à cette soirée événement organisée pour la sortie officielle de leur nouvel album !\n\nAU PROGRAMME :\n\n19h30 – Ouverture des portes\n20h15 – Première partie | Alegria Gipsy\n21h00 – Concert DOYA\nPuis DJ Electro Flamenco – Lisa del Cristo\n02h00 – Fin de soirée\n\nBILLETTERIE : Voir site internet (bloc Coordonnées)",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 43.2213549,
+    "lng": 0.0417253,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/74b81cde-8040-3f88-86c4-c19fcbaee4b4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "paradoxe-experience-a-la-tour",
@@ -3520,6 +3653,37 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "isulia-festival-2026",
+    "name": "Isulia Festival 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-11-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2527089",
+    "lineup": [
+      "abs8lute",
+      "Audrey Danza",
+      "Belaria",
+      "Zaatar",
+      "Mel (FR)",
+      "Djedjotronic",
+      "Egna",
+      "Lea Occhi",
+      "Maara",
+      "Nastia",
+      "Octave One",
+      "piaconcept",
+      "Pureblast"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2527089"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "moga-essaouira-2026",
     "name": "Moga Essaouira 2026",
     "city": null,
@@ -3969,6 +4133,23 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "s-festival-2026",
+    "name": "S festival 2026",
+    "city": null,
+    "region": null,
+    "startDate": "2026-12-09",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2538769",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2538769"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "face-2-face-adrian-mills-anl-lyon",
     "name": "FACE 2 FACE: ADRIÁN MILLS ANL LYON",
     "city": null,
@@ -4278,23 +4459,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "open-air-party-mini-festival",
-    "name": "Open Air Party - Mini Festival",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2537766",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2537766"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "oniwave-x-girls-in-rave",
     "name": "Oniwave X Girls In Rave",
     "city": null,
@@ -4339,6 +4503,23 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "open-air-party-mini-festival",
+    "name": "Open Air Party - Mini Festival",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2537766",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2537766"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-anechoic-joton-noise-catalog-b2b-fortnum",
@@ -4739,30 +4920,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
-    "name": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
-    "city": null,
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2506953",
-    "lineup": [
-      "Alba Franch",
-      "Antonym",
-      "FØSS",
-      "franck",
-      "HANÀ",
-      "Westfall"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2506953"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "maintenant-festival-2026",
