@@ -133,6 +133,25 @@
     "_reason": "doublon (déjà en base)"
   },
   {
+    "slug": "megafoire-aux-disques-de-nancy",
+    "name": "Mégafoire aux disques de Nancy",
+    "city": "Nancy",
+    "region": null,
+    "description": "Après une première édition qui a largement trouvé son public, la Mégafoire aux Disques de Nancy revient pour un deuxième rendez-vous encore plus ambitieux.\n\nPendant deux jours, la Grande Halle du site L’Autre Canal – L’Octroi Nancy se transforme en un immense marché dédié à la musique enregistrée, avec des exposants venus de toute la France mais aussi de Belgique, d'Allemagne et d'autres pays européens.\n\nDes milliers de références vous attendent :\n- Vinyles neufs et d'occasion\n- CD\n- DVD & Blu-ray\n- Livres musicaux\n- Goodies, affiches, collectors et bien d'autres surprises...\n\nQue vous soyez collectionneur passionné, amateur de belles découvertes ou simple curieux, vous pourrez fouiller des centaines de mètres de stands à la recherche de la pièce qui manque à votre collection.\nRock, pop, jazz, métal, punk, soul, funk, hip-hop, reggae, électro, musique classique, bandes originales... tous les styles seront représentés.\n\nDes milliers de disques, des dizaines d'exposants, deux jours de découvertes dans l'un des plus beaux lieux de Nancy.\nLe rendez-vous incontournable des collectionneurs et des amoureux de musique dans le Grand Est !",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-27",
+    "lat": 48.6936551420555,
+    "lng": 6.19938433170319,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/29b9fe26-4b0d-39e1-b019-4fc22e9be65e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "concert-boneym",
     "name": "Concert - BoneyM",
     "city": "Vandœuvre-lès-Nancy",
@@ -251,7 +270,7 @@
     "name": "Concert-spectacle - Primal Robot",
     "city": "Gondrecourt-le-Château",
     "region": null,
-    "description": "Sortie de résidence : concert élecrto-rock avec projection d’animations SF\nÀ partir de 12 ans.\n\nAalehx vous embarque dans une histoire interstellaire dystopique, à l’ambiance visuelle et sonore electro-rock, immersive et captivante. Assistez à la naissance du premier Renard mécanique sur EL-357, robot issu de l’autonomie et de l’évolution permanente de l’IA.\n\nAalehx est auteur, dessinateur, musicien et réalisateur. Il lie dans ses concerts-spectacle son univers graphique et son univers sonore.\n\nGratuit. Spectacle suivi d’un moment convivial.\nAccès PMR.",
+    "description": "Sortie de résidence : concert électro-rock avec projection d’animations SF\nÀ partir de 12 ans.\n\nAalehx vous embarque dans une histoire interstellaire dystopique, à l’ambiance visuelle et sonore electro-rock, immersive et captivante. Assistez à la naissance du premier Renard mécanique sur EL-357, robot issu de l’autonomie et de l’évolution permanente de l’IA.\n\nAalehx est auteur, dessinateur, musicien et réalisateur. Il lie dans ses concerts-spectacle son univers graphique et son univers sonore.\n\nGratuit. Spectacle suivi d’un moment convivial.\nAccès PMR.",
     "startDate": "2026-10-09",
     "endDate": "2026-10-09",
     "lat": 48.513946,
@@ -912,25 +931,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "mini-concert-shaker-dj-la-scandaleuse",
-    "name": "Mini concert Shaker - DJ la Scandaleuse",
-    "city": "Saint-Jean-en-Royans",
-    "region": null,
-    "description": "Mini Concert | Set DJ — La Scandaleuse -  Inspirations Japon, électro, rock et musiques du monde",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-17",
-    "lat": 45.018199,
-    "lng": 5.289092,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/540f5424-2a06-3f21-8f63-62898cf4c9c9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "ty-segall",
     "name": "Ty Segall",
     "city": "Nîmes",
@@ -1347,25 +1347,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "le-cafe-bien-fait-sa-rentree",
-    "name": "Le Café Bien fait sa rentrée !",
-    "city": "Le Blanc",
-    "region": null,
-    "description": "Le Café Bien est le café-cantine associatif de Carte Blanche ! Pour sa rentrée, il propose à partir de 18h un marché de producteurs et productrices, en collaboration avec Cagette & Fourchette et à partir de 20h un concert de LOUV (solo électro tribal) gratuit ! Bar et restauration sur place.",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-17",
-    "lat": 46.633237,
-    "lng": 1.0689392,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/09f81b94-3f67-3d5d-af9c-58019ac26326"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "hilight-tribe-louv-nirmata",
@@ -1919,25 +1900,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-de-djego-les-concerts-de-l-ete-a-la-maison-duverger",
-    "name": "Concert de Djego [Les concerts de l'été à la Maison Duverger]",
-    "city": "Paulin",
-    "region": null,
-    "description": "Le 17 septembre, découvrez l'univers électro-psychédélique de Djego à 21 h. Restaurant dès 19 h, tapas à partir de 20 h. Entrée libre, places limitées. Réservation conseillée.",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-17",
-    "lat": 44.9916326,
-    "lng": 1.3057374,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/eb99daae-d427-3e1e-aaa8-8408aef8351a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "concert-road-house-4",
     "name": "Concert - Road House 4",
     "city": "Parthenay",
@@ -1988,25 +1950,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/f878054f-42ad-34e2-a780-8d6804421e39"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "halloween-party-dans-le-village-de-duras",
-    "name": "Halloween party dans le village de Duras",
-    "city": "Duras",
-    "region": null,
-    "description": "Brrr… On va faire trembler le village de Duras.\nA vos déguisements les plus terrifiants ! \n - 22h Bal électro \nBuvette, food trucks\nEntrée libre",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 44.6764278,
-    "lng": 0.18024388,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/f94c15ff-695d-3a67-8bba-d9ee4b9e3963"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2223,6 +2166,25 @@
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
+    "slug": "mentissa",
+    "name": "Mentissa",
+    "city": "Abbeville",
+    "region": null,
+    "description": "Après La Vingtaine, son premier disque qui installait Mentissa dans le paysage pop francophone, porté par un succès fulgurant, ces dernières années ont agi comme un révélateur. La tournée, les scènes à répétition, la confrontation au public... l’expérience du live lui a appris ce que le studio ne dit pas toujours : ce qui résonne, ce qui retient, ce qui libère. Enfants Difficiles, marque une nouvelle ère. L’enfance, la famille, l’identité, la colère, le besoin de contrôle, l’amour comme refuge. Mentissa écrit pour se libérer. Si EgWhite (Céline Dion, Sam Smith, Kylie Minogue ou Adele) ou le duo Romain Descamps/Egil Franzen (Adé,Yseult) ont de nouveau collaboré avec elle sur quelques titres, c’est surtout Jean-Étienne Maillard (membre du groupe électro BLOW et compositeur pour Ben Mazué ou Bon Entendeur) et Noé Preszow qui ont permis à Mentissa de trouver le son et l’esprit de ce second album. Mentissa n’est plus la révélation solaire d’un succès fulgurant : elle est une femme qui reprend le récit de son histoire, raconte sa fin de vingtaine avec une portée universelle et transforme la vulnérabilité en force.",
+    "startDate": "2027-05-15",
+    "endDate": "2027-05-15",
+    "lat": 50.1042478,
+    "lng": 1.8403819,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/5f7e4f5f-4a16-3011-b95d-ee5af7f7c0f5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-bound-by-endogamy-monika-beluga",
     "name": "CONCERT : Bound By Endogamy + Monika Beluga",
     "city": "Amiens",
@@ -2259,6 +2221,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+  },
+  {
+    "slug": "winter-groove-electro-deluxe-vaudou-game",
+    "name": "Winter Groove - Electro Deluxe / Vaudou Game",
+    "city": "Abbeville",
+    "region": null,
+    "description": "Pour célébrer ses 25 ans de scène, Electro Deluxe propose une création live inédite construite autour d’une relecture de son répertoire. Le groupe puise dans l’ensemble de sa discographie pour revisiter ses titres emblématiques à travers des arrangements entièrement pensés pour offrir une expérience scénique exclusive. Formation reconnue pour ses performances live et sa capacité à fédérer des publics variés, Electro Deluxe s’impose depuis ses débuts comme une référence des scènes groove et jazz actuelles, en France comme à l’international.  Porté par la générosité et l’énergie contagieuse de James Copley, une rythmique irrésistible et des cuivres explosifs, Electro Deluxe fait vibrer les scènes du monde entier avec une musique organique, sincère et profondément vivante. Ce spectacle anniversaire met en lumière l’évolution artistique du groupe tout en conservant l’énergie et l’interaction qui font sa signature sur scène.\n\nVaudou Game - 1ère partie\nNé sous l’impulsion du chanteur togolais Peter Solo, Vaudou Game fusionne les rythmes envoûtant du vaudou togolais et béninois avec l’afro-funk des années 70, hérité de James Brown, Féla Kuti et des Poly-Rythmo de Cotonou. Pour ce 5e album, les fréquences musicales émises par Vaudou Game ont traversé l’Atlantique et sont parvenues jusqu’en Colombie. Aimantées, c’est en longeant l’équateur que les ondes tropicales sont parties d’Amérique latine pour arriver jusqu’au Togo, et frapper à la porte du studio OTODI. Attendues par Peter Solo, ces ondes continuent de forger le célèbre groove hypnotique du groupe. Agissant toujours sous l’autorité suprême d’un funk contrôlé par l’ésotérisme et le mystique de la gamme vaudou, Vaudou Game mêle guitares, percussions, cuivres et claviers futuro-vintage pour activer les hanches.",
+    "startDate": "2027-02-20",
+    "endDate": "2027-02-20",
+    "lat": 50.1042478,
+    "lng": 1.8403819,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/77ab2583-296c-3245-94b4-8a46cefd39eb"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-aziz-konkrite-meryem-aboulouafa-roshani-la-lune-des-pirates",
@@ -2311,6 +2292,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/28/b6fce131-a4ba-3bac-83a8-5daf301df573"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "winter-groove-l-ultrabal",
+    "name": "Winter Groove - L’Ultrabal",
+    "city": "Abbeville",
+    "region": null,
+    "description": "Amour, Sueur et Paillettes\nElectrique, éphémère, inattendu ! Entre rave des enragés et fiesta des bienheureux, la troupe de L’Ultrabal réinvente le bal, entre chanson et dub, séga et hip hop, musette et électro. Entrez dans la transe d’un bal moderne, un voyage à travers les âges, les styles et les pays. L’Ultrabal renoue avec les fêtes et les liesses d’antan, lorsqu’il était encore de bon ton d’attraper les hanches de son voisin et de se laisser aller à la danse des vivants. Le public est invité à danser sur un répertoire où tout est permis ! Mêlant des compositions inédites au répertoire classique du bal, des années 1930 à aujourd’hui, L’Ultrabal nous entraîne dans une valse à mille temps qui fait briller les regards et battre les cœurs. Edith Piaf, Harry Belafonte, France Gall, The Bangles, Donna Summer, Osvaldo Farres et bien d’autres encore sont revisités aux couleurs de l’Ultrabal. L’Ultrabal fait monter la température.\nAlors, prêt à enflammer le dancefloor ?",
+    "startDate": "2027-02-19",
+    "endDate": "2027-02-19",
+    "lat": 50.1042478,
+    "lng": 1.8403819,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/c13d2f7a-f965-3c9d-8533-69bc2883aa64"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2413,25 +2413,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-electro-soulful-chapelle",
-    "name": "Soirée électro - Soulful Chapelle",
-    "city": "Troyes",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-17",
-    "lat": 48.301041,
-    "lng": 4.071291,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/3/62674e2b-7804-33ab-8d89-20388c4c2d2b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "ndk-nights-mac-declos-all-night-long",
     "name": "NDK Nights - Mac Declos : All Night Long",
     "city": "Caen",
@@ -2506,6 +2487,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "concert-boulevard-des-airs",
+    "name": "Concert : Boulevard des Airs",
+    "city": "Deauville",
+    "region": null,
+    "description": "Boulevard des Airs (BDA) est un groupe de musique français aux sonorités éclectiques mêlant pop, électro, chanson, musiques du monde…",
+    "startDate": "2027-02-19",
+    "endDate": "2027-02-19",
+    "lat": 49.3591193,
+    "lng": 0.07014382,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/497886e0-c957-3f6b-911d-bcd3b264c419"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-a-la-brasserie-baya",
@@ -2698,18 +2698,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "spectacle-dire-et-lire-a-l-air",
-    "name": "Spectacle \"Dire et Lire à l'Air\"",
-    "city": "Riscle",
+    "slug": "concert-la-frangine",
+    "name": "Concert \"La Frangine\"",
+    "city": "Saint-Lary-Soulan",
     "region": null,
-    "description": "Spectacle \"La Soupe à l'Oignon\", organisé dans le cadre du Festival Dire et Lire à l'Air, les Médiathèques en Vadrouille, avec la Médiathèque Départementale du Gers, les associations Alavetz et Sol'Adour.\n\nLe tout nouveau spectacle d’Arnaud Cance est un joyeux mélange de contes, de musique, de cuisine et d’humour sélectionnés au marché de la culture populaire. Une soupe polyglotte aux arômes Gascons, Limousins, Languedociens, Provençaux, Auvergnats... Un voyage culinaire à travers les histoires des femmes et des hommes des pays Occitans...\nLe spectacle est multilingue français et occitan, avec ses différentes variantes. Il est aussi musical, car la préparation de la soupe est l’occasion de faire naître la musique par le détournement des objets du quotidien (relative à une pratique musicale très présente dans les chansons traditionnelles).\nArnaud Cance est un musicien qui joue sur scène depuis plus de 20 ans, seul ou accompagné. Il chante et joue des chansons populaires occitanes, mais il sait aussi fort bien mélanger ces musiques avec de l’électro, du ragga, etc.\nÉcriture et jeu : Arnaud Cance et Éric Destout\nExpertise linguistique : Laurent Labadie\nProduction : Sirventés\n\nAvant le spectacle, l'association Alavetz proposera quelques chants Gascons.",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-17",
-    "lat": 43.65532,
-    "lng": -0.08816,
+    "description": "Après plus de 10 ans, plus de 700 concerts, Angèle a le grand plaisir, auprès de François et Jean Baptiste, de vous présenter La Frangine, musiques et chansons revisitées electro pop swing.\nC’est au contact des différents publics, et à l’occasion des différents concerts qu’Angèle a pu s’imprégner de diverses influences.\nAvec La Frangine, la pop, le swing, l’electro et les sons d’aujourd’hui vous apporteront un métissage surprenant où s’entremêleront sourires, dance, ambiance festive.",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-29",
+    "lat": 42.8165848,
+    "lng": 0.32257658,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/36/da745ce7-ec94-346c-bbf5-f446c485e425"
+      "https://data.datatourisme.fr/36/a4ea19aa-4611-32a2-9d00-774546096809"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2791,6 +2791,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "david-lafore-duo-electro-acoustique",
+    "name": "DAVID LAFORE, DUO ÉLECTRO-ACOUSTIQUE",
+    "city": "Tourouzelle",
+    "region": null,
+    "description": "",
+    "startDate": "2027-04-29",
+    "endDate": "2027-04-29",
+    "lat": 43.253913,
+    "lng": 2.72388,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/41/1fbfff3b-79b3-3490-83a7-f5a2e09bef36"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "spectacle-musical-l-appel-de-la-foret",
@@ -3477,25 +3496,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "silent-disco",
-    "name": "Silent Disco",
-    "city": "Auxerre",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-17",
-    "endDate": "2026-09-17",
-    "lat": 47.7973595,
-    "lng": 3.5659504,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/cbb4640e-1fc7-3810-abb2-6507cfbc6db6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "live-dub-session-full-dub-bass-trooperz-amhka-dub",
     "name": "[Live dub session] full dub + bass trooperz + amhka dub",
     "city": "Chalon-sur-Saône",
@@ -3822,8 +3822,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "park-n-sound-3-parc-du-contades-open-air-gratuit",
-    "name": "Park'n'Sound #3 — Parc du Contades — Open Air Gratuit",
+    "slug": "park-n-sound-3-le-jardin-du-pourtales-open-air-gratuit",
+    "name": "Park'n'Sound #3 — Le Jardin du Pourtalès — Open Air Gratuit",
     "city": null,
     "region": null,
     "startDate": "2026-09-19",
@@ -3836,7 +3836,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "stitch-n-bitch-musica-festival-yard-sarc-zoe-mc-pherson-lullahush-a-a-r-d-e-n-t-ellll",
@@ -4238,6 +4238,25 @@
     "_reason": "variante billetterie de « Utopia Festival » (mêmes dates)"
   },
   {
+    "slug": "u-22-x-dreamachine-festival-dmra-live-madge-sarra-wild",
+    "name": "U.22 X Dreamachine Festival: Dmra (Live), Madge, Sarra Wild",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-25",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2540369",
+    "lineup": [
+      "Sarra Wild"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2540369"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "bazar-bozar-festival-2nd-edition",
     "name": "Bazar Bozar Festival 2nd Edition",
     "city": null,
@@ -4409,23 +4428,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "club-la-ch-ck-tumblr-rave",
-    "name": "Club — LA CH!CK: TUMBLR RAVE",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-17",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2519720",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2519720"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "the-third-room-32h",
     "name": "The Third Room: 32H",
     "city": null,
@@ -4457,6 +4459,23 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "open-air-party-mini-festival",
+    "name": "Open Air Party - Mini Festival",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2537766",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2537766"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
   },
   {
     "slug": "oniwave-x-girls-in-rave",
@@ -4503,23 +4522,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "open-air-party-mini-festival",
-    "name": "Open Air Party - Mini Festival",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2537766",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2537766"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-anechoic-joton-noise-catalog-b2b-fortnum",
@@ -4922,6 +4924,30 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
+    "name": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2506953",
+    "lineup": [
+      "Alba Franch",
+      "Antonym",
+      "FØSS",
+      "franck",
+      "HANÀ",
+      "Westfall"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2506953"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "maintenant-festival-2026",
     "name": "Maintenant Festival 2026",
     "city": null,
@@ -5007,6 +5033,27 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "sarlat-open-air-4",
+    "name": "SARLAT OPEN AIR 4#",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2540420",
+    "lineup": [
+      "JerOhm (FR)",
+      "Finzy",
+      "Gob Itch"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2540420"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "michoun-open-festival",
     "name": "Michoun Open Festival",
     "city": null,
@@ -5022,6 +5069,26 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
+  },
+  {
+    "slug": "bordeaux-open-air-parc-de-bourran",
+    "name": "Bordeaux Open Air - Parc de Bourran",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2539582",
+    "lineup": [
+      "HouseWork",
+      "Tatie Dee"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2539582"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "open-rave-toulouse-organik-machines-vivantes",
