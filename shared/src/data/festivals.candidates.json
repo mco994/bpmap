@@ -722,44 +722,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-dub-a-the-roof-vercors",
-    "name": "Soirée Dub à The Roof Vercors",
-    "city": "Bourg-de-Péage",
-    "region": null,
-    "description": "Avis aux amateur.rice.s de bonnes basses et de vibes positives ! Vendredi 18 septembre, on passe en mode Sound System dans le jardin. Venez chiller, danser et vibrer avec nous !",
-    "startDate": "2026-09-18",
-    "endDate": "2026-09-18",
-    "lat": 45.017886,
-    "lng": 5.041293,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/1db1ebb6-24ea-3381-a10d-1efd35ad9f38"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "dj-set-mosimann-longines-league-of-nations-au-haras-de-gassin",
-    "name": "DJ Set Mosimann – Longines League of Nations au Haras de Gassin",
-    "city": "Gassin",
-    "region": null,
-    "description": "Soirée DJ Set exclusive avec Mosimann (et la participation de GAEL) au Haras de Gassin ! Une nuit électro d'exception dans le cadre prestigieux de la Longines League of Nations. Ne manquez ce concert exclusif à Gassin.",
-    "startDate": "2026-09-18",
-    "endDate": "2026-09-18",
-    "lat": 43.251878,
-    "lng": 6.582872,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/2577125f-437b-3a36-8b6b-e77b1d553981"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "soiree-dansante-le-hot-local-dj-skouss-set-house",
     "name": "Soirée dansante : Le Hot Local – DJ SKOUSS, set house",
     "city": "Marennes-Hiers-Brouage",
@@ -1195,6 +1157,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+  },
+  {
+    "slug": "concert-electro-lab-6",
+    "name": "Concert : Electro Lab #6",
+    "city": "Rochefort",
+    "region": null,
+    "description": "Warm Up : Musiques Actuelles du Conservatoire suivi de Flupke puis FLO/SO.",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-04",
+    "lat": 45.943561,
+    "lng": -0.955085,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/c038883f-92cf-362d-ac1f-1089bd182ff6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-sam-sauvage",
@@ -1710,25 +1691,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "concert-pour-la-ligue-contre-le-cancer",
-    "name": "Concert pour la Ligue contre le cancer",
-    "city": "Jumilhac-le-Grand",
-    "region": null,
-    "description": "Le groupe The Monday Night Project ambiancera cette soirée caritative au fil de ses airs rock, pop et disco.",
-    "startDate": "2026-09-18",
-    "endDate": "2026-09-18",
-    "lat": 45.498166,
-    "lng": 1.073932,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/45fe1552-1f91-3fce-82b2-58093ab459f7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-dub-inc",
     "name": "Concert - Dub Inc",
     "city": "Seignosse",
@@ -1798,25 +1760,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/7986534e-f41c-3b42-9108-65014f689c9c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "les-pizz-beer-du-vendredi-soiree-electro-chill",
-    "name": "Les Pizz' & Beer du Vendredi : Soirée électro chill",
-    "city": "Sorde-l'Abbaye",
-    "region": null,
-    "description": "Soirée électro chill avec DJ Nicoia, qui vous proposera un moment délicieux depuis son magnifique VanDJTruck. Profitez surtout d'une superbe sélection de bières et boissons artisanales landaises ainsi que de délicieuses pizzas au feu de bois, préparées avec amour par Pizz'à Chris.",
-    "startDate": "2026-09-18",
-    "endDate": "2026-09-18",
-    "lat": 43.52917,
-    "lng": -1.05477,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/8b540a9b-20bd-3d9f-9f68-363d3f96a116"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2620,6 +2563,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "evenement-musique-electro-c-est-le-jour-et-la-nuit",
+    "name": "ÉVÉNEMENT MUSIQUE ÉLECTRO : C’EST LE JOUR ET LA NUIT",
+    "city": "Aurignac",
+    "region": null,
+    "description": "Une après-midi et une nuit de musique électronique de différents styles à découvrir sous plusieurs angles.\nÉvènement co-organisé avec Du Vent Dans Les Poils.",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-27",
+    "lat": 43.217374,
+    "lng": 0.881653,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/14219966-59cc-3f76-99a0-9af0c8b8bc60"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "concert-les-baltringues",
@@ -3477,25 +3439,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "soiree-electro-techno-au-gout-du-risoux",
-    "name": "Soirée électro techno au Goût du Risoux",
-    "city": "Bellefontaine",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 46.55742,
-    "lng": 6.06991,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/2bccdcfd-3948-38cb-84dd-55cd8df72e67"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "live-dub-session-full-dub-bass-trooperz-amhka-dub",
     "name": "[Live dub session] full dub + bass trooperz + amhka dub",
     "city": "Chalon-sur-Saône",
@@ -3779,7 +3722,7 @@
       "Vlada",
       "Zaltan",
       "Aksamit",
-      "DJ Storm (2)",
+      "DJ Storm",
       "Jane Fitz",
       "69DB",
       "Neska",
@@ -3788,34 +3731,20 @@
       "Softi",
       "Tammo Hesselink",
       "Varuna Agosti",
-      "YUTA"
+      "YUTA",
+      "gyrofield",
+      "CWTCH",
+      "Hewan Aman",
+      "Jan Loup",
+      "Lechuga Zafiro",
+      "Proc Fiskal",
+      "Ship Sket",
+      "Quelza",
+      "Surgeon"
     ],
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2486660"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "the-holy-rave-32-dijon",
-    "name": "The Holy Rave #32 - Dijon",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2518896",
-    "lineup": [
-      "Kingsmo",
-      "LWØ (1)",
-      "FNRZ",
-      "Naomi Baldacchino",
-      "VS.techno"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2518896"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4133,6 +4062,30 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "haunted-mansion-3",
+    "name": "Haunted Mansion 3",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-31",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2540483",
+    "lineup": [
+      "LEGRAM VG",
+      "Lumbago",
+      "Penelope (2)",
+      "Reptant",
+      "Super Venus",
+      "Tom Bini"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2540483"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "s-festival-2026",
     "name": "S festival 2026",
     "city": null,
@@ -4416,12 +4369,34 @@
       "Combe",
       "Louison",
       "Akira Yamagata",
-      "Basic Channel",
+      "basic chanel",
       "PALLAR"
     ],
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2534422"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-anechoic-joton-noise-catalog-b2b-fortnum",
+    "name": "After O'clock X La Plage Open Air: Anechoic, Joton, Noise Catalog B2B Fortnum",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-19",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2533233",
+    "lineup": [
+      "Joton",
+      "Anechoic",
+      "Noise Catalog",
+      "Fortnum"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2533233"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4459,91 +4434,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "open-air-party-mini-festival",
-    "name": "Open Air Party - Mini Festival",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2537766",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2537766"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "oniwave-x-girls-in-rave",
-    "name": "Oniwave X Girls In Rave",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2536067",
-    "lineup": [
-      "Killoverjoy"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2536067"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "bigfest-4-festival-food-teuf-18-sept-2026-18-00-20-sept-2026-03-00",
-    "name": "BIGFEST #4 - Festival Food & Teuf 18 sept. 2026 18:00 - 20 sept. 2026 03:00 ·",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2536436",
-    "lineup": [
-      "Cerrone",
-      "Mezerg",
-      "Traumer",
-      "Joe Lewandowski",
-      "Valentine Groove",
-      "Emma B",
-      "Baccus",
-      "Stereoclip",
-      "Lauren Lo Sung"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2536436"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-anechoic-joton-noise-catalog-b2b-fortnum",
-    "name": "After O'clock X La Plage Open Air: Anechoic, Joton, Noise Catalog B2B Fortnum",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2533233",
-    "lineup": [
-      "Joton",
-      "Anechoic",
-      "Noise Catalog",
-      "Fortnum"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2533233"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "p2z-fertile-thomas-melchior-lawrence-cosmo",
@@ -4706,6 +4596,33 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "bigfest-4-festival-food-teuf-18-sept-2026-18-00-20-sept-2026-03-00",
+    "name": "BIGFEST #4 - Festival Food & Teuf 18 sept. 2026 18:00 - 20 sept. 2026 03:00 ·",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2536436",
+    "lineup": [
+      "Cerrone",
+      "Mezerg",
+      "Traumer",
+      "Joe Lewandowski",
+      "Valentine Groove",
+      "Emma B",
+      "Baccus",
+      "Stereoclip",
+      "Lauren Lo Sung"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2536436"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
@@ -4946,6 +4863,122 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "babecore-launch-showcase-jerk-off-after-party",
+    "name": "BabeCore Launch Showcase (Jerk Off After Party)",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2529682",
+    "lineup": [
+      "Kontronatura",
+      "Cleo (AU)",
+      "Miss T Delight",
+      "Butch2Bitch",
+      "Mafille",
+      "Kiar Oscuro",
+      "Orion",
+      "Josef"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2529682"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "goddess-rave-urumi-a5km-esilise-pauline-d7-noiza",
+    "name": "GODDESS RAVE: Urumi, A5KM, Esilise, PAULINE D7 & NOIZA",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2536624",
+    "lineup": [
+      "Urumi",
+      "Esilise",
+      "NOIZA"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2536624"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "temet-x-fata-morgana-tickets-en-vente-sur-place-complet-en-preventes",
+    "name": "TEMET X FATA MORGANA (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522696",
+    "lineup": [
+      "Amnesia Scanner",
+      "k means",
+      "Simo Cell",
+      "Elvira (1)",
+      "Rosa Pistola",
+      "Less-O",
+      "Tamada (FR)",
+      "rxdazn"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2522696"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "tete-vide-a-bal-chavaux-ma-sha-aloka-acide-plastique-b2b-b3bz-xea-b2b-hyperlison",
+    "name": "TETE VIDE à Bal Chavaux: Ma Sha, Aloka, Acide Plastique b2b b3bz, Xea b2b Hyperlison",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2526288",
+    "lineup": [
+      "Ma Sha",
+      "Aloka",
+      "acideplastique",
+      "b3bz",
+      "xea (1)",
+      "Hyperlison"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2526288"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "imagine-family-o-bee-all-day-long-open-air",
+    "name": "imagine FAMILY: O.BEE ALL DAY LONG [OPEN AIR]",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2532246",
+    "lineup": [
+      "O.BEE"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2532246"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "maintenant-festival-2026",
