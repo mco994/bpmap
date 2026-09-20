@@ -399,6 +399,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-thea-h4rdr0ck3r",
+    "name": "Concert - THÉA \"H4RDR0CK3R",
+    "city": "Metz",
+    "region": null,
+    "description": "THÉA et son emo-core révolté transforment les affres d'une génération en fête insolente, fédératrice et jouissive. \n\nDes textes sensibles et viscéraux, portés par une grande bacchanale pop-punk-hyperpop. Son projet raconte le chaos que vit une jeune fille queer dans ses relations, sa santé mentale et les systèmes oppressifs qui l'entourent. Une claque renversante et dansante.JeanneTo, c'est une voix pop punk qui s'invite dans le chaos de la rave, sur des rythmes provocants qui poussent les genres déchaînés des années 90 vers leurs extrêmes : basses qui frappent, blasts de batterie, synthés saturés et addictifs. Entre journal intime et slogans de manifs, Jeanne ne chante pas seule. Il y a du monde autour, et vous en faites partie. En appelant l'amour et le désespoir par leur nom, elle fait de la chanson un espace commun pour celles et ceux qui se sentent perdu·es, quelque part, au milieu de tout. \n\nÉcouter JeanneTo, c'est se laisser submerger par des nappes toxiques et poétiques jusqu'à se faire engloutir complètement. On ne sait plus comment on est arrivé là, mais c'est ok. Il est trop tard pour partir, alors il ne reste plus qu'à danser.",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-08",
+    "lat": 49.121499,
+    "lng": 6.194987,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/b058d905-28df-35f7-bc87-51e84cf54d0f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "spectacle-ballet-de-lorraine",
     "name": "Spectacle - Ballet de Lorraine",
     "city": "Bar-le-Duc",
@@ -454,25 +473,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "soiree-dj-set-greg-ascori",
-    "name": "Soirée DJ SET GREG ASCORI",
-    "city": "Amnéville",
-    "region": null,
-    "description": "Le Paddock passe en mode club pour une nouvelle nuit rythmée par Greg Ascori !\nAmbiance électro, deep house & sons festifs : prépare-toi à danser jusqu’à la fermeture dans un cadre vibrant et stylé.",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 49.2483740606469,
-    "lng": 6.1395752010498,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/cdcf2781-0fc9-300f-8bbf-a411577a41ee"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "festival-du-soleil-jour-1-dub-silence",
@@ -587,25 +587,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "la-barmacie-en-musique",
-    "name": "La Barmacie en Musique",
-    "city": "Vaubecourt",
-    "region": null,
-    "description": "POLSËT est un duo qui mêle folk acoustique et électro atmosphérique pour proposer une musique poétique et festive, entre racines et voyage, portée par guitares, percussions tribales, nappes synthétiques et un chant envoûtant.\n\nFOODTRUCK Chez Patoch' + planches apéritives",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 48.935597,
-    "lng": 5.1116029,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/e976bd66-b7ec-3ff1-9587-edf6a6a5e3fe"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "spectacle-dub-amala-dianor",
@@ -886,25 +867,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/502ee5dc-fe75-3334-9c8c-dacdcd38d221"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "ty-segall",
-    "name": "Ty Segall",
-    "city": "Nîmes",
-    "region": null,
-    "description": "Electro / Pop / Rock",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 43.855801,
-    "lng": 4.405894,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/56cd8e1f-2eae-31dd-8290-9571af022576"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1368,6 +1330,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "brassberry-invite-l-ensemble-jet-whistle",
+    "name": "Brassberry invite l'Ensemble Jet Whistle",
+    "city": "Bourges",
+    "region": null,
+    "description": "BrassBerry invite Jet Whistle pour une soirée explosive mêlant jazz, électro, rock et sonorités de brass band au Conservatoire de Bourges.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 47.075865,
+    "lng": 2.3962703,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/45bb2050-3189-30ab-964a-41bfa764dec9"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "qui-vive-musique",
     "name": "Qui vive ! - Musique",
     "city": "Pithiviers",
@@ -1779,25 +1760,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/8f1a9bbe-a2af-3b4a-8fa9-60d9d207e849"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "vanille-after-electro-opera-de-limoges",
-    "name": "Vanille - After Electro - Opéra de Limoges",
-    "city": "Limoges",
-    "region": null,
-    "description": "",
-    "startDate": "2026-12-10",
-    "endDate": "2026-12-10",
-    "lat": 45.8322594,
-    "lng": 1.2589079,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/a950df55-5e40-3e4a-aa99-59357179fe8c"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2401,8 +2363,8 @@
     "description": "",
     "startDate": "2026-10-14",
     "endDate": "2026-10-14",
-    "lat": 49.667987,
-    "lng": -1.4038712,
+    "lat": 49.6680876,
+    "lng": -1.4038336,
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/30/456f0084-6fe3-34a1-8c2b-452ee626dd80"
@@ -2411,25 +2373,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "journees-europeennes-du-patrimoine-conference-sur-l-usine-d-electro-metallurgie-de-dives",
-    "name": "[Journées européennes du patrimoine] Conférence sur l'usine d'électro-métallurgie de Dives",
-    "city": "Dives-sur-Mer",
-    "region": null,
-    "description": "Christine Le Callonec, présidente de l'association \"La Dives, un fleuve pour la liberté\" retrace les 50 premières années de la vie de l'usine de Dives-sur-Mer de sa création à l'Occupation en 1940 par les Allemands.",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 49.2921124,
-    "lng": -0.1000506,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/47ba4959-d917-3349-a6b7-9dea54634821"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-boulevard-des-airs",
@@ -2641,25 +2584,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "paradoxe-experience-a-la-tour",
-    "name": "Paradoxe Experience à la Tour",
-    "city": "Termes-d'Armagnac",
-    "region": null,
-    "description": "Un lieu d'exception, une programmation exceptionnelle, une expérience hors du commun. Bienvenue dans la première édition Paradoxe Expérience.\nParadoxe Expérience vous invite à vivre bien plus qu'un festival : une véritable expérience au cœur de la Tour de Termes d'Armagnac. Installé sur son parvis avec un point de vue exceptionnel, l'événement mêle patrimoine, musique techno, gastronomie locale et convivialité dans un cadre unique.\n\nTout au long de la soirée, profitez d'une programmation musicale variée avec le collectif ALTITUDE, DJ Clem et notre tête d'affiche Skrenzo. Découvrez des producteurs locaux, des espaces de restauration, des animations et une scénographie pensée pour sublimer ce lieu d'exception. De 16 h Jusqu'à 2 h du matin, le parvis transformé en piste de danse, la buvette et la restauration vous accompagneront pour partager un moment suspendu dans le temps, placé sous le signe de la fête, de la découverte et du partage.\n\n*Les places sont limitées et disponibles uniquement sur notre billetterie. Aucun billet ne sera vendu sur place.\n\n*Evènement strictement réservé aux personnes majeures (18 ans et plus). Une pièce d'identité originale pourra être demandée à l'entrée. Toute personne ne pouvant justifier de son âge se verra refuser l'accès, sans remboursement.",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 43.6712116,
-    "lng": -0.0131911,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/9372608d-c471-35f7-8cd0-0ae8a9f199ad"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-la-frangine",
     "name": "Concert \"La Frangine\"",
     "city": "Saint-Lary-Soulan",
@@ -2767,6 +2691,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/41/1fbfff3b-79b3-3490-83a7-f5a2e09bef36"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "flrsn-fluoresun",
+    "name": "FLRSN - Fluoresun",
+    "city": "Givet",
+    "region": null,
+    "description": "FLRSN a pour objectif de sensibiliser le public à l’importance de protéger son audition, au cours d’un concert pop-électro émaillé d’interventions des artistes, de leur technicien et d’invité.e.s lors de séquences audio et vidéo. Au travers de démonstrations interactives, le groupe détaillera les aspects techniques et la nature du son, les risques liés à l’exposition au bruit et l’importance de protéger son audition.  Il donnera également des explications sur les vibrations, les fréquences et les décibels, en combinant musique et vidéo, tout en favorisant les échanges avec le public, pour leur offrir un spectacle pédagogique ludique et engageant, encourageant chacun à adopter des pratiques d’écoute responsables. Durée : 1h20 À partir de 10 ans",
+    "startDate": "2026-12-18",
+    "endDate": "2026-12-18",
+    "lat": 50.14516,
+    "lng": 4.839093,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/42/3eac7c16-f535-3c43-bc25-0091f3758127"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3268,25 +3211,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "schlumpf-moutain-fest",
-    "name": "Schlumpf Moutain Fest",
-    "city": "Dolleren",
-    "region": null,
-    "description": "Une journée dédiée à la musique, à la découverte et au partage ! Quatre scènes proposeront des univers variés : 80’s/90’s/2000’s, nouveaux talents, guinguette et électro/techno. Le festival débutera à 12h sous le chapiteau jusqu'à 1h du matin. Tartes flambées, food trucks et animations rythmeront la journée. Une montagne, des artistes, quatre scènes !",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-19",
-    "lat": 47.793178541138,
-    "lng": 6.92267417907715,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/5/31a2ef31-4d81-3339-af64-4ef342e89d1a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-vallee-vagabonde-roller-disco",
     "name": "La vallée vagabonde : Roller Disco",
     "city": "Villé",
@@ -3401,6 +3325,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "la-responsabilite-des-reves",
+    "name": "La responsabilité des rêves",
+    "city": "Aix-en-Provence",
+    "region": null,
+    "description": "Cette installation vidéo documentaire tournée comme un techno-thriller aborde l'impact des cyber-technologies sur l’eau.",
+    "startDate": "2026-10-30",
+    "endDate": "2027-03-20",
+    "lat": 43.521189,
+    "lng": 5.439863,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/e08bf90b-2fd0-3fb4-af71-9f68df076e99"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "fred-nevche-poesie-electro",
     "name": "Fred Nevché - Poésie électro",
     "city": "Iguerande",
@@ -3437,6 +3380,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "silent-disco",
+    "name": "Silent Disco",
+    "city": "Auxerre",
+    "region": null,
+    "description": "",
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-24",
+    "lat": 47.7973595,
+    "lng": 3.5659504,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/6/cbb4640e-1fc7-3810-abb2-6507cfbc6db6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "live-dub-session-full-dub-bass-trooperz-amhka-dub",
@@ -3574,26 +3536,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "shake-shake-shake-open-air",
-    "name": "SHAKE! SHAKE! SHAKE! Open Air",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2535279",
-    "lineup": [
-      "NairLess",
-      "Owlshake"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2535279"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "isulia-festival-2026",
@@ -3751,23 +3693,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "park-n-sound-3-le-jardin-du-pourtales-open-air-gratuit",
-    "name": "Park'n'Sound #3 — Le Jardin du Pourtalès — Open Air Gratuit",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2514916",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2514916"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "stitch-n-bitch-musica-festival-yard-sarc-zoe-mc-pherson-lullahush-a-a-r-d-e-n-t-ellll",
     "name": "Stitch'n' Bitch - MUSICA FESTIVAL [YARD, SARC, Zoë Mc Pherson, Lullahush, a~a~r~d~e~n~t, ELLLL]",
     "city": null,
@@ -3854,7 +3779,7 @@
   },
   {
     "slug": "eyeland-festival-guadeloupe",
-    "name": "Eyeland Festival Guadeloupe",
+    "name": "Eyeland Festival_Guadeloupe",
     "city": null,
     "region": null,
     "startDate": "2026-12-04",
@@ -3867,27 +3792,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "2sik-open-air-w-rotational-ohjeelo",
-    "name": "2sik! Open-Air W/ Rotational, Ohjeelo",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2536056",
-    "lineup": [
-      "Rotational",
-      "ohjeelo"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2536056"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "festival-69bpm",
@@ -4127,32 +4032,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "kumquat-pres-le-chateau-de-ma-mere-chap-iv-closing",
-    "name": "Kumquat prés. Le Château de Ma Mère – Chap IV. (Closing)",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2527262",
-    "lineup": [
-      "Faciendo Soundsystem",
-      "Burchan Acar",
-      "Desyn",
-      "Keras",
-      "Rama NYC",
-      "Rowan",
-      "Tom Morgan",
-      "Tommy Pickles"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2527262"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "utopia-festival-tome-vi",
     "name": "UTOPIA FESTIVAL - TOME VI",
     "city": null,
@@ -4316,23 +4195,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "open-air-pinata-radio",
-    "name": "Open Air Piñata Radio",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2537572",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2537572"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
     "name": "NANTES RAVE TECHNO XXL with NOVAH, MATRAKK, Maudux, DJ Caline, Mosmoz",
     "city": null,
@@ -4375,269 +4237,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2534422"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-anechoic-joton-noise-catalog-b2b-fortnum",
-    "name": "After O'clock X La Plage Open Air: Anechoic, Joton, Noise Catalog B2B Fortnum",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2533233",
-    "lineup": [
-      "Joton",
-      "Anechoic",
-      "Noise Catalog",
-      "Fortnum"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2533233"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "the-third-room-32h",
-    "name": "The Third Room: 32H",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2500043",
-    "lineup": [
-      "Ahmet Sisman",
-      "abs8lute",
-      "Call Super",
-      "Chami",
-      "EMAN (FR)",
-      "Fadi Mohem",
-      "Nastia Reigel",
-      "Felix Fleer",
-      "Fred P",
-      "Isabel Soto",
-      "Oscar Mulero",
-      "Psyk",
-      "ORBE",
-      "Tauceti (FR)",
-      ".VRIL"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2500043"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "p2z-fertile-thomas-melchior-lawrence-cosmo",
-    "name": "P2z Fertile - Thomas Melchior, Lawrence & Cosmo",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2466368",
-    "lineup": [
-      "Thomas Melchior",
-      "Lawrence",
-      "Cosmo (KR)",
-      "Deep Tears On Clamart",
-      "P2z",
-      "Abn - P2z"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2466368"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "automatic-calabasa-sibil-b2b-pocket-club-more",
-    "name": "Automatic: Calabasa, Sibil b2b Pocket Club & more",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2521526",
-    "lineup": [
-      "Calabasa",
-      "Paul Cut",
-      "Poggio",
-      "Sibil (1)",
-      "Alex Troubetzkoy",
-      "Automatic Writing"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2521526"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "area-open-air-club-dj-bax-y-oshit-servye",
-    "name": "AREA · Open-air + Club: DJ Bax · Y.oshit · Servye",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2524327",
-    "lineup": [
-      "DJ Bax",
-      "KLAMER",
-      "Stupid Child"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2524327"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "el-hey-with-massai-b2b-gabriel-belabbas-iambp-maco-maria-el-hey",
-    "name": "El Hey with Massaï B2B Gabriel Belabbas, IAMBP, Maco Maria, El Hey",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2510672",
-    "lineup": [
-      "Massaï",
-      "Gabriel Belabbas",
-      "IAMBP",
-      "Maco Maria",
-      "El Hey",
-      "NOCH (2)",
-      "Sebizarre"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2510672"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "sxm-festival-x-kalua-yoyo-palais-de-tokyo",
-    "name": "SXM Festival X Kalua - YOYO, PALAIS DE TOKYO",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516189",
-    "lineup": [
-      "Sebastien Leger",
-      "Sistek",
-      "Deer Jade",
-      "Paso Doble",
-      "Julian Prince",
-      "Andera"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2516189"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "sauvage-w-offshore",
-    "name": "¡Sauvage W/Offshore",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529483",
-    "lineup": [
-      "Art of Tones",
-      "Young Pulse",
-      "Tour-Maubourg",
-      "PEPIITA",
-      "BAB MUSIQUE",
-      "Vickies"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2529483"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "open-air-who-runs-the-decks-by-kumo",
-    "name": "Open air - Who Runs The Decks!? By Kumo",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2526194",
-    "lineup": [
-      "Stanislawa",
-      "Shfoosja"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2526194"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "bigfest-4-festival-food-teuf-18-sept-2026-18-00-20-sept-2026-03-00",
-    "name": "BIGFEST #4 - Festival Food & Teuf 18 sept. 2026 18:00 - 20 sept. 2026 03:00 ·",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2536436",
-    "lineup": [
-      "Cerrone",
-      "Mezerg",
-      "Traumer",
-      "Joe Lewandowski",
-      "Valentine Groove",
-      "Emma B",
-      "Baccus",
-      "Stereoclip",
-      "Lauren Lo Sung"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2536436"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "circulaires-radio-campus-paris-vice-experience-x-festival-printemps-des-humanites",
-    "name": "Circulaires Radio Campus Paris: Vice Experience x Festival Printemps des Humanités",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-19",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2525133",
-    "lineup": [
-      "Vice Experience"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2525133"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4975,6 +4574,53 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2532246"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
+    "name": "CHEVRY AGENCY: 8TH ANNIVERSARY [XXL FORMAT · 4 STAGES]",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-09",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2494177",
+    "lineup": [
+      "Adrien Calvet",
+      "Akaj",
+      "Alyhas",
+      "Baccus",
+      "B.Love",
+      "Jhobei",
+      "Cam Stockman",
+      "Coleeeette",
+      "Deborah Aime La Bagarre",
+      "Emma B",
+      "Kara Okay",
+      "Emi Ömar",
+      "Gibs (ID)",
+      "HearThug",
+      "Munir Nadir",
+      "Herr Krank",
+      "IAMBP",
+      "Jeff The Fool",
+      "JUAAN",
+      "loryn (FR)",
+      "Luuk van Dijk",
+      "Occibel",
+      "P.O (1)",
+      "Man/Ipulate",
+      "Roza Terenzi",
+      "Sampol",
+      "MARYO",
+      "The Hacker",
+      "Voodoos and Taboos"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2494177"
     ],
     "status": "announced",
     "needsReview": true,
