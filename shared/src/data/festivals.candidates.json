@@ -1273,25 +1273,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "fete-patronale",
-    "name": "Fête patronale",
-    "city": "Félines",
-    "region": null,
-    "description": "Fête patronale de Félines avec un concours de pétanque le samedi après-midi suivi d'un repas, grand feu d'artifice pyromusical, bals musette et disco en soirée et le dimanche : repas des écoles, animations enfants, défilé de chars fleuris et spectacle…",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-20",
-    "lat": 45.271784,
-    "lng": 3.743571,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/f9c7bbb9-8348-3d46-b1cc-924f07d2cfb7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "hilight-tribe-louv-nirmata",
     "name": "Hilight Tribe + Louv + Nirmata",
     "city": "Tours",
@@ -1368,25 +1349,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "festival-de-techno-transe-floraison-tardive",
-    "name": "Festival de techno transe : Floraison tardive",
-    "city": "Rosnay",
-    "region": null,
-    "description": "Après un été quelque peu tourmenté et l'annulation de l'édition estivale \"Brenn'Storming\" de cette année, ACF ne voulait pas nous laissez patienter jusqu'en 2027...",
-    "startDate": "2026-09-19",
-    "endDate": "2026-09-20",
-    "lat": 46.6836856,
-    "lng": 1.19717382,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/b91d4176-174c-3234-b6bd-38ce19bfb4c5"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
     "slug": "concert-james-baker-blanche-esther",
     "name": "Concert - James Baker - Blanche Esther",
     "city": "Bourges",
@@ -1399,25 +1361,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/e1513976-d377-303d-83ee-b017a95a39e1"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "lecture-musicale-le-courage-qu-il-faut-aux-rivieres",
-    "name": "Lecture musicale - Le courage qu'il faut aux rivières",
-    "city": "La Ferté-Vidame",
-    "region": null,
-    "description": "Emmanuelle Favier propose une lecture musicale des extraits de son premier roman, Le Courage qu'il faut aux rivières, en compagnie du musicien électro Anthony Augendre.",
-    "startDate": "2026-09-20",
-    "endDate": "2026-09-20",
-    "lat": 48.6072105,
-    "lng": 0.9177413,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/e56904f9-81cb-300b-8b8b-8de59096014f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1613,25 +1556,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "bal-trad-a-coulounieix-chamiers",
-    "name": "Bal Trad à coulounieix Chamiers",
-    "city": "Coulounieix-Chamiers",
-    "region": null,
-    "description": "Préparez-vous à faire chauffer la piste ! Nous avons le plaisir d'accueillir le groupe Tusta, débordant d’énergie qui revisite la musique traditionnelle occitane en y mêlant des influences actuelles (jazz, rock, électro)",
-    "startDate": "2026-09-20",
-    "endDate": "2026-09-20",
-    "lat": 45.1571996,
-    "lng": 0.6893283,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/1c5cefc3-0c35-3a36-b064-0c8aa89c880b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "repas-dansant-annees-80",
@@ -2736,25 +2660,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-en-goguette",
-    "name": "Concert - En Goguette !!",
-    "city": "Sedan",
-    "region": null,
-    "description": "Venez profiter d'une ambiance festive entre amis, en famille ou entre curieux, pour chanter, apprendre, danser et se laisser porter par la fête pour ouvrir cette saison culturelle !!Picon Mon Amour Venez découvrir l’univers déjanté de Picon Mon Amour, un duo cévenol qui bouscule les codes avec ses « chansons lubrifiantes ». Lauren, virtuose de l’accordéon et du ukulélé, et Jojo, aux commandes de ses multi-basses-batteries agrémentées d’une touche de clownerie, forment un couple à la ville comme à la scène. Ensemble, ils nous entraînent dans un spectacle musical festif et sans complexe où l’intimité conventionnelle vole en éclats. Entre ébats culottés et autodérision, ce duo un peu fêlé puise son inspiration dans l’esprit des Deschiens pour offrir une performance où tout peut arriver. Le public, pris à témoin, est invité à entrer dans une toile tissée de spontanéité farceuse. Que vous soyez confortablement installés ou prêts à danser jusqu’à en soulever la poussière, préparez-vous à une explosion de gloussements et de déhanchés. Picon Mon Amour, c’est une bouffée de lumière et de cocasse chansonnerie qui redonne le sourire à coup sûr. Une expérience scénique unique, humaine et irrésistiblement drôle à ne pas manquer.Johnny & Wallace Electro, disco, rock'n'roll ou funky, Johnny & Wallace se règlent sur votre tempo et vous emporte dans leur univers décalé. Maitres incontestés de l'animation musicale, ils trouveront la formule adaptée et vous garantissent la réussite de votre événement.Jungle Shakers Ancré dans un univers « Rock’n’Roll à l’ancienne », c’est un duo qui puise ses influences dans le rockabilly, le psychobilly old-school, la country, la folk, allant d’artistes comme Jerry Lee Lewis, en passant par Richard Hawley ou encore Tom Waits.Une organisation Sapristi !! avec le soutien de la MJC Calonne, d’Ardenne Métropole, de la Ville de Sedan et de la région Grand Est.Billetterie MJC Calonne | La Plaque Tournante | Bar le Vert Bock | Billetterie numérique MJC : www.mjc-calonne.com",
-    "startDate": "2026-09-20",
-    "endDate": "2026-09-20",
-    "lat": 49.69976,
-    "lng": 4.944306,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/42/7cdff8c8-513b-35dd-93d7-e5c213f69779"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-immersif-s-e-a-scape",
     "name": "Concert immersif : (S)E(A)SCAPE",
     "city": "Charleville-Mézières",
@@ -3737,6 +3642,23 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "park-n-sound-closing-2026-open-air-gratuit",
+    "name": "Park'n'Sound Closing 2026 — Open Air gratuit",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2541596",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2541596"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "the-holy-rave-34-besancon",
     "name": "The Holy Rave #34 - Besançon",
     "city": null,
@@ -4243,65 +4165,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "after-o-clock-x-la-plage-open-air-keepsakes-ombrar-tina-tornade",
-    "name": "After O'clock X La Plage Open Air: Keepsakes, OMBRAR & Tina Tornade",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-20",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2525975",
-    "lineup": [
-      "Keepsakes",
-      "Tina Tornade",
-      "OMBRAR"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2525975"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "inka-trip-to-ibiza-open-air-mini-festival-edition",
-    "name": "Inka Trip To Ibiza - Open Air (Mini Festival Edition)",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-20",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2530909",
-    "lineup": [
-      "Bigstate",
-      "Catsinka",
-      "Gostoso"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2530909"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
-    "slug": "deep-sunday-rooftop-party-closing",
-    "name": "Deep Sunday Rooftop Party - Closing",
-    "city": null,
-    "region": null,
-    "startDate": "2026-09-20",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2537783",
-    "lineup": [],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2537783"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "saazbuzz-jazz-festival",
     "name": "SaazBuzz Jazz Festival",
     "city": null,
@@ -4331,6 +4194,7 @@
       "Lancer (2)",
       "Loraine James",
       "Broodoo Ramses",
+      "Feadz",
       "Tati au Miel",
       "Renoiterrible",
       "Jay Mitta",
@@ -4621,6 +4485,31 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2494177"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "tear-club-is-back",
+    "name": "tear club is back ★",
+    "city": null,
+    "region": null,
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2538957",
+    "lineup": [
+      "amne",
+      "Lisa More",
+      "Blood of Aza",
+      "TTristana",
+      "Golce",
+      "fetva",
+      "PLEUR"
+    ],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2538957"
     ],
     "status": "announced",
     "needsReview": true,
