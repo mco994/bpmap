@@ -37,6 +37,8 @@ function Chip({ label, active, onPress }: { label: string; active: boolean; onPr
   return (
     <Pressable
       onPress={onPress}
+      accessibilityRole="button"
+      accessibilityState={{ selected: active }}
       style={[
         styles.chip,
         { backgroundColor: active ? theme.accentSoft : theme.backgroundElement },
@@ -127,6 +129,7 @@ export function FestivalFilters({ value, onChange, onReset }: Props) {
       <View style={styles.switchRow}>
         <ThemedText type="small">Inclure les événements passés</ThemedText>
         <Switch
+          accessibilityLabel="Inclure les événements passés"
           value={value.includePast}
           onValueChange={(includePast) => onChange({ ...value, includePast })}
           trackColor={{ true: theme.accentSoft }}
@@ -136,7 +139,7 @@ export function FestivalFilters({ value, onChange, onReset }: Props) {
 
       {!isEmptyFilters(value) ? (
         <View style={styles.footer}>
-          <Pressable onPress={onReset} hitSlop={8}>
+          <Pressable onPress={onReset} hitSlop={8} accessibilityRole="button">
             <ThemedText type="smallBold" style={{ color: theme.accent }}>
               Retirer tous les filtres
             </ThemedText>

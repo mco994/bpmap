@@ -36,6 +36,8 @@ export async function generateMetadata({
       title: `${artist.name} en festival · BPMap`,
       description: `Tous les festivals électro où ${artist.name} est à l'affiche en France.`,
       url: `/artistes/${artist.slug}`,
+      siteName: "BPMap",
+      images: "/opengraph-image",
     },
   };
 }

@@ -44,7 +44,7 @@ export default function FavoriteButton({
       className={`rounded-full p-1.5 text-base leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 ${
         isFavorite
           ? "text-pink-600 dark:text-pink-400"
-          : "text-zinc-400 hover:text-pink-600 dark:text-zinc-500 dark:hover:text-pink-400"
+          : "text-zinc-500 hover:text-pink-600 dark:text-zinc-400 dark:hover:text-pink-400"
       }`}
     >
       <Icon name="heart" size={16} filled={isFavorite} />
