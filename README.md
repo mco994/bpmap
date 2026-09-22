@@ -59,7 +59,7 @@ journal des changements   diff avec la version committée → changes.json
         ↓
 lint · types · tests · build
         ↓
-Neon                      migrations, chargement, cycle de vie, notifications push
+Neon                      abonnements aux notifications push (migrations + envoi)
         ↓
 PR de rafraîchissement    statut publié sur le commit, auto-merge
 ```
