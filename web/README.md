@@ -8,7 +8,7 @@ Application Next.js 16 du monorepo. Voir le [README racine](../README.md) pour l
 - **React 19**, **TypeScript** en mode strict
 - **Tailwind CSS 4**
 - **MapLibre GL** via `react-map-gl/maplibre` — tuiles [OpenFreeMap](https://openfreemap.org), sans clé
-- **Neon** (Postgres serverless) — abonnements aux notifications push et miroir du catalogue
+- **Neon** (Postgres serverless) — abonnements aux notifications push
 - **@vercel/firewall** — limitation de débit sur les routes API
 
 ## Structure

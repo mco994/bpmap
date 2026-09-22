@@ -19,7 +19,7 @@ try {
   );
   for (const { table_name } of tables) {
     const { rows } = await client.query(
-      `select count(*)::int as n from "${table_name}"`,
+      `select count(*)::int as n from ${pg.escapeIdentifier(table_name)}`,
     );
     console.log(`• ${table_name}: ${rows[0].n} lignes`);
   }
