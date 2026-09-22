@@ -491,7 +491,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "festival-nancy-jazz-pulsations-edition-2026",
@@ -510,7 +510,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "concert-z-f",
@@ -909,7 +909,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "hofesh-shechter",
@@ -1118,7 +1118,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "concert-electro-lab-6",
@@ -1251,7 +1251,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "animation-soiree-bloomoon-val-dj-set-sur-le-rooftop-du-gaee",
@@ -1999,7 +1999,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "mentissa",
@@ -2056,7 +2056,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "winter-groove-electro-deluxe-vaudou-game",
@@ -2113,7 +2113,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "disco",
@@ -2493,7 +2493,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "concert-doya-luna-bohemia",
@@ -3448,7 +3448,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "elektric-park-festival",
@@ -3480,7 +3480,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "isulia-festival-2026",
@@ -3512,12 +3512,12 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "moga-essaouira-2026",
     "name": "Moga Essaouira 2026",
-    "city": "Central",
+    "city": null,
     "region": null,
     "startDate": "2026-10-02",
     "endDate": "2026-10-04",
@@ -3574,7 +3574,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "localisation manquante"
   },
   {
     "slug": "positive-education-2026",
@@ -3729,7 +3729,7 @@
   {
     "slug": "the-holy-rave-36-metz",
     "name": "The Holy Rave #36 - Metz",
-    "city": "East",
+    "city": null,
     "region": null,
     "startDate": "2026-11-10",
     "endDate": null,
@@ -3750,7 +3750,7 @@
   {
     "slug": "eyeland-festival-guadeloupe",
     "name": "Eyeland Festival_Guadeloupe",
-    "city": "French West Indies",
+    "city": null,
     "region": null,
     "startDate": "2026-12-04",
     "endDate": null,
@@ -3763,7 +3763,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "localisation manquante"
   },
   {
     "slug": "festival-69bpm",
@@ -3784,7 +3784,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
@@ -3806,7 +3806,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "le-sucre-24-heures",
@@ -3853,8 +3853,11 @@
       "Carla Schmitt",
       "DBBD",
       "DNNS",
+      "Axymt.",
       "Blasha & Allatt",
-      "Tau Ceti",
+      "Tauceti (FR)",
+      "Chami",
+      "OPH",
       "EARGASM GOD",
       "Glaskeen",
       "GRAVEDGR",
@@ -3943,7 +3946,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "haunted-mansion-3",
@@ -3986,7 +3989,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "face-2-face-adrian-mills-anl-lyon",
@@ -4099,7 +4102,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "cloture-actoral-festival-petit-cab",
@@ -4117,7 +4120,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "hors-sol-open-air-marseille",
@@ -4141,7 +4144,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "dreamachine-festival",
@@ -4163,7 +4166,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "dreamachine-festival-petit-cab",
@@ -4181,7 +4184,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
@@ -4251,7 +4254,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "skybar-rooftop-party",
@@ -4415,7 +4418,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
@@ -4561,7 +4564,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
@@ -4635,7 +4638,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "festival-one-life-infinity-edition-2026",
@@ -4660,7 +4663,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "demain-bellegarde-free-open-air-by-subkultur",
@@ -4678,7 +4681,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "closing-rooftop-2026-roni-blum-house",
@@ -4720,7 +4723,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "michoun-open-festival",
@@ -4738,7 +4741,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "bordeaux-open-air-parc-de-bourran",
@@ -4759,7 +4762,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "open-rave-toulouse-organik-machines-vivantes",
@@ -4942,5 +4945,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "grandmas-house-nobody-s-fault",
+    "name": "GRANDMAS HOUSE + NOBODY'S FAULT",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-29",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6a18a0de3af9270001144e09",
+    "lineup": [],
+    "source": "dice",
+    "eventType": "soiree",
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6a18a0de3af9270001144e09"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   }
 ]
