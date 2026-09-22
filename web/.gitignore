@@ -3,3 +3,5 @@
 next-env.d.ts
 *.tsbuildinfo
 .vercel
+
+/public/maplibre-gl-*.mjs
