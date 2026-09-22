@@ -12,6 +12,7 @@ import MapGL, {
   type MapLayerMouseEvent,
   type LayerProps,
 } from "react-map-gl/maplibre";
+import { setWorkerUrl } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import {
   bestQueryMatch,
@@ -30,6 +31,8 @@ import {
 } from "@bpmap/shared";
 import GenreChips from "@/components/GenreChips";
 import ItineraryButton from "@/components/ItineraryButton";
+
+setWorkerUrl("/maplibre-gl-worker.mjs");
 
 const MAP_STYLE =
   process.env.NEXT_PUBLIC_MAP_STYLE ??
