@@ -62,8 +62,9 @@ export function matchesFilters(
   }
 
   if (f.dateFrom || f.dateTo) {
-    if (!festival.startDate || !festival.endDate) return false;
-    if (f.dateFrom && festival.endDate < f.dateFrom) return false;
+    if (!festival.startDate) return false;
+    const endDate = festival.endDate ?? festival.startDate;
+    if (f.dateFrom && endDate < f.dateFrom) return false;
     if (f.dateTo && festival.startDate > f.dateTo) return false;
   }
 
