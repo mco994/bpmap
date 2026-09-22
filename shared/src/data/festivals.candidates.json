@@ -3116,6 +3116,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-x-mas-party",
+    "name": "Concert : X-MAS PARTY",
+    "city": "Sélestat",
+    "region": null,
+    "description": "Pendant deux nuits, Zone51 rassemble les passionnés de dub, d’électro, de reggae et de bass music autour d’une même envie : danser, partager et célébrer ensemble la fin d’année",
+    "startDate": "2026-12-18",
+    "endDate": "2026-12-19",
+    "lat": 48.2552356175416,
+    "lng": 7.46283435980229,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/a8da0379-e21f-3489-9dce-85de2c33f562"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "la-vallee-vagabonde-roller-disco",
     "name": "La vallée vagabonde : Roller Disco",
     "city": "Villé",
@@ -4182,6 +4201,40 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "skybar-rooftop-party",
+    "name": "Skybar Rooftop Party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-23",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2541994",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2541994"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "trocadero-summer-club-closing-open-air-party",
+    "name": "Trocadero Summer Club Closing — open air party",
+    "city": null,
+    "region": null,
+    "startDate": "2026-09-24",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2542005",
+    "lineup": [],
+    "genreVerified": true,
+    "sources": [
+      "https://ra.co/events/2542005"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "edging-tickets-en-vente-sur-place-complet-en-preventes",
     "name": "EDGING (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
     "city": null,
@@ -4485,31 +4538,6 @@
     "genreVerified": true,
     "sources": [
       "https://ra.co/events/2494177"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "tear-club-is-back",
-    "name": "tear club is back ★",
-    "city": null,
-    "region": null,
-    "startDate": "2026-10-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2538957",
-    "lineup": [
-      "amne",
-      "Lisa More",
-      "Blood of Aza",
-      "TTristana",
-      "Golce",
-      "fetva",
-      "PLEUR"
-    ],
-    "genreVerified": true,
-    "sources": [
-      "https://ra.co/events/2538957"
     ],
     "status": "announced",
     "needsReview": true,
