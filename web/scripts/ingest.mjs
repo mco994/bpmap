@@ -157,7 +157,7 @@ async function raResolveAreas() {
   }
 }
 
-const RA_REGION_AREAS = /^(Central|East|West|North|South|French Riviera|French West Indies|Other)$/i;
+const RA_REGION_AREAS = /^(Central|East|West|North|South|North ?East|North ?West|South ?East|South ?West|French Riviera|French West Indies|Other)$/i;
 
 function raCity(venue) {
   const fromAddress = (venue?.address ?? "").match(/\d{5}\s+([^,\d]+)/);

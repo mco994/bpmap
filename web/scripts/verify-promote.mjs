@@ -128,7 +128,6 @@ async function officialVerified(url, sourceDomains) {
   try {
     const res = await fetch(url, {
       headers: { "User-Agent": "BPMap/1.0 (+verification)" },
-      redirect: "manual",
       signal: AbortSignal.timeout(12000),
     });
     if (!res.ok) return false;
@@ -185,8 +184,8 @@ for (const c of candidates) {
 
   const sourceDomains = domainsOf(c.sources);
   const multiSource = sourceDomains.size >= 2;
-  const curated = c.isFestival === true;
-  const named = curated || /\bfestival\b|open.?air/i.test(c.name);
+  const named = c.isFestival === true || /\bfestival\b|open.?air/i.test(c.name);
+  const curated = c.isFestival === true || (named && sourceDomains.has("ra.co"));
   const verified =
     curated ||
     (named
