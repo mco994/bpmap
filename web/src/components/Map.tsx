@@ -38,6 +38,17 @@ const MAP_STYLE =
   process.env.NEXT_PUBLIC_MAP_STYLE ??
   "https://tiles.openfreemap.org/styles/positron";
 
+const MAP_LOCALE = {
+  "Map.Title": "Carte",
+  "NavigationControl.ZoomIn": "Zoomer",
+  "NavigationControl.ZoomOut": "Dézoomer",
+  "GeolocateControl.FindMyLocation": "Me localiser",
+  "GeolocateControl.LocationNotAvailable": "Position indisponible",
+  "Popup.Close": "Fermer la bulle",
+  "AttributionControl.ToggleAttribution": "Afficher les attributions",
+  "Marker.Title": "Repère",
+};
+
 const INITIAL_VIEW = { longitude: 2.5, latitude: 46.6, zoom: 4.7 };
 
 const SOURCE_ID = "festivals";
@@ -227,6 +238,7 @@ export default function Map({
     <MapGL
       ref={mapRef}
       initialViewState={INITIAL_VIEW}
+      locale={MAP_LOCALE}
       mapStyle={MAP_STYLE}
       onLoad={(e) => {
         const map = e.target;

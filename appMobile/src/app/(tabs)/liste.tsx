@@ -62,6 +62,7 @@ export default function ListeScreen() {
           <TextInput
             value={query}
             onChangeText={setQuery}
+            accessibilityLabel="Rechercher un événement"
             placeholder="Festival, artiste, ville, orga…"
             placeholderTextColor={theme.textSecondary}
             autoCorrect={false}
@@ -132,7 +133,7 @@ export default function ListeScreen() {
             ))}
           </View>
           {hasActiveFilters(filterState) ? (
-            <Pressable onPress={clearAllFilters} hitSlop={8}>
+            <Pressable onPress={clearAllFilters} hitSlop={8} accessibilityRole="button">
               <ThemedText type="smallBold" style={{ color: theme.accent }}>
                 ✕ Filtres
               </ThemedText>

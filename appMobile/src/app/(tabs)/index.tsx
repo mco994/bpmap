@@ -279,6 +279,7 @@ export default function CarteScreen() {
               <TextInput
                 value={query}
                 onChangeText={setQuery}
+                accessibilityLabel="Rechercher un événement"
                 placeholder="Festival, artiste, ville, orga…"
                 placeholderTextColor={theme.textSecondary}
                 autoCorrect={false}

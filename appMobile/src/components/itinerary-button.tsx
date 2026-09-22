@@ -101,6 +101,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
                 <TextInput
                   value={address}
                   onChangeText={onChangeAddress}
+                  accessibilityLabel="Adresse de départ"
                   placeholder="Adresse de départ"
                   placeholderTextColor={theme.textSecondary}
                   returnKeyType="go"

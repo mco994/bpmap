@@ -1,6 +1,9 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import MapExplorer from "@/components/MapExplorer";
 import { getAllFestivals } from "@bpmap/shared";
+
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 export const revalidate = 86400;
 

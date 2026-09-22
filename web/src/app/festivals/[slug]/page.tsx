@@ -9,6 +9,7 @@ import ArtistLinks from "@/components/ArtistLinks";
 import Icon, { type IconName } from "@/components/Icon";
 import { affiliateUrl } from "@/lib/affiliate";
 import { SITE_URL, absoluteUrl, inlineJson } from "@/lib/site";
+import { festivalJsonLd } from "@/lib/festival-jsonld";
 import {
   getAllFestivals,
   getFestivalBySlug,
@@ -22,7 +23,6 @@ import {
   statusLabel,
   effectiveEventType,
   eventTypeLabel,
-  priceFrom,
   sanitizeUrl,
   isHttpUrl,
   type Festival,
@@ -62,70 +62,8 @@ export async function generateMetadata({
       title: `${title} · BPMap`,
       description,
       url: `/festivals/${festival.slug}`,
+      siteName: "BPMap",
     },
-  };
-}
-
-function eventStatusUrl(festival: Festival, now: Date): string {
-  const status = effectiveStatus(festival, now);
-  if (status === "cancelled") return "https://schema.org/EventCancelled";
-  return "https://schema.org/EventScheduled";
-}
-
-function offerAvailability(festival: Festival, now: Date): string {
-  const status = effectiveStatus(festival, now);
-  if (status === "cancelled") return "https://schema.org/Discontinued";
-  if (status === "passed") return "https://schema.org/SoldOut";
-  return "https://schema.org/InStock";
-}
-
-function jsonLd(festival: Festival, url: string, now: Date) {
-  const price = priceFrom(festival);
-
-  return {
-    "@context": "https://schema.org",
-    "@type": "MusicEvent",
-    name: festival.name,
-    description: festival.description,
-    image: `${url}/opengraph-image`,
-    ...(festival.startDate && { startDate: festival.startDate }),
-    ...(festival.endDate && { endDate: festival.endDate }),
-    eventStatus: eventStatusUrl(festival, now),
-    eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
-    location: {
-      "@type": "Place",
-      name: festival.city,
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: festival.city,
-        addressRegion: festival.region,
-        addressCountry: "FR",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: festival.lat,
-        longitude: festival.lng,
-      },
-    },
-    ...(festival.organizer && {
-      organizer: { "@type": "Organization", name: festival.organizer },
-    }),
-    ...(festival.lineup?.length && {
-      performer: festival.lineup.map((name) => ({
-        "@type": "MusicGroup",
-        name,
-      })),
-    }),
-    ...(price !== null && {
-      offers: {
-        "@type": "Offer",
-        price,
-        priceCurrency: festival.currency,
-        url: sanitizeUrl(festival.ticketUrl) ?? sanitizeUrl(festival.officialUrl) ?? url,
-        availability: offerAvailability(festival, now),
-      },
-    }),
-    url,
   };
 }
 
@@ -194,6 +132,7 @@ export default async function FestivalPage({
   const now = new Date();
   const status = effectiveStatus(festival, now);
   const tier = sizeTierForCapacity(festival.capacity);
+  const musicEvent = festivalJsonLd(festival, url, now);
 
   const info: { icon: IconName; label: string; value: string }[] = [
     { icon: "users", label: "Organisateur", value: festival.organizer ?? "—" },
@@ -216,10 +155,12 @@ export default async function FestivalPage({
 
   return (
     <article className="pb-12">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: inlineJson(jsonLd(festival, url, now)) }}
-      />
+      {musicEvent && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: inlineJson(musicEvent) }}
+        />
+      )}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: inlineJson(breadcrumbJsonLd(festival, url)) }}
@@ -341,7 +282,7 @@ export default async function FestivalPage({
                 </li>
               ))}
             </ul>
-            <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-500">
+            <p className="mt-2 text-xs text-zinc-500 dark:text-zinc-400">
               Tarifs indicatifs, à vérifier sur la billetterie officielle.
             </p>
           </section>
@@ -376,7 +317,7 @@ export default async function FestivalPage({
         </div>
 
         {festival.sources && festival.sources.length > 0 && (
-          <p className="mt-8 text-xs text-zinc-500 dark:text-zinc-500">
+          <p className="mt-8 text-xs text-zinc-500 dark:text-zinc-400">
             Sources vérifiées&nbsp;:{" "}
             {festival.sources.filter(isHttpUrl).map((s, i) => (
               <span key={s}>

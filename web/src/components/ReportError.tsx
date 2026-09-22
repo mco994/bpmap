@@ -163,7 +163,7 @@ export default function ReportError({ slug }: { slug: string }) {
       <button
         type="button"
         onClick={openDialog}
-        className="text-xs font-medium text-zinc-500 underline underline-offset-2 transition-colors hover:text-zinc-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:text-zinc-500 dark:hover:text-zinc-300"
+        className="text-xs font-medium text-zinc-500 underline underline-offset-2 transition-colors hover:text-zinc-700 dark:text-zinc-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:text-zinc-500 dark:hover:text-zinc-300"
       >
         Signaler une erreur
       </button>

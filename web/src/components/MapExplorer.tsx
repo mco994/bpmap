@@ -18,7 +18,7 @@ import SearchBox from "@/components/SearchBox";
 const Map = dynamic(() => import("@/components/Map"), {
   ssr: false,
   loading: () => (
-    <div className="flex h-full items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-800">
+    <div className="flex h-full items-center justify-center bg-zinc-100 text-sm text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
       Chargement de la carte…
     </div>
   ),
@@ -112,7 +112,7 @@ export default function MapExplorer({ festivals }: { festivals: Festival[] }) {
               focus={focus}
             />
           ) : (
-            <div className="flex h-full items-center justify-center bg-zinc-100 text-sm text-zinc-500 dark:bg-zinc-800">
+            <div className="flex h-full items-center justify-center bg-zinc-100 text-sm text-zinc-600 dark:bg-zinc-800 dark:text-zinc-300">
               Chargement de la carte…
             </div>
           )}
