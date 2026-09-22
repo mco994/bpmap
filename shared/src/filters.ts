@@ -28,6 +28,20 @@ export const EMPTY_FILTERS: Filters = {
   eventTypes: [],
 };
 
+export function activeFilterCount(f: Filters): number {
+  return [
+    f.genres.length > 0,
+    !!f.dateFrom || !!f.dateTo,
+    f.organizer.trim() !== "",
+    f.artist.trim() !== "",
+    f.sizes.length > 0,
+    f.priceDayMax !== null,
+    f.priceFullMax !== null,
+    f.includePast,
+    f.eventTypes.length > 0,
+  ].filter(Boolean).length;
+}
+
 export function isEmptyFilters(f: Filters): boolean {
   return (
     f.genres.length === 0 &&

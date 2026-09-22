@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import {
   EMPTY_FILTERS,
+  activeFilterCount,
   applyFilters,
   filterFestivalsByQuery,
   getPriceBoundsFor,
@@ -11,7 +12,7 @@ import {
   type Filters,
   type Festival,
 } from "@bpmap/shared";
-import FiltersPanel from "@/components/Filters";
+import FiltersAside from "@/components/FiltersAside";
 import SearchBox from "@/components/SearchBox";
 
 const Map = dynamic(() => import("@/components/Map"), {
@@ -71,22 +72,22 @@ export default function MapExplorer({ festivals }: { festivals: Festival[] }) {
 
   return (
     <div className="grid gap-6 lg:grid-cols-[20rem_1fr]">
-      <aside className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:self-start lg:overflow-y-auto lg:pr-2">
-        <FiltersPanel
-          filters={filters}
-          onChange={setFilters}
-          bounds={priceBounds}
-          onReset={resetAll}
-          resetActive={hasActive}
-        />
+      <FiltersAside
+        filters={filters}
+        onChange={setFilters}
+        bounds={priceBounds}
+        onReset={resetAll}
+        resetActive={hasActive}
+        activeCount={activeFilterCount(filters)}
+      >
         <p
-          className="mt-4 text-sm font-medium text-zinc-700 dark:text-zinc-300"
+          className="mt-4 text-sm font-medium tabular-nums text-zinc-700 dark:text-zinc-300"
           aria-live="polite"
         >
           {filtered.length} événement{filtered.length > 1 ? "s" : ""}
           {filtered.length !== festivals.length && ` sur ${festivals.length}`}
         </p>
-      </aside>
+      </FiltersAside>
 
       <section aria-label="Carte" className="min-w-0">
         <p className="sr-only">

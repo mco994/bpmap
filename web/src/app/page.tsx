@@ -8,12 +8,12 @@ export default function Home() {
   const festivals = getAllFestivals();
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-6">
+    <div className="mx-auto max-w-7xl px-4 py-8">
       <div className="mb-4 max-w-3xl">
-        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+        <h1 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl">
           La carte des événements de musique électronique en France
         </h1>
-        <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
+        <p className="mt-2 text-zinc-600 dark:text-zinc-400">
           Festivals, open airs et soirées — explorez la carte par type, genre,
           date, taille et prix, ou parcourez le{" "}
           <Link

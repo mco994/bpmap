@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Icon from "@/components/Icon";
 import { getGenresWithCounts } from "@bpmap/shared";
 
 export const metadata: Metadata = {
@@ -21,7 +22,8 @@ export default function GenresHubPage() {
           href="/festivals"
           className="inline-flex items-center gap-1 text-fuchsia-700 transition-colors hover:text-fuchsia-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:text-fuchsia-400"
         >
-          ← Tous les festivals
+          <Icon name="arrow-left" size={16} />
+          Tous les festivals
         </Link>
       </nav>
 

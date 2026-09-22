@@ -66,7 +66,7 @@ export default function FestivalGridCard({
         <GenreChips genres={festival.genres} highlight={highlightGenre} />
       </div>
 
-      <p className="mt-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">
+      <p className="mt-3 text-sm font-medium tabular-nums text-zinc-700 dark:text-zinc-300">
         {formatFromPrice(festival)}
       </p>
       </Link>

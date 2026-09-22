@@ -21,6 +21,28 @@
 
 body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  accent-color: #c026d3;
+  scrollbar-color: #d4d4d8 transparent;
+}
+
+::selection {
+  background-color: #f0abfc;
+  color: #1a0b1f;
+}
+
+input,
+textarea {
+  caret-color: #c026d3;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    scrollbar-color: #3f3f46 transparent;
+  }
+  ::selection {
+    background-color: #86198f;
+    color: #fdf4ff;
+  }
 }
 
 /* genres — généré par npm run build:genre-css */
