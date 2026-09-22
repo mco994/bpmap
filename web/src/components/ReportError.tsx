@@ -1,5 +1,7 @@
 "use client";
 
+import Icon from "@/components/Icon";
+
 import { useCallback, useState } from "react";
 import DialogOverlay from "@/components/DialogOverlay";
 import { useDialog } from "@/lib/use-dialog";
@@ -86,7 +88,7 @@ export default function ReportError({ slug }: { slug: string }) {
                   aria-label="Fermer"
                   className="-mr-1 -mt-1 rounded-md p-1 text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800"
                 >
-                  ✕
+                  <Icon name="x" size={18} />
                 </button>
               </div>
 

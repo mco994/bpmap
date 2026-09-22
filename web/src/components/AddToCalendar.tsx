@@ -1,5 +1,7 @@
 "use client";
 
+import Icon from "@/components/Icon";
+
 import { festivalIcs, type Festival } from "@bpmap/shared";
 import DialogOverlay from "@/components/DialogOverlay";
 import { useDialog } from "@/lib/use-dialog";
@@ -111,7 +113,7 @@ export default function AddToCalendar({
                   aria-label="Fermer"
                   className="-mr-1 -mt-1 rounded-md p-1 text-zinc-500 hover:bg-zinc-100 dark:hover:bg-zinc-800"
                 >
-                  ✕
+                  <Icon name="x" size={18} />
                 </button>
               </div>
 
@@ -132,7 +134,7 @@ export default function AddToCalendar({
                   onClick={closeDialog}
                   className="flex w-full items-center justify-center gap-2 rounded-xl bg-fuchsia-100 px-4 py-3 font-semibold text-fuchsia-700 transition-colors hover:bg-fuchsia-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                 >
-                  Google Agenda ↗
+                  Google Agenda <Icon name="external" size={16} />
                 </a>
           )}
         </div>

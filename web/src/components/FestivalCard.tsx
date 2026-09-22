@@ -83,7 +83,7 @@ export default function FestivalCard({
       </ul>
 
       <div className="mt-3 flex items-center justify-between gap-2 text-sm">
-        <p className="text-zinc-700 dark:text-zinc-300">
+        <p className="tabular-nums text-zinc-700 dark:text-zinc-300">
           Jour&nbsp;<strong>{formatPrice(festival.priceDay)}</strong> · Pass&nbsp;
           <strong>{formatPrice(festival.priceFull)}</strong>
         </p>

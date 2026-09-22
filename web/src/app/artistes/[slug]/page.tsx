@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Icon from "@/components/Icon";
 import { notFound } from "next/navigation";
 import {
   getArtistsWithCounts,
@@ -77,7 +78,8 @@ export default async function ArtistPage({
           href="/artistes"
           className="inline-flex items-center gap-1 text-fuchsia-700 transition-colors hover:text-fuchsia-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:text-fuchsia-400 dark:hover:text-fuchsia-300"
         >
-          ← Tous les artistes
+          <Icon name="arrow-left" size={16} />
+          Tous les artistes
         </Link>
       </nav>
 

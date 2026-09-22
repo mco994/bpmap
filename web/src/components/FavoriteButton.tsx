@@ -1,5 +1,7 @@
 "use client";
 
+import Icon from "@/components/Icon";
+
 import { toggleFavorite, useIsFavorite } from "@/lib/favorites";
 
 export default function FavoriteButton({
@@ -23,7 +25,7 @@ export default function FavoriteButton({
             : "border-zinc-300 text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
         }`}
       >
-        <span aria-hidden>{isFavorite ? "♥" : "♡"}</span>
+        <Icon name="heart" size={16} filled={isFavorite} />
         {isFavorite ? "Suivi" : "Suivre"}
       </button>
     );
@@ -45,7 +47,7 @@ export default function FavoriteButton({
           : "text-zinc-400 hover:text-pink-600 dark:text-zinc-500 dark:hover:text-pink-400"
       }`}
     >
-      <span aria-hidden>{isFavorite ? "♥" : "♡"}</span>
+      <Icon name="heart" size={16} filled={isFavorite} />
     </button>
   );
 }

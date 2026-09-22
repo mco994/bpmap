@@ -5,6 +5,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import {
   EMPTY_FILTERS,
+  activeFilterCount,
   applyFilters,
   bestQueryMatch,
   filterFestivalsByQuery,
@@ -24,7 +25,8 @@ import {
   type SortMode,
 } from "@bpmap/shared";
 import FavoriteButton from "@/components/FavoriteButton";
-import FiltersPanel from "@/components/Filters";
+import FiltersAside from "@/components/FiltersAside";
+import Icon from "@/components/Icon";
 import FestivalGridCard from "@/components/FestivalGridCard";
 import GenreChips from "@/components/GenreChips";
 import { getCurrentCoords } from "@/lib/geo";
@@ -141,31 +143,34 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
 
   return (
     <div className="grid gap-6 lg:grid-cols-[20rem_1fr]">
-      <aside className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:self-start lg:overflow-y-auto lg:pr-2">
-        <FiltersPanel
-          filters={filters}
-          onChange={setFilters}
-          bounds={priceBounds}
-          onReset={resetAll}
-          resetActive={hasActive}
-        />
-      </aside>
+      <FiltersAside
+        filters={filters}
+        onChange={setFilters}
+        bounds={priceBounds}
+        onReset={resetAll}
+        resetActive={hasActive}
+        activeCount={activeFilterCount(filters)}
+      />
 
       <section aria-label="Sommaire" className="min-w-0">
-        <label className="block">
+        <label className="relative block">
           <span className="sr-only">Rechercher un événement</span>
+          <Icon
+            name="search"
+            className="pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 text-zinc-400"
+          />
           <input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Festival, artiste, ville, genre, orga…"
-            className="w-full rounded-lg border border-zinc-300 bg-white px-4 py-2.5 text-sm shadow-sm focus-visible:border-fuchsia-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-700 dark:bg-zinc-900"
+            className="w-full rounded-lg border border-zinc-300 bg-white py-2.5 pl-10 pr-4 text-sm shadow-sm focus-visible:border-fuchsia-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-700 dark:bg-zinc-900"
           />
         </label>
 
         <div className="mt-3 flex items-center justify-between gap-3">
           <p
-            className="text-sm font-medium text-zinc-700 dark:text-zinc-300"
+            className="text-sm font-medium tabular-nums text-zinc-700 dark:text-zinc-300"
             aria-live="polite"
           >
             {filteredCount} événement{filteredCount > 1 ? "s" : ""}
@@ -349,11 +354,11 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
                               <span className="block text-[11px] text-zinc-600 dark:text-zinc-400">
                                 dès
                               </span>
-                              <span className="font-medium text-zinc-700 dark:text-zinc-300">
+                              <span className="font-medium tabular-nums text-zinc-700 dark:text-zinc-300">
                                 {formatPrice(priceFrom(f))}
                               </span>
                               {distanceKm !== null && (
-                                <span className="mt-0.5 block text-[11px] font-medium text-fuchsia-600 dark:text-fuchsia-400">
+                                <span className="mt-0.5 block text-[11px] font-medium tabular-nums text-fuchsia-600 dark:text-fuchsia-400">
                                   à {Math.round(distanceKm)} km
                                 </span>
                               )}
