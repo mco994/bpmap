@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import {
+  activeFilterCount,
   EMPTY_FILTERS,
   applyFilters,
   bestQueryMatch,
@@ -46,6 +47,26 @@ describe("matchesFilters", () => {
     expect(matchesFilters(festival, spanning, NOW)).toBe(true);
     const after = { ...EMPTY_FILTERS, dateFrom: "2026-07-13", dateTo: "2026-07-20" };
     expect(matchesFilters(festival, after, NOW)).toBe(false);
+  });
+
+  it("traite un événement sans date de fin comme un événement d'un jour", () => {
+    const oneDay = makeFestival({ startDate: "2026-07-10", endDate: null });
+    const covering = { ...EMPTY_FILTERS, dateFrom: "2026-07-01", dateTo: "2026-07-20" };
+    expect(matchesFilters(oneDay, covering, NOW)).toBe(true);
+    const before = { ...EMPTY_FILTERS, dateFrom: "2026-07-11", dateTo: null };
+    expect(matchesFilters(oneDay, before, NOW)).toBe(false);
+  });
+
+  it("compte un filtre actif par famille de critères", () => {
+    expect(activeFilterCount(EMPTY_FILTERS)).toBe(0);
+    expect(
+      activeFilterCount({
+        ...EMPTY_FILTERS,
+        genres: ["techno", "house"],
+        dateFrom: "2026-07-01",
+        includePast: true,
+      }),
+    ).toBe(3);
   });
 
   it("exige un tarif connu quand un plafond de prix est posé", () => {

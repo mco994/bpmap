@@ -1,5 +1,7 @@
 "use client";
 
+import Icon from "@/components/Icon";
+
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { sortByDateThenName, type Festival } from "@bpmap/shared";
@@ -68,9 +70,7 @@ export default function SuivisList() {
   if (followed.length === 0) {
     return (
       <div className="mt-8 rounded-xl border border-dashed border-zinc-300 p-10 text-center dark:border-zinc-700">
-        <p className="text-3xl" aria-hidden>
-          ♡
-        </p>
+        <Icon name="heart" size={36} className="mx-auto text-zinc-300 dark:text-zinc-600" />
         <p className="mt-2 text-zinc-600 dark:text-zinc-400">
           Aucun événement suivi pour l&apos;instant.
         </p>

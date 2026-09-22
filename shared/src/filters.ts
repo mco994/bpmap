@@ -28,6 +28,20 @@ export const EMPTY_FILTERS: Filters = {
   eventTypes: [],
 };
 
+export function activeFilterCount(f: Filters): number {
+  return [
+    f.genres.length > 0,
+    !!f.dateFrom || !!f.dateTo,
+    f.organizer.trim() !== "",
+    f.artist.trim() !== "",
+    f.sizes.length > 0,
+    f.priceDayMax !== null,
+    f.priceFullMax !== null,
+    f.includePast,
+    f.eventTypes.length > 0,
+  ].filter(Boolean).length;
+}
+
 export function isEmptyFilters(f: Filters): boolean {
   return (
     f.genres.length === 0 &&
@@ -62,8 +76,9 @@ export function matchesFilters(
   }
 
   if (f.dateFrom || f.dateTo) {
-    if (!festival.startDate || !festival.endDate) return false;
-    if (f.dateFrom && festival.endDate < f.dateFrom) return false;
+    if (!festival.startDate) return false;
+    const endDate = festival.endDate ?? festival.startDate;
+    if (f.dateFrom && endDate < f.dateFrom) return false;
     if (f.dateTo && festival.startDate > f.dateTo) return false;
   }
 

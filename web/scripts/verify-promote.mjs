@@ -130,7 +130,8 @@ for (const c of candidates) {
   const text = `${c.name} ${c.description ?? ""}`;
   const multiDay =
     c.startDate && c.endDate && c.endDate.slice(0, 10) > c.startDate.slice(0, 10);
-  const festivalLike = /\bfestival\b/i.test(c.name) || multiDay;
+  const festivalLike =
+    c.isFestival === true || /\bfestival\b|open.?air/i.test(c.name) || multiDay;
   if (!festivalLike) {
     rejected.push({ ...c, _reason: "pas festival-like (ni 'festival' ni multi-jours)" });
     continue;
@@ -149,7 +150,7 @@ for (const c of candidates) {
   }
 
   const multiSource = domainsOf(c.sources).size >= 2;
-  const named = /\bfestival\b/i.test(c.name);
+  const named = c.isFestival === true || /\bfestival\b|open.?air/i.test(c.name);
   const verified = named
     ? multiSource || (await officialVerified(c.officialUrl))
     : multiSource && multiDay;

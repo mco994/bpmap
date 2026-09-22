@@ -35,6 +35,10 @@ export function useDialog(options: UseDialogOptions = {}): UseDialog {
   const [open, setOpen] = useState(false);
   const dialogRef = useRef<HTMLDivElement | null>(null);
   const triggerRef = useRef<HTMLElement | null>(null);
+  const onOpenChangeRef = useRef(onOpenChange);
+  useEffect(() => {
+    onOpenChangeRef.current = onOpenChange;
+  });
 
   const openDialog = useCallback(() => {
     if (typeof document !== "undefined") {
@@ -48,8 +52,8 @@ export function useDialog(options: UseDialogOptions = {}): UseDialog {
   }, []);
 
   useEffect(() => {
-    onOpenChange?.(open);
-  }, [open, onOpenChange]);
+    onOpenChangeRef.current?.(open);
+  }, [open]);
 
   useEffect(() => {
     if (!open) return;

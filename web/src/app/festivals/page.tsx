@@ -17,7 +17,7 @@ export default function FestivalsPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-8">
       <div className="mb-6 max-w-3xl">
-        <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="text-3xl font-bold tracking-tight text-balance sm:text-4xl">
           Tous les événements de musique électronique en France
         </h1>
         <p className="mt-2 text-zinc-600 dark:text-zinc-400">

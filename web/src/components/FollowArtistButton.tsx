@@ -1,5 +1,7 @@
 "use client";
 
+import Icon from "@/components/Icon";
+
 import {
   toggleFollowedArtist,
   useIsFollowedArtist,
@@ -26,7 +28,7 @@ export default function FollowArtistButton({
             : "border-zinc-300 text-zinc-700 hover:bg-zinc-100 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
         }`}
       >
-        <span aria-hidden>{isFollowed ? "★" : "☆"}</span>
+        <Icon name="star" size={16} filled={isFollowed} />
         {isFollowed ? "Suivi" : "Suivre"}
       </button>
     );
@@ -48,7 +50,7 @@ export default function FollowArtistButton({
           : "text-zinc-400 hover:text-fuchsia-600 dark:text-zinc-500 dark:hover:text-fuchsia-400"
       }`}
     >
-      <span aria-hidden>{isFollowed ? "★" : "☆"}</span>
+      <Icon name="star" size={16} filled={isFollowed} />
     </button>
   );
 }

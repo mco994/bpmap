@@ -6,6 +6,7 @@ import ItineraryButton from "@/components/ItineraryButton";
 import AddToCalendar from "@/components/AddToCalendar";
 import ReportError from "@/components/ReportError";
 import ArtistLinks from "@/components/ArtistLinks";
+import Icon, { type IconName } from "@/components/Icon";
 import { affiliateUrl } from "@/lib/affiliate";
 import { SITE_URL, absoluteUrl, inlineJson } from "@/lib/site";
 import {
@@ -194,10 +195,10 @@ export default async function FestivalPage({
   const status = effectiveStatus(festival, now);
   const tier = sizeTierForCapacity(festival.capacity);
 
-  const info = [
-    { icon: "👥", label: "Organisateur", value: festival.organizer ?? "—" },
-    { icon: "📐", label: "Taille", value: tier ? sizeTierLabel(tier) : "—" },
-    { icon: "🎟️", label: "Tarif", value: formatFromPrice(festival) },
+  const info: { icon: IconName; label: string; value: string }[] = [
+    { icon: "users", label: "Organisateur", value: festival.organizer ?? "—" },
+    { icon: "ruler", label: "Taille", value: tier ? sizeTierLabel(tier) : "—" },
+    { icon: "ticket", label: "Tarif", value: formatFromPrice(festival) },
   ];
 
   const tarifs = [
@@ -224,14 +225,15 @@ export default async function FestivalPage({
         dangerouslySetInnerHTML={{ __html: inlineJson(breadcrumbJsonLd(festival, url)) }}
       />
 
-      <div className="bg-gradient-to-br from-violet-700 via-fuchsia-600 to-fuchsia-500 text-white">
+      <div className="bg-violet-950 text-white">
         <div className="mx-auto max-w-3xl px-4 py-8 sm:py-10">
           <nav aria-label="Fil d'Ariane" className="mb-6 text-sm">
             <Link
               href="/"
               className="inline-flex items-center gap-1 text-white/90 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
-              ← Tous les festivals
+              <Icon name="arrow-left" size={16} />
+              Tous les festivals
             </Link>
           </nav>
 
@@ -241,7 +243,7 @@ export default async function FestivalPage({
                 className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
                   status === "cancelled"
                     ? "bg-red-500 text-white"
-                    : "bg-black/30 text-white"
+                    : "bg-white/15 text-white"
                 }`}
               >
                 {statusLabel(status)}
@@ -265,11 +267,11 @@ export default async function FestivalPage({
 
           <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-white/90">
             <span className="inline-flex items-center gap-1.5">
-              <span aria-hidden>📍</span>
+              <Icon name="map-pin" size={16} className="text-fuchsia-300" />
               {festival.city}, {festival.region}
             </span>
             <span className="inline-flex items-center gap-1.5">
-              <span aria-hidden>🗓️</span>
+              <Icon name="calendar" size={16} className="text-fuchsia-300" />
               <time dateTime={festival.startDate ?? undefined}>
                 {formatDateRange(festival.startDate, festival.endDate)}
               </time>
@@ -280,7 +282,7 @@ export default async function FestivalPage({
             {festival.genres.map((g) => (
               <li
                 key={g}
-                className="rounded-full bg-white/15 px-3 py-1 text-sm font-medium ring-1 ring-inset ring-white/25 backdrop-blur"
+                className="rounded-full bg-white/10 px-3 py-1 text-sm font-medium ring-1 ring-inset ring-white/20"
               >
                 {genreLabel(g)}
               </li>
@@ -312,13 +314,11 @@ export default async function FestivalPage({
               key={it.label}
               className="rounded-2xl border border-zinc-200 bg-white p-3 sm:p-4 dark:border-zinc-800 dark:bg-zinc-900"
             >
-              <div className="text-xl" aria-hidden>
-                {it.icon}
-              </div>
+              <Icon name={it.icon} size={20} className="text-fuchsia-600 dark:text-fuchsia-400" />
               <dt className="mt-2 text-xs uppercase tracking-wide text-zinc-600 dark:text-zinc-400">
                 {it.label}
               </dt>
-              <dd className="mt-0.5 font-semibold break-words">{it.value}</dd>
+              <dd className="mt-0.5 font-semibold tabular-nums break-words">{it.value}</dd>
             </div>
           ))}
         </dl>
@@ -335,7 +335,7 @@ export default async function FestivalPage({
                   <span className="text-zinc-600 dark:text-zinc-400">
                     {t.label}
                   </span>
-                  <span className="font-medium text-zinc-900 dark:text-zinc-50">
+                  <span className="font-medium tabular-nums text-zinc-900 dark:text-zinc-50">
                     {formatPrice(t.price)}
                   </span>
                 </li>
@@ -356,9 +356,10 @@ export default async function FestivalPage({
               href={billetterie}
               target="_blank"
               rel="sponsored noopener noreferrer"
-              className="rounded-xl bg-fuchsia-600 px-6 py-3 font-semibold text-white shadow-sm transition-colors hover:bg-fuchsia-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 focus-visible:ring-offset-2"
+              className="inline-flex items-center gap-2 rounded-xl bg-fuchsia-600 px-6 py-3 font-semibold text-white shadow-sm transition-colors hover:bg-fuchsia-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 focus-visible:ring-offset-2"
             >
-              <span aria-hidden>🎟️</span> Billetterie
+              <Icon name="ticket" />
+              Billetterie
             </a>
           )}
           {officialUrl && !isTicketHost(officialUrl) && (
@@ -366,9 +367,10 @@ export default async function FestivalPage({
               href={officialUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-xl border border-zinc-300 px-6 py-3 font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
+              className="inline-flex items-center gap-2 rounded-xl border border-zinc-300 px-6 py-3 font-semibold text-zinc-700 transition-colors hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
             >
-              {siteLinkLabel(officialUrl)} ↗
+              {siteLinkLabel(officialUrl)}
+              <Icon name="external" size={16} />
             </a>
           )}
         </div>

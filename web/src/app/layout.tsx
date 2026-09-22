@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
+import AppStorePrompt from "@/components/AppStorePrompt";
 import { SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -117,6 +118,7 @@ export default function RootLayout({
             </Link>
           </nav>
         </footer>
+        <AppStorePrompt />
       </body>
     </html>
   );
