@@ -11,8 +11,6 @@
     "lint": "eslint",
     "db:migrate": "node --env-file=.env.local scripts/db-migrate.mjs",
     "db:check": "node --env-file=.env.local scripts/db-check.mjs",
-    "db:load": "node --env-file=.env.local scripts/db-load.mjs",
-    "db:lifecycle": "node --env-file=.env.local scripts/db-lifecycle.mjs",
     "geocode": "node scripts/geocode.mjs",
     "ingest": "node --env-file-if-exists=.env.local scripts/ingest.mjs",
     "fb:update": "node scripts/fb-update.mjs",

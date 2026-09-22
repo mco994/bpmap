@@ -46,7 +46,7 @@ Les types, le filtrage, la recherche, le formatage, la palette des genres et les
 | `verify-promote` | vérification croisée puis promotion vers `festivals.source.json` |
 | `ra-lineups` · `fb:update` | enrichissement des line-ups |
 | `geocode` | géocodage BAN → régénère `festivals.json` |
-| `db:migrate` · `db:load` · `db:lifecycle` · `db:check` | Neon |
+| `db:migrate` · `db:check` | Neon (table `push_subscriptions`) |
 | `build:genre-css` · `check:genre-css` | régénère ou vérifie la palette dans `globals.css` |
 | `smoke` | vérification navigateur sur un build servi |
 

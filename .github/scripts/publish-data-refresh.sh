@@ -16,6 +16,7 @@ git add "${DATA_FILES[@]}"
 
 if git diff --staged --quiet; then
   echo "· Aucun changement de données, rien à publier."
+  echo "merged=false" >> "$GITHUB_OUTPUT"
   exit 0
 fi
 
@@ -40,8 +41,10 @@ gh pr create --base main --head "$BRANCH" \
 
 if gh pr merge "$BRANCH" --merge --delete-branch; then
   echo "✓ Données publiées : PR fusionnée sur main."
+  echo "merged=true" >> "$GITHUB_OUTPUT"
 elif gh pr merge "$BRANCH" --auto --merge --delete-branch; then
   echo "✓ PR ouverte sur $BRANCH, auto-merge armé."
+  echo "merged=false" >> "$GITHUB_OUTPUT"
 else
   echo "✖ PR ouverte sur $BRANCH mais ni fusionnée ni armée — intervention manuelle requise." >&2
   exit 1
