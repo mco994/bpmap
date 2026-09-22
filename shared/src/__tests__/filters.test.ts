@@ -48,6 +48,14 @@ describe("matchesFilters", () => {
     expect(matchesFilters(festival, after, NOW)).toBe(false);
   });
 
+  it("traite un événement sans date de fin comme un événement d'un jour", () => {
+    const oneDay = makeFestival({ startDate: "2026-07-10", endDate: null });
+    const covering = { ...EMPTY_FILTERS, dateFrom: "2026-07-01", dateTo: "2026-07-20" };
+    expect(matchesFilters(oneDay, covering, NOW)).toBe(true);
+    const before = { ...EMPTY_FILTERS, dateFrom: "2026-07-11", dateTo: null };
+    expect(matchesFilters(oneDay, before, NOW)).toBe(false);
+  });
+
   it("exige un tarif connu quand un plafond de prix est posé", () => {
     const withoutPrice = makeFestival({ priceDay: null });
     expect(matchesFilters(withoutPrice, { ...EMPTY_FILTERS, priceDayMax: 100 }, NOW)).toBe(false);
