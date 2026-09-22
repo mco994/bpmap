@@ -1,5 +1,149 @@
 [
   {
+    "id": "2026-09-22:festival-69bpm:added",
+    "festivalId": "festival-69bpm",
+    "festivalSlug": "festival-69bpm",
+    "festivalName": "FESTIVAL 69BPM",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Lyon — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:open-air-flower-nation-by-dusty-nation-la-butinerie:added",
+    "festivalId": "open-air-flower-nation-by-dusty-nation-la-butinerie",
+    "festivalSlug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
+    "festivalName": "Open Air: Flower Nation By Dusty Nation & La Butinerie",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Lyon — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:demain-bellegarde-free-open-air-by-subkultur:added",
+    "festivalId": "demain-bellegarde-free-open-air-by-subkultur",
+    "festivalSlug": "demain-bellegarde-free-open-air-by-subkultur",
+    "festivalName": "Demain Bellegarde / Free Open Air by Subkultur",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Toulouse — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:open-air-noon-to-midnight-6:added",
+    "festivalId": "open-air-noon-to-midnight-6",
+    "festivalSlug": "open-air-noon-to-midnight-6",
+    "festivalName": "Open Air: Noon To Midnight #6",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:maintenant-festival-2026:added",
+    "festivalId": "maintenant-festival-2026",
+    "festivalSlug": "maintenant-festival-2026",
+    "festivalName": "Maintenant Festival 2026",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Rennes — 1 – 11 octobre 2026."
+  },
+  {
+    "id": "2026-09-22:michoun-open-festival:added",
+    "festivalId": "michoun-open-festival",
+    "festivalSlug": "michoun-open-festival",
+    "festivalName": "Michoun Open Festival",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Toulouse — 2 – 3 octobre 2026."
+  },
+  {
+    "id": "2026-09-22:imagine-family-o-bee-all-day-long-open-air:added",
+    "festivalId": "imagine-family-o-bee-all-day-long-open-air",
+    "festivalSlug": "imagine-family-o-bee-all-day-long-open-air",
+    "festivalName": "imagine FAMILY: O.BEE ALL DAY LONG [OPEN AIR]",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:bazar-bozar-festival-2nd-edition:added",
+    "festivalId": "bazar-bozar-festival-2nd-edition",
+    "festivalSlug": "bazar-bozar-festival-2nd-edition",
+    "festivalName": "Bazar Bozar Festival 2nd Edition",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Marseille — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:cloture-actoral-festival-petit-cab:added",
+    "festivalId": "cloture-actoral-festival-petit-cab",
+    "festivalSlug": "cloture-actoral-festival-petit-cab",
+    "festivalName": "Clôture Actoral Festival @ Petit Cab",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à MARSEILLE — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:hors-sol-open-air-marseille:added",
+    "festivalId": "hors-sol-open-air-marseille",
+    "festivalSlug": "hors-sol-open-air-marseille",
+    "festivalName": "HORS-SOL [open-air] — Marseille",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Marseille — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:festival-one-life-infinity-edition-2026:added",
+    "festivalId": "festival-one-life-infinity-edition-2026",
+    "festivalSlug": "festival-one-life-infinity-edition-2026",
+    "festivalName": "Festival One Life Infinity # Édition 2026",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Rennes — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:lons-electronic-festival:added",
+    "festivalId": "lons-electronic-festival",
+    "festivalSlug": "lons-electronic-festival",
+    "festivalName": "Lons Electronic Festival",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Montmorot — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:isulia-festival-2026:added",
+    "festivalId": "isulia-festival-2026",
+    "festivalSlug": "isulia-festival-2026",
+    "festivalName": "Isulia Festival 2026",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Bordeaux — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:dreamachine-festival:added",
+    "festivalId": "dreamachine-festival",
+    "festivalSlug": "dreamachine-festival",
+    "festivalName": "Dreamachine Festival",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Marseille — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:dreamachine-festival-petit-cab:added",
+    "festivalId": "dreamachine-festival-petit-cab",
+    "festivalSlug": "dreamachine-festival-petit-cab",
+    "festivalName": "Dreamachine Festival @ Petit Cab",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à MARSEILLE — Dates à confirmer."
+  },
+  {
+    "id": "2026-09-22:s-festival-2026:added",
+    "festivalId": "s-festival-2026",
+    "festivalSlug": "s-festival-2026",
+    "festivalName": "S festival 2026",
+    "type": "added",
+    "date": "2026-09-22",
+    "summary": "Ajouté à Lyon — 9 – 13 décembre 2026."
+  },
+  {
     "id": "2026-09-17:positiv-festival:removed",
     "festivalId": "positiv-festival",
     "festivalSlug": "positiv-festival",

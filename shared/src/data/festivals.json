@@ -627,6 +627,36 @@
     ]
   },
   {
+    "id": "festival-69bpm",
+    "slug": "festival-69bpm",
+    "name": "FESTIVAL 69BPM",
+    "description": "",
+    "startDate": "2026-09-24",
+    "endDate": null,
+    "lat": 45.758,
+    "lng": 4.835,
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2533231",
+    "status": "announced",
+    "lineup": [
+      "Hyas",
+      "Saku Sahara"
+    ],
+    "sources": [
+      "https://ra.co/events/2533231"
+    ]
+  },
+  {
     "id": "utopia-festival",
     "slug": "utopia-festival",
     "name": "Utopia Festival",
@@ -706,6 +736,179 @@
     ]
   },
   {
+    "id": "open-air-flower-nation-by-dusty-nation-la-butinerie",
+    "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
+    "name": "Open Air: Flower Nation By Dusty Nation & La Butinerie",
+    "description": "",
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "lat": 45.758,
+    "lng": 4.835,
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2534939",
+    "status": "announced",
+    "lineup": [
+      "Tatie Dee",
+      "Saint Louïs"
+    ],
+    "sources": [
+      "https://ra.co/events/2534939",
+      "https://ra.co/events/2523009"
+    ]
+  },
+  {
+    "id": "demain-bellegarde-free-open-air-by-subkultur",
+    "slug": "demain-bellegarde-free-open-air-by-subkultur",
+    "name": "Demain Bellegarde / Free Open Air by Subkultur",
+    "description": "",
+    "startDate": "2026-09-26",
+    "endDate": null,
+    "lat": 43.60408,
+    "lng": 1.4338,
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2504794",
+    "status": "announced",
+    "sources": [
+      "https://ra.co/events/2504794"
+    ]
+  },
+  {
+    "id": "open-air-noon-to-midnight-6",
+    "slug": "open-air-noon-to-midnight-6",
+    "name": "Open Air: Noon To Midnight #6",
+    "description": "",
+    "startDate": "2026-09-27",
+    "endDate": null,
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2537931",
+    "status": "announced",
+    "sources": [
+      "https://ra.co/events/2537931"
+    ]
+  },
+  {
+    "id": "maintenant-festival-2026",
+    "slug": "maintenant-festival-2026",
+    "name": "Maintenant Festival 2026",
+    "description": "",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-11",
+    "lat": 48.1109,
+    "lng": -1.68365,
+    "city": "Rennes",
+    "region": "Bretagne",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2493193",
+    "status": "announced",
+    "lineup": [
+      "Antilogic",
+      "Blood of Aza",
+      "CWTCH",
+      "Katarina Gryvul",
+      "Natasha Pirard",
+      "Oonagh Haines",
+      "s8jfou"
+    ],
+    "sources": [
+      "https://ra.co/events/2493193"
+    ]
+  },
+  {
+    "id": "michoun-open-festival",
+    "slug": "michoun-open-festival",
+    "name": "Michoun Open Festival",
+    "description": "",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "lat": 43.60408,
+    "lng": 1.4338,
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2475326",
+    "status": "announced",
+    "sources": [
+      "https://ra.co/events/2475326"
+    ]
+  },
+  {
+    "id": "imagine-family-o-bee-all-day-long-open-air",
+    "slug": "imagine-family-o-bee-all-day-long-open-air",
+    "name": "imagine FAMILY: O.BEE ALL DAY LONG [OPEN AIR]",
+    "description": "",
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2532246",
+    "status": "announced",
+    "lineup": [
+      "O.BEE"
+    ],
+    "sources": [
+      "https://ra.co/events/2532246"
+    ]
+  },
+  {
     "id": "ndk-festival",
     "slug": "ndk-festival",
     "name": "NDK Festival",
@@ -779,6 +982,166 @@
     ],
     "sources": [
       "https://www.halledelamachine.fr/en/evenements/mecanik-paradize-2026/"
+    ]
+  },
+  {
+    "id": "bazar-bozar-festival-2nd-edition",
+    "slug": "bazar-bozar-festival-2nd-edition",
+    "name": "Bazar Bozar Festival 2nd Edition",
+    "description": "",
+    "startDate": "2026-10-09",
+    "endDate": null,
+    "lat": 43.282,
+    "lng": 5.405,
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2516502",
+    "status": "announced",
+    "lineup": [
+      "Alich (1)",
+      "Bobby.",
+      "Gene On Earth",
+      "Katia Curie",
+      "Liquid Earth",
+      "One Tough Cookie",
+      "Onur Özer",
+      "oror",
+      "Rhadoo",
+      "Cabanne"
+    ],
+    "sources": [
+      "https://ra.co/events/2516502"
+    ]
+  },
+  {
+    "id": "cloture-actoral-festival-petit-cab",
+    "slug": "cloture-actoral-festival-petit-cab",
+    "name": "Clôture Actoral Festival @ Petit Cab",
+    "description": "",
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "lat": 43.282,
+    "lng": 5.405,
+    "city": "MARSEILLE",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2522625",
+    "status": "announced",
+    "sources": [
+      "https://ra.co/events/2522625"
+    ]
+  },
+  {
+    "id": "hors-sol-open-air-marseille",
+    "slug": "hors-sol-open-air-marseille",
+    "name": "HORS-SOL [open-air] — Marseille",
+    "description": "",
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "lat": 43.282,
+    "lng": 5.405,
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2496054",
+    "status": "announced",
+    "lineup": [
+      "Domi (FR)",
+      "Cristobal",
+      "Jolly (FR)",
+      "Forest",
+      "Lumbago"
+    ],
+    "sources": [
+      "https://ra.co/events/2496054"
+    ]
+  },
+  {
+    "id": "festival-one-life-infinity-edition-2026",
+    "slug": "festival-one-life-infinity-edition-2026",
+    "name": "Festival One Life Infinity # Édition 2026",
+    "description": "",
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "lat": 48.1109,
+    "lng": -1.68365,
+    "city": "Rennes",
+    "region": "Bretagne",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2477803",
+    "status": "announced",
+    "lineup": [
+      "Britney Speed (FR)",
+      "Dj Schnake",
+      "EVN",
+      "Fury (FR)",
+      "Majes",
+      "Neko"
+    ],
+    "sources": [
+      "https://ra.co/events/2477803"
+    ]
+  },
+  {
+    "id": "lons-electronic-festival",
+    "slug": "lons-electronic-festival",
+    "name": "Lons Electronic Festival",
+    "description": "",
+    "startDate": "2026-10-24",
+    "endDate": null,
+    "lat": 46.681,
+    "lng": 5.5195,
+    "city": "Montmorot",
+    "region": "Bourgogne-Franche-Comté",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2408373",
+    "status": "announced",
+    "lineup": [
+      "Gabry Ponte"
+    ],
+    "sources": [
+      "https://ra.co/events/2408373"
     ]
   },
   {
@@ -928,6 +1291,47 @@
     ]
   },
   {
+    "id": "isulia-festival-2026",
+    "slug": "isulia-festival-2026",
+    "name": "Isulia Festival 2026",
+    "description": "",
+    "startDate": "2026-11-05",
+    "endDate": null,
+    "lat": 44.85194,
+    "lng": -0.58788,
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2527089",
+    "status": "announced",
+    "lineup": [
+      "abs8lute",
+      "Audrey Danza",
+      "Belaria",
+      "Zaatar",
+      "Mel (FR)",
+      "Djedjotronic",
+      "Egna",
+      "Lea Occhi",
+      "Maara",
+      "Nastia",
+      "Octave One",
+      "piaconcept",
+      "Pureblast"
+    ],
+    "sources": [
+      "https://ra.co/events/2527089"
+    ]
+  },
+  {
     "id": "guadeloupe-electronik-groove",
     "slug": "guadeloupe-electronik-groove",
     "name": "Guadeloupe Electronik Groove",
@@ -1024,6 +1428,63 @@
     ]
   },
   {
+    "id": "dreamachine-festival",
+    "slug": "dreamachine-festival",
+    "name": "Dreamachine Festival",
+    "description": "",
+    "startDate": "2026-11-12",
+    "endDate": null,
+    "lat": 43.282,
+    "lng": 5.405,
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2531187",
+    "status": "announced",
+    "lineup": [
+      "Vanda Forte",
+      "keiyaA",
+      "Le Kaiju"
+    ],
+    "sources": [
+      "https://ra.co/events/2531187"
+    ]
+  },
+  {
+    "id": "dreamachine-festival-petit-cab",
+    "slug": "dreamachine-festival-petit-cab",
+    "name": "Dreamachine Festival @ Petit Cab",
+    "description": "",
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "lat": 43.282,
+    "lng": 5.405,
+    "city": "MARSEILLE",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2522670",
+    "status": "announced",
+    "sources": [
+      "https://ra.co/events/2522670"
+    ]
+  },
+  {
     "id": "rise-festival",
     "slug": "rise-festival",
     "name": "Rise Festival",
@@ -1104,6 +1565,32 @@
     "sources": [
       "https://electronest-festival.com/",
       "https://shotgun.live/en/festivals/electronest-2026"
+    ]
+  },
+  {
+    "id": "s-festival-2026",
+    "slug": "s-festival-2026",
+    "name": "S festival 2026",
+    "description": "",
+    "startDate": "2026-12-09",
+    "endDate": "2026-12-13",
+    "lat": 45.758,
+    "lng": 4.835,
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2538769",
+    "status": "announced",
+    "sources": [
+      "https://ra.co/events/2538769"
     ]
   },
   {
