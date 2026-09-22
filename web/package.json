@@ -20,14 +20,14 @@
     "build:genre-css": "tsx scripts/build-genre-css.mjs",
     "check:genre-css": "tsx scripts/build-genre-css.mjs --check",
     "smoke": "node scripts/smoke.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.test.json"
   },
   "dependencies": {
     "@bpmap/shared": "*",
     "@vercel/firewall": "^1.2.1",
     "adm-zip": "^0.6.1",
     "maplibre-gl": "^6.10.0",
-    "next": "^16.2.12",
+    "next": "^16.3.5",
     "pg": "^8.21.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -41,7 +41,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "^16.2.12",
+    "eslint-config-next": "^16.3.5",
     "puppeteer": "^25.1.0",
     "tailwindcss": "^4",
     "typescript": "^5"
