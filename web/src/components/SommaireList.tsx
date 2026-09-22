@@ -168,7 +168,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
           />
         </label>
 
-        <div className="mt-3 flex items-center justify-between gap-3">
+        <div className="mt-3 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p
             className="text-sm font-medium tabular-nums text-zinc-700 dark:text-zinc-300"
             aria-live="polite"
@@ -176,7 +176,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
             {filteredCount} événement{filteredCount > 1 ? "s" : ""}
             {filteredCount !== festivals.length && ` sur ${festivals.length}`}
           </p>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
           <div
             className="flex items-center gap-1 rounded-lg border border-zinc-200 p-0.5 dark:border-zinc-800"
             role="group"
@@ -186,7 +186,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               type="button"
               onClick={() => setSortMode("date")}
               aria-pressed={sortMode === "date"}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium ${
                 sortMode === "date"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                   : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
@@ -198,7 +198,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               type="button"
               onClick={() => setSortMode("alpha")}
               aria-pressed={sortMode === "alpha"}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium ${
                 sortMode === "alpha"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                   : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
@@ -212,7 +212,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               aria-pressed={sortMode === "near"}
               aria-busy={locating}
               disabled={locating}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium disabled:opacity-60 ${
+              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium disabled:opacity-60 ${
                 sortMode === "near"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                   : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
@@ -230,7 +230,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               type="button"
               onClick={() => setView("list")}
               aria-pressed={view === "list"}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium ${
                 view === "list"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                   : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -242,7 +242,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               type="button"
               onClick={() => setView("grid")}
               aria-pressed={view === "grid"}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium ${
                 view === "grid"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                   : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -254,7 +254,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               type="button"
               onClick={() => setView("calendar")}
               aria-pressed={view === "calendar"}
-              className={`rounded-md px-2.5 py-1 text-xs font-medium ${
+              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium ${
                 view === "calendar"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                   : "text-zinc-600 hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"

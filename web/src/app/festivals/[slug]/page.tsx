@@ -225,7 +225,7 @@ export default async function FestivalPage({
         dangerouslySetInnerHTML={{ __html: inlineJson(breadcrumbJsonLd(festival, url)) }}
       />
 
-      <div className="bg-gradient-to-br from-violet-700 via-fuchsia-600 to-fuchsia-500 text-white">
+      <div className="bg-violet-950 text-white">
         <div className="mx-auto max-w-3xl px-4 py-8 sm:py-10">
           <nav aria-label="Fil d'Ariane" className="mb-6 text-sm">
             <Link
@@ -243,7 +243,7 @@ export default async function FestivalPage({
                 className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
                   status === "cancelled"
                     ? "bg-red-500 text-white"
-                    : "bg-black/30 text-white"
+                    : "bg-white/15 text-white"
                 }`}
               >
                 {statusLabel(status)}
@@ -267,11 +267,11 @@ export default async function FestivalPage({
 
           <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-white/90">
             <span className="inline-flex items-center gap-1.5">
-              <Icon name="map-pin" size={16} />
+              <Icon name="map-pin" size={16} className="text-fuchsia-300" />
               {festival.city}, {festival.region}
             </span>
             <span className="inline-flex items-center gap-1.5">
-              <Icon name="calendar" size={16} />
+              <Icon name="calendar" size={16} className="text-fuchsia-300" />
               <time dateTime={festival.startDate ?? undefined}>
                 {formatDateRange(festival.startDate, festival.endDate)}
               </time>
@@ -282,7 +282,7 @@ export default async function FestivalPage({
             {festival.genres.map((g) => (
               <li
                 key={g}
-                className="rounded-full bg-white/15 px-3 py-1 text-sm font-medium ring-1 ring-inset ring-white/25 backdrop-blur"
+                className="rounded-full bg-white/10 px-3 py-1 text-sm font-medium ring-1 ring-inset ring-white/20"
               >
                 {genreLabel(g)}
               </li>

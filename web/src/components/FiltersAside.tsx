@@ -43,7 +43,7 @@ export default function FiltersAside({
             </span>
           )}
         </span>
-        <Icon name={open ? "x" : "arrow-right"} className={open ? "" : "rotate-90"} />
+        <Icon name={open ? "x" : "chevron-down"} />
       </button>
       <div id={panelId} className={`${open ? "mt-4 block" : "hidden"} lg:mt-0 lg:block`}>
         <FiltersPanel
