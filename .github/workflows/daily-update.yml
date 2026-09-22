@@ -72,27 +72,20 @@ jobs:
       - name: Build (web)
         run: npm run build --workspace web
 
+      - name: Ouvrir la PR de rafraîchissement (auto-merge après contrôle)
+        id: publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/publish-data-refresh.sh
+
       - name: Migrations Neon (idempotentes)
+        if: steps.publish.outputs.merged == 'true'
         run: node web/scripts/db-migrate.mjs
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
 
-      - name: Charger dans Neon
-        run: node web/scripts/db-load.mjs
-        env:
-          CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
-
-      - name: Cycle de vie (marque "passé" + purge à +1 mois)
-        run: node web/scripts/db-lifecycle.mjs
-        env:
-          CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
-
-      - name: Notifications push (changements du jour → Expo Push)
+      - name: Notifications push (changements publiés → Expo Push)
+        if: steps.publish.outputs.merged == 'true'
         run: npx tsx web/scripts/send-push.mjs
         env:
           CONNECTION_STRING: ${{ secrets.CONNECTION_STRING }}
-
-      - name: Ouvrir la PR de rafraîchissement (auto-merge après contrôle)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bash .github/scripts/publish-data-refresh.sh

@@ -36,7 +36,7 @@ Aucune clé n'est nécessaire pour lancer le site : les tuiles OpenFreeMap ne de
 | `npm run check:data` | contrôle d'intégrité du jeu de données committé |
 | `npm run mobile` / `npm run mobile:android` | application Expo |
 
-Depuis `web/` : `npm run geocode`, `npm run ingest`, `npm run verify-promote`, `npm run db:migrate`, `npm run db:load`, `npm run build:genre-css`, `npm run smoke`.
+Depuis `web/` : `npm run geocode`, `npm run ingest`, `npm run verify-promote`, `npm run db:migrate`, `npm run build:genre-css`, `npm run smoke`.
 
 ## Pipeline de données
 
