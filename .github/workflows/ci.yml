@@ -4,6 +4,8 @@ on:
   push:
     branches: ["**"]
   pull_request:
+    paths-ignore:
+      - "shared/src/data/**"
   workflow_dispatch:
 
 concurrency:

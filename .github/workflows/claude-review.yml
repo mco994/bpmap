@@ -3,6 +3,8 @@ name: Relecture Claude (PR)
 on:
   pull_request:
     types: [opened, synchronize]
+    paths-ignore:
+      - "shared/src/data/**"
 
 permissions:
   contents: read
