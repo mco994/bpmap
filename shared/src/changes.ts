@@ -31,6 +31,23 @@ const CHANGE_TYPE_LABELS: Record<ChangeType, string> = {
   status: "Statut modifié",
 };
 
+const CURATED_SOURCE_HOSTS = new Set(["ra.co"]);
+
+export function sourceHosts(sources: string[] | undefined): Set<string> {
+  const hosts = new Set<string>();
+  for (const url of sources ?? []) {
+    try {
+      hosts.add(new URL(url).hostname.replace(/^www\./, ""));
+    } catch {}
+  }
+  return hosts;
+}
+
+export function isBroadcastable(sources: string[] | undefined): boolean {
+  const hosts = sourceHosts(sources);
+  return hosts.size >= 2 || [...hosts].some((h) => CURATED_SOURCE_HOSTS.has(h));
+}
+
 export function changeTypeLabel(type: ChangeType): string {
   return CHANGE_TYPE_LABELS[type];
 }

@@ -54,6 +54,9 @@ function variantOfKnown(candidate) {
   });
 }
 
+const NON_ELECTRO =
+  /(?<![\p{L}\d])(jazz|classique|classical|symphoni|opéra|opera|rock|metal|punk|hip.?hop|rap|reggae|blues|folk|chanson|gospel|country|salsa|flamenco)(?![\p{L}\d])/iu;
+
 const PARTY_PATTERN = /\sw\/\s| x | feat\.?| b2b |présente|presents|invite|closing|opening|warm.?up/i;
 
 function domainsOf(sources = []) {
@@ -90,15 +93,46 @@ function inferGenres(text) {
   return g.length ? g : ["electro"];
 }
 
-async function officialVerified(url) {
-  if (!url) return false;
+const MAX_BODY_BYTES = 512 * 1024;
+
+function isHttp(url) {
+  return /^https?:\/\//i.test(url ?? "");
+}
+
+function hostnameOf(url) {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return null;
+  }
+}
+
+async function readCapped(res) {
+  const reader = res.body?.getReader();
+  if (!reader) return "";
+  const decoder = new TextDecoder();
+  let text = "";
+  while (text.length < MAX_BODY_BYTES) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    text += decoder.decode(value, { stream: true });
+  }
+  await reader.cancel().catch(() => {});
+  return text;
+}
+
+async function officialVerified(url, sourceDomains) {
+  if (!isHttp(url)) return false;
+  const host = hostnameOf(url);
+  if (!host || sourceDomains.has(host)) return false;
   try {
     const res = await fetch(url, {
       headers: { "User-Agent": "BPMap/1.0 (+verification)" },
+      redirect: "manual",
       signal: AbortSignal.timeout(12000),
     });
     if (!res.ok) return false;
-    const body = (await res.text()).toLowerCase();
+    const body = (await readCapped(res)).toLowerCase();
     const electroHits = (body.match(ELECTRO_GLOBAL) || []).length;
     return electroHits >= 2 && UPCOMING_YEARS.some((year) => body.includes(year));
   } catch {
@@ -143,22 +177,26 @@ for (const c of candidates) {
     continue;
   }
 
-  const genreOk = c.genreVerified || ELECTRO.test(text);
+  const genreOk = (c.genreVerified || ELECTRO.test(text)) && !NON_ELECTRO.test(c.name);
   if (!genreOk) {
     rejected.push({ ...c, _reason: "genre électro non confirmé" });
     continue;
   }
 
-  const multiSource = domainsOf(c.sources).size >= 2;
-  const named = c.isFestival === true || /\bfestival\b|open.?air/i.test(c.name);
-  const verified = named
-    ? multiSource || (await officialVerified(c.officialUrl))
-    : multiSource && multiDay;
+  const sourceDomains = domainsOf(c.sources);
+  const multiSource = sourceDomains.size >= 2;
+  const curated = c.isFestival === true;
+  const named = curated || /\bfestival\b|open.?air/i.test(c.name);
+  const verified =
+    curated ||
+    (named
+      ? multiSource || (await officialVerified(c.officialUrl, sourceDomains))
+      : multiSource && multiDay);
   if (!verified) {
     rejected.push({
       ...c,
       _reason: named
-        ? "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+        ? "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
         : "sans 'festival' au nom → exige ≥2 sources + multi-jours",
     });
     continue;
@@ -177,9 +215,9 @@ for (const c of candidates) {
     capacity: null,
     priceDay: null,
     priceFull: null,
-    officialUrl: c.officialUrl ?? null,
+    officialUrl: isHttp(c.officialUrl) ? c.officialUrl : null,
     status: "announced",
-    sources: c.sources ?? [],
+    sources: (c.sources ?? []).filter(isHttp),
   };
   if (c.lat != null && c.lng != null) {
     entry.lat = c.lat;
@@ -192,8 +230,12 @@ for (const c of candidates) {
   promoted.push(c.name);
 }
 
+function compactLines(entries) {
+  return "[\n" + entries.map((entry) => "  " + JSON.stringify(entry)).join(",\n") + "\n]\n";
+}
+
 if (promoted.length > 0) {
-  writeFileSync(srcPath, JSON.stringify(source, null, 2) + "\n");
+  writeFileSync(srcPath, compactLines(source));
   writeFileSync(lineupsPath, JSON.stringify(lineups, null, 2) + "\n");
 }
 writeFileSync(candPath, JSON.stringify(rejected, null, 2) + "\n");
