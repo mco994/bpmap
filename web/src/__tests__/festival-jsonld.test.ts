@@ -39,3 +39,22 @@ describe("festivalJsonLd", () => {
     expect(ld?.["@type"]).toBe("MusicEvent");
   });
 });
+
+describe("festivalJsonLd — statut et offres", () => {
+  it("marque un événement annulé et rend l'offre indisponible", () => {
+    const ld = festivalJsonLd({ ...base, status: "cancelled" }, "https://x/f", NOW);
+    expect(ld?.eventStatus).toBe("https://schema.org/EventCancelled");
+    expect(ld?.offers?.availability).toBe("https://schema.org/Discontinued");
+  });
+
+  it("passe un événement terminé en SoldOut", () => {
+    const past = { ...base, startDate: "2025-07-10", endDate: "2025-07-12" };
+    const ld = festivalJsonLd(past, "https://x/f", new Date("2026-01-01T00:00:00Z"));
+    expect(ld?.offers?.availability).toBe("https://schema.org/SoldOut");
+  });
+
+  it("n'émet aucune offre quand aucun tarif n'est connu", () => {
+    const ld = festivalJsonLd({ ...base, priceDay: null, priceFull: null }, "https://x/f", NOW);
+    expect(ld?.offers).toBeUndefined();
+  });
+});

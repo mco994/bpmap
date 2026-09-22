@@ -66,6 +66,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
   return (
     <>
       <Pressable
+        accessibilityRole="button"
         onPress={() => setVisible(true)}
         style={[styles.action, { backgroundColor: theme.backgroundElement }]}
       >

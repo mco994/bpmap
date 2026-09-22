@@ -542,6 +542,7 @@ const raw = [
 
 const byKey = new Map();
 for (const c of raw) {
+  if (typeof c.name !== "string" || c.name.trim() === "") continue;
   const slug = slugify(c.name);
   if (known.has(slug)) continue;
   const text = `${c.name} ${c.description ?? ""}`;

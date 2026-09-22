@@ -11,11 +11,19 @@ export async function enforceRateLimit(
   { failClosed = false }: { failClosed?: boolean } = {},
 ): Promise<Response | null> {
   try {
-    const { rateLimited } = await checkRateLimit(rateLimitId, {
+    const { rateLimited, error } = await checkRateLimit(rateLimitId, {
       request,
     });
 
-    if (rateLimited) {
+    if (error === "not-found") {
+      console.warn(`rate-limit: règle "${rateLimitId}" introuvable côté firewall`);
+      if (failClosed) {
+        return Response.json({ error: UNAVAILABLE_MESSAGE }, { status: 503 });
+      }
+      return null;
+    }
+
+    if (rateLimited || error === "blocked") {
       return Response.json(
         { error: RATE_LIMITED_MESSAGE },
         {

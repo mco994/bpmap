@@ -228,6 +228,15 @@ export default function Map({
     }
   }
 
+  useEffect(() => {
+    if (!selected) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onSelect(null);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [selected, onSelect]);
+
   function handleClick(e: MapLayerMouseEvent) {
     const feature = e.features?.[0];
     cancelClose();
@@ -312,8 +321,10 @@ export default function Map({
           <div
             className="space-y-1.5 p-1"
             onMouseEnter={cancelClose}
-            onMouseLeave={() => {
-              if (!interactionLock.current) onSelect(null);
+            onMouseLeave={(e) => {
+              if (interactionLock.current) return;
+              if (e.currentTarget.contains(document.activeElement)) return;
+              onSelect(null);
             }}
           >
             <h3 className="text-sm font-semibold text-zinc-900">

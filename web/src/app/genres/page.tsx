@@ -8,6 +8,16 @@ export const metadata: Metadata = {
   description:
     "Explorez les festivals et open airs de musique électronique en France par genre : techno, house, drum'n'bass, trance, hardstyle et plus encore.",
   alternates: { canonical: "/genres" },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    siteName: "BPMap",
+    title: "Festivals électro par genre en France · BPMap",
+    description:
+      "Explorez les festivals et open airs de musique électronique en France par genre : techno, house, drum'n'bass, trance, hardstyle et plus encore.",
+    url: "/genres",
+    images: "/opengraph-image",
+  },
 };
 
 export const revalidate = 86400;
