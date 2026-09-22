@@ -73,8 +73,17 @@ function sameEdition(baseStart, harvestedStart) {
   return baseStart.slice(0, 4) === String(harvestedStart).slice(0, 4);
 }
 
+async function passSecurityCheckpoint(page) {
+  if (!/Security Checkpoint/i.test(await page.title())) return;
+  try {
+    await page.waitForFunction(() => !/Security Checkpoint/i.test(document.title), { timeout: 25000 });
+    await page.waitForNetworkIdle({ idleTime: 800, timeout: 15000 });
+  } catch {}
+}
+
 async function harvest(page, target) {
   await page.goto(target.url, { waitUntil: "networkidle2", timeout: 45000 });
+  await passSecurityCheckpoint(page);
   const blocks = await page.evaluate(() =>
     [...document.querySelectorAll('script[type="application/ld+json"]')].map(
       (s) => s.textContent,

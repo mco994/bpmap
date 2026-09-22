@@ -22,6 +22,21 @@ function slugify(name) {
     .replace(/^-|-$/g, "");
 }
 
+function mergeKey(name) {
+  return slugify(name).replace(/-?20\d\d(?=-|$)/g, "").replace(/^-|-$/g, "");
+}
+
+function mergeCandidate(into, extra) {
+  for (const [key, value] of Object.entries(extra)) {
+    if (key === "sources") continue;
+    if (into[key] == null || into[key] === "") into[key] = value;
+  }
+  into.genreVerified = into.genreVerified || extra.genreVerified === true;
+  into.isFestival = into.isFestival || extra.isFestival === true;
+  if ((extra.lineup?.length ?? 0) > (into.lineup?.length ?? 0)) into.lineup = extra.lineup;
+  into.sources = [...new Set([...(into.sources ?? []), ...(extra.sources ?? [])])];
+}
+
 
 async function fetchDatatourisme() {
   const fluxUrl = process.env.DATATOURISME_FLUX_URL;
@@ -142,6 +157,20 @@ async function raResolveAreas() {
   }
 }
 
+function raCity(venue) {
+  const fromAddress = (venue?.address ?? "").match(/\d{5}\s+([^,\d]+)/);
+  return fromAddress?.[1]?.trim() || venue?.area?.name || null;
+}
+
+function raEndDate(start, endTime) {
+  if (!start || !endTime) return null;
+  const startDay = start.slice(0, 10);
+  const endDay = endTime.slice(0, 10);
+  const endHour = Number(endTime.slice(11, 13));
+  const spansAfternoon = endDay > startDay && endHour >= 12;
+  return spansAfternoon ? endDay : null;
+}
+
 async function fetchResidentAdvisor() {
   const areas = await raResolveAreas();
   const today = new Date();
@@ -149,7 +178,7 @@ async function fetchResidentAdvisor() {
   const end = new Date(today.getFullYear(), today.getMonth() + 6, today.getDate());
   const lte = end.toISOString().slice(0, 10);
   const query =
-    "query GET_EVENT_LISTINGS($filters: FilterInputDtoInput,$pageSize:Int,$page:Int){eventListings(filters:$filters,pageSize:$pageSize,page:$page){data{event{id title date contentUrl venue{name} artists{name}}}}}";
+    "query GET_EVENT_LISTINGS($filters: FilterInputDtoInput,$pageSize:Int,$page:Int){eventListings(filters:$filters,pageSize:$pageSize,page:$page){data{event{id title date endTime contentUrl isFestival venue{name address area{name}} artists{name}}}}}";
   const pageSize = 50;
   const maxPages = 4;
   const out = [];
@@ -172,19 +201,20 @@ async function fetchResidentAdvisor() {
         if (!e?.id || seen.has(e.id)) continue;
         seen.add(e.id);
         const artists = (e.artists ?? []).map((a) => a.name);
-        const isFestival = /festival/i.test(e.title) || artists.length >= 6;
+        const isFestival = e.isFestival === true || /festival/i.test(e.title) || artists.length >= 6;
         const isOpenAir = /open.?air|plein air|\brave\b|rooftop|guinguette/i.test(e.title);
         if (!isFestival && !isOpenAir) continue;
         const url = e.contentUrl ? `https://ra.co${e.contentUrl}` : null;
         out.push({
           name: e.title,
-          city: null,
+          city: raCity(e.venue),
           region: null,
           startDate: e.date ? e.date.slice(0, 10) : null,
-          endDate: null,
+          endDate: raEndDate(e.date, e.endTime),
           officialUrl: url,
           lineup: artists,
           genreVerified: true,
+          isFestival: e.isFestival === true,
           sources: [url ?? "https://ra.co"],
         });
       }
@@ -331,6 +361,16 @@ function parseNextData(html) {
   }
 }
 
+async function diceResolveCityByRedirect(name) {
+  const res = await fetch(`https://dice.fm/browse/${name.toLowerCase()}/music/dj`, {
+    redirect: "manual",
+    headers: { "User-Agent": DICE_UA, Accept: "text/html" },
+  });
+  const target = res.headers.get("location") ?? "";
+  const m = target.match(/\/browse\/([a-z0-9-]+)-([0-9a-f]{24})\//);
+  return m ? { name, id: m[2], perm: m[1] } : null;
+}
+
 async function diceResolveCities() {
   try {
     const res = await fetch("https://api.dice.fm/cities", {
@@ -343,9 +383,17 @@ async function diceResolveCities() {
       .filter((c) => c.id && c.perm_name && c.name)
       .map((c) => ({ name: c.name, id: c.id, perm: c.perm_name }));
   } catch (err) {
-    console.warn("· DICE: résolution des villes échouée —", err.message);
-    return [];
+    console.warn("· DICE: API villes indisponible —", err.message, "→ résolution par redirection");
   }
+  const cities = [];
+  for (const name of Object.keys(DICE_CITY_REGIONS)) {
+    try {
+      const city = await diceResolveCityByRedirect(name);
+      if (city) cities.push(city);
+    } catch {}
+    await sleep(300);
+  }
+  return cities;
 }
 
 function diceEventType(ev) {
@@ -379,9 +427,7 @@ function diceMapEvent(ev, cityName) {
   const lineup = (ev.summary_lineup?.top_artists ?? [])
     .map((a) => a.name)
     .filter(Boolean);
-  const url = ev.perm_name
-    ? `https://dice.fm/event/${ev.perm_name}`
-    : null;
+  const url = ev.perm_name || ev.id ? `https://dice.fm/event/${ev.perm_name || ev.id}` : null;
   const description = (ev.about?.description ?? "")
     .replace(/\*+/g, "")
     .replace(/\s+/g, " ")
@@ -491,16 +537,18 @@ const raw = [
   ...(await fetchDice()),
 ];
 
-const seen = new Set();
-const candidates = [];
+const byKey = new Map();
 for (const c of raw) {
   const slug = slugify(c.name);
-  if (known.has(slug) || seen.has(slug)) continue;
+  if (known.has(slug)) continue;
   const text = `${c.name} ${c.description ?? ""}`;
   if (!c.genreVerified && !ELECTRO_HINTS.test(text)) continue;
-  seen.add(slug);
-  candidates.push({ slug, ...c, status: "announced", needsReview: true });
+  const key = mergeKey(c.name);
+  const existing = byKey.get(key);
+  if (existing) mergeCandidate(existing, c);
+  else byKey.set(key, { slug, ...c, status: "announced", needsReview: true });
 }
+const candidates = [...byKey.values()];
 
 writeFileSync(
   path.join(dataDir, "festivals.candidates.json"),
