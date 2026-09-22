@@ -107,6 +107,14 @@ function hostnameOf(url) {
   }
 }
 
+function belongsToSources(host, sourceDomains) {
+  if (!host) return true;
+  for (const domain of sourceDomains) {
+    if (host === domain || host.endsWith(`.${domain}`)) return true;
+  }
+  return false;
+}
+
 async function readCapped(res) {
   const reader = res.body?.getReader();
   if (!reader) return "";
@@ -123,14 +131,14 @@ async function readCapped(res) {
 
 async function officialVerified(url, sourceDomains) {
   if (!isHttp(url)) return false;
-  const host = hostnameOf(url);
-  if (!host || sourceDomains.has(host)) return false;
+  if (belongsToSources(hostnameOf(url), sourceDomains)) return false;
   try {
     const res = await fetch(url, {
       headers: { "User-Agent": "BPMap/1.0 (+verification)" },
       signal: AbortSignal.timeout(12000),
     });
     if (!res.ok) return false;
+    if (belongsToSources(hostnameOf(res.url), sourceDomains)) return false;
     const body = (await readCapped(res)).toLowerCase();
     const electroHits = (body.match(ELECTRO_GLOBAL) || []).length;
     return electroHits >= 2 && UPCOMING_YEARS.some((year) => body.includes(year));

@@ -8,6 +8,16 @@ export const metadata: Metadata = {
   description:
     "Trouvez les festivals et open airs de musique électronique près de chez vous : explorez les événements électro région par région en France.",
   alternates: { canonical: "/regions" },
+  openGraph: {
+    type: "website",
+    locale: "fr_FR",
+    siteName: "BPMap",
+    title: "Festivals électro par région en France · BPMap",
+    description:
+      "Trouvez les festivals et open airs de musique électronique près de chez vous : explorez les événements électro région par région en France.",
+    url: "/regions",
+    images: "/opengraph-image",
+  },
 };
 
 export const revalidate = 86400;
