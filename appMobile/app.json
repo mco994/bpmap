@@ -56,7 +56,11 @@
         {
           "locationWhenInUsePermission": "BPMap utilise ta position pour calculer l'itinéraire vers un festival."
         }
-      ]
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-status-bar",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
