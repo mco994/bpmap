@@ -28,6 +28,12 @@ import {
   SIZE_TIERS,
   type Festival,
 } from "@bpmap/shared";
+import {
+  clusterByScreenDistance,
+  GROUP_RADII,
+  SINGLE_RADII,
+  ZOOM_STOPS,
+} from "@/lib/map-clusters";
 import GenreChips from "@/components/GenreChips";
 import ItineraryButton from "@/components/ItineraryButton";
 
@@ -89,20 +95,26 @@ const borderLayer: LayerProps = {
   },
 };
 
+function radiusExpression(): unknown[] {
+  return [
+    "interpolate",
+    ["linear"],
+    ["zoom"],
+    ...ZOOM_STOPS.flatMap((stop, i) => [
+      stop,
+      ["case", [">", ["get", "count"], 1], GROUP_RADII[i], SINGLE_RADII[i]],
+    ]),
+  ];
+}
+
 const pointLayer: LayerProps = {
   id: "festival-points",
   type: "circle",
   source: SOURCE_ID,
+  filter: ["!=", ["get", "hidden"], true],
   paint: {
     "circle-color": "#db2777",
-    "circle-radius": [
-      "interpolate",
-      ["linear"],
-      ["zoom"],
-      4, ["case", [">", ["get", "count"], 1], 7, 4.5],
-      6, ["case", [">", ["get", "count"], 1], 9, 6],
-      9, ["case", [">", ["get", "count"], 1], 12, 7.5],
-    ],
+    "circle-radius": radiusExpression() as never,
     "circle-stroke-width": [
       "interpolate",
       ["linear"],
@@ -120,7 +132,7 @@ const countLayer: LayerProps = {
   id: "festival-count",
   type: "symbol",
   source: SOURCE_ID,
-  filter: ["all", ["==", ["get", "head"], true], [">", ["get", "count"], 1]],
+  filter: ["all", ["!=", ["get", "hidden"], true], [">", ["get", "count"], 1]],
   layout: {
     "text-field": ["to-string", ["get", "count"]],
     "text-font": ["Noto Sans Bold"],
@@ -135,14 +147,11 @@ const countLayer: LayerProps = {
   },
 };
 
-function placeKey(f: Festival): string {
-  return `${f.lng},${f.lat}`;
-}
-
 const hitLayer: LayerProps = {
   id: "festival-hit",
   type: "circle",
   source: SOURCE_ID,
+  filter: ["!=", ["get", "hidden"], true],
   paint: {
     "circle-radius": 18,
     "circle-color": "#000000",
@@ -167,6 +176,7 @@ export default function Map({
 }: MapProps) {
   const mapRef = useRef<MapRef>(null);
   const [cursor, setCursor] = useState<string>("");
+  const [zoom, setZoom] = useState(INITIAL_VIEW.zoom);
   const [maskBeforeId, setMaskBeforeId] = useState<string | undefined>(undefined);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinnedUntil = useRef(0);
@@ -195,26 +205,22 @@ export default function Map({
     [],
   );
 
-  const groups = useMemo(() => {
-    const byPlace: Record<string, Festival[]> = {};
-    for (const f of festivals) {
-      const key = placeKey(f);
-      byPlace[key] = [...(byPlace[key] ?? []), f];
-    }
-    return byPlace;
-  }, [festivals]);
+  // Regroupement en espace ecran : deux evenements fusionnent quand le plus petit
+  // disparaitrait sous la pastille du plus gros. Depend donc du zoom, pas seulement
+  // des coordonnees — des lieux voisins se separent en zoomant.
+  const clusters = useMemo(() => {
+    return clusterByScreenDistance(festivals, zoom);
+  }, [festivals, zoom]);
 
   const selected = useMemo(
     () => festivals.find((f) => f.id === selectedId) ?? null,
     [festivals, selectedId],
   );
-  const selectedNeighbours = useMemo(
-    () =>
-      selected
-        ? (groups[placeKey(selected)] ?? []).filter((f) => f.id !== selected.id)
-        : [],
-    [selected, groups],
-  );
+  const selectedNeighbours = useMemo(() => {
+    if (!selected) return [];
+    const anchor = clusters.anchorOf[selected.id] ?? selected.id;
+    return (clusters.membersOf[anchor] ?? []).filter((f) => f.id !== selected.id);
+  }, [selected, clusters]);
   const selectedMatch = selected ? bestQueryMatch(selected, query) : null;
   const selectedTier = selected ? sizeTierForCapacity(selected.capacity) : null;
   const selectedTicketUrl = selected ? sanitizeUrl(selected.ticketUrl) : null;
@@ -226,16 +232,18 @@ export default function Map({
   const geojson = useMemo(
     () => ({
       type: "FeatureCollection" as const,
-      features: festivals.map((f) => {
-        const group = groups[placeKey(f)] ?? [f];
-        return {
-          type: "Feature" as const,
-          geometry: { type: "Point" as const, coordinates: [f.lng, f.lat] },
-          properties: { id: f.id, count: group.length, head: group[0]?.id === f.id },
-        };
-      }),
+      features: [...festivals]
+        .map((f) => {
+          const count = (clusters.membersOf[f.id] ?? []).length;
+          return {
+            type: "Feature" as const,
+            geometry: { type: "Point" as const, coordinates: [f.lng, f.lat] },
+            properties: { id: f.id, count: Math.max(count, 1), hidden: count === 0 },
+          };
+        })
+        .sort((a, b) => b.properties.count - a.properties.count),
     }),
-    [festivals, groups],
+    [festivals, clusters],
   );
 
   const selectedLayer: LayerProps = {
@@ -337,6 +345,7 @@ export default function Map({
         setMaskBeforeId(cityLabelId ?? firstLabelId);
       }}
       style={{ width: "100%", height: "100%" }}
+      onZoomEnd={(e) => setZoom(e.viewState.zoom)}
       interactiveLayerIds={["festival-hit", "festival-points", "selected-point"]}
       cursor={cursor}
       onClick={handleClick}
@@ -466,7 +475,10 @@ export default function Map({
                   <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-fuchsia-600 px-1 text-[10px] font-bold tabular-nums text-white">
                     {selectedNeighbours.length + 1}
                   </span>
-                  événements à cet endroit
+                  événements regroupés ici
+                </p>
+                <p className="mt-0.5 text-[11px] text-fuchsia-700">
+                  Zoomez pour les séparer sur la carte.
                 </p>
                 <ul className="mt-1.5 space-y-1">
                   {selectedNeighbours.map((f) => (
