@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-09-23:electrolapse:removed",
+    "festivalId": "electrolapse",
+    "festivalSlug": "electrolapse",
+    "festivalName": "Electrolapse Festival",
+    "type": "removed",
+    "date": "2026-09-23",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-23:coeur-meurtri-open-air:removed",
+    "festivalId": "coeur-meurtri-open-air",
+    "festivalSlug": "coeur-meurtri-open-air",
+    "festivalName": "Cœur Meurtri Open Air",
+    "type": "removed",
+    "date": "2026-09-23",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-23:electro-tribe-festival:removed",
+    "festivalId": "electro-tribe-festival",
+    "festivalSlug": "electro-tribe-festival",
+    "festivalName": "Electro Tribe Festival",
+    "type": "removed",
+    "date": "2026-09-23",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-09-22:festival-69bpm:added",
     "festivalId": "festival-69bpm",
     "festivalSlug": "festival-69bpm",
