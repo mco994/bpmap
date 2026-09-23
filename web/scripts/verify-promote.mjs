@@ -57,7 +57,19 @@ function variantOfKnown(candidate) {
 const NON_ELECTRO =
   /(?<![\p{L}\d])(jazz|classique|classical|symphoni|opéra|opera|rock|metal|punk|hip.?hop|rap|reggae|blues|folk|chanson|gospel|country|salsa|flamenco)(?![\p{L}\d])/iu;
 
-const PARTY_PATTERN = /\sw\/\s| x | feat\.?| b2b |présente|presents|invite|closing|opening|warm.?up/i;
+const PARTY_PATTERN =
+  /\sw\/\s| x | feat\.?| b2b |présente|presents|invite|closing|clôture|cloture|opening|warm.?up|\s@\s/i;
+
+const OPEN_AIR_PATTERN = /open.?air|plein air|rooftop|guinguette|beach|plage|\bpark\b|jardin/i;
+const SOIREE_PATTERN = /\bclub\b|\bnuit\b|\bnight\b|\bsoirée\b|\bsoiree\b|\brave\b|#\d+/i;
+
+function eventTypeFor(candidate, multiDay) {
+  const text = `${candidate.name} ${candidate.description ?? ""}`;
+  if (OPEN_AIR_PATTERN.test(text)) return "open-air";
+  if (multiDay || /\bfestival\b/i.test(candidate.name)) return "festival";
+  if (SOIREE_PATTERN.test(text)) return "soiree";
+  return "soiree";
+}
 
 function domainsOf(sources = []) {
   const set = new Set();
@@ -218,10 +230,12 @@ for (const c of candidates) {
     startDate: c.startDate ?? null,
     endDate: c.endDate ?? null,
     genres: inferGenres(text),
+    eventType: eventTypeFor(c, multiDay),
     organizer: c.organizer ?? null,
     capacity: null,
     priceDay: null,
     priceFull: null,
+    ...(c.address ? { address: c.address } : {}),
     officialUrl: isHttp(c.officialUrl) ? c.officialUrl : null,
     status: "announced",
     sources: (c.sources ?? []).filter(isHttp),

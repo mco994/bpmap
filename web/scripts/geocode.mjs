@@ -41,8 +41,12 @@ function regionFromContext(context) {
   return parts.length >= 2 ? parts[parts.length - 1] : null;
 }
 
-async function geocode(city, postcode) {
-  const params = new URLSearchParams({ q: city, type: "municipality", limit: "1" });
+async function geocode(city, postcode, address) {
+  // Une adresse complete donne un point au niveau de la salle ; sans elle on retombe
+  // sur le centre-ville, ce qui empile les evenements d'une meme ville sur un pixel.
+  const params = address
+    ? new URLSearchParams({ q: address, limit: "1" })
+    : new URLSearchParams({ q: city, type: "municipality", limit: "1" });
   if (postcode) params.set("postcode", postcode);
   const res = await fetch(`https://api-adresse.data.gouv.fr/search/?${params}`);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -83,7 +87,9 @@ for (const f of source) {
   let region = f.region ?? null;
   if (lat == null || lng == null) {
     try {
-      const hit = await withRetry(() => geocode(f.city, f.postcode));
+      const hit =
+        (f.address ? await withRetry(() => geocode(f.city, f.postcode, f.address)) : null) ??
+        (await withRetry(() => geocode(f.city, f.postcode)));
       if (hit) {
         ({ lat, lng } = hit);
         region ??= hit.region;

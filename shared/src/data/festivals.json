@@ -31,6 +31,106 @@
     ]
   },
   {
+    "id": "electrolapse",
+    "slug": "electrolapse",
+    "name": "Electrolapse Festival",
+    "description": "Festival techno et électro de la Drôme à Saint-Sorlin-en-Valloire, pour sa 6e édition sur trois scènes avec plus de 40 artistes. De la hard techno et hardstyle à la drum & bass et la psytrance.",
+    "startDate": "2026-08-21",
+    "endDate": "2026-08-22",
+    "lat": 45.2783,
+    "lng": 4.95462,
+    "city": "Saint-Sorlin-en-Valloire",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno",
+      "house",
+      "trance",
+      "electro"
+    ],
+    "priceDay": 44.99,
+    "priceFull": 64.99,
+    "currency": "EUR",
+    "ticketUrl": "https://shotgun.live/en/festivals/electrolapse-festival-2026-6-eme-edition",
+    "officialUrl": "https://electrolapse.fr/",
+    "status": "confirmed",
+    "lineup": [
+      "Trym",
+      "Malaa",
+      "Brennan Heart",
+      "Hysta",
+      "Koven",
+      "Sandy Sax",
+      "Abstraal",
+      "Grand V",
+      "Neelix",
+      "Leblanc",
+      "Marion Di Napoli"
+    ],
+    "sources": [
+      "https://shotgun.live/en/festivals/electrolapse-festival-2026-6-eme-edition"
+    ]
+  },
+  {
+    "id": "coeur-meurtri-open-air",
+    "slug": "coeur-meurtri-open-air",
+    "name": "Cœur Meurtri Open Air",
+    "description": "Open air gratuit techno et hard techno sur l'île du Ramier, au line-up 100 % féminin imaginé par DJ Babe, avec le soutien de la Mairie de Toulouse.",
+    "startDate": "2026-08-21",
+    "endDate": "2026-08-22",
+    "lat": 43.60408,
+    "lng": 1.4338,
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "organizer": "Cœur Meurtri (DJ Babe)",
+    "capacity": null,
+    "genres": [
+      "hard-techno",
+      "techno"
+    ],
+    "priceDay": 0,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": null,
+    "status": "confirmed",
+    "eventType": "open-air",
+    "sources": [
+      "https://assoce.fr/waldec/W313041734/COEUR-MEURTRI",
+      "https://allevents.in/toulouse/open-air-2026-gratuit-coeur-meurtri-ile-du-ramier/200030096865041"
+    ]
+  },
+  {
+    "id": "electro-tribe-festival",
+    "slug": "electro-tribe-festival",
+    "name": "Electro Tribe Festival",
+    "description": "Trance organique et électro au Théâtre de Verdure de Nice, amphithéâtre en plein air face à la mer : 3e édition portée par Kontsha Prod et Hilight Tribe, de 18h à 1h.",
+    "startDate": "2026-08-22",
+    "endDate": "2026-08-22",
+    "lat": 43.71273,
+    "lng": 7.25531,
+    "city": "Nice",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": "Kontsha Prod / Hilight Tribe",
+    "capacity": 3000,
+    "genres": [
+      "trance",
+      "techno",
+      "dub"
+    ],
+    "priceDay": 26,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://www.festivalenfrance.com/festival/electro-tribe-festival",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://www.festivalenfrance.com/en/festival/electro-tribe-festival"
+    ]
+  },
+  {
     "id": "pain-benit-festival",
     "slug": "pain-benit-festival",
     "name": "Pain Bénit Festival",
@@ -533,8 +633,8 @@
     "description": "",
     "startDate": "2026-09-24",
     "endDate": null,
-    "lat": 45.758,
-    "lng": 4.835,
+    "lat": 45.77059,
+    "lng": 4.83694,
     "city": "Lyon",
     "region": "Auvergne-Rhône-Alpes",
     "organizer": null,
@@ -642,8 +742,8 @@
     "description": "",
     "startDate": "2026-09-26",
     "endDate": null,
-    "lat": 45.758,
-    "lng": 4.835,
+    "lat": 45.73753,
+    "lng": 4.81692,
     "city": "Lyon",
     "region": "Auvergne-Rhône-Alpes",
     "organizer": null,
@@ -657,6 +757,7 @@
     "ticketUrl": null,
     "officialUrl": "https://ra.co/events/2534939",
     "status": "announced",
+    "eventType": "open-air",
     "lineup": [
       "Tatie Dee",
       "Saint Louïs"
@@ -673,8 +774,8 @@
     "description": "",
     "startDate": "2026-09-26",
     "endDate": null,
-    "lat": 43.60408,
-    "lng": 1.4338,
+    "lat": 43.60833,
+    "lng": 1.44461,
     "city": "Toulouse",
     "region": "Occitanie",
     "organizer": null,
@@ -688,6 +789,7 @@
     "ticketUrl": null,
     "officialUrl": "https://ra.co/events/2504794",
     "status": "announced",
+    "eventType": "open-air",
     "sources": [
       "https://ra.co/events/2504794"
     ]
@@ -714,6 +816,7 @@
     "ticketUrl": null,
     "officialUrl": "https://ra.co/events/2537931",
     "status": "announced",
+    "eventType": "open-air",
     "sources": [
       "https://ra.co/events/2537931"
     ]
@@ -725,8 +828,8 @@
     "description": "",
     "startDate": "2026-10-01",
     "endDate": "2026-10-11",
-    "lat": 48.1109,
-    "lng": -1.68365,
+    "lat": 48.1152,
+    "lng": -1.68369,
     "city": "Rennes",
     "region": "Bretagne",
     "organizer": null,
@@ -786,8 +889,8 @@
     "description": "",
     "startDate": "2026-10-03",
     "endDate": null,
-    "lat": 48.859,
-    "lng": 2.347,
+    "lat": 48.84025,
+    "lng": 2.37044,
     "city": "Paris",
     "region": "Île-de-France",
     "organizer": null,
@@ -801,6 +904,7 @@
     "ticketUrl": null,
     "officialUrl": "https://ra.co/events/2532246",
     "status": "announced",
+    "eventType": "open-air",
     "lineup": [
       "O.BEE"
     ],
@@ -891,8 +995,8 @@
     "description": "",
     "startDate": "2026-10-09",
     "endDate": null,
-    "lat": 43.282,
-    "lng": 5.405,
+    "lat": 43.24405,
+    "lng": 5.43991,
     "city": "Marseille",
     "region": "Provence-Alpes-Côte d'Azur",
     "organizer": null,
@@ -923,32 +1027,6 @@
     ]
   },
   {
-    "id": "cloture-actoral-festival-petit-cab",
-    "slug": "cloture-actoral-festival-petit-cab",
-    "name": "Clôture Actoral Festival @ Petit Cab",
-    "description": "",
-    "startDate": "2026-10-10",
-    "endDate": null,
-    "lat": 43.282,
-    "lng": 5.405,
-    "city": "MARSEILLE",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "electro"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://ra.co/events/2522625",
-    "status": "announced",
-    "sources": [
-      "https://ra.co/events/2522625"
-    ]
-  },
-  {
     "id": "hors-sol-open-air-marseille",
     "slug": "hors-sol-open-air-marseille",
     "name": "HORS-SOL [open-air] — Marseille",
@@ -970,6 +1048,7 @@
     "ticketUrl": null,
     "officialUrl": "https://ra.co/events/2496054",
     "status": "announced",
+    "eventType": "open-air",
     "lineup": [
       "Domi (FR)",
       "Cristobal",
@@ -988,10 +1067,10 @@
     "description": "",
     "startDate": "2026-10-17",
     "endDate": null,
-    "lat": 48.1109,
-    "lng": -1.68365,
+    "lat": 46.52124,
+    "lng": 4.59725,
     "city": "Rennes",
-    "region": "Bretagne",
+    "region": "Bourgogne-Franche-Comté",
     "organizer": null,
     "capacity": null,
     "genres": [
@@ -1022,8 +1101,8 @@
     "description": "",
     "startDate": "2026-10-24",
     "endDate": null,
-    "lat": 46.681,
-    "lng": 5.5195,
+    "lat": 46.67473,
+    "lng": 5.49567,
     "city": "Montmorot",
     "region": "Bourgogne-Franche-Comté",
     "organizer": null,
@@ -1197,8 +1276,8 @@
     "description": "",
     "startDate": "2026-11-05",
     "endDate": null,
-    "lat": 44.85194,
-    "lng": -0.58788,
+    "lat": 44.8702,
+    "lng": -0.56537,
     "city": "Bordeaux",
     "region": "Nouvelle-Aquitaine",
     "organizer": null,
@@ -1356,32 +1435,6 @@
     ],
     "sources": [
       "https://ra.co/events/2531187"
-    ]
-  },
-  {
-    "id": "dreamachine-festival-petit-cab",
-    "slug": "dreamachine-festival-petit-cab",
-    "name": "Dreamachine Festival @ Petit Cab",
-    "description": "",
-    "startDate": "2026-11-21",
-    "endDate": null,
-    "lat": 43.282,
-    "lng": 5.405,
-    "city": "MARSEILLE",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "electro"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://ra.co/events/2522670",
-    "status": "announced",
-    "sources": [
-      "https://ra.co/events/2522670"
     ]
   },
   {
