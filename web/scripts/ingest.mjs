@@ -159,6 +159,13 @@ async function raResolveAreas() {
 
 const RA_REGION_AREAS = /^(Central|East|West|North|South|North ?East|North ?West|South ?East|South ?West|French Riviera|French West Indies|Other)$/i;
 
+function raAddress(venue) {
+  const address = (venue?.address ?? "").trim();
+  if (!address) return null;
+  const name = (venue?.name ?? "").trim();
+  return name && !address.includes(name) ? `${name}, ${address}` : address;
+}
+
 function raCity(venue) {
   const fromAddress = (venue?.address ?? "").match(/\d{5}\s+([^,\d]+)/);
   const area = venue?.area?.name ?? null;
@@ -211,6 +218,7 @@ async function fetchResidentAdvisor() {
         out.push({
           name: e.title,
           city: raCity(e.venue),
+          address: raAddress(e.venue),
           region: null,
           startDate: e.date ? e.date.slice(0, 10) : null,
           endDate: raEndDate(e.date, e.endTime),

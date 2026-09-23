@@ -27,6 +27,7 @@ export interface Festival {
   officialUrl: string | null;
   status: FestivalStatus;
   eventType?: EventType;
+  address?: string;
   eclectic?: boolean;
   lineup?: string[];
   sources?: string[];
