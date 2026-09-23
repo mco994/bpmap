@@ -23,7 +23,6 @@ import {
   franceMaskGeoJSON,
   isCountryLabelLayer,
   isCityLabelLayer,
-  maskedPlaceLabelFilter,
   sanitizeUrl,
   sizeTierForCapacity,
   SIZE_TIERS,
@@ -48,6 +47,8 @@ const MAP_LOCALE = {
   "AttributionControl.ToggleAttribution": "Afficher les attributions",
   "Marker.Title": "Repère",
 };
+
+const CITY_LABEL_MIN_ZOOM = 7;
 
 const INITIAL_VIEW = { longitude: 2.5, latitude: 46.6, zoom: 4.7 };
 
@@ -94,8 +95,21 @@ const pointLayer: LayerProps = {
   source: SOURCE_ID,
   paint: {
     "circle-color": "#db2777",
-    "circle-radius": ["case", [">", ["get", "count"], 1], 11, 7],
-    "circle-stroke-width": ["case", [">", ["get", "count"], 1], 3, 2],
+    "circle-radius": [
+      "interpolate",
+      ["linear"],
+      ["zoom"],
+      4, ["case", [">", ["get", "count"], 1], 7, 4.5],
+      6, ["case", [">", ["get", "count"], 1], 9, 6],
+      9, ["case", [">", ["get", "count"], 1], 12, 7.5],
+    ],
+    "circle-stroke-width": [
+      "interpolate",
+      ["linear"],
+      ["zoom"],
+      4, 1.5,
+      9, ["case", [">", ["get", "count"], 1], 3, 2],
+    ],
     "circle-stroke-color": "#ffffff",
   },
 };
@@ -110,7 +124,7 @@ const countLayer: LayerProps = {
   layout: {
     "text-field": ["to-string", ["get", "count"]],
     "text-font": ["Noto Sans Bold"],
-    "text-size": 12,
+    "text-size": ["interpolate", ["linear"], ["zoom"], 4, 9, 6, 11, 9, 13],
     "text-allow-overlap": true,
     "text-ignore-placement": true,
   },
@@ -231,7 +245,14 @@ export default function Map({
     filter: ["==", ["get", "id"], selectedId ?? "__none__"],
     paint: {
       "circle-color": "#9d174d",
-      "circle-radius": ["case", [">", ["get", "count"], 1], 13, 9],
+      "circle-radius": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        4, ["case", [">", ["get", "count"], 1], 9, 6.5],
+        6, ["case", [">", ["get", "count"], 1], 11, 8],
+        9, ["case", [">", ["get", "count"], 1], 14, 9.5],
+      ],
       "circle-stroke-width": 2,
       "circle-stroke-color": "#ffffff",
     },
@@ -307,12 +328,10 @@ export default function Map({
           if (isCountryLabelLayer(layer)) {
             map.setLayoutProperty(layer.id, "visibility", "none");
           } else if (isCityLabelLayer(layer)) {
-            map.setFilter(
-              layer.id,
-              maskedPlaceLabelFilter(
-                map.getFilter(layer.id),
-              ) as Parameters<typeof map.setFilter>[1],
-            );
+            // Les noms de grandes villes ne sortent qu'une fois zoome : a l'echelle de
+            // la France les pastilles d'evenements tombaient dessus et les rendaient
+            // illisibles. Au-dela de ce seuil les points sont assez espaces.
+            map.setLayerZoomRange(layer.id, CITY_LABEL_MIN_ZOOM, 24);
           }
         }
         setMaskBeforeId(cityLabelId ?? firstLabelId);
