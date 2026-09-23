@@ -94,11 +94,32 @@ const pointLayer: LayerProps = {
   source: SOURCE_ID,
   paint: {
     "circle-color": "#db2777",
-    "circle-radius": 7,
+    "circle-radius": ["case", [">", ["get", "count"], 1], 11, 7],
     "circle-stroke-width": 2,
     "circle-stroke-color": "#ffffff",
   },
 };
+
+// Nombre d'evenements partageant exactement le meme point, dessine une seule fois par
+// lieu : les features d'un meme groupe se superposent au pixel pres.
+const countLayer: LayerProps = {
+  id: "festival-count",
+  type: "symbol",
+  source: SOURCE_ID,
+  filter: ["all", ["==", ["get", "head"], true], [">", ["get", "count"], 1]],
+  layout: {
+    "text-field": ["to-string", ["get", "count"]],
+    "text-font": ["Noto Sans Bold"],
+    "text-size": 11,
+    "text-allow-overlap": true,
+    "text-ignore-placement": true,
+  },
+  paint: { "text-color": "#ffffff" },
+};
+
+function placeKey(f: Festival): string {
+  return `${f.lng},${f.lat}`;
+}
 
 const hitLayer: LayerProps = {
   id: "festival-hit",
@@ -156,9 +177,25 @@ export default function Map({
     [],
   );
 
+  const groups = useMemo(() => {
+    const byPlace: Record<string, Festival[]> = {};
+    for (const f of festivals) {
+      const key = placeKey(f);
+      byPlace[key] = [...(byPlace[key] ?? []), f];
+    }
+    return byPlace;
+  }, [festivals]);
+
   const selected = useMemo(
     () => festivals.find((f) => f.id === selectedId) ?? null,
     [festivals, selectedId],
+  );
+  const selectedNeighbours = useMemo(
+    () =>
+      selected
+        ? (groups[placeKey(selected)] ?? []).filter((f) => f.id !== selected.id)
+        : [],
+    [selected, groups],
   );
   const selectedMatch = selected ? bestQueryMatch(selected, query) : null;
   const selectedTier = selected ? sizeTierForCapacity(selected.capacity) : null;
@@ -171,13 +208,16 @@ export default function Map({
   const geojson = useMemo(
     () => ({
       type: "FeatureCollection" as const,
-      features: festivals.map((f) => ({
-        type: "Feature" as const,
-        geometry: { type: "Point" as const, coordinates: [f.lng, f.lat] },
-        properties: { id: f.id },
-      })),
+      features: festivals.map((f) => {
+        const group = groups[placeKey(f)] ?? [f];
+        return {
+          type: "Feature" as const,
+          geometry: { type: "Point" as const, coordinates: [f.lng, f.lat] },
+          properties: { id: f.id, count: group.length, head: group[0]?.id === f.id },
+        };
+      }),
     }),
-    [festivals],
+    [festivals, groups],
   );
 
   const selectedLayer: LayerProps = {
@@ -187,7 +227,7 @@ export default function Map({
     filter: ["==", ["get", "id"], selectedId ?? "__none__"],
     paint: {
       "circle-color": "#9d174d",
-      "circle-radius": 9,
+      "circle-radius": ["case", [">", ["get", "count"], 1], 13, 9],
       "circle-stroke-width": 2,
       "circle-stroke-color": "#ffffff",
     },
@@ -306,6 +346,7 @@ export default function Map({
         <Layer {...hitLayer} beforeId={maskBeforeId} />
         <Layer {...pointLayer} beforeId={maskBeforeId} />
         <Layer {...selectedLayer} beforeId={maskBeforeId} />
+        <Layer {...countLayer} beforeId={maskBeforeId} />
       </Source>
 
       {selected && (
@@ -394,6 +435,31 @@ export default function Map({
                   </a>
                 )}
               </p>
+            )}
+
+            {selectedNeighbours.length > 0 && (
+              <div className="border-t border-zinc-200 pt-1.5">
+                <p className="text-xs font-medium text-zinc-700">
+                  {selectedNeighbours.length + 1} événements à cet endroit
+                </p>
+                <ul className="mt-1 space-y-0.5">
+                  {selectedNeighbours.map((f) => (
+                    <li key={f.id}>
+                      <button
+                        type="button"
+                        onClick={() => onSelect(f.id)}
+                        className="w-full truncate text-left text-xs text-fuchsia-700 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500"
+                      >
+                        {f.name}
+                        <span className="text-zinc-500">
+                          {" · "}
+                          {formatDateRange(f.startDate, f.endDate)}
+                        </span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
 
             <div className="flex items-center justify-between gap-2 pt-0.5">
