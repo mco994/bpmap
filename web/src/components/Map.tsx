@@ -95,7 +95,7 @@ const pointLayer: LayerProps = {
   paint: {
     "circle-color": "#db2777",
     "circle-radius": ["case", [">", ["get", "count"], 1], 11, 7],
-    "circle-stroke-width": 2,
+    "circle-stroke-width": ["case", [">", ["get", "count"], 1], 3, 2],
     "circle-stroke-color": "#ffffff",
   },
 };
@@ -110,11 +110,15 @@ const countLayer: LayerProps = {
   layout: {
     "text-field": ["to-string", ["get", "count"]],
     "text-font": ["Noto Sans Bold"],
-    "text-size": 11,
+    "text-size": 12,
     "text-allow-overlap": true,
     "text-ignore-placement": true,
   },
-  paint: { "text-color": "#ffffff" },
+  paint: {
+    "text-color": "#ffffff",
+    "text-halo-color": "#9d174d",
+    "text-halo-width": 1,
+  },
 };
 
 function placeKey(f: Festival): string {
@@ -343,10 +347,10 @@ export default function Map({
       </Source>
 
       <Source id={SOURCE_ID} type="geojson" data={geojson}>
-        <Layer {...hitLayer} beforeId={maskBeforeId} />
-        <Layer {...pointLayer} beforeId={maskBeforeId} />
-        <Layer {...selectedLayer} beforeId={maskBeforeId} />
-        <Layer {...countLayer} beforeId={maskBeforeId} />
+        <Layer {...hitLayer} />
+        <Layer {...selectedLayer} />
+        <Layer {...pointLayer} />
+        <Layer {...countLayer} />
       </Source>
 
       {selected && (
@@ -438,20 +442,23 @@ export default function Map({
             )}
 
             {selectedNeighbours.length > 0 && (
-              <div className="border-t border-zinc-200 pt-1.5">
-                <p className="text-xs font-medium text-zinc-700">
-                  {selectedNeighbours.length + 1} événements à cet endroit
+              <div className="rounded-lg bg-fuchsia-50 p-2">
+                <p className="flex items-center gap-1.5 text-xs font-semibold text-fuchsia-900">
+                  <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-fuchsia-600 px-1 text-[10px] font-bold tabular-nums text-white">
+                    {selectedNeighbours.length + 1}
+                  </span>
+                  événements à cet endroit
                 </p>
-                <ul className="mt-1 space-y-0.5">
+                <ul className="mt-1.5 space-y-1">
                   {selectedNeighbours.map((f) => (
                     <li key={f.id}>
                       <button
                         type="button"
                         onClick={() => onSelect(f.id)}
-                        className="w-full truncate text-left text-xs text-fuchsia-700 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500"
+                        className="w-full truncate rounded px-1 py-0.5 text-left text-xs font-medium text-fuchsia-800 transition-colors hover:bg-fuchsia-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500"
                       >
                         {f.name}
-                        <span className="text-zinc-500">
+                        <span className="font-normal text-zinc-600">
                           {" · "}
                           {formatDateRange(f.startDate, f.endDate)}
                         </span>
