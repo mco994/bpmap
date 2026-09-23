@@ -10,7 +10,9 @@ const MAX_FAVORITE_LENGTH = 100;
 const UNAVAILABLE = "Enregistrement push indisponible pour le moment.";
 
 export async function POST(request: Request) {
-  const limited = await enforceRateLimit("api-push-register", request);
+  const limited = await enforceRateLimit("api-push-register", request, {
+    failClosed: true,
+  });
   if (limited) return limited;
 
   const pool = getPool();

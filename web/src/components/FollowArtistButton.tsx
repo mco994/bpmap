@@ -47,7 +47,7 @@ export default function FollowArtistButton({
       className={`rounded-full p-1.5 text-base leading-none transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 ${
         isFollowed
           ? "text-fuchsia-600 dark:text-fuchsia-400"
-          : "text-zinc-400 hover:text-fuchsia-600 dark:text-zinc-500 dark:hover:text-fuchsia-400"
+          : "text-zinc-500 hover:text-fuchsia-600 dark:text-zinc-400 dark:hover:text-fuchsia-400"
       }`}
     >
       <Icon name="star" size={16} filled={isFollowed} />

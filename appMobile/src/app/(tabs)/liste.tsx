@@ -62,6 +62,7 @@ export default function ListeScreen() {
           <TextInput
             value={query}
             onChangeText={setQuery}
+            accessibilityLabel="Rechercher un événement"
             placeholder="Festival, artiste, ville, orga…"
             placeholderTextColor={theme.textSecondary}
             autoCorrect={false}
@@ -114,12 +115,13 @@ export default function ListeScreen() {
               <Pressable
                 key={mode}
                 onPress={() => setSortMode(mode)}
+                hitSlop={8}
+                accessibilityRole="button"
+                accessibilityState={{ selected: sortMode === mode }}
                 accessibilityLabel={mode === 'date' ? 'Trier par date' : 'Trier par ordre alphabétique'}
                 style={[
                   styles.sortOption,
-                  sortMode === mode
-                    ? { backgroundColor: theme.accentSoft }
-                    : styles.sortOptionInactive,
+                  sortMode === mode ? { backgroundColor: theme.accentSoft } : null,
                 ]}
               >
                 <ThemedText
@@ -132,7 +134,7 @@ export default function ListeScreen() {
             ))}
           </View>
           {hasActiveFilters(filterState) ? (
-            <Pressable onPress={clearAllFilters} hitSlop={8}>
+            <Pressable onPress={clearAllFilters} hitSlop={8} accessibilityRole="button">
               <ThemedText type="smallBold" style={{ color: theme.accent }}>
                 ✕ Filtres
               </ThemedText>
@@ -150,6 +152,8 @@ export default function ListeScreen() {
           key={mode}
           style={[styles.listWrap, sortMode !== mode && styles.hiddenList]}
           pointerEvents={sortMode === mode ? 'auto' : 'none'}
+          accessibilityElementsHidden={sortMode !== mode}
+          importantForAccessibility={sortMode === mode ? 'auto' : 'no-hide-descendants'}
         >
           <SectionList
             sections={modeSections}
@@ -238,7 +242,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: Spacing.two,
     paddingVertical: 2,
   },
-  sortOptionInactive: { opacity: 0.4 },
   listArea: { flex: 1 },
   listWrap: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 },
   hiddenList: { opacity: 0 },

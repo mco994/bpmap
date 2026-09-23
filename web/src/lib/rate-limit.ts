@@ -2,17 +2,28 @@ import { checkRateLimit } from "@vercel/firewall";
 
 const RATE_LIMITED_MESSAGE =
   "Trop de requêtes. Merci de réessayer dans quelques instants.";
+const UNAVAILABLE_MESSAGE =
+  "Service momentanément indisponible. Merci de réessayer plus tard.";
 
 export async function enforceRateLimit(
   rateLimitId: string,
   request: Request,
+  { failClosed = false }: { failClosed?: boolean } = {},
 ): Promise<Response | null> {
   try {
-    const { rateLimited } = await checkRateLimit(rateLimitId, {
+    const { rateLimited, error } = await checkRateLimit(rateLimitId, {
       request,
     });
 
-    if (rateLimited) {
+    if (error === "not-found") {
+      console.warn(`rate-limit: règle "${rateLimitId}" introuvable côté firewall`);
+      if (failClosed) {
+        return Response.json({ error: UNAVAILABLE_MESSAGE }, { status: 503 });
+      }
+      return null;
+    }
+
+    if (rateLimited || error === "blocked") {
       return Response.json(
         { error: RATE_LIMITED_MESSAGE },
         {
@@ -24,6 +35,7 @@ export async function enforceRateLimit(
 
     return null;
   } catch {
-    return null;
+    if (!failClosed) return null;
+    return Response.json({ error: UNAVAILABLE_MESSAGE }, { status: 503 });
   }
 }

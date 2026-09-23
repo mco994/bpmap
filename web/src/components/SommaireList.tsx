@@ -34,7 +34,7 @@ import { getCurrentCoords } from "@/lib/geo";
 const CalendarView = dynamic(() => import("@/components/CalendarView"), {
   ssr: false,
   loading: () => (
-    <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
+    <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700 dark:text-zinc-400">
       Chargement de l’agenda…
     </p>
   ),
@@ -127,6 +127,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
   };
 
   const setDistanceSort = () => {
+    if (locating) return;
     if (origin) {
       setSortMode("near");
       return;
@@ -211,8 +212,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
               onClick={setDistanceSort}
               aria-pressed={sortMode === "near"}
               aria-busy={locating}
-              disabled={locating}
-              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium disabled:opacity-60 ${
+              className={`whitespace-nowrap rounded-md px-2.5 py-1 text-xs font-medium ${
                 sortMode === "near"
                   ? "bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-950 dark:text-fuchsia-200"
                   : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50"
@@ -271,7 +271,7 @@ export default function SommaireList({ festivals }: { festivals: Festival[] }) {
         </p>
 
         {filteredCount === 0 ? (
-          <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
+          <p className="mt-6 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700 dark:text-zinc-400">
             Aucun événement ne correspond à votre recherche.
           </p>
         ) : view === "calendar" ? (

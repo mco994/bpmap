@@ -33,6 +33,7 @@ export function FestivalRow({ festival, highlightQuery = '' }: Props) {
   return (
     <Link href={{ pathname: '/festival/[slug]', params: { slug: festival.slug } }} asChild>
       <Pressable
+        accessibilityRole="button"
         style={StyleSheet.flatten([
           styles.card,
           { backgroundColor: theme.backgroundElement, borderLeftColor: accentGenre },

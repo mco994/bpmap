@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { changeTypeLabel, diffFestivals } from "../changes";
+import { changeTypeLabel, diffFestivals, isBroadcastable } from "../changes";
 import { makeFestival } from "./fixtures";
 
 const DATE = "2026-08-25";
@@ -77,5 +77,18 @@ describe("changeTypeLabel", () => {
   it("libelle chaque type de changement", () => {
     expect(changeTypeLabel("added")).toBe("Nouvel événement");
     expect(changeTypeLabel("lineup")).toBe("Line-up mis à jour");
+  });
+});
+
+describe("isBroadcastable", () => {
+  it("accepte deux domaines indépendants ou une source curatée", () => {
+    expect(isBroadcastable(["https://data.datatourisme.fr/x", "https://www.exemple.fr/"])).toBe(true);
+    expect(isBroadcastable(["https://ra.co/events/1"])).toBe(true);
+  });
+
+  it("refuse une source unique non curatée ou aucune source", () => {
+    expect(isBroadcastable(["https://www.wikidata.org/entity/Q1"])).toBe(false);
+    expect(isBroadcastable(["https://openagenda.com/e/1", "https://www.openagenda.com/e/2"])).toBe(false);
+    expect(isBroadcastable(undefined)).toBe(false);
   });
 });

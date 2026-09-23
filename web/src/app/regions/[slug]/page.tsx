@@ -41,6 +41,8 @@ export async function generateMetadata({
       title: `${title} · BPMap`,
       description,
       url,
+      siteName: "BPMap",
+      images: "/opengraph-image",
     },
   };
 }
@@ -104,7 +106,7 @@ export default async function RegionPage({
       </div>
 
       {festivals.length === 0 ? (
-        <p className="mt-8 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700">
+        <p className="mt-8 rounded-lg border border-dashed border-zinc-300 p-6 text-center text-sm text-zinc-500 dark:border-zinc-700 dark:text-zinc-400">
           Aucun événement à venir en {region} pour le moment.
         </p>
       ) : (

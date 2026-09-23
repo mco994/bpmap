@@ -157,9 +157,12 @@ async function raResolveAreas() {
   }
 }
 
+const RA_REGION_AREAS = /^(Central|East|West|North|South|North ?East|North ?West|South ?East|South ?West|French Riviera|French West Indies|Other)$/i;
+
 function raCity(venue) {
   const fromAddress = (venue?.address ?? "").match(/\d{5}\s+([^,\d]+)/);
-  return fromAddress?.[1]?.trim() || venue?.area?.name || null;
+  const area = venue?.area?.name ?? null;
+  return fromAddress?.[1]?.trim() || (area && !RA_REGION_AREAS.test(area) ? area : null);
 }
 
 function raEndDate(start, endTime) {
@@ -539,6 +542,7 @@ const raw = [
 
 const byKey = new Map();
 for (const c of raw) {
+  if (typeof c.name !== "string" || c.name.trim() === "") continue;
   const slug = slugify(c.name);
   if (known.has(slug)) continue;
   const text = `${c.name} ${c.description ?? ""}`;

@@ -66,6 +66,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
   return (
     <>
       <Pressable
+        accessibilityRole="button"
         onPress={() => setVisible(true)}
         style={[styles.action, { backgroundColor: theme.backgroundElement }]}
       >
@@ -101,6 +102,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
                 <TextInput
                   value={address}
                   onChangeText={onChangeAddress}
+                  accessibilityLabel="Adresse de départ"
                   placeholder="Adresse de départ"
                   placeholderTextColor={theme.textSecondary}
                   returnKeyType="go"

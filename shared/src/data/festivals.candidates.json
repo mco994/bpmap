@@ -491,7 +491,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "festival-nancy-jazz-pulsations-edition-2026",
@@ -510,7 +510,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "concert-z-f",
@@ -741,6 +741,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "ultramoule-primitif-s-undae-tropic",
+    "name": "Ultramoule + Primitif(s) + Undae Tropic",
+    "city": "Saint-Laurent-en-Royans",
+    "region": null,
+    "description": "Rap punk, orchestre électro-mécanique et machines. Évènement en partenariat avec la 5ème saison.\r\nBuvette et petite restauration sur place.",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-16",
+    "lat": 45.030326,
+    "lng": 5.324248,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/2a09ba0f-c5b2-31fa-b7d3-475579ee3b29"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "concert-zentone-amiby",
     "name": "Concert : ZENTONE + Amiby",
     "city": "Romans-sur-Isère",
@@ -909,7 +928,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "hofesh-shechter",
@@ -1118,7 +1137,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "concert-electro-lab-6",
@@ -1251,7 +1270,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "animation-soiree-bloomoon-val-dj-set-sur-le-rooftop-du-gaee",
@@ -1271,6 +1290,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "concert-techno-tard-et-bal-paien",
+    "name": "Concert : techno-tard et bal païen",
+    "city": "Veuil",
+    "region": null,
+    "description": "La Cigüe, 1e partie 20h30 Copène.",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 47.1208369,
+    "lng": 1.525765,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/0663a22f-43f4-3438-b537-bdb94d237d4a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "hilight-tribe-louv-nirmata",
@@ -1596,6 +1634,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "horace-andy-et-dub-asante-band-ft-matic-horns",
+    "name": "Horace Andy et Dub Asante Band Ft. Matic Horns",
+    "city": "Limoges",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-04",
+    "lat": 45.8225148,
+    "lng": 1.2859474,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/5bdec18b-2df2-3060-966d-87c91eaca32f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-dub-inc",
     "name": "Concert - Dub Inc",
     "city": "Seignosse",
@@ -1639,21 +1696,19 @@
     "slug": "rave-lucid",
     "name": "Rave Lucid",
     "city": "Saint-Pierre-du-Mont",
-    "region": "Bretagne",
-    "description": "Révélée à la cérémonie d’ouverture des Jeux Olympiques de Paris, la compagnie Mazelfreten électrise la scène avec ce spectacle de danse électro. Une chorégraphie magnétique qui surprend et captive.",
+    "region": null,
+    "description": "",
     "startDate": "2027-04-29",
     "endDate": "2027-04-29",
     "lat": 43.8818198,
     "lng": -0.5192546,
-    "officialUrl": "https://openagenda.com/saison-culturelle-2026-2027-de-la-ville-de-cesson-sevigne/events/rave-lucid-1199547",
+    "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/23/6dd74603-57ab-3de2-8876-9522a6240d8a",
-      "https://openagenda.com/saison-culturelle-2026-2027-de-la-ville-de-cesson-sevigne/events/rave-lucid-1199547"
+      "https://data.datatourisme.fr/23/6dd74603-57ab-3de2-8876-9522a6240d8a"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
@@ -1999,7 +2054,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "mentissa",
@@ -2056,7 +2111,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "winter-groove-electro-deluxe-vaudou-game",
@@ -2113,26 +2168,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "disco",
-    "name": "Disco",
-    "city": "Roubaix",
-    "region": null,
-    "description": "Retour dans les années 70 avec un spectacle qui vous fera revivre les grands succès du disco français et international : Boney M, ABBA, Claude François, Earth wind and Fire, Mickaël Jackson, Donna Summer…",
-    "startDate": "2026-09-22",
-    "endDate": "2026-09-22",
-    "lat": 50.692166,
-    "lng": 3.170431,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/b6fce131-a4ba-3bac-83a8-5daf301df573"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "winter-groove-l-ultrabal",
@@ -2493,7 +2529,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "concert-doya-luna-bohemia",
@@ -3448,7 +3484,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "elektric-park-festival",
@@ -3480,44 +3516,12 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "isulia-festival-2026",
-    "name": "Isulia Festival 2026",
-    "city": "Bordeaux",
-    "region": null,
-    "startDate": "2026-11-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2527089",
-    "lineup": [
-      "abs8lute",
-      "Audrey Danza",
-      "Belaria",
-      "Zaatar",
-      "Mel (FR)",
-      "Djedjotronic",
-      "Egna",
-      "Lea Occhi",
-      "Maara",
-      "Nastia",
-      "Octave One",
-      "piaconcept",
-      "Pureblast"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2527089"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "moga-essaouira-2026",
     "name": "Moga Essaouira 2026",
-    "city": "Central",
+    "city": null,
     "region": null,
     "startDate": "2026-10-02",
     "endDate": "2026-10-04",
@@ -3574,7 +3578,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "localisation manquante"
   },
   {
     "slug": "positive-education-2026",
@@ -3729,7 +3733,7 @@
   {
     "slug": "the-holy-rave-36-metz",
     "name": "The Holy Rave #36 - Metz",
-    "city": "East",
+    "city": null,
     "region": null,
     "startDate": "2026-11-10",
     "endDate": null,
@@ -3750,7 +3754,7 @@
   {
     "slug": "eyeland-festival-guadeloupe",
     "name": "Eyeland Festival_Guadeloupe",
-    "city": "French West Indies",
+    "city": null,
     "region": null,
     "startDate": "2026-12-04",
     "endDate": null,
@@ -3763,50 +3767,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "festival-69bpm",
-    "name": "FESTIVAL 69BPM",
-    "city": "Lyon",
-    "region": null,
-    "startDate": "2026-09-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2533231",
-    "lineup": [
-      "Hyas",
-      "Saku Sahara"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2533231"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "open-air-flower-nation-by-dusty-nation-la-butinerie",
-    "name": "Open Air: Flower Nation By Dusty Nation & La Butinerie",
-    "city": "Lyon",
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2534939",
-    "lineup": [
-      "Tatie Dee",
-      "Saint Louïs"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2534939",
-      "https://ra.co/events/2523009"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "localisation manquante"
   },
   {
     "slug": "le-sucre-24-heures",
@@ -3839,6 +3800,24 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "sarab-x-hypercontent-festival-un-doua-de-jazz-33e-edition",
+    "name": "SARĀB x HYPERCONTENT! – Festival Un Doua de Jazz – 33e édition",
+    "city": "Lyon",
+    "region": null,
+    "startDate": "2026-10-07",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2543071",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2543071"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "23-59-weekender-2026",
     "name": "23:59 - WEEKENDER 2026",
     "city": "Vaulx En Velin",
@@ -3853,8 +3832,11 @@
       "Carla Schmitt",
       "DBBD",
       "DNNS",
+      "Axymt.",
       "Blasha & Allatt",
-      "Tau Ceti",
+      "Tauceti (FR)",
+      "Chami",
+      "OPH",
       "EARGASM GOD",
       "Glaskeen",
       "GRAVEDGR",
@@ -3926,26 +3908,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "lons-electronic-festival",
-    "name": "Lons Electronic Festival",
-    "city": "Montmorot",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2408373",
-    "lineup": [
-      "Gabry Ponte"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2408373"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
     "slug": "haunted-mansion-3",
     "name": "Haunted Mansion 3",
     "city": "Lyon",
@@ -3969,24 +3931,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "s-festival-2026",
-    "name": "S festival 2026",
-    "city": "Lyon",
-    "region": null,
-    "startDate": "2026-12-09",
-    "endDate": "2026-12-13",
-    "officialUrl": "https://ra.co/events/2538769",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2538769"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
   },
   {
     "slug": "face-2-face-adrian-mills-anl-lyon",
@@ -4073,117 +4017,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "bazar-bozar-festival-2nd-edition",
-    "name": "Bazar Bozar Festival 2nd Edition",
-    "city": "Marseille",
-    "region": null,
-    "startDate": "2026-10-09",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2516502",
-    "lineup": [
-      "Alich (1)",
-      "Bobby.",
-      "Gene On Earth",
-      "Katia Curie",
-      "Liquid Earth",
-      "One Tough Cookie",
-      "Onur Özer",
-      "oror",
-      "Rhadoo",
-      "Cabanne"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2516502"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "cloture-actoral-festival-petit-cab",
-    "name": "Clôture Actoral Festival @ Petit Cab",
-    "city": "MARSEILLE",
-    "region": null,
-    "startDate": "2026-10-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2522625",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2522625"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "hors-sol-open-air-marseille",
-    "name": "HORS-SOL [open-air] — Marseille",
-    "city": "Marseille",
-    "region": null,
-    "startDate": "2026-10-17",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2496054",
-    "lineup": [
-      "Domi (FR)",
-      "Cristobal",
-      "Jolly (FR)",
-      "Forest",
-      "Lumbago"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2496054"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "dreamachine-festival",
-    "name": "Dreamachine Festival",
-    "city": "Marseille",
-    "region": null,
-    "startDate": "2026-11-12",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2531187",
-    "lineup": [
-      "Vanda Forte",
-      "keiyaA",
-      "Le Kaiju"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2531187"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "dreamachine-festival-petit-cab",
-    "name": "Dreamachine Festival @ Petit Cab",
-    "city": "MARSEILLE",
-    "region": null,
-    "startDate": "2026-11-21",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2522670",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2522670"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
     "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
     "name": "NANTES RAVE TECHNO XXL with NOVAH, MATRAKK, Maudux, DJ Caline, Mosmoz",
     "city": "Nantes",
@@ -4251,7 +4084,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "skybar-rooftop-party",
@@ -4400,24 +4233,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "open-air-noon-to-midnight-6",
-    "name": "Open Air: Noon To Midnight #6",
-    "city": "Paris",
-    "region": null,
-    "startDate": "2026-09-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2537931",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2537931"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
     "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
     "name": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
     "city": "Paris",
@@ -4544,24 +4359,29 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "imagine-family-o-bee-all-day-long-open-air",
-    "name": "imagine FAMILY: O.BEE ALL DAY LONG [OPEN AIR]",
+    "slug": "road-to-the-90-s-aldonna-known-artist-pentagon-more",
+    "name": "Road To The 90'S: Aldonna, Known Artist, Pentagon & More",
     "city": "Paris",
     "region": null,
     "startDate": "2026-10-03",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2532246",
+    "officialUrl": "https://ra.co/events/2543577",
     "lineup": [
-      "O.BEE"
+      "Aldonna",
+      "Known Artist",
+      "Donna Gibson",
+      "Black Truffle",
+      "Aï Smash",
+      "Main Lourde"
     ],
     "genreVerified": true,
     "isFestival": false,
     "sources": [
-      "https://ra.co/events/2532246"
+      "https://ra.co/events/2543577"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
@@ -4612,75 +4432,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "maintenant-festival-2026",
-    "name": "Maintenant Festival 2026",
-    "city": "Rennes",
-    "region": null,
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-11",
-    "officialUrl": "https://ra.co/events/2493193",
-    "lineup": [
-      "Antilogic",
-      "Blood of Aza",
-      "CWTCH",
-      "Katarina Gryvul",
-      "Natasha Pirard",
-      "Oonagh Haines",
-      "s8jfou"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2493193"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "festival-one-life-infinity-edition-2026",
-    "name": "Festival One Life Infinity # Édition 2026",
-    "city": "Rennes",
-    "region": null,
-    "startDate": "2026-10-17",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2477803",
-    "lineup": [
-      "Britney Speed (FR)",
-      "Dj Schnake",
-      "EVN",
-      "Fury (FR)",
-      "Majes",
-      "Neko"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2477803"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "demain-bellegarde-free-open-air-by-subkultur",
-    "name": "Demain Bellegarde / Free Open Air by Subkultur",
-    "city": "Toulouse",
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2504794",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2504794"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
     "slug": "closing-rooftop-2026-roni-blum-house",
     "name": "Closing Rooftop 2026: RONI + Blum House",
     "city": "BALMA",
@@ -4703,7 +4454,7 @@
   {
     "slug": "sarlat-open-air-4",
     "name": "SARLAT OPEN AIR 4#",
-    "city": "South West",
+    "city": null,
     "region": null,
     "startDate": "2026-09-27",
     "endDate": null,
@@ -4720,30 +4471,12 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
-  },
-  {
-    "slug": "michoun-open-festival",
-    "name": "Michoun Open Festival",
-    "city": "Toulouse",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-03",
-    "officialUrl": "https://ra.co/events/2475326",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2475326"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "localisation manquante"
   },
   {
     "slug": "bordeaux-open-air-parc-de-bourran",
     "name": "Bordeaux Open Air - Parc de Bourran",
-    "city": "South West",
+    "city": null,
     "region": null,
     "startDate": "2026-10-04",
     "endDate": null,
@@ -4759,7 +4492,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources ni site officiel confirmé)"
+    "_reason": "localisation manquante"
   },
   {
     "slug": "open-rave-toulouse-organik-machines-vivantes",
@@ -4878,28 +4611,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "discotaco-disco-paillettes-tacos-partout",
-    "name": "Discotaco : disco, paillettes & tacos partout !",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-02",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a7c39632b6a0600015adef4",
-    "lineup": [],
-    "source": "dice",
-    "eventType": "soiree",
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a7c39632b6a0600015adef4"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "pont-neuf-10-years-in-house-we-trust",
     "name": "PONT NEUF 10 YEARS - IN HOUSE WE TRUST",
     "city": "Bordeaux",
@@ -4942,5 +4653,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "grandmas-house-nobody-s-fault",
+    "name": "GRANDMAS HOUSE + NOBODY'S FAULT",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-29",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6a18a0de3af9270001144e09",
+    "lineup": [],
+    "source": "dice",
+    "eventType": "soiree",
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6a18a0de3af9270001144e09"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   }
 ]

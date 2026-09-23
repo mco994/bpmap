@@ -19,7 +19,7 @@ function headerSafe(value: string): string {
 }
 
 export async function POST(request: Request) {
-  const limited = await enforceRateLimit("api-signaler", request);
+  const limited = await enforceRateLimit("api-signaler", request, { failClosed: true });
   if (limited) return limited;
 
   let body: unknown;
