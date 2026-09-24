@@ -589,6 +589,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "la-p-tite-fumee-m-o-k-o",
+    "name": "LA P'TITE FUMÉE + M.O.K.O",
+    "city": "Meisenthal",
+    "region": null,
+    "description": "La P’tite Fumée signe son grand retour avec une nouvelle tournée explosive. Un live repensé, plus puissant et immersif que jamais, où leur électro instrumentale prend une toute autre dimension. \nRendez-vous dans la Boîte Noire de la Halle Verrière de Meisenthal !",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "lat": 48.964757,
+    "lng": 7.352679,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/e63ff5c0-059a-3de9-8208-69ff242f4709"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "spectacle-dub-amala-dianor",
     "name": "Spectacle - DUB, Amala Dianor",
     "city": "Metz",
@@ -931,6 +950,25 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
+    "slug": "danse-vertige",
+    "name": "Danse \"Vertige\"",
+    "city": "Ruffec",
+    "region": null,
+    "description": "Vertige transcende les frontières de la danse contemporaine et du cirque. Les mouvements fluides de la roue Cyr se mêlent à l’énergie percussive de l’électro, créant une symbiose inattendue, audacieuse et moderne.",
+    "startDate": "2026-12-17",
+    "endDate": "2026-12-17",
+    "lat": 46.030033,
+    "lng": 0.199845,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/7e800335-87de-3361-a4ad-d530848b9b52"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "hofesh-shechter",
     "name": "Hofesh Shechter",
     "city": "Saint-Michel-sur-Orge",
@@ -943,6 +981,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/87ef5eaa-7091-3f07-b80a-4dbda41d0174"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "fete-patronale-concert-avec-les-peaky-groovers",
+    "name": "Fête Patronale - Concert avec Les Peaky Groovers",
+    "city": "Saint-Maurice-de-Lignon",
+    "region": null,
+    "description": "20h à 21h30 : Concert avec un duo de saxo et percussions qui joue des hits électro et des ambiances festives.",
+    "startDate": "2026-09-25",
+    "endDate": "2026-09-25",
+    "lat": 45.223452,
+    "lng": 4.138706,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/89f34efc-0491-3015-8d95-2a15cf3af5db"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1273,23 +1330,23 @@
     "_reason": "genre électro non confirmé"
   },
   {
-    "slug": "animation-soiree-bloomoon-val-dj-set-sur-le-rooftop-du-gaee",
-    "name": "Animation - Soirée Bloomoon - Val DJ Set sur le rooftop du GAÉE",
-    "city": "La Rochelle",
+    "slug": "bon-soir-halloween-party-bon-soir-dj-crew",
+    "name": "Bon.Soir Halloween Party / Bon.Soir DJ Crew",
+    "city": "Valence",
     "region": null,
-    "description": "BLOOMOON revient au GAÉE le 23 septembre ! VAL DJ SET, House & Groove, bière locale La Beun’aise, cocktails et planches à partager : profitez d’une dernière parenthèse estivale face au Vieux-Port de La Rochelle.",
-    "startDate": "2026-09-23",
-    "endDate": "2026-09-23",
-    "lat": 46.153568,
-    "lng": -1.14958,
+    "description": "BON.SOIR HALOWEEN PARTY — Techno/Trance\r\nCette nuit, le dancefloor appartient aux créatures de la nuit. Pour cette édition spéciale Halloween, attendez-vous à une atmosphère sombre, intense et mystique.\r\nVenez comme vous êtes… ou comme votre pire cauchemar.",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 44.928898,
+    "lng": 4.891791,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/13/ee357222-b12a-394d-bacd-c46a9afb2231"
+      "https://data.datatourisme.fr/13/f24048a7-11c0-383e-a8de-ac3dee18b034"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-techno-tard-et-bal-paien",
@@ -2171,6 +2228,25 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
+    "slug": "roots-rock-roubaix-2-avec-soul-iration",
+    "name": "Roots Rock Roubaix #2 avec Soul Iration",
+    "city": "Roubaix",
+    "region": null,
+    "description": "Le samedi 10 octobre 2026, La Condition Publique de Roubaix accueillera une soirée qui s’annonce déjà comme l’un des rendez-vous majeurs de la scène roots et dub en France.  \nÀ une époque où la culture sound system connaît un véritable regain d’intérêt, Roots Rock Roubaix choisit de revenir à l’essentiel : une sono artisanale, des basses profondes, des artistes authentiques et une communion autour de la musique.\n\nPour porter cette expérience, Soul Iration a fait appel à Firmly Rooted Soundsystem, collectif britannique reconnu pour la qualité de son système et son attachement aux valeurs fondatrices de la culture sound system. Plus qu’une simple diffusion sonore, chaque session de Firmly Rooted est pensée comme une immersion totale, où chaque fréquence trouve sa place et où les basses deviennent un langage à part entière.  \nEn tête d’affiche, une figure incontournable de la scène internationale : Aba Shanti-I. Véritable légende vivante, il viendra délivrer un set exceptionnel de quatre heures, fidèle à sa réputation. Depuis plus de trois décennies, ses sélections, ses dubplates exclusives et son approche profondément spirituelle ont fait de chacune de ses apparitions un événement. Rare sur le continent, chacune de ses venues est attendue par les amateurs de dub du monde entier.\n\nLa soirée accueillera également Martin Campbell, l’une des voix emblématiques du reggae britannique. Auteur de morceaux devenus des classiques du UK Roots, il interprétera ses titres accompagné par la puissance du sound system, dans une configuration qui rappelle les grandes heures des sessions londoniennes.\n\nPour ouvrir les festivités, Soul Iration prendra les commandes avec une sélection construite autour des fondations du reggae, du rocksteady, du roots et du dub et sera accompagné du chanteur S’kaya qui est étroitement lié à l’histoire de Soul Iration.  \nDans un lieu aussi singulier que La Condition Publique, ancienne friche industrielle devenue espace culturel, tous les ingrédients semblent réunis pour offrir une expérience fidèle à l’esprit originel de cette culture née en Jamaïque et développée au Royaume-Uni : un système de son pensé comme un instrument, des sélections exigeantes, des artistes engagés et un public réuni autour d’une même vibration.\n\nPlus qu’un concert, Roots Rock Roubaix revendique l’héritage de la sound system culture dans ce qu’elle a de plus authentique : une célébration du partage, de la musique et des basses.\n\nLe 10 octobre, Roubaix vibrera au rythme du roots et du dub.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 50.691099,
+    "lng": 3.18927,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/c0494a6f-7538-3adc-aa38-204694034ddc"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "winter-groove-l-ultrabal",
     "name": "Winter Groove - L’Ultrabal",
     "city": "Abbeville",
@@ -2380,6 +2456,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "festival-aerolive-abera-et-maivoor",
+    "name": "Festival Aérolive : Abera et Maivoor",
+    "city": "Caen",
+    "region": null,
+    "description": "Le Festival Aérolive sera à l'université avec les artistes normands Maivoor (electro) et Abera (rap) pour la dernière de la saison !",
+    "startDate": "2026-09-24",
+    "endDate": "2026-09-24",
+    "lat": 49.1917078,
+    "lng": -0.3638655,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/7fffcc00-4905-3a66-aa76-a14d50975724"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
     "slug": "after-show-concert-de-rougir",
     "name": "After Show : concert de Rougir",
     "city": "Caen",
@@ -2570,6 +2665,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "syl-says-rap-electro",
+    "name": "Syl Says - Rap électro",
+    "city": "Augan",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 47.9202862,
+    "lng": -2.2800464,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/4e2a7e05-7a6b-368d-b11d-3659b229d6fd"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-disco-80-s",
     "name": "Soirée disco 80's",
     "city": "Saint-Cast-le-Guildo",
@@ -2606,25 +2720,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "amala-dianor-dub",
-    "name": "Amala Dianor - DUB",
-    "city": "Brest",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-22",
-    "endDate": "2026-09-23",
-    "lat": 48.3888219,
-    "lng": -4.4847101,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/f1ecdb38-36d3-361f-a0d5-ea020d5d0151"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "nuit-electro-cosmic-edition",
@@ -2664,6 +2759,25 @@
     "status": "announced",
     "needsReview": true,
     "isFestival": false,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "electro-symphony-orchestra-dance-party",
+    "name": "ELECTRO SYMPHONY - ORCHESTRA DANCE PARTY",
+    "city": "Narbonne",
+    "region": null,
+    "description": "",
+    "startDate": "2027-04-22",
+    "endDate": "2027-04-22",
+    "lat": 43.1806259,
+    "lng": 3.0233349,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/41/b687ff4d-6ac7-3740-99e5-03cd0cbce113"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
@@ -3298,6 +3412,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "talisco-gami",
+    "name": "Talisco + Gami",
+    "city": "Istres",
+    "region": null,
+    "description": "D’abord porté par une électro-pop efficace et largement diffusée, l’artiste aux origines hispano-bordelaises a construit un parcours solide entre disques et scène depuis 2010.",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-02",
+    "lat": 43.491639,
+    "lng": 4.96949,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/dba7df8f-043e-39dc-a2af-3008ebdb2fde"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "la-responsabilite-des-reves",
     "name": "La responsabilité des rêves",
     "city": "Aix-en-Provence",
@@ -3355,25 +3488,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "silent-disco",
-    "name": "Silent Disco",
-    "city": "Auxerre",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-24",
-    "endDate": "2026-09-24",
-    "lat": 47.7973595,
-    "lng": 3.5659504,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/cbb4640e-1fc7-3810-abb2-6507cfbc6db6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "live-dub-session-full-dub-bass-trooperz-amhka-dub",
     "name": "[Live dub session] full dub + bass trooperz + amhka dub",
     "city": "Chalon-sur-Saône",
@@ -3411,6 +3525,7 @@
     "status": "announced",
     "needsReview": true,
     "isFestival": false,
+    "address": "Warehouse, 21 quai des Antilles 44200 Nantes",
     "lineup": [
       "Vladimir Cauchemar",
       "Shanixx",
@@ -3522,6 +3637,7 @@
     "slug": "moga-essaouira-2026",
     "name": "Moga Essaouira 2026",
     "city": null,
+    "address": null,
     "region": null,
     "startDate": "2026-10-02",
     "endDate": "2026-10-04",
@@ -3584,6 +3700,7 @@
     "slug": "positive-education-2026",
     "name": "Positive Education 2026",
     "city": "Saint Etienne",
+    "address": "Cité du Design Saint Etienne, 3 rue javelin Pagnon 42000 Saint Etienne",
     "region": null,
     "startDate": "2026-11-06",
     "endDate": null,
@@ -3648,6 +3765,7 @@
     "slug": "stitch-n-bitch-musica-festival-yard-sarc-zoe-mc-pherson-lullahush-a-a-r-d-e-n-t-ellll",
     "name": "Stitch'n' Bitch - MUSICA FESTIVAL [YARD, SARC, Zoë Mc Pherson, Lullahush, a~a~r~d~e~n~t, ELLLL]",
     "city": "Strasbourg",
+    "address": "Karmen Camina, 4 cour des Cigarières 67000 Strasbourg",
     "region": null,
     "startDate": "2026-09-25",
     "endDate": null,
@@ -3669,6 +3787,7 @@
     "slug": "kc-zenker-brothers-itaho-pacome-orzi-euromax-dj-jeanneto",
     "name": "KC [Zenker Brothers • Itaho & Pacôme Orzi • EUROMAX DJ • JeanneTo]",
     "city": "Strasbourg",
+    "address": "Karmen Camina, 4 cour des Cigarières 67000 Strasbourg",
     "region": null,
     "startDate": "2026-09-26",
     "endDate": null,
@@ -3694,6 +3813,7 @@
     "slug": "park-n-sound-closing-2026-open-air-gratuit",
     "name": "Park'n'Sound Closing 2026 — Open Air gratuit",
     "city": "Strasbourg",
+    "address": null,
     "region": null,
     "startDate": "2026-09-26",
     "endDate": null,
@@ -3712,6 +3832,7 @@
     "slug": "the-holy-rave-34-besancon",
     "name": "The Holy Rave #34 - Besançon",
     "city": "Chalezeule",
+    "address": "Teasing Club, 2A Rue du Gay, 25220 Chalezeule, France",
     "region": null,
     "startDate": "2026-10-30",
     "endDate": null,
@@ -3734,6 +3855,7 @@
     "slug": "the-holy-rave-36-metz",
     "name": "The Holy Rave #36 - Metz",
     "city": null,
+    "address": "La Douche Froide Metz, 11 rue des Augustins - Metz",
     "region": null,
     "startDate": "2026-11-10",
     "endDate": null,
@@ -3755,6 +3877,7 @@
     "slug": "eyeland-festival-guadeloupe",
     "name": "Eyeland Festival_Guadeloupe",
     "city": null,
+    "address": "Zion Park Guadeloupe, 2 route de pliane, Le gosier, Guadeloupe",
     "region": null,
     "startDate": "2026-12-04",
     "endDate": null,
@@ -3770,9 +3893,40 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "super-7-slow-opening-jeudi-a-dimanche",
+    "name": "Super 7 : slow opening — jeudi à dimanche ",
+    "city": "Lyon",
+    "address": "Super7, 40 rue Saint-Jérôme 69007 Lyon",
+    "region": null,
+    "startDate": "2026-09-24",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2542811",
+    "lineup": [
+      "Axymt.",
+      "Farah (2)",
+      "Mouataz",
+      "IMA:R",
+      "ISA",
+      "Pablo Valentino",
+      "P errine",
+      "S.D.S",
+      "Tauceti (FR)",
+      "Waxist"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2542811"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "le-sucre-24-heures",
     "name": "Le Sucre, 24 heures",
     "city": "Lyon",
+    "address": "Le Sucre, 50 quai Rambaud, 69002 Lyon, France",
     "region": null,
     "startDate": "2026-09-26",
     "endDate": null,
@@ -3803,6 +3957,7 @@
     "slug": "sarab-x-hypercontent-festival-un-doua-de-jazz-33e-edition",
     "name": "SARĀB x HYPERCONTENT! – Festival Un Doua de Jazz – 33e édition",
     "city": "Lyon",
+    "address": "Toï Toï, Le Zinc, 17 - 19, rue Marcel Dutartre 69 100 Villeurbanne",
     "region": null,
     "startDate": "2026-10-07",
     "endDate": null,
@@ -3821,6 +3976,7 @@
     "slug": "23-59-weekender-2026",
     "name": "23:59 - WEEKENDER 2026",
     "city": "Vaulx En Velin",
+    "address": "Plage Privée Parc de Miribel, Allée du Morlet, 69120 Vaulx En Velin",
     "region": null,
     "startDate": "2026-10-10",
     "endDate": "2026-10-11",
@@ -3866,6 +4022,7 @@
     "slug": "open-air-techno-360-hidden-garden-x-sphere-villeurbanne",
     "name": "OPEN AIR TECHNO 360° - HIDDEN GARDEN x SPHERE - VILLEURBANNE",
     "city": "Lyon",
+    "address": null,
     "region": null,
     "startDate": "2026-10-10",
     "endDate": null,
@@ -3886,6 +4043,7 @@
     "slug": "encore-x-23-59-line-up-xxl",
     "name": "ENCORE x 23:59 - LINE-UP XXL",
     "city": "Lyon cedex O",
+    "address": "Halle Tony Garnier, 20 pl. Charles et Christophe Mérieux 69363 Lyon cedex O7",
     "region": null,
     "startDate": "2026-10-24",
     "endDate": null,
@@ -3911,6 +4069,7 @@
     "slug": "haunted-mansion-3",
     "name": "Haunted Mansion 3",
     "city": "Lyon",
+    "address": null,
     "region": null,
     "startDate": "2026-10-31",
     "endDate": null,
@@ -3936,6 +4095,7 @@
     "slug": "face-2-face-adrian-mills-anl-lyon",
     "name": "FACE 2 FACE: ADRIÁN MILLS ANL LYON",
     "city": "Lyon cedex O",
+    "address": "Halle Tony Garnier, 20 pl. Charles et Christophe Mérieux 69363 Lyon cedex O7",
     "region": null,
     "startDate": "2026-12-11",
     "endDate": null,
@@ -3961,6 +4121,7 @@
     "slug": "utopia-festival-tome-vi",
     "name": "UTOPIA FESTIVAL - TOME VI",
     "city": "Marseille",
+    "address": "Cabaret  Aléatoire, 41 Rue Jobin, 13003, Marseille",
     "region": null,
     "startDate": "2026-09-25",
     "endDate": null,
@@ -4000,6 +4161,7 @@
     "slug": "u-22-x-dreamachine-festival-dmra-live-madge-sarra-wild",
     "name": "U.22 X Dreamachine Festival: Dmra (Live), Madge, Sarra Wild",
     "city": "Marseille",
+    "address": "Unité.22, 22 rue jobin, 13003 Marseille",
     "region": null,
     "startDate": "2026-09-25",
     "endDate": null,
@@ -4017,9 +4179,48 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "cloture-actoral-festival-petit-cab",
+    "name": "Clôture Actoral Festival @ Petit Cab",
+    "city": "MARSEILLE",
+    "address": "Petit CAB, 41 rue Jobin, 13003 MARSEILLE",
+    "region": null,
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522625",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2522625"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "dreamachine-festival-petit-cab",
+    "name": "Dreamachine Festival @ Petit Cab",
+    "city": "MARSEILLE",
+    "address": "Petit CAB, 41 rue Jobin, 13003 MARSEILLE",
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2522670",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2522670"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
     "name": "NANTES RAVE TECHNO XXL with NOVAH, MATRAKK, Maudux, DJ Caline, Mosmoz",
     "city": "Nantes",
+    "address": "Warehouse, 21 quai des Antilles 44200 Nantes",
     "region": null,
     "startDate": "2026-10-09",
     "endDate": null,
@@ -4043,6 +4244,7 @@
     "slug": "gloria-100eme-edition-etapp-kyle-cromby-budino-louison-b2b-combe-akira-b2b-basic-chanel",
     "name": "GLORIA - 100ème édition ·Etapp Kyle~Cromby~Budino ~ Louison B2B Combe ~ Akira B2B Basic Chanel ",
     "city": "Nantes",
+    "address": "Macadam, 17 rue Jules Launey 44100 Nantes",
     "region": null,
     "startDate": "2026-10-18",
     "endDate": null,
@@ -4070,15 +4272,15 @@
     "slug": "saazbuzz-jazz-festival",
     "name": "SaazBuzz Jazz Festival",
     "city": "Paris",
+    "address": "New Morning, 9 rue des Petites Ecuries 75010 Paris",
     "region": null,
-    "startDate": "2026-09-23",
+    "startDate": "2026-09-24",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2513280",
+    "officialUrl": "https://ra.co/events/2513292",
     "lineup": [],
     "genreVerified": true,
     "isFestival": true,
     "sources": [
-      "https://ra.co/events/2513280",
       "https://ra.co/events/2513292",
       "https://ra.co/events/2513303"
     ],
@@ -4087,27 +4289,10 @@
     "_reason": "genre électro non confirmé"
   },
   {
-    "slug": "skybar-rooftop-party",
-    "name": "Skybar Rooftop Party",
-    "city": "Paris",
-    "region": null,
-    "startDate": "2026-09-23",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2541994",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2541994"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "trocadero-summer-club-closing-open-air-party",
     "name": "Trocadero Summer Club Closing — open air party",
     "city": "Paris",
+    "address": "Casa Trocadero, 5 Av. Albert de Mun, 75016 Paris",
     "region": null,
     "startDate": "2026-09-24",
     "endDate": null,
@@ -4126,6 +4311,7 @@
     "slug": "edging-tickets-en-vente-sur-place-complet-en-preventes",
     "name": "EDGING (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
     "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
     "region": null,
     "startDate": "2026-09-26",
     "endDate": null,
@@ -4154,6 +4340,7 @@
     "slug": "pisitrance-open-air-w-athzira-faders-talamasca-more",
     "name": "Pisitrance Open Air W/ Athzira, Faders, Talamasca & More",
     "city": "Paris",
+    "address": null,
     "region": null,
     "startDate": "2026-09-26",
     "endDate": null,
@@ -4172,6 +4359,7 @@
     "slug": "after-o-clock-x-la-plage-open-air-terminal-trax-lymsa-deleter",
     "name": "After O'Clock X La Plage Open Air: Terminal Trax, Lymsa, Deleter",
     "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
     "region": null,
     "startDate": "2026-09-26",
     "endDate": null,
@@ -4192,6 +4380,7 @@
     "slug": "open-herbe-14h-rooftop-party",
     "name": "OPEN HERBE - 14H ROOFTOP PARTY",
     "city": "Paris",
+    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
     "region": null,
     "startDate": "2026-09-26",
     "endDate": null,
@@ -4214,6 +4403,7 @@
     "slug": "after-o-clock-x-la-plage-open-air-x-timit",
     "name": "After O'clock X La Plage Open Air X TIMIT",
     "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
     "region": null,
     "startDate": "2026-09-27",
     "endDate": null,
@@ -4233,9 +4423,36 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "oui-hours-presente-lefblom-carte-blanche",
+    "name": "Oui Hours Présente: Lefblom Carte Blanche",
+    "city": "Paris",
+    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
+    "region": null,
+    "startDate": "2026-09-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2544125",
+    "lineup": [
+      "Lefblom",
+      "Aurèle",
+      "Ian Maur",
+      "Lüma-G",
+      "Marli",
+      "Scarlet"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2544125"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
     "name": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
     "city": "Paris",
+    "address": "Mia Mao, 12a rue Ella Fitzgerald, 75019, Paris, FRANCE",
     "region": null,
     "startDate": "2026-10-02",
     "endDate": null,
@@ -4261,6 +4478,7 @@
     "slug": "babecore-launch-showcase-jerk-off-after-party",
     "name": "BabeCore Launch Showcase (Jerk Off After Party)",
     "city": "Paris",
+    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
     "region": null,
     "startDate": "2026-10-02",
     "endDate": null,
@@ -4288,6 +4506,7 @@
     "slug": "goddess-rave-urumi-a5km-esilise-pauline-d7-noiza",
     "name": "GODDESS RAVE: Urumi, A5KM, Esilise, PAULINE D7 & NOIZA",
     "city": "Paris",
+    "address": "Kilomètre25, 8 Boulevard MacDonald 75019 Paris",
     "region": null,
     "startDate": "2026-10-02",
     "endDate": null,
@@ -4307,9 +4526,32 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "ribella-rave-society-rooftop-party",
+    "name": "Ribella Rave Society - Rooftop Party",
+    "city": "Paris",
+    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2544126",
+    "lineup": [
+      "Disco Paese",
+      "Seabra"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2544126"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "temet-x-fata-morgana-tickets-en-vente-sur-place-complet-en-preventes",
     "name": "TEMET X FATA MORGANA (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
     "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
     "region": null,
     "startDate": "2026-10-03",
     "endDate": null,
@@ -4337,6 +4579,7 @@
     "slug": "tete-vide-a-bal-chavaux-ma-sha-aloka-acide-plastique-b2b-b3bz-xea-b2b-hyperlison",
     "name": "TETE VIDE à Bal Chavaux: Ma Sha, Aloka, Acide Plastique b2b b3bz, Xea b2b Hyperlison",
     "city": "Montreuil",
+    "address": "Bal Chavaux, 1 Av. de la Résistance, 93100 Montreuil",
     "region": null,
     "startDate": "2026-10-03",
     "endDate": null,
@@ -4362,6 +4605,7 @@
     "slug": "road-to-the-90-s-aldonna-known-artist-pentagon-more",
     "name": "Road To The 90'S: Aldonna, Known Artist, Pentagon & More",
     "city": "Paris",
+    "address": "La Rotonde Stalingrad, 6-8 Place de la Bataille de Stalingrad - 75019 Paris",
     "region": null,
     "startDate": "2026-10-03",
     "endDate": null,
@@ -4384,57 +4628,33 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
-    "name": "CHEVRY AGENCY: 8TH ANNIVERSARY [XXL FORMAT · 4 STAGES]",
+    "slug": "inka-open-air-catsinka-bigstate-ben-rodd-isaac-poussin-jaes",
+    "name": "INKA Open Air: Catsinka, Bigstate, Ben Rodd, Isaac, Poussin, JaeS",
     "city": "Paris",
+    "address": "Paname sur Seine, 1 Port de Bercy, 75012 Paris",
     "region": null,
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "officialUrl": "https://ra.co/events/2494177",
+    "startDate": "2026-10-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2544796",
     "lineup": [
-      "Adrien Calvet",
-      "Akaj",
-      "Alyhas",
-      "Baccus",
-      "B.Love",
-      "Jhobei",
-      "Cam Stockman",
-      "Coleeeette",
-      "Deborah Aime La Bagarre",
-      "Emma B",
-      "Kara Okay",
-      "Emi Ömar",
-      "Gibs (ID)",
-      "HearThug",
-      "Munir Nadir",
-      "Herr Krank",
-      "IAMBP",
-      "Jeff The Fool",
-      "JUAAN",
-      "loryn (FR)",
-      "Luuk van Dijk",
-      "Occibel",
-      "P.O (1)",
-      "Man/Ipulate",
-      "Roza Terenzi",
-      "Sampol",
-      "MARYO",
-      "The Hacker",
-      "Voodoos and Taboos"
+      "Catsinka",
+      "Bigstate",
+      "JaeS"
     ],
     "genreVerified": true,
     "isFestival": false,
     "sources": [
-      "https://ra.co/events/2494177"
+      "https://ra.co/events/2544796"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "closing-rooftop-2026-roni-blum-house",
     "name": "Closing Rooftop 2026: RONI + Blum House",
     "city": "BALMA",
+    "address": "Interference, 56 route de Lavaur 31130 BALMA",
     "region": null,
     "startDate": "2026-09-27",
     "endDate": null,
@@ -4455,6 +4675,7 @@
     "slug": "sarlat-open-air-4",
     "name": "SARLAT OPEN AIR 4#",
     "city": null,
+    "address": null,
     "region": null,
     "startDate": "2026-09-27",
     "endDate": null,
@@ -4477,6 +4698,7 @@
     "slug": "bordeaux-open-air-parc-de-bourran",
     "name": "Bordeaux Open Air - Parc de Bourran",
     "city": null,
+    "address": null,
     "region": null,
     "startDate": "2026-10-04",
     "endDate": null,
@@ -4498,6 +4720,7 @@
     "slug": "open-rave-toulouse-organik-machines-vivantes",
     "name": "Open Rave Toulouse: Organïk + Machines Vivantes",
     "city": "Toulouse",
+    "address": "Halle de La Machine, 3, Avenue de l'Aérodrome de Montaudran, 31400 Toulouse, France",
     "region": null,
     "startDate": "2026-10-10",
     "endDate": null,
@@ -4535,7 +4758,7 @@
     "officialUrl": "https://dice.fm/event/6ab105801d8d820001bd6488",
     "lineup": [],
     "source": "dice",
-    "eventType": "soiree",
+    "eventType": null,
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ab105801d8d820001bd6488"
@@ -4557,7 +4780,7 @@
     "officialUrl": "https://dice.fm/event/6a7b1c72a3711b0001ed75b2",
     "lineup": [],
     "source": "dice",
-    "eventType": "soiree",
+    "eventType": null,
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6a7b1c72a3711b0001ed75b2"
@@ -4579,7 +4802,7 @@
     "officialUrl": "https://dice.fm/event/6a7b3282d935bf0001782a51",
     "lineup": [],
     "source": "dice",
-    "eventType": "soiree",
+    "eventType": null,
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6a7b3282d935bf0001782a51"
@@ -4601,10 +4824,32 @@
     "officialUrl": "https://dice.fm/event/6a97f79a111fa90001cd3c25",
     "lineup": [],
     "source": "dice",
-    "eventType": "soiree",
+    "eventType": null,
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6a97f79a111fa90001cd3c25"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "discotaco-disco-paillettes-tacos-partout",
+    "name": "Discotaco : disco, paillettes & tacos partout !",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-02",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6a7c39632b6a0600015adef4",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6a7c39632b6a0600015adef4"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4623,7 +4868,7 @@
     "officialUrl": "https://dice.fm/event/6a9e9119df36730001a83144",
     "lineup": [],
     "source": "dice",
-    "eventType": "soiree",
+    "eventType": null,
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6a9e9119df36730001a83144"
@@ -4645,7 +4890,7 @@
     "officialUrl": "https://dice.fm/event/6a22c83cb7aefd000152fc91",
     "lineup": [],
     "source": "dice",
-    "eventType": "soiree",
+    "eventType": null,
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6a22c83cb7aefd000152fc91"
@@ -4667,7 +4912,7 @@
     "officialUrl": "https://dice.fm/event/6a18a0de3af9270001144e09",
     "lineup": [],
     "source": "dice",
-    "eventType": "soiree",
+    "eventType": null,
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6a18a0de3af9270001144e09"
