@@ -6,7 +6,7 @@ import ItineraryButton from "@/components/ItineraryButton";
 import AddToCalendar from "@/components/AddToCalendar";
 import ReportError from "@/components/ReportError";
 import ArtistLinks from "@/components/ArtistLinks";
-import Icon, { type IconName } from "@/components/Icon";
+import Icon, { LogoMark, type IconName } from "@/components/Icon";
 import { affiliateUrl } from "@/lib/affiliate";
 import { SITE_URL, absoluteUrl, inlineJson } from "@/lib/site";
 import { festivalJsonLd } from "@/lib/festival-jsonld";
@@ -171,9 +171,10 @@ export default async function FestivalPage({
           <nav aria-label="Fil d'Ariane" className="mb-6 text-sm">
             <Link
               href="/"
-              className="inline-flex items-center gap-1 text-white/90 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+              className="inline-flex items-center gap-1.5 text-white/90 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
             >
               <Icon name="arrow-left" size={16} />
+              <LogoMark size={20} />
               Tous les festivals
             </Link>
           </nav>
