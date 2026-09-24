@@ -3,7 +3,7 @@ export type SizeTier = "S" | "M" | "L" | "XL";
 
 export type FestivalStatus = "announced" | "confirmed" | "cancelled" | "passed";
 
-export type EventType = "festival" | "open-air" | "soiree";
+export type EventType = "festival" | "open-air";
 
 export interface Festival {
   id: string;

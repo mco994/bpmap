@@ -28,7 +28,7 @@ export async function generateMetadata({
   if (!region) return { title: "Région introuvable" };
 
   const title = `Festivals & open airs en ${region}`;
-  const description = `Tous les festivals, open airs et soirées de musique électronique à venir en ${region} : dates, lieux, tarifs et billetterie sur BPMap.`;
+  const description = `Tous les festivals et open airs de musique électronique à venir en ${region} : dates, lieux, tarifs et billetterie sur BPMap.`;
   const url = `/regions/${slug}`;
 
   return {
@@ -98,8 +98,8 @@ export default async function RegionPage({
           Festivals &amp; open airs en {region}
         </h1>
         <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-          {festivals.length} festival{festivals.length > 1 ? "s" : ""}, open air
-          {festivals.length > 1 ? "s" : ""} et soirée{festivals.length > 1 ? "s" : ""}{" "}
+          {festivals.length} festival{festivals.length > 1 ? "s" : ""} et open air
+          {festivals.length > 1 ? "s" : ""}{" "}
           de musique électronique à venir en {region}. Dates, lieux, tarifs et
           billetterie — classés par date.
         </p>

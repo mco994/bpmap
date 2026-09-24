@@ -9,7 +9,7 @@ export const FRANCE_BOUNDS = {
 };
 
 const STATUSES = new Set(["announced", "confirmed", "cancelled", "passed"]);
-const EVENT_TYPES = new Set(["festival", "open-air", "soiree"]);
+const EVENT_TYPES = new Set(["festival", "open-air"]);
 const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
 const REQUIRED_STRINGS = ["id", "slug", "name", "city", "region", "currency"] as const;
 const URL_FIELDS = ["ticketUrl", "officialUrl"] as const;

@@ -41,7 +41,7 @@ export default function RegionsHubPage() {
         Festivals électro par région
       </h1>
       <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-        Choisissez une région pour découvrir les festivals, open airs et soirées de
+        Choisissez une région pour découvrir les festivals et open airs de
         musique électronique à venir près de chez vous.
       </p>
 

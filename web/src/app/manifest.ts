@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "BPMap — événements de musique électronique en France",
     short_name: "BPMap",
     description:
-      "L'annuaire et la carte interactive des festivals, open airs et soirées de musique électronique en France.",
+      "L'annuaire et la carte interactive des festivals et open airs de musique électronique en France.",
     start_url: "/",
     scope: "/",
     display: "standalone",

@@ -33,7 +33,6 @@ export function genreLabel(slug: string): string {
 export const EVENT_TYPES: { type: EventType; label: string }[] = [
   { type: "festival", label: "Festival" },
   { type: "open-air", label: "Open air" },
-  { type: "soiree", label: "Soirée" },
 ];
 
 export function effectiveEventType(festival: Festival): EventType {

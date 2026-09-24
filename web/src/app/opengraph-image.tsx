@@ -45,7 +45,7 @@ export default function Image() {
             La carte des événements de musique électronique en France
           </div>
           <div style={{ fontSize: "34px", color: "rgba(255,255,255,0.92)" }}>
-            Festivals, open airs et soirées — filtrez par genre, date, taille et prix.
+            Festivals et open airs — filtrez par genre, date, taille et prix.
           </div>
         </div>
 

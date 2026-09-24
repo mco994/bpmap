@@ -32,7 +32,7 @@ export async function generateMetadata({
 
   const label = genreLabel(slug);
   const title = `Festivals ${label} en France`;
-  const description = `Tous les festivals, open airs et soirées ${label} à venir en France : dates, lieux, tarifs et billetterie. L'annuaire ${label} de BPMap.`;
+  const description = `Tous les festivals et open airs ${label} à venir en France : dates, lieux, tarifs et billetterie. L'annuaire ${label} de BPMap.`;
   const url = `/genres/${slug}`;
 
   return {
@@ -102,8 +102,8 @@ export default async function GenrePage({
           Festivals {label} en France
         </h1>
         <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-          {festivals.length} festival{festivals.length > 1 ? "s" : ""}, open air
-          {festivals.length > 1 ? "s" : ""} et soirée{festivals.length > 1 ? "s" : ""}{" "}
+          {festivals.length} festival{festivals.length > 1 ? "s" : ""} et open air
+          {festivals.length > 1 ? "s" : ""}{" "}
           {label} à venir en France. Dates, lieux, tarifs et billetterie — classés
           par date.
         </p>

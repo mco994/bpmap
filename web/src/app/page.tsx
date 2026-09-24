@@ -17,7 +17,7 @@ export default function Home() {
           La carte des événements de musique électronique en France
         </h1>
         <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-          Festivals, open airs et soirées — explorez la carte par type, genre,
+          Festivals et open airs — explorez la carte par type, genre,
           date, taille et prix, ou parcourez le{" "}
           <Link
             href="/festivals"
