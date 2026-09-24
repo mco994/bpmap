@@ -50,6 +50,8 @@ export default function Icon({
   );
 }
 
+const BEAT = "M 34 234 H 150 L 162 220 L 174 234 H 186 L 198 256 L 226 96 L 258 306 L 276 234 H 292 L 312 206 L 332 234 H 478";
+
 export function LogoMark({ size = 28 }: { size?: number }) {
   return (
     <svg
@@ -61,17 +63,22 @@ export function LogoMark({ size = 28 }: { size?: number }) {
       className="shrink-0"
     >
       <defs>
-        <linearGradient id="bpmap-logo" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#6d28d9" />
-          <stop offset="0.55" stopColor="#c026d3" />
-          <stop offset="1" stopColor="#d946ef" />
-        </linearGradient>
+        <clipPath id="bpmap-logo-disc">
+          <circle cx="256" cy="256" r="256" />
+        </clipPath>
+        <filter id="bpmap-logo-glow" x="-20%" y="-20%" width="140%" height="140%">
+          <feGaussianBlur stdDeviation="14" result="blur" />
+          <feMerge>
+            <feMergeNode in="blur" />
+            <feMergeNode in="blur" />
+            <feMergeNode in="SourceGraphic" />
+          </feMerge>
+        </filter>
       </defs>
-      <rect width="512" height="512" rx="112" fill="url(#bpmap-logo)" />
-      <g fill="#ffffff">
-        <rect x="156" y="252" width="40" height="120" rx="20" />
-        <rect x="236" y="152" width="40" height="220" rx="20" />
-        <rect x="316" y="282" width="40" height="90" rx="20" />
+      <circle cx="256" cy="256" r="256" fill="#0a0a0a" />
+      <g clipPath="url(#bpmap-logo-disc)" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <path d={BEAT} stroke="#ff1fd2" strokeWidth="28" filter="url(#bpmap-logo-glow)" />
+        <path d={BEAT} stroke="#ffd6f6" strokeWidth="9" />
       </g>
     </svg>
   );
