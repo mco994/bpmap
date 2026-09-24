@@ -415,7 +415,7 @@ function diceEventType(ev) {
   if (/festival/i.test(text) || (ev.dates?.is_multi_days_event ?? false)) {
     return "festival";
   }
-  return "soiree";
+  return null;
 }
 
 function diceIsElectro(ev) {

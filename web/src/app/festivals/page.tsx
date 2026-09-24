@@ -5,7 +5,7 @@ import { getAllFestivals } from "@bpmap/shared";
 export const metadata: Metadata = {
   title: "Sommaire des événements électro",
   description:
-    "La liste complète des événements de musique électronique en France — festivals, open airs, soirées : recherchez par nom ou ville et filtrez par type, genre, date, taille et prix.",
+    "La liste complète des événements de musique électronique en France — festivals et open airs : recherchez par nom ou ville et filtrez par type, genre, date, taille et prix.",
   alternates: { canonical: "/festivals" },
 };
 
@@ -21,7 +21,7 @@ export default function FestivalsPage() {
           Tous les événements de musique électronique en France
         </h1>
         <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-          Festivals, open airs et soirées — recherchez et filtrez parmi{" "}
+          Festivals et open airs — recherchez et filtrez parmi{" "}
           {festivals.length} événements : techno, house, drum&apos;n&apos;bass,
           French touch et plus encore.
         </p>

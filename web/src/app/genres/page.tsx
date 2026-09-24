@@ -41,7 +41,7 @@ export default function GenresHubPage() {
         Festivals électro par genre
       </h1>
       <p className="mt-2 text-zinc-600 dark:text-zinc-400">
-        Choisissez un genre pour découvrir les festivals, open airs et soirées de
+        Choisissez un genre pour découvrir les festivals et open airs de
         musique électronique à venir en France.
       </p>
 

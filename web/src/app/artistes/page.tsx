@@ -5,7 +5,7 @@ import ArtistSearch from "@/components/ArtistSearch";
 export const metadata: Metadata = {
   title: "Artistes en festival électro",
   description:
-    "Tous les artistes et DJs à l'affiche des festivals, open airs et soirées de musique électronique en France. Recherchez un artiste et suivez ses dates en festival.",
+    "Tous les artistes et DJs à l'affiche des festivals et open airs de musique électronique en France. Recherchez un artiste et suivez ses dates en festival.",
   alternates: { canonical: "/artistes" },
 };
 

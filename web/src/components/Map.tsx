@@ -345,7 +345,7 @@ export default function Map({
         setMaskBeforeId(cityLabelId ?? firstLabelId);
       }}
       style={{ width: "100%", height: "100%" }}
-      onZoomEnd={(e) => setZoom(e.viewState.zoom)}
+      onZoom={(e) => setZoom(Math.round(e.viewState.zoom * 20) / 20)}
       interactiveLayerIds={["festival-hit", "festival-points", "selected-point"]}
       cursor={cursor}
       onClick={handleClick}

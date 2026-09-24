@@ -24,12 +24,11 @@ export const metadata: Metadata = {
     template: "%s · BPMap",
   },
   description:
-    "L'annuaire et la carte interactive des événements de musique électronique en France : festivals, open airs et soirées — techno, house, drum'n'bass, French touch. Filtrez par type, genre, date, taille et prix.",
+    "L'annuaire et la carte interactive des événements de musique électronique en France : festivals et open airs — techno, house, drum'n'bass, French touch. Filtrez par type, genre, date, taille et prix.",
   keywords: [
     "événements musique électronique",
     "festival techno France",
     "open air électro",
-    "soirée techno",
     "carte événements électro",
     "agenda électro France",
   ],
@@ -39,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "BPMap",
     title: "BPMap — Carte des événements de musique électronique en France",
     description:
-      "La carte interactive des événements électro français : festivals, open airs, soirées. Filtrez par type, genre, date, taille et prix.",
+      "La carte interactive des événements électro français : festivals et open airs. Filtrez par type, genre, date, taille et prix.",
     url: SITE_URL,
   },
   twitter: { card: "summary_large_image" },

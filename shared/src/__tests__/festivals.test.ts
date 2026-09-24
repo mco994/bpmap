@@ -133,6 +133,6 @@ describe("libellés", () => {
 
   it("considère « festival » comme type par défaut", () => {
     expect(effectiveEventType(makeFestival())).toBe("festival");
-    expect(effectiveEventType(makeFestival({ eventType: "soiree" }))).toBe("soiree");
+    expect(effectiveEventType(makeFestival({ eventType: "open-air" }))).toBe("open-air");
   });
 });

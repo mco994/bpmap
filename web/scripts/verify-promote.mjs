@@ -66,9 +66,9 @@ const SOIREE_PATTERN = /\bclub\b|\bnuit\b|\bnight\b|\bsoirée\b|\bsoiree\b|\brav
 function eventTypeFor(candidate, multiDay) {
   const text = `${candidate.name} ${candidate.description ?? ""}`;
   if (OPEN_AIR_PATTERN.test(text)) return "open-air";
-  if (multiDay || /\bfestival\b/i.test(candidate.name)) return "festival";
-  if (SOIREE_PATTERN.test(text)) return "soiree";
-  return "soiree";
+  if (/\bfestival\b/i.test(candidate.name)) return "festival";
+  if (multiDay && !SOIREE_PATTERN.test(text)) return "festival";
+  return null;
 }
 
 function domainsOf(sources = []) {
@@ -221,6 +221,12 @@ for (const c of candidates) {
     continue;
   }
 
+  const eventType = eventTypeFor(c, multiDay);
+  if (!eventType) {
+    rejected.push({ ...c, _reason: "soirée : hors périmètre" });
+    continue;
+  }
+
   const entry = {
     slug,
     name: c.name,
@@ -230,7 +236,7 @@ for (const c of candidates) {
     startDate: c.startDate ?? null,
     endDate: c.endDate ?? null,
     genres: inferGenres(text),
-    eventType: eventTypeFor(c, multiDay),
+    eventType,
     organizer: c.organizer ?? null,
     capacity: null,
     priceDay: null,

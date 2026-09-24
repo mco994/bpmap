@@ -79,15 +79,7 @@ export default function MapExplorer({ festivals }: { festivals: Festival[] }) {
         onReset={resetAll}
         resetActive={hasActive}
         activeCount={activeFilterCount(filters)}
-      >
-        <p
-          className="mt-4 text-sm font-medium tabular-nums text-zinc-700 dark:text-zinc-300"
-          aria-live="polite"
-        >
-          {filtered.length} événement{filtered.length > 1 ? "s" : ""}
-          {filtered.length !== festivals.length && ` sur ${festivals.length}`}
-        </p>
-      </FiltersAside>
+      />
 
       <section aria-label="Carte" className="min-w-0">
         <p className="sr-only">

@@ -28,7 +28,7 @@ export async function generateMetadata({
 
   return {
     title: `${artist.name} en festival`,
-    description: `Tous les festivals, open airs et soirées électro où ${artist.name} est à l'affiche en France. Suivez ses dates sur BPMap.`,
+    description: `Tous les festivals et open airs électro où ${artist.name} est à l'affiche en France. Suivez ses dates sur BPMap.`,
     alternates: { canonical: `/artistes/${artist.slug}` },
     openGraph: {
       type: "website",
