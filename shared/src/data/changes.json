@@ -1,5 +1,50 @@
 [
   {
+    "id": "2026-09-24:cabaret-vert:removed",
+    "festivalId": "cabaret-vert",
+    "festivalSlug": "cabaret-vert",
+    "festivalName": "Cabaret Vert",
+    "type": "removed",
+    "date": "2026-09-24",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-24:electrolapse:removed",
+    "festivalId": "electrolapse",
+    "festivalSlug": "electrolapse",
+    "festivalName": "Electrolapse Festival",
+    "type": "removed",
+    "date": "2026-09-24",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-24:coeur-meurtri-open-air:removed",
+    "festivalId": "coeur-meurtri-open-air",
+    "festivalSlug": "coeur-meurtri-open-air",
+    "festivalName": "Cœur Meurtri Open Air",
+    "type": "removed",
+    "date": "2026-09-24",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-24:electro-tribe-festival:removed",
+    "festivalId": "electro-tribe-festival",
+    "festivalSlug": "electro-tribe-festival",
+    "festivalName": "Electro Tribe Festival",
+    "type": "removed",
+    "date": "2026-09-24",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-09-24:pain-benit-festival:removed",
+    "festivalId": "pain-benit-festival",
+    "festivalSlug": "pain-benit-festival",
+    "festivalName": "Pain Bénit Festival",
+    "type": "removed",
+    "date": "2026-09-24",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-09-23:electrolapse:removed",
     "festivalId": "electrolapse",
     "festivalSlug": "electrolapse",
