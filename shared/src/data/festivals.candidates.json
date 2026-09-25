@@ -133,6 +133,25 @@
     "_reason": "doublon (déjà en base)"
   },
   {
+    "slug": "concert-njp-2026-super-jet-kinoko-claude-emmanuelle-shelf-lives",
+    "name": "Concert - NJP 2026 - Super Jet Kinoko - Claude-Emmanuelle - Shelf Lives",
+    "city": "Nancy",
+    "region": null,
+    "description": "SUPER JET KINOKO (New wave / Mushroom Trance / Rock psychédélique - Japon)\nVéritable météore de la scène japonaise, ce groupe d'Osaka fusionne New Wave, rock et transe dans un tourbillon \"mushroom trance\". Leurs performances explosives et déjantées transforment l'espace en une fête sauvage, portée par une énergie brute et communicative. \n \nCLAUDE-EMMANUELLE (Bass music / Expérimental - France)\nDj et artiste pluridisciplinaire, Claude-Emmanuelle transforme le dancefloor en un espace de résistance. Ses sets hybrides mêlent hymne queers, basses profondes et textures diasporiques dans une performance viscérale qui invite à la transe et à la libération collective. \n \nSHELF LIVES (Electro-bass punk / Post-punk - Royaume-Uni / Canada)\nDuo d'\"électro-bass punk\", Shelf Lives ramène l'agressivité physique du punk dans l'intimité électrique d'une fête de maison. Entre morceaux accrocheurs et chaos sonore, ils s'imposent par une authenticité brutale qui ne laisse personne indiférrent.",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/28861429-8e30-357b-99c3-71ebfdf302ea"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "megafoire-aux-disques-de-nancy",
     "name": "Mégafoire aux disques de Nancy",
     "city": "Nancy",
@@ -150,6 +169,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "concert-njp-2026-la-rvfleuse-houdi-juste-shani",
+    "name": "Concert - NJP 2026 - La Rvfleuse - Houdi - Juste Shani",
+    "city": "Nancy",
+    "region": null,
+    "description": "LA RVFLEUZE (Rap - France)\nNouveau visage du 19e arrondissement, La Rvfleuze s'est imposé avec sa série de freestyles Serrure. Entre images fortes et références sportives, il livre un rap sans filtre, porté par une détermination que rien, pas même l'enfermement, n'a pu freiner.\n \nHOUDI (Rap - France)\nPropulsé au sommet en un temps record, l'artiste cagoulé de Seine-et-Marne impose son style hybride. Entre nostalgie de fin d'été et sonorités solaires, Houdi présente SIROCCO, un projet où le rap se mêle à l'électro et à la pop avec une sincérité rare.\n \nJUSTE SHANI (Rap - France)\nNouvelle figure forte du rap français, Juste Shani bouscule les codes. Entre bangers trap et textes introspectifs, la rappeuse du 91 impose une plume affûtée et une énergie libératrice, célébrant la confiance en soi avec une authenticité rare.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 48.6978297739093,
+    "lng": 6.18491649627686,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/2c9f70d0-2156-3a01-a91a-e37718f45a69"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-boneym",
@@ -171,6 +209,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "concert-njp-2026-kuleeange-nord-noir-sarra-wild",
+    "name": "Concert - NJP 2026 - Kuleeange - Nord//Noir - Sarra Wild",
+    "city": "Nancy",
+    "region": null,
+    "description": "KULEEANGEE (Electro-pop alternative - Royaume-Uni)\nNé d'une rencontre nocturne à Londres, le duo écossais KuleeAngee fusionne groove sensuel et textes grinçants. Révélés par leur EP Is It Awryt, ces \"âmes sœurs\" musicales capturent l'agitation moderne dans une pop hypnotique déjà adoubée par la BBC et le NME 100.\n \nNORD//NOIR (Cold Gabber / Punk-Techno / Industriel - France)\nDuo frontal aux relents punk, NORD//NOIR transforme les tourments de l'époque en une fête sombre et limbératrice. Entre Cold Gabber et folklore industriel, leur live est un orage de sueur et d'amour, une \"terreur lumineuse\" qui fait danser les déçus et vibrer les pavés.\n\nSARRA WILD (Techno expérimentale / Global Bass - Romaume-Uni)\nDJ, curatrice et fondatrice de la plateforme OH141, Sarra Wild bouscule les codes du clubbing mondial. Entre rythmes non occidentaux et expérimentations audacieuses, elle façonne des sets hybrides où l'engagement social rencontre l'énergie brute des dancefloors les plus pointus.",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-09",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/34a6f841-50b9-3761-bc07-a27f6c26c31d"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "concert-floating",
     "name": "Concert - Floating",
     "city": "Metz",
@@ -183,6 +240,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/4e742abe-19cf-3e8b-a159-c3e1a3e5a9de"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-njp-2026-thk-dub-inc-bleu-soleil",
+    "name": "Concert - NJP 2026 - Thk - Dub Inc - Bleu Soleil",
+    "city": "Nancy",
+    "region": null,
+    "description": "DUB INC (Reggae/World - France)\nGroupe emblématique du reggae hexagonal, Dub inc s'est imposé par une énergie scénique inépuisable. Porté par le duo complémentaire Bouchkour et Komlan, le collectif mêle dancehall et influences kabyles pour délivrer un message de métissage universel.\n \nTHK (électro-dub - France)\nLe duo excentrique THK revient en force avec un style unique, lourdement imprégné de Bass Music et d'électro. Entre skanks ravageurs et saxophone hypnotique, ils transmettent une énergie contagieuse pour une transe festive et résolument moderne.\n \nBLEU SOLEIL (Electro-dub / Reggae - France)\nDuo solaire né de l'union de Nino et Antonin, Bleu Soleil hybride électro-dub, bass music et pop moderne. Porté par le succès phénoménal de leur hit \"Soleil Bleu\", le groupe déploie une musique lumineuse, entre basses profondes et mélodies aériennes.",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-09",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/505704c2-ea46-3ea0-adfe-eaa17e4e333c"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -266,6 +342,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-njp-2026-vincent-peirani-jungle-by-night",
+    "name": "Concert - NJP 2026 - Vincent Peirani - Jungle By Night",
+    "city": "Nancy",
+    "region": null,
+    "description": "VINCENT PEIRANI (Jazz - France)\nRénovateur de l'accordéon, VIncent Peirani est un explorateur infatigable. Du jazz à la musique classique en passant par le rock et les sonorités du monde, ce soliste d'exception transforme chaque concert en un terrain de jeu imprévisible. Un engagement total au service d'une musique vivante, llbre et audacieuse. \n \nJUNGLE BY NIGHT (Jazz / Electro-pop instrumental / Krautrock - Pays-Bas) \nFidèle des Nancy Jazz Pulsations, Jungle by Night revient pour ouvrir un chapitre inédit. En configuration assise à la salle Poirel, le sextet d'Amsterdam dévoile les nuances pop et mélodiques de son nouvel album. Entre précision instrumentale et textures nu-disco, une occasion rare de savourer l'élégance d'un groupe passé maître dans l'art du groove organique.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 48.6904717083864,
+    "lng": 6.17699861526489,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/6d89c561-f234-30a8-9897-688f55d11829"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-spectacle-primal-robot",
     "name": "Concert-spectacle - Primal Robot",
     "city": "Gondrecourt-le-Château",
@@ -304,6 +399,44 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-njp-2026-monster-florence-hypnosis-therapy-viiak",
+    "name": "Concert - NJP 2026 - Monster Florence - Hypnosis Therapy -Viiak",
+    "city": "Nancy",
+    "region": null,
+    "description": "MONSTER FLORENCE (Hip-Hop / Punk - Royaume-Uni)\nOriginaire de Colchester, le sextuor Monster Florence bouscule le hip-hop britannique avec un son hybride teinté de punk. Entre atmosphères cinématographiques et textes acerbes, ils explorent les excès de l'ère numérique avec une énergie explosive.\n \nHYPNOSIS THERAPY (Electro / Pop Coréenne - Corée du Sud)\nVenu de l'underground de Séoul, le duo Hypnosis Therapy fusionne rap, techno et punk dans une transe hypnotique. Portés par une énergie brute et des textures expérimentales, ils transforment le chaos social en une force libératrice et hallucinatoire.\n \nVIIAK (Trance / Hard House / UK Bass - France)\nFigure émergente de la scène nancéienne et membre du collectif 48° Nord, VIIAK délivre des sets résolument groovy et percussifs. Entre trance, hard house et UK garage, elle défend une culture électronique inclusive et libre, pensée pour une connexion totale avec le dancefloor.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/84c5b036-271f-3c1e-a4b4-f96de4035626"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "concert-njp-2026-opus-kink-heaven-fx",
+    "name": "Concert - NJP 2026 - Opus Kink - Heaven Fx",
+    "city": "Nancy",
+    "region": null,
+    "description": "OPUS KINK (Jazz-punk / Post-punk cuivré / Rock expérimental - Royaume-Uni)\nOvni de la scène britannique, Opus Kink fusionne jazz, country et punk dans un tourbillon de \"death-disco\" et de cabaret grinçant. Entre section de cuivres redoutable et chant sarcastique, le groupe de Brighton livre des concerts à l'énergie sauvage et quasi-sectaire.\n \nHEAVEN FX (Indie Rock / Electronique - France)\nDuo à l'univers hybride, Heaven FX fait fusionner voix complices et textures électroniques. Entre indie rock et explorations synthétiques, leur musique est une immersion sensorielle où l'émotion guide chaque rythme.",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/85858c4e-c0e0-3441-9e6b-aab79b2d92ea"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "cabaret-madame-ose-bashung",
     "name": "Cabaret : Madame Ose Bashung",
     "city": "Forbach",
@@ -321,6 +454,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-njp-2026-peter-doherty-sam-sauvage-james-baker",
+    "name": "Concert - NJP 2026 - Peter Doherty - Sam Sauvage - James Baker",
+    "city": "Nancy",
+    "region": null,
+    "description": "PETER DOHERTY (full band) (Rock Indie - Royaume-Uni)\nLégende du rock britannique, Peter Doherty revient plus serein que jamais avec son nouvel album Felt Better Alive. Entouré d'un groupe prestigieux, il revisite ses classiques des Libertines et de Babyshambles ainsi que ses pépites solo mélodiques.\n \nSAM SAUVAGE (Pop-Rock - France)\nRévélation masculine des Victoires de la Musique, Sam Sauvage bouscule la pop française avec son premier album Mesdames, Messieurs !. Originaire de Boulogne-sur-Mer, il livre une musique frontale et viscérale, portée par une interprétation sans artifice.\n \nJAMES BAKER (Pop-rock alternatif - France)\nArtiste autodidacte de 24 ans, James Baker façonne une indie pop hybride aux accents rock et électro. Entre narration cinématographique et sensibilité brute, il explore les méandres du souvenir et du désir dans son nouveau projet conceptuel, Romy Rose.",
+    "startDate": "2026-10-14",
+    "endDate": "2026-10-14",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/8cff6701-59e9-35ae-bda6-1962f4b66400"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "spectacle-nacht-ii-videopolis",
@@ -449,6 +601,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/bcfa39f5-fe70-3c61-8dd4-e7fa1468dffc"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-njp-2026-dame-area-junglist-nancy",
+    "name": "Concert - NJP 2026 - Dame Area - Junglist Nancy",
+    "city": "Nancy",
+    "region": null,
+    "description": "DAME AREA (Post-Punk / EBM - Espagne / Italie)\nVenu de Barcelone, le duo Dame Area bouscule la scène industrielle avec une énergie sauvage. Entre percussions métalliques, polyrythmies flamenco et synthé minimalistes, leur live est une décharge électrique, fusionnant l'esprit du post-punk et de l'EBM.\n \nJUNGLIST NANCY (Jungle / Old School Breakbeat - France)\nNé en 2025 dans l'effervescence d'une warehouse, le collectif JUNGLIST NANCY fait vibrer la cité ducale au rythme de la Jungle. Entre breaks frénétiques, basslines profondes et sirènes dub, ces sélecteurs passionnés célèbrent l'héritage old school tout en explorant les sonorités underground les plus modernes.",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/c09a5630-9bac-34ee-9d8b-5794a5a1d403"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -589,6 +760,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "concert-njp-2026-ferdi-forward",
+    "name": "Concert - NJP 2026 - Ferdi - Forward",
+    "city": "Nancy",
+    "region": null,
+    "description": "FERDI (Jazz / Indie-pop / Funk - France / Belgique) \n Saxophoniste et producteur virtuose, le franco-bruxellois Ferdi insuffle un vent de fraîcheur sur la scène actuelle. Après un premier album solo remarqué (TAKE 01) et une collaboration fusionnelle avec le roi de la funk Dabeull, ce prodige du conservatoire mêle jazz et indie-pop dans des lives solaires et incandescents. \n \n  \nFORWARD (Electro-organic jazz - France)\n Bousculant les repères traditionnels, le trio Forward sculpte un jazz audacieux et résolument moderne. Entre écriture ciselée, électronique organique et grooves asymétriques, ces trois alchimistes du son déploient une virtuosité aérienne à la croisée des mondes de Tigran Hamasyan et Jon Hopkins.",
+    "startDate": "2026-10-13",
+    "endDate": "2026-10-13",
+    "lat": 48.6961018936383,
+    "lng": 6.17175757884979,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/e48572ac-5526-3bdf-8702-1c50c5e6145b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "la-p-tite-fumee-m-o-k-o",
     "name": "LA P'TITE FUMÉE + M.O.K.O",
     "city": "Meisenthal",
@@ -696,6 +886,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/fd7edcd3-7c04-3c95-8839-0cc4acd9772e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-njp-2026-asfar-shamsi-encore-une-autre",
+    "name": "Concert - NJP 2026 - Asfar Shamsi - Encore Une Autre",
+    "city": "Nancy",
+    "region": null,
+    "description": "ASFAR SHAMSI (Rap/Pop alternative - France)\nEntre rap, pop et électronique, Asfar Shamsi refuse les cases. Lauréate du FAIR, elle livre avec son EP cui cui un témoignage brut et sincère sur la quête d'identité. Un projet organique et puissant, porté sur scène par une énergie contagieuse. \n \nENCORE UNE AUTRE (Electro / Trap / Pop alternative - France)\nAmbassadrice de la scène électro-rap émergente, la Strasbourgeoise encore une autre bouscule les clubs parisiens. Ses sets multi-genres mêlent trap, pop et électro dans une esthétique unique, entre sensualité et absurde, affirmant son rôle de prescriptrice incontournable.",
+    "startDate": "2026-10-13",
+    "endDate": "2026-10-13",
+    "lat": 48.697935,
+    "lng": 6.184425,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/fee205df-fbbc-33f9-828c-f0e0726a883f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1121,25 +1330,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-electro-trad-radio-tutti-xxl-olkan-la-vipere-rouge",
-    "name": "Concert électro-trad -  Radio Tutti XXL + Olkan & la Vipère Rouge",
-    "city": "Romans-sur-Isère",
-    "region": null,
-    "description": "Soufflons nos bougies ensemble ! Pour lancer les 20 ans de La Cordo, nous avons invité Radio Tutti à fêter ses 10 ans avec nous. Une double célébration qui ne se fera pas autour d'un gâteau… mais sur une immense piste de danse. Bar et restauration dès 19h",
-    "startDate": "2026-09-24",
-    "endDate": "2026-09-24",
-    "lat": 45.043203,
-    "lng": 5.043858,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/9cb4f1e6-ce24-3f14-98c6-9bd8b08bb36b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "concert-zaza-fournier-melissmell",
     "name": "Concert : Zaza Fournier & Melissmell",
     "city": "Portes-lès-Valence",
@@ -1233,6 +1423,44 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-siesto-electro",
+    "name": "Concert : Siesto Electro",
+    "city": "Montluçon",
+    "region": null,
+    "description": "En collaboration avec le Théâtre des Ilets et la SMAC le 109, dans le cadre du \"Temps Fort Électro\".",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-19",
+    "lat": 46.3487,
+    "lng": 2.598493,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/c6687a20-0f60-30b6-9faf-9b69ab8834f8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "conference-john-carpenter",
+    "name": "Conférence : John Carpenter",
+    "city": "Montluçon",
+    "region": null,
+    "description": "En partenariat avec le 109, dans le cadre du \"Temps Fort Électro\".",
+    "startDate": "2026-11-17",
+    "endDate": "2026-11-18",
+    "lat": 46.3487,
+    "lng": 2.598493,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/c87e7c51-1143-3d95-807a-811288885ffe"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "109-tunnel-session-1",
@@ -1361,25 +1589,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/0663a22f-43f4-3438-b537-bdb94d237d4a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "hilight-tribe-louv-nirmata",
-    "name": "Hilight Tribe + Louv + Nirmata",
-    "city": "Tours",
-    "region": null,
-    "description": "Ambassadeurs d’une transe organique et universelle, les mythiques Hilight Tribe débarquent pour une cérémonie live où les frontières entre concert, rave et voyage initiatique disparaissent.",
-    "startDate": "2026-09-24",
-    "endDate": "2026-09-24",
-    "lat": 47.3844669,
-    "lng": 0.7013784,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/31059a10-aff7-334d-81c4-07d30cbafa9e"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1819,6 +2028,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/aa689e84-140b-3f2a-b4ce-00f9bc22e960"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-dub",
+    "name": "Soirée DUB",
+    "city": "Jumilhac-le-Grand",
+    "region": null,
+    "description": "On ouvre les portes à 19h30 pour manger et boire !\n\n20H : Escape Sound System débarque pour nous échauffer les guiboles !\n21H : Dubamix va vérifier qu'on s'est bien échauffé !\n23H : Kanka va nous faire skanker !\n00h30 : Iridium Sound System , va achever nos semelles jusqu'à 4h du matin !\nSnacking et",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-14",
+    "lat": 45.4963226,
+    "lng": 1.07284504,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/bb2dcb18-d651-3e60-bbaa-4018e9085f6a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2456,25 +2684,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "festival-aerolive-abera-et-maivoor",
-    "name": "Festival Aérolive : Abera et Maivoor",
-    "city": "Caen",
-    "region": null,
-    "description": "Le Festival Aérolive sera à l'université avec les artistes normands Maivoor (electro) et Abera (rap) pour la dernière de la saison !",
-    "startDate": "2026-09-24",
-    "endDate": "2026-09-24",
-    "lat": 49.1917078,
-    "lng": -0.3638655,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/7fffcc00-4905-3a66-aa76-a14d50975724"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
     "slug": "after-show-concert-de-rougir",
     "name": "After Show : concert de Rougir",
     "city": "Caen",
@@ -2684,6 +2893,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "dj-electro-thiix",
+    "name": "DJ Electro Thiix",
+    "city": "Le Juch",
+    "region": null,
+    "description": "",
+    "startDate": "2026-09-26",
+    "endDate": "2026-09-26",
+    "lat": 48.0349614,
+    "lng": -4.2437439,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/b3af54c1-b583-3e7c-8abd-457393db5612"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-disco-80-s",
     "name": "Soirée disco 80's",
     "city": "Saint-Cast-le-Guildo",
@@ -2781,11 +3009,11 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "flrsn-fluoresun",
-    "name": "FLRSN - Fluoresun",
+    "slug": "flrsn-peace-and-lobe",
+    "name": "FLRSN - Peace and Lobe",
     "city": "Givet",
     "region": null,
-    "description": "FLRSN a pour objectif de sensibiliser le public à l’importance de protéger son audition, au cours d’un concert pop-électro émaillé d’interventions des artistes, de leur technicien et d’invité.e.s lors de séquences audio et vidéo. Au travers de démonstrations interactives, le groupe détaillera les aspects techniques et la nature du son, les risques liés à l’exposition au bruit et l’importance de protéger son audition.  Il donnera également des explications sur les vibrations, les fréquences et les décibels, en combinant musique et vidéo, tout en favorisant les échanges avec le public, pour leur offrir un spectacle pédagogique ludique et engageant, encourageant chacun à adopter des pratiques d’écoute responsables. Durée : 1h20 À partir de 10 ans",
+    "description": "FLRSN a pour objectif de sensibiliser le public à l’importance de protéger son audition, au cours d’un concert pop-électro émaillé d’interventions des artistes, de leur technicien et d’invité.e.s lors de séquences audio et vidéo. Au travers de démonstrations interactives, le groupe détaillera les aspects techniques et la nature du son, les risques liés à l’exposition au bruit et l’importance de protéger son audition. Il donnera également des explications sur les vibrations, les fréquences et les décibels, en combinant musique et vidéo, tout en favorisant les échanges avec le public, pour leur offrir un spectacle pédagogique ludique et engageant, encourageant chacun à adopter des pratiques d’écoute responsables. Durée : 1h20 À partir de 10 ans",
     "startDate": "2026-12-18",
     "endDate": "2026-12-18",
     "lat": 50.14516,
@@ -4272,40 +4500,20 @@
     "slug": "saazbuzz-jazz-festival",
     "name": "SaazBuzz Jazz Festival",
     "city": "Paris",
-    "address": "New Morning, 9 rue des Petites Ecuries 75010 Paris",
+    "address": "Le Trianon, 80 boulevard Rochechouart; 75018; Paris, France",
     "region": null,
-    "startDate": "2026-09-24",
+    "startDate": "2026-09-25",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2513292",
+    "officialUrl": "https://ra.co/events/2513303",
     "lineup": [],
     "genreVerified": true,
     "isFestival": true,
     "sources": [
-      "https://ra.co/events/2513292",
       "https://ra.co/events/2513303"
     ],
     "status": "announced",
     "needsReview": true,
     "_reason": "genre électro non confirmé"
-  },
-  {
-    "slug": "trocadero-summer-club-closing-open-air-party",
-    "name": "Trocadero Summer Club Closing — open air party",
-    "city": "Paris",
-    "address": "Casa Trocadero, 5 Av. Albert de Mun, 75016 Paris",
-    "region": null,
-    "startDate": "2026-09-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2542005",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2542005"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "edging-tickets-en-vente-sur-place-complet-en-preventes",
@@ -4651,6 +4859,55 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
+    "name": "CHEVRY AGENCY: 8TH ANNIVERSARY [XXL FORMAT · 4 STAGES]",
+    "city": "Paris",
+    "address": "Fvtvr, 34 quai d'Austerlitz, 75013 Paris",
+    "region": null,
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "officialUrl": "https://ra.co/events/2494177",
+    "lineup": [
+      "Adrien Calvet",
+      "Akaj",
+      "Alyhas",
+      "Baccus",
+      "B.Love",
+      "Jhobei",
+      "Cam Stockman",
+      "Coleeeette",
+      "Deborah Aime La Bagarre",
+      "Emma B",
+      "Kara Okay",
+      "Emi Ömar",
+      "Gibs (ID)",
+      "HearThug",
+      "Munir Nadir",
+      "Herr Krank",
+      "IAMBP",
+      "Jeff The Fool",
+      "JUAAN",
+      "loryn (FR)",
+      "Luuk van Dijk",
+      "Occibel",
+      "P.O (1)",
+      "Man/Ipulate",
+      "Roza Terenzi",
+      "Sampol",
+      "MARYO",
+      "The Hacker",
+      "Voodoos and Taboos"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2494177"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "closing-rooftop-2026-roni-blum-house",
     "name": "Closing Rooftop 2026: RONI + Blum House",
     "city": "BALMA",
@@ -4762,28 +5019,6 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ab105801d8d820001bd6488"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "la-discotaco-fete-disco-paillettes-tacos-partout",
-    "name": "La Discotaco : fête disco, paillettes & tacos partout !",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-09-24",
-    "endDate": "2026-09-25",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a7b1c72a3711b0001ed75b2",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a7b1c72a3711b0001ed75b2"
     ],
     "status": "announced",
     "needsReview": true,
