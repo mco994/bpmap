@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-09-27:open-air-house-pavillon-framboise:added",
+    "festivalId": "open-air-house-pavillon-framboise",
+    "festivalSlug": "open-air-house-pavillon-framboise",
+    "festivalName": "OPEN AIR HOUSE *PAVILLON FRAMBOISE*",
+    "type": "added",
+    "date": "2026-09-27",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
     "id": "2026-09-24:cabaret-vert:removed",
     "festivalId": "cabaret-vert",
     "festivalSlug": "cabaret-vert",
