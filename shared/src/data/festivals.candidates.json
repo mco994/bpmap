@@ -76,25 +76,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-desert-zone-alias-poet",
-    "name": "Concert - Desert Zone (Alias Poet)",
-    "city": "Vandœuvre-lès-Nancy",
-    "region": null,
-    "description": "À travers son projet Desert Zone, Alias Poet mêle musiques du monde, électro et poésie dans un univers inspiré par les sonorités sahariennes. Entre rythmes organiques, instruments traditionnels et textures électroniques, il crée une musique immersive et envoûtante. Sur scène, chaque performance invite à un voyage sensoriel où le métissage culturel, le partage et l'émotion sont au cœur de l'expérience.\nPassionné de musique dès son plus jeune âge, il se forme à la guitare classique au Conservatoire. À 19 ans il entame un cursus professionnel au CMCN de Nancy d’où il sort diplômé. Il entame sa carrière professionnelle en composant pour le théâtre et la danse (Cie Materia Prima, Cie Sans Sommeil, etc.) . \nTrès actif depuis 35 ans sur la scène Grand Est et à l’international, il a créé de nombreux groupes et projets musicaux. Il documentaires. Il est fréquemment appelé par l’opéra de Nancy pour des créations musicales et autres…",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 48.660551,
-    "lng": 6.181205,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/181fc705-639f-3260-8e9b-9c67df20899c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-decentralise-du-nancy-jazz-pulsations-james-baker",
     "name": "Concert décentralisé du Nancy Jazz Pulsations - James Baker",
     "city": "Mirecourt",
@@ -646,25 +627,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "electronest-club-1",
-    "name": "Electronest Club #1",
-    "city": "Metz",
-    "region": null,
-    "description": "Electronest Club #1Electronest Club est un nouveau rendez-vous dédié aux musiques électroniques et à la culture club, imaginé pour réunir les talents de la scène locale et des artistes de la scène nationale.\n\nPour cette première édition, DUEL (live), Egoh (2000 et Demi / Kluster), Cøntrast b2b Mvgen (Virgae), MZA et KUSS se succéderont pour une programmation entre techno contemporaine et énergie club.\nÀ l'intérieur, le dancefloor sera le cœur de la soirée. À l'extérieur, un espace aménagé avec bar, food trucks et chill zone permettra de se retrouver, de boire un verre, de manger et de profiter de l'ambiance.\n\nPensé comme un rendez-vous plutôt qu'un événement unique, Electronest Club #1 marque la rencontre de plusieurs acteurs de la scène électronique messine autour d'une ambition commune : faire grandir la culture club sur notre territoire.\n\nBienvenue à Metz. Bienvenue à Bliiida. Bienvenue au premier chapitre d'Electronest.\nCet évènement fait partie de la programmation Metz l'étudiante l'event 6.",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 49.126989,
-    "lng": 6.183633,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/bcfa39f5-fe70-3c61-8dd4-e7fa1468dffc"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-njp-2026-dame-area-junglist-nancy",
     "name": "Concert - NJP 2026 - Dame Area - Junglist Nancy",
     "city": "Nancy",
@@ -1007,18 +969,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-dansante-le-hot-local-dj-skouss-set-house",
-    "name": "Soirée dansante : Le Hot Local – DJ SKOUSS, set house",
-    "city": "Marennes-Hiers-Brouage",
+    "slug": "concert-sofaz-afro-electro-a-la-couveuse",
+    "name": "Concert SOFAZ – Afro-électro à La Couveuse",
+    "city": "Chadrac",
     "region": null,
-    "description": "DJ SKOUSS, alias Louis Gillardeau, jeune talent de Marennes, prend les platines pour un set house : la scène locale de demain, à découvrir au plus près.",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 45.828161,
-    "lng": -1.096219,
+    "description": "Une soirée afro-électro à La Couveuse avec SOFAZ, entre maloya réunionnais, rythmes afro, transe gnaoua et musique électronique, accompagnée par les sets festifs de DJ Radio Barjo.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 45.06108,
+    "lng": 3.904995,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/13/26c68a55-35ad-33e2-8d9a-60b28f722d29"
+      "https://data.datatourisme.fr/13/20192b00-e827-3311-87c3-2a8b1889f0be"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1043,6 +1005,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "roots-raid-baku",
+    "name": "Roots Raid & Bakû",
+    "city": "Bourg-lès-Valence",
+    "region": null,
+    "description": "Première date annoncée de la nouvelle saison des soirées Vacarme N Dub !",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-23",
+    "lat": 44.938348,
+    "lng": 4.888331,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/277fbff9-e411-3b9b-8eae-f0ed3bf075b8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "ultramoule-primitif-s-undae-tropic",
@@ -1368,25 +1349,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-lmzg",
-    "name": "Concert - LMZG",
-    "city": "Digne-les-Bains",
-    "region": null,
-    "description": "LMZG est un groupe français venu des quatre coins de l'hexagone qui fédère partout où il passe ! Véritable tornade d’énergie, le groupe fusionne une électro moderne avec la chaleur d’une section cuivres typée brass band (saxophones, trompette).",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 44.099945,
-    "lng": 6.230185,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/986be2d3-abfa-395d-9028-f3290a1e0d35"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "ballet-de-l-opera-de-lyon-house-de-sharon-eyal-le-sacre-du-printemps-de-mats-ek",
     "name": "Ballet de L’Opéra de Lyon - \"House\" de Sharon Eyal – \"Le Sacre du Printemps\" de Mats Ek",
     "city": "Fréjus",
@@ -1404,6 +1366,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "temps-fort-electro-6-club-electro",
+    "name": "Temps fort Électro #6 : Club Électro",
+    "city": "Montluçon",
+    "region": null,
+    "description": "En partenariat avec Le 109, découvrez un outil participatif et ludique de sensibilisation du jeune public aux musiques électroniques.\r\nDés 7 ans. Sur inscription.",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "lat": 46.330725,
+    "lng": 2.605275,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/a709355d-deb4-3399-b975-0d6ce45c87bb"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-zaza-fournier-melissmell",
@@ -1539,25 +1520,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "109-tunnel-session-1",
-    "name": "109 - Tunnel Session #1",
-    "city": "Montluçon",
-    "region": null,
-    "description": "Tunnel, c’est le nouveau rendez-vous techno du 109. Un vendredi tous les deux mois, le club laisse la main à une programmation tournée vers les scènes underground, les nouveaux projets et les DJs du coin.",
-    "startDate": "2026-09-25",
-    "endDate": "2026-09-26",
-    "lat": 46.327707,
-    "lng": 2.579466,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/cd08715a-1ff1-37c4-928a-d531c98f2c1f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "soirees-a-theme-au-cabaret-domaine-de-la-laigne",
     "name": "Soirées à thème au Cabaret Domaine de la Laigne",
     "city": "Sainte-Lheurine",
@@ -1575,25 +1537,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "20-ans-des-studios-de-la-cordo-concert-rock-punk",
-    "name": "20 ans des studios de la Cordo - Concert rock punk",
-    "city": "Romans-sur-Isère",
-    "region": null,
-    "description": "Pour célébrer les 20 ans, les studios de La Cordo prennent en main la programmation pour une soirée exceptionnelle avec The Socials (post-punk), Hype Lights (hardcore/emo), Feat The Sun (rock alternatif) et Rebut (punk garage). Bar et petite restauration.",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 45.043161,
-    "lng": 5.043821,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/d3bd5451-3deb-344c-bf9c-3f58cc3177d9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "odeza-trio",
@@ -1917,25 +1860,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "repas-dansant-annees-80",
-    "name": "Repas dansant Années 80'",
-    "city": "Thiviers",
-    "region": null,
-    "description": "Soirée dansant ambiance Disco avec le thème des Années 80' !",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 45.4178683,
-    "lng": 0.92385279,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/4251a715-141c-32fb-b252-29ffa8a4ae38"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-electro-acid-nightmare",
@@ -2950,18 +2874,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "dj-electro-thiix",
-    "name": "DJ Electro Thiix",
-    "city": "Le Juch",
+    "slug": "disco-pom-roulettes",
+    "name": "Disco Pom'roulettes",
+    "city": "Telgruc-sur-Mer",
     "region": null,
     "description": "",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 48.0349614,
-    "lng": -4.2437439,
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-03",
+    "lat": 48.25131,
+    "lng": -4.38017,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/38/b3af54c1-b583-3e7c-8abd-457393db5612"
+      "https://data.datatourisme.fr/38/7f90f6ba-a369-33c5-aef4-578b50dcbdd3"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3450,25 +3374,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "dub-impakt-4",
-    "name": "DUB IMPAKT #4",
-    "city": "Saint-Brevin-les-Pins",
-    "region": null,
-    "description": "",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-26",
-    "lat": 47.23646,
-    "lng": -2.15601,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/49/7429db67-9ad9-34bf-ad30-dcb3e2dc242e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "royal-ballet-opera-au-cinema-casse-noisette",
     "name": "Royal Ballet & Opera au cinéma - CASSE-NOISETTE",
     "city": "Pouzauges",
@@ -3735,6 +3640,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "kasbah-presente-dardar-live-all-night-long",
+    "name": "Kasbah Présente Dardar (Live) All Night Long",
+    "city": "Marseille 5e Arrondissement",
+    "region": null,
+    "description": "DAR - en arabe (دار), signifie « maison », « foyer » ou encore un lieu de vie.\r\nPour cette soirée, Kasbah transforme le dancefloor en un espace de création autour de la House Music. Pendant un All Night Long, il sera accompagné de deux musiciens issus des",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-09",
+    "lat": 43.293233,
+    "lng": 5.39175,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/7097059c-fb28-3173-bd10-51e8fb4ff657"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "vioflesh-bellog-guest",
     "name": "Vioflesh + Bellog + Guest",
     "city": "Marseille 6e Arrondissement",
@@ -3847,6 +3771,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "j-peux-pas-j-ai-techno-8",
+    "name": "J'PEUX PAS J'AI TECHNO #8",
+    "city": "Scey-sur-Saône-et-Saint-Albin",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 47.6678496,
+    "lng": 5.97256973,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/6/3a92a89e-ea7c-3d15-895e-f3e3d674c047"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "live-dub-session-full-dub-bass-trooperz-amhka-dub",
@@ -4123,51 +4066,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "kc-zenker-brothers-itaho-pacome-orzi-euromax-dj-jeanneto",
-    "name": "KC [Zenker Brothers • Itaho & Pacôme Orzi • EUROMAX DJ • JeanneTo]",
-    "city": "Strasbourg",
-    "address": "Karmen Camina, 4 cour des Cigarières 67000 Strasbourg",
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2528826",
-    "lineup": [
-      "Zenker Brothers",
-      "Dario Zenker",
-      "Marco Zenker",
-      "Itaho",
-      "Pacôme Orzi",
-      "EUROMAX DJ"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2528826"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "park-n-sound-closing-2026-open-air-gratuit",
-    "name": "Park'n'Sound Closing 2026 — Open Air gratuit",
-    "city": "Strasbourg",
-    "address": null,
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2541596",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2541596"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "the-holy-rave-34-besancon",
     "name": "The Holy Rave #34 - Besançon",
     "city": "Chalezeule",
@@ -4261,36 +4159,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "super-7-slow-opening-jeudi-a-dimanche",
-    "name": "Super 7 : slow opening — jeudi à dimanche ",
-    "city": "Lyon",
-    "address": "Super7, 40 rue Saint-Jérôme 69007 Lyon",
-    "region": null,
-    "startDate": "2026-09-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2542811",
-    "lineup": [
-      "Axymt.",
-      "Farah (2)",
-      "Mouataz",
-      "IMA:R",
-      "ISA",
-      "Pablo Valentino",
-      "P errine",
-      "S.D.S",
-      "Tauceti (FR)",
-      "Waxist"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2542811"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "sarab-x-hypercontent-festival-un-doua-de-jazz-33e-edition",
@@ -4457,46 +4325,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "utopia-festival-tome-vi",
-    "name": "UTOPIA FESTIVAL - TOME VI",
-    "city": "Marseille",
-    "address": "Cabaret  Aléatoire, 41 Rue Jobin, 13003, Marseille",
-    "region": null,
-    "startDate": "2026-09-25",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2329789",
-    "lineup": [
-      "Colin Benders",
-      "EARGASM GOD",
-      "KX CHR",
-      "ROÜGE",
-      "Urumi",
-      "KLOUD",
-      "PRADA2000",
-      "Leo Pol",
-      "MATRAKK",
-      "Paralich",
-      "Alycia Bezgo",
-      "KimberlaID",
-      "LÄUFF",
-      "Lisa Korver",
-      "Vera Grace",
-      "Koboyo",
-      "Justine Perry",
-      "Jack de Marseille",
-      "JOHX",
-      "La Dame"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2329789"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "variante billetterie de « Utopia Festival » (mêmes dates)"
-  },
-  {
     "slug": "cloture-actoral-festival-petit-cab",
     "name": "Clôture Actoral Festival @ Petit Cab",
     "city": "MARSEILLE",
@@ -4585,98 +4413,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "edging-tickets-en-vente-sur-place-complet-en-preventes",
-    "name": "EDGING (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
-    "city": "Paris",
-    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2528536",
-    "lineup": [
-      "Bambii",
-      "Lancer (2)",
-      "Loraine James",
-      "Broodoo Ramses",
-      "Feadz",
-      "Tati au Miel",
-      "Renoiterrible",
-      "Jay Mitta",
-      "Crystallmess"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2528536"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "pisitrance-open-air-w-athzira-faders-talamasca-more",
-    "name": "Pisitrance Open Air W/ Athzira, Faders, Talamasca & More",
-    "city": "Paris",
-    "address": null,
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2533195",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2533195"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-terminal-trax-lymsa-deleter",
-    "name": "After O'Clock X La Plage Open Air: Terminal Trax, Lymsa, Deleter",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2530967",
-    "lineup": [
-      "Terminal Trax"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2530967"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "open-herbe-14h-rooftop-party",
-    "name": "OPEN HERBE - 14H ROOFTOP PARTY",
-    "city": "Paris",
-    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2517434",
-    "lineup": [
-      "Dielli",
-      "Pontcho",
-      "Longneck"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2517434"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-x-timit",
@@ -4919,6 +4655,7 @@
     "lineup": [
       "Aldonna",
       "Known Artist",
+      "Owlshake",
       "Donna Gibson",
       "Black Truffle",
       "Aï Smash",
@@ -5172,44 +4909,22 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-grande-fete-la-disco-contre-attaque",
-    "name": "LA GRANDE FÊTE : LA DISCO CONTRE ATTAQUE",
+    "slug": "la-ch-ck-just-dance-irl",
+    "name": "LA CH!CK : JUST DANCE IRL",
     "city": "Paris",
     "region": "Île-de-France",
     "description": "",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-27",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-16",
     "lat": null,
     "lng": null,
-    "officialUrl": "https://dice.fm/event/6a7b3282d935bf0001782a51",
+    "officialUrl": "https://dice.fm/event/6ab3ecd1a7131800010f95e2",
     "lineup": [],
     "source": "dice",
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6a7b3282d935bf0001782a51"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "less-drama-more-techno-september-issue",
-    "name": "Less Drama More Techno [September issue]",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-27",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a97f79a111fa90001cd3c25",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a97f79a111fa90001cd3c25"
+      "https://dice.fm/event/6ab3ecd1a7131800010f95e2"
     ],
     "status": "announced",
     "needsReview": true,

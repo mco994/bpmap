@@ -865,6 +865,33 @@
     ]
   },
   {
+    "id": "open-air-house-pavillon-framboise",
+    "slug": "open-air-house-pavillon-framboise",
+    "name": "OPEN AIR HOUSE *PAVILLON FRAMBOISE*",
+    "description": "",
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "lat": 48.87032,
+    "lng": 2.38495,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "house"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2542209",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://ra.co/events/2542209"
+    ]
+  },
+  {
     "id": "hors-sol-open-air-marseille",
     "slug": "hors-sol-open-air-marseille",
     "name": "HORS-SOL [open-air] — Marseille",
