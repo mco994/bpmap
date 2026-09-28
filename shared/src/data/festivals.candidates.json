@@ -152,25 +152,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "megafoire-aux-disques-de-nancy",
-    "name": "Mégafoire aux disques de Nancy",
-    "city": "Nancy",
-    "region": null,
-    "description": "Après une première édition qui a largement trouvé son public, la Mégafoire aux Disques de Nancy revient pour un deuxième rendez-vous encore plus ambitieux.\n\nPendant deux jours, la Grande Halle du site L’Autre Canal – L’Octroi Nancy se transforme en un immense marché dédié à la musique enregistrée, avec des exposants venus de toute la France mais aussi de Belgique, d'Allemagne et d'autres pays européens.\n\nDes milliers de références vous attendent :\n- Vinyles neufs et d'occasion\n- CD\n- DVD & Blu-ray\n- Livres musicaux\n- Goodies, affiches, collectors et bien d'autres surprises...\n\nQue vous soyez collectionneur passionné, amateur de belles découvertes ou simple curieux, vous pourrez fouiller des centaines de mètres de stands à la recherche de la pièce qui manque à votre collection.\nRock, pop, jazz, métal, punk, soul, funk, hip-hop, reggae, électro, musique classique, bandes originales... tous les styles seront représentés.\n\nDes milliers de disques, des dizaines d'exposants, deux jours de découvertes dans l'un des plus beaux lieux de Nancy.\nLe rendez-vous incontournable des collectionneurs et des amoureux de musique dans le Grand Est !",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-27",
-    "lat": 48.6936551420555,
-    "lng": 6.19938433170319,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/29b9fe26-4b0d-39e1-b019-4fc22e9be65e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "concert-njp-2026-la-rvfleuse-houdi-juste-shani",
     "name": "Concert - NJP 2026 - La Rvfleuse - Houdi - Juste Shani",
     "city": "Nancy",
@@ -1425,25 +1406,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "electro-fort-festival",
-    "name": "Electro'fort Festival",
-    "city": "Léaz",
-    "region": null,
-    "description": "Electro’Fort Festival: c’est reparti pour une 4ème édition !",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-27",
-    "lat": 46.10639,
-    "lng": 5.878004,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/be27c860-b0c9-3be5-94d3-df76cc4e7136"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
     "slug": "concert-electro-lab-6",
     "name": "Concert : Electro Lab #6",
     "city": "Rochefort",
@@ -1615,6 +1577,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "les-jeudis-sonnants-argalouve-electro-rap",
+    "name": "Les Jeudis Sonnants - Argalouve (electro-rap)",
+    "city": "Nogent-le-Rotrou",
+    "region": null,
+    "description": "CONCERT - ARGALOUVE > Electro-rap.\n19h : atelier d'écriture avec Malou Estenne, pour adultes et créateur·ices.\n21h : Concert \nArgalouve balance avec fracas un rap intime et politico-festif avec une bonne dose de second degré. \nOuverture e des portr dès 18h.",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-15",
+    "lat": 48.319951,
+    "lng": 0.82397,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/1d28da41-ea0b-3d99-a500-9778617225e3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "local-sessions",
     "name": "Local Sessions",
     "city": "Loches",
@@ -1651,6 +1632,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "les-jeudis-sonnants-la-boite-noire",
+    "name": "Les Jeudis Sonnants - La Boîte Noire",
+    "city": "Nogent-le-Rotrou",
+    "region": null,
+    "description": "CONCERT - LA BOITE NOIRE\nDirection les années 90 avec La Boîte Noire, une fanfare déjantée qui compte bien réveiller vos souvenirs des boîtes de nuit de l’époque ! 6 musiciens, du disco et une bonne dose d’énergie pour vous faire danser. \nAvant échauffez-vous avec le blind test années 90 (20h)",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-08",
+    "lat": 48.3203512,
+    "lng": 0.82407648,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/69a738a5-8807-36e4-887a-75c330bf46c1"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "qui-vive-musique",
@@ -2703,6 +2703,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "danse-rave-lucid-mazelfreten",
+    "name": "[Danse] Rave Lucid | Mazelfreten",
+    "city": "Dieppe",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-02",
+    "lat": 49.922838,
+    "lng": 1.081005,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/a737f850-b486-3e5f-a5ba-126f2b71b383"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "danse-rave-lucid",
     "name": "Danse : Rave Lucid",
     "city": "Le Havre",
@@ -2779,23 +2798,23 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "evenement-musique-electro-c-est-le-jour-et-la-nuit",
-    "name": "ÉVÉNEMENT MUSIQUE ÉLECTRO : C’EST LE JOUR ET LA NUIT",
-    "city": "Aurignac",
+    "slug": "concert-duchesse-bleue-dj-set",
+    "name": "CONCERT - DUCHESSE BLEUE + DJ SET",
+    "city": "Cassagnabère-Tournas",
     "region": null,
-    "description": "Une après-midi et une nuit de musique électronique de différents styles à découvrir sous plusieurs angles.\nÉvènement co-organisé avec Du Vent Dans Les Poils.",
-    "startDate": "2026-09-26",
-    "endDate": "2026-09-27",
-    "lat": 43.217374,
-    "lng": 0.881653,
+    "description": "La Pistouflerie vous propose un concert pop électro.",
+    "startDate": "2026-10-03",
+    "endDate": "2026-10-03",
+    "lat": 43.2278348,
+    "lng": 0.79236728,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/33/14219966-59cc-3f76-99a0-9af0c8b8bc60"
+      "https://data.datatourisme.fr/33/f8b0790e-9194-3c64-a501-954232c96522"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "pyrenees-reggae-dub-fest-3",
@@ -4130,37 +4149,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "le-sucre-24-heures",
-    "name": "Le Sucre, 24 heures",
-    "city": "Lyon",
-    "address": "Le Sucre, 50 quai Rambaud, 69002 Lyon, France",
-    "region": null,
-    "startDate": "2026-09-26",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2535154",
-    "lineup": [
-      "THELMA",
-      "DJ Physical",
-      "Surusinghe",
-      "RIGO",
-      "CallBackSami",
-      "Tony Romera",
-      "Skin On Skin",
-      "LEGRAM VG",
-      "Airod",
-      "Jacidorex",
-      "KIRARA"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2535154"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "sarab-x-hypercontent-festival-un-doua-de-jazz-33e-edition",
     "name": "SARĀB x HYPERCONTENT! – Festival Un Doua de Jazz – 33e édition",
     "city": "Lyon",
@@ -4409,55 +4397,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2534422"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-x-timit",
-    "name": "After O'clock X La Plage Open Air X TIMIT",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-09-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2531157",
-    "lineup": [
-      "Nicol",
-      "A-440",
-      "DjFREDDY"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2531157"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "oui-hours-presente-lefblom-carte-blanche",
-    "name": "Oui Hours Présente: Lefblom Carte Blanche",
-    "city": "Paris",
-    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
-    "region": null,
-    "startDate": "2026-09-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2544125",
-    "lineup": [
-      "Lefblom",
-      "Aurèle",
-      "Ian Maur",
-      "Lüma-G",
-      "Marli",
-      "Scarlet"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2544125"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4768,50 +4707,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "closing-rooftop-2026-roni-blum-house",
-    "name": "Closing Rooftop 2026: RONI + Blum House",
-    "city": "BALMA",
-    "address": "Interference, 56 route de Lavaur 31130 BALMA",
-    "region": null,
-    "startDate": "2026-09-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2522652",
-    "lineup": [
-      "RONI"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2522652"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "sarlat-open-air-4",
-    "name": "SARLAT OPEN AIR 4#",
-    "city": null,
-    "address": null,
-    "region": null,
-    "startDate": "2026-09-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2540420",
-    "lineup": [
-      "JerOhm (FR)",
-      "Finzy",
-      "Gob Itch"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2540420"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
   },
   {
     "slug": "bordeaux-open-air-parc-de-bourran",
