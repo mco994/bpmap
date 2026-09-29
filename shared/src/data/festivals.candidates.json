@@ -4149,6 +4149,28 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "open-air-house-to-techno-passion-caisson-x-hidden-garden",
+    "name": "OPEN AIR HOUSE TO TECHNO - PASSION CAISSON x HIDDEN GARDEN",
+    "city": "Lyon",
+    "address": null,
+    "region": null,
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2547682",
+    "lineup": [
+      "MRXY",
+      "Messina"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2547682"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "sarab-x-hypercontent-festival-un-doua-de-jazz-33e-edition",
     "name": "SARĀB x HYPERCONTENT! – Festival Un Doua de Jazz – 33e édition",
     "city": "Lyon",
@@ -4229,6 +4251,27 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2535362"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "open-air-xxl-hidden-garden-x-bfs-stade-georges-lyvet",
+    "name": "OPEN AIR XXL - HIDDEN GARDEN x BFS - STADE GEORGES LYVET",
+    "city": "Lyon",
+    "address": null,
+    "region": null,
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "officialUrl": "https://ra.co/events/2547775",
+    "lineup": [
+      "Messina"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2547775"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4557,6 +4600,28 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "after-o-clock-x-la-plage-open-air-oxtazz-red-egma-voltaire",
+    "name": "After O'Clock X La Plage Open Air: Oxtazz, Red Egma, Voltaire",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2547378",
+    "lineup": [
+      "Oxtazz",
+      "Voltaire"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2547378"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "tete-vide-a-bal-chavaux-ma-sha-aloka-acide-plastique-b2b-b3bz-xea-b2b-hyperlison",
     "name": "TETE VIDE à Bal Chavaux: Ma Sha, Aloka, Acide Plastique b2b b3bz, Xea b2b Hyperlison",
     "city": "Montreuil",
@@ -4604,6 +4669,29 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2543577"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-ricardo-garduno-miss-nat-h-lee-le-saint",
+    "name": "After O'Clock X La Plage Open Air: Ricardo Garduno, Miss Nat H Lee, Le Saint",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2547434",
+    "lineup": [
+      "Miss Nat-H-Lee",
+      "Ricardo Garduno",
+      "Le Saint"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2547434"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4682,6 +4770,28 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "la-mona-rooftop-party-with-leleon-nick-v-whacking-class-by-leleon",
+    "name": "La Mona Rooftop party with LeLeon, Nick V & Whacking Class by LeLeon",
+    "city": "Paris",
+    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
+    "region": null,
+    "startDate": "2026-10-09",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2547606",
+    "lineup": [
+      "LeLeon",
+      "Nick V"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2547606"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "tear-club-is-back",
     "name": "tear club is back ★",
     "city": "Paris",
@@ -4758,6 +4868,49 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "10-years-of-rave-moontrip-x-interference",
+    "name": "10 YEARS OF RAVE - Moontrip x Interference",
+    "city": "BALMA",
+    "address": "Interference, 56 route de Lavaur 31130 BALMA",
+    "region": null,
+    "startDate": "2026-11-20",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2547622",
+    "lineup": [
+      "Chocolanouar"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2547622"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "maison-house-launch-party",
+    "name": "Maison House Launch Party",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-02",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6abb822f817e120001dbdf25",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6abb822f817e120001dbdf25"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "house-of-love-nightchou-young-pulse",

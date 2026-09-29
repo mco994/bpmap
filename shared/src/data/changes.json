@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-09-29:electronest:lineup",
+    "festivalId": "electronest",
+    "festivalSlug": "electronest",
+    "festivalName": "Electronest",
+    "type": "lineup",
+    "date": "2026-09-29",
+    "summary": "Le line-up a été mis à jour."
+  },
+  {
     "id": "2026-09-27:open-air-house-pavillon-framboise:added",
     "festivalId": "open-air-house-pavillon-framboise",
     "festivalSlug": "open-air-house-pavillon-framboise",
