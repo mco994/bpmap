@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Link } from 'expo-router';
+import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
 import {
   bestQueryMatch,
@@ -57,6 +58,7 @@ export function FestivalRow({ festival, highlightQuery = '' }: Props) {
           <PressableScale
             onPress={(e) => {
               e.stopPropagation();
+              void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
               toggleFavorite(festival.id);
             }}
             hitSlop={13}

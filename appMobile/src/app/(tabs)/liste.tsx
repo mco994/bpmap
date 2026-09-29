@@ -1,6 +1,7 @@
 import { useDeferredValue, useMemo, useState } from 'react';
 import { SectionList, StyleSheet, TextInput, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
+import * as Haptics from 'expo-haptics';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
   applyFilters,
@@ -117,7 +118,11 @@ export default function ListeScreen() {
             {(['date', 'alpha'] as const).map((mode) => (
               <PressableScale
                 key={mode}
-                onPress={() => setSortMode(mode)}
+                onPress={() => {
+                  if (mode === sortMode) return;
+                  void Haptics.selectionAsync();
+                  setSortMode(mode);
+                }}
                 hitSlop={{ top: 4, bottom: 4 }}
                 accessibilityRole="button"
                 accessibilityState={{ selected: sortMode === mode }}

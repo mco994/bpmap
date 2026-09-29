@@ -1,5 +1,6 @@
 import { Alert, ScrollView, StyleSheet, View } from 'react-native';
 import { Stack, useLocalSearchParams } from 'expo-router';
+import * as Haptics from 'expo-haptics';
 import { Ionicons } from '@expo/vector-icons';
 import {
   effectiveStatus,
@@ -92,7 +93,10 @@ export default function FestivalDetailScreen() {
 
         <View style={styles.actions}>
           <PressableScale
-            onPress={() => toggleFavorite(festival.id)}
+            onPress={() => {
+              void Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+              toggleFavorite(festival.id);
+            }}
             accessibilityRole="button"
             accessibilityState={{ selected: isFavorite }}
             accessibilityLabel={isFavorite ? 'Ne plus suivre cet événement' : 'Suivre cet événement'}

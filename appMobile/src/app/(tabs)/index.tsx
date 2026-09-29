@@ -1,6 +1,7 @@
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import { Alert, Keyboard, StyleSheet, TextInput, View } from 'react-native';
 import { useRouter } from 'expo-router';
+import * as Haptics from 'expo-haptics';
 import {
   Camera,
   GeoJSONSource,
@@ -229,7 +230,13 @@ export default function CarteScreen() {
             closeSearch();
             const id = event.nativeEvent.features?.[0]?.properties?.id;
             const festival = typeof id === 'string' ? byId.get(id) : undefined;
-            if (festival) select(festival.id === selected?.id ? null : festival);
+            if (!festival) return;
+            if (festival.id === selected?.id) {
+              select(null);
+            } else {
+              void Haptics.selectionAsync();
+              select(festival);
+            }
           }}
         >
           <Layer
