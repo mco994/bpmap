@@ -45,7 +45,6 @@ export default function ListeScreen() {
   );
   const byDate = useMemo(() => groupByMonth(festivals), [festivals]);
   const byAlpha = useMemo(() => groupByLetter(festivals), [festivals]);
-  const sections = sortMode === 'alpha' ? byAlpha : byDate;
   const active = activeFiltersCount(filters);
   const correction = useMemo(() => {
     const trimmed = deferredQuery.trim();
