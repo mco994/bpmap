@@ -34,6 +34,7 @@ import {
   rubberband,
   SNAP_BACK_SPRING,
 } from '@/lib/motion';
+import { PressableScale } from '@/components/pressable-scale';
 
 export function ItineraryButton({ festival }: { festival: Festival }) {
   const theme = useTheme();
@@ -142,14 +143,14 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
 
   return (
     <>
-      <Pressable
+      <PressableScale
         accessibilityRole="button"
         onPress={() => setVisible(true)}
         style={[styles.action, { backgroundColor: theme.backgroundElement }]}
       >
         <Ionicons name="navigate-outline" size={16} color={theme.accent} />
         <ThemedText type="smallBold"> Itinéraire</ThemedText>
-      </Pressable>
+      </PressableScale>
 
       <Modal visible={mounted} transparent animationType="none" onRequestClose={close}>
         <GestureHandlerRootView style={styles.flex}>
@@ -174,7 +175,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
                   <View style={[styles.grabber, { backgroundColor: theme.backgroundSelected }]} />
                   <ThemedText type="subtitle">Itinéraire vers {festival.name}</ThemedText>
 
-                  <Pressable
+                  <PressableScale
                     onPress={() => go()}
                     style={[styles.primary, { backgroundColor: theme.accent }]}
                   >
@@ -183,7 +184,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
                       {' '}
                       Depuis ma position
                     </ThemedText>
-                  </Pressable>
+                  </PressableScale>
 
                   <ThemedText type="small" themeColor="textSecondary">
                     ou depuis une adresse
@@ -217,7 +218,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
                     </View>
                   ) : null}
 
-                  <Pressable
+                  <PressableScale
                     disabled={!address.trim()}
                     onPress={goFromAddress}
                     style={[
@@ -228,7 +229,7 @@ export function ItineraryButton({ festival }: { festival: Festival }) {
                     <ThemedText type="smallBold" style={{ color: theme.accent }}>
                       Y aller depuis cette adresse
                     </ThemedText>
-                  </Pressable>
+                  </PressableScale>
                 </ThemedView>
               </Animated.View>
             </GestureDetector>

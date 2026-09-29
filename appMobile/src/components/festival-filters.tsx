@@ -1,4 +1,4 @@
-import { Pressable, ScrollView, StyleSheet, Switch, View } from 'react-native';
+import { ScrollView, StyleSheet, Switch, View } from 'react-native';
 import {
   GENRES,
   SIZE_TIERS,
@@ -12,6 +12,7 @@ import {
 import { ThemedText } from '@/components/themed-text';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
+import { PressableScale } from '@/components/pressable-scale';
 
 const PRICE_PRESETS = [20, 40, 60, 100];
 
@@ -35,7 +36,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 function Chip({ label, active, onPress }: { label: string; active: boolean; onPress: () => void }) {
   const theme = useTheme();
   return (
-    <Pressable
+    <PressableScale
       onPress={onPress}
       accessibilityRole="button"
       accessibilityState={{ selected: active }}
@@ -47,7 +48,7 @@ function Chip({ label, active, onPress }: { label: string; active: boolean; onPr
       <ThemedText style={[styles.chipLabel, active && { color: theme.accent, fontWeight: '700' }]}>
         {label}
       </ThemedText>
-    </Pressable>
+    </PressableScale>
   );
 }
 
@@ -139,11 +140,11 @@ export function FestivalFilters({ value, onChange, onReset }: Props) {
 
       {!isEmptyFilters(value) ? (
         <View style={styles.footer}>
-          <Pressable onPress={onReset} hitSlop={8} accessibilityRole="button">
+          <PressableScale onPress={onReset} hitSlop={8} accessibilityRole="button">
             <ThemedText type="smallBold" style={{ color: theme.accent }}>
               Retirer tous les filtres
             </ThemedText>
-          </Pressable>
+          </PressableScale>
         </View>
       ) : null}
     </ScrollView>

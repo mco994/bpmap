@@ -45,7 +45,10 @@ export function ChangesFeed({ followedIds }: { followedIds: Set<string> }) {
           <Pressable
             key={c.id}
             onPress={() => router.push(`/festival/${c.festivalSlug}`)}
-            style={[styles.card, { backgroundColor: theme.backgroundElement }]}
+            style={({ pressed }) => [
+              styles.card,
+              { backgroundColor: pressed ? theme.backgroundSelected : theme.backgroundElement },
+            ]}
           >
             <View style={styles.cardHeader}>
               <View style={[styles.badge, { backgroundColor: theme.accentSoft }]}>

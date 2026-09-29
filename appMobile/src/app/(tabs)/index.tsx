@@ -1,5 +1,5 @@
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, Keyboard, Pressable, StyleSheet, TextInput, View } from 'react-native';
+import { Alert, Keyboard, StyleSheet, TextInput, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import {
   Camera,
@@ -53,6 +53,7 @@ import {
   setQuery,
   useFilterState,
 } from '@/lib/filters-store';
+import { PressableScale } from '@/components/pressable-scale';
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
 const FRANCE_CENTER: [number, number] = [2.5, 46.6];
@@ -271,13 +272,13 @@ export default function CarteScreen() {
         >
           {searchOpen ? (
             <>
-              <Pressable
+              <PressableScale
                 onPress={() => toggleSearch(false)}
                 hitSlop={8}
                 accessibilityLabel="Fermer la recherche"
               >
                 <Ionicons name="arrow-back" size={18} color={theme.accent} />
-              </Pressable>
+              </PressableScale>
               <TextInput
                 value={query}
                 onChangeText={setQuery}
@@ -289,17 +290,17 @@ export default function CarteScreen() {
                 style={[styles.searchInput, { color: theme.text }]}
               />
               {query ? (
-                <Pressable
+                <PressableScale
                   onPress={() => setQuery('')}
-                  hitSlop={8}
+                  hitSlop={14}
                   accessibilityLabel="Effacer la recherche"
                 >
                   <Ionicons name="close-circle" size={16} color={theme.textSecondary} />
-                </Pressable>
+                </PressableScale>
               ) : null}
             </>
           ) : (
-            <Pressable
+            <PressableScale
               onPress={() => toggleSearch(true)}
               hitSlop={8}
               accessibilityLabel="Rechercher"
@@ -307,7 +308,7 @@ export default function CarteScreen() {
             >
               <Ionicons name="search" size={18} color={theme.accent} />
               {query ? <View style={[styles.dot, { backgroundColor: theme.accentStrong }]} /> : null}
-            </Pressable>
+            </PressableScale>
           )}
         </Animated.View>
 
@@ -318,16 +319,18 @@ export default function CarteScreen() {
             style={styles.topBarRight}
           >
             {hasActiveFilters(filterState) ? (
-              <Pressable
+              <PressableScale
                 onPress={clearAllFilters}
+                hitSlop={8}
                 accessibilityLabel="Retirer tous les filtres"
                 style={[styles.fab, { backgroundColor: theme.background }]}
               >
                 <Ionicons name="close" size={16} color={theme.accent} />
-              </Pressable>
+              </PressableScale>
             ) : null}
-            <Pressable
+            <PressableScale
               onPress={() => setPanelOpen(true)}
+              hitSlop={8}
               accessibilityLabel="Ouvrir les filtres"
               style={[
                 styles.fab,
@@ -339,7 +342,7 @@ export default function CarteScreen() {
                 {' '}
                 Filtres{active > 0 ? ` · ${active}` : ''}
               </ThemedText>
-            </Pressable>
+            </PressableScale>
           </Animated.View>
         ) : null}
         </View>
@@ -355,7 +358,7 @@ export default function CarteScreen() {
 
       <View style={styles.bottomArea} pointerEvents="box-none">
         <Animated.View layout={FAB_MOVE} style={styles.locateFabWrap}>
-          <Pressable
+          <PressableScale
             onPress={goToMyLocation}
             disabled={locating}
             accessibilityLabel="Centrer sur ma position"
@@ -366,7 +369,7 @@ export default function CarteScreen() {
               size={20}
               color={locating ? theme.textSecondary : theme.accent}
             />
-          </Pressable>
+          </PressableScale>
         </Animated.View>
         {selected ? (
           <Animated.View
@@ -415,11 +418,11 @@ export default function CarteScreen() {
 
               <View style={styles.actions}>
                 <ItineraryButton festival={selected} />
-                <Pressable onPress={openFiche} hitSlop={8}>
+                <PressableScale onPress={openFiche} hitSlop={12}>
                   <ThemedText type="smallBold" style={{ color: theme.accent }}>
                     Voir la fiche →
                   </ThemedText>
-                </Pressable>
+                </PressableScale>
               </View>
           </Animated.View>
         ) : null}

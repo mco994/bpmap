@@ -1,5 +1,5 @@
 import { useDeferredValue, useMemo, useState } from 'react';
-import { Pressable, SectionList, StyleSheet, TextInput, View } from 'react-native';
+import { SectionList, StyleSheet, TextInput, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
@@ -25,6 +25,7 @@ import {
   setQuery,
   useFilterState,
 } from '@/lib/filters-store';
+import { PressableScale } from '@/components/pressable-scale';
 
 export default function ListeScreen() {
   const theme = useTheme();
@@ -70,17 +71,18 @@ export default function ListeScreen() {
             style={[styles.searchInput, { color: theme.text }]}
           />
           {query ? (
-            <Pressable
+            <PressableScale
               onPress={() => setQuery('')}
-              hitSlop={8}
+              hitSlop={14}
               accessibilityLabel="Effacer la recherche"
             >
               <Ionicons name="close-circle" size={16} color={theme.textSecondary} />
-            </Pressable>
+            </PressableScale>
           ) : null}
         </View>
-        <Pressable
+        <PressableScale
           onPress={() => setPanelOpen(true)}
+          hitSlop={8}
           accessibilityLabel="Ouvrir les filtres"
           style={[
             styles.filterButton,
@@ -94,7 +96,7 @@ export default function ListeScreen() {
               {active}
             </ThemedText>
           ) : null}
-        </Pressable>
+        </PressableScale>
       </View>
 
       <View style={styles.subHeader}>
@@ -113,10 +115,10 @@ export default function ListeScreen() {
         <View style={styles.subHeaderRight}>
           <View style={[styles.sortToggle, { borderColor: theme.backgroundElement }]}>
             {(['date', 'alpha'] as const).map((mode) => (
-              <Pressable
+              <PressableScale
                 key={mode}
                 onPress={() => setSortMode(mode)}
-                hitSlop={8}
+                hitSlop={{ top: 4, bottom: 4 }}
                 accessibilityRole="button"
                 accessibilityState={{ selected: sortMode === mode }}
                 accessibilityLabel={mode === 'date' ? 'Trier par date' : 'Trier par ordre alphabétique'}
@@ -131,15 +133,15 @@ export default function ListeScreen() {
                 >
                   {mode === 'date' ? 'Date' : 'A–Z'}
                 </ThemedText>
-              </Pressable>
+              </PressableScale>
             ))}
           </View>
           {hasActiveFilters(filterState) ? (
-            <Pressable onPress={clearAllFilters} hitSlop={8} accessibilityRole="button">
+            <PressableScale onPress={clearAllFilters} hitSlop={8} accessibilityRole="button">
               <ThemedText type="smallBold" style={{ color: theme.accent }}>
                 ✕ Filtres
               </ThemedText>
-            </Pressable>
+            </PressableScale>
           ) : null}
         </View>
       </View>
@@ -241,7 +243,7 @@ const styles = StyleSheet.create({
   },
   sortOption: {
     paddingHorizontal: Spacing.two,
-    paddingVertical: 2,
+    paddingVertical: Spacing.two,
   },
   listArea: { flex: 1 },
   listWrap: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 },

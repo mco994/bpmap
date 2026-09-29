@@ -25,6 +25,7 @@ import {
   rubberband,
   SNAP_BACK_SPRING,
 } from '@/lib/motion';
+import { PressableScale } from '@/components/pressable-scale';
 
 type Props = {
   open: boolean;
@@ -125,9 +126,9 @@ export function FilterPanel({ open, onClose, resultCount }: Props) {
                   {resultCount} événement{resultCount > 1 ? 's' : ''}
                 </ThemedText>
               </View>
-              <Pressable onPress={onClose} hitSlop={12} accessibilityLabel="Fermer les filtres">
+              <PressableScale onPress={onClose} hitSlop={12} accessibilityLabel="Fermer les filtres">
                 <ThemedText type="subtitle">✕</ThemedText>
-              </Pressable>
+              </PressableScale>
             </View>
             <FestivalFilters value={filters} onChange={setFilters} onReset={clearAllFilters} />
           </ThemedView>

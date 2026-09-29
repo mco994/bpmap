@@ -93,9 +93,10 @@ export function SearchSuggestions({ festivals, query, onSelect }: Props) {
               <Pressable
                 key={festival.id}
                 onPress={() => onSelect(festival)}
-                style={[
+                style={({ pressed }) => [
                   styles.row,
                   i > 0 && { borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: theme.backgroundSelected },
+                  pressed && { backgroundColor: theme.backgroundElement },
                 ]}
               >
                 <Highlight

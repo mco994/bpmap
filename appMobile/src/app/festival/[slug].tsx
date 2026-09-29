@@ -1,4 +1,4 @@
-import { Alert, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Alert, ScrollView, StyleSheet, View } from 'react-native';
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import {
@@ -20,6 +20,7 @@ import { Spacing } from '@/constants/theme';
 import { toggleFavorite, useIsFavorite } from '@/lib/favorites';
 import { ensureNotificationSetup, scheduleFestivalReminder } from '@/lib/notifications';
 import { ItineraryButton } from '@/components/itinerary-button';
+import { PressableScale } from '@/components/pressable-scale';
 
 export default function FestivalDetailScreen() {
   const theme = useTheme();
@@ -90,7 +91,7 @@ export default function FestivalDetailScreen() {
         </View>
 
         <View style={styles.actions}>
-          <Pressable
+          <PressableScale
             onPress={() => toggleFavorite(festival.id)}
             accessibilityRole="button"
             accessibilityState={{ selected: isFavorite }}
@@ -109,14 +110,14 @@ export default function FestivalDetailScreen() {
               {' '}
               {isFavorite ? 'Suivi' : 'Suivre'}
             </ThemedText>
-          </Pressable>
-          <Pressable
+          </PressableScale>
+          <PressableScale
             onPress={onRemind}
             style={[styles.action, { backgroundColor: theme.backgroundElement }]}
           >
             <Ionicons name="notifications-outline" size={16} color={theme.accent} />
             <ThemedText type="smallBold"> Me rappeler</ThemedText>
-          </Pressable>
+          </PressableScale>
           <ItineraryButton festival={festival} />
         </View>
 

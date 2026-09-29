@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { Link } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -16,6 +17,7 @@ import { ThemedText } from '@/components/themed-text';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import { toggleFavorite, useIsFavorite } from '@/lib/favorites';
+import { PressableScale } from '@/components/pressable-scale';
 
 type Props = {
   festival: Festival;
@@ -29,14 +31,20 @@ export function FestivalRow({ festival, highlightQuery = '' }: Props) {
   const isFavorite = useIsFavorite(festival.id);
   const accentGenre = genreColor(festival.genres[0] ?? '');
   const match = bestQueryMatch(festival, highlightQuery);
+  const [pressed, setPressed] = useState(false);
 
   return (
     <Link href={{ pathname: '/festival/[slug]', params: { slug: festival.slug } }} asChild>
       <Pressable
         accessibilityRole="button"
+        onPressIn={() => setPressed(true)}
+        onPressOut={() => setPressed(false)}
         style={StyleSheet.flatten([
           styles.card,
-          { backgroundColor: theme.backgroundElement, borderLeftColor: accentGenre },
+          {
+            backgroundColor: pressed ? theme.backgroundSelected : theme.backgroundElement,
+            borderLeftColor: accentGenre,
+          },
         ])}
       >
         <View style={styles.cardTitleRow}>
@@ -46,12 +54,12 @@ export function FestivalRow({ festival, highlightQuery = '' }: Props) {
           <ThemedText type="smallBold" style={{ color: theme.accent }}>
             {formatFromPrice(festival)}
           </ThemedText>
-          <Pressable
+          <PressableScale
             onPress={(e) => {
               e.stopPropagation();
               toggleFavorite(festival.id);
             }}
-            hitSlop={10}
+            hitSlop={13}
             accessibilityLabel={isFavorite ? 'Ne plus suivre' : 'Suivre cet événement'}
           >
             <Ionicons
@@ -59,7 +67,7 @@ export function FestivalRow({ festival, highlightQuery = '' }: Props) {
               size={18}
               color={isFavorite ? theme.accentStrong : theme.textSecondary}
             />
-          </Pressable>
+          </PressableScale>
         </View>
         <ThemedText type="small" themeColor="textSecondary">
           {festival.city} · {formatDateRange(festival.startDate, festival.endDate)}
