@@ -11,6 +11,7 @@ import {
   type StyleSpecification,
 } from '@maplibre/maplibre-react-native';
 import { Ionicons } from '@expo/vector-icons';
+import Animated, { FadeInDown, FadeOutDown, LinearTransition, ReduceMotion } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
   applyFilters,
@@ -36,6 +37,7 @@ import { ThemedText } from '@/components/themed-text';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import { getCurrentCoords } from '@/lib/geo';
+import { EASE_OUT } from '@/lib/motion';
 import {
   activeFiltersCount,
   clearAllFilters,
@@ -51,6 +53,9 @@ const PIN_SELECTED_COLOR = '#9D174D';
 const FRANCE_MASK = franceMaskGeoJSON();
 const FRANCE_ENCLAVES = franceEnclavesGeoJSON();
 const FRANCE_BORDER = franceBorderGeoJSON();
+const POPIN_ENTER = FadeInDown.duration(250).easing(EASE_OUT).reduceMotion(ReduceMotion.System);
+const POPIN_EXIT = FadeOutDown.duration(200).easing(EASE_OUT).reduceMotion(ReduceMotion.System);
+const FAB_MOVE = LinearTransition.duration(250).easing(EASE_OUT).reduceMotion(ReduceMotion.System);
 
 export default function CarteScreen() {
   const router = useRouter();
@@ -242,22 +247,6 @@ export default function CarteScreen() {
       </Map>
       )}
 
-      <Pressable
-        onPress={goToMyLocation}
-        disabled={locating}
-        accessibilityLabel="Centrer sur ma position"
-        style={[
-          styles.locateFab,
-          { backgroundColor: theme.background, bottom: (selected ? 200 : 0) + insets.bottom + Spacing.four },
-        ]}
-      >
-        <Ionicons
-          name="locate"
-          size={20}
-          color={locating ? theme.textSecondary : theme.accent}
-        />
-      </Pressable>
-
       <View style={[styles.topArea, { top: insets.top + Spacing.two }]}>
         <View style={styles.topBar}>
         <View
@@ -347,57 +336,77 @@ export default function CarteScreen() {
         ) : null}
       </View>
 
-      {selected ? (
-        <View style={[styles.popin, { backgroundColor: theme.background }]}>
-          <View style={styles.popinTitleRow}>
-            <ThemedText type="subtitle" numberOfLines={1} style={styles.popinTitle}>
-              {selected.name}
-            </ThemedText>
-            <ThemedText type="smallBold" style={{ color: theme.accent }}>
-              {formatFromPrice(selected)}
-            </ThemedText>
-          </View>
-          <ThemedText type="small" themeColor="textSecondary">
-            {selected.city} · {formatDateRange(selected.startDate, selected.endDate)}
-          </ThemedText>
-          <View style={styles.chipsRow}>
-            <GenreChips
-              genres={selected.genres}
-              highlight={selectedMatch?.field === 'genre' ? selectedMatch.genreSlug : undefined}
+      <View style={styles.bottomArea} pointerEvents="box-none">
+        <Animated.View layout={FAB_MOVE} style={styles.locateFabWrap}>
+          <Pressable
+            onPress={goToMyLocation}
+            disabled={locating}
+            accessibilityLabel="Centrer sur ma position"
+            style={[styles.locateFab, { backgroundColor: theme.background }]}
+          >
+            <Ionicons
+              name="locate"
+              size={20}
+              color={locating ? theme.textSecondary : theme.accent}
             />
-          </View>
-
-          <View style={styles.details}>
-            {selected.description ? (
-              <ThemedText type="small" numberOfLines={4}>
-                {selected.description}
-              </ThemedText>
-            ) : null}
-            {selected.organizer || sizeLabel ? (
+          </Pressable>
+        </Animated.View>
+        {selected ? (
+          <Animated.View
+            entering={POPIN_ENTER}
+            exiting={POPIN_EXIT}
+            style={[styles.popin, { backgroundColor: theme.background }]}
+          >
+              <View style={styles.popinTitleRow}>
+                <ThemedText type="subtitle" numberOfLines={1} style={styles.popinTitle}>
+                  {selected.name}
+                </ThemedText>
+                <ThemedText type="smallBold" style={{ color: theme.accent }}>
+                  {formatFromPrice(selected)}
+                </ThemedText>
+              </View>
               <ThemedText type="small" themeColor="textSecondary">
-                {[selected.organizer, sizeLabel, selected.capacity ? `~${selected.capacity.toLocaleString('fr-FR')} pers.` : null]
-                  .filter(Boolean)
-                  .join(' · ')}
+                {selected.city} · {formatDateRange(selected.startDate, selected.endDate)}
               </ThemedText>
-            ) : null}
-            {selected.lineup && selected.lineup.length > 0 ? (
-              <ThemedText type="small" themeColor="textSecondary">
-                {selected.lineup.slice(0, 8).join(', ')}
-                {selected.lineup.length > 8 ? '…' : ''}
-              </ThemedText>
-            ) : null}
-          </View>
+              <View style={styles.chipsRow}>
+                <GenreChips
+                  genres={selected.genres}
+                  highlight={selectedMatch?.field === 'genre' ? selectedMatch.genreSlug : undefined}
+                />
+              </View>
 
-          <View style={styles.actions}>
-            <ItineraryButton festival={selected} />
-            <Pressable onPress={openFiche} hitSlop={8}>
-              <ThemedText type="smallBold" style={{ color: theme.accent }}>
-                Voir la fiche →
-              </ThemedText>
-            </Pressable>
-          </View>
-        </View>
-      ) : null}
+              <View style={styles.details}>
+                {selected.description ? (
+                  <ThemedText type="small" numberOfLines={4}>
+                    {selected.description}
+                  </ThemedText>
+                ) : null}
+                {selected.organizer || sizeLabel ? (
+                  <ThemedText type="small" themeColor="textSecondary">
+                    {[selected.organizer, sizeLabel, selected.capacity ? `~${selected.capacity.toLocaleString('fr-FR')} pers.` : null]
+                      .filter(Boolean)
+                      .join(' · ')}
+                  </ThemedText>
+                ) : null}
+                {selected.lineup && selected.lineup.length > 0 ? (
+                  <ThemedText type="small" themeColor="textSecondary">
+                    {selected.lineup.slice(0, 8).join(', ')}
+                    {selected.lineup.length > 8 ? '…' : ''}
+                  </ThemedText>
+                ) : null}
+              </View>
+
+              <View style={styles.actions}>
+                <ItineraryButton festival={selected} />
+                <Pressable onPress={openFiche} hitSlop={8}>
+                  <ThemedText type="smallBold" style={{ color: theme.accent }}>
+                    Voir la fiche →
+                  </ThemedText>
+                </Pressable>
+              </View>
+          </Animated.View>
+        ) : null}
+      </View>
 
       <FilterPanel
         open={panelOpen}
@@ -468,9 +477,15 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     elevation: 3,
   },
-  locateFab: {
+  bottomArea: {
     position: 'absolute',
+    left: Spacing.three,
     right: Spacing.three,
+    bottom: Spacing.three,
+    gap: Spacing.three,
+  },
+  locateFabWrap: { alignSelf: 'flex-end' },
+  locateFab: {
     width: 44,
     height: 44,
     borderRadius: 22,
@@ -483,10 +498,6 @@ const styles = StyleSheet.create({
     elevation: 3,
   },
   popin: {
-    position: 'absolute',
-    left: Spacing.three,
-    right: Spacing.three,
-    bottom: Spacing.three,
     borderRadius: 16,
     padding: Spacing.three,
     gap: Spacing.half,
