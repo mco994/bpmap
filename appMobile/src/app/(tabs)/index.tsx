@@ -18,6 +18,7 @@ import Animated, {
   FadeOutDown,
   LinearTransition,
   ReduceMotion,
+  useReducedMotion,
 } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
@@ -101,6 +102,15 @@ export default function CarteScreen() {
   const [showPuck, setShowPuck] = useState(false);
   const [locating, setLocating] = useState(false);
   const cameraRef = useRef<CameraRef>(null);
+  const reducedMotion = useReducedMotion();
+
+  const moveCamera = (center: [number, number], zoom: number) => {
+    if (reducedMotion) {
+      cameraRef.current?.jumpTo({ center, zoom });
+    } else {
+      cameraRef.current?.flyTo({ center, zoom, duration: 900 });
+    }
+  };
 
   const festivals = useMemo(
     () => filterFestivalsByQuery(applyFilters(all, filters, now), deferredQuery),
@@ -156,11 +166,7 @@ export default function CarteScreen() {
         return;
       }
       setShowPuck(true);
-      cameraRef.current?.flyTo({
-        center: [coords.lng, coords.lat],
-        zoom: 12,
-        duration: 900,
-      });
+      moveCamera([coords.lng, coords.lat], 12);
     } finally {
       setLocating(false);
     }
@@ -170,11 +176,7 @@ export default function CarteScreen() {
     Keyboard.dismiss();
     toggleSearch(false);
     select(festival);
-    cameraRef.current?.flyTo({
-      center: [festival.lng, festival.lat],
-      zoom: 8,
-      duration: 900,
-    });
+    moveCamera([festival.lng, festival.lat], 8);
   };
 
   const sizeTier = selected ? sizeTierForCapacity(selected.capacity) : null;

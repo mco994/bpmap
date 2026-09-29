@@ -3,6 +3,7 @@ import { AppState, StyleSheet, type AppStateStatus } from 'react-native';
 import { DarkTheme, DefaultTheme, Stack, ThemeProvider, useRouter } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { useReducedMotion } from 'react-native-reanimated';
 import { useColorScheme } from 'react-native';
 import * as Notifications from 'expo-notifications';
 
@@ -17,6 +18,7 @@ async function syncPush() {
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const router = useRouter();
+  const reducedMotion = useReducedMotion();
   const appState = useRef(AppState.currentState);
 
   useEffect(() => {
@@ -43,7 +45,7 @@ export default function RootLayout() {
   return (
     <GestureHandlerRootView style={styles.root}>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-        <Stack>
+        <Stack screenOptions={{ animation: reducedMotion ? 'fade' : 'default' }}>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
           <Stack.Screen name="festival/[slug]" options={{ title: 'Festival' }} />
         </Stack>
