@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { Alert, Keyboard, LayoutAnimation, Pressable, StyleSheet, TextInput, View } from 'react-native';
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
+import { Alert, Keyboard, Pressable, StyleSheet, TextInput, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import {
   Camera,
@@ -11,7 +11,14 @@ import {
   type StyleSpecification,
 } from '@maplibre/maplibre-react-native';
 import { Ionicons } from '@expo/vector-icons';
-import Animated, { FadeInDown, FadeOutDown, LinearTransition, ReduceMotion } from 'react-native-reanimated';
+import Animated, {
+  FadeIn,
+  FadeInDown,
+  FadeOut,
+  FadeOutDown,
+  LinearTransition,
+  ReduceMotion,
+} from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import {
   applyFilters,
@@ -56,6 +63,9 @@ const FRANCE_BORDER = franceBorderGeoJSON();
 const POPIN_ENTER = FadeInDown.duration(250).easing(EASE_OUT).reduceMotion(ReduceMotion.System);
 const POPIN_EXIT = FadeOutDown.duration(200).easing(EASE_OUT).reduceMotion(ReduceMotion.System);
 const FAB_MOVE = LinearTransition.duration(250).easing(EASE_OUT).reduceMotion(ReduceMotion.System);
+const SEARCH_MORPH = LinearTransition.duration(150).easing(EASE_OUT).reduceMotion(ReduceMotion.System);
+const TOP_ACTIONS_ENTER = FadeIn.duration(120).reduceMotion(ReduceMotion.System);
+const TOP_ACTIONS_EXIT = FadeOut.duration(100).reduceMotion(ReduceMotion.System);
 
 export default function CarteScreen() {
   const router = useRouter();
@@ -84,6 +94,7 @@ export default function CarteScreen() {
   const now = useMemo(() => new Date(), []);
   const filterState = useFilterState();
   const { filters, query } = filterState;
+  const deferredQuery = useDeferredValue(query);
   const [selected, setSelected] = useState<Festival | null>(null);
   const [panelOpen, setPanelOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
@@ -92,8 +103,8 @@ export default function CarteScreen() {
   const cameraRef = useRef<CameraRef>(null);
 
   const festivals = useMemo(
-    () => filterFestivalsByQuery(applyFilters(all, filters, now), query),
-    [all, filters, query, now],
+    () => filterFestivalsByQuery(applyFilters(all, filters, now), deferredQuery),
+    [all, filters, deferredQuery, now],
   );
   const active = activeFiltersCount(filters);
 
@@ -116,7 +127,6 @@ export default function CarteScreen() {
   };
 
   const toggleSearch = (open: boolean) => {
-    LayoutAnimation.configureNext(LayoutAnimation.Presets.easeInEaseOut);
     setSearchOpen(open);
   };
 
@@ -169,7 +179,7 @@ export default function CarteScreen() {
 
   const sizeTier = selected ? sizeTierForCapacity(selected.capacity) : null;
   const sizeLabel = sizeTier ? SIZE_TIERS.find((s) => s.tier === sizeTier)?.label : null;
-  const selectedMatch = selected ? bestQueryMatch(selected, query) : null;
+  const selectedMatch = selected ? bestQueryMatch(selected, deferredQuery) : null;
 
   return (
     <View style={styles.container}>
@@ -249,7 +259,8 @@ export default function CarteScreen() {
 
       <View style={[styles.topArea, { top: insets.top + Spacing.two }]}>
         <View style={styles.topBar}>
-        <View
+        <Animated.View
+          layout={SEARCH_MORPH}
           style={[
             styles.searchPill,
             searchOpen && styles.searchPillOpen,
@@ -296,10 +307,14 @@ export default function CarteScreen() {
               {query ? <View style={[styles.dot, { backgroundColor: theme.accentStrong }]} /> : null}
             </Pressable>
           )}
-        </View>
+        </Animated.View>
 
         {!searchOpen ? (
-          <View style={styles.topBarRight}>
+          <Animated.View
+            entering={TOP_ACTIONS_ENTER}
+            exiting={TOP_ACTIONS_EXIT}
+            style={styles.topBarRight}
+          >
             {hasActiveFilters(filterState) ? (
               <Pressable
                 onPress={clearAllFilters}
@@ -323,14 +338,14 @@ export default function CarteScreen() {
                 Filtres{active > 0 ? ` · ${active}` : ''}
               </ThemedText>
             </Pressable>
-          </View>
+          </Animated.View>
         ) : null}
         </View>
 
-        {searchOpen && query.trim() ? (
+        {searchOpen && deferredQuery.trim() ? (
           <SearchSuggestions
             festivals={festivals}
-            query={query}
+            query={deferredQuery}
             onSelect={onSuggestionSelect}
           />
         ) : null}

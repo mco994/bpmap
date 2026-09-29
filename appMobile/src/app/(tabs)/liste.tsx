@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useDeferredValue, useMemo, useState } from 'react';
 import { Pressable, SectionList, StyleSheet, TextInput, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -33,26 +33,27 @@ export default function ListeScreen() {
   const now = useMemo(() => new Date(), []);
   const filterState = useFilterState();
   const { filters, query } = filterState;
+  const deferredQuery = useDeferredValue(query);
   const [panelOpen, setPanelOpen] = useState(false);
   const [sortMode, setSortMode] = useState<SortMode>('date');
 
   const festivals = useMemo(
-    () => filterFestivalsByQuery(applyFilters(all, filters, now), query),
-    [all, filters, query, now],
+    () => filterFestivalsByQuery(applyFilters(all, filters, now), deferredQuery),
+    [all, filters, deferredQuery, now],
   );
   const byDate = useMemo(() => groupByMonth(festivals), [festivals]);
   const byAlpha = useMemo(() => groupByLetter(festivals), [festivals]);
   const sections = sortMode === 'alpha' ? byAlpha : byDate;
   const active = activeFiltersCount(filters);
   const correction = useMemo(() => {
-    const trimmed = query.trim();
+    const trimmed = deferredQuery.trim();
     if (!trimmed) return null;
     for (const festival of festivals) {
       const match = bestQueryMatch(festival, trimmed);
       if (match) return match.approximate ? match.value : null;
     }
     return null;
-  }, [festivals, query]);
+  }, [festivals, deferredQuery]);
 
   return (
     <ThemedView style={[styles.container, { paddingTop: insets.top + Spacing.two }]}>
@@ -172,7 +173,7 @@ export default function ListeScreen() {
                 </ThemedText>
               </View>
             )}
-            renderItem={({ item }) => <FestivalRow festival={item} highlightQuery={query} />}
+            renderItem={({ item }) => <FestivalRow festival={item} highlightQuery={deferredQuery} />}
           />
         </View>
       ))}
