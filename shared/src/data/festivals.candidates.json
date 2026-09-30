@@ -1881,6 +1881,29 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "soiree-disco",
+    "name": "Soirée Disco",
+    "city": "Mont-de-Marsan",
+    "region": null,
+    "description": "Soirée disco, proposé par le Comité des fêtes, 19h30, salle polyvalente.",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-30",
+    "lat": 43.8959579,
+    "lng": -0.4986854,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/53fd23bf-3043-390d-a645-f04d3da74245",
+      "https://data.datatourisme.fr/23/f878054f-42ad-34e2-a780-8d6804421e39",
+      "https://data.datatourisme.fr/30/bbc19a42-cd7e-3484-9b22-300eef6226b4",
+      "https://data.datatourisme.fr/5/1fa11f37-c96f-3a0c-b964-27a2a240453e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "horace-andy-et-dub-asante-band-ft-matic-horns",
     "name": "Horace Andy et Dub Asante Band Ft. Matic Horns",
     "city": "Limoges",
@@ -2089,28 +2112,6 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-disco",
-    "name": "Soirée disco",
-    "city": "Villetoureix",
-    "region": null,
-    "description": "Soirée disco, proposé par le Comité des fêtes, 19h30, salle polyvalente.",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 45.2766,
-    "lng": 0.3801,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/f878054f-42ad-34e2-a780-8d6804421e39",
-      "https://data.datatourisme.fr/30/bbc19a42-cd7e-3484-9b22-300eef6226b4",
-      "https://data.datatourisme.fr/5/1fa11f37-c96f-3a0c-b964-27a2a240453e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
@@ -4648,8 +4649,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "road-to-the-90-s-aldonna-known-artist-pentagon-more",
-    "name": "Road To The 90'S: Aldonna, Known Artist, Pentagon & More",
+    "slug": "road-to-the-90-s-aldonna-romain-fx-pentagon-more",
+    "name": "Road To The 90'S: Aldonna, Romain Fx, Pentagon & More",
     "city": "Paris",
     "address": "La Rotonde Stalingrad, 6-8 Place de la Bataille de Stalingrad - 75019 Paris",
     "region": null,
@@ -4658,7 +4659,7 @@
     "officialUrl": "https://ra.co/events/2543577",
     "lineup": [
       "Aldonna",
-      "Known Artist",
+      "Romain Fx",
       "Owlshake",
       "Donna Gibson",
       "Black Truffle",
@@ -4672,7 +4673,7 @@
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-ricardo-garduno-miss-nat-h-lee-le-saint",
@@ -4698,8 +4699,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "inka-open-air-catsinka-bigstate-ben-rodd-isaac-poussin-jaes",
-    "name": "INKA Open Air: Catsinka, Bigstate, Ben Rodd, Isaac, Poussin, JaeS",
+    "slug": "inka-open-air-pfw-sunday-catsinka-bigstate-ben-rodd-isaac-poussin-jaes",
+    "name": "INKA - Open Air PFW - Sunday : Catsinka, Bigstate, Ben Rodd, Isaac, Poussin, JaeS",
     "city": "Paris",
     "address": "Paname sur Seine, 1 Port de Bercy, 75012 Paris",
     "region": null,
@@ -4719,6 +4720,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "djs-for-flirt",
+    "name": "Djs for FLIRT",
+    "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
+    "region": null,
+    "startDate": "2026-10-09",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2548732",
+    "lineup": [
+      "Oklou",
+      "TTristana",
+      "Lux18",
+      "Golce",
+      "DJ Music",
+      "fetva"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2548732"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
@@ -4817,6 +4844,28 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-etienne-nogues-lullaby-sphinx-b2b-austher",
+    "name": "After O'Clock X La Plage Open Air: Etienne Nogues, Lullaby, Sphinx B2B Austher",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2549600",
+    "lineup": [
+      "Etienne Nogues",
+      "Austher"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2549600"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "bordeaux-open-air-parc-de-bourran",
