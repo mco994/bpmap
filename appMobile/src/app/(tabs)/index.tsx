@@ -23,8 +23,10 @@ import {
   franceMaskGeoJSON,
   getAllFestivals,
   hideEnclaveCountryLabels,
+  OVERLAY_COLORS,
   sizeTierForCapacity,
   SIZE_TIERS,
+  themeBasemapStyle,
   type Festival,
 } from '@bpmap/shared';
 
@@ -33,6 +35,7 @@ import { GenreChips } from '@/components/genre-chips';
 import { ItineraryButton } from '@/components/itinerary-button';
 import { SearchSuggestions } from '@/components/search-suggestions';
 import { ThemedText } from '@/components/themed-text';
+import { useColorScheme } from '@/hooks/use-color-scheme';
 import { useTheme } from '@/hooks/use-theme';
 import { Spacing } from '@/constants/theme';
 import { getCurrentCoords } from '@/lib/geo';
@@ -46,8 +49,6 @@ import {
 
 const MAP_STYLE = 'https://tiles.openfreemap.org/styles/positron';
 const FRANCE_CENTER: [number, number] = [2.5, 46.6];
-const PIN_COLOR = '#DB2777';
-const PIN_SELECTED_COLOR = '#9D174D';
 const FRANCE_MASK = franceMaskGeoJSON();
 const FRANCE_ENCLAVES = franceEnclavesGeoJSON();
 const FRANCE_BORDER = franceBorderGeoJSON();
@@ -56,17 +57,26 @@ export default function CarteScreen() {
   const router = useRouter();
   const theme = useTheme();
   const insets = useSafeAreaInsets();
-  const [mapStyle, setMapStyle] = useState<string | StyleSpecification | null>(null);
+  const mapTheme = useColorScheme() === 'dark' ? 'dark' : 'light';
+  const overlay = OVERLAY_COLORS[mapTheme];
+  const [baseStyle, setBaseStyle] = useState<string | ReturnType<typeof hideEnclaveCountryLabels> | null>(null);
+  const mapStyle = useMemo(
+    () =>
+      baseStyle == null || typeof baseStyle === 'string'
+        ? baseStyle
+        : (themeBasemapStyle(baseStyle, mapTheme) as StyleSpecification),
+    [baseStyle, mapTheme],
+  );
 
   useEffect(() => {
     let cancelled = false;
     fetch(MAP_STYLE, { signal: AbortSignal.timeout(8000) })
       .then((res) => res.json())
       .then((style) => {
-        if (!cancelled) setMapStyle(hideEnclaveCountryLabels(style) as StyleSpecification);
+        if (!cancelled) setBaseStyle(hideEnclaveCountryLabels(style));
       })
       .catch(() => {
-        if (!cancelled) setMapStyle(MAP_STYLE);
+        if (!cancelled) setBaseStyle(MAP_STYLE);
       });
     return () => {
       cancelled = true;
@@ -184,7 +194,7 @@ export default function CarteScreen() {
           <Layer
             id="france-mask-fill"
             type="fill"
-            paint={{ 'fill-color': '#f6f0f7', 'fill-opacity': 0.93 }}
+            paint={{ 'fill-color': overlay.mask, 'fill-opacity': overlay.maskOpacity }}
           />
         </GeoJSONSource>
         <GeoJSONSource id="france-enclaves" data={FRANCE_ENCLAVES}>
@@ -192,7 +202,7 @@ export default function CarteScreen() {
             id="france-enclaves-fill"
             type="fill"
             afterId="france-mask-fill"
-            paint={{ 'fill-color': '#f6f0f7', 'fill-opacity': 0.93 }}
+            paint={{ 'fill-color': overlay.mask, 'fill-opacity': overlay.maskOpacity }}
           />
         </GeoJSONSource>
         <GeoJSONSource id="france-border" data={FRANCE_BORDER}>
@@ -200,7 +210,7 @@ export default function CarteScreen() {
             id="france-border-line"
             type="line"
             afterId="france-enclaves-fill"
-            paint={{ 'line-color': '#c026d3', 'line-opacity': 0.35, 'line-width': 1.2 }}
+            paint={{ 'line-color': overlay.border, 'line-opacity': overlay.borderOpacity, 'line-width': 1.2 }}
           />
         </GeoJSONSource>
         <GeoJSONSource
@@ -220,9 +230,9 @@ export default function CarteScreen() {
             afterId="france-border-line"
             paint={{
               'circle-radius': 7,
-              'circle-color': PIN_COLOR,
+              'circle-color': overlay.point,
               'circle-stroke-width': 2,
-              'circle-stroke-color': '#ffffff',
+              'circle-stroke-color': overlay.pointStroke,
             }}
           />
           <Layer
@@ -232,9 +242,9 @@ export default function CarteScreen() {
             filter={['==', ['get', 'id'], selected?.id ?? '']}
             paint={{
               'circle-radius': 10,
-              'circle-color': PIN_SELECTED_COLOR,
+              'circle-color': overlay.selected,
               'circle-stroke-width': 2.5,
-              'circle-stroke-color': '#ffffff',
+              'circle-stroke-color': overlay.selectedStroke,
             }}
           />
         </GeoJSONSource>

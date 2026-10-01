@@ -10,6 +10,7 @@ import {
   OVERLAY_COLORS,
   basemapPaintEntries,
   captureBasemapPaint,
+  themeBasemapStyle,
   type StyleLayerLike,
 } from "../map-theme";
 import { blend, contrastRatio } from "./contrast";
@@ -132,5 +133,74 @@ describe("bulle d'événement en nuit", () => {
     ["regroupement zinc-300", "#d4d4d8", FUCHSIA_950],
   ])("%s ≥ 4,5", (_label, text, background) => {
     expect(contrastRatio(text, background)).toBeGreaterThanOrEqual(AA_TEXT);
+  });
+});
+
+describe("style de fond injecté pour l'application", () => {
+  const style = {
+    version: 8,
+    sources: { openmaptiles: { type: "vector" } },
+    layers: [
+      { id: "background", type: "background", paint: { "background-color": "rgb(242,243,240)" } },
+      {
+        id: "label_city",
+        type: "symbol",
+        filter: ["==", "class", "city"],
+        layout: { "text-field": "{name}" },
+        paint: { "text-color": "#000", "text-halo-color": "#fff", "text-halo-width": 1.2 },
+      },
+      { id: "highway-name-minor", type: "symbol", paint: { "text-color": "#666" } },
+      { id: "france-mask", type: "fill", paint: { "fill-color": "#f6f0f7" } },
+    ],
+  };
+
+  it("rend le style tel quel en jour", () => {
+    expect(themeBasemapStyle(style, "light")).toBe(style);
+  });
+
+  it("ne recolore en nuit que les couleurs des calques du fond", () => {
+    const night = themeBasemapStyle(style, "dark");
+    expect(night.sources).toBe(style.sources);
+    expect(night.layers.map((layer) => layer.id)).toEqual(style.layers.map((layer) => layer.id));
+    expect(night.layers[0].paint).toEqual({ "background-color": NIGHT_LAND });
+    expect(night.layers[1]).toEqual({
+      ...style.layers[1],
+      paint: { "text-color": NIGHT_LABELS.city, "text-halo-color": NIGHT_LABEL_HALO, "text-halo-width": 1.2 },
+    });
+    expect(night.layers[2].paint).toEqual({ "text-color": NIGHT_LABELS.road, "text-halo-color": NIGHT_LAND });
+    expect(night.layers[3]).toBe(style.layers[3]);
+  });
+
+  it("applique en nuit les mêmes valeurs que le repeint du web", () => {
+    const night = themeBasemapStyle(style, "dark");
+    const entries = basemapPaintEntries("dark", captureBasemapPaint(style.layers));
+    for (const { layerId, property, value } of entries) {
+      const layer = night.layers.find((candidate) => candidate.id === layerId);
+      expect(layer?.paint?.[property as keyof typeof layer.paint]).toEqual(value);
+    }
+  });
+
+  it("ne modifie pas le style d'origine", () => {
+    const before = JSON.stringify(style);
+    themeBasemapStyle(style, "dark");
+    expect(JSON.stringify(style)).toBe(before);
+  });
+
+  it("garde les couleurs de jour de l'application à l'identique", () => {
+    const appDay = {
+      mask: "#f6f0f7",
+      maskOpacity: 0.93,
+      border: "#c026d3",
+      borderOpacity: 0.35,
+      point: "#DB2777",
+      pointStroke: "#ffffff",
+      selected: "#9D174D",
+      selectedStroke: "#ffffff",
+    };
+    const day = OVERLAY_COLORS.light;
+    for (const [key, value] of Object.entries(appDay)) {
+      const shared = day[key as keyof typeof day];
+      expect(typeof value === "string" ? value.toLowerCase() : value).toBe(shared);
+    }
   });
 });

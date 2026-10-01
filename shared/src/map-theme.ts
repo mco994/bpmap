@@ -158,3 +158,22 @@ export function basemapPaintEntries(
   }));
 }
 
+
+export interface ThemeableStyle {
+  layers?: StyleLayerLike[];
+}
+
+export function themeBasemapStyle<T extends ThemeableStyle>(
+  style: T,
+  theme: MapTheme,
+  palette: BasemapPalette = NIGHT_BASEMAP_PALETTE,
+): T {
+  if (theme === "light" || !style.layers) return style;
+  return {
+    ...style,
+    layers: style.layers.map((layer) => {
+      const night = palette[layer.id];
+      return night ? { ...layer, paint: { ...layer.paint, ...night } } : layer;
+    }),
+  };
+}
