@@ -18,8 +18,8 @@ function block() {
       `  .genre-${slug}[data-active] { background-color: ${palette.solid}; color: ${WHITE}; }`,
     );
     dark.push(
-      `    [data-tone="auto"] .genre-${slug} { background-color: ${palette.dark.bg}; color: ${palette.dark.fg}; }`,
-      `    [data-tone="auto"] .genre-${slug}[data-active] { background-color: ${palette.solid}; color: ${WHITE}; }`,
+      `  [data-theme="dark"] [data-tone="auto"] .genre-${slug} { background-color: ${palette.dark.bg}; color: ${palette.dark.fg}; }`,
+      `  [data-theme="dark"] [data-tone="auto"] .genre-${slug}[data-active] { background-color: ${palette.solid}; color: ${WHITE}; }`,
     );
   }
 
@@ -28,9 +28,7 @@ function block() {
     "@layer components {",
     light.join("\n"),
     "",
-    "  @media (prefers-color-scheme: dark) {",
     dark.join("\n"),
-    "  }",
     "}",
     "",
   ].join("\n");

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Icon, { LogoMark } from "@/components/Icon";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const NAV = [
   { href: "/", label: "Carte" },
@@ -40,30 +41,34 @@ export default function Header() {
           <span className="text-lg tracking-tight">BPMap</span>
         </Link>
 
-        <nav className="hidden items-center gap-1 md:flex" aria-label="Navigation principale">
-          {NAV.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`inline-flex items-center gap-1.5 ${linkClass(item.href)}`}
-              aria-current={isActive(item.href) ? "page" : undefined}
-            >
-              {"icon" in item && <Icon name={item.icon} size={16} filled={isActive(item.href)} />}
-              {item.label}
-            </Link>
-          ))}
-        </nav>
+        <div className="flex items-center gap-1">
+          <nav className="hidden items-center gap-1 md:flex" aria-label="Navigation principale">
+            {NAV.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`inline-flex items-center gap-1.5 ${linkClass(item.href)}`}
+                aria-current={isActive(item.href) ? "page" : undefined}
+              >
+                {"icon" in item && <Icon name={item.icon} size={16} filled={isActive(item.href)} />}
+                {item.label}
+              </Link>
+            ))}
+          </nav>
 
-        <button
-          type="button"
-          onClick={() => setOpen((v) => !v)}
-          aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
-          aria-expanded={open}
-          aria-controls="menu-mobile"
-          className="rounded-md p-2 text-zinc-700 hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 md:hidden dark:text-zinc-200 dark:hover:bg-zinc-800"
-        >
-          <Icon name={open ? "x" : "menu"} size={22} />
-        </button>
+          <ThemeToggle className="md:ml-2" />
+
+          <button
+            type="button"
+            onClick={() => setOpen((v) => !v)}
+            aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+            aria-expanded={open}
+            aria-controls="menu-mobile"
+            className="inline-flex h-11 w-11 items-center justify-center rounded-md text-zinc-700 hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 md:hidden dark:text-zinc-200 dark:hover:bg-zinc-800"
+          >
+            <Icon name={open ? "x" : "menu"} size={22} />
+          </button>
+        </div>
       </div>
 
       {open && (
