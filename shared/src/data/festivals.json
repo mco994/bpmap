@@ -1,33 +1,5 @@
 [
   {
-    "id": "hadra-trance-festival",
-    "slug": "hadra-trance-festival",
-    "name": "Hadra Trance Festival",
-    "description": "Festival dédié à la psytrance — et aux musiques techno, drum & bass, dub et ambient — à Vieure, dans l'Allier. Quatre scènes, 90 heures de musique et des dizaines d'artistes, dans un univers immersif et engagé.",
-    "startDate": "2026-08-27",
-    "endDate": "2026-08-30",
-    "lat": 46.50003,
-    "lng": 2.88043,
-    "city": "Vieure",
-    "region": "Auvergne-Rhône-Alpes",
-    "organizer": "Association Hadra",
-    "capacity": 10000,
-    "genres": [
-      "psytrance",
-      "trance",
-      "ambient"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://hadratrancefestival.net/",
-    "status": "confirmed",
-    "sources": [
-      "https://hadratrancefestival.net/"
-    ]
-  },
-  {
     "id": "les-ilots-electroniques",
     "slug": "les-ilots-electroniques",
     "name": "Les Îlots Électroniques",
