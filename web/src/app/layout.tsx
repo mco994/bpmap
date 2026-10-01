@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import AppStorePrompt from "@/components/AppStorePrompt";
 import { SITE_URL } from "@/lib/site";
+import { THEME_BOOTSTRAP_SCRIPT, THEME_COLORS } from "@/lib/theme";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -52,11 +53,8 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#09090b" },
-  ],
-  colorScheme: "light dark",
+  themeColor: THEME_COLORS.light,
+  colorScheme: "light",
 };
 
 export default function RootLayout({
@@ -68,7 +66,11 @@ export default function RootLayout({
     <html
       lang="fr"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: THEME_BOOTSTRAP_SCRIPT }} />
+      </head>
       <body className="flex min-h-full flex-col bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50">
         <a
           href="#contenu"

@@ -25,7 +25,7 @@ BPMap est l'annuaire et la carte interactive des événements de musique électr
 
 ## Operating Context
 
-- Production : https://bpmap.vercel.app (README).
+- Production : https://bpmap.codale.fr (README).
 - Monorepo npm workspaces : `web/` (Next.js 16, App Router, Tailwind 4), `appMobile/` (Expo / React Native), `shared/` (`@bpmap/shared`, logique de domaine pure et données JSON) (CLAUDE.md, README).
 - Base de données Neon (PostgreSQL) pour les migrations, le cycle de vie et les notifications push ; les étapes dépendantes échouent proprement sans secret (README).
 - Job quotidien GitHub Actions à 05:00 UTC : ingestion, vérification croisée, enrichissement, géocodage (Base Adresse Nationale), contrôle d'intégrité, journal des changements, puis PR de rafraîchissement auto-fusionnée (README, CLAUDE.md).
