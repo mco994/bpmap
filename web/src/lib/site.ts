@@ -1,6 +1,10 @@
+function withScheme(value: string): string {
+  return /^https?:\/\//i.test(value) ? value : `https://${value}`;
+}
+
 function fromEnvironment(): string | null {
-  const explicit = process.env.NEXT_PUBLIC_SITE_URL;
-  if (explicit) return explicit;
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (explicit) return withScheme(explicit);
 
   const vercelDomain =
     process.env.VERCEL_PROJECT_PRODUCTION_URL ??

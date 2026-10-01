@@ -2,7 +2,7 @@
 
 L'annuaire et la **carte interactive des événements de musique électronique en France** — festivals, open airs et soirées. Filtres par type, genre, date, taille et prix, recherche tolérante aux fautes de frappe, pages SEO par genre, par région et par artiste.
 
-Production : **https://bpmap.vercel.app**
+Production : **https://bpmap.codale.fr**
 
 ## Monorepo
 

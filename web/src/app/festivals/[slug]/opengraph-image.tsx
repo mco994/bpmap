@@ -6,10 +6,12 @@ import {
   formatFromPrice,
   genreLabel,
 } from "@bpmap/shared";
+import { SITE_URL } from "@/lib/site";
 
 export const alt = "Événement sur BPMap";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+const siteHost = new URL(SITE_URL).host;
 
 export function generateStaticParams() {
   return getAllFestivals().map((f) => ({ slug: f.slug }));
@@ -95,7 +97,7 @@ export default async function Image({
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ display: "flex", fontSize: "30px", fontWeight: 700 }}>{price}</div>
           <div style={{ display: "flex", fontSize: "26px", color: "rgba(255,255,255,0.8)" }}>
-            bpmap.vercel.app
+            {siteHost}
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Constants from 'expo-constants';
 
-const DEFAULT_API_URL = 'https://bpmap.vercel.app';
+const DEFAULT_API_URL = 'https://bpmap.codale.fr';
 
 function devApiUrl(): string | null {
   const hostUri =

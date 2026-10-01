@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import { SITE_URL, absoluteUrl, inlineJson } from "@/lib/site";
 
 describe("absoluteUrl", () => {
@@ -32,5 +32,34 @@ describe("inlineJson", () => {
   it("reste équivalent à JSON.parse pour des données ordinaires", () => {
     const payload = { a: 1, b: [true, null, "é"], c: { d: "x" } };
     expect(JSON.parse(inlineJson(payload))).toEqual(payload);
+  });
+});
+
+describe("SITE_URL depuis NEXT_PUBLIC_SITE_URL", () => {
+  async function loadSiteUrl(value: string): Promise<string> {
+    vi.stubEnv("NEXT_PUBLIC_SITE_URL", value);
+    vi.resetModules();
+    const site = await import("@/lib/site");
+    return site.SITE_URL;
+  }
+
+  afterEach(() => {
+    vi.unstubAllEnvs();
+    vi.resetModules();
+  });
+
+  it("préfixe https:// quand le schéma manque", async () => {
+    expect(await loadSiteUrl("bpmap.codale.fr")).toBe("https://bpmap.codale.fr");
+    expect(() => new URL("bpmap.codale.fr")).toThrow();
+  });
+
+  it("conserve un schéma explicite", async () => {
+    expect(await loadSiteUrl("https://bpmap.codale.fr")).toBe("https://bpmap.codale.fr");
+    expect(await loadSiteUrl("http://localhost:3000")).toBe("http://localhost:3000");
+  });
+
+  it("retire la barre oblique finale", async () => {
+    expect(await loadSiteUrl("https://bpmap.codale.fr/")).toBe("https://bpmap.codale.fr");
+    expect(await loadSiteUrl("bpmap.codale.fr/")).toBe("https://bpmap.codale.fr");
   });
 });
