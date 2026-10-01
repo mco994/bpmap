@@ -36,6 +36,15 @@ import {
 } from "@/lib/map-clusters";
 import GenreChips from "@/components/GenreChips";
 import ItineraryButton from "@/components/ItineraryButton";
+import {
+  OVERLAY_COLORS,
+  syncBasemapTheme,
+  type BasemapPaintState,
+  type OverlayColors,
+  type PaintableMap,
+} from "@/lib/map-theme";
+import { DEFAULT_THEME } from "@/lib/theme";
+import { useTheme } from "@/lib/use-theme";
 
 setWorkerUrl("/maplibre-gl-worker.mjs");
 
@@ -64,36 +73,42 @@ const FRANCE_MASK = franceMaskGeoJSON();
 const FRANCE_ENCLAVES = franceEnclavesGeoJSON();
 const FRANCE_BORDER = franceBorderGeoJSON();
 
-const maskLayer: LayerProps = {
-  id: "france-mask",
-  type: "fill",
-  source: "france-mask",
-  paint: {
-    "fill-color": "#f6f0f7",
-    "fill-opacity": 0.93,
-  },
-};
+function maskLayer(colors: OverlayColors): LayerProps {
+  return {
+    id: "france-mask",
+    type: "fill",
+    source: "france-mask",
+    paint: {
+      "fill-color": colors.mask,
+      "fill-opacity": colors.maskOpacity,
+    },
+  };
+}
 
-const enclavesLayer: LayerProps = {
-  id: "france-enclaves",
-  type: "fill",
-  source: "france-enclaves",
-  paint: {
-    "fill-color": "#f6f0f7",
-    "fill-opacity": 0.93,
-  },
-};
+function enclavesLayer(colors: OverlayColors): LayerProps {
+  return {
+    id: "france-enclaves",
+    type: "fill",
+    source: "france-enclaves",
+    paint: {
+      "fill-color": colors.mask,
+      "fill-opacity": colors.maskOpacity,
+    },
+  };
+}
 
-const borderLayer: LayerProps = {
-  id: "france-border",
-  type: "line",
-  source: "france-border",
-  paint: {
-    "line-color": "#c026d3",
-    "line-opacity": 0.35,
-    "line-width": 1.2,
-  },
-};
+function borderLayer(colors: OverlayColors): LayerProps {
+  return {
+    id: "france-border",
+    type: "line",
+    source: "france-border",
+    paint: {
+      "line-color": colors.border,
+      "line-opacity": colors.borderOpacity,
+      "line-width": 1.2,
+    },
+  };
+}
 
 function radiusExpression(): unknown[] {
   return [
@@ -107,45 +122,49 @@ function radiusExpression(): unknown[] {
   ];
 }
 
-const pointLayer: LayerProps = {
-  id: "festival-points",
-  type: "circle",
-  source: SOURCE_ID,
-  filter: ["!=", ["get", "hidden"], true],
-  paint: {
-    "circle-color": "#db2777",
-    "circle-radius": radiusExpression() as never,
-    "circle-stroke-width": [
-      "interpolate",
-      ["linear"],
-      ["zoom"],
-      4, 1.5,
-      9, ["case", [">", ["get", "count"], 1], 3, 2],
-    ],
-    "circle-stroke-color": "#ffffff",
-  },
-};
+function pointLayer(colors: OverlayColors): LayerProps {
+  return {
+    id: "festival-points",
+    type: "circle",
+    source: SOURCE_ID,
+    filter: ["!=", ["get", "hidden"], true],
+    paint: {
+      "circle-color": colors.point,
+      "circle-radius": radiusExpression() as never,
+      "circle-stroke-width": [
+        "interpolate",
+        ["linear"],
+        ["zoom"],
+        4, 1.5,
+        9, ["case", [">", ["get", "count"], 1], 3, 2],
+      ],
+      "circle-stroke-color": colors.pointStroke,
+    },
+  };
+}
 
 // Nombre d'evenements partageant exactement le meme point, dessine une seule fois par
 // lieu : les features d'un meme groupe se superposent au pixel pres.
-const countLayer: LayerProps = {
-  id: "festival-count",
-  type: "symbol",
-  source: SOURCE_ID,
-  filter: ["all", ["!=", ["get", "hidden"], true], [">", ["get", "count"], 1]],
-  layout: {
-    "text-field": ["to-string", ["get", "count"]],
-    "text-font": ["Noto Sans Bold"],
-    "text-size": ["interpolate", ["linear"], ["zoom"], 4, 9, 6, 11, 9, 13],
-    "text-allow-overlap": true,
-    "text-ignore-placement": true,
-  },
-  paint: {
-    "text-color": "#ffffff",
-    "text-halo-color": "#9d174d",
-    "text-halo-width": 1,
-  },
-};
+function countLayer(colors: OverlayColors): LayerProps {
+  return {
+    id: "festival-count",
+    type: "symbol",
+    source: SOURCE_ID,
+    filter: ["all", ["!=", ["get", "hidden"], true], [">", ["get", "count"], 1]],
+    layout: {
+      "text-field": ["to-string", ["get", "count"]],
+      "text-font": ["Noto Sans Bold"],
+      "text-size": ["interpolate", ["linear"], ["zoom"], 4, 9, 6, 11, 9, 13],
+      "text-allow-overlap": true,
+      "text-ignore-placement": true,
+    },
+    paint: {
+      "text-color": colors.countText,
+      "text-halo-color": colors.countHalo,
+      "text-halo-width": 1,
+    },
+  };
+}
 
 const hitLayer: LayerProps = {
   id: "festival-hit",
@@ -181,6 +200,14 @@ export default function Map({
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pinnedUntil = useRef(0);
   const interactionLock = useRef(false);
+  const theme = useTheme();
+  const colors = OVERLAY_COLORS[theme];
+  const basemapPaint = useRef<BasemapPaintState>({ original: null, applied: DEFAULT_THEME });
+
+  useEffect(() => {
+    const map = mapRef.current?.getMap();
+    if (map) syncBasemapTheme(map as unknown as PaintableMap, theme, basemapPaint.current);
+  }, [theme]);
 
   const cancelClose = () => {
     if (closeTimer.current) {
@@ -252,7 +279,7 @@ export default function Map({
     source: SOURCE_ID,
     filter: ["==", ["get", "id"], selectedId ?? "__none__"],
     paint: {
-      "circle-color": "#9d174d",
+      "circle-color": colors.selected,
       "circle-radius": [
         "interpolate",
         ["linear"],
@@ -262,7 +289,7 @@ export default function Map({
         9, ["case", [">", ["get", "count"], 1], 14, 9.5],
       ],
       "circle-stroke-width": 2,
-      "circle-stroke-color": "#ffffff",
+      "circle-stroke-color": colors.selectedStroke,
     },
   };
 
@@ -322,6 +349,9 @@ export default function Map({
       initialViewState={INITIAL_VIEW}
       locale={MAP_LOCALE}
       mapStyle={MAP_STYLE}
+      onStyleData={(e) => {
+        syncBasemapTheme(e.target as unknown as PaintableMap, theme, basemapPaint.current, { instant: true });
+      }}
       onLoad={(e) => {
         const map = e.target;
         let firstLabelId: string | undefined;
@@ -365,20 +395,20 @@ export default function Map({
       />
 
       <Source id="france-mask" type="geojson" data={FRANCE_MASK}>
-        <Layer {...maskLayer} beforeId={maskBeforeId} />
+        <Layer {...maskLayer(colors)} beforeId={maskBeforeId} />
       </Source>
       <Source id="france-enclaves" type="geojson" data={FRANCE_ENCLAVES}>
-        <Layer {...enclavesLayer} beforeId={maskBeforeId} />
+        <Layer {...enclavesLayer(colors)} beforeId={maskBeforeId} />
       </Source>
       <Source id="france-border" type="geojson" data={FRANCE_BORDER}>
-        <Layer {...borderLayer} beforeId={maskBeforeId} />
+        <Layer {...borderLayer(colors)} beforeId={maskBeforeId} />
       </Source>
 
       <Source id={SOURCE_ID} type="geojson" data={geojson}>
         <Layer {...hitLayer} />
         <Layer {...selectedLayer} />
-        <Layer {...pointLayer} />
-        <Layer {...countLayer} />
+        <Layer {...pointLayer(colors)} />
+        <Layer {...countLayer(colors)} />
       </Source>
 
       {selected && (
@@ -400,10 +430,10 @@ export default function Map({
               onSelect(null);
             }}
           >
-            <h3 className="text-sm font-semibold text-zinc-900">
+            <h3 className="text-sm font-semibold text-zinc-900 dark:text-zinc-50">
               {selected.name}
             </h3>
-            <p className="text-xs text-zinc-600">
+            <p className="text-xs text-zinc-600 dark:text-zinc-300">
               {selected.city} ·{" "}
               {formatDateRange(selected.startDate, selected.endDate)}
             </p>
@@ -413,19 +443,19 @@ export default function Map({
               highlight={
                 selectedMatch?.field === "genre" ? selectedMatch.genreSlug : undefined
               }
-              tone="light"
+              tone="auto"
             />
 
-            <p className="text-xs font-medium text-zinc-700">
+            <p className="text-xs font-medium text-zinc-700 dark:text-zinc-200">
               {formatFromPrice(selected)}
             </p>
             {selected.description && (
-              <p className="line-clamp-4 text-xs text-zinc-600">
+              <p className="line-clamp-4 text-xs text-zinc-600 dark:text-zinc-300">
                 {selected.description}
               </p>
             )}
             {(selected.organizer || selectedSizeLabel) && (
-              <p className="text-xs text-zinc-500">
+              <p className="text-xs text-zinc-500 dark:text-zinc-400">
                 {[
                   selected.organizer,
                   selectedSizeLabel,
@@ -438,8 +468,8 @@ export default function Map({
               </p>
             )}
             {selected.lineup && selected.lineup.length > 0 && (
-              <p className="text-xs text-zinc-600">
-                <span className="text-zinc-500">Line-up&nbsp;: </span>
+              <p className="text-xs text-zinc-600 dark:text-zinc-300">
+                <span className="text-zinc-500 dark:text-zinc-400">Line-up&nbsp;: </span>
                 {selected.lineup.slice(0, 8).join(", ")}
                 {selected.lineup.length > 8 ? "…" : ""}
               </p>
@@ -451,7 +481,7 @@ export default function Map({
                     href={selectedTicketUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-fuchsia-700 hover:underline"
+                    className="font-medium text-fuchsia-700 hover:underline dark:text-fuchsia-300"
                   >
                     Billetterie ↗
                   </a>
@@ -461,7 +491,7 @@ export default function Map({
                     href={selectedOfficialUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-fuchsia-700 hover:underline"
+                    className="font-medium text-fuchsia-700 hover:underline dark:text-fuchsia-300"
                   >
                     Site officiel ↗
                   </a>
@@ -470,14 +500,14 @@ export default function Map({
             )}
 
             {selectedNeighbours.length > 0 && (
-              <div className="rounded-lg bg-fuchsia-50 p-2">
-                <p className="flex items-center gap-1.5 text-xs font-semibold text-fuchsia-900">
+              <div className="rounded-lg bg-fuchsia-50 p-2 dark:bg-fuchsia-950">
+                <p className="flex items-center gap-1.5 text-xs font-semibold text-fuchsia-900 dark:text-fuchsia-100">
                   <span className="inline-flex h-4 min-w-4 items-center justify-center rounded-full bg-fuchsia-600 px-1 text-[10px] font-bold tabular-nums text-white">
                     {selectedNeighbours.length + 1}
                   </span>
                   événements regroupés ici
                 </p>
-                <p className="mt-0.5 text-[11px] text-fuchsia-700">
+                <p className="mt-0.5 text-[11px] text-fuchsia-700 dark:text-fuchsia-300">
                   Zoomez pour les séparer sur la carte.
                 </p>
                 <ul className="mt-1.5 space-y-1">
@@ -486,10 +516,10 @@ export default function Map({
                       <button
                         type="button"
                         onClick={() => onSelect(f.id)}
-                        className="w-full truncate rounded px-1 py-0.5 text-left text-xs font-medium text-fuchsia-800 transition-colors hover:bg-fuchsia-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500"
+                        className="w-full truncate rounded px-1 py-0.5 text-left text-xs font-medium text-fuchsia-800 transition-colors hover:bg-fuchsia-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-500 dark:text-fuchsia-200 dark:hover:bg-fuchsia-900"
                       >
                         {f.name}
-                        <span className="font-normal text-zinc-600">
+                        <span className="font-normal text-zinc-600 dark:text-zinc-300">
                           {" · "}
                           {formatDateRange(f.startDate, f.endDate)}
                         </span>
@@ -511,7 +541,7 @@ export default function Map({
               <Link
                 href={`/festivals/${selected.slug}`}
                 onClick={(e) => e.stopPropagation()}
-                className="text-xs font-semibold text-fuchsia-700 underline underline-offset-2 hover:text-fuchsia-900"
+                className="text-xs font-semibold text-fuchsia-700 underline underline-offset-2 hover:text-fuchsia-900 dark:text-fuchsia-300 dark:hover:text-fuchsia-100"
               >
                 Fiche complète →
               </Link>

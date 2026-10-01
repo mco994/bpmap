@@ -46,6 +46,72 @@ textarea {
   color: #fdf4ff;
 }
 
+[data-theme="dark"] .maplibregl-map {
+  background-color: #1b1b20;
+}
+
+[data-theme="dark"] .maplibregl-popup-content {
+  background-color: #18181b;
+  color: #fafafa;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.6);
+}
+
+[data-theme="dark"] .maplibregl-popup-anchor-top .maplibregl-popup-tip,
+[data-theme="dark"] .maplibregl-popup-anchor-top-left .maplibregl-popup-tip,
+[data-theme="dark"] .maplibregl-popup-anchor-top-right .maplibregl-popup-tip {
+  border-bottom-color: #18181b;
+}
+
+[data-theme="dark"] .maplibregl-popup-anchor-bottom .maplibregl-popup-tip,
+[data-theme="dark"] .maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,
+[data-theme="dark"] .maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip {
+  border-top-color: #18181b;
+}
+
+[data-theme="dark"] .maplibregl-popup-anchor-left .maplibregl-popup-tip {
+  border-right-color: #18181b;
+}
+
+[data-theme="dark"] .maplibregl-popup-anchor-right .maplibregl-popup-tip {
+  border-left-color: #18181b;
+}
+
+[data-theme="dark"] .maplibregl-popup-close-button {
+  color: #d4d4d8;
+}
+
+[data-theme="dark"] .maplibregl-popup-close-button:hover {
+  background-color: #27272a;
+}
+
+[data-theme="dark"] .maplibregl-ctrl-group {
+  background-color: #27272a;
+}
+
+[data-theme="dark"] .maplibregl-ctrl-group button + button {
+  border-top-color: #3f3f46;
+}
+
+[data-theme="dark"] .maplibregl-ctrl button:not(:disabled):hover,
+[data-theme="dark"] .maplibregl-ctrl button:not(:disabled):active {
+  background-color: rgb(255 255 255 / 0.08);
+}
+
+[data-theme="dark"] .maplibregl-ctrl-icon,
+[data-theme="dark"] .maplibregl-ctrl-attrib-button {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+[data-theme="dark"] .maplibregl-ctrl.maplibregl-ctrl-attrib,
+[data-theme="dark"] .maplibregl-ctrl-attrib.maplibregl-compact {
+  background-color: rgb(24 24 27 / 0.85);
+  color: #d4d4d8;
+}
+
+[data-theme="dark"] .maplibregl-ctrl-attrib a {
+  color: #e4e4e7;
+}
+
 /* genres — généré par npm run build:genre-css */
 @layer components {
   .genre-techno { background-color: #f6e1f9; color: #ac22bd; }

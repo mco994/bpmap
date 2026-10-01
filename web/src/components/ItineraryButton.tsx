@@ -83,7 +83,7 @@ export default function ItineraryButton({
           e.stopPropagation();
           openDialog();
         }}
-        className="inline-flex items-center gap-1 text-xs font-semibold text-fuchsia-700 hover:text-fuchsia-900"
+        className="inline-flex items-center gap-1 text-xs font-semibold text-fuchsia-700 hover:text-fuchsia-900 dark:text-fuchsia-300 dark:hover:text-fuchsia-100"
       >
         <NavigateIcon className="h-3.5 w-3.5" />
         Itinéraire

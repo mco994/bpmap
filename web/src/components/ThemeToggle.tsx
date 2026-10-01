@@ -1,30 +1,8 @@
 "use client";
 
-import { useEffect, useSyncExternalStore } from "react";
-import {
-  DEFAULT_THEME,
-  THEME_ATTRIBUTE,
-  THEME_COLORS,
-  applyTheme,
-  oppositeTheme,
-  storeTheme,
-  themeFromAttribute,
-  type Theme,
-} from "@/lib/theme";
-
-function subscribeToTheme(onChange: () => void) {
-  const observer = new MutationObserver(onChange);
-  observer.observe(document.documentElement, { attributes: true, attributeFilter: [THEME_ATTRIBUTE] });
-  return () => observer.disconnect();
-}
-
-function readCurrentTheme(): Theme {
-  return themeFromAttribute(document.documentElement.getAttribute(THEME_ATTRIBUTE));
-}
-
-function readServerTheme(): Theme {
-  return DEFAULT_THEME;
-}
+import { useEffect } from "react";
+import { THEME_COLORS, applyTheme, oppositeTheme, storeTheme, type Theme } from "@/lib/theme";
+import { useTheme } from "@/lib/use-theme";
 
 function syncThemeColor(theme: Theme) {
   const meta = document.querySelector<HTMLMetaElement>('meta[name="theme-color"]');
@@ -69,7 +47,7 @@ function MoonIcon() {
 }
 
 export default function ThemeToggle({ className = "" }: { className?: string }) {
-  const theme = useSyncExternalStore(subscribeToTheme, readCurrentTheme, readServerTheme);
+  const theme = useTheme();
 
   useEffect(() => {
     syncThemeColor(theme);
