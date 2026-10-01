@@ -171,25 +171,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-boneym",
-    "name": "Concert - BoneyM",
-    "city": "Vandœuvre-lès-Nancy",
-    "region": null,
-    "description": "Préparez-vous à vivre une soirée exceptionnelle au Parc des Expositions de Nancy avec un concert de BoneyM, le groupe mythique du disco, à l’occasion de son 50e anniversaire.\n\nPour célébrer cet événement, BoneyM a choisi la Tournée des Salons YOZENCO pour faire danser le public et partager une soirée festive et intergénérationnelle autour de ses plus grands tubes.\n\nEt pour rendre cette date encore plus unique, le groupe BoneyM sera présent dès 18h00, le samedi 03 octobre 2026, dans le hall du Salon du Bien-Être, pour une séance de photos et dédicaces.\n\nAccès grand public. Places Limitées.",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-04",
-    "lat": 48.6631801683742,
-    "lng": 6.19062882747803,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/33eabcbb-fb93-34ce-ae4d-641f4b5f5926"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "concert-njp-2026-kuleeange-nord-noir-sarra-wild",
     "name": "Concert - NJP 2026 - Kuleeange - Nord//Noir - Sarra Wild",
     "city": "Nancy",
@@ -1444,8 +1425,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-siesto-electro",
-    "name": "Concert : Siesto Electro",
+    "slug": "temps-fort-electro-6-sieste-electro",
+    "name": "Temps fort Électro #6 : Sieste Electro",
     "city": "Montluçon",
     "region": null,
     "description": "En collaboration avec le Théâtre des Ilets et la SMAC le 109, dans le cadre du \"Temps Fort Électro\".",
@@ -1469,7 +1450,7 @@
     "region": null,
     "description": "En partenariat avec le 109, dans le cadre du \"Temps Fort Électro\".",
     "startDate": "2026-11-17",
-    "endDate": "2026-11-18",
+    "endDate": "2026-11-17",
     "lat": 46.3487,
     "lng": 2.598493,
     "officialUrl": null,
@@ -1479,7 +1460,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "soirees-a-theme-au-cabaret-domaine-de-la-laigne",
@@ -1665,6 +1646,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/7ae08663-37df-398a-b1ae-2eb480d9f6dd"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-bal-systemique-super-parquet",
+    "name": "Concert / Bal Systémique Super Parquet",
+    "city": "La Châtre",
+    "region": null,
+    "description": "Concert / bal électro trad – avec Systémique et Super Parquet",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 46.57923,
+    "lng": 1.98945,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/e2f305db-4722-3d0f-b6d0-9d29d835a9a9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2191,25 +2191,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "l-ivresse-des-lucioles",
-    "name": "L’ivresse des lucioles",
-    "city": "Beauvais",
-    "region": null,
-    "description": "Écrite comme un scénario de film, L’Ivresse des Lucioles prend le pouls de la jeunesse. Du krump à l’électro en passant par le voguing, Carmel Loanga nous plonge dans une succession de fragments de vie, comme des souvenirs saisis à vif. Dans un long plan séquence, les tableaux s’enchaînent avec une fluidité désarmante pour capturer l’intensité d’instants de vie. Et toutes leurs nuances : un coup de blues en plein cœur d’une fête ; le désir de faire groupe tout en préservant sa singularité ; devenir adulte sans renier ses joies d’enfant ; l’envie de séduire, sans se perdre. Dans leur quête de liberté, les cinq interprètes se lancent dans une traversée tantôt explosive, tantôt nostalgique, mais toujours enivrante.",
-    "startDate": "2026-09-29",
-    "endDate": "2026-09-30",
-    "lat": 49.4273359,
-    "lng": 2.0798932,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/2e10a5b7-ab99-331b-ad4e-5cbc895333e1"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "les-samedis-animation-amiens-centre-ville",
     "name": "Les Samedis Animation - Amiens Centre Ville",
     "city": "Amiens",
@@ -2640,6 +2621,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/30/24b99e5e-d7f1-3f75-aba0-700fb4248fca"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "stage-de-comedie-musicale-disco-et-rock-and-roll",
+    "name": "Stage de comédie musicale : Disco et Rock and Roll",
+    "city": "Granville",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-29",
+    "lat": 48.8380463,
+    "lng": -1.6025879,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/382ab5ce-146b-3938-a124-e5c87930cf95"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3299,6 +3299,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "body-horror",
+    "name": "Body Horror",
+    "city": "Le Mans",
+    "region": null,
+    "description": "Body Horror, formé à Tottenham en 2016, mêle post-punk et influences rave londoniennes. Leur son novateur associe beats industriels et guitares incisives, salué par Steve Lamacq de BBC Radio 6.",
+    "startDate": "2027-01-29",
+    "endDate": "2027-01-29",
+    "lat": 48.0074304,
+    "lng": 0.1992541,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/44ef02ec-3c47-3b76-bd79-664c6c1523bf"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "royal-ballet-opera-au-cinema-le-lac-des-cygnes",
     "name": "Royal Ballet & Opera au cinéma - LE LAC DES CYGNES",
     "city": "Pouzauges",
@@ -3520,6 +3539,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/f0c69473-70e5-3893-a2ea-6015f890a2c6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "phenix-cie-kafig-mourad-merzouki",
+    "name": "Phénix - Cie Käfig, Mourad Merzouki",
+    "city": "Sablé-sur-Sarthe",
+    "region": null,
+    "description": "Phénix bouscule les codes en réunissant danse hip-hop, musique ancienne et électro dans une rencontre aussi inattendue qu’envoûtante.",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "lat": 47.8388204,
+    "lng": -0.3394411,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/f14c1433-0c70-332d-b769-7d21cdff0ff3"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3774,25 +3812,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "exposition-peinture-helene-carron-au-golf-du-chateau-d-avoise-club-house",
-    "name": "Exposition Peinture Hélène Carron au Golf du Château d'Avoise - Club-house",
-    "city": "Montchanin",
-    "region": null,
-    "description": "",
-    "startDate": "2026-08-29",
-    "endDate": "2026-09-30",
-    "lat": 46.7526304,
-    "lng": 4.48581073,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/1b6350ff-977f-3360-892d-3a077409cdcb"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "j-peux-pas-j-ai-techno-8",
     "name": "J'PEUX PAS J'AI TECHNO #8",
     "city": "Scey-sur-Saône-et-Saint-Albin",
@@ -3810,6 +3829,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "revival-festival-impetus-hypno5e-hippotraktor-metal-progressif-post-hardcore",
+    "name": "REVIVAL FESTIVAL IMPETUS - HYPNO5E + HIPPOTRAKTOR (Metal progressif / Post-hardcore)",
+    "city": "Belfort",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-29",
+    "lat": 47.6437604,
+    "lng": 6.8437053,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/6/705dce3b-aabf-3d4f-8a77-0760701bba4b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "live-dub-session-full-dub-bass-trooperz-amhka-dub",
