@@ -23,10 +23,12 @@ import {
   franceMaskGeoJSON,
   isCountryLabelLayer,
   isCityLabelLayer,
+  OVERLAY_COLORS,
   sanitizeUrl,
   sizeTierForCapacity,
   SIZE_TIERS,
   type Festival,
+  type OverlayColors,
 } from "@bpmap/shared";
 import {
   clusterByScreenDistance,
@@ -36,13 +38,7 @@ import {
 } from "@/lib/map-clusters";
 import GenreChips from "@/components/GenreChips";
 import ItineraryButton from "@/components/ItineraryButton";
-import {
-  OVERLAY_COLORS,
-  syncBasemapTheme,
-  type BasemapPaintState,
-  type OverlayColors,
-  type PaintableMap,
-} from "@/lib/map-theme";
+import { syncBasemapTheme, type BasemapPaintState, type PaintableMap } from "@/lib/map-theme";
 import { DEFAULT_THEME } from "@/lib/theme";
 import { useTheme } from "@/lib/use-theme";
 
