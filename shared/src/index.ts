@@ -12,4 +12,5 @@ export * from "./artists";
 export * from "./ics";
 export * from "./distance";
 export * from "./genre-colors";
+export * from "./map-theme";
 export * from "./validation";
