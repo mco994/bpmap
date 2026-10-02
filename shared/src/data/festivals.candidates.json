@@ -494,25 +494,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-mentissa",
-    "name": "Concert - Mentissa",
-    "city": "Nancy",
-    "region": null,
-    "description": "Celles et ceux qui ont vu Mentissa en concert ne seront pas surpris : l'interprète de « Et Bam » à la voix bouleversante peut se transformer en bête de scène pop vitaminée si le tempo s'accélère ! \n\nC'est cette Mentissa version dancefloor qui fait son retour avec « Désolée », et l'on se plaît à imaginer une sorte de Chappell Roan Belge ayant croisé une ligne de basse version French Touch. Le résultat ? Un hymne décomplexé et euphorisant qui fera danser les foules dès l'automne 2026 dans toute la France et plus encore !\n\nRéservation en ligne.",
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-01",
-    "lat": 48.6930555555556,
-    "lng": 6.17944444444444,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/8e3bbc16-cef7-3b12-ae81-558a69345761"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "taisen",
     "name": "Taisen",
     "city": "Thionville",
@@ -1786,25 +1767,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "cine-lot-les-matins-merveilleux",
-    "name": "Ciné-Lot : \"Les matins merveilleux\"",
-    "city": "Cézac",
-    "region": null,
-    "description": "<p>Synopsis :</p><p>De vieux vinyles disco dans le coffre de sa Twingo, à peine remise de la mort de sa grand-mère, Charlie roule",
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-01",
-    "lat": 44.3400666,
-    "lng": 1.34238857,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/652e6b94-e631-3d21-9336-370f36170adb"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "anita-en-concert-pour-le-folk-club-de-cahors-avec-chanson-pop-electro",
     "name": "ANITA en concert pour le Folk Club de Cahors avec chanson pop électro",
     "city": "Labastide-Marnhac",
@@ -1934,13 +1896,11 @@
     "lng": -1.4363166,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/23/6c010734-a0eb-3cb8-9391-4f6896ac5a8d",
-      "https://data.datatourisme.fr/36/744d6533-1ce8-3369-8146-c3f57958efc8"
+      "https://data.datatourisme.fr/23/6c010734-a0eb-3cb8-9391-4f6896ac5a8d"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
@@ -4538,6 +4498,32 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "chloe-caillet-bella-sarris-carista-isabella-makadsi-lea-occhi",
+    "name": "CHLOE CAILLET, Bella Sarris, CARISTA, ISAbella, Makadsi, Lea Occhi",
+    "city": "Paris",
+    "address": "Fvtvr, 34 quai d'Austerlitz, 75013 Paris",
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2528876",
+    "lineup": [
+      "Chloé Caillet",
+      "Bella Sarris",
+      "CARISTA",
+      "ISAbella",
+      "Makadsi",
+      "Lea Occhi"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2528876"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "babecore-launch-showcase-jerk-off-after-party",
     "name": "BabeCore Launch Showcase (Jerk Off After Party)",
     "city": "Paris",
@@ -4906,6 +4892,28 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "after-o-clock-x-la-plage-open-air-anabel-arroyo-hyper-sam-aude-m",
+    "name": "After O'Clock X La Plage Open Air: Anabel Arroyo, Hyper Sam, Aude M",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2549644",
+    "lineup": [
+      "Anabel Arroyo",
+      "Hyper Sam"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2549644"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "bordeaux-open-air-parc-de-bourran",
     "name": "Bordeaux Open Air - Parc de Bourran",
     "city": null,
@@ -4978,28 +4986,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "maison-house-launch-party",
-    "name": "Maison House Launch Party",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-02",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6abb822f817e120001dbdf25",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6abb822f817e120001dbdf25"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "house-of-love-nightchou-young-pulse",
     "name": "House of Love: Nightchou & Young Pulse",
     "city": "Paris",
@@ -5060,28 +5046,6 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ab3ecd1a7131800010f95e2"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "discotaco-disco-paillettes-tacos-partout",
-    "name": "Discotaco : disco, paillettes & tacos partout !",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-02",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a7c39632b6a0600015adef4",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a7c39632b6a0600015adef4"
     ],
     "status": "announced",
     "needsReview": true,
