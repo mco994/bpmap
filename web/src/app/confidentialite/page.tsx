@@ -71,10 +71,10 @@ export default function ConfidentialitePage() {
           <p className="mt-1">
             Pour toute question relative à vos données&nbsp;:{" "}
             <a
-              href="mailto:mco94.pro@gmail.com"
+              href="mailto:contact@codale.fr"
               className="text-fuchsia-700 underline underline-offset-2 dark:text-fuchsia-400"
             >
-              mco94.pro@gmail.com
+              contact@codale.fr
             </a>
           </p>
         </section>
