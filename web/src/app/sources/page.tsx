@@ -76,10 +76,10 @@ export default function SourcesPage() {
           <p className="mt-1">
             Une erreur, une source à créditer ou à retirer&nbsp;? Écrivez à{" "}
             <a
-              href="mailto:mco94.pro@gmail.com"
+              href="mailto:contact@codale.fr"
               className="text-fuchsia-700 underline underline-offset-2 dark:text-fuchsia-400"
             >
-              mco94.pro@gmail.com
+              contact@codale.fr
             </a>
             .
           </p>
