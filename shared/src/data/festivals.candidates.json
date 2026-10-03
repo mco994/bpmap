@@ -76,6 +76,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-hard-techno-road-to-invasion",
+    "name": "Soirée hard techno - Road to Invasion",
+    "city": "Bar-le-Duc",
+    "region": null,
+    "description": "L'Invasion Festival fait escale à Bar-le-Duc pour une soirée exceptionnelle !\n\nRoad to Invasion vous plonge dans l'univers intense de la hard techno avec une programmation réunissant des DJ de renom, figures incontournables de la scène.\nEntre énergie brute, basses percutantes et ambiance électrique, cette édition spéciale est l'occasion de vivre un avant-goût du célèbre festival dans une atmosphère unique.\n\nQue vous soyez passionné de musique électronique ou simplement curieux de découvrir cet univers, préparez-vous à une nuit hors du commun.\nL'invasion comment ici...",
+    "startDate": "2027-02-20",
+    "endDate": "2027-02-20",
+    "lat": 48.7644598,
+    "lng": 5.1775917,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/17e47939-a483-32f4-8177-c8c5123d6fc8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-decentralise-du-nancy-jazz-pulsations-james-baker",
     "name": "Concert décentralisé du Nancy Jazz Pulsations - James Baker",
     "city": "Mirecourt",
@@ -684,6 +703,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-80-90-2000-et-electro",
+    "name": "Soirée 80, 90, 2000 et Electro",
+    "city": "Thionville",
+    "region": null,
+    "description": "Préparez-vous pour une soirée 100 % nostalgie & good vibes !\nANNÉES 80 • 90 • 2000 • ELECTRO\nDress code spécial années 80 !\nVenez déguisés ou lookés façon années 80 : couleurs flashy, lunettes, vestes, coiffures déjantées… faites-vous plaisir ! \nDes goodies seront également offerts pendant la soirée !\nAu programme : les tubes qui ont marqué plusieurs générations, de la nostalgie, de l'énergie et surtout une ambiance de folie avec DJ NEVEN aux platines ! \nRamenez vos potes, sortez vos plus beaux looks 80's et venez faire la fête !",
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "lat": 49.3586789564237,
+    "lng": 6.16926312446594,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/d94fd28e-74bc-346b-b2c8-bd3ced2e30fc"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "eye-kibosh",
     "name": "Eye + Kibosh",
     "city": "Nilvange",
@@ -916,7 +954,7 @@
     "name": "Concert SOFAZ – Afro-électro à La Couveuse",
     "city": "Chadrac",
     "region": null,
-    "description": "Une soirée afro-électro à La Couveuse avec SOFAZ, entre maloya réunionnais, rythmes afro, transe gnaoua et musique électronique, accompagnée par les sets festifs de DJ Radio Barjo.",
+    "description": "L'association Pesa Motema et La Couveuse proposent une soirée musicale placée sous le signe de l'afro-électro avec SOFAZ, entre maloya réunionnais, rythmes afro, transe gnaoua et musique électronique, accompagnée par les sets festifs de DJ Radio Barjo.",
     "startDate": "2026-10-10",
     "endDate": "2026-10-10",
     "lat": 45.06108,
@@ -1043,25 +1081,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "concert-afro-world-sofaz-radio-barjo",
-    "name": "Concert Afro-World : Sofaz + Radio Barjo",
-    "city": "Chadrac",
-    "region": null,
-    "description": "Concert de Sofaz et Radio Barjo samedi 10 octobre à la Couveuse : mélanges d'afrobeat, de musiques sud-américaines et d'afro électro pour une soirée endiablée !",
-    "startDate": "2026-10-10",
-    "endDate": "2026-10-10",
-    "lat": 45.061049,
-    "lng": 3.905256,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/36eaa12f-b78e-35a4-9551-a18477d710a2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "ludivine-issambourg-theatre-d-angouleme-scene-nationale",
@@ -1501,6 +1520,25 @@
     "_reason": "genre électro non confirmé"
   },
   {
+    "slug": "lampli-coupe-le-jus",
+    "name": "LAmpli coupe le jus",
+    "city": "Rochefort",
+    "region": null,
+    "description": "Nostalgique des MTV Unplugged ? LAmpli invite 9 groupes à venir revisiter leur répertoire électrique en électro-acoustique.\r\nLe Temple Protestant qui se veut être un lieu culturel ouvre ses portes. Il sera réaménagé pour offrir des conditions inédites.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 45.938537,
+    "lng": -0.958841,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/e818643c-a59d-3961-b97f-99559a8558ea"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "bon-soir-halloween-party-bon-soir-dj-crew",
     "name": "Bon.Soir Halloween Party / Bon.Soir DJ Crew",
     "city": "Valence",
@@ -1786,6 +1824,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "dub-in-the-hills-9",
+    "name": "Dub in the hills #9",
+    "city": "Arcambal",
+    "region": null,
+    "description": "<p>Venez fêter l&#39;automne , le temps d&#39;une belle session Reggae &amp; Dub le 17 Octobre prochain à l&#39;Espace Culturel d&#39;Arcambal",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 44.4573048,
+    "lng": 1.50974981,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/22/b0e8ae74-4a80-3c1b-8315-a45b0d511bc8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "disco-party",
     "name": "Disco Party",
     "city": "Naintré",
@@ -1878,25 +1935,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/5bdec18b-2df2-3060-966d-87c91eaca32f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-dub-inc",
-    "name": "Concert - Dub Inc",
-    "city": "Seignosse",
-    "region": null,
-    "description": "Concert - DUB INC\nDub inc. est devenu sans conteste, le groupe le plus emblématique du reggae made in France. C'est avant tout par la scène que ses musiciens et chanteurs se sont imposés depuis dix ans comme fer de lance de la scène française, en apportant un vent de fraicheur incontesté.",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-02",
-    "lat": 43.6957985,
-    "lng": -1.4363166,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/6c010734-a0eb-3cb8-9391-4f6896ac5a8d"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2531,6 +2569,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "25-ans-ca-file-week-end-anniversaire",
+    "name": "25 ans, ça file ! Week-end anniversaire",
+    "city": "Roubaix",
+    "region": null,
+    "description": "**Prêts à faire la fête ?** En 2001 voyaient le jour à Roubaix les musées [La Piscine](https://www.roubaix-lapiscine.com/) et La Manufacture ainsi que Roubaix Ville d’art et d’histoire. Débutaient alors trois aventures culturelles qui s’entrecroisent depuis maintenant 25 ans dans une même ville au patrimoine reconnu et reconverti.  \n  \nQue ce soit dans l’écrin Art déco de La Piscine ou l’atmosphère intimiste de La Manufacture, danse, concerts et banquet vous attendent les **23, 24 et 25 octobre** pour un **week-end festif hors-normes** en lien avec les talents et les partenaires les plus créatifs de la région !\n\n### Au programme de ce week-end anniversaire **à La Manufacture** :\n\n### **Samedi 24 octobre | Goûter festif**\n\nDe 16h30 à 18h  \nLa Manufacture vous invite à célébrer notre triple anniversaire à l’occasion d’un goûter convivial et festif, animé par les rythmes « trans-pop-disco-groovy » de la fanfare lilloise [La Frange](https://www.instagram.com/la.frange.fanfare/)\n\n### **Dimanche 25 octobre | Clôture en musique**\n\nPerformances à 17h et 18h  \nSoufflet à tisser, spectacle musical et visuel imaginé par Laure Chailloux de la [cie Métalu à chahuter](https://www.instagram.com/metaluachahuter/?hl=fr)  \nÀ l’accordéon diatonique, l’artiste dialogue avec les anciennes machines à tisser, dont les rythmes, les vibrations et les mouvements deviennent de véritables éléments musicaux.  \nLe parcours met en parallèle le soufflet de l’accordéon, les fils, les cartons et la mécanique des métiers à tisser, dans un jeu entre puissance et grâce.  \nUne scénographie lumineuse guide le public de machine en machine, sans parole ni explication historique, pour favoriser une expérience immersive et poétique.\n\n### **En continu les 24 et 25 octobre**\n\n\\> Le Gang des Tricoteuses vous invite à un goûter d’anniversaire haut en couleurs ! Découvrez un banquet étonnant, **entièrement imaginé en tricot et en crochet**, où gourmandises textiles et créations insolites se mêlent dans une ambiance joyeuse et conviviale.  \n\\> [**Roubaix Génie textile**](https://lamanufacture-roubaix.com/fr/programmation/des-liens-a-proteger/), une exposition proposée par le label Ville d’art et d’histoire pour célébrer la richesse et la diversité des actrices et des acteurs textiles roubaisiens  \n\\> Médiation volante et visites guidées du musée  \n\\> Une exposition rétrospective de 25 ans d'affiches de La Manufacture La Piscine sera aussi à découvrir au [Grand Bassin](https://www.legrandbassin.fr/) !\n\n[**📅 À La Piscine ou dans Roubaix, découvrez l'intégralité du programme de ce triple anniversaire !**](https://www.roubaix-lapiscine.com/wp-content/uploads/2026/09/affiche-programme-V13.pdf)\n\n_L’identité visuelle et la conception graphique de cette célébration ont été réalisées avec la participation des étudiants de l’ESAAT, dont le regard créatif a contribué à donner forme à cet anniversaire partagé._",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 50.683047,
+    "lng": 3.195905,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/ef4b6fe0-155e-3dd7-8456-a3a83ac201fa"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "concert-la-securite-dj-aftershow-par-schlagsahne",
     "name": "CONCERT : La Sécurité + DJ Aftershow par Schlagsahne",
     "city": "Amiens",
@@ -2664,18 +2721,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "danse-rave-lucid-mazelfreten",
-    "name": "[Danse] Rave Lucid | Mazelfreten",
-    "city": "Dieppe",
+    "slug": "atelier-pot-boule-disco-fleurie",
+    "name": "Atelier pot boule disco fleurie",
+    "city": "Clères",
     "region": null,
     "description": "",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-02",
-    "lat": 49.922838,
-    "lng": 1.081005,
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-30",
+    "lat": 49.599534,
+    "lng": 1.110644,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/30/a737f850-b486-3e5f-a5ba-126f2b71b383"
+      "https://data.datatourisme.fr/30/a5b73901-1fc4-3c4e-9a1f-732de15e3244"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2778,8 +2835,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "pyrenees-reggae-dub-fest-3",
-    "name": "Pyrénées reggae dub fest #3",
+    "slug": "pyrenees-regaee-dub",
+    "name": "PYRENEES REGAEE DUB",
     "city": "Esbareich",
     "region": null,
     "description": "Rendez-vous pour la troisième édition du Pyrénées reggae dub fest qui se tiendra le vendredi 09 octobre et le samedi 10 octobre.\n\nLe Pyrénées Reggae Dub Fest propose sur deux soirs une ambiance musicale avec cinq sound systems et plusieurs artistes !\n Le programme inclut un marché de producteurs et de la restauration sur place. \n\nTarifs : 15€ par soir ou 25€ pour les deux, réservation conseillée car jauge limitée.",
@@ -2794,7 +2851,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "genre électro non confirmé"
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "concert-doya-luna-bohemia",
@@ -2866,6 +2923,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/7f90f6ba-a369-33c5-aef4-578b50dcbdd3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "telethon-soiree-disco",
+    "name": "Téléthon : soirée disco",
+    "city": "Plancoët",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 48.5232038,
+    "lng": -2.2420541,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/baad3768-7458-38de-a375-b55f354c50e8"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3544,6 +3620,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "spectacle-familial-plastic-boum-boum",
+    "name": "Spectacle familial - Plastic Boum Boum",
+    "city": "Wintzenheim",
+    "region": null,
+    "description": "Plastic Boum Boum raconte la rencontre de Compost et Dr Gazouz, deux musiciens venus d’un futur farfelu appelé le trufu, dans lequel les musiques électro subsistent sans électricité.",
+    "startDate": "2027-04-20",
+    "endDate": "2027-04-20",
+    "lat": 48.0724300208006,
+    "lng": 7.2945411851671,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/77efad49-e5af-3932-ad3e-68f55316c7b4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-x-mas-party",
     "name": "Concert : X-MAS PARTY",
     "city": "Sélestat",
@@ -3715,25 +3810,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "talisco-gami",
-    "name": "Talisco + Gami",
-    "city": "Istres",
-    "region": null,
-    "description": "D’abord porté par une électro-pop efficace et largement diffusée, l’artiste aux origines hispano-bordelaises a construit un parcours solide entre disques et scène depuis 2010.",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-02",
-    "lat": 43.491639,
-    "lng": 4.96949,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/dba7df8f-043e-39dc-a2af-3008ebdb2fde"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-responsabilite-des-reves",
     "name": "La responsabilité des rêves",
     "city": "Aix-en-Provence",
@@ -3855,6 +3931,25 @@
       "BSD"
     ],
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "dancehall-rave",
+    "name": "DANCEHALL RAVE",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "💥Prêt.e.s à bouger? 💥 Après, Lyon, Paris et Bruxelles, le show Dancehall Rave débarque à Nantes.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 47.200269,
+    "lng": -1.573839,
+    "officialUrl": "https://openagenda.com/nantesmetropole/events/dancehall-rave",
+    "sources": [
+      "https://openagenda.com/nantesmetropole/events/dancehall-rave"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "rave-lucid-danse",
@@ -4445,158 +4540,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "pisica-alba-franch-franck-antonym-b2b-george-radsport",
-    "name": "Pisica: Alba Franch, franck, Antonym B2b George Radsport &…",
-    "city": "Paris",
-    "address": "Mia Mao, 12a rue Ella Fitzgerald, 75019, Paris, FRANCE",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2506953",
-    "lineup": [
-      "Alba Franch",
-      "Antonym",
-      "FØSS",
-      "franck",
-      "HANÀ",
-      "Westfall"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2506953"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "rabanne-presents-million-black-tour-paris",
-    "name": "Rabanne presents Million Black Tour Paris",
-    "city": "Paris",
-    "address": "Café Nuances  - Marais, 51 Rue des Francs Bourgeois, 75004 Paris",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-03",
-    "officialUrl": "https://ra.co/events/2544181",
-    "lineup": [
-      "Jen Cardini",
-      "Bambounou",
-      "BLANKA",
-      "2M",
-      "TTristana",
-      "RONI",
-      "Broodoo Ramses"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2544181"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "chloe-caillet-bella-sarris-carista-isabella-makadsi-lea-occhi",
-    "name": "CHLOE CAILLET, Bella Sarris, CARISTA, ISAbella, Makadsi, Lea Occhi",
-    "city": "Paris",
-    "address": "Fvtvr, 34 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2528876",
-    "lineup": [
-      "Chloé Caillet",
-      "Bella Sarris",
-      "CARISTA",
-      "ISAbella",
-      "Makadsi",
-      "Lea Occhi"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2528876"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "babecore-launch-showcase-jerk-off-after-party",
-    "name": "BabeCore Launch Showcase (Jerk Off After Party)",
-    "city": "Paris",
-    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2529682",
-    "lineup": [
-      "Kontronatura",
-      "Cleo (AU)",
-      "Miss T Delight",
-      "Butch2Bitch",
-      "Mafille",
-      "Kiar Oscuro",
-      "Orion",
-      "Josef"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2529682"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "goddess-rave-urumi-a5km-esilise-pauline-d7-noiza",
-    "name": "GODDESS RAVE: Urumi, A5KM, Esilise, PAULINE D7 & NOIZA",
-    "city": "Paris",
-    "address": "Kilomètre25, 8 Boulevard MacDonald 75019 Paris",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2536624",
-    "lineup": [
-      "Urumi",
-      "Esilise",
-      "NOIZA"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2536624"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "ribella-rave-society-rooftop-party",
-    "name": "Ribella Rave Society - Rooftop Party",
-    "city": "Paris",
-    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2544126",
-    "lineup": [
-      "Disco Paese",
-      "Seabra"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2544126"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "temet-x-fata-morgana-tickets-en-vente-sur-place-complet-en-preventes",
     "name": "TEMET X FATA MORGANA (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
     "city": "Paris",
@@ -4641,6 +4584,33 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2547378"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "rabanne-presents-million-black-tour-paris",
+    "name": "Rabanne presents Million Black Tour Paris",
+    "city": "Paris",
+    "address": "Café Nuances  - Marais, 51 Rue des Francs Bourgeois, 75004 Paris",
+    "region": null,
+    "startDate": "2026-10-02",
+    "endDate": "2026-10-03",
+    "officialUrl": "https://ra.co/events/2544181",
+    "lineup": [
+      "Jen Cardini",
+      "Bambounou",
+      "BLANKA",
+      "2M",
+      "TTristana",
+      "RONI",
+      "Broodoo Ramses"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2544181"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4914,6 +4884,90 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "face-2-face-paris",
+    "name": "FACE 2 FACE: PARIS",
+    "city": "Paris",
+    "address": "Parc Floral De Paris, Parc Floral de Paris, Route de la Pyramide, Paris 12e",
+    "region": null,
+    "startDate": "2026-10-16",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2474191",
+    "lineup": [
+      "Kichta",
+      "two girls one mom",
+      "relajadita",
+      "Eskha",
+      "Serafina",
+      "Adrian Mills",
+      "Two Dots (FR)",
+      "Alex Nantaya",
+      "William Luck",
+      "zwilling.",
+      "HiTMiLØW"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2474191"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "sous-tes-reins-nord-sud",
+    "name": "Sous Tes Reins : Nord + Sud",
+    "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
+    "region": null,
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2534358",
+    "lineup": [
+      "Corbeille Dallas",
+      "De Vedelly",
+      "Diane",
+      "Fiona Zanetti",
+      "Paulina",
+      "Paulette Sauvage",
+      "VALISE"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2534358"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "all-day-long-resilience-x-quintessence",
+    "name": "ALL DAY LONG: Résilience x Quintessence",
+    "city": "Paris",
+    "address": null,
+    "region": null,
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2546724",
+    "lineup": [
+      "KEUT",
+      "Marie-Julie",
+      "Toscan Haas",
+      "Marco del Bosque",
+      "Labouts",
+      "Charleeps"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2546724"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "bordeaux-open-air-parc-de-bourran",
     "name": "Bordeaux Open Air - Parc de Bourran",
     "city": null,
@@ -5046,50 +5100,6 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ab3ecd1a7131800010f95e2"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "one-more-time-nuit-french-touch",
-    "name": "One More Time / Nuit French Touch",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-03",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6aad445283965b0001b7b1da",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6aad445283965b0001b7b1da"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "pont-neuf-10-years-in-house-we-trust",
-    "name": "PONT NEUF 10 YEARS - IN HOUSE WE TRUST",
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "description": "",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-03",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a9e9119df36730001a83144",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a9e9119df36730001a83144"
     ],
     "status": "announced",
     "needsReview": true,
