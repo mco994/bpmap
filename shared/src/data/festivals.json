@@ -637,6 +637,33 @@
     ]
   },
   {
+    "id": "open-air-kdkol-in-aerem-beau-mot-plage",
+    "slug": "open-air-kdkol-in-aerem-beau-mot-plage",
+    "name": "OPEN AIR: KDKOL, in aerem, BEAU MOT PLAGE",
+    "description": "",
+    "startDate": "2026-10-03",
+    "endDate": null,
+    "lat": 48.90261,
+    "lng": 2.37088,
+    "city": "Aubervilliers",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2552282",
+    "status": "announced",
+    "eventType": "open-air",
+    "sources": [
+      "https://ra.co/events/2552282"
+    ]
+  },
+  {
     "id": "ndk-festival",
     "slug": "ndk-festival",
     "name": "NDK Festival",
@@ -843,6 +870,63 @@
     ],
     "sources": [
       "https://ra.co/events/2477803"
+    ]
+  },
+  {
+    "id": "festival-facettes",
+    "slug": "festival-facettes",
+    "name": "Festival Facettes",
+    "description": "",
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2525169",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Vice Experience"
+    ],
+    "sources": [
+      "https://ra.co/events/2525169"
+    ]
+  },
+  {
+    "id": "lolo-sosaku-live-festival-d-autonme",
+    "slug": "lolo-sosaku-live-festival-d-autonme",
+    "name": "Lolo & Sosaku (Live) Festival d'Autonme",
+    "description": "",
+    "startDate": "2026-10-22",
+    "endDate": null,
+    "lat": 48.86683,
+    "lng": 2.35359,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2523501",
+    "status": "announced",
+    "eventType": "festival",
+    "sources": [
+      "https://ra.co/events/2523501"
     ]
   },
   {
