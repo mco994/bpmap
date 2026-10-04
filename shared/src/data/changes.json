@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-10-04:open-air-kdkol-in-aerem-beau-mot-plage:added",
+    "festivalId": "open-air-kdkol-in-aerem-beau-mot-plage",
+    "festivalSlug": "open-air-kdkol-in-aerem-beau-mot-plage",
+    "festivalName": "OPEN AIR: KDKOL, in aerem, BEAU MOT PLAGE",
+    "type": "added",
+    "date": "2026-10-04",
+    "summary": "Ajouté à Aubervilliers — Dates à confirmer."
+  },
+  {
+    "id": "2026-10-04:festival-facettes:added",
+    "festivalId": "festival-facettes",
+    "festivalSlug": "festival-facettes",
+    "festivalName": "Festival Facettes",
+    "type": "added",
+    "date": "2026-10-04",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
+    "id": "2026-10-04:lolo-sosaku-live-festival-d-autonme:added",
+    "festivalId": "lolo-sosaku-live-festival-d-autonme",
+    "festivalSlug": "lolo-sosaku-live-festival-d-autonme",
+    "festivalName": "Lolo & Sosaku (Live) Festival d'Autonme",
+    "type": "added",
+    "date": "2026-10-04",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
     "id": "2026-10-01:hadra-trance-festival:removed",
     "festivalId": "hadra-trance-festival",
     "festivalSlug": "hadra-trance-festival",

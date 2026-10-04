@@ -1,24 +1,5 @@
 [
   {
-    "slug": "spectacle-memento",
-    "name": "Spectacle Memento",
-    "city": "Forbach",
-    "region": null,
-    "description": "Aux noces du hip-hop et de l’électro\nLaura Defretin et Brandon Masele – plus connus sous les pseudonymes « Nala » et « Miele » dans le monde des battles – ont fondé la compagnie MazelFreten avec l’envie de mélanger leurs gestes artistiques respectifs. À partir du hip-hop pour elle et de l’électro pour lui, ils créent une hybridation joyeuse de ces deux grands courants des danses urbaines. Pour leur seconde pièce d’ensemble, ils convoquent une distribution internationale de six interprètes qui nous invitent à un voyage entre performance, contemplation et poésie. La force du groupe est portée par sa cohésion sans faille, sur une bande-son électro, entrecoupée de morceaux de Chopin joués en live au piano. Avec ce Memento, les chorégraphes offrent sur scène leurs souvenirs et les émotions qui les transcendent intimement à travers l’amour pour leur art. Entre deux collaborations avec Stromae, Angèle ou encore Hervé, des dates dans le monde entier grâce à la renommée internationale acquise lors de leur participation à la cérémonie d’ouverture des J.O. de Paris 2024, MazelFreten s’arrête à Forbach pour ouvrir la saison des trente ans du Carreau avec une énergie contagieuse.",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 49.1850537,
-    "lng": 6.8930543,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/04c4839c-9df3-3402-9634-095c430278a9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "spectacle-fergessen-libere",
     "name": "Spectacle : Fergessen 'Libère'",
     "city": "Saint-Dié-des-Vosges",
@@ -608,6 +589,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-mister-mowg-dj-set",
+    "name": "Concert Mister Mowg - Dj set",
+    "city": "Remiremont",
+    "region": null,
+    "description": "Pour notre soirée spéciale Halloween du 31 octobre, Mister Mowg vient poser son univers à la croisée de la musique et du cinéma.\n\nDepuis plus de dix ans, Mister Mowg navigue entre musique et image sans cloisonner les deux. Cinéma en tête, collection de vinyles en toile de fond, il imagine des projets qui pensent autant le son que le visuel. Il compose, filme, monte, produit : une approche autonome, presque artisanale. Sa musique croise électro, trip-hop, hip-hop et textures cinématographiques, entre DJ Shadow, RJD2 et Apashe, avec une identité bien à lui.\n\nAvec Le Monde des Humains (2022), puis Le Vinyle Maudit (2024), il pousse plus loin le lien entre récit sonore et image, jusqu’à des formats hybrides entre album et film.\n\nEn live, musique et images se répondent en direct dans des sets immersifs, à la frontière du concert et de la projection.",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 48.0225,
+    "lng": 6.59888888888889,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/c3a7f8c9-3b44-30a4-b8ba-5b1bc1330d2f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-njp-2026-caravan-palace-youngblood-brass-band-daoud",
     "name": "Concert - NJP 2026 - Caravan Palace - Youngblood Brass Band - Daoud",
     "city": "Nancy",
@@ -701,25 +701,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-80-90-2000-et-electro",
-    "name": "Soirée 80, 90, 2000 et Electro",
-    "city": "Thionville",
-    "region": null,
-    "description": "Préparez-vous pour une soirée 100 % nostalgie & good vibes !\nANNÉES 80 • 90 • 2000 • ELECTRO\nDress code spécial années 80 !\nVenez déguisés ou lookés façon années 80 : couleurs flashy, lunettes, vestes, coiffures déjantées… faites-vous plaisir ! \nDes goodies seront également offerts pendant la soirée !\nAu programme : les tubes qui ont marqué plusieurs générations, de la nostalgie, de l'énergie et surtout une ambiance de folie avec DJ NEVEN aux platines ! \nRamenez vos potes, sortez vos plus beaux looks 80's et venez faire la fête !",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-03",
-    "lat": 49.3586789564237,
-    "lng": 6.16926312446594,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/d94fd28e-74bc-346b-b2c8-bd3ced2e30fc"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "eye-kibosh",
@@ -905,25 +886,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/fee205df-fbbc-33f9-828c-f0e0726a883f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "dub-meeting-47",
-    "name": "Dub'Meeting #47",
-    "city": "Valence",
-    "region": null,
-    "description": "Du lourd pour débuter cette nouvelle saison des Dub Meeting au Mistral Palace, avec la venue exceptionnelle de Craigy Wonder du Mungo’s Hi-Fi !\r\nCB et bar sur place, pas de restauration.",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 44.928898,
-    "lng": 4.891791,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/16d142b4-205b-32fa-abdc-d2d07979bfda"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1247,25 +1209,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/8fee979c-c898-3219-b8af-7f9be4bea388"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "dub-meeting-47-au-mistral-palace",
-    "name": "Dub Meeting #47 au Mistral Palace",
-    "city": "Valence",
-    "region": null,
-    "description": "C'est la rentrée, on se retrouve pour un nouveau Dub Meeting !",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 44.928837,
-    "lng": 4.89176,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/90717a6d-e388-3517-a3ad-196c1e987fbf"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1904,7 +1847,7 @@
     "name": "Soirée Disco",
     "city": "Mont-de-Marsan",
     "region": null,
-    "description": "Soirée disco, proposé par le Comité des fêtes, 19h30, salle polyvalente.",
+    "description": "Soirée Disco de 70 à nos jours : animée par DJ Mat, avec repas et apéritif offert si les gens sont déguisés dans le thème.\nBonne ambiance assurée !",
     "startDate": "2026-10-30",
     "endDate": "2026-10-30",
     "lat": 43.8959579,
@@ -1912,7 +1855,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/53fd23bf-3043-390d-a645-f04d3da74245",
-      "https://data.datatourisme.fr/23/f878054f-42ad-34e2-a780-8d6804421e39",
       "https://data.datatourisme.fr/30/bbc19a42-cd7e-3484-9b22-300eef6226b4",
       "https://data.datatourisme.fr/5/1fa11f37-c96f-3a0c-b964-27a2a240453e"
     ],
@@ -2094,25 +2036,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-road-house-4",
-    "name": "Concert - Road House 4",
-    "city": "Parthenay",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 46.652176,
-    "lng": -0.24947,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/f322d555-10c2-34b6-8575-cd66704907f6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "gravity-other-myths",
     "name": "Gravity & Other Myths",
     "city": "Roubaix",
@@ -2149,6 +2072,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "roots-rock-roubaix-par-soul-iration",
+    "name": "Roots Rock Roubaix - par Soul Iration",
+    "city": "Roubaix",
+    "region": null,
+    "description": "Le samedi 10 octobre 2026, La Condition Publique de Roubaix accueillera une soirée qui s’annonce déjà comme l’un des rendez-vous majeurs de la scène roots et dub en France.  \nÀ une époque où la culture sound system connaît un véritable regain d’intérêt, Roots Rock Roubaix choisit de revenir à l’essentiel : une sono artisanale, des basses profondes, des artistes authentiques et une communion autour de la musique.\n\nPour porter cette expérience, Soul Iration a fait appel à Firmly Rooted Soundsystem, collectif britannique reconnu pour la qualité de son système et son attachement aux valeurs fondatrices de la culture sound system. Plus qu’une simple diffusion sonore, chaque session de Firmly Rooted est pensée comme une immersion totale, où chaque fréquence trouve sa place et où les basses deviennent un langage à part entière.  \nEn tête d’affiche, une figure incontournable de la scène internationale : Aba Shanti-I. Véritable légende vivante, il viendra délivrer un set exceptionnel de quatre heures, fidèle à sa réputation. Depuis plus de trois décennies, ses sélections, ses dubplates exclusives et son approche profondément spirituelle ont fait de chacune de ses apparitions un événement. Rare sur le continent, chacune de ses venues est attendue par les amateurs de dub du monde entier.\n\nLa soirée accueillera également Martin Campbell, l’une des voix emblématiques du reggae britannique. Auteur de morceaux devenus des classiques du UK Roots, il interprétera ses titres accompagné par la puissance du sound system, dans une configuration qui rappelle les grandes heures des sessions londoniennes.\n\nPour ouvrir les festivités, Soul Iration prendra les commandes avec une sélection construite autour des fondations du reggae, du rocksteady, du roots et du dub et sera accompagné du chanteur S’kaya qui est étroitement lié à l’histoire de Soul Iration.  \nDans un lieu aussi singulier que La Condition Publique, ancienne friche industrielle devenue espace culturel, tous les ingrédients semblent réunis pour offrir une expérience fidèle à l’esprit originel de cette culture née en Jamaïque et développée au Royaume-Uni : un système de son pensé comme un instrument, des sélections exigeantes, des artistes engagés et un public réuni autour d’une même vibration.\n\nPlus qu’un concert, Roots Rock Roubaix revendique l’héritage de la sound system culture dans ce qu’elle a de plus authentique : une célébration du partage, de la musique et des basses.\n\nLe 10 octobre, Roubaix vibrera au rythme du roots et du dub.  \nAccessibilité :  \n\\- Des casques antibruit pour les enfants sont disponibles au PC Sécu sous caution d’une pièce d’identité.  \n\\- La salle de concert est équipée d’une plateforme normée rendant les concerts accessibles aux personnes à mobilité réduite.  \n\\- Hypersensibles au bruit et aux lumières, les personnes avec un trouble du spectre autistique peuvent profiter pleinement des concerts grâce au kit sensoriel disponible sur demande.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 50.691099,
+    "lng": 3.18927,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/128f1261-73b4-34c2-9e17-a584ee19ffad"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "genre électro non confirmé"
   },
   {
     "slug": "concert-soiree-new-jazz-club-oasis-boom-la-lune-des-pirates",
@@ -2341,25 +2283,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-bound-by-endogamy-monika-beluga",
-    "name": "CONCERT : Bound By Endogamy + Monika Beluga",
-    "city": "Amiens",
-    "region": null,
-    "description": "SAM. 3 OCTOBRE 2026\n\n20:00\n\nBound By Endogamy (Post-punk electronique)\n\nBound By Endogamy est un duo de post-punk électronique, actif depuis 2019. Il est composé de Kleio Thomaïdes et Shlomo Balexert. Les deux musicien.nes sont issu.es du milieu squat/punk. En live leur projet se résume à une batterie, un sampler, et un chant féminin. Il a été décrit comme un croisement entre DAF et Kleenex avec un background plus hardcore. BBE fonctionne le plus possible en mode DIY. Les enregistrements, mix et masterings sont réalisés en home studio - ou en « car studio » en cas d’expulsion du logement. Les photos, les designs de pochettes de disques et les vidéo-clips sont faits maison.\n\n\nMonika Beluga (Dream-pop sombre | FR)\n\nMonika Beluga, chimère surgie des profondeurs de l’eau du bain, tel un marsouin blanc à dix doigts, répand ses chants spirituels dans les salles de bain… Car, après tout, l’acoustique y est plutôt bonne.\nMonika Beluga évolue dans un univers de dream pop sombre, à quelques pas du cauchemar. Les morceaux sont des complaintes presque spirituelles, rêvant d’un retour à la nature et à la quiétude, chassant des figures métaphoriques de l’anxiété et de tous ces sentiments qu’on préférait ne pas partager pendant un joyeux repas de famille. Avec ses influences, Monika tisse un paysage sonore à la fois éthéré et onirique, vaporeux et poétique.\n\n En partenariat avec l'association Plaisir d'Offrir.",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 49.89905,
-    "lng": 2.2752772,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/665f2540-929a-30c3-92c8-721927805787"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "tourcoing-jazz-festival-2026-duo-brady",
     "name": "TOURCOING JAZZ FESTIVAL 2026 ⯁ DUO BRADY",
     "city": "Tourcoing",
@@ -2472,6 +2395,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "fete-de-cloture-celtique-samhain",
+    "name": "Fête de clôture celtique : Samhain",
+    "city": "Houplin-Ancoisne",
+    "region": null,
+    "description": "Célébrons Samhain : une fête celtique millénaire marquant l'entrée dans la saison sombre.  \nAu programme : fanfare électro-bestiale, shadokerie cyclique, entresorts lumineux, jeux et ateliers créatifs.\n\n_**SPECTACLES**_  \n  \n**14 h 30 / 16 h / 17 h 30**  \n**30 min**  \n**Grôöøõv**  \n**La Chose Publique**  \n**Fanfare electrø bestiale de bønne compagnie !**  \n**Tout public**  \nMi-hømmes mi-animaux, les musiciens de Grôöøõv battent le pavé à la recherche d'énergies et de sensations inspirantes pour entrer dans une jøyeuse danse hypnøtique. Leurs sons terreux nous emmènent dans des prøfondeurs rythmø-mélødiques primitives mais salutaires.\n\n**15 h / 17 h**  \n**45 min**  \n**Faut qu'ça tourne !**  \n**La Roulotte Ruche**  \n**Théâtre musical et burlesque**  \n**à partir de 5 ans**  \nTrois personnages pas très bavards, un peu loufoques, s’activent à construire une étrange machine avec des courroies, des poulies, des manivelles. Ils ont un plan, il y a des caisses pleines de matériel et ils ont une obsession : il faut que ça tourne ! Alors, en musique et en mouvement, ils cherchent et se cherchent…\n\n_**ANIMATIONS**_\n\n**14h - 17 h**  \n**en continu**  \n**La porte de l'invisible**  \n**Florie Andrèges**  \n**Œuvre collaborative**  \n**Tout public**  \nCélébrons le passage vers la saison sombre et ouvrons la porte de l'invisible en décorant collectivement une arche en osier. La somme des efforts de chacun contribuera à une œuvre monumentale et immersive, dans laquelle jouer et se photographier !\n\n**14 h - 18 h**  \n**en continu**  \n**Lumières**  \n**Le Collectif de la Girafe**  \n**Entresort**  \n**Tout public**  \nQue vous ayez la fibre artistique ou simplement l’envie d’explorer de nouveaux univers, pénétrez dans l'antre des lumières. Ensemble, composons votre portrait de lumières et repartez avec votre cliché. Un entre-sort ludique et insolite !\n\n**14 h - 18 h**  \n**en continu**  \n**Le cercle des fleurs**  \n**L’équipe Mosaïc**  \n**Interventions artistiques**  \nLes druides et druidesses de l’équipe vous ont concocté un programme magique, secret et libérateur ! Encore faut-il oser franchir le cercle sans craindre de basculer dans l’Autre Monde…  \nLe petit + : participez en autonomie au rituel de libération, au rituel des souhaits ou encore au banquet des amulettes !\n\n_**JEUX**_\n\n**Cherche et trouve les 11 feux sacrés**  \nLes druides et druidesses de Mosaic ont allumé un feu sacré dans chaque jardin. À vous de les retrouver !\n\n**À la soupe !**  \nMisère, le grand banquet rituel a lieu ce soir et la Grande druidesse n’est toujours pas rentrée. Aidez-nous à préparer la soupe magique !\n\n**Le petit + : découvrez un mini-jeu « samhainique » dans chaque jardin**\n\n**Ouverture de Mosaïc : 10 h - 19 h. Dernier accès à 18 h**  \nLe site est accessible aux personnes en situation de handicap. Merci de contacter l’équipe pour plus de précisions au sujet de l’accessibilité des activités.",
+    "startDate": "2026-10-18",
+    "endDate": "2026-10-18",
+    "lat": 50.577312,
+    "lng": 2.978667,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/caf86295-66bb-30ca-8043-4cdb2b57c3b3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "same-but-different",
@@ -2778,18 +2720,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "octobre-rose-soiree-disco",
-    "name": "Octobre Rose - Soirée Disco",
-    "city": "Villefranche-de-Rouergue",
+    "slug": "piece-de-theatre-disco",
+    "name": "Pièce de théâtre \"DISCO\"",
+    "city": "Bourguébus",
     "region": null,
-    "description": "Une soirée pour une belle cause !",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 44.35772531,
-    "lng": 2.02700973,
+    "description": "Replongez dans l'univers des années 70 pour être témoin de l'émancipation d'une femme \"au foyer\" dans une comédie pleine de rebondissements !",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-11",
+    "lat": 49.1218637,
+    "lng": -0.2982271,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/31/47efcaf1-4f4c-343b-9dcc-768868e2128e"
+      "https://data.datatourisme.fr/30/d145115f-14c8-3fe7-8e84-3c82508dcd81"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2809,25 +2751,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/31/b1ce8e28-8b52-3266-9822-81cc4ffee32e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-duchesse-bleue-dj-set",
-    "name": "CONCERT - DUCHESSE BLEUE + DJ SET",
-    "city": "Cassagnabère-Tournas",
-    "region": null,
-    "description": "La Pistouflerie vous propose un concert pop électro.",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 43.2278348,
-    "lng": 0.79236728,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/33/f8b0790e-9194-3c64-a501-954232c96522"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2904,25 +2827,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/4e2a7e05-7a6b-368d-b11d-3659b229d6fd"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "disco-pom-roulettes",
-    "name": "Disco Pom'roulettes",
-    "city": "Telgruc-sur-Mer",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 48.25131,
-    "lng": -4.38017,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/7f90f6ba-a369-33c5-aef4-578b50dcbdd3"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3741,8 +3645,8 @@
     "description": "Cette installation vidéo documentaire, tournée comme un techno-thriller, adopte une approche critique post-anthropocène en témoignant de l’impact des technologies cyber numériques sur l’environnement, en particulier sur notre consommation d’eau.",
     "startDate": "2026-03-20",
     "endDate": "2027-03-20",
-    "lat": 43.522785,
-    "lng": 5.43849,
+    "lat": 43.520936,
+    "lng": 5.440408,
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/58/6919616b-9bd1-3914-8cc4-90498f780cd8"
@@ -3784,25 +3688,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/58/716393dc-6cff-328c-a223-924987a2bfb7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "il-est-vilaine",
-    "name": "Il est Vilaine",
-    "city": "Marseille 5e Arrondissement",
-    "region": null,
-    "description": "Voila dix ans qu’Il Est Vilaine allument les dancefloors avec un son électro teinté de rock salace qui évoque plus le New York des Bush Tetras ou le Tokyo de YMO que les galettes de Pont Aven.",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-03",
-    "lat": 43.293233,
-    "lng": 5.39175,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/cd712fe3-0500-351b-a8df-44fe1163cad9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -4051,6 +3936,47 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
+    "slug": "sonora-bordeaux",
+    "name": "Sonora Bordeaux",
+    "city": "Bordeaux",
+    "address": "Sonora Bordeaux, Cours Jules Ladoumegue, 33300 Bordeaux, France",
+    "region": null,
+    "startDate": "2026-10-16",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2552318",
+    "lineup": [
+      "Afem Syko",
+      "Linds",
+      "DJ Gigola",
+      "I Hate Models",
+      "KUKO",
+      "LESSSS",
+      "Panteros666",
+      "Part Time Killer",
+      "Vladimir Cauchemar",
+      "2HOT2PLAY",
+      "More (3)",
+      "Alignment",
+      "Anetha",
+      "Ben Klock",
+      "Clara Cuvé",
+      "future.666",
+      "KlangKuenstler",
+      "Nina Kraviz",
+      "PETERBLUE",
+      "Serafina"
+    ],
+    "genreVerified": true,
+    "isFestival": true,
+    "sources": [
+      "https://ra.co/events/2552318",
+      "https://ra.co/events/2552448"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "soirée : hors périmètre"
+  },
+  {
     "slug": "moga-essaouira-2026",
     "name": "Moga Essaouira 2026",
     "city": null,
@@ -4241,28 +4167,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "localisation manquante"
-  },
-  {
-    "slug": "open-air-house-to-techno-passion-caisson-x-hidden-garden",
-    "name": "OPEN AIR HOUSE TO TECHNO - PASSION CAISSON x HIDDEN GARDEN",
-    "city": "Lyon",
-    "address": null,
-    "region": null,
-    "startDate": "2026-10-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2547682",
-    "lineup": [
-      "MRXY",
-      "Messina"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2547682"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "sarab-x-hypercontent-festival-un-doua-de-jazz-33e-edition",
@@ -4538,136 +4442,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "temet-x-fata-morgana-tickets-en-vente-sur-place-complet-en-preventes",
-    "name": "TEMET X FATA MORGANA (TICKETS EN VENTE SUR PLACE / COMPLET EN PREVENTES)",
-    "city": "Paris",
-    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
-    "region": null,
-    "startDate": "2026-10-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2522696",
-    "lineup": [
-      "Amnesia Scanner",
-      "k means",
-      "Simo Cell",
-      "Elvira (1)",
-      "Rosa Pistola",
-      "Less-O",
-      "Tamada (FR)",
-      "rxdazn"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2522696"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-oxtazz-red-egma-voltaire",
-    "name": "After O'Clock X La Plage Open Air: Oxtazz, Red Egma, Voltaire",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-10-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2547378",
-    "lineup": [
-      "Oxtazz",
-      "Voltaire"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2547378"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "rabanne-presents-million-black-tour-paris",
-    "name": "Rabanne presents Million Black Tour Paris",
-    "city": "Paris",
-    "address": "Café Nuances  - Marais, 51 Rue des Francs Bourgeois, 75004 Paris",
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-03",
-    "officialUrl": "https://ra.co/events/2544181",
-    "lineup": [
-      "Jen Cardini",
-      "Bambounou",
-      "BLANKA",
-      "2M",
-      "TTristana",
-      "RONI",
-      "Broodoo Ramses"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2544181"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "tete-vide-a-bal-chavaux-ma-sha-aloka-acide-plastique-b2b-b3bz-xea-b2b-hyperlison",
-    "name": "TETE VIDE à Bal Chavaux: Ma Sha, Aloka, Acide Plastique b2b b3bz, Xea b2b Hyperlison",
-    "city": "Montreuil",
-    "address": "Bal Chavaux, 1 Av. de la Résistance, 93100 Montreuil",
-    "region": null,
-    "startDate": "2026-10-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2526288",
-    "lineup": [
-      "Ma Sha",
-      "Aloka",
-      "acideplastique",
-      "b3bz",
-      "xea (1)",
-      "Hyperlison"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2526288"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "road-to-the-90-s-aldonna-romain-fx-pentagon-more",
-    "name": "Road To The 90'S: Aldonna, Romain Fx, Pentagon & More",
-    "city": "Paris",
-    "address": "La Rotonde Stalingrad, 6-8 Place de la Bataille de Stalingrad - 75019 Paris",
-    "region": null,
-    "startDate": "2026-10-03",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2543577",
-    "lineup": [
-      "Aldonna",
-      "Romain Fx",
-      "Owlshake",
-      "Donna Gibson",
-      "Black Truffle",
-      "Aï Smash",
-      "Main Lourde"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2543577"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-ricardo-garduno-miss-nat-h-lee-le-saint",
@@ -5040,28 +4814,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "house-of-love-nightchou-young-pulse",
-    "name": "House of Love: Nightchou & Young Pulse",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-04",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ab105801d8d820001bd6488",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ab105801d8d820001bd6488"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "3672-techno",
     "name": "3672*Techno",
     "city": "Paris",
@@ -5104,6 +4856,50 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-gloria-disco-au-consulat-voltaire",
+    "name": "La Gloria Disco au Consulat Voltaire",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ab64ad073be1400014b0876",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ab64ad073be1400014b0876"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "house-o-drome-invite-marie-berson-davjazz-farah-joue",
+    "name": "House O'drome Invite Marie Berson, Davjazz, Farah Joue…",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-11",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6abe749dc57ae30001964e62",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6abe749dc57ae30001964e62"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "vip-is-life-danakil-pony-pony-run-run-billie-violet-indigo-goodbye-karell-michel-hubert-taalkimia-et-asna-presente-rave-in-town",
