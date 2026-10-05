@@ -342,6 +342,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-rock-madam-anim-virile",
+    "name": "Concert Rock Madam + Animø Virile",
+    "city": "Épinal",
+    "region": null,
+    "description": "Le groupe Madam s’impose comme l’une des formations rock les plus percutantes de la scène française actuelle. Le groupe propose un live à la fois puissant et sincère, où chaque concert devient une véritable expérience.\nAnimø Virile est un duo électro-rock qui associe violon et électronique pour créer une musique aux multiples reliefs. Ce groupe propose un live aussi dansant que captivant.\nEt si vous avez besoin de covoiturer, ça se passe ici :\nhttps://www.covievent.org/covoiturage/madam-animo-virile-1/d5a5b4f19e10b889f7b31ca5a3c27429",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-10",
+    "lat": 48.1755520036814,
+    "lng": 6.44401783124977,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/6d3ec5c5-39d2-352d-b577-7e55d603269e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-njp-2026-vincent-peirani-jungle-by-night",
     "name": "Concert - NJP 2026 - Vincent Peirani - Jungle By Night",
     "city": "Nancy",
@@ -720,6 +739,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-mad-professor-massive-dub-corporation-wanty-faya",
+    "name": "Concert Mad Professor + Massive Dub Corporation + Wanty Faya",
+    "city": "Épinal",
+    "region": null,
+    "description": "Sonorisé par Wanty Faya (sono 6 scoop)\nWarm Up et Closing by Wanty Faya\nNeil Fraser, alias Mad Professor, est une légende vivante du Dub britannique. Génie de l’électronique, il forge son propre matériel dès ses débuts et lance dans les années 80 le label Ariwa et la série culte Dub Me Crazy. Avec plus de 200 albums à son actif, il collabore avec Lee Scratch Perry, Horace Andy, Jah Shaka, et réinvente le son de Massive Attack avec No Protection (1995). Ses sets de Live Dub en perpétuelle métamorphose en font une référence mondiale. Dernière sortie : Armageddon ft. Sister Nancy — septembre 2025. La preuve qu’il reste une pierre angulaire de la Bass music.\nMassive Dub propose un dub moderne et hybride, mêlant groove, improvisation et influences jazz, électro, reggae et soul. Toujours en quête de nouvelles sonorités, le groupe façonne des compositions riches et évolutives. Avec Iridescence, leur troisième album, et des lives puissants, ils insufflent une vraie fraîcheur à la scène dub française.\n\nWanty Faya, c’est ton crew vosgien composé de 3 amis d’enfance. Ils se démènent pour faire vibrer ton cœur et transmettre les valeurs de la culture Sound System. Sans renier les origines culturelles, ils apportent une touche authentique puisée directement dans leur identité afin de créer cette Faya Vibes si unique.\nIls débarquent avec leur sono 6scoops construite de leurs mains afin de réveiller la bête en toi.\nEt si vous avez besoin de covoiturer, ça se passe ici :\nhttps://www.covievent.org/covoiturage/mad-professor-massive-dub-corporation-wanty-faya/fac523d976214c505a42baebff038ae1?fbclid=IwY2xjawUrJCxleHRuA2FlbQIxMABwZG9mAXNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR560J2BXeVHPSlY4RLDpTAjOcU_NL1-UqrPjXhnEzk6IWDbQFg3KOy2DmuLvQ_aem_-WsC0Eg8bNF8RdSjlk4pTQ\n\nDUB",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 48.1755592616936,
+    "lng": 6.44403398036957,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/e15c3b57-085e-360c-bb66-0703d70dab8f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-libere-par-fergessen",
@@ -1411,7 +1449,7 @@
     "city": "Sainte-Lheurine",
     "region": null,
     "description": "Programme riche en évènements au Domaine de la Laigne à Ste Lheurine : avec déjeuners spectacle, dîners spectacle, soirées disco et déjeuners musette dansants.",
-    "startDate": "2026-08-15",
+    "startDate": "2026-01-01",
     "endDate": "2026-12-31",
     "lat": 45.533366,
     "lng": -0.342097,
@@ -1786,25 +1824,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "disco-party",
-    "name": "Disco Party",
-    "city": "Naintré",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-04",
-    "lat": 46.764179,
-    "lng": 0.482845,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/04e1f51a-61c3-36a3-80b3-22add64642e7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "micro-folie-de-la-cab-anne-frank-house-vr-immersion-dans-l-annexe",
     "name": "Micro-Folie de la CAB | Anne Frank House VR, Immersion dans l’annexe",
     "city": "Bergerac",
@@ -1822,25 +1841,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "concert-electro-acid-nightmare",
-    "name": "Concert électro - Acid Nightmare",
-    "city": "Malemort",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-03",
-    "endDate": "2026-10-04",
-    "lat": 45.1689848,
-    "lng": 1.5605601,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/44cd52ec-7cbc-3adf-8408-dfc0296f9527"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "soiree-disco",
@@ -2029,6 +2029,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/df6bf29f-ac05-36cb-984c-58b319b2e345"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "halloween-duras-dans-le-village",
+    "name": "Halloween Duras dans le village",
+    "city": "Duras",
+    "region": null,
+    "description": "Brrr… On va faire trembler le village de Duras.\nA vos déguisements les plus terrifiants ! \n - 22h Bal électro \nBuvette, food trucks\nEntrée libre",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 44.6764278,
+    "lng": 0.18024388,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/f94c15ff-695d-3a67-8bba-d9ee4b9e3963"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3977,69 +3996,6 @@
     "_reason": "soirée : hors périmètre"
   },
   {
-    "slug": "moga-essaouira-2026",
-    "name": "Moga Essaouira 2026",
-    "city": null,
-    "address": null,
-    "region": null,
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-04",
-    "officialUrl": "https://ra.co/events/2386624",
-    "lineup": [
-      "Jamie Jones",
-      "Jhobei",
-      "Alexis Cabrera",
-      "Amine K",
-      "Calabasa",
-      "Daox",
-      "Memed Awad",
-      "Notre Dame",
-      "Ramyen",
-      "Rhadoo",
-      "The Martinez Brothers",
-      "Yaya",
-      "ANOTR",
-      "Cesar Merveille",
-      "Enrica Falqui",
-      "Fort Romeau",
-      "Loewenthal",
-      "Kalabrese",
-      "Tunik",
-      "Viken Arman",
-      "HamaDeus",
-      "n4bz",
-      "Fantastic Man",
-      "Tornado Wallace",
-      "HYDE",
-      "Moruki",
-      "Voigtmann",
-      "Gawdat",
-      "Piticu",
-      "Richy Ahmed",
-      "HALFPINT",
-      "Jesse Calosso",
-      "Malika",
-      "Matisa",
-      "Mumsfilibaba",
-      "Silvie Loto",
-      "Sonja Moonear",
-      "Yamagucci",
-      "Bradley Zero",
-      "Doudou MD",
-      "E.LINA",
-      "Polyswitch",
-      "FLORENTIA"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2386624"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
-  },
-  {
     "slug": "positive-education-2026",
     "name": "Positive Education 2026",
     "city": "Saint Etienne",
@@ -4444,52 +4400,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "after-o-clock-x-la-plage-open-air-ricardo-garduno-miss-nat-h-lee-le-saint",
-    "name": "After O'Clock X La Plage Open Air: Ricardo Garduno, Miss Nat H Lee, Le Saint",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-10-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2547434",
-    "lineup": [
-      "Miss Nat-H-Lee",
-      "Ricardo Garduno",
-      "Le Saint"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2547434"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "inka-open-air-pfw-sunday-catsinka-bigstate-ben-rodd-isaac-poussin-jaes",
-    "name": "INKA - Open Air PFW - Sunday : Catsinka, Bigstate, Ben Rodd, Isaac, Poussin, JaeS",
-    "city": "Paris",
-    "address": "Paname sur Seine, 1 Port de Bercy, 75012 Paris",
-    "region": null,
-    "startDate": "2026-10-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2544796",
-    "lineup": [
-      "Catsinka",
-      "Bigstate",
-      "JaeS"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2544796"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "djs-for-flirt",
     "name": "Djs for FLIRT",
     "city": "Paris",
@@ -4740,28 +4650,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "bordeaux-open-air-parc-de-bourran",
-    "name": "Bordeaux Open Air - Parc de Bourran",
-    "city": null,
-    "address": null,
-    "region": null,
-    "startDate": "2026-10-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2539582",
-    "lineup": [
-      "HouseWork",
-      "Tatie Dee"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2539582"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "localisation manquante"
   },
   {
     "slug": "open-rave-toulouse-organik-machines-vivantes",
