@@ -1,35 +1,5 @@
 [
   {
-    "id": "les-ilots-electroniques",
-    "slug": "les-ilots-electroniques",
-    "name": "Les Îlots Électroniques",
-    "description": "Festival open air sur l'Île Simon, au pied du pont Napoléon à Tours : techno sous le pont, lives et house de jour comme de nuit dans un écrin de Loire au cœur de la ville.",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-05",
-    "lat": 47.39548,
-    "lng": 0.69585,
-    "city": "Tours",
-    "region": "Centre-Val de Loire",
-    "organizer": "Association Les Îlots Électroniques",
-    "capacity": null,
-    "genres": [
-      "techno",
-      "house",
-      "electro"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://linktr.ee/lesilots",
-    "status": "confirmed",
-    "eventType": "open-air",
-    "sources": [
-      "https://www.festivalenfrance.com/festival/les-ilots-electroniques",
-      "https://leprog.com/agenda/les-ilots-electroniques-au-soleil"
-    ]
-  },
-  {
     "id": "teknodyssee-festival",
     "slug": "teknodyssee-festival",
     "name": "Tekn'Odyssée Festival",
