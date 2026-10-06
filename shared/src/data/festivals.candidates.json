@@ -3956,13 +3956,13 @@
   },
   {
     "slug": "sonora-bordeaux",
-    "name": "Sonora Bordeaux",
+    "name": "SONORA BORDEAUX",
     "city": "Bordeaux",
-    "address": "Sonora Bordeaux, Cours Jules Ladoumegue, 33300 Bordeaux, France",
+    "address": "Parc des Expositions de Bordeaux lac, Cours Jules Ladoumegue, 33300 Bordeaux",
     "region": null,
     "startDate": "2026-10-16",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2552318",
+    "officialUrl": "https://ra.co/events/2552448",
     "lineup": [
       "Afem Syko",
       "Linds",
@@ -3988,8 +3988,8 @@
     "genreVerified": true,
     "isFestival": true,
     "sources": [
-      "https://ra.co/events/2552318",
-      "https://ra.co/events/2552448"
+      "https://ra.co/events/2552448",
+      "https://ra.co/events/2552318"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4070,6 +4070,7 @@
     "endDate": null,
     "officialUrl": "https://ra.co/events/2518900",
     "lineup": [
+      "JAKOBEE",
       "Kingsmo",
       "LWØ (1)",
       "FNRZ"
@@ -4190,8 +4191,8 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "open-air-techno-360-hidden-garden-x-sphere-villeurbanne",
-    "name": "OPEN AIR TECHNO 360° - HIDDEN GARDEN x SPHERE - VILLEURBANNE",
+    "slug": "open-air-techno-360-hidden-garden-x-sphere-villeurbanne-gratuit",
+    "name": "OPEN AIR TECHNO 360° - HIDDEN GARDEN x SPHERE - VILLEURBANNE - GRATUIT",
     "city": "Lyon",
     "address": null,
     "region": null,

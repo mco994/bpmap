@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-06:les-ilots-electroniques:removed",
+    "festivalId": "les-ilots-electroniques",
+    "festivalSlug": "les-ilots-electroniques",
+    "festivalName": "Les Îlots Électroniques",
+    "type": "removed",
+    "date": "2026-10-06",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-10-04:open-air-kdkol-in-aerem-beau-mot-plage:added",
     "festivalId": "open-air-kdkol-in-aerem-beau-mot-plage",
     "festivalSlug": "open-air-kdkol-in-aerem-beau-mot-plage",
