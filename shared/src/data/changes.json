@@ -1,5 +1,41 @@
 [
   {
+    "id": "2026-10-07:the-unlimited-festival-10-years:added",
+    "festivalId": "the-unlimited-festival-10-years",
+    "festivalSlug": "the-unlimited-festival-10-years",
+    "festivalName": "The Unlimited Festival — 10 Years",
+    "type": "added",
+    "date": "2026-10-07",
+    "summary": "Ajouté à Chamonix — 25 – 29 mars 2027."
+  },
+  {
+    "id": "2026-10-07:teknodyssee-festival:removed",
+    "festivalId": "teknodyssee-festival",
+    "festivalSlug": "teknodyssee-festival",
+    "festivalName": "Tekn'Odyssée Festival",
+    "type": "removed",
+    "date": "2026-10-07",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-10-07:elektric-park:removed",
+    "festivalId": "elektric-park",
+    "festivalSlug": "elektric-park",
+    "festivalName": "Elektric Park Festival",
+    "type": "removed",
+    "date": "2026-10-07",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-10-07:goutez-electronique-2:removed",
+    "festivalId": "goutez-electronique-2",
+    "festivalSlug": "goutez-electronique-2",
+    "festivalName": "Goûtez Électronique #2",
+    "type": "removed",
+    "date": "2026-10-07",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-10-06:les-ilots-electroniques:removed",
     "festivalId": "les-ilots-electroniques",
     "festivalSlug": "les-ilots-electroniques",

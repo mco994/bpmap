@@ -1,89 +1,5 @@
 [
   {
-    "id": "teknodyssee-festival",
-    "slug": "teknodyssee-festival",
-    "name": "Tekn'Odyssée Festival",
-    "description": "Troisième chapitre du festival tekno du Collectif 909 au château de Brie, à Champagnac-la-Rivière : deux jours et deux nuits de tekno live avec plus de trente artistes, scène dub, soundsystem, village et camping inclus.",
-    "startDate": "2026-09-04",
-    "endDate": "2026-09-06",
-    "lat": 45.70316,
-    "lng": 0.91351,
-    "city": "Champagnac-la-Rivière",
-    "region": "Nouvelle-Aquitaine",
-    "organizer": "Collectif 909",
-    "capacity": 2500,
-    "genres": [
-      "techno",
-      "hard-techno",
-      "dub"
-    ],
-    "priceDay": null,
-    "priceFull": 55,
-    "currency": "EUR",
-    "ticketUrl": "https://plusbilletterie.helloasso.com/fr/evenements/69a49d1c630d37d47561ace9",
-    "officialUrl": "https://www.collectif909.com/teknodyss%C3%A9e",
-    "status": "confirmed",
-    "eventType": "festival",
-    "sources": [
-      "https://www.collectif909.com/teknodyss%C3%A9e",
-      "https://plusbilletterie.helloasso.com/fr/evenements/69a49d1c630d37d47561ace9",
-      "https://www.jds.fr/limoges/manifestations/festival/tekn-odyssee-2026-ecailles-cendres-et-sortileges-1420039_A"
-    ]
-  },
-  {
-    "id": "elektric-park",
-    "slug": "elektric-park",
-    "name": "Elektric Park Festival",
-    "description": "Grand festival électro de la rentrée en région parisienne, salué par la presse pour son line-up pointu.",
-    "startDate": "2026-09-05",
-    "endDate": "2026-09-06",
-    "lat": 48.89663,
-    "lng": 2.14827,
-    "city": "Chatou",
-    "region": "Île-de-France",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "techno",
-      "house",
-      "electro"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://www.elektricpark.com/",
-    "status": "confirmed",
-    "lineup": [
-      "Kavinsky",
-      "Bob Sinclar",
-      "Petit Biscuit",
-      "Ascendant Vierge",
-      "Skream & Benga",
-      "Ivy Lab",
-      "BillX",
-      "Azyr",
-      "B-Front",
-      "Phuture Noize",
-      "Miss K8",
-      "Mad Dog",
-      "Hannah Laing",
-      "Joachim Garraud",
-      "Flymeon",
-      "Moonkyz",
-      "Unicorn On K",
-      "Upsilone",
-      "Urumi",
-      "Krowdexx",
-      "Padre Guilherme",
-      "AMC",
-      "Phantom"
-    ],
-    "sources": [
-      "https://www.elektricpark.com/"
-    ]
-  },
-  {
     "id": "electro-alternativ",
     "slug": "electro-alternativ",
     "name": "Electro Alternativ",
@@ -111,36 +27,6 @@
     "status": "announced",
     "sources": [
       "https://info-festival.net/festival/electro-alternativ/"
-    ]
-  },
-  {
-    "id": "goutez-electronique-2",
-    "slug": "goutez-electronique-2",
-    "name": "Goûtez Électronique #2",
-    "description": "Deuxième date de la saison gratuite : open air house et techno au pied de la Grue Titan Jaune, programmation à venir (after au Macadam).",
-    "startDate": "2026-09-06",
-    "endDate": "2026-09-06",
-    "lat": 47.23937,
-    "lng": -1.55533,
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "organizer": "Goûtez Électronique",
-    "capacity": null,
-    "genres": [
-      "house",
-      "techno",
-      "minimal"
-    ],
-    "priceDay": 0,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://www.goutez-electronique.com/",
-    "status": "confirmed",
-    "eventType": "open-air",
-    "sources": [
-      "https://www.goutez-electronique.com/",
-      "https://cnantais.fr/goutez-electronique-3-soirees-gratuites-a-nantes/"
     ]
   },
   {
@@ -1353,6 +1239,33 @@
     "status": "announced",
     "sources": [
       "https://ra.co/events/2538769"
+    ]
+  },
+  {
+    "id": "the-unlimited-festival-10-years",
+    "slug": "the-unlimited-festival-10-years",
+    "name": "The Unlimited Festival — 10 Years",
+    "description": "",
+    "startDate": "2027-03-25",
+    "endDate": "2027-03-29",
+    "lat": 45.94448,
+    "lng": 6.8951,
+    "city": "Chamonix",
+    "region": "Auvergne-Rhône-Alpes",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2554272",
+    "status": "announced",
+    "eventType": "festival",
+    "sources": [
+      "https://ra.co/events/2554272"
     ]
   },
   {
