@@ -1444,6 +1444,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-halloween",
+    "name": "Soirée Halloween",
+    "city": "Dieulefit",
+    "region": null,
+    "description": "Les zombies reviennent à la Mine d'Art  pour une soirée Disco entre les boules à facette et les toiles d'araignées !\r\nVenez vêtus de votre plus horrible costume de zombie bien sûr !",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 44.524383,
+    "lng": 5.064427,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/cfe12efe-acb9-3512-a44d-9a04842f9f78"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soirees-a-theme-au-cabaret-domaine-de-la-laigne",
     "name": "Soirées à thème au Cabaret Domaine de la Laigne",
     "city": "Sainte-Lheurine",
@@ -1539,8 +1558,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-techno-tard-et-bal-paien",
-    "name": "Concert : techno-tard et bal païen",
+    "slug": "concert-techno-trad-et-bal-paien",
+    "name": "Concert : techno-trad et bal païen",
     "city": "Veuil",
     "region": null,
     "description": "La Cigüe, 1e partie 20h30 Copène.",
@@ -2029,25 +2048,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/df6bf29f-ac05-36cb-984c-58b319b2e345"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "halloween-duras-dans-le-village",
-    "name": "Halloween Duras dans le village",
-    "city": "Duras",
-    "region": null,
-    "description": "Brrr… On va faire trembler le village de Duras.\nA vos déguisements les plus terrifiants ! \n - 22h Bal électro \nBuvette, food trucks\nEntrée libre",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 44.6764278,
-    "lng": 0.18024388,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/f94c15ff-695d-3a67-8bba-d9ee4b9e3963"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2758,6 +2758,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-fin-de-saison-chez-alavostra",
+    "name": "Soirée fin de saison chez Alavostra",
+    "city": "Entraygues-sur-Truyère",
+    "region": null,
+    "description": "Châtaignes grillées à volonté + soupe au potiron..... et Frênette chez ALAVÒSTRA - artisan de l'apéro ! Techno collaborative DJ motivés, ramener vos platines !",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-23",
+    "lat": 44.6407,
+    "lng": 2.5657,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/31/9d272d6b-fa23-3334-94c8-dd0f38413a98"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-dub-bass-music",
     "name": "Soirée dub & bass music",
     "city": "Rodez",
@@ -2770,6 +2789,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/31/b1ce8e28-8b52-3266-9822-81cc4ffee32e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "wyld-soiree-electro-contemplatif",
+    "name": "WYLD : SOIRÉE ÉLECTRO CONTEMPLATIF",
+    "city": "Toulouse",
+    "region": null,
+    "description": "Un live immersif de Superpoze, pensé en dialogue avec l’architecture et l’acoustique du lieu.",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-13",
+    "lat": 43.59438,
+    "lng": 1.44652,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/a015a6a2-80c9-32a9-9d3c-dbc26760e13c"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3809,6 +3847,743 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "babylonya-opening",
+    "name": "BABYLONYA - OPENING",
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "BIENVENUE À BABYLONYA 🌸 Le 7 octobre, c’est le nouveau rendez-vous du mercredi au Tank ! Au programme : de la house, des sons commerciaux et cette petite touche d’ailleurs qui changera au fil des…",
+    "startDate": "2026-10-07",
+    "endDate": "2026-10-08",
+    "lat": 45.739748,
+    "lng": 4.84057,
+    "officialUrl": "https://openagenda.com/shotgun/events/babylonya-opening",
+    "sources": [
+      "https://openagenda.com/shotgun/events/babylonya-opening"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "virgo-club-by-ghenda-cannes-1",
+    "name": "VIRGO CLUB By GHENDA (CANNES) #1",
+    "city": "Cannes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "**VIRGO BY GHENDA débarque au GLASS CLUB. 🪩** Le 8 octobre, GHENDA prend les commandes du Glass Club pour une nuit de **House, Afro House et sonorités électroniques**, de 00H à 05H. Producteur,…",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-09",
+    "lat": 43.551445,
+    "lng": 7.022342,
+    "officialUrl": "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-1",
+    "sources": [
+      "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-1"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-mona-rooftop-party-leleon-nick-v-whacking-class",
+    "name": "LA MONA - ROOFTOP PARTY : LELEON, NICK V & WHACKING CLASS",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "UNE FERME URBAINE DE 7 000 M², UNE VUE SUR LE SACRÉ-CŒUR, DU WHACKING, UN B2B HOUSE, DISCO ET LA DANSE AU CENTRE Vendredi 9 octobre, commencez le week-end tôt avec la La Mona qui s’installe à…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 48.896946,
+    "lng": 2.356659,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-mona-rooftop-party-leleon-nick-v-and-whacking-class",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-mona-rooftop-party-leleon-nick-v-and-whacking-class"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "jack-de-marseille-by-frankielanuit-3",
+    "name": "Jack de Marseille by frankielanuit #3",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "Jack de Marseille Pionnier de la musique électro, Jack De Marseille a contribué à l'émergence de la scène électronique française à la fois en tant que DJ, producteur ou encore patron du label Wicked…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 43.607701,
+    "lng": 1.427214,
+    "officialUrl": "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-3",
+    "sources": [
+      "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "ravage",
+    "name": "RAVAGE",
+    "city": "Val-d'Arguenon",
+    "region": "Bretagne",
+    "description": "Pour la toute première fois un Vendredi, on ouvre exceptionnellement la 𝗦𝗘𝗖𝗢𝗡𝗗 𝗥𝗢𝗢𝗠 pour une ALL Night Long : Techno, Hardstyle, Rawstyle, Hardcore et Uptempo ​! 🤯 Avec le retour très…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 48.525536,
+    "lng": -2.274941,
+    "officialUrl": "https://openagenda.com/shotgun/events/ravage-1846104",
+    "sources": [
+      "https://openagenda.com/shotgun/events/ravage-1846104"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "mini-festival-soleil-plein-t-m-aky-pablo-leo-more",
+    "name": "MINI FESTIVAL SOLEIL PLEIN : TØMØ, AKY, PABLO LEO & MORE",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "☀️ MINI FESTIVAL SOLEIL PLEIN : B.I.M, AKY, TOMO & PABLO LEO ☀️ Le SAMEDI 10 OCTOBRE, SOLEIL PLEIN investit PANAME SUR SEINE pour une nouvelle édition de son MINI FESTIVAL ! 11H de HOUSE NON STOP de…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 48.834166,
+    "lng": 2.380609,
+    "officialUrl": "https://openagenda.com/shotgun/events/mini-festival-soleil-plein-tomo-aky-pablo-leo-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/mini-festival-soleil-plein-tomo-aky-pablo-leo-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "mecanik-paradize-organik-machines-vivantes",
+    "name": "MECANIK PARADIZE : ORGANÏK + MACHINES VIVANTES !",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "ORGAN:K & THE GIANT MACHINES dans le festival PINK PARADIZE 2026 ⚙️🔥 Rendez-vous à Toulouse le 10 octobre pour un événement hors normes : le plus grand open air techno jamais vu dans la ville avec…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 43.572785,
+    "lng": 1.478059,
+    "officialUrl": "https://openagenda.com/shotgun/events/mecanik-paradize-organik-machines-vivantes",
+    "sources": [
+      "https://openagenda.com/shotgun/events/mecanik-paradize-organik-machines-vivantes"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "variante billetterie de « Mecanik Paradize » (mêmes dates)"
+  },
+  {
+    "slug": "name-festival-a-saint-omer-2026",
+    "name": "NAME Festival à Saint Omer 2026",
+    "city": "Saint-Omer",
+    "region": "Hauts-de-France",
+    "description": "Depuis 2018 le NAME est le rendez-vous électro du mois d'octobre à Saint Omer, installé sous les voûtes de la sublime Chapelle des Jésuites. Un format intimiste pour un lieu fantastique, jusqu'à 2h…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 50.747774,
+    "lng": 2.256467,
+    "officialUrl": "https://openagenda.com/shotgun/events/name-festival-a-saint-omer-2026",
+    "sources": [
+      "https://openagenda.com/shotgun/events/name-festival-a-saint-omer-2026"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
+    "slug": "people-on-top-psytech-psykadelic-party",
+    "name": "People On Top: Psytech & Psykadélic Party",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "On décale d'une semaine on vous attend le Samedi 10 Octobre People On Top & Friends vous invite à sa Psytech & Psykadélic Party parisienne de début d’automne. Une immersion dans l'univers rave :…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 48.869136,
+    "lng": 2.391124,
+    "officialUrl": "https://openagenda.com/shotgun/events/people-on-top-psytech-and-psykadelic-party",
+    "sources": [
+      "https://openagenda.com/shotgun/events/people-on-top-psytech-and-psykadelic-party"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "dalf-records-take-over",
+    "name": "DALF records Take Over",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Love Letters ouvre sa saison au Point Éphémère le samedi 26 septembre. Pour cette soirée de rentrée, le collectif convie Banditoto pour une nuit entre UK Bass, Global Club et House — entrée libre de…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 48.881384,
+    "lng": 2.368558,
+    "officialUrl": "https://openagenda.com/shotgun/events/dalf-records-take-over",
+    "sources": [
+      "https://openagenda.com/shotgun/events/dalf-records-take-over"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "thermostat-9-exc-mona-ledel-nihl-jeffno-more",
+    "name": "THERMOSTAT 9 : EXC, MONA, LEDEL, NIHL, JEFFNO & MORE",
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "► THERMOSTAT 9 ► GROOVE, TECHNO, HOUSE, BASS ► 22h – 4h ► BAR - BIO, LOCAL et à petits prix Thermostat 9 réinvestis à nouveau le chapiteau ! Pour l'occasion, le collectif investit les lieux et vous…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 43.314824,
+    "lng": 5.386246,
+    "officialUrl": "https://openagenda.com/shotgun/events/thermostat-9-exc-mona-ledel-nihl-jeffno-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/thermostat-9-exc-mona-ledel-nihl-jeffno-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "lord-of-techno",
+    "name": "Lord Of Techno",
+    "city": "Bourges",
+    "region": "Centre-Val de Loire",
+    "description": "LORDS OF TECHNO, c'est l'entrée en guerre du Rooftop L'Incontournable dans les nuits les plus intenses de Bourges. Une soirée pensée comme une charge : hard bounce, hardtrance, techno frontale — la…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 47.085323,
+    "lng": 2.394419,
+    "officialUrl": "https://openagenda.com/shotgun/events/lord-of-techno",
+    "sources": [
+      "https://openagenda.com/shotgun/events/lord-of-techno"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "maine-groove-jks-yasmin-regisford-more",
+    "name": "Maine Groove: JKS, Yasmin Regisford & More",
+    "city": "Angers",
+    "region": "Pays de la Loire",
+    "description": "Maine Groove est l’évènement d’ouverture de la déclinaison hivernale du Maine Stream Festival 2.0. Une collusion de groove hypnotique, dynamiques percussives mêlant techno et émotions teintées de…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 47.489311,
+    "lng": -0.536796,
+    "officialUrl": "https://openagenda.com/shotgun/events/maine-groove-jks-yasmin-regisford-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/maine-groove-jks-yasmin-regisford-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "imhappy",
+    "name": "IMHAPPY",
+    "city": "Bizanos",
+    "region": "Nouvelle-Aquitaine",
+    "description": "🔥 IMHAPPY🔥 Samedi 10 octobre, IMHAPPY débarque au CBGB Club pour une nuit placée sous le signe de la hard techno, de la rave et des sonorités industrielles. Producteur et artiste masqué, IMHAPPY…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 43.284494,
+    "lng": -0.346552,
+    "officialUrl": "https://openagenda.com/shotgun/events/imhappy",
+    "sources": [
+      "https://openagenda.com/shotgun/events/imhappy"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "samedi-10-octobre-chez-pablo-marseille",
+    "name": "Samedi 10 Octobre - Chez Pablo Marseille",
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "SAMEDI CHEZ PABLO Se retrouver, sortir de sa semaine et prendre le temps de faire la fête. Le samedi, c’est ce qu’on vient chercher chez Pablo. La musique est commerciale, le format ouvert : house,…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 43.293381,
+    "lng": 5.373849,
+    "officialUrl": "https://openagenda.com/shotgun/events/samedi-10-octobre-chez-pablo-marseille",
+    "sources": [
+      "https://openagenda.com/shotgun/events/samedi-10-octobre-chez-pablo-marseille"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "deepsea-grooves-chez-damier-mezigue-vitaline-more",
+    "name": "Deepsea Grooves : Chez Damier, Mézigue, Vitaline & more",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "🪼 DERNIER OPEN AIR HOUSE DE LA SAISON 🌞 Deepsea Grooves investit pour la première fois le Kilomètre 25 pour un open air house qui se prolongera jusqu’à 9h du matin 💃🕺 Pour cette dernière date…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 48.896296,
+    "lng": 2.393567,
+    "officialUrl": "https://openagenda.com/shotgun/events/deepsea-grooves-chez-damier-mezigue-vitaline-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/deepsea-grooves-chez-damier-mezigue-vitaline-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "dj-set-liquid-earth-yuzu-record-bar",
+    "name": "Dj set Liquid Earth @Yuzu Record Bar",
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "Actif sous le nom de Liquid Earth depuis 2019, Taylor Freels s’est rapidement imposé avec une approche singulière de la house et de la techno, entre héritage rave et production contemporaine. Sa…",
+    "startDate": "2026-10-11",
+    "endDate": "2026-10-12",
+    "lat": 43.294792,
+    "lng": 5.380084,
+    "officialUrl": "https://openagenda.com/shotgun/events/dj-set-liquid-earth-yuzu-record-bar",
+    "sources": [
+      "https://openagenda.com/shotgun/events/dj-set-liquid-earth-yuzu-record-bar"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "virgo-club-by-ghenda-cannes-2",
+    "name": "VIRGO CLUB by GHENDA (CANNES) #2",
+    "city": "Cannes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "**VIRGO BY GHENDA débarque au GLASS CLUB. ** Le 15 octobre, GHENDA prend les commandes du Glass Club pour une nuit de **House, Afro House et sonorités électroniques**, de 00H à 05H. Producteur,…",
+    "startDate": "2026-10-15",
+    "endDate": "2026-10-16",
+    "lat": 43.551445,
+    "lng": 7.022342,
+    "officialUrl": "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-2",
+    "sources": [
+      "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-2"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "sebka-club",
+    "name": "SEBKA - CLUB",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Bercé par le Hip-hop des années 90, SEBKA développe sa sensibilité musicale à travers le sampling, découvrant la soul, le funk et le disco des années 70. Il débute le DJing avec des soirées privées…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 48.853824,
+    "lng": 2.375629,
+    "officialUrl": "https://openagenda.com/shotgun/events/sebka-club",
+    "sources": [
+      "https://openagenda.com/shotgun/events/sebka-club"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "atma-techno-psytrance",
+    "name": "ATMA - TECHNO · PSYTRANCE",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "ATMA — TECHNO · PSYTRANCE Vendredi 16 octobre 2026 | 23h00 – 05h30 Gambetta Club — 104 Rue de Bagnolet, 75020 Paris ━━━━━━━━━━━━━━━━━━━━ ATMA À GAMBETTA Pour sa deuxième édition, ATMA s’installe au…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 48.859491,
+    "lng": 2.403095,
+    "officialUrl": "https://openagenda.com/shotgun/events/atma-techno-psytrance",
+    "sources": [
+      "https://openagenda.com/shotgun/events/atma-techno-psytrance"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "after-festival-kloss-la-torgnole-egredouce",
+    "name": "AFTER FESTIVAL // KLÖSS - LA TORGNOLE - EGREDOUCE",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "AFTER FESTIVAL VENDREDI 16 OCTOBRE 2026 📍L’ENTREPÔT - 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:00 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ a-z ► KLÖSS ► LA TORGNOLE ► EGREDOUCE 🎵 Techno / Hard Bounce / Hard…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 44.883598,
+    "lng": -0.541265,
+    "officialUrl": "https://openagenda.com/shotgun/events/after-festival-kloss-la-torgnole-egredouce",
+    "sources": [
+      "https://openagenda.com/shotgun/events/after-festival-kloss-la-torgnole-egredouce"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
+    "slug": "u-22-x-basses-frequences-tauceti-bosk-w",
+    "name": "U.22 x BASSES FRÉQUENCES : TAUCETI, BOSKØW",
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "Dernière date marseillaise de l’année pour Basses Fréquences, ton festival de stade préféré, pour une date d’automne au club qui sent bon les marrons chauds et la Techno cuisinée avec attention au…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 43.310523,
+    "lng": 5.389208,
+    "officialUrl": "https://openagenda.com/shotgun/events/u22-x-basses-frequences-tauceti-boskow",
+    "sources": [
+      "https://openagenda.com/shotgun/events/u22-x-basses-frequences-tauceti-boskow"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "night-after-deepsea-grooves-invite-sibil-b2b-charonne",
+    "name": "NIGHT + AFTER - Deepsea Grooves invite Sibil B2B Charonne",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Deepsea Grooves revient le vendredi 16 octobre au 42 marches avec un nouveau format minuit-midi Au programme : 12 heures de house / electro, un B2B entre Sibil et Charonne, mais aussi Agustin…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 48.839467,
+    "lng": 2.379044,
+    "officialUrl": "https://openagenda.com/shotgun/events/night-after-deepsea-grooves-invite-sibil-b2b-charonne",
+    "sources": [
+      "https://openagenda.com/shotgun/events/night-after-deepsea-grooves-invite-sibil-b2b-charonne"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "after-festival-bouta-hass-lilith-myman-nyx-r3v",
+    "name": "AFTER FESTIVAL // BOUTA - HASS - LILITH - MYMAN - NYX - R3V+",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "AFTER FESTIVAL VENDREDI 16 OCTOBRE 2026 📍HANGAR DS - 17 rue Édouard Faure, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ a-z ► BOUTA ► HASS ► LILITH ► MYMAN ► R3V+ ► RAVN 🎵 Techno / Hard…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 44.885732,
+    "lng": -0.544529,
+    "officialUrl": "https://openagenda.com/shotgun/events/after-festival-bouta-hass-lilith-myman-nyx-r3v",
+    "sources": [
+      "https://openagenda.com/shotgun/events/after-festival-bouta-hass-lilith-myman-nyx-r3v"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "tout-feu-tout-femme-x-peniche-marcounet",
+    "name": "Tout Feu Tout Femme x Péniche Marcounet",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le collectif Tout Feu Tout Femme investit la cale de la péniche Marcounet pour 6 heures de son non-stop avec deux de ses résident·es, Sonia Michigan et Leo Von Zbeul. Entre UKG, breaks, house…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 48.853314,
+    "lng": 2.356877,
+    "officialUrl": "https://openagenda.com/shotgun/events/tout-feu-tout-femme-x-peniche-marcounet",
+    "sources": [
+      "https://openagenda.com/shotgun/events/tout-feu-tout-femme-x-peniche-marcounet"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "rave-and-wave",
+    "name": "Rave and Wave",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le KIF — RAVE & WAVE — ROUND 2 Après une édition festival qui nous a fait vibrer, on avait envie de revoir les kiffeurs et kiffeuses. Le KIF revient donc avec une deuxième édition de RAVE & WAVE, de…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 48.850385,
+    "lng": 2.353654,
+    "officialUrl": "https://openagenda.com/shotgun/events/rave-and-wave",
+    "sources": [
+      "https://openagenda.com/shotgun/events/rave-and-wave"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "techno-is-our-life-presente-acidnight-pau",
+    "name": "TECHNO IS OUR LIFE presente ACIDNIGHT - PAU",
+    "city": "Bizanos",
+    "region": "Nouvelle-Aquitaine",
+    "description": "TECHNO IS OUR LIFE PRÉSENTE ACIDNIGHT AU CBGB ! Pensé pour mettre en lumière l’univers de la Free Party, ce rendez-vous célèbre les artistes qui façonnent cette scène et contribuent à transmettre…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 43.284494,
+    "lng": -0.346552,
+    "officialUrl": "https://openagenda.com/shotgun/events/techno-is-our-life-presente-acidnight-pau",
+    "sources": [
+      "https://openagenda.com/shotgun/events/techno-is-our-life-presente-acidnight-pau"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "virgo-club-by-ghenda-cannes-3",
+    "name": "VIRGO CLUB by GHENDA (CANNES) #3",
+    "city": "Cannes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "**VIRGO BY GHENDA débarque au GLASS CLUB. ** Le 22 octobre, GHENDA prend les commandes du Glass Club pour une nuit de **House, Afro House et sonorités électroniques**, de 00H à 05H. Producteur,…",
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-23",
+    "lat": 43.551445,
+    "lng": 7.022342,
+    "officialUrl": "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-3",
+    "sources": [
+      "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "yuksek",
+    "name": "YUKSEK",
+    "city": "Arles",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "Figure majeure de la scène électro française, YUKSEK est reconnu pour ses sets aussi élégants qu'explosifs, mêlant disco cosmique, house et électro. Producteur, compositeur et remixeur de renommée…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 43.673919,
+    "lng": 4.623672,
+    "officialUrl": "https://openagenda.com/shotgun/events/yuksek-7815746",
+    "sources": [
+      "https://openagenda.com/shotgun/events/yuksek-7815746"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "jack-de-marseille-by-frankielanuit-4",
+    "name": "Jack de Marseille by frankielanuit #4",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "Jack de Marseille Pionnier de la musique électro, Jack De Marseille a contribué à l'émergence de la scène électronique française à la fois en tant que DJ, producteur ou encore patron du label Wicked…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 43.607701,
+    "lng": 1.427214,
+    "officialUrl": "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-4",
+    "sources": [
+      "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "el-sueno-festival-indoor-edition-2026",
+    "name": "EL SUENO Festival indoor édition 2026",
+    "city": "Laudun-l'Ardoise",
+    "region": "Occitanie",
+    "description": "🌿 INDOOR ÉDITION – SAMEDI 24 OCTOBRE | 19H – 01H 📍 Salle le FORUM, commune de LAUDUN-l'ARDOISE 🌿 Venez vivre une grande première au FORUM avec cette soirée électro au format boiler et partagez…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 44.096413,
+    "lng": 4.678171,
+    "officialUrl": "https://openagenda.com/shotgun/events/el-sueno-festival-indoor-edition-2026",
+    "sources": [
+      "https://openagenda.com/shotgun/events/el-sueno-festival-indoor-edition-2026"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
+    "slug": "dark-side-of-the-line-presente-twisted-minds",
+    "name": "Dark Side of the Line présente: TWISTED MINDS",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "SAM 24.10.2026 Dark Side of the Line présente: TWISTED MINDS Un an après sa dernière apparition à Lorganiq, le Dark Side signe son grand retour rue Bourbon pour une session techno à huis clos...…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 44.85996,
+    "lng": -0.556815,
+    "officialUrl": "https://openagenda.com/shotgun/events/dark-side-of-the-line-presente-twisted-minds",
+    "sources": [
+      "https://openagenda.com/shotgun/events/dark-side-of-the-line-presente-twisted-minds"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "instrumental",
+    "name": "INSTRUMENTAL",
+    "city": "Villeurbanne",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "ATTENTION : la soirée est réservées aux personnes majeures ----- HILIGHT TRIBE FR – Natural Trance Ambassadeurs des peuples du monde, les 6 membres d’Hilight Tribe surfent la vague de la Natural…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 45.783899,
+    "lng": 4.860448,
+    "officialUrl": "https://openagenda.com/shotgun/events/instrumental",
+    "sources": [
+      "https://openagenda.com/shotgun/events/instrumental"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "hyperbrat-xxl-2nd-anniversary-special-guest-ruby-nikara",
+    "name": "Hyperbrat xxl 2nd anniversary : special guest Ruby Nikara",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "HYPERBRAT XXL : MORE HYPERPOP, MORE TECHNO, MORE HYPERBRAT 2ND BIRTHDAY EDITION <3 SPECIAL GUEST RUBY NIKARA (LIVE) +1 HOUR OF PARTY (WINTER TIME BB!) 2 ans d'hyperpop, de cunt, d'électropop et de…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 48.835526,
+    "lng": 2.376712,
+    "officialUrl": "https://openagenda.com/shotgun/events/hyperbrat-xxl-2nd-anniversary-special-guest-ruby-nikara",
+    "sources": [
+      "https://openagenda.com/shotgun/events/hyperbrat-xxl-2nd-anniversary-special-guest-ruby-nikara"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "less-drama-more-techno-11th-anniversary",
+    "name": "LESS DRAMA MORE TECHNO [11th Anniversary]",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "🔗 LESS DRAMA MORE TECHNO [11th Anniversary] 🏢 Nouveau Casino 📆 24.10.26 🕛 23h55 - 06h00 🔥 11eme saison, nouvelle énergie, mêmes valeurs. Special guest : 🎧 LAWRENCE LEE [Berlin - Schenzhen]…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 48.865871,
+    "lng": 2.377898,
+    "officialUrl": "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary",
+    "sources": [
+      "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "nathalie-froehlich",
+    "name": "NATHALIE FROEHLICH",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "I’m not a queen, I'm a goddess ». Nathalie Froehlich s’impose comme une figure incontournable de la nouvelle scène rap et électronique. Issue des Rave Partys, elle explose les frontières entre…",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-29",
+    "lat": 48.882336,
+    "lng": 2.340295,
+    "officialUrl": "https://openagenda.com/shotgun/events/nathalie-froehlich",
+    "sources": [
+      "https://openagenda.com/shotgun/events/nathalie-froehlich"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "virgo-club-by-ghenda-cannes-4",
+    "name": "VIRGO CLUB by GHENDA (CANNES) #4",
+    "city": "Cannes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "**VIRGO BY GHENDA débarque au GLASS CLUB. ** Le 29 octobre, GHENDA prend les commandes du Glass Club pour une nuit de **House, Afro House et sonorités électroniques**, de 00H à 05H. Producteur,…",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-30",
+    "lat": 43.551445,
+    "lng": 7.022342,
+    "officialUrl": "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-4",
+    "sources": [
+      "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "sinial-x-parodia-lola-haro-nathan-melja-amadeo-varhat",
+    "name": "SINIAL x PARODIA [Lola Haro, Nathan Melja, Amadeo & Varhat]",
+    "city": "Strasbourg",
+    "region": "Grand Est",
+    "description": "PRÉVENTES LIMITÉES / BILLETS SUR PLACE. TARIF EARLY 11€ DE 22H À 23H __________________________________ House, Techno, Experimental, Minimal Room 𝓰𝓪𝓵𝓵𝓮𝓻𝔂 ★ Lola Haro ★ Nathan Melja ★ Amadeo &…",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-31",
+    "lat": 48.58086,
+    "lng": 7.758256,
+    "officialUrl": "https://openagenda.com/shotgun/events/sinial-x-parodia-lola-haro-nathan-melja-amadeo-and-varhat",
+    "sources": [
+      "https://openagenda.com/shotgun/events/sinial-x-parodia-lola-haro-nathan-melja-amadeo-and-varhat"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-more",
     "name": "Nantes Rave Techno W/ Vladimir Cauchemar, Shanixx, Noir Mat & More",
     "city": "Nantes",
@@ -3837,6 +4612,609 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "nantes-rave-techno-w-vladimir-cauchemar-shanixx-more",
+    "name": "Nantes Rave Techno W/ Vladimir Cauchemar, Shanixx & More",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "NANTES RAVE TECHNO w/ VLADIMIR CAUCHEMAR, SHANIXX, NOIR MAT & MORE au Warehouse Nantes le vendredi 30 octobre 2026. Invité tous les ans au Warehouse depuis 2020, Vladimir Cauchemar y fera son retour…",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-31",
+    "lat": 47.201183,
+    "lng": -1.572961,
+    "officialUrl": "https://openagenda.com/shotgun/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "electro-fort-5-special-halloween",
+    "name": "Electro Fort #5 Spécial Halloween",
+    "city": "Creully sur Seulles",
+    "region": "Normandie",
+    "description": "🎃 ELECTRO FORT #5 : SPÉCIAL HALLOWEEN ! 🎃 📅 Quand ? Samedi 31 octobre 2026 Une nuit pour marquer l'histoire… et faire peur ! 🕒 À quelle heure ? 19h - 6h De la tombée de la nuit jusqu'à l'aube.…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 49.286391,
+    "lng": -0.53961,
+    "officialUrl": "https://openagenda.com/shotgun/events/electro-fort-5-special-halloween",
+    "sources": [
+      "https://openagenda.com/shotgun/events/electro-fort-5-special-halloween"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "halloween-night-error-festival",
+    "name": "Halloween Night : Error Festival",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Yb70 1er organisation d’événements techno industriels en France, après ses mythiques soirées Seppuku et Parazit, revient pour fêter Halloween et en même temps ses 30 ans d’existence à Petit Bain…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 48.835526,
+    "lng": 2.376712,
+    "officialUrl": "https://openagenda.com/shotgun/events/halloween-night-error-festival",
+    "sources": [
+      "https://openagenda.com/shotgun/events/halloween-night-error-festival"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
+    "slug": "dark-disco-techno-hellisha-sauvage-by-the-petit-london",
+    "name": "DARK DISCO) (TECHNO) HELLISHA SAUVAGE BY THE PETIT LONDON",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "🔥 QUI ? Hellisha Sauvage : Hellisha Sauvage, forte d’une collection musicale quasi sans limite n’est, comme son nom l’indique, jamais là où on l’attend vraiment et aime surprendre son public à…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 43.60096,
+    "lng": 1.453886,
+    "officialUrl": "https://openagenda.com/shotgun/events/dark-disco-techno-hellisha-sauvage-by-the-petit-london",
+    "sources": [
+      "https://openagenda.com/shotgun/events/dark-disco-techno-hellisha-sauvage-by-the-petit-london"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "monsterdom-2026",
+    "name": "Monsterdom 2026",
+    "city": "Pantin",
+    "region": "Île-de-France",
+    "description": "🏳️‍🌈🏳️‍⚧️🎃 La Monsterdom revient pour sa VIème mission! Cette année, nous avons le plaisir d'accueillir Autoflower, direct des Pays-Bas. DJ et producteur révélation de la scène House/Trance…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 48.894908,
+    "lng": 2.415452,
+    "officialUrl": "https://openagenda.com/shotgun/events/monsterdom-2026",
+    "sources": [
+      "https://openagenda.com/shotgun/events/monsterdom-2026"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "halloween-maraka-glass-club-girls-on-glass-part2",
+    "name": "HALLOWEEN — MARAKA × GLASS CLUB - GIRLS ON GLASS PART2",
+    "city": "Cannes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "HALLOWEEN — MARAKA × GLASS 🎃🔴 Samedi 31 octobre, MARAKA investit le GLASS CLUB à Cannes pour une nuit House & Tech House jusqu’au petit matin. Une line-up 100 % féminine aux commandes : AMBRE…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 43.551445,
+    "lng": 7.022342,
+    "officialUrl": "https://openagenda.com/shotgun/events/halloween-maraka-glass-club-girls-on-glass-part2",
+    "sources": [
+      "https://openagenda.com/shotgun/events/halloween-maraka-glass-club-girls-on-glass-part2"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "nova-moves-ya",
+    "name": "Nova moves ya",
+    "city": "Saint-Avé",
+    "region": "Bretagne",
+    "description": "Raversound investit L’Echonova pour la toute première fois. Pour cette première édition, nous avons le plaisir d’accueillir deux figures incontournables de la scène techno parisienne : Mac Declos et…",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "lat": 47.674535,
+    "lng": -2.743886,
+    "officialUrl": "https://openagenda.com/shotgun/events/nova-moves-ya",
+    "sources": [
+      "https://openagenda.com/shotgun/events/nova-moves-ya"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "sweat-4",
+    "name": "SWEAT #4",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "LDMTevents présente : SWEAT #4 🏳️‍🌈 Vendredi 6 novembre a partir de minuit au Nouveau Casino c'est la 4eme edition de SWEAT your house 🏳️‍🌈 queer & kinky party 🏡🎶💦 🔗 SWEAT #4 🏳️‍🌈 🏢…",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "lat": 48.865871,
+    "lng": 2.377898,
+    "officialUrl": "https://openagenda.com/shotgun/events/sweat-4",
+    "sources": [
+      "https://openagenda.com/shotgun/events/sweat-4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "myd-pristine-pit-jc3000-pplc-le-live-toulon",
+    "name": "Myd + Pristine Pit + JC3000 + PPLC @Le Live Toulon",
+    "city": "Toulon",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "Le concert se déroule au Live - petite salle du Zénith de Toulon. Placement libre debout - Ouverture des portes 20h30. ----- MYD (Electro) Myd incarne une nouvelle génération de la French Touch :…",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-08",
+    "lat": 43.12863,
+    "lng": 5.932323,
+    "officialUrl": "https://openagenda.com/shotgun/events/myd-pristine-pit-jc3000-pplc-le-live-toulon",
+    "sources": [
+      "https://openagenda.com/shotgun/events/myd-pristine-pit-jc3000-pplc-le-live-toulon"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "acidnight-xxl-100-live",
+    "name": "ACIDNIGHT XXL - 100% LIVE",
+    "city": "Montpellier",
+    "region": "Occitanie",
+    "description": "TECHNO IS OUR LIFE PRÉSENTE ACIDNIGHT XXL Pensé pour mettre en lumière l’univers de la Free Party, ce rendez-vous célèbre les artistes qui façonnent cette scène et contribuent à transmettre une…",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-08",
+    "lat": 43.585482,
+    "lng": 3.878427,
+    "officialUrl": "https://openagenda.com/shotgun/events/acidnight-xxl-100percent-live",
+    "sources": [
+      "https://openagenda.com/shotgun/events/acidnight-xxl-100percent-live"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "pitchfork-club-night-2-samedi",
+    "name": "PITCHFORK CLUB NIGHT 2 [SAMEDI]",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Pitchfork Music Festival Paris présente : PITCHFORK CLUB NIGHT • CINTHIE b2b FAFI ABDEL NOUR CINTHIE — Productrice, DJ et patronne de label, Cinthie est surnommée la reine berlinoise de la house.…",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-08",
+    "lat": 48.892628,
+    "lng": 2.393963,
+    "officialUrl": "https://openagenda.com/shotgun/events/pitchfork-club-night-2-samedi",
+    "sources": [
+      "https://openagenda.com/shotgun/events/pitchfork-club-night-2-samedi"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "hot-tropiz-7-jamaica-to-london",
+    "name": "HOT TROPIZ #7 Jamaica to London",
+    "city": "Salon-de-Provence",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "🌴 VAPEURS FESTIV’ PRÉSENTE 🔥 HOT TROPIZ #7 🔥 🇯🇲 JAMAICA TO LONDON 🇬🇧 📅 DATE À VENIR 🕖 19H → 3H 📍 LA BERGERIE DU DOMAINE DE CURBOURSE 13300 Salon-de-Provence 🔥 REGGAE · DUB · JUNGLE · DRUM…",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-14",
+    "lat": 43.676847,
+    "lng": 5.06488,
+    "officialUrl": "https://openagenda.com/shotgun/events/hot-tropiz-7-jamaica-to-london",
+    "sources": [
+      "https://openagenda.com/shotgun/events/hot-tropiz-7-jamaica-to-london"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "solarium-vol-3-electro-house-dance",
+    "name": "Solarium VOL.3 - Electro House & Dance",
+    "city": "Billère",
+    "region": "Nouvelle-Aquitaine",
+    "description": "Solarium revient avec une line-up internationale! Au programme notamment, KIM SWIM, qui nous fait l'honneur de venir à Pau après des dates exceptionnelles au Boiler-Room, Monegros Desert Festival,…",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-14",
+    "lat": 43.303055,
+    "lng": -0.400193,
+    "officialUrl": "https://openagenda.com/shotgun/events/solarium-vol3-electro-house-and-dance",
+    "sources": [
+      "https://openagenda.com/shotgun/events/solarium-vol3-electro-house-and-dance"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "nico-moreno-la-cite-du-cinema-paris",
+    "name": "NICO MORENO @ LA CITÉ DU CINÉMA, PARIS",
+    "city": "Saint-Denis",
+    "region": "Île-de-France",
+    "description": "NICO MORENO @LA CITÉ DU CINÉMA - PARIS - 20.11.26 > 23H - 06H DJ et producteur français, Nico Moreno est reconnu comme une figure majeure de la scène de la rave industrielle. Headliner sur les…",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-21",
+    "lat": 48.922636,
+    "lng": 2.336672,
+    "officialUrl": "https://openagenda.com/shotgun/events/nico-moreno-la-cite-du-cinema-paris",
+    "sources": [
+      "https://openagenda.com/shotgun/events/nico-moreno-la-cite-du-cinema-paris"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "10-years-of-rave-moontrip-x-interference",
+    "name": "10 YEARS OF RAVE - Moontrip x Interference",
+    "city": "Balma",
+    "region": "Occitanie",
+    "description": "🩸TECHNO / RAVE / HARDGROOVE ❌ NO PHOTO POLICY 💚 VERY COOL PRICES 🎟️ TOMBOLA DES 10 ANS Vendredi 20 novembre Moontrip fête ses 10 ans à lnterference ! 🎈 10 ans de fêtes, de nuits trop courtes et…",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-21",
+    "lat": 43.631391,
+    "lng": 1.489136,
+    "officialUrl": "https://openagenda.com/shotgun/events/10-years-of-rave-moontrip-x-interference",
+    "sources": [
+      "https://openagenda.com/shotgun/events/10-years-of-rave-moontrip-x-interference",
+      "https://ra.co/events/2547622"
+    ],
+    "genreVerified": true,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "address": "Interference, 56 route de Lavaur 31130 BALMA",
+    "lineup": [
+      "Chocolanouar"
+    ],
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "mknk-club-manu-le-malin-somniac-one-rabbeat",
+    "name": "MKNK CLUB : Manu le Malin + Somniac One + RABBeAT + ...",
+    "city": "Saint-Avé",
+    "region": "Bretagne",
+    "description": "⏰ Soirée tardive : 22H - 04H Interdit aux mineurs Le label MKNK, curaté par Manu le Malin, emblème de la scène hardcore, à prévu d'investir L'Echonova. Au programme : MANU LE MALIN : Depuis plus de…",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-22",
+    "lat": 47.674535,
+    "lng": -2.743886,
+    "officialUrl": "https://openagenda.com/shotgun/events/mknk-club-manu-le-malin-somniac-one-rabbeat",
+    "sources": [
+      "https://openagenda.com/shotgun/events/mknk-club-manu-le-malin-somniac-one-rabbeat"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "je-dis-techno-tous-les-jeudis",
+    "name": "Je Dis Techno (Tous les jeudis)",
+    "city": "Nice",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "🎧 JE DIS TECHNO 🔊 Hard Bounce - Hard Trance - Hard Techno - Rave Rendez-vous tous jeudis pour ta nuit techno hebdomadaire. Ici, la communauté du jeudi se retrouve, et toi aussi tu es le bienvenu à…",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-09",
+    "lat": 43.698902,
+    "lng": 7.270154,
+    "officialUrl": "https://openagenda.com/shotgun/events/je-dis-techno-tous-les-jeudis",
+    "sources": [
+      "https://openagenda.com/shotgun/events/je-dis-techno-tous-les-jeudis"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "violent-darkness-alcide-berzark-08-10-au-portobello",
+    "name": "VIOLENT DARKNESS - Alcide & Berzärk - 08/10 au Portobello",
+    "city": "Caen",
+    "region": "Normandie",
+    "description": "​⚫​ VIOLENT DARKNESS​ ⚫​ Alcide & Berzärk - 08 Octobre Tu aimes quand ça cogne ? Ne loupe surtout pas cette soirée ! 🔥​ De la HardTechno à la Crossbreed en passant par l'Industrial Hardcore, le 08…",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-09",
+    "lat": 49.183641,
+    "lng": -0.352215,
+    "officialUrl": "https://openagenda.com/shotgun/events/violent-darkness-alcide-and-berzark-0810-au-portobello",
+    "sources": [
+      "https://openagenda.com/shotgun/events/violent-darkness-alcide-and-berzark-0810-au-portobello"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "hello-techno-lacrizomike2000-shoshana",
+    "name": "Hello Techno : Lacrizomike2000, Shoshana",
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "Hello Techno prend le contrôle du Ninkasi Cordeliers ! Au programme une techno taillée pour danser, des lineups affûtés et zéro prise de tête. Tous les jeudis, on associe un.e DJ de la scène locale…",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-09",
+    "lat": 45.76297,
+    "lng": 4.837951,
+    "officialUrl": "https://openagenda.com/shotgun/events/hello-techno-lacrizomike2000-shoshana",
+    "sources": [
+      "https://openagenda.com/shotgun/events/hello-techno-lacrizomike2000-shoshana"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "rave-lucide-tesseract",
+    "name": "Rave Lucide - Tesseract",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "Rave Lucide revient faire trembler le Cube le jeudi 8 octobre pour une nouvelle soirée Tesseract ! 👽 - 6 DJs 🎧 - Bar 🍺 - RDR 🧸 - Zone Chill-out 😪 - Le Cube (Toulouse) 📍 Lineup : - EQ (Hard…",
+    "startDate": "2026-10-08",
+    "endDate": "2026-10-09",
+    "lat": 43.597856,
+    "lng": 1.456908,
+    "officialUrl": "https://openagenda.com/shotgun/events/rave-lucide-tesseract",
+    "sources": [
+      "https://openagenda.com/shotgun/events/rave-lucide-tesseract"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-grande-fete-des-coeurs-en-joie-avec-noel-minitel",
+    "name": "La Grande Fête des COEURS EN JOIE avec Noël Minitel",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "💓LES COEURS EN JOIE 💓 Pour cette Grande Fête, on va danser sur de la House-Disco comme on aime entre le rooftop et la main, mais on va aussi se mettre un peu de techno dans les oreilles en…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 48.843317,
+    "lng": 2.369319,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-grande-fete-des-coeurs-en-joie-avec-noel-minitel",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-grande-fete-des-coeurs-en-joie-avec-noel-minitel"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "wake-up-w-n-vitral-nrki-poupinela",
+    "name": "Wake Up w: N-VITRAL, NRKI, POUPINELA, +++",
+    "city": "Strasbourg",
+    "region": "Grand Est",
+    "description": "🚨 Bon… on va pas tourner autour du pot Hardcore to Uptempo 😈 Le 9 octobre 2026, on va clairement faire trembler le Studio Saglio. 🔊💥 On vous prépare une soirée bien énervée avec deux machines de…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 48.557243,
+    "lng": 7.738396,
+    "officialUrl": "https://openagenda.com/shotgun/events/wake-up-w-n-vitral-nrki-poupinela",
+    "sources": [
+      "https://openagenda.com/shotgun/events/wake-up-w-n-vitral-nrki-poupinela"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "this-is-rave-d-b-edition-running-klaz-ross-more",
+    "name": "THIS IS RAVE (D&B EDITION) : RUNNING, KLAZ, ROSS & MORE",
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "GRANDE SALLE (Drum & Bass / UK Garage) : RUNNING 4K https://on.soundcloud.com/MG3vBu6ZtjCkjumKkG KLAZ https://on.soundcloud.com/iDSjwANuLT04sQDG3S NATASKANK B2B MESCUD…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 45.74091,
+    "lng": 4.848962,
+    "officialUrl": "https://openagenda.com/shotgun/events/this-is-rave-dandb-edition-running-klaz-ross-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/this-is-rave-dandb-edition-running-klaz-ross-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "rave-du-clain-3",
+    "name": "RAVE DU CLAIN #3",
+    "city": "Poitiers",
+    "region": "Nouvelle-Aquitaine",
+    "description": "RAVE DU CLAIN #3 Troisième édition de la soirée Techno du GS ! LEED - TIMEO HAROUX - TONAY",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 46.579058,
+    "lng": 0.344313,
+    "officialUrl": "https://openagenda.com/shotgun/events/rave-du-clain-3",
+    "sources": [
+      "https://openagenda.com/shotgun/events/rave-du-clain-3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "studio-2054-hyper-bbl-les-planches",
+    "name": "Studio 2054 : Hyper BBL @ Les Planches",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "STUDIO 2054 : HYPER BBL 💗 Where baddies anthems meet rave energy. Pour cette nouvelle édition, Studio 2054 quitte exceptionnellement sa résidence du Flow et investit un autre lieu emblématique des…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 48.871525,
+    "lng": 2.311091,
+    "officialUrl": "https://openagenda.com/shotgun/events/studio-2054-hyper-bbl-les-planches",
+    "sources": [
+      "https://openagenda.com/shotgun/events/studio-2054-hyper-bbl-les-planches"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "we-are-techno-xxl-inv-sam-paganini-3h-chipie-marcel-dk",
+    "name": "WE ARE TECHNO XXL inv. SAM PAGANINI (3H), CHIPIE & MARCEL DK",
+    "city": "Balma",
+    "region": "Occitanie",
+    "description": "❤️‍🔥 WE ARE TECHNO XXL inv. SAM PAGANINI (3H EXTENDED SET), CHIPIE & MARCEL DK ❤️‍🔥 WE ARE TECHNO pose ses valises à Interférence pour une nouvelle nuit XXL, dédiée aux figures qui ont façonné la…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 43.631391,
+    "lng": 1.489136,
+    "officialUrl": "https://openagenda.com/shotgun/events/we-are-techno-xxl-inv-sam-paganini-3h-chipie-and-marcel-dk",
+    "sources": [
+      "https://openagenda.com/shotgun/events/we-are-techno-xxl-inv-sam-paganini-3h-chipie-and-marcel-dk"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "nrt-xxl-w-novah-matrakk-maudux-dj-caline-mosmoz-more",
+    "name": "NRT XXL w/ Novah, Matrakk, Maudux, Dj Caline, Mosmoz & more",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "NANTES RAVE TECHNO XXL w/ Novah, Matrakk, Maudux, Dj Caline, Mosmoz & more au Warehouse Nantes le vendredi 09 octobre 2026. En tête d’affiche, la Belge Novah s’impose aujourd’hui comme l’une des…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 47.201183,
+    "lng": -1.572961,
+    "officialUrl": "https://openagenda.com/shotgun/events/nrt-xxl-w-novah-matrakk-maudux-dj-caline-mosmoz-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/nrt-xxl-w-novah-matrakk-maudux-dj-caline-mosmoz-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "somatik-co2-akou-drymk-yuria-more",
+    "name": "SOMATIK | CO2 - Akou, Drymk, Yuria & more",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "TEKNO ET HARDCORE LE 09.10 AU CO2 💥 Après l’open air Velysia, on sera prêt.es à accueillir tous les fans de Tekno et de Hardmusic, avec une affiche qui laisse rêveur : Akou (live), Drymk, Yuria et…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 47.197854,
+    "lng": -1.585773,
+    "officialUrl": "https://openagenda.com/shotgun/events/somatik-or-co2-akou-drymk-yuria-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/somatik-or-co2-akou-drymk-yuria-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "f2-club-bassment-dj-pdg-mark-us",
+    "name": "F2 CLUB • BASSMENT • DJ PDG - MARK US",
+    "city": "Saint-Étienne",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "— Vendredi 9 octobre — BASSMENT Vendredi, BASSMENT revient au F2 avec DJ PDG et MARK US derrière les platines. De 01h à 06h, les deux DJs se relayeront autour d’une sélection house, melodic techno…",
+    "startDate": "2026-10-09",
+    "endDate": "2026-10-10",
+    "lat": 45.436949,
+    "lng": 4.387387,
+    "officialUrl": "https://openagenda.com/shotgun/events/f2-club-bassment-dj-pdg-mark-us",
+    "sources": [
+      "https://openagenda.com/shotgun/events/f2-club-bassment-dj-pdg-mark-us"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "open-air-techno-360-hidden-garden-x-sphere-villeurbanne",
+    "name": "OPEN AIR TECHNO 360° - HIDDEN GARDEN x SPHERE - VILLEURBANNE",
+    "city": "Villeurbanne",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "🍂 L’automne arrive, mais on compte bien faire monter la température. 🔥 Après une première édition SPHERE Open Air exceptionnelle l’an dernier au Parc de l’Île Barbe, Hidden Garden remet ça pour…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 45.768056,
+    "lng": 4.901371,
+    "officialUrl": "https://openagenda.com/shotgun/events/open-air-techno-360-hidden-garden-x-sphere-villeurbanne",
+    "sources": [
+      "https://openagenda.com/shotgun/events/open-air-techno-360-hidden-garden-x-sphere-villeurbanne"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "la-tabasse-x-aza-16h-03h-house-techno-tribe-mental",
+    "name": "La Tabasse X AZA [16h|03h] House•Techno•Tribe•Mental !",
+    "city": "Laroque-d'Olmes",
+    "region": "Occitanie",
+    "description": "🪐 LA TABASSE DÉBARQUE SUR LA PLANÈTE AZA ! 👽 Salut la Planète ! L’Asso La Tabasse revient poser ses valises à AZA pour une dernière belle bamboche avant que le grand froid arrive [ Format Open Air…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 42.960404,
+    "lng": 1.878252,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-tabasse-x-aza-16hor03h-housetechnotribemental",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-tabasse-x-aza-16hor03h-housetechnotribemental"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "dancehall-rave",
     "name": "DANCEHALL RAVE",
     "city": "Nantes",
@@ -3856,6 +5234,1504 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "dancehall-rave-nantes",
+    "name": "DANCEHALL RAVE NANTES",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "DANCEHALL RAVE NANTES 10 OCTOBRE / TAPROOM 22H - 4H / 10EUR 💥Prêt.e.s à bouger? 💥 Après, Lyon, Paris et Bruxelles, le show Dancehall Rave débarque à Nantes. Vingt ans que Schnautzi creuse ce…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 47.200506,
+    "lng": -1.573761,
+    "officialUrl": "https://openagenda.com/shotgun/events/dancehall-rave-nantes",
+    "sources": [
+      "https://openagenda.com/shotgun/events/dancehall-rave-nantes"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "leblanc-d-j-s-soons-more",
+    "name": "LEBLANC, D.J.S, SOONS & MORE",
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "GRANDE SALLE (Techno / Melodic Techno / Melodic House) : Leblanc https://on.soundcloud.com/TvRRYzCDoF1b2a5mWv D.J.S https://on.soundcloud.com/G5SAOTJAVAbmwsEB5I Soons…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 45.74091,
+    "lng": 4.848962,
+    "officialUrl": "https://openagenda.com/shotgun/events/leblanc-djs-soons-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/leblanc-djs-soons-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "switch-all-night-kenty-clide-2thunders-nona-izzy",
+    "name": "SWITCH ALL NIGHT - KENTY CLIDE, 2THUNDERS, NONA, IZZY",
+    "city": "Roquebrune-sur-Argens",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "Pour ce weekend on vous propose une éditon un peu special avec une line up très progressive allant de la tech-house jusqu'a la hard techno passant par la trance L'idée sera de vraiment traverser les…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 43.461181,
+    "lng": 6.642282,
+    "officialUrl": "https://openagenda.com/shotgun/events/switch-all-night-kenty-clide-2thunders-nona-izzy",
+    "sources": [
+      "https://openagenda.com/shotgun/events/switch-all-night-kenty-clide-2thunders-nona-izzy"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "girls-on-rave-inv-lola-cerise-azla-micella",
+    "name": "GIRLS ON RAVE inv. LOLA CERISE, AZLA & MICELLA",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "⛓️ GIRLS ON RAVE inv. LOLA CERISE, AZLA & MICELLA ⛓️ 🩷 AFTER OFFICIEL MECANIK PARADIZE X ORGANÏK Samedi 10 octobre, après la soirée Organïk aux Halles de la Machine, rendez-vous au Rex de Toulouse…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 43.611989,
+    "lng": 1.438322,
+    "officialUrl": "https://openagenda.com/shotgun/events/girls-on-rave-inv-lola-cerise-azla-and-micella",
+    "sources": [
+      "https://openagenda.com/shotgun/events/girls-on-rave-inv-lola-cerise-azla-and-micella"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "fall-industry-return-w-2hot2play-betises-more",
+    "name": "Fall Industry : RETURN w/ 2HOT2PLAY + BETÏSES & more",
+    "city": "Balma",
+    "region": "Occitanie",
+    "description": "En octobre, la 𝙍𝙀𝙏𝙐𝙍𝙉 fait son come back ! ⭐️𝙏𝙀𝘾𝙃𝙉𝙊 𝙍𝘼𝙑𝙀 / 𝙏𝙍𝘼𝙉𝘾𝙀 / 𝙃𝘼𝙍𝘿𝘽𝙊𝙐𝙉𝘾𝙀 / 𝙂𝙍𝙊𝙊𝙑𝙔⭐️ La plus grosse soirée Rave/Trance de Toulouse s'installe de nouveau à…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 43.631391,
+    "lng": 1.489136,
+    "officialUrl": "https://openagenda.com/shotgun/events/fall-industry-return-w-2hot2play-betises-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/fall-industry-return-w-2hot2play-betises-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "martine-au-bruit-invite-alex-kassian-kleo",
+    "name": "Martine Au Bruit invite Alex Kassian & Kléo.",
+    "city": "Lille",
+    "region": "Hauts-de-France",
+    "description": "Martine Au Bruit est de retour pour une nouvelle année, avec un line-up de haute voltige. Le samedi 10 octobre, nous accueillons l’une des figures majeures de la scène house underground européenne,…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 50.619815,
+    "lng": 3.053889,
+    "officialUrl": "https://openagenda.com/shotgun/events/martine-au-bruit-invite-alex-kassian-and-kleo",
+    "sources": [
+      "https://openagenda.com/shotgun/events/martine-au-bruit-invite-alex-kassian-and-kleo"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "thunder-flymeon-enfan-cyur-blnk-night-owl-more",
+    "name": "THUNDER : FLYMEON, ENFAN, CYUR, BLNK, NIGHT OWL & MORE",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Entre ombre et lumière, THUNDER prône une techno actuelle et éclectique dans un cadre unique où respect, plaisir et bienveillance se mélangent. Le 10 Octobre 2026, THUNDER prend une nouvelle fois le…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 48.89659,
+    "lng": 2.395474,
+    "officialUrl": "https://openagenda.com/shotgun/events/thunder-flymeon-enfan-cyur-blnk-night-owl-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/thunder-flymeon-enfan-cyur-blnk-night-owl-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "party-kullt-varya-karpova-4000-hz-n-cta",
+    "name": "💫 PARTY KULLT : VARYA KARPOVA / 4000 HZ / NØCTA / ... 💫",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "💫 PARTY KULLT à L'ENTREPÔT 💫 ⚡ Une nuit placée sous le signe des nouvelles énergies de la scène électronique actuelle ⚡ Entre Hard Bounce, Hard Trance, Hard Techno et sonorités Acid, cette soirée…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 44.883598,
+    "lng": -0.541265,
+    "officialUrl": "https://openagenda.com/shotgun/events/party-kullt-varya-karpova-4000-hz-nocta",
+    "sources": [
+      "https://openagenda.com/shotgun/events/party-kullt-varya-karpova-4000-hz-nocta"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "eczodia-extended-set",
+    "name": "Eczodia (Extended Set)",
+    "city": "Montpellier",
+    "region": "Occitanie",
+    "description": "Samedi 10 octobre — DIEZE EVENT INVITE : ECZODIA [EXTENDED SET] Le Dieze invite ECZODIA pour une nuit placée sous le signe de la Hard Techno, de la Rave et de la Hard Music, avec pour l’occasion un…",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "lat": 43.585482,
+    "lng": 3.878427,
+    "officialUrl": "https://openagenda.com/shotgun/events/eczodia-extended-set",
+    "sources": [
+      "https://openagenda.com/shotgun/events/eczodia-extended-set"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "cardio-rave-12-10-26",
+    "name": "Cardio Rave | 12.10.26",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Issu de la culture clubbing, grand amateur de musiques électroniques, Raoul évolue dans l'univers du fitness depuis de nombreuses années en tant qu'animateur sportif accompli. Il crée en 2022 les…",
+    "startDate": "2026-10-12",
+    "endDate": "2026-10-12",
+    "lat": 48.868351,
+    "lng": 2.392157,
+    "officialUrl": "https://openagenda.com/shotgun/events/cardio-rave-or-121026",
+    "sources": [
+      "https://openagenda.com/shotgun/events/cardio-rave-or-121026"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "techno-race-run-dj-set",
+    "name": "Techno Race - Run & DJ Set",
+    "city": "Pantin",
+    "region": "Île-de-France",
+    "description": "C’est vendredi soir, pourquoi choisir entre ton run, tes potes et du bon son ? The Techno Race c’est la première rave qui se court 🥇 Un DJ booth central dans une warehouse avec une piste indoor…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "lat": 48.898464,
+    "lng": 2.398827,
+    "officialUrl": "https://openagenda.com/shotgun/events/techno-race-run-and-dj-set",
+    "sources": [
+      "https://openagenda.com/shotgun/events/techno-race-run-and-dj-set"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "tekno-ritual-w-teksa-biomystic-more",
+    "name": "TEKNO RITUAL - w/ Teksa, Biomystic & more",
+    "city": "Strasbourg",
+    "region": "Grand Est",
+    "description": "☠️ Tekno RItual☠️ Soirée hard techno, acidcore, mentalcore, tekno, hardtek pour cette édition ! _____________________________________________ 🌐 LINE-UP 🌐 - TEKSA - BIOMYSTIC - KETAMANE (QAZAR) -…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 48.557243,
+    "lng": 7.738396,
+    "officialUrl": "https://openagenda.com/shotgun/events/tekno-ritual-w-teksa-biomystic-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/tekno-ritual-w-teksa-biomystic-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "ransomware-audiovisual-rave",
+    "name": "RANSOMWARE : Audiovisual Rave",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "RANSOMWARE est un long métrage expérimental d'Odette Aldrich. Pour sa première projection publique, l'univers de RANSOMWARE sort de l'écran pour investir Les Caves Saint-Sabin. La musique, les…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 48.858611,
+    "lng": 2.369167,
+    "officialUrl": "https://openagenda.com/shotgun/events/ransomware-audiovisual-rave",
+    "sources": [
+      "https://openagenda.com/shotgun/events/ransomware-audiovisual-rave"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "ones-and-zeros-boys-noize-adame-dj-tinkerhell-more",
+    "name": "ONES AND ZEROS: BOYS NOIZE, ADAME DJ, TINKERHELL & MORE",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "BOYS NOIZE launched ONES and ZEROS [OAZ] in 2025 as part record label, part engine of new techno futures. Amplifying emerging undergrounds from across the planet, OAZ dissolves definitions to build…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 48.89659,
+    "lng": 2.395474,
+    "officialUrl": "https://openagenda.com/shotgun/events/ones-and-zeros-boys-noize-adame-dj-tinkerhell-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/ones-and-zeros-boys-noize-adame-dj-tinkerhell-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "grisemule-x-indy-boca-soundsystem-parc-de-belleville",
+    "name": "Grisemule x Indy Boca Soundsystem @ Parc de Belleville",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Grisemule et Indy Boca Soundsystem se rassemblent pour proposer un open air au parc de Belleville grâce au programme Kiosque en Fête de la Ville de Paris. Son par le légendaire soundsystem dub…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 48.871587,
+    "lng": 2.384985,
+    "officialUrl": "https://openagenda.com/shotgun/events/grisemule-x-indy-boca-soundsystem-parc-de-belleville",
+    "sources": [
+      "https://openagenda.com/shotgun/events/grisemule-x-indy-boca-soundsystem-parc-de-belleville"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "last-open-air-party-house-basshouse-techno",
+    "name": "Last Open air Party ? House|BassHouse|Techno !",
+    "city": "Laroque-d'Olmes",
+    "region": "Occitanie",
+    "description": "🍂 17 OCTOBRE — The Last OPEN AIR PARTY ? Avant de rentrer dans la gare pour les soirées d’hiver, on profite encore un peu de l’automne dehors si la météo nous le permet🌞🍂 C’est quoi le programme…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 42.960404,
+    "lng": 1.878252,
+    "officialUrl": "https://openagenda.com/shotgun/events/last-open-air-party-houseorbasshouseortechno",
+    "sources": [
+      "https://openagenda.com/shotgun/events/last-open-air-party-houseorbasshouseortechno"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
+    "slug": "liminal-rave-experience-atelier-danse-intuitive-set-electro",
+    "name": "LIMINAL RAVE EXPERIENCE-ATELIER DANSE INTUITIVE+SET ELECTRO",
+    "city": "La Seyne-sur-Mer",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "LIMINAL RAVE EXPERIENCE est une expérience immersive imaginée par Orâya @arianedupuy x AL ZON @alzon.music (HEMM @hemmovement) à la frontière entre musique électronique, mouvement et connexion.…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 43.09424,
+    "lng": 5.893301,
+    "officialUrl": "https://openagenda.com/shotgun/events/liminal-rave-experience-atelier-danse-intuitiveset-electro",
+    "sources": [
+      "https://openagenda.com/shotgun/events/liminal-rave-experience-atelier-danse-intuitiveset-electro"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "aeronautic-rave-museum-inv-skone-all-night-long-friends",
+    "name": "AERONAUTIC RAVE MUSEUM inv. SKÖNE (ALL NIGHT LONG) & FRIENDS",
+    "city": "Blagnac",
+    "region": "Occitanie",
+    "description": "✈️ AERONAUTIC RAVE MUSEUM inv. SKÖNE & FRIENDS ALL NIGHT LONG ✈️ 🧑‍✈️ Mesdames, Messieurs, bienvenue à bord. Votre embarquement est désormais ouvert pour une nouvelle édition de AERONAUTIC RAVE…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 43.659806,
+    "lng": 1.359571,
+    "officialUrl": "https://openagenda.com/shotgun/events/aeronautic-rave-museum-inv-skone-all-night-long-and-friends",
+    "sources": [
+      "https://openagenda.com/shotgun/events/aeronautic-rave-museum-inv-skone-all-night-long-and-friends"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "infinity-connection-3-drum-n-bass-uk-bass-hardtek",
+    "name": "INFINITY CONNECTION #3 - DRUM N'BASS * UK BASS * HARDTEK",
+    "city": "Antibes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "Les collectifs INFINITY et CONNECTION se retrouvent le samedi 17 octobre à Antibes, au Green Musik, pour une troisième soirée mettant à l'honneur la Bass Music ! Au programme : UK Garage, Dubstep,…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 43.585136,
+    "lng": 7.120909,
+    "officialUrl": "https://openagenda.com/shotgun/events/infinity-connection-3-drum-nbass-uk-bass-hardtek",
+    "sources": [
+      "https://openagenda.com/shotgun/events/infinity-connection-3-drum-nbass-uk-bass-hardtek"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "wake-up-x-les-reves-party",
+    "name": "Wake Up X Les Rêves Party",
+    "city": "Le Mans",
+    "region": "Pays de la Loire",
+    "description": "LE MANS, PRÉPARE-TOI À TREMBLER. Le 17 octobre, Les Rêves Party et Wake Up unissent leurs forces pour transformer le @portland.pub en véritable zone de rave. Une nuit. Une salle méconnaissable. Des…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 48.003021,
+    "lng": 0.194241,
+    "officialUrl": "https://openagenda.com/shotgun/events/wake-up-x-les-reves-party",
+    "sources": [
+      "https://openagenda.com/shotgun/events/wake-up-x-les-reves-party"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "this-is-rave-y2k-edition-dj-securite-say-it-loud-more",
+    "name": "THIS IS RAVE (Y2K EDITION) : DJ SÉCURITÉ, SAY IT LOUD & MORE",
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "GRANDE SALLE (Eurodance / Hard Bounce) : DJ SÉCURITÉ SAY IT LOUD PETITE SALLE (House) : LEKIND & FATALGERIAN Évènement réservé à un public majeur et sympathique. Justificatif d'identité original en…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 45.74091,
+    "lng": 4.848962,
+    "officialUrl": "https://openagenda.com/shotgun/events/this-is-rave-y2k-edition-dj-securite-say-it-loud-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/this-is-rave-y2k-edition-dj-securite-say-it-loud-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "hard-night-luke-noize-and-more",
+    "name": "Hard Night : Luke Noize, and more...",
+    "city": "Montpellier",
+    "region": "Occitanie",
+    "description": "🔥 Samedi 17 octobre — HARD NIGHT 🔥 La Hard Night revient au Dieze pour une nouvelle édition placée sous le signe de la hard techno, entre kicks massifs, rythmes ultra rapides et énergie rave. En…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 43.585482,
+    "lng": 3.878427,
+    "officialUrl": "https://openagenda.com/shotgun/events/hard-night-luke-noize-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/hard-night-luke-noize-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "nrv-18-premiere-de-la-saison",
+    "name": "NRV #18 : PREMIERE DE LA SAISON",
+    "city": "Rochecorbon",
+    "region": "Centre-Val de Loire",
+    "description": "[NRV NRV NRV NRV NRV] #18 Nous continuons le projet NRV : - NRV est une suite d'événements consacrés aux DJs techno les plus NRV du globe. - NRV est reconnaissable par sa magnifique scénographie…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 47.41886,
+    "lng": 0.734142,
+    "officialUrl": "https://openagenda.com/shotgun/events/nrv-18-premiere-de-la-saison",
+    "sources": [
+      "https://openagenda.com/shotgun/events/nrv-18-premiere-de-la-saison"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "psygate-hi-profile-shanti-people-sensifeel-hu-bee",
+    "name": "PSYGATE // HI PROFILE - SHANTI PEOPLE - SENSIFEEL - HU BEE",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "PSYGATE SAMEDI 17 OCTOBRE 2026 📍L’ENTREPÔT - 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ ► HI PROFILE ► SHANTI PEOPLE ► SENSIFEEL ► HU BEE ► PIOU PIOU 🎵 Psytrance /…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 44.883598,
+    "lng": -0.541265,
+    "officialUrl": "https://openagenda.com/shotgun/events/psygate-hi-profile-shanti-people-sensifeel-hu-bee",
+    "sources": [
+      "https://openagenda.com/shotgun/events/psygate-hi-profile-shanti-people-sensifeel-hu-bee"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "la-suite-6ejou-kloss",
+    "name": "La Suite — 6EJOU, KLÖSS",
+    "city": "Brest",
+    "region": "Bretagne",
+    "description": "🔥 Samedi 17 Octobre, 6EJOU sera présent au club pour un live act et une nuit placée sous le signe de la techno industrielle et des sonorités les plus brutes, avec KLÖSS qui saura vous accompagner…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 48.383182,
+    "lng": -4.484589,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-suite-6ejou-kloss",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-suite-6ejou-kloss"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "mind-asl-daisy-fjusha-tom-carroll-nyco-dj-ratz",
+    "name": "MIND : ASLØ, DAISY, FJUSHA, TOM CARROLL, NYCO, DJ RATZ",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le 17 Octobre 2026, Mind revient au Kilomètre25 dans une atmosphère solaire. Une sélection Trance et Hardgroove en compagnie de ASLØ, AVENIR, DAISY, DJ RATZ, FJUSHA, NYCO et TOM CARROLL pour 9…",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-18",
+    "lat": 48.896296,
+    "lng": 2.393567,
+    "officialUrl": "https://openagenda.com/shotgun/events/mind-aslo-daisy-fjusha-tom-carroll-nyco-dj-ratz",
+    "sources": [
+      "https://openagenda.com/shotgun/events/mind-aslo-daisy-fjusha-tom-carroll-nyco-dj-ratz"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "modern-rave-hard-dock-edition-w-skone-kodaman-18-10",
+    "name": "MODERN RAVE : HARD DOCK EDITION w/ SKÖNE & KODAMAN (18.10)",
+    "city": "Sète",
+    "region": "Occitanie",
+    "description": "🔥 MODERN RAVE - HARD DOCK EDITION 🏭️ NOUVEAU LIEU - WAREHOUSE & OPEN AIR DIMANCHE 18 OCTOBRE Notre nouvelle édition HARD DOCK se déroulera dans un tout nouveau lieu exceptionnel, classé patrimoine…",
+    "startDate": "2026-10-18",
+    "endDate": "2026-10-18",
+    "lat": 43.415492,
+    "lng": 3.717774,
+    "officialUrl": "https://openagenda.com/shotgun/events/modern-rave-hard-dock-edition-w-skone-and-kodaman-1810",
+    "sources": [
+      "https://openagenda.com/shotgun/events/modern-rave-hard-dock-edition-w-skone-and-kodaman-1810"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "discovery-presente-ravexperience",
+    "name": "DISCOVERY présente : RAVEXPERIENCE",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Discovery presente RAVEXPERIENCE pour une nuit allant de la trance à la schranz en passant par la hardbounce et hardtechno 💥 🎧 LINE UP 🎧 RAVELINERS MØREJ UNDONE ▬▬▬▬▬▬ INFOS PRATIQUES ▬▬▬▬▬▬ 📅…",
+    "startDate": "2026-10-22",
+    "endDate": "2026-10-23",
+    "lat": 48.868099,
+    "lng": 2.37367,
+    "officialUrl": "https://openagenda.com/shotgun/events/discovery-presente-ravexperience",
+    "sources": [
+      "https://openagenda.com/shotgun/events/discovery-presente-ravexperience"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "bleeding-edgerunners-cyberpriest-carpeteater-c0rpsedecay",
+    "name": "Bleeding Edgerunners | Cyberpriest_CarpetEater_C0rpseDecay",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Bleeding Edgerunners vous plonge au cœur d’une rave cyberpunk dans le bunker le mieux gardé de Paris-Nightcity! Entre clubbing dystopique et show audiovisuel à vous griller les implants optiques,…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 48.853561,
+    "lng": 2.374768,
+    "officialUrl": "https://openagenda.com/shotgun/events/bleeding-edgerunners-or-cyberpriestcarpeteaterc0rpsedecay",
+    "sources": [
+      "https://openagenda.com/shotgun/events/bleeding-edgerunners-or-cyberpriestcarpeteaterc0rpsedecay"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "flymeon-the-techno-rockstar",
+    "name": "FLYMEON - THE TECHNO ROCKSTAR",
+    "city": "Nice",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "[ FLYMEON THE TECHNO ROCKSTAR - @LEFRIGO16 ] Pour notre première au Frigo 16, on voulait marquer le coup avec un artiste qui ne ressemble à aucun autre : FLYMEON. Véritable Rockstar Techno, FLYMEON…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 43.716667,
+    "lng": 7.284023,
+    "officialUrl": "https://openagenda.com/shotgun/events/flymeon-the-techno-rockstar",
+    "sources": [
+      "https://openagenda.com/shotgun/events/flymeon-the-techno-rockstar"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "micro-peniche-from-techno-to-bass-music",
+    "name": "Micro Péniche / From techno to bass music",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "🚤 On repart en croisière sur la Micro Péniche, cette fois en mode techno to bass music ! 🚢 Pour cette soirée un peu spéciale, on a obtenu davantage de son… 🛥 On commencera par une croisière sous…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 48.84701,
+    "lng": 2.361981,
+    "officialUrl": "https://openagenda.com/shotgun/events/micro-peniche-from-techno-to-bass-music",
+    "sources": [
+      "https://openagenda.com/shotgun/events/micro-peniche-from-techno-to-bass-music"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "total-90-x-absolem-2",
+    "name": "TOTAL 90 x ABSOLEM #2",
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "TOTAL 90 📼🕹️ Après la première édition Sold Out on remet ça ! On ressuscite l'âge d'or des Raves 90s. Un voyage musical progressif, de la Classic House solaire à la Trance 90 ! L'OUTFIT 90 EST…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 43.300372,
+    "lng": 5.364239,
+    "officialUrl": "https://openagenda.com/shotgun/events/total-90-x-absolem-2",
+    "sources": [
+      "https://openagenda.com/shotgun/events/total-90-x-absolem-2"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "tech2k-w-urva-estreva-lacrizomike-2000-and-more",
+    "name": "Tech2K w/ Urva Estreva, LACRIZOMIKE 2000, and more...",
+    "city": "Lyon",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "Tech2K débarque à Lyon pour une soirée années 2000 x Techno ❤️‍🔥 Fusion explosive entre l’esthétique Y2K et la scène techno, cette soirée queer célèbre les nuits libres. Tech2K, c’est un cri…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 45.773503,
+    "lng": 4.797719,
+    "officialUrl": "https://openagenda.com/shotgun/events/tech2k-w-urva-estreva-lacrizomike-2000-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/tech2k-w-urva-estreva-lacrizomike-2000-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "plein-phare-x-la-rave-en-f2f-face-a-face-scene-360",
+    "name": "PLEIN PHARE x LA RAVE EN F2F (FACE À FACE) - SCÈNE 360°",
+    "city": "Ramonville-Saint-Agne",
+    "region": "Occitanie",
+    "description": "⚙️ PLEIN PHARE X LA RAVE EN F2F (Face à Face) - SCÈNE 360° ⚙️ ⛓️ LE BIKINI // VENDREDI 23 OCTOBRE 🪩 Venez vivre une nuit dédiée aux musiques électroniques intenses : techno, trance bouncy, hard…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 43.548049,
+    "lng": 1.485405,
+    "officialUrl": "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-f2f-face-a-face-scene-360",
+    "sources": [
+      "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-f2f-face-a-face-scene-360"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "fight-club-snoritz-gio-dvaid-kh-ng-eva-vrijdag",
+    "name": "FIGHT CLUB : SNORITZ, GIO, DVAID, KHØNG, Eva Vrijdag",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Pour notre dernière date en open air de la saison, on revient avec de la trance, de la bounce et plusieurs surprises qui navigueront entre les deux. Au programme : DVAID EVAJANE EVA VRIJDAG GIØ…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 48.896296,
+    "lng": 2.393567,
+    "officialUrl": "https://openagenda.com/shotgun/events/fight-club-snoritz-gio-dvaid-khong-eva-vrijdag",
+    "sources": [
+      "https://openagenda.com/shotgun/events/fight-club-snoritz-gio-dvaid-khong-eva-vrijdag"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "live-impact-todiefor-ophidian-contrefacon-ketut",
+    "name": "LIVE IMPACT // TODIEFOR - OPHIDIAN - CONTREFAÇON - KETUT",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "LIVE IMPACT VENDREDI 23 OCTOBRE 2026 📍HANGAR DS - 17 rue Édouard Faure, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ ► TODIEFOR ► OPHIDIAN ► CONTREFAÇON ► KETUT ► HATHORA 🎵 Rap Rave /…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 44.885732,
+    "lng": -0.544529,
+    "officialUrl": "https://openagenda.com/shotgun/events/live-impact-todiefor-ophidian-contrefacon-ketut",
+    "sources": [
+      "https://openagenda.com/shotgun/events/live-impact-todiefor-ophidian-contrefacon-ketut"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "thunder-anderex-nivk-mxgn-live-shogun-heartreaver",
+    "name": "THUNDER : ANDEREX, NIVK, MXGN (LIVE), SHOGUN, HEARTREAVER",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Entre ombre et lumière, THUNDER prône une techno actuelle et éclectique dans un cadre unique où respect, plaisir et bienveillance se mélangent. Le 23 Octobre 2026, THUNDER prend une nouvelle fois le…",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 48.89659,
+    "lng": 2.395474,
+    "officialUrl": "https://openagenda.com/shotgun/events/thunder-anderex-nivk-mxgn-live-shogun-heartreaver",
+    "sources": [
+      "https://openagenda.com/shotgun/events/thunder-anderex-nivk-mxgn-live-shogun-heartreaver"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "milio-ruando-all-night-long-techno-acid-trance",
+    "name": "MILIO RUANDO ALL NIGHT LONG (TECHNO, ACID & TRANCE)",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "🌀 MILIO RUANDO ALL NIGHT LONG 🌀 🔊 TECHNO, ACID & TRANCE Samedi 24 octobre, Milio Ruando investit Le Rex de Toulouse pour une nuit 100% Techno & Acid 🧪🔊 À la croisée de la trance, de l’acid et…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 43.611989,
+    "lng": 1.438322,
+    "officialUrl": "https://openagenda.com/shotgun/events/milio-ruando-all-night-long-techno-acid-and-trance",
+    "sources": [
+      "https://openagenda.com/shotgun/events/milio-ruando-all-night-long-techno-acid-and-trance"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "overqueer-queer-techno-rave",
+    "name": "OVERQUEER [Queer Techno Rave]",
+    "city": "Montpellier",
+    "region": "Occitanie",
+    "description": "10 éditions. Des milliers de danseur·euses, des nuits de techno, de performances drag et de moments inoubliables, et après quelques mois loin du dancefloor… WE’RE SO BACK ✨ Pour cette nouvelle et…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 43.588015,
+    "lng": 3.886177,
+    "officialUrl": "https://openagenda.com/shotgun/events/overqueer-queer-techno-rave",
+    "sources": [
+      "https://openagenda.com/shotgun/events/overqueer-queer-techno-rave"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "acid-kiss-dj-pierre-miss-djax-dr-rubinstein-more",
+    "name": "ACID KISS : DJ PIERRE, MISS DJAX, DR RUBINSTEIN & more",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le 24 octobre, l’acid prend possession du Kilomètre25. Née à Chicago au milieu des années 80, l’acid house s’est construite autour d’un son nouveau : celui de la Roland TB-303, ses lignes de basse…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 48.896296,
+    "lng": 2.393567,
+    "officialUrl": "https://openagenda.com/shotgun/events/acid-kiss-dj-pierre-miss-djax-dr-rubinstein-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/acid-kiss-dj-pierre-miss-djax-dr-rubinstein-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 44.883598,
+    "lng": -0.541265,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "inner-rave-100-techno-tempelhof-dieze-warehouse",
+    "name": "INNER RAVE - 100% TECHNO - TEMPELHOF - DIEZE WAREHOUSE",
+    "city": "Montpellier",
+    "region": "Occitanie",
+    "description": "BIM : Inner Rave débarque au Tempelhof, la deuxième salle du Dieze Warehouse, le samedi 24 octobre de 00h à 06h ! 🔉 Ralentissons la course au BPM et revenons, ensemble, vers des expériences sonores…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 43.584673,
+    "lng": 3.877688,
+    "officialUrl": "https://openagenda.com/shotgun/events/inner-rave-100percent-techno-tempelhof-dieze-warehouse",
+    "sources": [
+      "https://openagenda.com/shotgun/events/inner-rave-100percent-techno-tempelhof-dieze-warehouse"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "kx-chr-dark-rave-x-la-cervoiserie-dinan",
+    "name": "KX CHR — DARK RAVE x La Cervoiserie Dinan⛓️",
+    "city": "Quévert",
+    "region": "Bretagne",
+    "description": "🔉KX CHR débarque à La Cervoiserie DINAN 🔥 📅 Vendredi 30 octobre 2026 📍 La Cervoiserie Dinan — Quévert Préparez-vous pour l’une des plus grosses nuits techno de l’année à La Cervoiserie⚡️ En…",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-31",
+    "lat": 48.447222,
+    "lng": -2.076899,
+    "officialUrl": "https://openagenda.com/shotgun/events/kx-chr-dark-rave-x-la-cervoiserie-dinan",
+    "sources": [
+      "https://openagenda.com/shotgun/events/kx-chr-dark-rave-x-la-cervoiserie-dinan"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "hush-3leeza-iosio-k-lab-revex-thiso-toximami",
+    "name": "HUSH : 3LEEZA, IOSIO, KØ:LAB, REVEX, THISO, TOXIMAMI",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "HUSH SEASON CLOSING Dernier open air de la saison et closing annuel pour Hush au KM25 à la veille d’Halloween : on a décidé de rassembler le meilleur de la bounce et hard trance avec 6…",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-31",
+    "lat": 48.896296,
+    "lng": 2.393567,
+    "officialUrl": "https://openagenda.com/shotgun/events/hush-3leeza-iosio-kolab-revex-thiso-toximami",
+    "sources": [
+      "https://openagenda.com/shotgun/events/hush-3leeza-iosio-kolab-revex-thiso-toximami"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "the-holy-rave-34-besancon",
+    "name": "The Holy Rave #34 - Besançon",
+    "city": "Chalezeule",
+    "region": "Bourgogne-Franche-Comté",
+    "description": "Besançon ! La capitale de plus belle région de France, comtois, rends-toi ! Nenni, ma foi ! 💛💙 Au menu, une belle line-up internationale 😎 🟢 00:00 - 01:00 JAKOBEE - Belfort, France 🇫🇷 ⚫️ 01:00…",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-31",
+    "lat": 47.265417,
+    "lng": 6.058977,
+    "officialUrl": "https://openagenda.com/shotgun/events/the-holy-rave-34-besancon",
+    "sources": [
+      "https://openagenda.com/shotgun/events/the-holy-rave-34-besancon",
+      "https://ra.co/events/2518900"
+    ],
+    "genreVerified": true,
+    "status": "announced",
+    "needsReview": true,
+    "address": "Teasing Club, 2A Rue du Gay, 25220 Chalezeule, France",
+    "lineup": [
+      "JAKOBEE",
+      "Kingsmo",
+      "LWØ (1)",
+      "FNRZ"
+    ],
+    "isFestival": false,
+    "_reason": "soirée : hors périmètre"
+  },
+  {
+    "slug": "hardcore-horror-show-d-fence-chaotic-hostility",
+    "name": "HARDCORE HORROR SHOW // D-FENCE - CHAOTIC HOSTILITY - ...",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "HARDCORE HORROR SHOW VENDREDI 30 OCTOBRE 2026 📍HANGAR DS - 17 rue Édouard Faure, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ ► D-FENCE ► CHAOTIC HOSTILITY ► THE DOPE DOCTOR - GHOST MODE…",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-31",
+    "lat": 44.885732,
+    "lng": -0.544529,
+    "officialUrl": "https://openagenda.com/shotgun/events/hardcore-horror-show-d-fence-chaotic-hostility",
+    "sources": [
+      "https://openagenda.com/shotgun/events/hardcore-horror-show-d-fence-chaotic-hostility"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "noctis-ii-halloween-rave",
+    "name": "NOCTIS II - Halloween Rave",
+    "city": "Thodure",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "Music Game présente : NOCTIS II 😈 Pour cette deuxième édition, on reprend ce qui faisait l’identité de la soirée et on pousse l’expérience encore plus loin : scénographie poussée, décoration…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 45.316429,
+    "lng": 5.168507,
+    "officialUrl": "https://openagenda.com/shotgun/events/noctis-ii-halloween-rave",
+    "sources": [
+      "https://openagenda.com/shotgun/events/noctis-ii-halloween-rave"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "rave-halloween-inertie-x-ivn",
+    "name": "RAVE HALLOWEEN - INERTIE X IVN",
+    "city": "Le Lion-d'Angers",
+    "region": "Pays de la Loire",
+    "description": "🩸 RAVE HALLOWEEN — INERTIE X INVASION NOCTURNE 🩸 Le 31 octobre, prépare-toi à plonger dans les ténèbres d’une nuit hors de contrôle🕷️ 📍 Hippodrome — Lion d’Angers 📅 Samedi 31 octobre 2026 ⏰…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 47.62986,
+    "lng": -0.708101,
+    "officialUrl": "https://openagenda.com/shotgun/events/rave-halloween-inertie-x-ivn",
+    "sources": [
+      "https://openagenda.com/shotgun/events/rave-halloween-inertie-x-ivn"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "halloween-rave-party-xxl-2026",
+    "name": "HALLOWEEN RAVE PARTY XXL 2026",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "🎃 HALLOWEEN RAVE PARTY XXL — 31.10.26 — TOULOUSE ☠️ Le 31 octobre, 3 000 m² de l’ESMERALDA CLUB à Sesquières se transforment en un véritable terrain de jeu pour l’une des plus grosses nuits techno…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 43.651626,
+    "lng": 1.421108,
+    "officialUrl": "https://openagenda.com/shotgun/events/halloween-rave-party-xxl-2026",
+    "sources": [
+      "https://openagenda.com/shotgun/events/halloween-rave-party-xxl-2026"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "kc-wicked-girls-louisahhh-kimifromtheinternet-tba",
+    "name": "KC [WICKED GIRLS (Louisahhh & kimifromtheinternet), +TBA]",
+    "city": "Strasbourg",
+    "region": "Grand Est",
+    "description": "PRÉVENTES LIMITÉES / BILLETS SUR PLACE. TARIF EARLY 13€ DE 23H À 00H __________________________________ Techno, Electro Room 𝓰𝓪𝓵𝓵𝓮𝓻𝔂 ★ TBA ★ TBA Room 𝓬𝓵𝓾𝓫 ★ WICKED GIRLS (aka Louisahhh &…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 48.58086,
+    "lng": 7.758256,
+    "officialUrl": "https://openagenda.com/shotgun/events/kc-wicked-girls-louisahhh-and-kimifromtheinternet-tba",
+    "sources": [
+      "https://openagenda.com/shotgun/events/kc-wicked-girls-louisahhh-and-kimifromtheinternet-tba"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "hardtechno-horror-show-snts-salvyan-nivk-imhappy",
+    "name": "HARDTECHNO HORROR SHOW // SNTS - SALVYAN - NIVK - IMHAPPY",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "HARDTECHNO HORROR SHOW SAMEDI 31 OCTOBRE 2026 📍HANGAR DS - 17 rue Édouard Faure, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ ► SNTS ► SALVYAN ► NIVK ► IMHAPPY ► ØKULT ► SNØW 🎵 Hard Techno…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 44.885732,
+    "lng": -0.544529,
+    "officialUrl": "https://openagenda.com/shotgun/events/hardtechno-horror-show-snts-salvyan-nivk-imhappy",
+    "sources": [
+      "https://openagenda.com/shotgun/events/hardtechno-horror-show-snts-salvyan-nivk-imhappy"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "fluid-halloween-hard-edition-lolalita-kimberlaid-more",
+    "name": "FLUID Halloween [Hard Edition] 🎃 Lolalita, KimberlaID &more",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Pour Halloween, on change les règles du jeu. Le temps d'une nuit, Fluid dévoile son côté le plus hard à La Machine avec une programmation qui navigue entre hardcore, schranz et les sonorités rave…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 48.884201,
+    "lng": 2.33224,
+    "officialUrl": "https://openagenda.com/shotgun/events/fluid-halloween-hard-edition-lolalita-kimberlaid-andmore",
+    "sources": [
+      "https://openagenda.com/shotgun/events/fluid-halloween-hard-edition-lolalita-kimberlaid-andmore"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "jeanneto",
+    "name": "JeanneTo",
+    "city": "Rennes",
+    "region": "Bretagne",
+    "description": "JeanneTo, c’est une voix pop punk qui s’invite dans le chaos de la rave, sur des rythmes provocants qui poussent les genres déchaînés des années 90 vers leurs extrêmes : basses qui frappent, blasts…",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 48.104922,
+    "lng": -1.676575,
+    "officialUrl": "https://openagenda.com/shotgun/events/jeanneto",
+    "sources": [
+      "https://openagenda.com/shotgun/events/jeanneto"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "poke-rave-rose-de-france-vinka-wydro-more",
+    "name": "😈 POKE RAVE | ROSE DE FRANCE | VINKA WYDRO & MORE …",
+    "city": "Pantin",
+    "region": "Île-de-France",
+    "description": "⚡ TERMINUS : ATTENTION AU DÉPART, DRESSEURS, DRESSEUSES ! ⚡ T’aimes les kicks bien patates ? Et c’est OK. T’aimes les Pokémon ? Et c’est OK. T’aimes les kicks bien patates ET les Pokémon ? Et c’est…",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "lat": 48.896985,
+    "lng": 2.406088,
+    "officialUrl": "https://openagenda.com/shotgun/events/poke-rave-or-rose-de-france-or-vinka-wydro-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/poke-rave-or-rose-de-france-or-vinka-wydro-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "py-rave-vladimir-cauchemar",
+    "name": "Py'Rave × Vladimir Cauchemar",
+    "city": "Tarbes",
+    "region": "Occitanie",
+    "description": "🕒 Horaires De 23h30 à 5h30 du matin 🎧 Line-up VLADIMIR CAUCHEMAR NØNAME JOCAN BULI Py'Rave frappe fort et invite Vladimir Cauchemar (Lokomotiv Sound / Island - Def Jam) pour une nuit hors normes à…",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "lat": 43.221364,
+    "lng": 0.041737,
+    "officialUrl": "https://openagenda.com/shotgun/events/pyrave-vladimir-cauchemar",
+    "sources": [
+      "https://openagenda.com/shotgun/events/pyrave-vladimir-cauchemar"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "plein-phare-x-la-rave-en-b2b-scene-360",
+    "name": "PLEIN PHARE X LA RAVE EN B2B - SCÈNE 360°",
+    "city": "Balma",
+    "region": "Occitanie",
+    "description": "⚔️ PLEIN PHARE X LA RAVE EN B2B - SCÈNE 360° ⚔️ 💥 INTERFERENCE - VENDREDI 06 NOVEMBRE Pour cette nouvelle édition de La Rave en B2B, Interference accueille une série de back-to-back explosifs. À…",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "lat": 43.631141,
+    "lng": 1.490916,
+    "officialUrl": "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-b2b-scene-360",
+    "sources": [
+      "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-b2b-scene-360"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "karnage-inv-tripped-matt-green-densha-crisis-more",
+    "name": "Karnage inv Tripped, Matt Green, Densha Crisis & more",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "⛓️ KARNAGE invite MADBACK RECORDS ⛓️ 10 YEARS OF MADBACK 06.11.2026 📍 Le Rex Toulouse Dix ans que Madback façonne le son industriel et hardcore, dix ans à pousser la distorsion toujours plus loin.…",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "lat": 43.611989,
+    "lng": 1.438322,
+    "officialUrl": "https://openagenda.com/shotgun/events/karnage-inv-tripped-matt-green-densha-crisis-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/karnage-inv-tripped-matt-green-densha-crisis-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "impact-winter-rave-xxl",
+    "name": "Impact : Winter Rave XXL",
+    "city": "Caen",
+    "region": "Normandie",
+    "description": "Après 2 ans d’absence, notre rave iconique revient enfin… Le samedi 7 novembre, la légendaire WINTER RAVE débloque une nouvelle map : l’immense Grand Hall du Parc des Expositions de Caen. 12 000 m²…",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-08",
+    "lat": 49.171172,
+    "lng": -0.380018,
+    "officialUrl": "https://openagenda.com/shotgun/events/impact-winter-rave-xxl",
+    "sources": [
+      "https://openagenda.com/shotgun/events/impact-winter-rave-xxl"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "mojo-crew-x-the-saloon-2",
+    "name": "MOJO CREW X THE SALOON 2",
+    "city": "Tourrettes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "description": "🔥 LE MOJO CREW X THE SALOON 2 ! 🔥 Au menu 6h de Tech House et Tekno au bar du Saloon sur Montauroux avec 5KW de sons ! 🔊 Venez profiter de ce lieu atypique pour écouter le meilleur de l'EDM avec…",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-08",
+    "lat": 43.606945,
+    "lng": 6.702831,
+    "officialUrl": "https://openagenda.com/shotgun/events/mojo-crew-x-the-saloon-2",
+    "sources": [
+      "https://openagenda.com/shotgun/events/mojo-crew-x-the-saloon-2"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "le-wanski-friends-skone-n-xd-mosmoz-night-owl-more",
+    "name": "LE WANSKI & FRIENDS : SKÖNE, N-XD, MOSMOZ, NIGHT OWL & MORE",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le 7 novembre 2026, Wanski prend le contrôle du club pour 7 heures de rave survoltée. Une nuit pensée comme un format spécial, entre invités, surprises et énergie brute jusqu’au bout de la nuit. ✨…",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-08",
+    "lat": 48.89659,
+    "lng": 2.395474,
+    "officialUrl": "https://openagenda.com/shotgun/events/le-wanski-and-friends-skone-n-xd-mosmoz-night-owl-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/le-wanski-and-friends-skone-n-xd-mosmoz-night-owl-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "little-big-lyon-09-11",
+    "name": "LITTLE BIG | Lyon 09.11",
+    "city": "Villeurbanne",
+    "region": "Auvergne-Rhône-Alpes",
+    "description": "Après avoir conquis l’Amérique du Nord, Little Big revient en Europe avec son European TOUR 2026, une tournée de 24 dates à travers 13 pays. Le collectif rave-pop basé à Los Angeles présentera à La…",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "lat": 45.756734,
+    "lng": 4.917001,
+    "officialUrl": "https://openagenda.com/shotgun/events/little-big-or-lyon-0911",
+    "sources": [
+      "https://openagenda.com/shotgun/events/little-big-or-lyon-0911"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "bncy-nation-inv-manil-b2b-peaksou-veille-de-jour-ferie",
+    "name": "BNCY. NATION inv. MANIL B2B PEAKSOU (VEILLE DE JOUR FÉRIÉ)",
+    "city": "Toulouse",
+    "region": "Occitanie",
+    "description": "💫 BNCY. NATION invite MANIL B2B PEAKSOU ALL NIGHT LONG 💫 BNCY. NATION revient au Rex de Toulouse pour une nouvelle nuit placée sous le signe de la techno, du hardbounce et des sonorités rave, à la…",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-11",
+    "lat": 43.611989,
+    "lng": 1.438322,
+    "officialUrl": "https://openagenda.com/shotgun/events/bncy-nation-inv-manil-b2b-peaksou-veille-de-jour-ferie",
+    "sources": [
+      "https://openagenda.com/shotgun/events/bncy-nation-inv-manil-b2b-peaksou-veille-de-jour-ferie"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "the-holy-rave-36-metz",
+    "name": "The Holy Rave #36 - Metz",
+    "city": "Metz",
+    "region": "Grand Est",
+    "description": "⚠️ L'event commence dans la nuit du mardi 10 au mercredi 11 novembre à 1h du matin ⚠️ Metz, la météo annonce des averses … de kick 😎 Au menu ? KINGSMO 🇫🇷 VS 🇷🇸 Plus d'annonces à venir",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-11",
+    "lat": 49.111224,
+    "lng": 6.178457,
+    "officialUrl": "https://openagenda.com/shotgun/events/the-holy-rave-36-metz",
+    "sources": [
+      "https://openagenda.com/shotgun/events/the-holy-rave-36-metz",
+      "https://ra.co/events/2518903"
+    ],
+    "genreVerified": true,
+    "status": "announced",
+    "needsReview": true,
+    "address": "La Douche Froide Metz, 11 rue des Augustins - Metz",
+    "lineup": [
+      "Kingsmo",
+      "VS.techno"
+    ],
+    "isFestival": false,
+    "_reason": "soirée : hors périmètre"
+  },
+  {
+    "slug": "little-big-paris-11-11",
+    "name": "LITTLE BIG | Paris 11.11",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le phénomène rave-pop Little Big débarque à Paris dans le cadre de son European Tour 2026, une tournée explosive de 24 dates dans 13 pays. Connus pour leurs shows survoltés, leurs visuels absurdes…",
+    "startDate": "2026-11-11",
+    "endDate": "2026-11-11",
+    "lat": 48.895448,
+    "lng": 2.39216,
+    "officialUrl": "https://openagenda.com/shotgun/events/little-big-or-paris-1111",
+    "sources": [
+      "https://openagenda.com/shotgun/events/little-big-or-paris-1111"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "23-59-protokseed-ling-ling-b2b-enko-acidpach-more",
+    "name": "23:59 : PROTOKSEED, LING LING B2B ENKO, ACIDPACH & MORE",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le 13 novembre 2026, le tsunami 23:59 s’abattra sur le béton brut du Mia Mao pour y laisser dans son sillage une vague d’acid, tekno et hard rave. Aux commandes de ce raz-de-marée sonore :…",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-14",
+    "lat": 48.89659,
+    "lng": 2.395474,
+    "officialUrl": "https://openagenda.com/shotgun/events/2359-protokseed-ling-ling-b2b-enko-acidpach-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/2359-protokseed-ling-ling-b2b-enko-acidpach-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "wake-up-x-we-are-rave",
+    "name": "Wake Up x We are Rave",
+    "city": "Strasbourg",
+    "region": "Grand Est",
+    "description": "⚠️ 14.11.26 — LE STUDIO SAGLIO NE S’EN REMETTRA PAS. ⚠️ Vous n’êtes clairement pas prêt full Hard Music. Wake Up x We Are Rave unissent leurs forces pour vous balancer LA soirée Hard Music de…",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-15",
+    "lat": 48.557243,
+    "lng": 7.738396,
+    "officialUrl": "https://openagenda.com/shotgun/events/wake-up-x-we-are-rave",
+    "sources": [
+      "https://openagenda.com/shotgun/events/wake-up-x-we-are-rave"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "amd-x-under-events-presentent-hortense-de-beauharnais-anl",
+    "name": "AMD X UNDER EVENTS PRÉSENTENT : HORTENSE DE BEAUHARNAIS ANL",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "💙 HORTENSE DE BEAUHARNAIS ALL NIGHT LONG ! 💙 7 HOURS OF NONSTOP RAVE WITH ONE ARTIST | JEUDI 19 NOVEMBRE Hortense de Beauharnais débarque au REX CLUB pour un ALL NIGHT LONG qui s'annonce aussi…",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-20",
+    "lat": 48.870573,
+    "lng": 2.347382,
+    "officialUrl": "https://openagenda.com/shotgun/events/amd-x-under-events-presentent-hortense-de-beauharnais-anl",
+    "sources": [
+      "https://openagenda.com/shotgun/events/amd-x-under-events-presentent-hortense-de-beauharnais-anl"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "cord-room-x-tetes-brulees-face-to-face",
+    "name": "CORD ROOM X TÊTES BRULÉES - FACE TO FACE",
+    "city": "Rennes",
+    "region": "Bretagne",
+    "description": "CORD ROOM X TÊTES BRULÉES - FACE TO FACE ANTIPODE, Rennes 21 NOVEMBRE 2026 00h - 06h HARD TECHNO - HARDSTYLE - GABBER - RAVE Les collectifs rennais Cord Room et Têtes Brulées s’associent pour un…",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-22",
+    "lat": 48.098481,
+    "lng": -1.704551,
+    "officialUrl": "https://openagenda.com/shotgun/events/cord-room-x-tetes-brulees-face-to-face",
+    "sources": [
+      "https://openagenda.com/shotgun/events/cord-room-x-tetes-brulees-face-to-face"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "bardix-le-gaulois-la-maroquinerie",
+    "name": "Bardix le Gaulois - La Maroquinerie",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "Le créateur de la Techno Gauloise débarque à La Maroquinerie pour une nuit hors du temps. Rythmes tribaux, instruments celtiques et énergie rave se mêleront dans une cérémonie aussi sauvage…",
+    "startDate": "2026-11-26",
+    "endDate": "2026-11-26",
+    "lat": 48.868528,
+    "lng": 2.39198,
+    "officialUrl": "https://openagenda.com/shotgun/events/bardix-le-gaulois-la-maroquinerie",
+    "sources": [
+      "https://openagenda.com/shotgun/events/bardix-le-gaulois-la-maroquinerie"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "macadam-kyle-starkey-dj-physical-britney-speed",
+    "name": "Macadam • Kyle Starkey ~ DJ Physical ~ Britney Speed",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "Étoile montante de la scène nantaise, Britney Speed donnera l’impulsion à la nuit avec une sélection à haute intensité, entre Techno, Trance et rythmiques percussives, où vitesse et tension se…",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-28",
+    "lat": 47.19746,
+    "lng": -1.589085,
+    "officialUrl": "https://openagenda.com/shotgun/events/macadam-kyle-starkey-dj-physical-britney-speed",
+    "sources": [
+      "https://openagenda.com/shotgun/events/macadam-kyle-starkey-dj-physical-britney-speed"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-bringue-miss-k8-rooler-todiefor-slvl-more",
+    "name": "LA BRINGUE : MISS K8, ROOLER, TODIEFOR, SLVL & more",
+    "city": "Verrières-en-Anjou",
+    "region": "Pays de la Loire",
+    "description": "ORIGINAL RAVE RAVE indoor XXL de 8h NON-STOP. Nouveau design Funktion-One BASS BOOSTED. Probablement le lineup le plus HARD à ce jour. —————————————————— 📞 INFOLINE : 02 79 65 48 39 – Appelle et…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 47.497557,
+    "lng": -0.499561,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-bringue-miss-k8-rooler-todiefor-slvl-and-more",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-bringue-miss-k8-rooler-todiefor-slvl-and-more"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "kodz-x-noss-present-yoshiko-doruksen-area-one-fumi",
+    "name": "KODZ X NOSS PRESENT : YOSHIKO, DORUKSEN, AREA ONE, FUMI...",
+    "city": "Englos",
+    "region": "Hauts-de-France",
+    "description": "NOSS IS COMING TO KODZ. We’re bringing every sound of hard rave to KODZ: Hard Techno, Acid Techno, Industrial, Schranz, Neo Rave, Hardcore & Uptempo. 🎧 DJ CONTEST — WIN THE OPENING SLOT HOW TO…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 50.634579,
+    "lng": 2.965964,
+    "officialUrl": "https://openagenda.com/shotgun/events/kodz-x-noss-present-yoshiko-doruksen-area-one-fumi",
+    "sources": [
+      "https://openagenda.com/shotgun/events/kodz-x-noss-present-yoshiko-doruksen-area-one-fumi"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "thunder-kx-chr-n-name-blurred-movement-wanton",
+    "name": "THUNDER : KX CHR, NØNAME, BLURRED MOVEMENT, WANTON",
+    "city": "Balma",
+    "region": "Occitanie",
+    "description": "⚡️ THUNDER x INTERFERENCE ⚡️ Le 28 Novembre 2026, THUNDER est de retour à INTERFERENCE - TOULOUSE pour une nuit de rave intense et électrisante avec la crème de la scène rave actuelle ! ⚡️ ⚡️ LINE…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 43.631391,
+    "lng": 1.489136,
+    "officialUrl": "https://openagenda.com/shotgun/events/thunder-kx-chr-noname-blurred-movement-wanton",
+    "sources": [
+      "https://openagenda.com/shotgun/events/thunder-kx-chr-noname-blurred-movement-wanton"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "macadam-binary-digit-live-multifun-somoine-b2b",
+    "name": "Macadam • Binary Digit (live) ~ Multifun ~ Somoine B2B...",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "Originaire de la Ruhr et désormais installée à Berlin, Multifun débutera la nuit avec une sélection profondément marquée par la culture rave. Entre House et Trance 90s, Techno, Breakbeat et…",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-05",
+    "lat": 47.19746,
+    "lng": -1.589085,
+    "officialUrl": "https://openagenda.com/shotgun/events/macadam-binary-digit-live-multifun-somoine-b2b",
+    "sources": [
+      "https://openagenda.com/shotgun/events/macadam-binary-digit-live-multifun-somoine-b2b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "the-last-rave-le-chabada-fullblast",
+    "name": "THE LAST RAVE - LE CHABADA - FULLBLAST",
+    "city": "Angers",
+    "region": "Pays de la Loire",
+    "description": "FULLBLAST présente : THE LAST RAVE Après 5 années d’existence, Fullblast vous donne rendez-vous pour sa toute dernière rave. Cinq années à faire vibrer les nuits angevines, à créer des souvenirs, à…",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-13",
+    "lat": 47.489311,
+    "lng": -0.536796,
+    "officialUrl": "https://openagenda.com/shotgun/events/the-last-rave-le-chabada-fullblast",
+    "sources": [
+      "https://openagenda.com/shotgun/events/the-last-rave-le-chabada-fullblast"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "thunder-x-interference-onlynumbers-william-luck-daisy",
+    "name": "THUNDER x INTERFERENCE : ONLYNUMBERS, WILLIAM LUCK, DAISY",
+    "city": "Balma",
+    "region": "Occitanie",
+    "description": "⚡️ THUNDER x INTERFERENCE ⚡️ Le 12 Décembre 2026, nous aurons l'immense plaisir de vous accueillir à nouveau entre les murs de INTERFERENCE pour une nuit de rave intense et electrisante. Au…",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-13",
+    "lat": 43.631391,
+    "lng": 1.489136,
+    "officialUrl": "https://openagenda.com/shotgun/events/thunder-x-interference-onlynumbers-william-luck-daisy",
+    "sources": [
+      "https://openagenda.com/shotgun/events/thunder-x-interference-onlynumbers-william-luck-daisy"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "protokseed-invite-py-rave-skone-so-juice-jbrt-la-louve",
+    "name": "Protokseed Invite × Py'Rave | Sköne So Juice JBRT La Louve",
+    "city": "Tarbes",
+    "region": "Occitanie",
+    "description": "🕒 Horaires De 23h30 à 5h30 du matin 🎧 Line-up (A-Z) JBRT La Louve Protokseed Sköne So Juice Protokseed pose ses valises à Audentia Tarbes et invite plusieurs artistes pour une nuit qui ne…",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-20",
+    "lat": 43.221364,
+    "lng": 0.041737,
+    "officialUrl": "https://openagenda.com/shotgun/events/protokseed-invite-pyrave-or-skone-so-juice-jbrt-la-louve",
+    "sources": [
+      "https://openagenda.com/shotgun/events/protokseed-invite-pyrave-or-skone-so-juice-jbrt-la-louve"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "illusion-nye-xxl-rave-rooler-santos-dikke-baap",
+    "name": "Illusion NYE XXL Rave : Rooler Santos Dikke Baap....",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "ILLUSION NYE XXL RAVE, débarque à Paris pour le Nouvel An 2026-2027 ! 11H DE RAVE NON STOP Une nuit entière pour faire basculer 2026 dans 2027, portée par ce qui définit ILLUSION depuis le début :…",
+    "startDate": "2026-12-31",
+    "endDate": "2027-01-01",
+    "lat": 48.857548,
+    "lng": 2.351377,
+    "officialUrl": "https://openagenda.com/shotgun/events/illusion-nye-xxl-rave-rooler-santos-dikke-baap",
+    "sources": [
+      "https://openagenda.com/shotgun/events/illusion-nye-xxl-rave-rooler-santos-dikke-baap"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "rave-lucid-danse",
     "name": "Rave Lucid | Danse",
     "city": "Carquefou",
@@ -3873,6 +6749,120 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "marta-bothlane-photons",
+    "name": "MARTA + BOTHLANE + PHOTONS",
+    "city": "Saint-Avé",
+    "region": "Bretagne",
+    "description": "❤️Si vous aimez : IIrène Dresel, la techno en live et l’énergie des clubs 🍻Bar et restauration sur place 👉Placement libre et debout 👉Soirée interdite aux mineurs MARTA Né en 2022 de la rencontre…",
+    "startDate": "2027-02-05",
+    "endDate": "2027-02-06",
+    "lat": 47.674535,
+    "lng": -2.743886,
+    "officialUrl": "https://openagenda.com/shotgun/events/marta-bothlane-photons",
+    "sources": [
+      "https://openagenda.com/shotgun/events/marta-bothlane-photons"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "illusion-rave-orleans-restricted-eczodia-vortek-s-creeds",
+    "name": "Illusion Rave Orléans :RESTRICTED ECZODIA VORTEK'S CREEDS...",
+    "city": "Orléans",
+    "region": "Centre-Val de Loire",
+    "description": "ILLUSION ORLÉANS | PARC DES EXPOSITIONS 🖤⛓️ Le 6 février 2027, ILLUSION débarque au Parc des Expositions d’Orléans pour sa plus grosse production à ce jour. 15 888 M² | +8000 PERSONNES | 10H DE…",
+    "startDate": "2027-02-06",
+    "endDate": "2027-02-07",
+    "lat": 47.871126,
+    "lng": 1.914981,
+    "officialUrl": "https://openagenda.com/shotgun/events/illusion-rave-orleans-restricted-eczodia-vorteks-creeds",
+    "sources": [
+      "https://openagenda.com/shotgun/events/illusion-rave-orleans-restricted-eczodia-vorteks-creeds"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "dystopia-2027-rennes",
+    "name": "DYSTOPIA 2027 • RENNES",
+    "city": "Bruz",
+    "region": "Bretagne",
+    "description": "🔉 HARD MUSIC & TECHNO FESTIVAL 📍 PARC EXPO - RENNES 📅 19 & 20 FEVRIER 2027 | 18H-04H Ouverture des portes : 18:00 ░░░░░░ AU PROGRAMME ░░░░░░ 2 scènes : Hard Music & Techno + 40 artistes + 20…",
+    "startDate": "2027-02-19",
+    "endDate": "2027-02-21",
+    "lat": 48.057995,
+    "lng": -1.732003,
+    "officialUrl": "https://openagenda.com/shotgun/events/dystopia-2027-rennes",
+    "sources": [
+      "https://openagenda.com/shotgun/events/dystopia-2027-rennes"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "studio-2054-charli-xcx-aftershow",
+    "name": "Studio 2054 : Charli XCX Aftershow",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "STUDIO 2054 : CHARLI XCX AFTERSHOW 🎸 FROM THE ARENA TO THE RAVE. Le mercredi 24 février, Studio 2054 prend le relais du concert de Charli xcx pour un aftershow exceptionnel au Flow. ✨ Juste après…",
+    "startDate": "2027-02-24",
+    "endDate": "2027-02-25",
+    "lat": 48.863328,
+    "lng": 2.314865,
+    "officialUrl": "https://openagenda.com/shotgun/events/studio-2054-charli-xcx-aftershow",
+    "sources": [
+      "https://openagenda.com/shotgun/events/studio-2054-charli-xcx-aftershow"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "billx-presente-23h23-album-tour-guest",
+    "name": "BILLX présente 23h23 (Album tour) + Guest",
+    "city": "Ramonville-Saint-Agne",
+    "region": "Occitanie",
+    "description": "Billx de retour au Bikini avec son nouvel album 23H23 et ça va être le feu au Bikini ! Un retour aux sources depuis ses débuts en Hardtek jusqu'à l’époque de son style Hard Psy plus moderne. Il…",
+    "startDate": "2027-03-05",
+    "endDate": "2027-03-06",
+    "lat": 43.548049,
+    "lng": 1.485405,
+    "officialUrl": "https://openagenda.com/shotgun/events/billx-presente-23h23-album-tour-guest",
+    "sources": [
+      "https://openagenda.com/shotgun/events/billx-presente-23h23-album-tour-guest"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "izon-summer-festival-3",
+    "name": "Izon Summer Festival #3",
+    "city": "Izon",
+    "region": "Nouvelle-Aquitaine",
+    "description": "☀️ **IZON SUMMER FESTIVAL 2027** ☀️ Prépare-toi à vivre l'un des plus grands rendez-vous électro du libournais ! 🎧SOUND OF LEGEND 🎧 XKA Le Izon Summer Festival revient pour une nouvelle édition…",
+    "startDate": "2027-06-26",
+    "endDate": "2027-06-27",
+    "lat": 44.920034,
+    "lng": -0.361672,
+    "officialUrl": "https://openagenda.com/shotgun/events/izon-summer-festival-3",
+    "sources": [
+      "https://openagenda.com/shotgun/events/izon-summer-festival-3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "printemps-de-bourges",
@@ -4055,52 +7045,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2486660"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "the-holy-rave-34-besancon",
-    "name": "The Holy Rave #34 - Besançon",
-    "city": "Chalezeule",
-    "address": "Teasing Club, 2A Rue du Gay, 25220 Chalezeule, France",
-    "region": null,
-    "startDate": "2026-10-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2518900",
-    "lineup": [
-      "JAKOBEE",
-      "Kingsmo",
-      "LWØ (1)",
-      "FNRZ"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2518900"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "the-holy-rave-36-metz",
-    "name": "The Holy Rave #36 - Metz",
-    "city": null,
-    "address": "La Douche Froide Metz, 11 rue des Augustins - Metz",
-    "region": null,
-    "startDate": "2026-11-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2518903",
-    "lineup": [
-      "Kingsmo",
-      "VS.techno"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2518903"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4347,6 +7291,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "p2z-lb-honne-ben-kaczor-pastel-h2o-peach-data",
+    "name": "P2z: Lb Honne, Ben Kaczor, Pastel, H2O & peach.data",
+    "city": "Marseille",
+    "address": "La Cômerie, 174 rue Breteuil, 13006 Marseille",
+    "region": null,
+    "startDate": "2026-12-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2555425",
+    "lineup": [
+      "Lb Honne",
+      "Ben Kaczor",
+      "Pastel",
+      "H2O",
+      "Abn - P2z",
+      "Deep Tears On Clamart"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2555425"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
@@ -4653,6 +7623,28 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "after-o-clock-x-la-plage-open-air-manamind-kristofo-electric-rescue",
+    "name": "After O'Clock X La Plage Open Air: Manamind, Kristofo, Electric Rescue",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2555562",
+    "lineup": [
+      "Electric Rescue",
+      "Mana Mind"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2555562"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "open-rave-toulouse-organik-machines-vivantes",
     "name": "Open Rave Toulouse: Organïk + Machines Vivantes",
     "city": "Toulouse",
@@ -4682,21 +7674,22 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "10-years-of-rave-moontrip-x-interference",
-    "name": "10 YEARS OF RAVE - Moontrip x Interference",
-    "city": "BALMA",
-    "address": "Interference, 56 route de Lavaur 31130 BALMA",
+    "slug": "closing-bordeaux-open-air-x-chez-alriq-16-10",
+    "name": "CLOSING - Bordeaux Open Air x Chez Alriq - 16.10",
+    "city": null,
+    "address": null,
     "region": null,
-    "startDate": "2026-11-20",
+    "startDate": "2026-10-16",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2547622",
+    "officialUrl": "https://ra.co/events/2555035",
     "lineup": [
-      "Chocolanouar"
+      "System Sol",
+      "Theo Terev"
     ],
     "genreVerified": true,
     "isFestival": false,
     "sources": [
-      "https://ra.co/events/2547622"
+      "https://ra.co/events/2555035"
     ],
     "status": "announced",
     "needsReview": true,
