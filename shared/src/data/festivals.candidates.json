@@ -247,6 +247,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "festival-densites-32e-edition",
+    "name": "Festival Densités 32e édition",
+    "city": "Belleville-sur-Meuse",
+    "region": null,
+    "description": "20 spectacles en trois jours, près de 40 artistes venus du monde entier : Densités c'est l'occasion d'entrer dans un festival de performances et de musiques inattendues : du jazz à l'électro, de l'improvisation à la musique écrite.\n\nNous vous invitons à venir vibrer avec nous les 6, 7 et 8 novembre prochain dans le Grand Verdun. ",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-08",
+    "lat": 49.175341,
+    "lng": 5.379454,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/5db1c015-b9db-3140-b1cc-6e063e0f30b6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
     "slug": "revnoir-aurore",
     "name": "Revnoir & Aurore",
     "city": "Nilvange",
@@ -392,6 +411,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/73ce6efc-40cd-3c4b-918c-a7a21c6c71f5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-open-platines-3",
+    "name": "Concert - Open platines #3",
+    "city": "Épinal",
+    "region": null,
+    "description": "Le rendez-vous incontournable des amateur•ices de musiques électroniques revient pour une troisième édition ! \n\nEDM euphorique, progressive house, hardtrance oldschool, UK bass, ghettotech, hardgroove, tribal techno, jungle, drum & bass, neurofunk ou hard techno… pour cette troisième édition, les platines vont encore voyager dans toutes les directions.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 48.1755195402107,
+    "lng": 6.44395351409912,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/75a292aa-7894-36a7-a96c-5fd9c48d450e"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1045,8 +1083,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "animation-dancefloor-avec-dylan-dylan",
-    "name": "Animation - Dancefloor avec Dylan Dylan",
+    "slug": "spectacle-dancefloor-avec-dylan-dylan",
+    "name": "Spectacle - Dancefloor avec Dylan Dylan",
     "city": "La Rochelle",
     "region": null,
     "description": "Figure montante de l’électro française, Dylan Dylan fusionne house, techno, acid et break.",
@@ -1960,6 +1998,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "festival-techno-arts",
+    "name": "Festival Techno Arts",
+    "city": "Lesparre-Médoc",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-23",
+    "endDate": "2026-10-24",
+    "lat": 45.3084878,
+    "lng": -0.9384671,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/7ed076c0-0896-3d3d-9750-0ee14c890f33"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
     "slug": "concert-reggae-dub-vibes",
     "name": "Concert - Reggae Dub Vibes",
     "city": "Bressuire",
@@ -2568,6 +2625,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "l-electro-bai-e",
+    "name": "L'Electro Bai[ê]",
+    "city": "Saint-Valery-sur-Somme",
+    "region": null,
+    "description": "L’Electro Bai[ê] revient avec un dernier rendez-vous à Saint-Valery-sur-Somme le samedi 17 octobre. Étienne DJ sera aux platines, accompagné d’un violoniste pour cette dernière soirée de la saison.",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 50.1897372,
+    "lng": 1.6290048,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/fcdcf7d2-979b-357e-a6ed-ab99b7c531f1"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "ndk-nights-mac-declos-all-night-long",
     "name": "NDK Nights - Mac Declos : All Night Long",
     "city": "Caen",
@@ -2865,6 +2941,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/36/a4ea19aa-4611-32a2-9d00-774546096809"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-baast-musique-pop-electro",
+    "name": "Concert - Baäst (Musique pop électro)",
+    "city": "Clohars-Carnoët",
+    "region": null,
+    "description": "",
+    "startDate": "2027-05-15",
+    "endDate": "2027-05-15",
+    "lat": 47.7955,
+    "lng": -3.58599,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/28068b41-9212-3b51-81fc-13ec987f078c"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3845,25 +3940,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "babylonya-opening",
-    "name": "BABYLONYA - OPENING",
-    "city": "Lyon",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "BIENVENUE À BABYLONYA 🌸 Le 7 octobre, c’est le nouveau rendez-vous du mercredi au Tank ! Au programme : de la house, des sons commerciaux et cette petite touche d’ailleurs qui changera au fil des…",
-    "startDate": "2026-10-07",
-    "endDate": "2026-10-08",
-    "lat": 45.739748,
-    "lng": 4.84057,
-    "officialUrl": "https://openagenda.com/shotgun/events/babylonya-opening",
-    "sources": [
-      "https://openagenda.com/shotgun/events/babylonya-opening"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "virgo-club-by-ghenda-cannes-1",
@@ -4927,6 +5003,25 @@
     "status": "announced",
     "needsReview": true,
     "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "live-in-asnr-2026",
+    "name": "LIVE_IN_ASNR 2026",
+    "city": "Asnières-sur-Seine",
+    "region": "Île-de-France",
+    "description": "LIVE IN ASNR, un voyage sonore à chaque édition 🪩 🔊 L'esprit Paradise Garage : vinyles, système son sur-mesure, et de la house sous toutes ses formes ! 🕺 Une soirée pour les amateurs de longue…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 48.912886,
+    "lng": 2.290099,
+    "officialUrl": "https://openagenda.com/shotgun/events/liveinasnr-2026",
+    "sources": [
+      "https://openagenda.com/shotgun/events/liveinasnr-2026"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
@@ -5994,25 +6089,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
-    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 44.883598,
-    "lng": -0.541265,
-    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
-    "sources": [
-      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "inner-rave-100-techno-tempelhof-dieze-warehouse",
     "name": "INNER RAVE - 100% TECHNO - TEMPELHOF - DIEZE WAREHOUSE",
     "city": "Montpellier",
@@ -6030,6 +6106,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 44.883598,
+    "lng": -0.541265,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "kx-chr-dark-rave-x-la-cervoiserie-dinan",
@@ -6090,6 +6185,7 @@
     "address": "Teasing Club, 2A Rue du Gay, 25220 Chalezeule, France",
     "lineup": [
       "JAKOBEE",
+      "SLMT",
       "Kingsmo",
       "LWØ (1)",
       "FNRZ"
@@ -6516,25 +6612,6 @@
     "officialUrl": "https://openagenda.com/shotgun/events/amd-x-under-events-presentent-hortense-de-beauharnais-anl",
     "sources": [
       "https://openagenda.com/shotgun/events/amd-x-under-events-presentent-hortense-de-beauharnais-anl"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "cord-room-x-tetes-brulees-face-to-face",
-    "name": "CORD ROOM X TÊTES BRULÉES - FACE TO FACE",
-    "city": "Rennes",
-    "region": "Bretagne",
-    "description": "CORD ROOM X TÊTES BRULÉES - FACE TO FACE ANTIPODE, Rennes 21 NOVEMBRE 2026 00h - 06h HARD TECHNO - HARDSTYLE - GABBER - RAVE Les collectifs rennais Cord Room et Têtes Brulées s’associent pour un…",
-    "startDate": "2026-11-21",
-    "endDate": "2026-11-22",
-    "lat": 48.098481,
-    "lng": -1.704551,
-    "officialUrl": "https://openagenda.com/shotgun/events/cord-room-x-tetes-brulees-face-to-face",
-    "sources": [
-      "https://openagenda.com/shotgun/events/cord-room-x-tetes-brulees-face-to-face"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -7070,25 +7147,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "sarab-x-hypercontent-festival-un-doua-de-jazz-33e-edition",
-    "name": "SARĀB x HYPERCONTENT! – Festival Un Doua de Jazz – 33e édition",
-    "city": "Lyon",
-    "address": "Toï Toï, Le Zinc, 17 - 19, rue Marcel Dutartre 69 100 Villeurbanne",
-    "region": null,
-    "startDate": "2026-10-07",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2543071",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2543071"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "23-59-weekender-2026",
     "name": "23:59 - WEEKENDER 2026",
     "city": "Vaulx En Velin",
@@ -7533,6 +7591,32 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2549644"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "inka-all-stars-open-air-closing-party",
+    "name": "Inka: All Stars - Open Air (Closing Party)",
+    "city": "Paris",
+    "address": "Paname sur Seine, 1 Port de Bercy, 75012 Paris",
+    "region": null,
+    "startDate": "2026-10-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2555807",
+    "lineup": [
+      "Catsinka",
+      "Bigstate",
+      "Matteo (IT)",
+      "Ayman",
+      "Ben:Rodd",
+      "ISAAC GUEYE"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2555807"
     ],
     "status": "announced",
     "needsReview": true,
