@@ -95,25 +95,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "doodseskader-premiere-partie",
-    "name": "Doodseskader + première partie",
-    "city": "Nilvange",
-    "region": null,
-    "description": "Depuis 2020, le duo belge DOODSESKADER — Tim De Gieter (Amenra) et Sigfried Burroughs (Kapitan Korsakov, Paard) — s'est imposé comme l'une des formations les plus inclassables et audacieuses de la scène européenne. Leur musique est un grand huit sonore où se télescopent witch house, hip-hop, dream pop industrielle et rock stadium, le tout traversé d'une rage brute face à l'état du monde. Mélodies grunge des années 90, synthés saturés, basses sludge, voix auto-tunées, rap, chant, hurlements : DOODSESKADER ne choisit pas, ils embrassent tout, et cette collision improbable est précisément ce qui fait leur force.",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 49.3407119588825,
-    "lng": 6.05103640000001,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/18d132b8-9933-3b6d-94e2-6bbb1c4e3b2e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "electronest-festival",
     "name": "Electronest Festival",
     "city": "Metz",
@@ -283,25 +264,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "bd-concert-njp-2026-emile-londonien-x-pierre-henry-gomont",
-    "name": "BD-Concert - NJP 2026 -  Emile Londonien X Pierre Henry Gomont",
-    "city": "Nancy",
-    "region": null,
-    "description": "NU JAZZ • FRANCE\n\nL'esprit des clubs de jazz japonais au cœur d'un BD-concert.\nJazu Kissa est une invitation au voyage, au carrefour des univers du groupe de jazz Émile Londonien et de l’auteur de bande dessinée Pierre-Henry Gomont. Le projet puise sa source dans les emblématiques Kissa japonais, ces cafés et salons d’écoute apparus dans les années 1920 où l’on venait savourer de grands vinyles américains dans un silence quasi rituel. De retour d’un voyage au Japon, carnet de croquis en main, Pierre-Henry Gomont (double lauréat du prix RTL pour Pereira Prétend et Malaterre) a souhaité partager la fragilité et les accidents de la création, ordinairement confinés à la solitude de l’atelier.\n\nSur scène, le processus se dévoile en direct sous les yeux du public. À travers des dessins projetés à l’instant, l’illustrateur donne vie à des ruelles sombres éclairées au néon, des intérieurs feutrés et des volutes de fumée. En écho, le trio Émile Londonien, révélation majeure de sa génération, habituée aussi bien aux scènes de jazz qu’aux clubs électro, engage un dialogue musical tour à tour méditatif et incandéscent. Ensemble, musiciens et dessinateur repoussent les frontières de leurs médiums dans un élan d’improvisation totale, célébrant la mémoire, l’héritage et la ferveur du présent.",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 48.694135,
-    "lng": 6.198284,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/5f8e60e4-1ca6-39ec-8984-60e2a039c9ec"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "spectacle-de-danse-lullaby-shot",
@@ -589,25 +551,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-thea-h4rdr0ck3r",
-    "name": "Concert - THÉA \"H4RDR0CK3R",
-    "city": "Metz",
-    "region": null,
-    "description": "THÉA et son emo-core révolté transforment les affres d'une génération en fête insolente, fédératrice et jouissive. \n\nDes textes sensibles et viscéraux, portés par une grande bacchanale pop-punk-hyperpop. Son projet raconte le chaos que vit une jeune fille queer dans ses relations, sa santé mentale et les systèmes oppressifs qui l'entourent. Une claque renversante et dansante.JeanneTo, c'est une voix pop punk qui s'invite dans le chaos de la rave, sur des rythmes provocants qui poussent les genres déchaînés des années 90 vers leurs extrêmes : basses qui frappent, blasts de batterie, synthés saturés et addictifs. Entre journal intime et slogans de manifs, Jeanne ne chante pas seule. Il y a du monde autour, et vous en faites partie. En appelant l'amour et le désespoir par leur nom, elle fait de la chanson un espace commun pour celles et ceux qui se sentent perdu·es, quelque part, au milieu de tout. \n\nÉcouter JeanneTo, c'est se laisser submerger par des nappes toxiques et poétiques jusqu'à se faire engloutir complètement. On ne sait plus comment on est arrivé là, mais c'est ok. Il est trop tard pour partir, alors il ne reste plus qu'à danser.",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 49.121499,
-    "lng": 6.194987,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/b058d905-28df-35f7-bc87-51e84cf54d0f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "spectacle-ballet-de-lorraine",
     "name": "Spectacle - Ballet de Lorraine",
     "city": "Bar-le-Duc",
@@ -682,6 +625,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "dub-addict-1",
+    "name": "Dub Addict - 1",
+    "city": "Bar-le-Duc",
+    "region": null,
+    "description": "La plus grande soirée Dub du département de la Meuse !\nUne nouvelle série d’événements dédiée à la culture Sound System voit le jour à Bar-le-Duc.\n \nPour cette première édition, Legal Shot Sound System et leurs selecteurs prennent le contrôle de leur sono accompagné de Systematik Sound System et d’un showcase exclusif du label BAT Records, réunissant Dub Shepherds, Ikadub, Junior Roy, I Fi et Jolly Joseph.\nLa soirée accueillera également Toroki & Isayah, pour une performance où les influences dub contemporaines rencontrent l’énergie du live.\n \nPensée pour les amateurs comme pour les curieux, cette soirée met à l’honneur une scène en pleine effervescence, portée par des artistes reconnus et une véritable expérience sound system.",
+    "startDate": "2027-01-30",
+    "endDate": "2027-01-30",
+    "lat": 48.7644598,
+    "lng": 5.1775917,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/d24ebb47-1c97-3e7e-8ddc-3b683bf7586b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "festival-du-soleil-jour-1-dub-silence",
@@ -1045,25 +1007,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "ultramoule-primitif-s-undae-tropic",
-    "name": "Ultramoule + Primitif(s) + Undae Tropic",
-    "city": "Saint-Laurent-en-Royans",
-    "region": null,
-    "description": "Rap punk, orchestre électro-mécanique et machines. Évènement en partenariat avec la 5ème saison.\r\nBuvette et petite restauration sur place.",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-16",
-    "lat": 45.030326,
-    "lng": 5.324248,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/2a09ba0f-c5b2-31fa-b7d3-475579ee3b29"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "concert-zentone-amiby",
     "name": "Concert : ZENTONE + Amiby",
     "city": "Romans-sur-Isère",
@@ -1076,25 +1019,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/2af05130-16e9-35fa-bc5b-c0ca61c1cf1c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "spectacle-dancefloor-avec-dylan-dylan",
-    "name": "Spectacle - Dancefloor avec Dylan Dylan",
-    "city": "La Rochelle",
-    "region": null,
-    "description": "Figure montante de l’électro française, Dylan Dylan fusionne house, techno, acid et break.",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 46.163406,
-    "lng": -1.150489,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/2d7db492-515c-38be-93a4-426b874b0832"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1138,25 +1062,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "spectacle-danse-electro-rave-lucid",
-    "name": "Spectacle danse électro : Rave Lucid",
-    "city": "Valence",
-    "region": null,
-    "description": "La culture clubbing entre sur scène avec fracas par la puissance de la danse électro. Les danseurs de la compagnie Mazelfreten libèrent une énergie communicatrice, vibrante et magnétique.",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 44.930182,
-    "lng": 4.893992,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/45796bce-9bca-307e-933d-24bfda080331"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-totalement-80",
@@ -1672,25 +1577,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "les-jeudis-sonnants-la-boite-noire",
-    "name": "Les Jeudis Sonnants - La Boîte Noire",
-    "city": "Nogent-le-Rotrou",
-    "region": null,
-    "description": "CONCERT - LA BOITE NOIRE\nDirection les années 90 avec La Boîte Noire, une fanfare déjantée qui compte bien réveiller vos souvenirs des boîtes de nuit de l’époque ! 6 musiciens, du disco et une bonne dose d’énergie pour vous faire danser. \nAvant échauffez-vous avec le blind test années 90 (20h)",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 48.3203512,
-    "lng": 0.82407648,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/69a738a5-8807-36e4-887a-75c330bf46c1"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "qui-vive-musique",
     "name": "Qui vive ! - Musique",
     "city": "Pithiviers",
@@ -1979,25 +1865,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "louisahhh-after-electro-opera-de-limoges",
-    "name": "Louisahhh - After Electro - Opéra de Limoges",
-    "city": "Limoges",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 45.8322594,
-    "lng": 1.2589079,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/7986534e-f41c-3b42-9108-65014f689c9c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "festival-techno-arts",
     "name": "Festival Techno Arts",
     "city": "Lesparre-Médoc",
@@ -2224,25 +2091,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "concert-camille-yembe-premiere-partie",
-    "name": "CONCERT : Camille Yembe + Première partie",
-    "city": "Amiens",
-    "region": null,
-    "description": "JEU. 8 OCTOBRE 2026\n\n20:00\n\nCamille Yembe (Nouvelle pop | BE)\n\nCamille Yembe est une artiste Belge de la scène pop ! Auteure, compositrice et interprète, elle chante le temps qui passe, l’oubli, l’amour et la solitude.\n\nGrâce à sa signature vocale et ses textes, Camille nous amène dans un univers où les barrières n’existent pas entre la variété française, l’électro, la pop ou le rap… Comme elle le dit elle-même: «C’est l’instant qui décide!».Que ce soit derrière son piano, derrière sa guitare ou sur des bandes son, Camille nous envoute et nous plonge dans son monde. Un monde où il faut danser pour oublier et chanter pour se rappeler.On a parfois l’impression d’être une souris cachée dans la chambre où Camille compose ses chansons, parfois l’impression d’être en voyage avec elle dans l’univers et parfois l’impression d’être au milieu du dancefloor. Mais peu importe où on pense être, la recette de Camille est simple, chanter, danser, avec le public, jamais sans. C’est l’instant qui décide !",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-08",
-    "lat": 49.8964166,
-    "lng": 2.3046681,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/3b5251bc-7755-3326-bea9-2f717f675610"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "soiree-bass-impakt-a-la-manufacture",
@@ -3467,6 +3315,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "vasi-nna-di-dance",
+    "name": "VASI'NNA DI DANCE",
+    "city": "Le Mans",
+    "region": null,
+    "description": "Soirée caritative de Raggae Dub et SoundClash de système son.",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-16",
+    "lat": 48.01821,
+    "lng": 0.1615002,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/68e4058b-7170-35dd-b1db-4cdbb2ccc854"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "royal-ballet-opera-au-cinema-alice-au-pays-des-merveilles",
     "name": "Royal Ballet & Opera au cinéma - ALICE AU PAYS DES MERVEILLES",
     "city": "Pouzauges",
@@ -3620,7 +3487,7 @@
   },
   {
     "slug": "spectacle-jeune-public-que-vois-tu-olor",
-    "name": "Spectacle jeune public: que vois-tu? Olor",
+    "name": "Spectacle jeune public : Que vois-tu ? Olor",
     "city": "Pornic",
     "region": null,
     "description": "Spectacle olor : conte musical electro pop, dans le cadre de Ma P’tite Saison en pays de Retz.",
@@ -3676,6 +3543,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-electro-crazy-beats",
+    "name": "Soirée électro : Crazy beats",
+    "city": "Mulhouse",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 47.7614079888372,
+    "lng": 7.33304679393768,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/0f9e046e-ef20-3eb7-9964-74f1e8908681"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "spectacle-familial-plastic-boum-boum",
     "name": "Spectacle familial - Plastic Boum Boum",
     "city": "Wintzenheim",
@@ -3712,6 +3598,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "soiree-roller-disco",
+    "name": "Soirée Roller Disco",
+    "city": "Altkirch",
+    "region": null,
+    "description": "Ouvert à tous dès 12 ans, et les plus jeunes seront obligatoirement accompagnés d’un adulte.\nAlors préparez vos rollers ou patins à roulettes, casque et protections (Protège-poignets obligatoires) et rejoignez-nous (pas de location sur place) !",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-13",
+    "lat": 47.6189243745089,
+    "lng": 7.23255534928629,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/bcb4f86b-b967-31e2-8650-4f721fcf139e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "la-vallee-vagabonde-roller-disco",
@@ -3940,25 +3845,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "virgo-club-by-ghenda-cannes-1",
-    "name": "VIRGO CLUB By GHENDA (CANNES) #1",
-    "city": "Cannes",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "**VIRGO BY GHENDA débarque au GLASS CLUB. 🪩** Le 8 octobre, GHENDA prend les commandes du Glass Club pour une nuit de **House, Afro House et sonorités électroniques**, de 00H à 05H. Producteur,…",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-09",
-    "lat": 43.551445,
-    "lng": 7.022342,
-    "officialUrl": "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-1",
-    "sources": [
-      "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-1"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "la-mona-rooftop-party-leleon-nick-v-whacking-class",
@@ -5018,82 +4904,6 @@
     "officialUrl": "https://openagenda.com/shotgun/events/liveinasnr-2026",
     "sources": [
       "https://openagenda.com/shotgun/events/liveinasnr-2026"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "je-dis-techno-tous-les-jeudis",
-    "name": "Je Dis Techno (Tous les jeudis)",
-    "city": "Nice",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "🎧 JE DIS TECHNO 🔊 Hard Bounce - Hard Trance - Hard Techno - Rave Rendez-vous tous jeudis pour ta nuit techno hebdomadaire. Ici, la communauté du jeudi se retrouve, et toi aussi tu es le bienvenu à…",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-09",
-    "lat": 43.698902,
-    "lng": 7.270154,
-    "officialUrl": "https://openagenda.com/shotgun/events/je-dis-techno-tous-les-jeudis",
-    "sources": [
-      "https://openagenda.com/shotgun/events/je-dis-techno-tous-les-jeudis"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "violent-darkness-alcide-berzark-08-10-au-portobello",
-    "name": "VIOLENT DARKNESS - Alcide & Berzärk - 08/10 au Portobello",
-    "city": "Caen",
-    "region": "Normandie",
-    "description": "​⚫​ VIOLENT DARKNESS​ ⚫​ Alcide & Berzärk - 08 Octobre Tu aimes quand ça cogne ? Ne loupe surtout pas cette soirée ! 🔥​ De la HardTechno à la Crossbreed en passant par l'Industrial Hardcore, le 08…",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-09",
-    "lat": 49.183641,
-    "lng": -0.352215,
-    "officialUrl": "https://openagenda.com/shotgun/events/violent-darkness-alcide-and-berzark-0810-au-portobello",
-    "sources": [
-      "https://openagenda.com/shotgun/events/violent-darkness-alcide-and-berzark-0810-au-portobello"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "hello-techno-lacrizomike2000-shoshana",
-    "name": "Hello Techno : Lacrizomike2000, Shoshana",
-    "city": "Lyon",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "Hello Techno prend le contrôle du Ninkasi Cordeliers ! Au programme une techno taillée pour danser, des lineups affûtés et zéro prise de tête. Tous les jeudis, on associe un.e DJ de la scène locale…",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-09",
-    "lat": 45.76297,
-    "lng": 4.837951,
-    "officialUrl": "https://openagenda.com/shotgun/events/hello-techno-lacrizomike2000-shoshana",
-    "sources": [
-      "https://openagenda.com/shotgun/events/hello-techno-lacrizomike2000-shoshana"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "rave-lucide-tesseract",
-    "name": "Rave Lucide - Tesseract",
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "description": "Rave Lucide revient faire trembler le Cube le jeudi 8 octobre pour une nouvelle soirée Tesseract ! 👽 - 6 DJs 🎧 - Bar 🍺 - RDR 🧸 - Zone Chill-out 😪 - Le Cube (Toulouse) 📍 Lineup : - EQ (Hard…",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-09",
-    "lat": 43.597856,
-    "lng": 1.456908,
-    "officialUrl": "https://openagenda.com/shotgun/events/rave-lucide-tesseract",
-    "sources": [
-      "https://openagenda.com/shotgun/events/rave-lucide-tesseract"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -7101,7 +6911,7 @@
       "DJ Storm",
       "Jane Fitz",
       "69DB",
-      "Neska",
+      "neska",
       "seiva",
       "Small Crab (2)",
       "Softi",
@@ -7233,6 +7043,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "rave-against-fascism",
+    "name": "Rave Against Fascism",
+    "city": "Lyon",
+    "address": "Le Sucre, 50 quai Rambaud, 69002 Lyon, France",
+    "region": null,
+    "startDate": "2026-10-23",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2556886",
+    "lineup": [
+      "Oreille Interne"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2556886"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "encore-x-23-59-line-up-xxl",
@@ -7458,7 +7289,7 @@
     "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
     "name": "CHEVRY AGENCY: 8TH ANNIVERSARY [XXL FORMAT · 4 STAGES]",
     "city": "Paris",
-    "address": "Fvtvr, 34 quai d'Austerlitz, 75013 Paris",
+    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
     "region": null,
     "startDate": "2026-10-09",
     "endDate": "2026-10-10",
