@@ -661,6 +661,38 @@
     ]
   },
   {
+    "id": "kluster-5-years-open-air",
+    "slug": "kluster-5-years-open-air",
+    "name": "Kluster - 5 YEARS (Open Air)",
+    "description": "",
+    "startDate": "2026-10-10",
+    "endDate": null,
+    "lat": 48.859,
+    "lng": 2.347,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2510110",
+    "status": "announced",
+    "eventType": "open-air",
+    "lineup": [
+      "AMORAL",
+      "Amotik",
+      "Jin Synth"
+    ],
+    "sources": [
+      "https://ra.co/events/2510110"
+    ]
+  },
+  {
     "id": "hors-sol-open-air-marseille",
     "slug": "hors-sol-open-air-marseille",
     "name": "HORS-SOL [open-air] — Marseille",

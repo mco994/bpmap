@@ -152,25 +152,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-njp-2026-kuleeange-nord-noir-sarra-wild",
-    "name": "Concert - NJP 2026 - Kuleeange - Nord//Noir - Sarra Wild",
-    "city": "Nancy",
-    "region": null,
-    "description": "KULEEANGEE (Electro-pop alternative - Royaume-Uni)\nNé d'une rencontre nocturne à Londres, le duo écossais KuleeAngee fusionne groove sensuel et textes grinçants. Révélés par leur EP Is It Awryt, ces \"âmes sœurs\" musicales capturent l'agitation moderne dans une pop hypnotique déjà adoubée par la BBC et le NME 100.\n \nNORD//NOIR (Cold Gabber / Punk-Techno / Industriel - France)\nDuo frontal aux relents punk, NORD//NOIR transforme les tourments de l'époque en une fête sombre et limbératrice. Entre Cold Gabber et folklore industriel, leur live est un orage de sueur et d'amour, une \"terreur lumineuse\" qui fait danser les déçus et vibrer les pavés.\n\nSARRA WILD (Techno expérimentale / Global Bass - Romaume-Uni)\nDJ, curatrice et fondatrice de la plateforme OH141, Sarra Wild bouscule les codes du clubbing mondial. Entre rythmes non occidentaux et expérimentations audacieuses, elle façonne des sets hybrides où l'engagement social rencontre l'énergie brute des dancefloors les plus pointus.",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 48.697935,
-    "lng": 6.184425,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/34a6f841-50b9-3761-bc07-a27f6c26c31d"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "concert-floating",
     "name": "Concert - Floating",
     "city": "Metz",
@@ -183,25 +164,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/4e742abe-19cf-3e8b-a159-c3e1a3e5a9de"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-njp-2026-thk-dub-inc-bleu-soleil",
-    "name": "Concert - NJP 2026 - Thk - Dub Inc - Bleu Soleil",
-    "city": "Nancy",
-    "region": null,
-    "description": "DUB INC (Reggae/World - France)\nGroupe emblématique du reggae hexagonal, Dub inc s'est imposé par une énergie scénique inépuisable. Porté par le duo complémentaire Bouchkour et Komlan, le collectif mêle dancehall et influences kabyles pour délivrer un message de métissage universel.\n \nTHK (électro-dub - France)\nLe duo excentrique THK revient en force avec un style unique, lourdement imprégné de Bass Music et d'électro. Entre skanks ravageurs et saxophone hypnotique, ils transmettent une énergie contagieuse pour une transe festive et résolument moderne.\n \nBLEU SOLEIL (Electro-dub / Reggae - France)\nDuo solaire né de l'union de Nino et Antonin, Bleu Soleil hybride électro-dub, bass music et pop moderne. Porté par le succès phénoménal de leur hit \"Soleil Bleu\", le groupe déploie une musique lumineuse, entre basses profondes et mélodies aériennes.",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 48.697935,
-    "lng": 6.184425,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/505704c2-ea46-3ea0-adfe-eaa17e4e333c"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -361,25 +323,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-spectacle-primal-robot",
-    "name": "Concert-spectacle - Primal Robot",
-    "city": "Gondrecourt-le-Château",
-    "region": null,
-    "description": "Sortie de résidence : concert électro-rock avec projection d’animations SF\nÀ partir de 12 ans.\n\nAalehx vous embarque dans une histoire interstellaire dystopique, à l’ambiance visuelle et sonore electro-rock, immersive et captivante. Assistez à la naissance du premier Renard mécanique sur EL-357, robot issu de l’autonomie et de l’évolution permanente de l’IA.\n\nAalehx est auteur, dessinateur, musicien et réalisateur. Il lie dans ses concerts-spectacle son univers graphique et son univers sonore.\n\nGratuit. Spectacle suivi d’un moment convivial.\nAccès PMR.",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 48.513946,
-    "lng": 5.504582,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/73ce6efc-40cd-3c4b-918c-a7a21c6c71f5"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-open-platines-3",
     "name": "Concert - Open platines #3",
     "city": "Épinal",
@@ -494,25 +437,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "spectacle-nacht-ii-videopolis",
-    "name": "Spectacle - Nacht II + Vidéopolis",
-    "city": "Bar-le-Duc",
-    "region": null,
-    "description": "Vidéo et musique électro / Cie D’Autres Cordes / 2 x 45 min – dès 14  ans\n\nAvec \"Vidéopolis\" et \"Nacht II\", voici une expérience immersive mêlant arts sonores, numériques et performance lyrique. Deux créations qui plongent le public dans un univers visuel et sonore intense, entre chaos, contemplation et puissance émotionnelle.\n\nUne œuvre totale, spectaculaire et sensorielle, à ne pas manquer !",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 48.7734941,
-    "lng": 5.1648052,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/8dee82bd-8532-3da3-a2dc-3e71b1520d42"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "taisen",
     "name": "Taisen",
     "city": "Thionville",
@@ -563,6 +487,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/b214f598-dda9-334f-8047-fee84696c6b8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "la-nuit-des-annees-80",
+    "name": "La nuit des années 80",
+    "city": "Dompaire",
+    "region": null,
+    "description": "Soirée les années 80.\nREVIVEZ LES ANNÉES 80 AVEC LES MEILLEURS HITS DISCO, POP ET ROCK ICONIQUES.\nOrganisé par PLATINIUM EVENEMENT en partenariat avec MAGNUM LA RADIO & OXYGEN OUVERTURES, préparez-vous à une soirée inoubliable qui vous replongera dans l’âge d’or des années 80 : paillettes, tubes légendaires et ambiance survoltée au programme.\nUn bar, un photographe, un coin fumeur, un service de sécurité et un vestiaire à votre disposition payant.\nTenue et esprit correct exigés, l'organisateur se réserve le droit d'entrée.",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 48.2194900388001,
+    "lng": 6.22580070845947,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/bff202b8-0b3a-32db-b62f-ed55041fb35d"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1076,25 +1019,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/502ee5dc-fe75-3334-9c8c-dacdcd38d221"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "demi-mondaine",
-    "name": "Demi Mondaine",
-    "city": "Nyons",
-    "region": null,
-    "description": "Demi Mondaine est de retour à Nyons avec son complice de toujours, le guitariste  Mystic Gordon et pour l’occasion un batteur enfant du pays, Clément Bouet, pour y travailler à la création d’un nouvel album électro-rock.",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 44.35646,
-    "lng": 5.135379,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/6298bf82-e78d-3086-9ded-a7ddcca45a13"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1903,25 +1827,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "jam-session-aux-studios-du-sans-reserve",
-    "name": "Jam session aux studios du Sans Réserve",
-    "city": "Périgueux",
-    "region": null,
-    "description": "Nos 3 studios de répétitions vous attendent pour de grands moments d’improvisation et de rencontres musicales toutes esthétiques confondues, du rock à l’électro en passant par le rap.\n\n→ Un box sera dédié à l'électro, samplers et machines bienvenus !\n\nBar sur place, auberge espagnole.",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 45.1979797,
-    "lng": 0.69836125,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/aa689e84-140b-3f2a-b4ce-00f9bc22e960"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soiree-dub",
     "name": "Soirée DUB",
     "city": "Jumilhac-le-Grand",
@@ -2416,25 +2321,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "vernissage-des-expositions-d-automne-2026",
-    "name": "Vernissage des expositions d'automne 2026",
-    "city": "Roubaix",
-    "region": null,
-    "description": "Le **vendredi 9 ocotobre à partir de 18h** La Piscine vous invite au vernissage des nouvelles expositions de sa saison d'automne :\n\n*   **\\>** [**Ni Dieu ni maître ! Arts et anarchie de Courbet à Banksy**](https://www.roubaix-lapiscine.com/exposition/ni-dieu-ni-maitre-arts-et-anarchie-de-courbet-a-banksy/)\n\n*   **\\>** [**Révolution denim**](https://www.roubaix-lapiscine.com/exposition/revolution-denim/)\n\nCet automne, La Piscine – Musée d’art et d’industrie André Diligent, présente à travers sa programmation deux regards sur les dialogues possibles entre création et société.\n\nSynonyme de désordre dans le langage courant, l’anarchie devient au milieu du XIXe siècle une pensée politique à part entière. Par la place qu’elles réservent à la liberté individuelle, les idées anarchistes ont séduit dès leur émergence dans les années 1840, nombre d’artistes – de Courbet à Banksy, en passant par les acteurs de Mai 68 ou encore plus tard les punks. L’exposition **Ni Dieu ni maître ! Arts et anarchie de Courbet à Banksy** propose un aperçu de cette histoire méconnue, qui résonne avec des interrogations politiques et sociales d’une grande actualité.\n\nHéritier des toiles de Gênes et de Nîmes, porté outre-Atlantique comme vêtement de travail puis dans le monde entier comme basique du vestiaire quotidien, le jean revêt parfois aussi une dimension contestataire. Clamant l’identité de son porteur et page bleue investie par les créateurs, **Révolution denim** en brosse l’histoire à l’étage du bassin, associant mémoire industrielle et mode contemporaine.\n\nL’exposition « Ni Dieu ni maître ! Arts et anarchie » bénéficie du soutien et des prêts exceptionnels du musée d’Orsay, de la Bibliothèque Nationale de France et du musée de l’Annonciade de Saint-Tropez. Elle est conçue et organisée avec le musée des beaux-arts et d’archéologie de Besançon – Ville de Besançon\n\nLe vernissage est gratuit et ouvert à tous.  \n_**Les prises de parole seront suivies d’un concert du groupe d’électro-rock ACHAB**_",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 50.692168,
-    "lng": 3.167645,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/e7096991-719b-370a-9874-75d700ccf4ee"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "25-ans-ca-file-week-end-anniversaire",
     "name": "25 ans, ça file ! Week-end anniversaire",
     "city": "Roubaix",
@@ -2549,8 +2435,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-aymaric-simon-howling-house-band",
-    "name": "Concert Aymaric SIMON & Howling House Band",
+    "slug": "concert-aymeric-simon-howling-house-band",
+    "name": "Concert Aymeric SIMON & Howling House Band",
     "city": "Saint-Pierre-Église",
     "region": null,
     "description": "",
@@ -2796,6 +2682,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "alsimi-electro-maloya",
+    "name": "Alsimi [électro maloya]",
+    "city": "Trédrez-Locquémeau",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 48.712699,
+    "lng": -3.563056,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/092924b4-0c27-3106-86fa-95f02055ecc1"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-baast-musique-pop-electro",
     "name": "Concert - Baäst (Musique pop électro)",
     "city": "Clohars-Carnoët",
@@ -2827,6 +2732,44 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/4e2a7e05-7a6b-368d-b11d-3659b229d6fd"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-dub-skunk-kut-et-monkey-d",
+    "name": "Soirée DUB. Skunk Kut et Monkey D",
+    "city": "Telgruc-sur-Mer",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-10",
+    "lat": 48.23254,
+    "lng": -4.35775,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/8b49b27e-f87d-30d8-bd2c-a7612e0c136e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "antti-paalanen-techno-a-bretelles",
+    "name": "Antti Paalanen - Techno à bretelles",
+    "city": "Trédrez-Locquémeau",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-18",
+    "endDate": "2026-11-18",
+    "lat": 48.7127,
+    "lng": -3.56306,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/96650c3f-4153-3155-8ee3-e53466b84222"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3201,6 +3144,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "too-many-zooz",
+    "name": "Too Many Zooz",
+    "city": "Le Mans",
+    "region": null,
+    "description": "Un mélange de jazz, rythmes afro-cubains, funk, EDM et house est proposé par ce groupe new-yorkais découvert aux Trans Musicales de Rennes en 2014, ayant collaboré avec Beyoncé sur l'album Lemonade.",
+    "startDate": "2027-02-11",
+    "endDate": "2027-02-11",
+    "lat": 48.0074304,
+    "lng": 0.1992541,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/1ab9e2fa-2691-30f3-bdeb-ea4f3fac4b7c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "royal-ballet-opera-au-cinema-tosca",
     "name": "Royal Ballet & Opera au cinéma - TOSCA",
     "city": "Pouzauges",
@@ -3562,6 +3524,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "siebach-halloween-fest",
+    "name": "Siebach Halloween Fest",
+    "city": "Fellering",
+    "region": null,
+    "description": "Hard Techno incoming. Une nuit sombre, brute et sans détour.  14.11.26 — 18:00 ¿ 03:00 THÉÂTRE DE POCHE — Husseren-Wesserling  SSC — SIEBACH SOCIAL CLUB EST. 2022",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-15",
+    "lat": 47.886498,
+    "lng": 6.995103,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/76d0080e-a502-3f5d-8a4f-a58195fb09dd"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "spectacle-familial-plastic-boum-boum",
     "name": "Spectacle familial - Plastic Boum Boum",
     "city": "Wintzenheim",
@@ -3657,25 +3638,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "saison-cerdane-sous-la-surface-delf-musique-actuelle",
-    "name": "SAISON CERDANE - SOUS LA SURFACE - DELF: MUSIQUE ACTUELLE",
-    "city": "Saillagouse",
-    "region": null,
-    "description": "Une soirée à l’univers pop et électro avec une narration qui fait voyage au cœur des émotions.\n\nMUSIQUE \n\nVendredi 9 octobre 20h30 - Médiathèque – Saillagouse\n  \nSOUS LA SURFACE - DELF\n\nAuteure, compositrice, interprète, Delf trace sa route entre émo...",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 42.4577408,
-    "lng": 2.0384848,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/56/c5ad4ce7-6281-383f-b6b1-aaf987d7d8c0"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "soiree-electro-d-halloween-boiler-room-halloween",
     "name": "SOIREE ELECTRO D'HALLOWEEN \"BOILER ROOM HALLOWEEN\"",
     "city": "Les Angles",
@@ -3712,25 +3674,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "kasbah-presente-dardar-live-all-night-long",
-    "name": "Kasbah Présente Dardar (Live) All Night Long",
-    "city": "Marseille 5e Arrondissement",
-    "region": null,
-    "description": "DAR - en arabe (دار), signifie « maison », « foyer » ou encore un lieu de vie.\r\nPour cette soirée, Kasbah transforme le dancefloor en un espace de création autour de la House Music. Pendant un All Night Long, il sera accompagné de deux musiciens issus des",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-09",
-    "lat": 43.293233,
-    "lng": 5.39175,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/7097059c-fb28-3173-bd10-51e8fb4ff657"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "vioflesh-bellog-guest",
@@ -3845,65 +3788,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "la-mona-rooftop-party-leleon-nick-v-whacking-class",
-    "name": "LA MONA - ROOFTOP PARTY : LELEON, NICK V & WHACKING CLASS",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "UNE FERME URBAINE DE 7 000 M², UNE VUE SUR LE SACRÉ-CŒUR, DU WHACKING, UN B2B HOUSE, DISCO ET LA DANSE AU CENTRE Vendredi 9 octobre, commencez le week-end tôt avec la La Mona qui s’installe à…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 48.896946,
-    "lng": 2.356659,
-    "officialUrl": "https://openagenda.com/shotgun/events/la-mona-rooftop-party-leleon-nick-v-and-whacking-class",
-    "sources": [
-      "https://openagenda.com/shotgun/events/la-mona-rooftop-party-leleon-nick-v-and-whacking-class"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "jack-de-marseille-by-frankielanuit-3",
-    "name": "Jack de Marseille by frankielanuit #3",
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "description": "Jack de Marseille Pionnier de la musique électro, Jack De Marseille a contribué à l'émergence de la scène électronique française à la fois en tant que DJ, producteur ou encore patron du label Wicked…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 43.607701,
-    "lng": 1.427214,
-    "officialUrl": "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-3",
-    "sources": [
-      "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-3"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "ravage",
-    "name": "RAVAGE",
-    "city": "Val-d'Arguenon",
-    "region": "Bretagne",
-    "description": "Pour la toute première fois un Vendredi, on ouvre exceptionnellement la 𝗦𝗘𝗖𝗢𝗡𝗗 𝗥𝗢𝗢𝗠 pour une ALL Night Long : Techno, Hardstyle, Rawstyle, Hardcore et Uptempo ​! 🤯 Avec le retour très…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 48.525536,
-    "lng": -2.274941,
-    "officialUrl": "https://openagenda.com/shotgun/events/ravage-1846104",
-    "sources": [
-      "https://openagenda.com/shotgun/events/ravage-1846104"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "mini-festival-soleil-plein-t-m-aky-pablo-leo-more",
@@ -4273,6 +4157,25 @@
     "status": "announced",
     "needsReview": true,
     "isFestival": false,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "mamaquilla-x-satori-club",
+    "name": "MAMAQUILLA X SATORI CLUB",
+    "city": "Rennes",
+    "region": "Bretagne",
+    "description": "MAMAQUILLA 💕 🪩Satori Club Rennes 🪩 Vendredi 16 Octobre ! Mamaquilla vous donne rendez-vous pour une soirée : House / Disco au Satori Club⚡️ Au programme : une ambiance festive, solaire et…",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
+    "lat": 48.106901,
+    "lng": -1.672178,
+    "officialUrl": "https://openagenda.com/shotgun/events/mamaquilla-x-satori-club",
+    "sources": [
+      "https://openagenda.com/shotgun/events/mamaquilla-x-satori-club"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
@@ -4911,170 +4814,57 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-grande-fete-des-coeurs-en-joie-avec-noel-minitel",
-    "name": "La Grande Fête des COEURS EN JOIE avec Noël Minitel",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "💓LES COEURS EN JOIE 💓 Pour cette Grande Fête, on va danser sur de la House-Disco comme on aime entre le rooftop et la main, mais on va aussi se mettre un peu de techno dans les oreilles en…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 48.843317,
-    "lng": 2.369319,
-    "officialUrl": "https://openagenda.com/shotgun/events/la-grande-fete-des-coeurs-en-joie-avec-noel-minitel",
+    "slug": "la-bringue-miss-k8-rooler-todiefor-slvl-more",
+    "name": "LA BRINGUE : MISS K8, ROOLER, TODIEFOR, SLVL & more",
+    "city": "Verrières-en-Anjou",
+    "region": "Pays de la Loire",
+    "description": "ORIGINAL RAVE RAVE indoor XXL de 8h NON-STOP. Nouveau design Funktion-One BASS BOOSTED. Probablement le lineup le plus HARD à ce jour. —————————————————— 📞 INFOLINE : 02 79 65 48 39 – Appelle et…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 47.497557,
+    "lng": -0.499561,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-bringue-miss-k8-rooler-todiefor-slvl-and-more",
     "sources": [
-      "https://openagenda.com/shotgun/events/la-grande-fete-des-coeurs-en-joie-avec-noel-minitel"
+      "https://openagenda.com/shotgun/events/la-bringue-miss-k8-rooler-todiefor-slvl-and-more"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
+    "isFestival": false,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "wake-up-w-n-vitral-nrki-poupinela",
-    "name": "Wake Up w: N-VITRAL, NRKI, POUPINELA, +++",
+    "slug": "heisss-x-31hertz-disguised-kim-she-juri-heidemann",
+    "name": "HEISSS x 31Hertz [Disguised, Kim she, Juri Heidemann &+]",
     "city": "Strasbourg",
     "region": "Grand Est",
-    "description": "🚨 Bon… on va pas tourner autour du pot Hardcore to Uptempo 😈 Le 9 octobre 2026, on va clairement faire trembler le Studio Saglio. 🔊💥 On vous prépare une soirée bien énervée avec deux machines de…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 48.557243,
-    "lng": 7.738396,
-    "officialUrl": "https://openagenda.com/shotgun/events/wake-up-w-n-vitral-nrki-poupinela",
+    "description": "PRÉVENTES LIMITÉES / BILLETS SUR PLACE. TARIF EARLY 13€ DE 23H À 00H __________________________________ Ambient, Deep techno, Techno Room 𝓰𝓪𝓵𝓵𝓮𝓻𝔂 ★ Arbo ★ Kim she ★ Disguised ★ Juri Heidemann…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 48.58086,
+    "lng": 7.758256,
+    "officialUrl": "https://openagenda.com/shotgun/events/heisss-x-31hertz-disguised-kim-she-juri-heidemann-and",
     "sources": [
-      "https://openagenda.com/shotgun/events/wake-up-w-n-vitral-nrki-poupinela"
+      "https://openagenda.com/shotgun/events/heisss-x-31hertz-disguised-kim-she-juri-heidemann-and"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "this-is-rave-d-b-edition-running-klaz-ross-more",
-    "name": "THIS IS RAVE (D&B EDITION) : RUNNING, KLAZ, ROSS & MORE",
-    "city": "Lyon",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "GRANDE SALLE (Drum & Bass / UK Garage) : RUNNING 4K https://on.soundcloud.com/MG3vBu6ZtjCkjumKkG KLAZ https://on.soundcloud.com/iDSjwANuLT04sQDG3S NATASKANK B2B MESCUD…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 45.74091,
-    "lng": 4.848962,
-    "officialUrl": "https://openagenda.com/shotgun/events/this-is-rave-dandb-edition-running-klaz-ross-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/this-is-rave-dandb-edition-running-klaz-ross-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "rave-du-clain-3",
-    "name": "RAVE DU CLAIN #3",
-    "city": "Poitiers",
-    "region": "Nouvelle-Aquitaine",
-    "description": "RAVE DU CLAIN #3 Troisième édition de la soirée Techno du GS ! LEED - TIMEO HAROUX - TONAY",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 46.579058,
-    "lng": 0.344313,
-    "officialUrl": "https://openagenda.com/shotgun/events/rave-du-clain-3",
-    "sources": [
-      "https://openagenda.com/shotgun/events/rave-du-clain-3"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "studio-2054-hyper-bbl-les-planches",
-    "name": "Studio 2054 : Hyper BBL @ Les Planches",
+    "slug": "less-drama-more-techno-november-edition",
+    "name": "LESS DRAMA MORE TECHNO [November edition]",
     "city": "Paris",
     "region": "Île-de-France",
-    "description": "STUDIO 2054 : HYPER BBL 💗 Where baddies anthems meet rave energy. Pour cette nouvelle édition, Studio 2054 quitte exceptionnellement sa résidence du Flow et investit un autre lieu emblématique des…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 48.871525,
-    "lng": 2.311091,
-    "officialUrl": "https://openagenda.com/shotgun/events/studio-2054-hyper-bbl-les-planches",
+    "description": "🔗 LESS DRAMA MORE TECHNO 🏢 Nouveau Casino 📆 28.11.26 🕛 23h55 - 06h00 🔥 11eme saison, nouvelle énergie, mêmes valeurs. Special guest : 🎧 CRISTIAN MARRAS [Gegen - Berlin]…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 48.865871,
+    "lng": 2.377898,
+    "officialUrl": "https://openagenda.com/shotgun/events/less-drama-more-techno-november-edition",
     "sources": [
-      "https://openagenda.com/shotgun/events/studio-2054-hyper-bbl-les-planches"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "we-are-techno-xxl-inv-sam-paganini-3h-chipie-marcel-dk",
-    "name": "WE ARE TECHNO XXL inv. SAM PAGANINI (3H), CHIPIE & MARCEL DK",
-    "city": "Balma",
-    "region": "Occitanie",
-    "description": "❤️‍🔥 WE ARE TECHNO XXL inv. SAM PAGANINI (3H EXTENDED SET), CHIPIE & MARCEL DK ❤️‍🔥 WE ARE TECHNO pose ses valises à Interférence pour une nouvelle nuit XXL, dédiée aux figures qui ont façonné la…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 43.631391,
-    "lng": 1.489136,
-    "officialUrl": "https://openagenda.com/shotgun/events/we-are-techno-xxl-inv-sam-paganini-3h-chipie-and-marcel-dk",
-    "sources": [
-      "https://openagenda.com/shotgun/events/we-are-techno-xxl-inv-sam-paganini-3h-chipie-and-marcel-dk"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "nrt-xxl-w-novah-matrakk-maudux-dj-caline-mosmoz-more",
-    "name": "NRT XXL w/ Novah, Matrakk, Maudux, Dj Caline, Mosmoz & more",
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "description": "NANTES RAVE TECHNO XXL w/ Novah, Matrakk, Maudux, Dj Caline, Mosmoz & more au Warehouse Nantes le vendredi 09 octobre 2026. En tête d’affiche, la Belge Novah s’impose aujourd’hui comme l’une des…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 47.201183,
-    "lng": -1.572961,
-    "officialUrl": "https://openagenda.com/shotgun/events/nrt-xxl-w-novah-matrakk-maudux-dj-caline-mosmoz-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/nrt-xxl-w-novah-matrakk-maudux-dj-caline-mosmoz-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "somatik-co2-akou-drymk-yuria-more",
-    "name": "SOMATIK | CO2 - Akou, Drymk, Yuria & more",
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "description": "TEKNO ET HARDCORE LE 09.10 AU CO2 💥 Après l’open air Velysia, on sera prêt.es à accueillir tous les fans de Tekno et de Hardmusic, avec une affiche qui laisse rêveur : Akou (live), Drymk, Yuria et…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 47.197854,
-    "lng": -1.585773,
-    "officialUrl": "https://openagenda.com/shotgun/events/somatik-or-co2-akou-drymk-yuria-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/somatik-or-co2-akou-drymk-yuria-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "f2-club-bassment-dj-pdg-mark-us",
-    "name": "F2 CLUB • BASSMENT • DJ PDG - MARK US",
-    "city": "Saint-Étienne",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "— Vendredi 9 octobre — BASSMENT Vendredi, BASSMENT revient au F2 avec DJ PDG et MARK US derrière les platines. De 01h à 06h, les deux DJs se relayeront autour d’une sélection house, melodic techno…",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": 45.436949,
-    "lng": 4.387387,
-    "officialUrl": "https://openagenda.com/shotgun/events/f2-club-bassment-dj-pdg-mark-us",
-    "sources": [
-      "https://openagenda.com/shotgun/events/f2-club-bassment-dj-pdg-mark-us"
+      "https://openagenda.com/shotgun/events/less-drama-more-techno-november-edition"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -6467,25 +6257,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-bringue-miss-k8-rooler-todiefor-slvl-more",
-    "name": "LA BRINGUE : MISS K8, ROOLER, TODIEFOR, SLVL & more",
-    "city": "Verrières-en-Anjou",
-    "region": "Pays de la Loire",
-    "description": "ORIGINAL RAVE RAVE indoor XXL de 8h NON-STOP. Nouveau design Funktion-One BASS BOOSTED. Probablement le lineup le plus HARD à ce jour. —————————————————— 📞 INFOLINE : 02 79 65 48 39 – Appelle et…",
-    "startDate": "2026-11-28",
-    "endDate": "2026-11-29",
-    "lat": 47.497557,
-    "lng": -0.499561,
-    "officialUrl": "https://openagenda.com/shotgun/events/la-bringue-miss-k8-rooler-todiefor-slvl-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/la-bringue-miss-k8-rooler-todiefor-slvl-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "kodz-x-noss-present-yoshiko-doruksen-area-one-fumi",
     "name": "KODZ X NOSS PRESENT : YOSHIKO, DORUKSEN, AREA ONE, FUMI...",
     "city": "Englos",
@@ -7208,30 +6979,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "nantes-rave-techno-xxl-with-novah-matrakk-maudux-dj-caline-mosmoz",
-    "name": "NANTES RAVE TECHNO XXL with NOVAH, MATRAKK, Maudux, DJ Caline, Mosmoz",
-    "city": "Nantes",
-    "address": "Warehouse, 21 quai des Antilles 44200 Nantes",
-    "region": null,
-    "startDate": "2026-10-09",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2461679",
-    "lineup": [
-      "NOVAH",
-      "MATRAKK",
-      "Maudux",
-      "DJ Caline"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2461679"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "gloria-100eme-edition-etapp-kyle-cromby-budino-louison-b2b-combe-akira-b2b-basic-chanel",
     "name": "GLORIA - 100ème édition ·Etapp Kyle~Cromby~Budino ~ Louison B2B Combe ~ Akira B2B Basic Chanel ",
     "city": "Nantes",
@@ -7254,103 +7001,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2534422"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "djs-for-flirt",
-    "name": "Djs for FLIRT",
-    "city": "Paris",
-    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
-    "region": null,
-    "startDate": "2026-10-09",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2548732",
-    "lineup": [
-      "Oklou",
-      "TTristana",
-      "Lux18",
-      "Golce",
-      "DJ Music",
-      "fetva"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2548732"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "chevry-agency-8th-anniversary-xxl-format-4-stages",
-    "name": "CHEVRY AGENCY: 8TH ANNIVERSARY [XXL FORMAT · 4 STAGES]",
-    "city": "Paris",
-    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "officialUrl": "https://ra.co/events/2494177",
-    "lineup": [
-      "Adrien Calvet",
-      "Akaj",
-      "Alyhas",
-      "Baccus",
-      "B.Love",
-      "Jhobei",
-      "Cam Stockman",
-      "Coleeeette",
-      "Deborah Aime La Bagarre",
-      "Emma B",
-      "Kara Okay",
-      "Emi Ömar",
-      "Gibs (ID)",
-      "HearThug",
-      "Munir Nadir",
-      "Herr Krank",
-      "IAMBP",
-      "Jeff The Fool",
-      "JUAAN",
-      "loryn (FR)",
-      "Luuk van Dijk",
-      "Occibel",
-      "P.O (1)",
-      "Man/Ipulate",
-      "Roza Terenzi",
-      "Sampol",
-      "MARYO",
-      "The Hacker",
-      "Voodoos and Taboos"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2494177"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "la-mona-rooftop-party-with-leleon-nick-v-whacking-class-by-leleon",
-    "name": "La Mona Rooftop party with LeLeon, Nick V & Whacking Class by LeLeon",
-    "city": "Paris",
-    "address": "Plantation, 37 Rue des Cheminots, 75018, Paris",
-    "region": null,
-    "startDate": "2026-10-09",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2547606",
-    "lineup": [
-      "LeLeon",
-      "Nick V"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2547606"
     ],
     "status": "announced",
     "needsReview": true,
@@ -7400,6 +7050,28 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2549600"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-lunr-kheli-racing-nokia",
+    "name": "After O'Clock X La Plage Open Air: LUNR, kheli, Racing Nokia",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-10",
+    "endDate": "2026-10-11",
+    "officialUrl": "https://ra.co/events/2557784",
+    "lineup": [
+      "kheli",
+      "Racing Nokia"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2557784"
     ],
     "status": "announced",
     "needsReview": true,
@@ -7560,6 +7232,80 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "after-o-clock-x-la-plage-open-air-litoshka-casimir-loukoum",
+    "name": "After O'Clock X La Plage Open Air: Litoshka, Casimir, Loukoum",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-24",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2555567",
+    "lineup": [
+      "Litoshka",
+      "Loukoum"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2555567"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "brodinski-and-warzou-pres-audio-waste-management-paris",
+    "name": "Brodinski and Warzou pres. Audio Waste Management (Paris)",
+    "city": "Paris",
+    "address": "Lithium Paris, 6 Rue Saint-Blaise, 75020 Paris",
+    "region": null,
+    "startDate": "2026-10-24",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2540578",
+    "lineup": [
+      "Brodinski",
+      "Warzou",
+      "Elvira (1)",
+      "ohjeelo",
+      "Subsism",
+      "Westdale"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2540578"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "5-years-of-love-in-the-endz",
+    "name": "5 years of Love In The Endz",
+    "city": "Paris",
+    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
+    "region": null,
+    "startDate": "2026-10-24",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2551201",
+    "lineup": [
+      "MALAISE VAGAL",
+      "Rebequita",
+      "rougail space program",
+      "Daviaa",
+      "Erna (FR)",
+      "Racing Nokia"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2551201"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "open-rave-toulouse-organik-machines-vivantes",
     "name": "Open Rave Toulouse: Organïk + Machines Vivantes",
     "city": "Toulouse",
@@ -7609,28 +7355,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "3672-techno",
-    "name": "3672*Techno",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-09",
-    "endDate": "2026-10-10",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a8d90d276b6340001f45ab5",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a8d90d276b6340001f45ab5"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "la-ch-ck-just-dance-irl",
