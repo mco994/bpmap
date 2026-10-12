@@ -190,6 +190,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "temps-de-pause-ateliers-concerts-repas",
+    "name": "Temps de pause, ateliers concerts repas",
+    "city": "Rochesson",
+    "region": null,
+    "description": "Un moment hors du temps pour se préparer à l'hiver vosgien. Des ateliers toute la journée, un repas et des concerts le soir.\n10h-12h Atelier d'écriture avec Carlo De Sacco, chanteur-percussionniste, auteur-compositeur et interprète du groupe Grèn Sémé et Alsimi / 12h: Repas pour les personnes participants à la journée d'ateliers. / 14h-16h:.... / 16h-18h:Qi gong avec Benoit Lux / Repas: Menu à venir .... / 20h30 KASLAN, Un trio organique – soubassophone, accordéon et trompette – transcendé par la puissance de l’électro / 22h30 ALSIMI, l’Alchimie musicale de Marie Lanfroy, de Carlo de Sacco et de Bajoun / Tarifs: (tout public/Adhérent) : 1 ateliers: 12€/8€ / Concerts (à partir de 20h30): 15€/10€ / Repas du soir (entrée, plat, dessert)+Concerts: 25€/20€ / 3 Ateliers + repas(midi et soir)+Concerts: 50€/40€ - Attention places limitées pour les ateliers et le repas du soir, réservations par mail ou sms au 0673540525",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 48.0221838605202,
+    "lng": 6.7869222883834,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/5f4981b2-5d78-339c-ba71-b74b563ceb56"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "spectacle-de-danse-lullaby-shot",
     "name": "Spectacle de danse : Lullaby Shot",
     "city": "Forbach",
@@ -715,25 +734,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/fc1012ad-7d79-3206-9d17-868433415895"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "musique-mittel-orchestra",
-    "name": "Musique - Mittel Orchestra",
-    "city": "Sarreguemines",
-    "region": null,
-    "description": "Dans le cadre des Journées Européennes de la Culture Juive.\n\nCinq amis arpentent les chemins de l'odyssée musicale Klezmer, cette musique de l'âme issue de la tradition juive d'Europe de l'Est.\n\nÀ travers son répertoire envoûtant, il la réinvente pour en faire une mélancolie festive située au carrefour de la tradition yiddish, du jazz, du dub et du rock progressif.\n\nQuelque part entre Odessa et Brooklyn, l'univers musical du groupe se veut à la fois festif et contemplatif, mais surtout profondément universel.",
-    "startDate": "2026-10-11",
-    "endDate": "2026-10-11",
-    "lat": 49.1108280538643,
-    "lng": 7.07313537597656,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/fd7edcd3-7c04-3c95-8839-0cc4acd9772e"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1808,25 +1808,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "roots-rock-roubaix-par-soul-iration",
-    "name": "Roots Rock Roubaix - par Soul Iration",
-    "city": "Roubaix",
-    "region": null,
-    "description": "Le samedi 10 octobre 2026, La Condition Publique de Roubaix accueillera une soirée qui s’annonce déjà comme l’un des rendez-vous majeurs de la scène roots et dub en France.  \nÀ une époque où la culture sound system connaît un véritable regain d’intérêt, Roots Rock Roubaix choisit de revenir à l’essentiel : une sono artisanale, des basses profondes, des artistes authentiques et une communion autour de la musique.\n\nPour porter cette expérience, Soul Iration a fait appel à Firmly Rooted Soundsystem, collectif britannique reconnu pour la qualité de son système et son attachement aux valeurs fondatrices de la culture sound system. Plus qu’une simple diffusion sonore, chaque session de Firmly Rooted est pensée comme une immersion totale, où chaque fréquence trouve sa place et où les basses deviennent un langage à part entière.  \nEn tête d’affiche, une figure incontournable de la scène internationale : Aba Shanti-I. Véritable légende vivante, il viendra délivrer un set exceptionnel de quatre heures, fidèle à sa réputation. Depuis plus de trois décennies, ses sélections, ses dubplates exclusives et son approche profondément spirituelle ont fait de chacune de ses apparitions un événement. Rare sur le continent, chacune de ses venues est attendue par les amateurs de dub du monde entier.\n\nLa soirée accueillera également Martin Campbell, l’une des voix emblématiques du reggae britannique. Auteur de morceaux devenus des classiques du UK Roots, il interprétera ses titres accompagné par la puissance du sound system, dans une configuration qui rappelle les grandes heures des sessions londoniennes.\n\nPour ouvrir les festivités, Soul Iration prendra les commandes avec une sélection construite autour des fondations du reggae, du rocksteady, du roots et du dub et sera accompagné du chanteur S’kaya qui est étroitement lié à l’histoire de Soul Iration.  \nDans un lieu aussi singulier que La Condition Publique, ancienne friche industrielle devenue espace culturel, tous les ingrédients semblent réunis pour offrir une expérience fidèle à l’esprit originel de cette culture née en Jamaïque et développée au Royaume-Uni : un système de son pensé comme un instrument, des sélections exigeantes, des artistes engagés et un public réuni autour d’une même vibration.\n\nPlus qu’un concert, Roots Rock Roubaix revendique l’héritage de la sound system culture dans ce qu’elle a de plus authentique : une célébration du partage, de la musique et des basses.\n\nLe 10 octobre, Roubaix vibrera au rythme du roots et du dub.  \nAccessibilité :  \n\\- Des casques antibruit pour les enfants sont disponibles au PC Sécu sous caution d’une pièce d’identité.  \n\\- La salle de concert est équipée d’une plateforme normée rendant les concerts accessibles aux personnes à mobilité réduite.  \n\\- Hypersensibles au bruit et aux lumières, les personnes avec un trouble du spectre autistique peuvent profiter pleinement des concerts grâce au kit sensoriel disponible sur demande.",
-    "startDate": "2026-10-10",
-    "endDate": "2026-10-11",
-    "lat": 50.691099,
-    "lng": 3.18927,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/128f1261-73b4-34c2-9e17-a584ee19ffad"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "genre électro non confirmé"
-  },
-  {
     "slug": "concert-soiree-new-jazz-club-oasis-boom-la-lune-des-pirates",
     "name": "CONCERT : Soirée New Jazz Club : OASIS BOOM - La Lune des Pirates",
     "city": "Amiens",
@@ -2397,25 +2378,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "piece-de-theatre-disco",
-    "name": "Pièce de théâtre \"DISCO\"",
-    "city": "Bourguébus",
-    "region": null,
-    "description": "Replongez dans l'univers des années 70 pour être témoin de l'émancipation d'une femme \"au foyer\" dans une comédie pleine de rebondissements !",
-    "startDate": "2026-10-11",
-    "endDate": "2026-10-11",
-    "lat": 49.1218637,
-    "lng": -0.2982271,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/d145115f-14c8-3fe7-8e84-3c82508dcd81"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soiree-fin-de-saison-chez-alavostra",
     "name": "Soirée fin de saison chez Alavostra",
     "city": "Entraygues-sur-Truyère",
@@ -2618,6 +2580,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/baad3768-7458-38de-a375-b55f354c50e8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-shama-world-music-electro-et-trip-hop",
+    "name": "Concert : Shama (World music, électro et trip-hop)",
+    "city": "Quimperlé",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-25",
+    "endDate": "2026-10-25",
+    "lat": 47.8706346,
+    "lng": -3.5528503,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/c45159ef-c554-36df-9b24-6f27bcf17a67"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3087,6 +3068,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-techno-bar-le-dauphin",
+    "name": "Soirée Techno -Bar Le Dauphin",
+    "city": "Fontenay-le-Comte",
+    "region": null,
+    "description": "Le bar du Dauphin lieu emblématique de Fontenay Le Comte accueil unesoirée halloween",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 46.4662914,
+    "lng": -0.8039742,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/63b7acd6-d3f9-3ab7-a8fc-5e3f1aa8c0ab"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "vasi-nna-di-dance",
     "name": "VASI'NNA DI DANCE",
     "city": "Le Mans",
@@ -3251,6 +3251,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/e66c162b-959c-3583-afff-9477f6b6437f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "electro-night-2-special-halloween",
+    "name": "ELECTRO NIGHT 2 - SPÉCIAL HALLOWEEN",
+    "city": "Saffré",
+    "region": null,
+    "description": "DJ Set 100% Électro toute la soirée",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 47.4996378,
+    "lng": -1.5788754,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/eaf33e0e-ce63-3798-912a-724e122e13ca"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3448,25 +3467,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "soiree-electro-d-halloween-boiler-room-halloween",
-    "name": "SOIREE ELECTRO D'HALLOWEEN \"BOILER ROOM HALLOWEEN\"",
-    "city": "Les Angles",
-    "region": null,
-    "description": "Vivez la soirée d'halloween en mode électro et surtout Déguisé !!\nRDV salle  du Capcir\n10€ par personne (avec 1 conso)\nBuvette sur place...",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 42.5775833,
-    "lng": 2.0726913,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/56/f0f6bb0b-032e-38d8-9d90-c34d8f6361e4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "exposition-la-responsabilite-des-reves",
     "name": "Exposition - La responsabilité des rêves",
     "city": "Aix-en-Provence",
@@ -3598,26 +3598,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "dj-set-liquid-earth-yuzu-record-bar",
-    "name": "Dj set Liquid Earth @Yuzu Record Bar",
-    "city": "Marseille",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "Actif sous le nom de Liquid Earth depuis 2019, Taylor Freels s’est rapidement imposé avec une approche singulière de la house et de la techno, entre héritage rave et production contemporaine. Sa…",
-    "startDate": "2026-10-11",
-    "endDate": "2026-10-12",
-    "lat": 43.294792,
-    "lng": 5.380084,
-    "officialUrl": "https://openagenda.com/shotgun/events/dj-set-liquid-earth-yuzu-record-bar",
-    "sources": [
-      "https://openagenda.com/shotgun/events/dj-set-liquid-earth-yuzu-record-bar"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "virgo-club-by-ghenda-cannes-2",
@@ -6229,52 +6209,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "23-59-weekender-2026",
-    "name": "23:59 - WEEKENDER 2026",
-    "city": "Vaulx En Velin",
-    "address": "Plage Privée Parc de Miribel, Allée du Morlet, 69120 Vaulx En Velin",
-    "region": null,
-    "startDate": "2026-10-10",
-    "endDate": "2026-10-11",
-    "officialUrl": "https://ra.co/events/2461617",
-    "lineup": [
-      "2HOT2PLAY",
-      "AREA ØNE",
-      "Niotech",
-      "Carla Schmitt",
-      "DBBD",
-      "DNNS",
-      "Axymt.",
-      "Blasha & Allatt",
-      "Tauceti (FR)",
-      "Chami",
-      "OPH",
-      "EARGASM GOD",
-      "Glaskeen",
-      "GRAVEDGR",
-      "L.zwo",
-      "OMAKS",
-      "Mika Heggemann",
-      "Part Time Killer",
-      "Cara Elizabeth",
-      "PRADA2000",
-      "Zorza",
-      "Protokseed",
-      "Russian Village Boys",
-      "Schrotthagen",
-      "Sköne",
-      "Dory"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2461617"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "open-air-xxl-hidden-garden-x-bfs-stade-georges-lyvet",
     "name": "OPEN AIR XXL - HIDDEN GARDEN x BFS - STADE GEORGES LYVET",
     "city": "Lyon",
@@ -6468,54 +6402,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "after-o-clock-x-la-plage-open-air-anabel-arroyo-hyper-sam-aude-m",
-    "name": "After O'Clock X La Plage Open Air: Anabel Arroyo, Hyper Sam, Aude M",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-10-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2549644",
-    "lineup": [
-      "Anabel Arroyo",
-      "Hyper Sam"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2549644"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "inka-all-stars-open-air-closing-party",
-    "name": "Inka: All Stars - Open Air (Closing Party)",
-    "city": "Paris",
-    "address": "Paname sur Seine, 1 Port de Bercy, 75012 Paris",
-    "region": null,
-    "startDate": "2026-10-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2555807",
-    "lineup": [
-      "Catsinka",
-      "Bigstate",
-      "Matteo (IT)",
-      "Ayman",
-      "Ben:Rodd",
-      "ISAAC GUEYE"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2555807"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "face-2-face-paris",
     "name": "FACE 2 FACE: PARIS",
     "city": "Paris",
@@ -6572,6 +6458,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-burt-ben-vedrenn-master-seb",
+    "name": "After O'Clock X La Plage Open Air: Bürt, Ben Vedrenn, Master Seb",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2559077",
+    "lineup": [
+      "Bürt"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2559077"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "all-day-long-resilience-x-quintessence",
@@ -6859,26 +6766,26 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "house-o-drome-invite-marie-berson-davjazz-farah-joue",
-    "name": "House O'drome Invite Marie Berson, Davjazz, Farah Joue…",
+    "slug": "anime-rave-paris",
+    "name": "Anime Rave Paris",
     "city": "Paris",
     "region": "Île-de-France",
     "description": "",
-    "startDate": "2026-10-11",
-    "endDate": "2026-10-11",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-17",
     "lat": null,
     "lng": null,
-    "officialUrl": "https://dice.fm/event/6abe749dc57ae30001964e62",
+    "officialUrl": "https://dice.fm/event/6acb837f8d2b5e00015e7251",
     "lineup": [],
     "source": "dice",
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6abe749dc57ae30001964e62"
+      "https://dice.fm/event/6acb837f8d2b5e00015e7251"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "gimme-gimme-gimme-nuit-disco",
