@@ -19,25 +19,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-njp-2026-mammal-hands-svaneborg-kardyb",
-    "name": "Concert - NJP 2026 -  Mammal Hands - Svaneborg Kardyb",
-    "city": "Nancy",
-    "region": null,
-    "description": "MAMMAL HANDS (Nu-jazz - Royaume-Uni)\nFer de lance de la nouvelle scène britannique, Mammal Hands fusionne jazz, minimalisme, electronica et post-rock. Pour leur tout nouvel album Circadia, sorti sur le prestigieux label ACT, le groupe franchit un cap audacieux en accueillant à la batterie leur ami de longue date Rob Turner (ex-GoGo Penguin), insufflant une dynamique rythmique inédite et hautement vibrante à leurs transes hypnotiques. \n \n \nSVANEBORG KARDYB (Ambiant Electro-jazz - Danemark)\nDécouvert par le prestigieux label Gondwana Records, le duo danois Svaneborg Kardyb façonne un jazz minimaliste d'une beauté brute. Entre un piano au toucher feutré, hérité des silences de l'enfance, et une batterie nourrie de blues-folk, ils créent une musique instrumentale, universelle et intensément connectée au public.",
-    "startDate": "2026-10-12",
-    "endDate": "2026-10-12",
-    "lat": 48.696038,
-    "lng": 6.171717,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/092d7291-49d3-3cc7-898d-d8ab372fcbd4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soiree-hard-techno-road-to-invasion",
     "name": "Soirée hard techno - Road to Invasion",
     "city": "Bar-le-Duc",
@@ -4581,25 +4562,6 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
-    "slug": "cardio-rave-12-10-26",
-    "name": "Cardio Rave | 12.10.26",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Issu de la culture clubbing, grand amateur de musiques électroniques, Raoul évolue dans l'univers du fitness depuis de nombreuses années en tant qu'animateur sportif accompli. Il crée en 2022 les…",
-    "startDate": "2026-10-12",
-    "endDate": "2026-10-12",
-    "lat": 48.868351,
-    "lng": 2.392157,
-    "officialUrl": "https://openagenda.com/shotgun/events/cardio-rave-or-121026",
-    "sources": [
-      "https://openagenda.com/shotgun/events/cardio-rave-or-121026"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "techno-race-run-dj-set",
     "name": "Techno Race - Run & DJ Set",
     "city": "Pantin",
@@ -6460,8 +6422,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "after-o-clock-x-la-plage-open-air-burt-ben-vedrenn-master-seb",
-    "name": "After O'Clock X La Plage Open Air: Bürt, Ben Vedrenn, Master Seb",
+    "slug": "after-o-clock-x-la-plage-open-air-burt-ben-vedren-master-seb",
+    "name": "After O'Clock X La Plage Open Air: Bürt, Ben Vedren, Master Seb",
     "city": "Paris",
     "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
     "region": null,
@@ -6501,6 +6463,25 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2546724"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "rooftop-party-opening-pink-party",
+    "name": "Rooftop Party - Opening Pink Party",
+    "city": "Paris",
+    "address": "Pullman Rooftop, 22 Rue Jean Rey, 75015 Paris",
+    "region": null,
+    "startDate": "2026-10-17",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2559968",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2559968"
     ],
     "status": "announced",
     "needsReview": true,
@@ -6575,6 +6556,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "pygments-extended-human-safari-alhena-groundstate",
+    "name": "Pygments Extended: Human Safari, Alhena, Groundstate,",
+    "city": "Paris",
+    "address": "Le 211, 211 Av. Jean Jaurès, 75019",
+    "region": null,
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "officialUrl": "https://ra.co/events/2553765",
+    "lineup": [
+      "Human Safari",
+      "Marabou (2)",
+      "Alhena_",
+      "Gabbor",
+      "Terminal Trax",
+      "In-Tan"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2553765"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "5-years-of-love-in-the-endz",
