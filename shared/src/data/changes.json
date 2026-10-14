@@ -1,5 +1,41 @@
 [
   {
+    "id": "2026-10-14:climax-festival:removed",
+    "festivalId": "climax-festival",
+    "festivalSlug": "climax-festival",
+    "festivalName": "Climax Festival",
+    "type": "removed",
+    "date": "2026-10-14",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-10-14:ouroboros-festival:removed",
+    "festivalId": "ouroboros-festival",
+    "festivalSlug": "ouroboros-festival",
+    "festivalName": "Ouroboros Festival",
+    "type": "removed",
+    "date": "2026-10-14",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-10-14:le-jardin-electronique:removed",
+    "festivalId": "le-jardin-electronique",
+    "festivalSlug": "le-jardin-electronique",
+    "festivalName": "Le Jardin Électronique",
+    "type": "removed",
+    "date": "2026-10-14",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-10-14:brunch-electronik-lyon:removed",
+    "festivalId": "brunch-electronik-lyon",
+    "festivalSlug": "brunch-electronik-lyon",
+    "festivalName": "Brunch Electronik Lyon",
+    "type": "removed",
+    "date": "2026-10-14",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-10-10:kluster-5-years-open-air:added",
     "festivalId": "kluster-5-years-open-air",
     "festivalSlug": "kluster-5-years-open-air",

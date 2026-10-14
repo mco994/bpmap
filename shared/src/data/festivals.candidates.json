@@ -608,25 +608,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "concert-njp-2026-ferdi-forward",
-    "name": "Concert - NJP 2026 - Ferdi - Forward",
-    "city": "Nancy",
-    "region": null,
-    "description": "FERDI (Jazz / Indie-pop / Funk - France / Belgique) \n Saxophoniste et producteur virtuose, le franco-bruxellois Ferdi insuffle un vent de fraîcheur sur la scène actuelle. Après un premier album solo remarqué (TAKE 01) et une collaboration fusionnelle avec le roi de la funk Dabeull, ce prodige du conservatoire mêle jazz et indie-pop dans des lives solaires et incandescents. \n \n  \nFORWARD (Electro-organic jazz - France)\n Bousculant les repères traditionnels, le trio Forward sculpte un jazz audacieux et résolument moderne. Entre écriture ciselée, électronique organique et grooves asymétriques, ces trois alchimistes du son déploient une virtuosité aérienne à la croisée des mondes de Tigran Hamasyan et Jon Hopkins.",
-    "startDate": "2026-10-13",
-    "endDate": "2026-10-13",
-    "lat": 48.6961018936383,
-    "lng": 6.17175757884979,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/e48572ac-5526-3bdf-8702-1c50c5e6145b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-p-tite-fumee-m-o-k-o",
     "name": "LA P'TITE FUMÉE + M.O.K.O",
     "city": "Meisenthal",
@@ -715,25 +696,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/fc1012ad-7d79-3206-9d17-868433415895"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-njp-2026-asfar-shamsi-encore-une-autre",
-    "name": "Concert - NJP 2026 - Asfar Shamsi - Encore Une Autre",
-    "city": "Nancy",
-    "region": null,
-    "description": "ASFAR SHAMSI (Rap/Pop alternative - France)\nEntre rap, pop et électronique, Asfar Shamsi refuse les cases. Lauréate du FAIR, elle livre avec son EP cui cui un témoignage brut et sincère sur la quête d'identité. Un projet organique et puissant, porté sur scène par une énergie contagieuse. \n \nENCORE UNE AUTRE (Electro / Trap / Pop alternative - France)\nAmbassadrice de la scène électro-rap émergente, la Strasbourgeoise encore une autre bouscule les clubs parisiens. Ses sets multi-genres mêlent trap, pop et électro dans une esthétique unique, entre sensualité et absurde, affirmant son rôle de prescriptrice incontournable.",
-    "startDate": "2026-10-13",
-    "endDate": "2026-10-13",
-    "lat": 48.697935,
-    "lng": 6.184425,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/fee205df-fbbc-33f9-828c-f0e0726a883f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2359,6 +2321,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "tribal-dome",
+    "name": "Tribal Dôme",
+    "city": "Saint-Affrique",
+    "region": null,
+    "description": "Préparez-vous à vibrer au rythme de la Tribal Dôme ! Une soirée immersive entre musique électro, sonorités tribales et voyages sonores vous attend à Saint-Affrique !",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "lat": 43.95691596,
+    "lng": 2.88211944,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/31/636a7031-5f58-36a4-89bd-90b2eefce3bb"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-fin-de-saison-chez-alavostra",
     "name": "Soirée fin de saison chez Alavostra",
     "city": "Entraygues-sur-Truyère",
@@ -3479,6 +3460,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/58/716393dc-6cff-328c-a223-924987a2bfb7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "michael-amram-duo-monsieur-madame",
+    "name": "Michael Amram / Duo Monsieur Madame",
+    "city": "Marseille 2e Arrondissement",
+    "region": null,
+    "description": "Pop rock, variété, électro – concert live",
+    "startDate": "2026-10-28",
+    "endDate": "2026-10-28",
+    "lat": 43.2965,
+    "lng": 5.371989,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/9b5af4f2-b11a-31e9-bd58-904d3ee4e10e"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -6767,6 +6767,28 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ab3ecd1a7131800010f95e2"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "house-of-balagan-w-morena-prudente",
+    "name": "HOUSE OF BALAGAN W/MORENA PRUDENTE ",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ace3ff60c92e7000159753c",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ace3ff60c92e7000159753c"
     ],
     "status": "announced",
     "needsReview": true,
