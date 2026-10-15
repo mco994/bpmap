@@ -266,6 +266,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "festival-michto-xxe",
+    "name": "Festival - Michtô XXe",
+    "city": "Malzéville",
+    "region": null,
+    "description": "Pour ses 20 ans, le Festival Michtô déploie 6 jours de fête à Maxéville ! Cirque, théâtre de rue, spectacles, concerts, DJ sets, gazette et autres surprises s'enchaîneront - dans le cadre d'une scénographie unique - pour célébrer ensemble ces 20 ans d'aventure collective.\n\nEn 2026 Michtô a 20 ans et la fête promet d'être belle. Qu'est ce qu'on fête? \nLa (méga) force du collectif \nLa compatibilité entre expérimentation et réglementation \nLa naissance et la pérennisation du MEM\\u00d4, un outil au service de la création, des pratiques artistiques et de la rencontre construit et géré collectivement. \n\nOn fête les 20 ans à venir, les défis relevés et ceux qui arrivent, on fête le retour du public sur le site du MEMÔ et la confirmation que d'autres modes d'actions sont non seulement légitimes mais aussi générateurs de créativité, de convivialité et d'émancipation.  \nSeront notamment réunis pour cette grande fête : Le Grand Colossal Théâtre, La Dépliante, Maboul Distorsion, La Famille Goldini, Underclouds, Spectralex, Cie Rouge Carmin, Margo Chou, Nicanor de Elia, Paon dans le ciment, Cirque Gones, Muchmuche Compagny, Underclous Cie, Pour que tu m'aimes, V-Randa Fatale, Krinator, Selecta Bonbon, Blond Bélier, Vin de Sprite, The Dreams, DJs Catapulte, Super Parquet, Tout est cassé, Jonas Stax, Teuf Teuf, DJ Chapelier Fou, Choolers Division, Dimanche Eternel, Johnny from Disco aux côtés d'artistes complices et du Collectif Michtô. Ce sera aussi une multitude de projets participatifs et célébratifs imaginés spécialement pour cet anniversaire : des installations, une gazette, des surprises, des retrouvailles, des souvenirs à partager !\n\nToute la programmation est disponible sur le site internet.",
+    "startDate": "2026-10-16",
+    "endDate": "2026-10-24",
+    "lat": 48.704804425335,
+    "lng": 6.16549730300903,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/7ac502f4-a4a7-3210-9070-46531dec2191"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
     "slug": "danse-hit-hip-pop-classic-parade-danse-participative",
     "name": "Danse - Hit Hip Pop Classic Parade, danse participative",
     "city": "Metz",
@@ -278,25 +297,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/7be8f1c5-33ea-38cd-b108-c95f06cc1a2b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-njp-2026-opus-kink-heaven-fx",
-    "name": "Concert - NJP 2026 - Opus Kink - Heaven Fx",
-    "city": "Nancy",
-    "region": null,
-    "description": "OPUS KINK (Jazz-punk / Post-punk cuivré / Rock expérimental - Royaume-Uni)\nOvni de la scène britannique, Opus Kink fusionne jazz, country et punk dans un tourbillon de \"death-disco\" et de cabaret grinçant. Entre section de cuivres redoutable et chant sarcastique, le groupe de Brighton livre des concerts à l'énergie sauvage et quasi-sectaire.\n \nHEAVEN FX (Indie Rock / Electronique - France)\nDuo à l'univers hybride, Heaven FX fait fusionner voix complices et textures électroniques. Entre indie rock et explorations synthétiques, leur musique est une immersion sensorielle où l'émotion guide chaque rythme.",
-    "startDate": "2026-10-14",
-    "endDate": "2026-10-14",
-    "lat": 48.697935,
-    "lng": 6.184425,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/85858c4e-c0e0-3441-9e6b-aab79b2d92ea"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -321,25 +321,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-njp-2026-peter-doherty-sam-sauvage-james-baker",
-    "name": "Concert - NJP 2026 - Peter Doherty - Sam Sauvage - James Baker",
-    "city": "Nancy",
-    "region": null,
-    "description": "PETER DOHERTY (full band) (Rock Indie - Royaume-Uni)\nLégende du rock britannique, Peter Doherty revient plus serein que jamais avec son nouvel album Felt Better Alive. Entouré d'un groupe prestigieux, il revisite ses classiques des Libertines et de Babyshambles ainsi que ses pépites solo mélodiques.\n \nSAM SAUVAGE (Pop-Rock - France)\nRévélation masculine des Victoires de la Musique, Sam Sauvage bouscule la pop française avec son premier album Mesdames, Messieurs !. Originaire de Boulogne-sur-Mer, il livre une musique frontale et viscérale, portée par une interprétation sans artifice.\n \nJAMES BAKER (Pop-rock alternatif - France)\nArtiste autodidacte de 24 ans, James Baker façonne une indie pop hybride aux accents rock et électro. Entre narration cinématographique et sensibilité brute, il explore les méandres du souvenir et du désir dans son nouveau projet conceptuel, Romy Rose.",
-    "startDate": "2026-10-14",
-    "endDate": "2026-10-14",
-    "lat": 48.697935,
-    "lng": 6.184425,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/8cff6701-59e9-35ae-bda6-1962f4b66400"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "taisen",
@@ -373,6 +354,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/ab37a255-74fb-309f-b5db-29afb7162ee9"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-okre-nuit-electronique",
+    "name": "Concert - OKRE - Nuit électronique",
+    "city": "Metz",
+    "region": null,
+    "description": "OKRE est une nuit, au sens fort : une unité de temps, de lieu et d'action, pas un festival de plus. \n\nUne seule salle, un seul son, une trajectoire pensée comme une dramaturgie en quatre actes : de la techno acide de Nikita à la house de Chicago de Lil Louis, en passant par l'afro-house de Laolu et la signature internationale de Seth Troxler. Le temps d'une nuit, un Centre de Congrès institutionnel se transforme en plateforme d'intensité. Metz rejoint la carte de la scène électronique européenne.",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-12",
+    "lat": 49.107857,
+    "lng": 6.177863,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/b1e171aa-f2c5-329d-af3d-4df17177d0a3"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -454,6 +454,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "mindbug5",
+    "name": "Mindbug5",
+    "city": "Nilvange",
+    "region": null,
+    "description": "MindBug5 est un groupe de space-rock / shoegaze électro originaire de Lorraine (Grand Est), composé de 4 membres.\n\nIl présente ses compositions atypiques, où les voix claires s’accordent sur des textes oniriques, déposés entre des plages instrumentales. Les séquences et rythmiques électro supportent les guitares qui s’entrechoquent pour distiller un post-rock mélancolique et épuré. Les claviers ajoutent des atmosphères cinématographiques et planantes à ce mur de son, pour donner ce mélange particulier qui fait la sonorité dense de MindBug5.\n\nLa configuration minimaliste permet de se faufiler dans des caveaux intimistes pour susurrer à bas volume, tout comme gronder sur des plateaux en extérieur.\nParticipation libre.",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "lat": 49.3435992,
+    "lng": 6.0513876,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/cccaeee8-4b52-335c-bc44-708b2bd12d0b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "dub-addict-1",
@@ -544,6 +563,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/d875e9fe-ad1e-35c2-bcf4-0fcd68f610e4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-yvnnis-et-nevon",
+    "name": "Concert - Yvnnis et Nevon",
+    "city": "Nancy",
+    "region": null,
+    "description": "Yvnnis s'impose comme l'une des figures les plus prometteuses du rap français, alliant technicité, régularité et sens artistique affirmé. \n\nRévélé avec ses premiers projets comme PARHELIA et ETERNAL YOUTH, il se détache rapidement par sa polyvalence et ses performances, saluées autant par le public que par les médias comme Booska-P.  En 2023 puis 2024, il confirme son ascension avec NOVAE et L'AFRO OU LES TRESSES (dans lequel on retrouve GARE DU NORD), enchaînant les succès scéniques : salles complètes, festivals majeurs et un Olympia marquant. Sur scène, le natif du 94 se distingue par une énergie intense et communicative, faisant de chacune de ses performances un moment fort.  En 2025, il franchit un cap avec sa première mixtape DND (pour Do Not Disturb). Porté par des collaborations avec So La Lune, J9ueve ou JRK 19, ce projet se veut plus ambitieux et Yvnnis s'illustre dans différents registres en témoigne la diversité des extraits : ÉMOTICÔNE, BIG SHOT présenté chez Colors ou, encore, BARA. Réalisée par son acolyte de toujours Lil Chick, cette mixtape dénote par ses productions de haut standing et vient affirmer sa maturité et curiosité artistique.  Son passage au Grunt Festival en octobre 2025 a marqué les esprits. Yvnnis poursuit donc son ascension en 2026 avec une première partie de tournée complète avec plus de 10000 billets vendus partout en France. \n\n • Première partie - Nevon, candidat de la saison 5 de nouvelle école, âgé de 25 ans, est un artiste originaire du 90. sa plume affute depuis ses 17 ans, il s'inspire en partie de son grand frère qui rappait lui aussi. Il devient Nevon en 2021, et officialise ses premiers morceaux. aujourd'hui sur Paris, c'est dans un univers électronique que Nevon s'est découvert, entre la vraie vie et ses rêves les plus profonds. Sur des instrus deep-house, afro-house, parfois même techno, Nevon se livre en rappant avec nostalgie, et créer un paradoxe des plus intéressant. Habitué à la scène, après plus d'une vingtaine de concerts entre Belfort et la capitale, il participera à la saison 5 de nouvelle école qui sortira fin aout, de quoi lui permettre de s'installer définitivement.\n\nRéservation en ligne.",
+    "startDate": "2026-10-28",
+    "endDate": "2026-10-28",
+    "lat": 48.694135,
+    "lng": 6.198284,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/d8ebda2f-8397-3758-b07b-7a48f88d3d2a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -988,6 +1026,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "concert-epiknes-dj-set-digital-rave",
+    "name": "Concert - Epiknes DJ Set – Digital rave",
+    "city": "La Rochelle",
+    "region": null,
+    "description": "⚡ DIGITAL RAVE ⚡\r\nLa nuit s’annonce électrique à La Fabuleuse Cantine de La Rochelle.",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 46.150074,
+    "lng": -1.15108,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/a3e98497-d837-3892-9859-ef93eee11643"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "temps-fort-electro-6-club-electro",
     "name": "Temps fort Électro #6 : Club Électro",
     "city": "Montluçon",
@@ -1228,6 +1285,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/0663a22f-43f4-3438-b537-bdb94d237d4a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-soiree-good-berry",
+    "name": "SOIREE : Soirée Good Berry",
+    "city": "Bourges",
+    "region": null,
+    "description": "Enfilez votre déguisement et dansez au rythme d’une soirée électro spéciale Halloween !",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 47.0853652,
+    "lng": 2.3956515,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/10d8a98a-7074-3fa0-8d84-d660c0c0196e"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2207,25 +2283,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-aymeric-simon-howling-house-band",
-    "name": "Concert Aymeric SIMON & Howling House Band",
-    "city": "Saint-Pierre-Église",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-14",
-    "endDate": "2026-10-14",
-    "lat": 49.6680876,
-    "lng": -1.4038336,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/456f0084-6fe3-34a1-8c2b-452ee626dd80"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-boulevard-des-airs",
     "name": "Concert : Boulevard des Airs",
     "city": "Deauville",
@@ -2390,6 +2447,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/33/a015a6a2-80c9-32a9-9d3c-dbc26760e13c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "transdek-en-concert",
+    "name": "TRANSDEK en concert !",
+    "city": "Bagnères-de-Bigorre",
+    "region": null,
+    "description": "Loop, voix, percus & électro : un voyage musical à vivre en live §",
+    "startDate": "2026-10-17",
+    "endDate": "2026-10-17",
+    "lat": 43.0677704,
+    "lng": 0.15416353,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/1d066236-c4a3-3f8d-80a0-f481275705ce"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3391,25 +3467,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "la-vallee-vagabonde-roller-disco",
-    "name": "La vallée vagabonde : Roller Disco",
-    "city": "Villé",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-14",
-    "endDate": "2026-10-14",
-    "lat": 48.3374385015503,
-    "lng": 7.29090501573351,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/5/faa7605c-47c3-3caa-ab02-a6e8a0058dee"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "hofesh-schechter",
     "name": "HOFESH SCHECHTER",
     "city": "Perpignan",
@@ -3503,6 +3560,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "le-disco-kiosque-d-halloween-dancefloor-pour-les-petit-e-s",
+    "name": "Le Disco Kiosque d'Halloween : dancefloor pour les petit·e·s",
+    "city": "Nevers",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 46.99039,
+    "lng": 3.15492,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/6/1628d198-5615-38dd-83b7-c965bf2eb6ed"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "fred-nevche-poesie-electro",
@@ -5132,25 +5208,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
-    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 44.883598,
-    "lng": -0.541265,
-    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
-    "sources": [
-      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "inner-rave-100-techno-tempelhof-dieze-warehouse",
     "name": "INNER RAVE - 100% TECHNO - TEMPELHOF - DIEZE WAREHOUSE",
     "city": "Montpellier",
@@ -5168,6 +5225,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 44.883598,
+    "lng": -0.541265,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "kx-chr-dark-rave-x-la-cervoiserie-dinan",
@@ -5636,6 +5712,25 @@
     "officialUrl": "https://openagenda.com/shotgun/events/wake-up-x-we-are-rave",
     "sources": [
       "https://openagenda.com/shotgun/events/wake-up-x-we-are-rave"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "mknk-club-x-la-suite",
+    "name": "MKNK Club x La Suite",
+    "city": "Brest",
+    "region": "Bretagne",
+    "description": "Pour la première fois, le label MKNK, co-curaté par Manu Le Malin et Astropolis, débarque à Brest. Rendez-vous à La Suite, samedi 14 novembre, pour une nuit placée sous le signe du hardcore et de la…",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-15",
+    "lat": 48.383182,
+    "lng": -4.484589,
+    "officialUrl": "https://openagenda.com/shotgun/events/mknk-club-x-la-suite",
+    "sources": [
+      "https://openagenda.com/shotgun/events/mknk-club-x-la-suite"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -6171,6 +6266,36 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "le-jardin-d-automne-2026",
+    "name": "Le Jardin d'Automne 2026",
+    "city": "LILLE",
+    "address": "Le Grand Sud, 50 rue de l'Europe, 59000 LILLE",
+    "region": null,
+    "startDate": "2026-12-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2561319",
+    "lineup": [
+      "Trym",
+      "LESSSS",
+      "OMAKS",
+      "Abr.",
+      "Britney Speed (FR)",
+      "Dezart",
+      "Evil Grimace",
+      "Gabber Eleganza",
+      "Paul Seul",
+      "Lady Dammage"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2561319"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "open-air-xxl-hidden-garden-x-bfs-stade-georges-lyvet",
     "name": "OPEN AIR XXL - HIDDEN GARDEN x BFS - STADE GEORGES LYVET",
     "city": "Lyon",
@@ -6510,6 +6635,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "sunday-rooftop-party",
+    "name": "Sunday Rooftop Party",
+    "city": "Paris",
+    "address": "Pullman Rooftop, 22 Rue Jean Rey, 75015 Paris",
+    "region": null,
+    "startDate": "2026-10-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2561251",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2561251"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "after-o-clock-x-la-plage-open-air-litoshka-casimir-loukoum",
     "name": "After O'Clock X La Plage Open Air: Litoshka, Casimir, Loukoum",
     "city": "Paris",
@@ -6608,6 +6752,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "after-voltage-d-ko-records-mezigue-benedetta-gggg-b2b-mad-rey-romain-play-marli",
+    "name": "After VOLTAGE + D.KO Records: Mézigue, Benedetta, GGGG b2b Mad Rey, Romain Play, Marli",
+    "city": "Paris",
+    "address": "Le Zeralda, 125 avenue Gallieni, Bagnolet",
+    "region": null,
+    "startDate": "2026-10-25",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2561430",
+    "lineup": [
+      "Benedetta",
+      "GGGG",
+      "Mad Rey",
+      "Marli",
+      "Mézigue",
+      "Romain Play"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2561430"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "dream-nation-festival-halloween-edition-paris",
@@ -6767,28 +6937,6 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ab3ecd1a7131800010f95e2"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "house-of-balagan-w-morena-prudente",
-    "name": "HOUSE OF BALAGAN W/MORENA PRUDENTE ",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ace3ff60c92e7000159753c",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ace3ff60c92e7000159753c"
     ],
     "status": "announced",
     "needsReview": true,
