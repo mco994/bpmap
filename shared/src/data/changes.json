@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-17:club-dh2-pitchfork-music-festival-paris-2026:added",
+    "festivalId": "club-dh2-pitchfork-music-festival-paris-2026",
+    "festivalSlug": "club-dh2-pitchfork-music-festival-paris-2026",
+    "festivalName": "Club — DH2: Pitchfork Music Festival Paris 2026",
+    "type": "added",
+    "date": "2026-10-17",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
     "id": "2026-10-14:climax-festival:removed",
     "festivalId": "climax-festival",
     "festivalSlug": "climax-festival",

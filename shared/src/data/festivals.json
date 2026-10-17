@@ -885,6 +885,39 @@
     ]
   },
   {
+    "id": "club-dh2-pitchfork-music-festival-paris-2026",
+    "slug": "club-dh2-pitchfork-music-festival-paris-2026",
+    "name": "Club — DH2: Pitchfork Music Festival Paris 2026",
+    "description": "",
+    "startDate": "2026-11-05",
+    "endDate": null,
+    "lat": 48.85358,
+    "lng": 2.37569,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2454718",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "George Daniel",
+      "Nikki Nair",
+      "Oscar Farrell",
+      "VITAMINE C"
+    ],
+    "sources": [
+      "https://ra.co/events/2454718"
+    ]
+  },
+  {
     "id": "guadeloupe-electronik-groove",
     "slug": "guadeloupe-electronik-groove",
     "name": "Guadeloupe Electronik Groove",
