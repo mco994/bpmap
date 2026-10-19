@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-10-19:vault-club-after-festival-motoco:added",
+    "festivalId": "vault-club-after-festival-motoco",
+    "festivalSlug": "vault-club-after-festival-motoco",
+    "festivalName": "VAULT-Club — AFTER Festival Motoco",
+    "type": "added",
+    "date": "2026-10-19",
+    "summary": "Ajouté à Mulhouse — Dates à confirmer."
+  },
+  {
+    "id": "2026-10-19:less-drama-more-techno-11th-anniversary:added",
+    "festivalId": "less-drama-more-techno-11th-anniversary",
+    "festivalSlug": "less-drama-more-techno-11th-anniversary",
+    "festivalName": "LESS DRAMA MORE TECHNO [11th Anniversary]",
+    "type": "added",
+    "date": "2026-10-19",
+    "summary": "Ajouté à Paris — 24 – 25 octobre 2026."
+  },
+  {
+    "id": "2026-10-19:error-festival-halloween-night:added",
+    "festivalId": "error-festival-halloween-night",
+    "festivalSlug": "error-festival-halloween-night",
+    "festivalName": "Error Festival / Halloween Night",
+    "type": "added",
+    "date": "2026-10-19",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
     "id": "2026-10-17:club-dh2-pitchfork-music-festival-paris-2026:added",
     "festivalId": "club-dh2-pitchfork-music-festival-paris-2026",
     "festivalSlug": "club-dh2-pitchfork-music-festival-paris-2026",
