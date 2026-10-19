@@ -669,6 +669,36 @@
     ]
   },
   {
+    "id": "vault-club-after-festival-motoco",
+    "slug": "vault-club-after-festival-motoco",
+    "name": "VAULT-Club — AFTER Festival Motoco",
+    "description": "",
+    "startDate": "2026-10-23",
+    "endDate": null,
+    "lat": 47.74921,
+    "lng": 7.33876,
+    "city": "Mulhouse",
+    "region": "Grand Est",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2555843",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "DraZ"
+    ],
+    "sources": [
+      "https://ra.co/events/2555843"
+    ]
+  },
+  {
     "id": "lons-electronic-festival",
     "slug": "lons-electronic-festival",
     "name": "Lons Electronic Festival",
@@ -695,6 +725,34 @@
     ],
     "sources": [
       "https://ra.co/events/2408373"
+    ]
+  },
+  {
+    "id": "less-drama-more-techno-11th-anniversary",
+    "slug": "less-drama-more-techno-11th-anniversary",
+    "name": "LESS DRAMA MORE TECHNO [11th Anniversary]",
+    "description": "🔗 LESS DRAMA MORE TECHNO [11th Anniversary] 🏢 Nouveau Casino 📆 24.10.26 🕛 23h55 - 06h00 🔥 11eme saison, nouvelle énergie, mêmes valeurs. Special guest : 🎧 LAWRENCE LEE [Berlin - Schenzhen]…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 48.86587,
+    "lng": 2.3779,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "techno"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": "https://dice.fm/event/6abd617c4ec7650001124104",
+    "officialUrl": "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary",
+    "status": "announced",
+    "eventType": "festival",
+    "sources": [
+      "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary",
+      "https://dice.fm/event/6abd617c4ec7650001124104"
     ]
   },
   {
@@ -841,6 +899,39 @@
     ],
     "sources": [
       "https://www.thewalkingbass.fr/"
+    ]
+  },
+  {
+    "id": "error-festival-halloween-night",
+    "slug": "error-festival-halloween-night",
+    "name": "Error Festival / Halloween Night",
+    "description": "",
+    "startDate": "2026-10-31",
+    "endDate": null,
+    "lat": 48.83491,
+    "lng": 2.37724,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2563363",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Substencia",
+      "Weever",
+      "Duellist",
+      "Freaks"
+    ],
+    "sources": [
+      "https://ra.co/events/2563363"
     ]
   },
   {
@@ -1164,8 +1255,8 @@
     "description": "",
     "startDate": "2027-03-25",
     "endDate": "2027-03-29",
-    "lat": 45.94448,
-    "lng": 6.8951,
+    "lat": 45.92404,
+    "lng": 6.86924,
     "city": "Chamonix",
     "region": "Auvergne-Rhône-Alpes",
     "organizer": null,
