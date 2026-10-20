@@ -214,7 +214,7 @@
     "city": "Malzéville",
     "region": null,
     "description": "Pour ses 20 ans, le Festival Michtô déploie 6 jours de fête à Maxéville ! Cirque, théâtre de rue, spectacles, concerts, DJ sets, gazette et autres surprises s'enchaîneront - dans le cadre d'une scénographie unique - pour célébrer ensemble ces 20 ans d'aventure collective.\n\nEn 2026 Michtô a 20 ans et la fête promet d'être belle. Qu'est ce qu'on fête? \nLa (méga) force du collectif \nLa compatibilité entre expérimentation et réglementation \nLa naissance et la pérennisation du MEM\\u00d4, un outil au service de la création, des pratiques artistiques et de la rencontre construit et géré collectivement. \n\nOn fête les 20 ans à venir, les défis relevés et ceux qui arrivent, on fête le retour du public sur le site du MEMÔ et la confirmation que d'autres modes d'actions sont non seulement légitimes mais aussi générateurs de créativité, de convivialité et d'émancipation.  \nSeront notamment réunis pour cette grande fête : Le Grand Colossal Théâtre, La Dépliante, Maboul Distorsion, La Famille Goldini, Underclouds, Spectralex, Cie Rouge Carmin, Margo Chou, Nicanor de Elia, Paon dans le ciment, Cirque Gones, Muchmuche Compagny, Underclous Cie, Pour que tu m'aimes, V-Randa Fatale, Krinator, Selecta Bonbon, Blond Bélier, Vin de Sprite, The Dreams, DJs Catapulte, Super Parquet, Tout est cassé, Jonas Stax, Teuf Teuf, DJ Chapelier Fou, Choolers Division, Dimanche Eternel, Johnny from Disco aux côtés d'artistes complices et du Collectif Michtô. Ce sera aussi une multitude de projets participatifs et célébratifs imaginés spécialement pour cet anniversaire : des installations, une gazette, des surprises, des retrouvailles, des souvenirs à partager !\n\nToute la programmation est disponible sur le site internet.",
-    "startDate": "2026-10-17",
+    "startDate": "2026-10-18",
     "endDate": "2026-10-23",
     "lat": 48.704804425335,
     "lng": 6.16549730300903,
@@ -1344,11 +1344,13 @@
     "lng": 1.07284504,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/23/bb2dcb18-d651-3e60-bbaa-4018e9085f6a"
+      "https://data.datatourisme.fr/23/bb2dcb18-d651-3e60-bbaa-4018e9085f6a",
+      "https://data.datatourisme.fr/3/fa50d3b5-82ac-3f12-a2bf-8801b3d47a7b"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
+    "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
@@ -3307,9 +3309,9 @@
     "endDate": "2026-10-31",
     "lat": 47.20077,
     "lng": -1.57328,
-    "officialUrl": "https://openagenda.com/nantesmetropole/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more",
+    "officialUrl": "https://openagenda.com/ile-de-nantes/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more",
     "sources": [
-      "https://openagenda.com/nantesmetropole/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more",
+      "https://openagenda.com/ile-de-nantes/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more",
       "https://ra.co/events/2529503"
     ],
     "genreVerified": true,
@@ -5313,6 +5315,44 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "rooftop-party",
+    "name": "Rooftop Party",
+    "city": "Paris",
+    "address": "Pullman Rooftop, 22 Rue Jean Rey, 75015 Paris",
+    "region": null,
+    "startDate": "2026-10-22",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2564619",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2564619"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "mikuna-rooftop-closing-last-sunset",
+    "name": "Mikuna Rooftop Closing - Last Sunset",
+    "city": "Paris",
+    "address": "Terraza Mikuna, 1 Rue des Archives, 75004 Paris, France",
+    "region": null,
+    "startDate": "2026-10-23",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2564674",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2564674"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "after-o-clock-x-la-plage-open-air-litoshka-casimir-loukoum",
     "name": "After O'Clock X La Plage Open Air: Litoshka, Casimir, Loukoum",
     "city": "Paris",
@@ -5361,32 +5401,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "pygments-extended-human-safari-alhena-groundstate",
-    "name": "Pygments Extended: Human Safari, Alhena, Groundstate,",
-    "city": "Paris",
-    "address": "Le 211, 211 Av. Jean Jaurès, 75019",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "officialUrl": "https://ra.co/events/2553765",
-    "lineup": [
-      "Human Safari",
-      "Marabou (2)",
-      "Alhena_",
-      "Gabbor",
-      "Terminal Trax",
-      "In-Tan"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2553765"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "5-years-of-love-in-the-endz",
     "name": "5 years of Love In The Endz",
     "city": "Paris",
@@ -5411,6 +5425,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "pygments-extended-human-safari-alhena-groundstate",
+    "name": "Pygments Extended: Human Safari, Alhena, Groundstate,",
+    "city": "Paris",
+    "address": "Le 211, 211 Av. Jean Jaurès, 75019",
+    "region": null,
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "officialUrl": "https://ra.co/events/2553765",
+    "lineup": [
+      "Human Safari",
+      "Marabou (2)",
+      "Alhena_",
+      "Gabbor",
+      "Terminal Trax",
+      "In-Tan"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2553765"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "after-voltage-d-ko-records-mezigue-benedetta-gggg-b2b-mad-rey-romain-play-marli",
@@ -5532,15 +5572,16 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "raw-halloween-hadone-vel-exos-live-rebecca-delle-piane",
-    "name": "RAW Halloween • Hadone, Vel, Exos live, Rebecca Delle Piane",
+    "slug": "raw-x-seth-halloween-fenim0re-hadone-vel-exos-live-rebecca-delle-piane-b2b-lpv",
+    "name": "RAW x SETH Halloween • FENIM0RE, Hadone, Vel, Exos (live), Rebecca Delle Piane b2b LPV",
     "city": "Paris",
-    "address": null,
+    "address": "Dojo de Paris, 21 Av. de la Prte de Châtillon",
     "region": null,
     "startDate": "2026-10-31",
     "endDate": null,
     "officialUrl": "https://ra.co/events/2494623",
     "lineup": [
+      "FENIM0RE",
       "Hadone",
       "VEL (MA)",
       "Exos",
@@ -5642,6 +5683,32 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "motus-xxl-adb-nevermind-more",
+    "name": "Motus XXL - ADB, NEVERMIND & MORE",
+    "city": "Paris",
+    "address": "La Rotonde Stalingrad, 6-8 Place de la Bataille de Stalingrad - 75019 Paris",
+    "region": null,
+    "startDate": "2026-11-06",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2565360",
+    "lineup": [
+      "E.T.",
+      "ADB (FR)",
+      "SHAA",
+      "Killoverjoy",
+      "HIBI",
+      "PAK-E"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2565360"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "ams-15th-anniversary",
     "name": "AMS 15TH ANNIVERSARY",
     "city": "Paris",
@@ -5698,33 +5765,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "pisica-noise-mafia-dj-guestlist-two-girls-one-mom-more",
-    "name": "Pisica: Noise Mafia, DJ GUESTLIST, two girls one mom & More",
-    "city": "Paris",
-    "address": "Mia Mao, 12a rue Ella Fitzgerald, 75019, Paris, FRANCE",
-    "region": null,
-    "startDate": "2026-11-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2538507",
-    "lineup": [
-      "Annie",
-      "DJ GUESTLIST",
-      "Justin Tinderdate",
-      "Elotrance",
-      "KARISH",
-      "Noise Mafia",
-      "two girls one mom"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2538507"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "matchplay-haunted-house",

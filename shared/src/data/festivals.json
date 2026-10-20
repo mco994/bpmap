@@ -750,6 +750,10 @@
     "officialUrl": "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary",
     "status": "announced",
     "eventType": "festival",
+    "lineup": [
+      "Lawrence Lee",
+      "Ben Manson"
+    ],
     "sources": [
       "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary",
       "https://dice.fm/event/6abd617c4ec7650001124104"
