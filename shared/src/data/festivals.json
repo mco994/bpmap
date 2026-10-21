@@ -30,34 +30,6 @@
     ]
   },
   {
-    "id": "scopitone",
-    "slug": "scopitone",
-    "name": "Scopitone",
-    "description": "Festival international des cultures électroniques et des arts numériques organisé par Stereolux, à Nantes (Stereolux, les Nefs et plusieurs lieux de la métropole). Mêle nuits électro, expositions d'arts numériques, installations et rencontres professionnelles.",
-    "startDate": "2026-09-16",
-    "endDate": "2026-09-20",
-    "lat": 47.2073,
-    "lng": -1.5658,
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "organizer": "Stereolux",
-    "capacity": null,
-    "genres": [
-      "electro",
-      "techno",
-      "ambient"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://stereolux.org/",
-    "status": "cancelled",
-    "sources": [
-      "https://44.agendaculturel.fr/festival/festival-scopitone-concerts.html"
-    ]
-  },
-  {
     "id": "festival-69bpm",
     "slug": "festival-69bpm",
     "name": "FESTIVAL 69BPM",
@@ -1207,7 +1179,7 @@
       "electro",
       "house"
     ],
-    "priceDay": 27,
+    "priceDay": 20,
     "priceFull": null,
     "currency": "EUR",
     "ticketUrl": "https://shotgun.live/en/festivals/electronest-2026",
