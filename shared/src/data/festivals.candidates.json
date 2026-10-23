@@ -190,6 +190,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "reveillon-saint-sylvestre-diner-spectacle-et-dansant",
+    "name": "Réveillon Saint-Sylvestre : dîner spectacle et dansant",
+    "city": "Plombières-les-Bains",
+    "region": null,
+    "description": "Dîner Spectacle et Dansant au Salon Impérial. \n\nSpectacle avec la revue Cabaret \"Paradisco\". Plumes, strass et années 80. Les plus grands succès Disco 80. Suivi d'une soirée dansante avec DJ.\n\n149 €/pers dont 5 € de jetons offerts(1), boissons comprises : 1 verre de vin par plat et par personne, 1/2 bouteille d'eau plate ou gazeuse par personne, un café ou thé.\n\nMenu disponible sur notre site : https://casino-plombieres.partouche.com/agenda/8913/nouvel-an-2027\n\nRéservation et règlement par téléphone.\nPour confirmer votre réservation, nous vous demanderons la totalité du règlement avant le vendredi 18 décembre au plus tard.\n\n\nLE REGISTRE DES ALLERGÈNES À DÉCLARATION OBLIGATOIRE CONTENUS DANS NOS PLATS EST DISPONIBLE SUR DEMANDE.\nPour votre santé, évitez de grignoter entre les repas. L'abus d'alcool est dangereux pour la santé, à consommer avec modération.\n*Jetons immatériels non échangeables, non négociables, valable sur les machines à sous compatibles et 21 jours à compter de leur remise.\nEntrée en salle des machines à sous réservée aux personnes majeures et non interdites de jeu sur présentation d'une pièce d'identité en cours de validité ou de votre carte Players Plus. \nLes jeux d'argent et de hasard peuvent être dangereux : pertes d'argent, conflits familiaux, addiction...retrouvez nos conseils sur joueurs-info-service.fr (09 74 75 13 13 - appel non surtaxé)",
+    "startDate": "2026-12-31",
+    "endDate": "2026-12-31",
+    "lat": 47.960109,
+    "lng": 6.451731,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/6722c7cd-2632-39ff-b580-ec94d01ba9ef"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-marcia",
     "name": "Concert Marcia",
     "city": "Épinal",
@@ -233,7 +252,7 @@
     "city": "Malzéville",
     "region": null,
     "description": "Pour ses 20 ans, le Festival Michtô déploie 6 jours de fête à Maxéville ! Cirque, théâtre de rue, spectacles, concerts, DJ sets, gazette et autres surprises s'enchaîneront - dans le cadre d'une scénographie unique - pour célébrer ensemble ces 20 ans d'aventure collective.\n\nEn 2026 Michtô a 20 ans et la fête promet d'être belle. Qu'est ce qu'on fête? \nLa (méga) force du collectif \nLa compatibilité entre expérimentation et réglementation \nLa naissance et la pérennisation du MEM\\u00d4, un outil au service de la création, des pratiques artistiques et de la rencontre construit et géré collectivement. \n\nOn fête les 20 ans à venir, les défis relevés et ceux qui arrivent, on fête le retour du public sur le site du MEMÔ et la confirmation que d'autres modes d'actions sont non seulement légitimes mais aussi générateurs de créativité, de convivialité et d'émancipation.  \nSeront notamment réunis pour cette grande fête : Le Grand Colossal Théâtre, La Dépliante, Maboul Distorsion, La Famille Goldini, Underclouds, Spectralex, Cie Rouge Carmin, Margo Chou, Nicanor de Elia, Paon dans le ciment, Cirque Gones, Muchmuche Compagny, Underclous Cie, Pour que tu m'aimes, V-Randa Fatale, Krinator, Selecta Bonbon, Blond Bélier, Vin de Sprite, The Dreams, DJs Catapulte, Super Parquet, Tout est cassé, Jonas Stax, Teuf Teuf, DJ Chapelier Fou, Choolers Division, Dimanche Eternel, Johnny from Disco aux côtés d'artistes complices et du Collectif Michtô. Ce sera aussi une multitude de projets participatifs et célébratifs imaginés spécialement pour cet anniversaire : des installations, une gazette, des surprises, des retrouvailles, des souvenirs à partager !\n\nToute la programmation est disponible sur le site internet.",
-    "startDate": "2026-10-21",
+    "startDate": "2026-10-22",
     "endDate": "2026-10-24",
     "lat": 48.704804425335,
     "lng": 6.16549730300903,
@@ -1121,6 +1140,44 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-tabasco-re-a-la-tour-du-jeu",
+    "name": "CONCERT : Tabasco're à la Tour du Jeu",
+    "city": "Bourges",
+    "region": null,
+    "description": "Amateurs de sensations musicales fortes, rendez-vous à Bourges pour une soirée punk et métal hardcore avec les groupes Crise, Brique et I've Learned !",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-24",
+    "lat": 47.087457,
+    "lng": 2.388239,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/7dd163f9-22d6-38e4-89f1-9fd75c048713"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "folies-berruyeres-concerts-a-la-villa-monin-round-1",
+    "name": "FOLIES BERRUYÈRES : Concerts à la Villa Monin Round 1",
+    "city": "Bourges",
+    "region": null,
+    "description": "Vibrez au rythme des Folies Berruyères à la Villa Monin, avec une soirée électro mêlant house, nu disco, minimal et techno !",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 47.0820446,
+    "lng": 2.3971217,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/aeb23abb-98bd-37a6-b6a6-87d0b2be0316"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "man-e-s",
     "name": "MAN.E.S",
     "city": "Saint-Amand-Montrond",
@@ -1176,6 +1233,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "soiree-blind-test-a-capdenac-le-haut",
+    "name": "Soirée blind test à Capdenac-le-Haut",
+    "city": "Capdenac",
+    "region": null,
+    "description": "<p>Le comité des fêtes de Capdenac le haut vous invite à participer à sa soirée blind test animé par Disco&#39; Flo.</p>",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 44.580702,
+    "lng": 2.069588,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/22/6023c222-e484-393e-bc4b-cf5666ffe815"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "l-orange-fluo-presente-june-bug",
@@ -3279,25 +3355,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "virgo-club-by-ghenda-cannes-3",
-    "name": "VIRGO CLUB by GHENDA (CANNES) #3",
-    "city": "Cannes",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "**VIRGO BY GHENDA débarque au GLASS CLUB. ** Le 22 octobre, GHENDA prend les commandes du Glass Club pour une nuit de **House, Afro House et sonorités électroniques**, de 00H à 05H. Producteur,…",
-    "startDate": "2026-10-22",
-    "endDate": "2026-10-23",
-    "lat": 43.551445,
-    "lng": 7.022342,
-    "officialUrl": "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-3",
-    "sources": [
-      "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-3"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "yuksek",
     "name": "YUKSEK",
     "city": "Arles",
@@ -4086,23 +4143,42 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "discovery-presente-ravexperience",
-    "name": "DISCOVERY présente : RAVEXPERIENCE",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Discovery presente RAVEXPERIENCE pour une nuit allant de la trance à la schranz en passant par la hardbounce et hardtechno 💥 🎧 LINE UP 🎧 RAVELINERS MØREJ UNDONE ▬▬▬▬▬▬ INFOS PRATIQUES ▬▬▬▬▬▬ 📅…",
-    "startDate": "2026-10-22",
-    "endDate": "2026-10-23",
-    "lat": 48.868099,
-    "lng": 2.37367,
-    "officialUrl": "https://openagenda.com/shotgun/events/discovery-presente-ravexperience",
+    "slug": "dystopia-2027-mulhouse",
+    "name": "DYSTOPIA 2027 • MULHOUSE",
+    "city": "Mulhouse",
+    "region": "Grand Est",
+    "description": "🔉 TECHNO & HARD MUSIC FESTIVAL 📍 PARC EXPO - MULHOUSE 📅 16 & 17 AVRIL 2027 | 18H-04H Ouverture des portes : 18:00 ░░░░░░ DYSTOPIA REVIENT À MULHOUSE ░░░░░░ Deux nuits. Deux scènes. 20 heures de…",
+    "startDate": "2027-04-16",
+    "endDate": "2027-04-18",
+    "lat": 47.764618,
+    "lng": 7.335605,
+    "officialUrl": "https://openagenda.com/shotgun/events/dystopia-2027-mulhouse",
     "sources": [
-      "https://openagenda.com/shotgun/events/discovery-presente-ravexperience"
+      "https://openagenda.com/shotgun/events/dystopia-2027-mulhouse"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "dystopia-2027-lille-douai",
+    "name": "DYSTOPIA 2027 • LILLE-DOUAI",
+    "city": "Douai",
+    "region": "Hauts-de-France",
+    "description": "🔉 HARD MUSIC & TECHNO FESTIVAL 📍 GAYANT EXPO - DOUAI 📅 16 & 17 AVRIL 2027 | 18H-04H 🚧 Ouverture des portes à 18:00 ⫘⫘⫘ PROGRAMME ⫘⫘⫘ Rendez-vous les 16 et 17 avril 2027 à Douai pour le nouveau…",
+    "startDate": "2027-04-16",
+    "endDate": "2027-04-18",
+    "lat": 50.38259,
+    "lng": 3.094562,
+    "officialUrl": "https://openagenda.com/shotgun/events/dystopia-2027-lille-douai",
+    "sources": [
+      "https://openagenda.com/shotgun/events/dystopia-2027-lille-douai"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "bleeding-edgerunners-cyberpriest-carpeteater-c0rpsedecay",
@@ -4333,25 +4409,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
-    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 44.883598,
-    "lng": -0.541265,
-    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
-    "sources": [
-      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "inner-rave-100-techno-tempelhof-dieze-warehouse",
     "name": "INNER RAVE - 100% TECHNO - TEMPELHOF - DIEZE WAREHOUSE",
     "city": "Montpellier",
@@ -4369,6 +4426,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
+    "city": "Bordeaux",
+    "region": "Nouvelle-Aquitaine",
+    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
+    "startDate": "2026-10-24",
+    "endDate": "2026-10-25",
+    "lat": 44.883598,
+    "lng": -0.541265,
+    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "sources": [
+      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "kx-chr-dark-rave-x-la-cervoiserie-dinan",
@@ -5505,25 +5581,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "rooftop-party",
-    "name": "Rooftop Party",
-    "city": "Paris",
-    "address": "Pullman Rooftop, 22 Rue Jean Rey, 75015 Paris",
-    "region": null,
-    "startDate": "2026-10-22",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2564619",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2564619"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "mikuna-rooftop-closing-last-sunset",
     "name": "Mikuna Rooftop Closing - Last Sunset",
     "city": "Paris",
@@ -5591,32 +5648,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "5-years-of-love-in-the-endz",
-    "name": "5 years of Love In The Endz",
-    "city": "Paris",
-    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2551201",
-    "lineup": [
-      "MALAISE VAGAL",
-      "Rebequita",
-      "rougail space program",
-      "Daviaa",
-      "Erna (FR)",
-      "Racing Nokia"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2551201"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "pygments-extended-human-safari-alhena-groundstate",
     "name": "Pygments Extended: Human Safari, Alhena, Groundstate,",
     "city": "Paris",
@@ -5641,6 +5672,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "5-years-of-love-in-the-endz",
+    "name": "5 years of Love In The Endz",
+    "city": "Paris",
+    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
+    "region": null,
+    "startDate": "2026-10-24",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2551201",
+    "lineup": [
+      "MALAISE VAGAL",
+      "Rebequita",
+      "rougail space program",
+      "Daviaa",
+      "Erna (FR)",
+      "Racing Nokia"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2551201"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "after-voltage-d-ko-records-mezigue-benedetta-gggg-b2b-mad-rey-romain-play-marli",
@@ -5931,6 +5988,32 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "2222-beste-hira-alhena-dj-angel-sole-dosi",
+    "name": "2222: Beste Hira, ALHENA, DJ ANGEL, SOLE DOSI",
+    "city": "Paris",
+    "address": "Virage, 26 rue Hélène-et-François Missoffe",
+    "region": null,
+    "startDate": "2026-11-07",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2564446",
+    "lineup": [
+      "Beste Hira",
+      "Alhena_",
+      "DJ ANGEL (fr)",
+      "SOLE DOSI",
+      "Maris Shilton",
+      "Equus Belli"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2564446"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "matchplay-haunted-house",
     "name": "Matchplay Haunted House",
     "city": "Paris",
@@ -5953,28 +6036,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "discotaco-disco-paillettes-tacos-partout",
-    "name": "Discotaco : disco, paillettes & tacos partout !",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-22",
-    "endDate": "2026-10-23",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a904f3702c60700011d80dc",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a904f3702c60700011d80dc"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "dub-night-6",
     "name": "Dub Night #6",
     "city": "Pantin",
@@ -5991,6 +6052,28 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6aa0255193ac3f0001fde6e8"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "discotaco-disco-paillettes-tacos-partout",
+    "name": "Discotaco : disco, paillettes & tacos partout !",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-30",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6a994be3880d4b00016f56fd",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6a994be3880d4b00016f56fd"
     ],
     "status": "announced",
     "needsReview": true,
