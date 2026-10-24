@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-24:electro-alternativ:removed",
+    "festivalId": "electro-alternativ",
+    "festivalSlug": "electro-alternativ",
+    "festivalName": "Electro Alternativ",
+    "type": "removed",
+    "date": "2026-10-24",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-10-21:scopitone:removed",
     "festivalId": "scopitone",
     "festivalSlug": "scopitone",
