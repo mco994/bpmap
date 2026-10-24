@@ -114,25 +114,6 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
-    "slug": "revnoir-aurore",
-    "name": "Revnoir & Aurore",
-    "city": "Nilvange",
-    "region": null,
-    "description": "Né en 2023, REVNOIR s'est imposé en quelques mois comme l'une des révélations les plus marquantes de la scène metalcore française. Le groupe forge un univers qui lui est propre : la brutalité du metalcore, l'énergie brute du rock et les textures sombres de la dark électro, le tout porté par une production soignée et une identité visuelle et sonore déjà pleinement assumée. \nA ne surtout pas manquer !\n\nAurore est un groupe de hardcore mélodique né en 2020 à Marseille. Le groupe enregistre son premier album, SPARKS, qui sort en 2023 et au travers duquel le groupe propose une musique énergique, juvénile et mélancolique inspirée par le punk hardcore américain, le nu metal des années 90, et le metalcore.",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-23",
-    "lat": 49.3407119588825,
-    "lng": 6.05103640000001,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/5f3ca53c-3876-30f6-bf14-2be96f29f2cf"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "temps-de-pause-ateliers-concerts-repas",
     "name": "Temps de pause, ateliers concerts repas",
     "city": "Rochesson",
@@ -252,7 +233,7 @@
     "city": "Malzéville",
     "region": null,
     "description": "Pour ses 20 ans, le Festival Michtô déploie 6 jours de fête à Maxéville ! Cirque, théâtre de rue, spectacles, concerts, DJ sets, gazette et autres surprises s'enchaîneront - dans le cadre d'une scénographie unique - pour célébrer ensemble ces 20 ans d'aventure collective.\n\nEn 2026 Michtô a 20 ans et la fête promet d'être belle. Qu'est ce qu'on fête? \nLa (méga) force du collectif \nLa compatibilité entre expérimentation et réglementation \nLa naissance et la pérennisation du MEM\\u00d4, un outil au service de la création, des pratiques artistiques et de la rencontre construit et géré collectivement. \n\nOn fête les 20 ans à venir, les défis relevés et ceux qui arrivent, on fête le retour du public sur le site du MEMÔ et la confirmation que d'autres modes d'actions sont non seulement légitimes mais aussi générateurs de créativité, de convivialité et d'émancipation.  \nSeront notamment réunis pour cette grande fête : Le Grand Colossal Théâtre, La Dépliante, Maboul Distorsion, La Famille Goldini, Underclouds, Spectralex, Cie Rouge Carmin, Margo Chou, Nicanor de Elia, Paon dans le ciment, Cirque Gones, Muchmuche Compagny, Underclous Cie, Pour que tu m'aimes, V-Randa Fatale, Krinator, Selecta Bonbon, Blond Bélier, Vin de Sprite, The Dreams, DJs Catapulte, Super Parquet, Tout est cassé, Jonas Stax, Teuf Teuf, DJ Chapelier Fou, Choolers Division, Dimanche Eternel, Johnny from Disco aux côtés d'artistes complices et du Collectif Michtô. Ce sera aussi une multitude de projets participatifs et célébratifs imaginés spécialement pour cet anniversaire : des installations, une gazette, des surprises, des retrouvailles, des souvenirs à partager !\n\nToute la programmation est disponible sur le site internet.",
-    "startDate": "2026-10-22",
+    "startDate": "2026-10-23",
     "endDate": "2026-10-24",
     "lat": 48.704804425335,
     "lng": 6.16549730300903,
@@ -606,25 +587,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "roots-raid-baku",
-    "name": "Roots Raid & Bakû",
-    "city": "Bourg-lès-Valence",
-    "region": null,
-    "description": "Première date annoncée de la nouvelle saison des soirées Vacarme N Dub !",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-23",
-    "lat": 44.938348,
-    "lng": 4.888331,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/277fbff9-e411-3b9b-8eae-f0ed3bf075b8"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "nuit-encore-x-23-59",
@@ -1102,6 +1064,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "ebony",
+    "name": "Ebony",
+    "city": "Joué-lès-Tours",
+    "region": null,
+    "description": "Finaliste de la saison 2024 de la Star Academy, Ebony s’est révélée au grand public avec Unforgettable, un titre qui pourrait bien être prophétique ! Au-delà de ses prouesses vocales, elle se distingue dans sa musique par ses rythmiques bouyon alliées à des sonorités electro.",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 47.33938,
+    "lng": 0.6630262,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/6832de18-2040-341c-8553-68a8a3c09f75"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "les-jeudis-sonnants-tamagotchicas",
     "name": "Les Jeudis Sonnants - Tamagotchicas",
     "city": "Nogent-le-Rotrou",
@@ -1159,6 +1140,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "folies-berruyeres-concerts-a-l-o2g-le-closing",
+    "name": "FOLIES BERRUYÈRES : Concerts à l' O2G Le Closing",
+    "city": "Bourges",
+    "region": null,
+    "description": "Les Folies Berruyères clôturent leur édition avec une soirée électro survoltée, entre rythmes entraînants et sonorités techno !",
+    "startDate": "2026-11-08",
+    "endDate": "2026-11-08",
+    "lat": 47.0866309,
+    "lng": 2.3893,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/93ee815f-b420-36af-8392-86707ef5ae1c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "folies-berruyeres-concerts-a-la-villa-monin-round-1",
     "name": "FOLIES BERRUYÈRES : Concerts à la Villa Monin Round 1",
     "city": "Bourges",
@@ -1209,6 +1209,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/fb848579-3922-38fb-bcc9-cd3cad626970"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "la-p-tite-fumee",
+    "name": "La p'tite fumée",
+    "city": "Joué-lès-Tours",
+    "region": null,
+    "description": "La P’tite Fumée signe son grand retour avec une nouvelle tournée explosive. Un live repensé, plus puissant et immersif que jamais, où leur électro instrumentale prend une tout autre dimension.",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 47.33938,
+    "lng": 0.6630262,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/fe620958-7605-3697-ba2f-28bbf7c756b9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1352,25 +1371,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "dj-s-presty-hip-hop-to-techno",
-    "name": "Dj's Presty Hip Hop to techno",
-    "city": "Monein",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-23",
-    "lat": 43.3415413,
-    "lng": -0.5827154,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/585e7f31-ff2f-3ffb-8a19-632dc6b18603"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "horace-andy-et-dub-asante-band-ft-matic-horns",
     "name": "Horace Andy et Dub Asante Band Ft. Matic Horns",
     "city": "Limoges",
@@ -1485,6 +1485,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "roller-disco-halloween",
+    "name": "Roller disco Halloween",
+    "city": "Arbonne",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-30",
+    "lat": 43.4332381,
+    "lng": -1.5523275,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/9421453c-a959-3f1b-b50b-b4a954a9102a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-dub",
     "name": "Soirée DUB",
     "city": "Jumilhac-le-Grand",
@@ -1523,25 +1542,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "trance-atlantique-soiree-dansante-avec-kalabass",
-    "name": "Trance Atlantique : soirée dansante avec Kalabass",
-    "city": "Seignosse",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-23",
-    "lat": 43.6957985,
-    "lng": -1.4363166,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/d78ffd47-15fc-3749-bb10-f6a9f28492d4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "disco-soupe-et-projection-du-documentaire-au-fil-de-l-eau-de-l-insouciance-a-la-desobeissance",
@@ -1962,25 +1962,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "concert-la-securite-dj-aftershow-par-schlagsahne",
-    "name": "CONCERT : La Sécurité + DJ Aftershow par Schlagsahne",
-    "city": "Amiens",
-    "region": null,
-    "description": "VEN. 23 OCTOBRE 2026\n\n20:00\n\nLa Sécurité (Punk / New wave / Krautrock | QC)\n\nLa Sécurité (Montréal / Tiohtià:ke) est un collectif d'art punk alliant à parts égales: rythmes sautillants, spectre harmonique accidenté et phrasés mélodiques minimalistes; le tout passé dans un filtre insomniaque, le résultat d’une surexposition aux néons de la métropole québécoise. Sa musique, parfaitement à son aise lorsque dynamitée sur une piste de danse, prêche vivre dangereusement. \nLes paroles, elles, font écho au mouvement Riot Grrrl, et célèbrent entre autres l’autonomisation de femmes, les ami.e.s (gentil.le.s comme méchant.e.s) et la bienveillance. Depuis ses débuts au printemps 2022, le quintette hétéroclite a reçu des invitations de SXSW, End of the Road, The Great Escape, Reeperbahn, puis du FIJMl, ajoutant des tournées aux côtés de The Go! Team (2024) et The Rapture (2025). Après la sortie du premier album Stay Safe! (16 juin 2023), nommé sur la Longue Liste pour le Prix de musique Polaris 2024, ainsi que son joyeux rejeton Stay Safe! REMIXED (8 mars 2024), tous deux chez Mothland, le quintette a dévoilé les titres “Detour” (22 octobre 2024) et “Ketchup” (28 janvier 2025), préparant le terrain pour un nouvel afflux de joyaux sonores D.I.Y., cette fois-ci collaborant également avec l’étiquette britannique emblématique de Simon Raymonde: Bella Union. La bande se pose à nouveau sur les franges du punk, de la new wave et du krautrock, bafouant sournoisement les formules stylistiques à chaque occasion avec la parution de son deuxième disque Bingo!, sorti le 12 juin 2026 via Bella Union (Monde) et Mothland (Canada/États-Unis).  \n\n\n\nSchlagsahne (DJ set | FR)\n\nSchlagsahne (crème fouettée en VO pour les Teutons) ne fait pas dans la demi-mesure. Dans sa bombe, de généreuses couches de cold wave, new wave, pop, post-punk, electro et quelques vieux MP3 retrouvés au fond du placard. Attention, c'est gourmand.",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-23",
-    "lat": 49.89905,
-    "lng": 2.2752772,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/f93ebd6e-4cf0-3379-be59-d1cf8c1ee8d2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "ndk-nights-mac-declos-all-night-long",
     "name": "NDK Nights - Mac Declos : All Night Long",
     "city": "Caen",
@@ -2050,6 +2031,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/30/497886e0-c957-3f6b-911d-bcd3b264c419"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "musique-soiree-disco-en-famille",
+    "name": "[Musique] Soirée disco en famille",
+    "city": "Dieppe",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-18",
+    "endDate": "2026-12-18",
+    "lat": 49.9163852,
+    "lng": 1.070615,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/691fc8ae-642e-3b24-86c3-b33346fac232"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2171,25 +2171,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-fin-de-saison-chez-alavostra",
-    "name": "Soirée fin de saison chez Alavostra",
-    "city": "Entraygues-sur-Truyère",
-    "region": null,
-    "description": "Châtaignes grillées à volonté + soupe au potiron..... et Frênette chez ALAVÒSTRA - artisan de l'apéro ! Techno collaborative DJ motivés, ramener vos platines !",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-23",
-    "lat": 44.6407,
-    "lng": 2.5657,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/31/9d272d6b-fa23-3334-94c8-dd0f38413a98"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soiree-dub-bass-music",
     "name": "Soirée dub & bass music",
     "city": "Rodez",
@@ -2304,6 +2285,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "les-concerts-du-celtic-pub",
+    "name": "Les concerts du Celtic Pub",
+    "city": "Tarbes",
+    "region": null,
+    "description": "Celtic PuB Is Not a PuB, what else then ? Il sera ce que vous voudrez qu'il soit.\nÊtre à Tarbes et rater le CeltiCPuB, c'est comme aller à Jericho et rater le mur, au Vatican et rater le Pape, ou encore à Dallas et rater J.F.K : c'est complètement aberrant !\nPas moins de 200 concerts par an, des musiques de tous styles, des groupes émergeants ou bien confirmés, des stars locales aussi bien que des crooners new-yorkais, vous trouverez forcément ce qu'il vous faut au Celtic Pub, which is not just a pub.\n\nOuvert du mardi au samedi de 17h à 2h\n\nCONCERTS DU MOIS DE DÉCEMBRE\n\nJEU 3 : Heavenphetamine\nVEN 4 : Disco Zero\nSAM 5 : 20h Be Gore : Crucifucked + Upper\nMAR 8 : Jam Session\nJEU 10 : Palipnol\nVEND 11 : Patator\nSAM 12 : 20h Nester donuts + Jeremy\nVEN 18 : Frenetic Dancing\n﻿SAM  19 : Astaffort mods !\nSAM 26  : Spouts 2.0",
+    "startDate": "2026-12-03",
+    "endDate": "2026-12-26",
+    "lat": 43.2318247,
+    "lng": 0.07249981,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/e6498487-7fe9-30ca-889f-ad4753b81545"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "alsimi-electro-maloya",
     "name": "Alsimi [électro maloya]",
     "city": "Trédrez-Locquémeau",
@@ -2342,6 +2342,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "labo-techno-5",
+    "name": "Labo Techno #5",
+    "city": "Dinan",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-27",
+    "lat": 48.4542143,
+    "lng": -2.0577114,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/3f96b361-3573-3419-b33f-f1f7365978b6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "antti-paalanen-techno-a-bretelles",
     "name": "Antti Paalanen - Techno à bretelles",
     "city": "Trédrez-Locquémeau",
@@ -2354,25 +2373,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/96650c3f-4153-3155-8ee3-e53466b84222"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-soiree-electro-lab-sonor",
-    "name": "Concert - Soirée électro Lab' Sonor",
-    "city": "Quimperlé",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-23",
-    "lat": 47.8706346,
-    "lng": -3.5528503,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/b987d5e8-7d5e-3762-b901-e40816520578"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3203,6 +3203,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-electro-pop-trick-or-treat-hallowe-en-party",
+    "name": "Soirée électro-pop Trick or Treat : Hallowe'en Party",
+    "city": "Marseille 5e Arrondissement",
+    "region": null,
+    "description": "Le collectif POP PORN revient au Makeda le vendredi 30 octobre pour une soirée sous le thème TRICK or TREAT : Hallowe'en Party !",
+    "startDate": "2026-10-30",
+    "endDate": "2026-10-30",
+    "lat": 43.293233,
+    "lng": 5.39175,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/8730fe2a-e46d-3481-9282-5f5bd9387374"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "sunshine-people",
     "name": "Sunshine people",
     "city": "Marseille 5e Arrondissement",
@@ -3353,45 +3372,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "yuksek",
-    "name": "YUKSEK",
-    "city": "Arles",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "Figure majeure de la scène électro française, YUKSEK est reconnu pour ses sets aussi élégants qu'explosifs, mêlant disco cosmique, house et électro. Producteur, compositeur et remixeur de renommée…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 43.673919,
-    "lng": 4.623672,
-    "officialUrl": "https://openagenda.com/shotgun/events/yuksek-7815746",
-    "sources": [
-      "https://openagenda.com/shotgun/events/yuksek-7815746"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "jack-de-marseille-by-frankielanuit-4",
-    "name": "Jack de Marseille by frankielanuit #4",
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "description": "Jack de Marseille Pionnier de la musique électro, Jack De Marseille a contribué à l'émergence de la scène électronique française à la fois en tant que DJ, producteur ou encore patron du label Wicked…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 43.607701,
-    "lng": 1.427214,
-    "officialUrl": "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-4",
-    "sources": [
-      "https://openagenda.com/shotgun/events/jack-de-marseille-by-frankielanuit-4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "el-sueno-festival-indoor-edition-2026",
@@ -4181,175 +4161,23 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "bleeding-edgerunners-cyberpriest-carpeteater-c0rpsedecay",
-    "name": "Bleeding Edgerunners | Cyberpriest_CarpetEater_C0rpseDecay",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Bleeding Edgerunners vous plonge au cœur d’une rave cyberpunk dans le bunker le mieux gardé de Paris-Nightcity! Entre clubbing dystopique et show audiovisuel à vous griller les implants optiques,…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 48.853561,
-    "lng": 2.374768,
-    "officialUrl": "https://openagenda.com/shotgun/events/bleeding-edgerunners-or-cyberpriestcarpeteaterc0rpsedecay",
-    "sources": [
-      "https://openagenda.com/shotgun/events/bleeding-edgerunners-or-cyberpriestcarpeteaterc0rpsedecay"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "flymeon-the-techno-rockstar",
-    "name": "FLYMEON - THE TECHNO ROCKSTAR",
-    "city": "Nice",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "[ FLYMEON THE TECHNO ROCKSTAR - @LEFRIGO16 ] Pour notre première au Frigo 16, on voulait marquer le coup avec un artiste qui ne ressemble à aucun autre : FLYMEON. Véritable Rockstar Techno, FLYMEON…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 43.716667,
-    "lng": 7.284023,
-    "officialUrl": "https://openagenda.com/shotgun/events/flymeon-the-techno-rockstar",
-    "sources": [
-      "https://openagenda.com/shotgun/events/flymeon-the-techno-rockstar"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "micro-peniche-from-techno-to-bass-music",
-    "name": "Micro Péniche / From techno to bass music",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "🚤 On repart en croisière sur la Micro Péniche, cette fois en mode techno to bass music ! 🚢 Pour cette soirée un peu spéciale, on a obtenu davantage de son… 🛥 On commencera par une croisière sous…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 48.84701,
-    "lng": 2.361981,
-    "officialUrl": "https://openagenda.com/shotgun/events/micro-peniche-from-techno-to-bass-music",
-    "sources": [
-      "https://openagenda.com/shotgun/events/micro-peniche-from-techno-to-bass-music"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "total-90-x-absolem-2",
-    "name": "TOTAL 90 x ABSOLEM #2",
-    "city": "Marseille",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "TOTAL 90 📼🕹️ Après la première édition Sold Out on remet ça ! On ressuscite l'âge d'or des Raves 90s. Un voyage musical progressif, de la Classic House solaire à la Trance 90 ! L'OUTFIT 90 EST…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 43.300372,
-    "lng": 5.364239,
-    "officialUrl": "https://openagenda.com/shotgun/events/total-90-x-absolem-2",
-    "sources": [
-      "https://openagenda.com/shotgun/events/total-90-x-absolem-2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "tech2k-w-urva-estreva-lacrizomike-2000-and-more",
-    "name": "Tech2K w/ Urva Estreva, LACRIZOMIKE 2000, and more...",
-    "city": "Lyon",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "Tech2K débarque à Lyon pour une soirée années 2000 x Techno ❤️‍🔥 Fusion explosive entre l’esthétique Y2K et la scène techno, cette soirée queer célèbre les nuits libres. Tech2K, c’est un cri…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 45.773503,
-    "lng": 4.797719,
-    "officialUrl": "https://openagenda.com/shotgun/events/tech2k-w-urva-estreva-lacrizomike-2000-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/tech2k-w-urva-estreva-lacrizomike-2000-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "plein-phare-x-la-rave-en-f2f-face-a-face-scene-360",
-    "name": "PLEIN PHARE x LA RAVE EN F2F (FACE À FACE) - SCÈNE 360°",
-    "city": "Ramonville-Saint-Agne",
-    "region": "Occitanie",
-    "description": "⚙️ PLEIN PHARE X LA RAVE EN F2F (Face à Face) - SCÈNE 360° ⚙️ ⛓️ LE BIKINI // VENDREDI 23 OCTOBRE 🪩 Venez vivre une nuit dédiée aux musiques électroniques intenses : techno, trance bouncy, hard…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 43.548049,
-    "lng": 1.485405,
-    "officialUrl": "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-f2f-face-a-face-scene-360",
-    "sources": [
-      "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-f2f-face-a-face-scene-360"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "fight-club-snoritz-gio-dvaid-kh-ng-eva-vrijdag",
-    "name": "FIGHT CLUB : SNORITZ, GIO, DVAID, KHØNG, Eva Vrijdag",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Pour notre dernière date en open air de la saison, on revient avec de la trance, de la bounce et plusieurs surprises qui navigueront entre les deux. Au programme : DVAID EVAJANE EVA VRIJDAG GIØ…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 48.896296,
-    "lng": 2.393567,
-    "officialUrl": "https://openagenda.com/shotgun/events/fight-club-snoritz-gio-dvaid-khong-eva-vrijdag",
-    "sources": [
-      "https://openagenda.com/shotgun/events/fight-club-snoritz-gio-dvaid-khong-eva-vrijdag"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "live-impact-todiefor-ophidian-contrefacon-ketut",
-    "name": "LIVE IMPACT // TODIEFOR - OPHIDIAN - CONTREFAÇON - KETUT",
-    "city": "Bordeaux",
+    "slug": "magnezik-festival-2",
+    "name": "MAGNEZIK FESTIVAL #2",
+    "city": "Jonzac",
     "region": "Nouvelle-Aquitaine",
-    "description": "LIVE IMPACT VENDREDI 23 OCTOBRE 2026 📍HANGAR DS - 17 rue Édouard Faure, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ ► TODIEFOR ► OPHIDIAN ► CONTREFAÇON ► KETUT ► HATHORA 🎵 Rap Rave /…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 44.885732,
-    "lng": -0.544529,
-    "officialUrl": "https://openagenda.com/shotgun/events/live-impact-todiefor-ophidian-contrefacon-ketut",
+    "description": "⚡ MAGNEZIK FESTIVAL 2027 – 2 JOURS DE SON, D’ÉNERGIE ET DE TECHNO ! ⚡ Après une première édition qui a rassemblé plus de 400 festivaliers, MAGNEZIK revient en 2027 pour une deuxième édition encore…",
+    "startDate": "2027-04-30",
+    "endDate": "2027-05-02",
+    "lat": 45.438414,
+    "lng": -0.42195,
+    "officialUrl": "https://openagenda.com/shotgun/events/magnezik-festival-2",
     "sources": [
-      "https://openagenda.com/shotgun/events/live-impact-todiefor-ophidian-contrefacon-ketut"
+      "https://openagenda.com/shotgun/events/magnezik-festival-2"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "thunder-anderex-nivk-mxgn-live-shogun-heartreaver",
-    "name": "THUNDER : ANDEREX, NIVK, MXGN (LIVE), SHOGUN, HEARTREAVER",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Entre ombre et lumière, THUNDER prône une techno actuelle et éclectique dans un cadre unique où respect, plaisir et bienveillance se mélangent. Le 23 Octobre 2026, THUNDER prend une nouvelle fois le…",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 48.89659,
-    "lng": 2.395474,
-    "officialUrl": "https://openagenda.com/shotgun/events/thunder-anderex-nivk-mxgn-live-shogun-heartreaver",
-    "sources": [
-      "https://openagenda.com/shotgun/events/thunder-anderex-nivk-mxgn-live-shogun-heartreaver"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "milio-ruando-all-night-long-techno-acid-trance",
@@ -5437,27 +5265,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "rave-against-fascism",
-    "name": "Rave Against Fascism",
-    "city": "Lyon",
-    "address": "Le Sucre, 50 quai Rambaud, 69002 Lyon, France",
-    "region": null,
-    "startDate": "2026-10-23",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2556886",
-    "lineup": [
-      "Oreille Interne"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2556886"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "encore-x-23-59-line-up-xxl",
     "name": "ENCORE x 23:59 - LINE-UP XXL",
     "city": "Lyon cedex O",
@@ -5579,25 +5386,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "mikuna-rooftop-closing-last-sunset",
-    "name": "Mikuna Rooftop Closing - Last Sunset",
-    "city": "Paris",
-    "address": "Terraza Mikuna, 1 Rue des Archives, 75004 Paris, France",
-    "region": null,
-    "startDate": "2026-10-23",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2564674",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2564674"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-litoshka-casimir-loukoum",
@@ -6012,6 +5800,33 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "pisica-noise-mafia-dj-guestlist-two-girls-one-mom-more",
+    "name": "Pisica: Noise Mafia, DJ GUESTLIST, two girls one mom & More",
+    "city": "Paris",
+    "address": "Mia Mao, 12a rue Ella Fitzgerald, 75019, Paris, FRANCE",
+    "region": null,
+    "startDate": "2026-11-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2538507",
+    "lineup": [
+      "Annie",
+      "DJ GUESTLIST",
+      "Justin Tinderdate",
+      "Elotrance",
+      "KARISH",
+      "Noise Mafia",
+      "two girls one mom"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2538507"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "matchplay-haunted-house",
