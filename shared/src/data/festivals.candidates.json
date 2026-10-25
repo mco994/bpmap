@@ -228,25 +228,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "festival-michto-xxe",
-    "name": "Festival - Michtô XXe",
-    "city": "Malzéville",
-    "region": null,
-    "description": "Pour ses 20 ans, le Festival Michtô déploie 6 jours de fête à Maxéville ! Cirque, théâtre de rue, spectacles, concerts, DJ sets, gazette et autres surprises s'enchaîneront - dans le cadre d'une scénographie unique - pour célébrer ensemble ces 20 ans d'aventure collective.\n\nEn 2026 Michtô a 20 ans et la fête promet d'être belle. Qu'est ce qu'on fête? \nLa (méga) force du collectif \nLa compatibilité entre expérimentation et réglementation \nLa naissance et la pérennisation du MEM\\u00d4, un outil au service de la création, des pratiques artistiques et de la rencontre construit et géré collectivement. \n\nOn fête les 20 ans à venir, les défis relevés et ceux qui arrivent, on fête le retour du public sur le site du MEMÔ et la confirmation que d'autres modes d'actions sont non seulement légitimes mais aussi générateurs de créativité, de convivialité et d'émancipation.  \nSeront notamment réunis pour cette grande fête : Le Grand Colossal Théâtre, La Dépliante, Maboul Distorsion, La Famille Goldini, Underclouds, Spectralex, Cie Rouge Carmin, Margo Chou, Nicanor de Elia, Paon dans le ciment, Cirque Gones, Muchmuche Compagny, Underclous Cie, Pour que tu m'aimes, V-Randa Fatale, Krinator, Selecta Bonbon, Blond Bélier, Vin de Sprite, The Dreams, DJs Catapulte, Super Parquet, Tout est cassé, Jonas Stax, Teuf Teuf, DJ Chapelier Fou, Choolers Division, Dimanche Eternel, Johnny from Disco aux côtés d'artistes complices et du Collectif Michtô. Ce sera aussi une multitude de projets participatifs et célébratifs imaginés spécialement pour cet anniversaire : des installations, une gazette, des surprises, des retrouvailles, des souvenirs à partager !\n\nToute la programmation est disponible sur le site internet.",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 48.704804425335,
-    "lng": 6.16549730300903,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/7ac502f4-a4a7-3210-9070-46531dec2191"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
     "slug": "danse-hit-hip-pop-classic-parade-danse-participative",
     "name": "Danse - Hit Hip Pop Classic Parade, danse participative",
     "city": "Metz",
@@ -278,25 +259,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/86fabf96-a45e-3b86-819e-c3e3606898ad"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "la-p-tite-fumee-m-o-k-o",
-    "name": "LA P'TITE FUMÉE + M.O.K.O",
-    "city": "Meisenthal",
-    "region": null,
-    "description": "La P’tite Fumée signe son grand retour avec une nouvelle tournée explosive. Un live repensé, plus puissant et immersif que jamais, où leur électro instrumentale prend une toute autre dimension.\n\nÀ l’aube de ce nouveau chapitre, la machine LPF se réinvente dans une forme plus affirmée, sans rien perdre de l’énergie brute qui fait sa signature. La voix s’invite désormais au cœur du projet, ouvrant de nouveaux horizons et renforçant l’impact collectif du show.\n\nRythmiques incisives, mélodies envoûtantes et instruments atypiques se mêlent à des flows tranchants et des lignes vocales fédératrices. L’expérience s’annonce intense, organique et hors du commun, portée par un show incandescent. Une formule taillée pour le live, à la croisée des classiques du groupe et de ses nouvelles productions. © Base Productions",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-24",
-    "lat": 48.9654275469703,
-    "lng": 7.35317407329899,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/ab37a255-74fb-309f-b5db-29afb7162ee9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1121,25 +1083,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-tabasco-re-a-la-tour-du-jeu",
-    "name": "CONCERT : Tabasco're à la Tour du Jeu",
-    "city": "Bourges",
-    "region": null,
-    "description": "Amateurs de sensations musicales fortes, rendez-vous à Bourges pour une soirée punk et métal hardcore avec les groupes Crise, Brique et I've Learned !",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-24",
-    "lat": 47.087457,
-    "lng": 2.388239,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/7dd163f9-22d6-38e4-89f1-9fd75c048713"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "folies-berruyeres-concerts-a-l-o2g-le-closing",
     "name": "FOLIES BERRUYÈRES : Concerts à l' O2G Le Closing",
     "city": "Bourges",
@@ -1311,6 +1254,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "concert-d-automne",
+    "name": "Concert D'Automne",
+    "city": "Fontanes",
+    "region": null,
+    "description": "<p><span style=\"color: rgb(85, 85, 85);\">Un concert choral réunissant plusieurs chorales Voix de Chœur de Lamolayrette et Chant-A-Lot! With soloists Darron Moore and Katy Batho from the Royal Opera House Covent Garden, London</span></p>",
+    "startDate": "2026-11-22",
+    "endDate": "2026-11-22",
+    "lat": 44.31141,
+    "lng": 1.49808136,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/22/e1995216-e6c6-3e4a-af0d-422fae5813bc"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "seance-de-danse-disco",
     "name": "Séance de danse disco",
     "city": "Arthez-de-Béarn",
@@ -1445,25 +1407,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "festival-techno-arts",
-    "name": "Festival Techno Arts",
-    "city": "Lesparre-Médoc",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-23",
-    "endDate": "2026-10-24",
-    "lat": 45.3084878,
-    "lng": -0.9384671,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/7ed076c0-0896-3d3d-9750-0ee14c890f33"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "concert-reggae-dub-vibes",
@@ -2629,6 +2572,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "auxsons-10",
+    "name": "#AUXSONS 10",
+    "city": "Chanac",
+    "region": null,
+    "description": "Musiques ouvertes sur les vibrations du monde\nUne soirée solaire et dansante avec KUTU, pour faire dialoguer les musiques d’Éthiopie, le jazz et l’électro et célébrer les 10 ans d’AUXSONS !\n\nParce que les musiques du monde et les musiques traditionnelles sont des espaces de rencontre, de fête et de diversité culturelle, Détours du Monde et Scènes Croisées de Lozère s’associent pour la 10e édition",
+    "startDate": "2027-04-02",
+    "endDate": "2027-04-02",
+    "lat": 44.4650986,
+    "lng": 3.3471481,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/45/e4460fd1-8082-379a-ad90-1bf9da876dda"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "ballet-de-lorraine-l-age-d-or-et-rave",
     "name": "Ballet de Lorraine : L'âge d'or et Rave",
     "city": "Le Mans",
@@ -3242,7 +3204,7 @@
   },
   {
     "slug": "michael-amram-duo-monsieur-madame",
-    "name": "Michael Amram / Duo Monsieur Madame",
+    "name": "Michael Amram -Duo Monsieur Madame",
     "city": "Marseille 2e Arrondissement",
     "region": null,
     "description": "Pop rock, variété, électro – concert live",
@@ -3277,6 +3239,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "alpilium-rave-lucid",
+    "name": "Alpilium:\"Rave Lucid\"",
+    "city": "Saint-Rémy-de-Provence",
+    "region": null,
+    "description": "Plongez dans l'univers électrisant de Rave Lucid, un spectacle de danse électro hypnotique et survolté signé par la compagnie Mazelfreten !",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-10",
+    "lat": 43.793476,
+    "lng": 4.842486,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/f6036d60-2375-31d6-b0e8-6b2cc5a3fd55"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "le-disco-kiosque-d-halloween-dancefloor-pour-les-petit-e-s",
@@ -3372,82 +3353,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "el-sueno-festival-indoor-edition-2026",
-    "name": "EL SUENO Festival indoor édition 2026",
-    "city": "Laudun-l'Ardoise",
-    "region": "Occitanie",
-    "description": "🌿 INDOOR ÉDITION – SAMEDI 24 OCTOBRE | 19H – 01H 📍 Salle le FORUM, commune de LAUDUN-l'ARDOISE 🌿 Venez vivre une grande première au FORUM avec cette soirée électro au format boiler et partagez…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 44.096413,
-    "lng": 4.678171,
-    "officialUrl": "https://openagenda.com/shotgun/events/el-sueno-festival-indoor-edition-2026",
-    "sources": [
-      "https://openagenda.com/shotgun/events/el-sueno-festival-indoor-edition-2026"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "dark-side-of-the-line-presente-twisted-minds",
-    "name": "Dark Side of the Line présente: TWISTED MINDS",
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "description": "SAM 24.10.2026 Dark Side of the Line présente: TWISTED MINDS Un an après sa dernière apparition à Lorganiq, le Dark Side signe son grand retour rue Bourbon pour une session techno à huis clos...…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 44.85996,
-    "lng": -0.556815,
-    "officialUrl": "https://openagenda.com/shotgun/events/dark-side-of-the-line-presente-twisted-minds",
-    "sources": [
-      "https://openagenda.com/shotgun/events/dark-side-of-the-line-presente-twisted-minds"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "instrumental",
-    "name": "INSTRUMENTAL",
-    "city": "Villeurbanne",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "ATTENTION : la soirée est réservées aux personnes majeures ----- HILIGHT TRIBE FR – Natural Trance Ambassadeurs des peuples du monde, les 6 membres d’Hilight Tribe surfent la vague de la Natural…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 45.783899,
-    "lng": 4.860448,
-    "officialUrl": "https://openagenda.com/shotgun/events/instrumental",
-    "sources": [
-      "https://openagenda.com/shotgun/events/instrumental"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "hyperbrat-xxl-2nd-anniversary-special-guest-ruby-nikara",
-    "name": "Hyperbrat xxl 2nd anniversary : special guest Ruby Nikara",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "HYPERBRAT XXL : MORE HYPERPOP, MORE TECHNO, MORE HYPERBRAT 2ND BIRTHDAY EDITION <3 SPECIAL GUEST RUBY NIKARA (LIVE) +1 HOUR OF PARTY (WINTER TIME BB!) 2 ans d'hyperpop, de cunt, d'électropop et de…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 48.835526,
-    "lng": 2.376712,
-    "officialUrl": "https://openagenda.com/shotgun/events/hyperbrat-xxl-2nd-anniversary-special-guest-ruby-nikara",
-    "sources": [
-      "https://openagenda.com/shotgun/events/hyperbrat-xxl-2nd-anniversary-special-guest-ruby-nikara"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "nathalie-froehlich",
@@ -4180,18 +4085,18 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
-    "slug": "milio-ruando-all-night-long-techno-acid-trance",
-    "name": "MILIO RUANDO ALL NIGHT LONG (TECHNO, ACID & TRANCE)",
-    "city": "Toulouse",
+    "slug": "eyeland-festival-tarn",
+    "name": "Eyeland Festival_Tarn",
+    "city": "Albi",
     "region": "Occitanie",
-    "description": "🌀 MILIO RUANDO ALL NIGHT LONG 🌀 🔊 TECHNO, ACID & TRANCE Samedi 24 octobre, Milio Ruando investit Le Rex de Toulouse pour une nuit 100% Techno & Acid 🧪🔊 À la croisée de la trance, de l’acid et…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 43.611989,
-    "lng": 1.438322,
-    "officialUrl": "https://openagenda.com/shotgun/events/milio-ruando-all-night-long-techno-acid-and-trance",
+    "description": "Eyeland Festival_002 18_21 juin 2027 Secret Spot Tarn Location ---- Soundsystem Festival Dub - Techno - Drum N Bass Scéno - Visual art - Structures - Vjing Camping Piscine Forest ----- programmation…",
+    "startDate": "2027-06-18",
+    "endDate": "2027-06-21",
+    "lat": 43.924869,
+    "lng": 2.148679,
+    "officialUrl": "https://openagenda.com/shotgun/events/eyeland-festivaltarn",
     "sources": [
-      "https://openagenda.com/shotgun/events/milio-ruando-all-night-long-techno-acid-and-trance"
+      "https://openagenda.com/shotgun/events/eyeland-festivaltarn"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -4199,80 +4104,24 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "overqueer-queer-techno-rave",
-    "name": "OVERQUEER [Queer Techno Rave]",
-    "city": "Montpellier",
-    "region": "Occitanie",
-    "description": "10 éditions. Des milliers de danseur·euses, des nuits de techno, de performances drag et de moments inoubliables, et après quelques mois loin du dancefloor… WE’RE SO BACK ✨ Pour cette nouvelle et…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 43.588015,
-    "lng": 3.886177,
-    "officialUrl": "https://openagenda.com/shotgun/events/overqueer-queer-techno-rave",
-    "sources": [
-      "https://openagenda.com/shotgun/events/overqueer-queer-techno-rave"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "acid-kiss-dj-pierre-miss-djax-dr-rubinstein-more",
-    "name": "ACID KISS : DJ PIERRE, MISS DJAX, DR RUBINSTEIN & more",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Le 24 octobre, l’acid prend possession du Kilomètre25. Née à Chicago au milieu des années 80, l’acid house s’est construite autour d’un son nouveau : celui de la Roland TB-303, ses lignes de basse…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 48.896296,
-    "lng": 2.393567,
-    "officialUrl": "https://openagenda.com/shotgun/events/acid-kiss-dj-pierre-miss-djax-dr-rubinstein-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/acid-kiss-dj-pierre-miss-djax-dr-rubinstein-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "inner-rave-100-techno-tempelhof-dieze-warehouse",
-    "name": "INNER RAVE - 100% TECHNO - TEMPELHOF - DIEZE WAREHOUSE",
-    "city": "Montpellier",
-    "region": "Occitanie",
-    "description": "BIM : Inner Rave débarque au Tempelhof, la deuxième salle du Dieze Warehouse, le samedi 24 octobre de 00h à 06h ! 🔉 Ralentissons la course au BPM et revenons, ensemble, vers des expériences sonores…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 43.584673,
-    "lng": 3.877688,
-    "officialUrl": "https://openagenda.com/shotgun/events/inner-rave-100percent-techno-tempelhof-dieze-warehouse",
-    "sources": [
-      "https://openagenda.com/shotgun/events/inner-rave-100percent-techno-tempelhof-dieze-warehouse"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
-    "name": "LA KERMESS SUMMER RAVE // TRYPDO - AMRK - EMIRA - ZARAKI",
-    "city": "Bordeaux",
+    "slug": "izon-summer-festival-3",
+    "name": "Izon Summer Festival #3",
+    "city": "Izon",
     "region": "Nouvelle-Aquitaine",
-    "description": "SUMMER RAVE DE LA KERMESS VENDREDI 24 OCTOBRE 2026 📍 L’Entrepôt – 36 av. du Dr Schinazi, 33300 Bordeaux 🕘 00:00 – 06:30 —————— LINE-UP —————— TRYPDO AMRK EMIRA ZARAKI —————— INFOS —————— 🚊 ACCÈS…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 44.883598,
-    "lng": -0.541265,
-    "officialUrl": "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki",
+    "description": "☀️ **IZON SUMMER FESTIVAL 2027** ☀️ Prépare-toi à vivre l'un des plus grands rendez-vous électro du libournais ! 🎧SOUND OF LEGEND 🎧 XKA Le Izon Summer Festival revient pour une nouvelle édition…",
+    "startDate": "2027-06-26",
+    "endDate": "2027-06-27",
+    "lat": 44.920034,
+    "lng": -0.361672,
+    "officialUrl": "https://openagenda.com/shotgun/events/izon-summer-festival-3",
     "sources": [
-      "https://openagenda.com/shotgun/events/la-kermess-summer-rave-trypdo-amrk-emira-zaraki"
+      "https://openagenda.com/shotgun/events/izon-summer-festival-3"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "isFestival": false,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "kx-chr-dark-rave-x-la-cervoiserie-dinan",
@@ -5052,25 +4901,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "izon-summer-festival-3",
-    "name": "Izon Summer Festival #3",
-    "city": "Izon",
-    "region": "Nouvelle-Aquitaine",
-    "description": "☀️ **IZON SUMMER FESTIVAL 2027** ☀️ Prépare-toi à vivre l'un des plus grands rendez-vous électro du libournais ! 🎧SOUND OF LEGEND 🎧 XKA Le Izon Summer Festival revient pour une nouvelle édition…",
-    "startDate": "2027-06-26",
-    "endDate": "2027-06-27",
-    "lat": 44.920034,
-    "lng": -0.361672,
-    "officialUrl": "https://openagenda.com/shotgun/events/izon-summer-festival-3",
-    "sources": [
-      "https://openagenda.com/shotgun/events/izon-summer-festival-3"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
     "slug": "printemps-de-bourges",
     "name": "Printemps de Bourges",
     "city": "Bourges",
@@ -5265,32 +5095,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "encore-x-23-59-line-up-xxl",
-    "name": "ENCORE x 23:59 - LINE-UP XXL",
-    "city": "Lyon cedex O",
-    "address": "Halle Tony Garnier, 20 pl. Charles et Christophe Mérieux 69363 Lyon cedex O7",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2452446",
-    "lineup": [
-      "Vieze Asbak",
-      "SLVL",
-      "ECZODIA",
-      "Marie Vaunt",
-      "Lola Cerise",
-      "Riana Holley"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2452446"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "haunted-mansion-3",
     "name": "Haunted Mansion 3",
     "city": "Lyon",
@@ -5382,106 +5186,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2555425"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-litoshka-casimir-loukoum",
-    "name": "After O'Clock X La Plage Open Air: Litoshka, Casimir, Loukoum",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2555567",
-    "lineup": [
-      "Litoshka",
-      "Loukoum"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2555567"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "brodinski-and-warzou-pres-audio-waste-management-paris",
-    "name": "Brodinski and Warzou pres. Audio Waste Management (Paris)",
-    "city": "Paris",
-    "address": "Lithium Paris, 6 Rue Saint-Blaise, 75020 Paris",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2540578",
-    "lineup": [
-      "Brodinski",
-      "Warzou",
-      "Elvira (1)",
-      "ohjeelo",
-      "Subsism",
-      "Westdale"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2540578"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "pygments-extended-human-safari-alhena-groundstate",
-    "name": "Pygments Extended: Human Safari, Alhena, Groundstate,",
-    "city": "Paris",
-    "address": "Le 211, 211 Av. Jean Jaurès, 75019",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "officialUrl": "https://ra.co/events/2553765",
-    "lineup": [
-      "Human Safari",
-      "Marabou (2)",
-      "Alhena_",
-      "Gabbor",
-      "Terminal Trax",
-      "In-Tan"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2553765"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "5-years-of-love-in-the-endz",
-    "name": "5 years of Love In The Endz",
-    "city": "Paris",
-    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
-    "region": null,
-    "startDate": "2026-10-24",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2551201",
-    "lineup": [
-      "MALAISE VAGAL",
-      "Rebequita",
-      "rougail space program",
-      "Daviaa",
-      "Erna (FR)",
-      "Racing Nokia"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2551201"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5829,6 +5533,58 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "bait-traverse",
+    "name": "Bait & traverse",
+    "city": "Paris",
+    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
+    "region": null,
+    "startDate": "2026-11-13",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2539783",
+    "lineup": [
+      "Château Flight",
+      "Gilb'R",
+      "I:Cube",
+      "Soa420",
+      "OLGA B.",
+      "Beatrice M."
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2539783"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "sacre-presente-swell-curated-by-maxye",
+    "name": "Sacré présente: Swell curated by Maxye",
+    "city": "Paris",
+    "address": null,
+    "region": null,
+    "startDate": "2026-11-14",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2556800",
+    "lineup": [
+      "Laura De Greef",
+      "Lyss",
+      "Maxye",
+      "Mely",
+      "Naajet (2)",
+      "Swooh"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2556800"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "matchplay-haunted-house",
     "name": "Matchplay Haunted House",
     "city": "Paris",
@@ -5851,22 +5607,44 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "dub-night-6",
-    "name": "Dub Night #6",
-    "city": "Pantin",
+    "slug": "house-in-symphony-soul-frequency-onibaku-more",
+    "name": "House in Symphony: Soul Frequency, Onibaku & more",
+    "city": "Paris",
     "region": "Île-de-France",
     "description": "",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-11",
     "lat": null,
     "lng": null,
-    "officialUrl": "https://dice.fm/event/6aa0255193ac3f0001fde6e8",
+    "officialUrl": "https://dice.fm/event/6ad5ef07edb643000169f6f8",
     "lineup": [],
     "source": "dice",
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6aa0255193ac3f0001fde6e8"
+      "https://dice.fm/event/6ad5ef07edb643000169f6f8"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-ch-ck-the-golden-era-of-edm",
+    "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-13",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6adb96cd79b9350001aaa2cf",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6adb96cd79b9350001aaa2cf"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5893,28 +5671,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "vip-is-life-danakil-pony-pony-run-run-billie-violet-indigo-goodbye-karell-michel-hubert-taalkimia-et-asna-presente-rave-in-town",
-    "name": "VIP IS LIFE ... (DANAKIL, PONY PONY RUN RUN, BILLIE, VIOLET INDIGO, GOODBYE KARELL, MICHEL HUBERT, TAALKIMIA et  ASNA présente RAVE IN TOWN)",
-    "city": "Saint-Nazaire",
-    "region": "Pays de la Loire",
-    "description": "",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a22c83cb7aefd000152fc91",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a22c83cb7aefd000152fc91"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "grandmas-house-nobody-s-fault",
