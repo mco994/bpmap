@@ -437,6 +437,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "soiree-techno-mikrokosmos-3",
+    "name": "Soirée Techno Mikrokosmos #3",
+    "city": "Épinal",
+    "region": null,
+    "description": "Mikrokosmos revient à La Souris Verte pour une troisième édition entre techno hypnotique, hard techno, live modulaire et sonorités house.\n\nAu programme :\nAngel Karel — hard techno puissante et rave post-apocalyptique\nNCFB — kicks massifs, basses lourdes et énergie brute\nDfø — live techno modulaire, hypnotique et improvisée\nEdalma — techno progressive, mélodique et immersive\nARZT — exceptionnellement en mode low BPM, house & afro house\nMadou Visual viendra compléter l’expérience avec un vidéo mapping psychédélique et immersif.\nEt si vous avez besoin de covoiturer, ça se passe ici :\nhttps://www.covievent.org/covoiturage/mikrokosmos-3/85df9525d98f06bf74c1b1e693af06ee",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-19",
+    "lat": 48.1759,
+    "lng": 6.443666,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/e1cb93c7-be7c-3367-8fbb-f81450c757dd"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-libere-par-fergessen",
     "name": "concert  - Libère par Fergessen",
     "city": "Épinal",
@@ -544,25 +563,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/2709df66-0d55-3f5c-bf29-106842a2f1d2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "nuit-encore-x-23-59",
-    "name": "Nuit encore X 23:59",
-    "city": "Lyon 7e Arrondissement",
-    "region": null,
-    "description": "De retour à la Halle pour une nouvelle édition 100% Hard Techno !",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 45.730754,
-    "lng": 4.825432,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/345b7574-0554-3f70-ac1b-640bee8d6206"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1886,25 +1886,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "25-ans-ca-file-week-end-anniversaire",
-    "name": "25 ans, ça file ! Week-end anniversaire",
-    "city": "Roubaix",
-    "region": null,
-    "description": "**Prêts à faire la fête ?** En 2001 voyaient le jour à Roubaix les musées [La Piscine](https://www.roubaix-lapiscine.com/) et La Manufacture ainsi que Roubaix Ville d’art et d’histoire. Débutaient alors trois aventures culturelles qui s’entrecroisent depuis maintenant 25 ans dans une même ville au patrimoine reconnu et reconverti.  \n  \nQue ce soit dans l’écrin Art déco de La Piscine ou l’atmosphère intimiste de La Manufacture, danse, concerts et banquet vous attendent les **23, 24 et 25 octobre** pour un **week-end festif hors-normes** en lien avec les talents et les partenaires les plus créatifs de la région !\n\n### Au programme de ce week-end anniversaire **à La Manufacture** :\n\n### **Samedi 24 octobre | Goûter festif**\n\nDe 16h30 à 18h  \nLa Manufacture vous invite à célébrer notre triple anniversaire à l’occasion d’un goûter convivial et festif, animé par les rythmes « trans-pop-disco-groovy » de la fanfare lilloise [La Frange](https://www.instagram.com/la.frange.fanfare/)\n\n### **Dimanche 25 octobre | Clôture en musique**\n\nPerformances à 17h et 18h  \nSoufflet à tisser, spectacle musical et visuel imaginé par Laure Chailloux de la [cie Métalu à chahuter](https://www.instagram.com/metaluachahuter/?hl=fr)  \nÀ l’accordéon diatonique, l’artiste dialogue avec les anciennes machines à tisser, dont les rythmes, les vibrations et les mouvements deviennent de véritables éléments musicaux.  \nLe parcours met en parallèle le soufflet de l’accordéon, les fils, les cartons et la mécanique des métiers à tisser, dans un jeu entre puissance et grâce.  \nUne scénographie lumineuse guide le public de machine en machine, sans parole ni explication historique, pour favoriser une expérience immersive et poétique.\n\n### **En continu les 24 et 25 octobre**\n\n\\> Le Gang des Tricoteuses vous invite à un goûter d’anniversaire haut en couleurs ! Découvrez un banquet étonnant, **entièrement imaginé en tricot et en crochet**, où gourmandises textiles et créations insolites se mêlent dans une ambiance joyeuse et conviviale.  \n\\> [**Roubaix Génie textile**](https://lamanufacture-roubaix.com/fr/programmation/des-liens-a-proteger/), une exposition proposée par le label Ville d’art et d’histoire pour célébrer la richesse et la diversité des actrices et des acteurs textiles roubaisiens  \n\\> Médiation volante et visites guidées du musée  \n\\> Une exposition rétrospective de 25 ans d'affiches de La Manufacture La Piscine sera aussi à découvrir au [Grand Bassin](https://www.legrandbassin.fr/) !\n\n[**📅 À La Piscine ou dans Roubaix, découvrez l'intégralité du programme de ce triple anniversaire !**](https://www.roubaix-lapiscine.com/wp-content/uploads/2026/09/affiche-programme-V13.pdf)\n\n_L’identité visuelle et la conception graphique de cette célébration ont été réalisées avec la participation des étudiants de l’ESAAT, dont le regard créatif a contribué à donner forme à cet anniversaire partagé._",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 50.683047,
-    "lng": 3.195905,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/ef4b6fe0-155e-3dd7-8456-a3a83ac201fa"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "ndk-nights-mac-declos-all-night-long",
     "name": "NDK Nights - Mac Declos : All Night Long",
     "city": "Caen",
@@ -2335,25 +2316,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/baad3768-7458-38de-a375-b55f354c50e8"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-shama-world-music-electro-et-trip-hop",
-    "name": "Concert : Shama (World music, électro et trip-hop)",
-    "city": "Quimperlé",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-25",
-    "endDate": "2026-10-25",
-    "lat": 47.8706346,
-    "lng": -3.5528503,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/c45159ef-c554-36df-9b24-6f27bcf17a67"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -5147,6 +5109,27 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "rave-records",
+    "name": "RAVE RECORDS",
+    "city": "Marseille",
+    "address": "Le Chapiteau - Marseille, 38 TVS Notre Dame De Bon Secours",
+    "region": null,
+    "startDate": "2026-11-06",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2569478",
+    "lineup": [
+      "Marquise"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2569478"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "dreamachine-festival-petit-cab",
     "name": "Dreamachine Festival @ Petit Cab",
     "city": "MARSEILLE",
@@ -5190,54 +5173,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "after-voltage-d-ko-records-mezigue-benedetta-gggg-b2b-mad-rey-romain-play-marli",
-    "name": "After VOLTAGE + D.KO Records: Mézigue, Benedetta, GGGG b2b Mad Rey, Romain Play, Marli",
-    "city": "Paris",
-    "address": "Le Zeralda, 125 avenue Gallieni, Bagnolet",
-    "region": null,
-    "startDate": "2026-10-25",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2561430",
-    "lineup": [
-      "Benedetta",
-      "GGGG",
-      "Mad Rey",
-      "Marli",
-      "Mézigue",
-      "Romain Play"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2561430"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-kheli-racing-nokia-lunr",
-    "name": "After O'Clock X La Plage Open Air: kheli, Racing Nokia, LUNR",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-10-25",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2564416",
-    "lineup": [
-      "kheli",
-      "Racing Nokia"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2564416"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "dream-nation-festival-halloween-edition-paris",
@@ -5338,6 +5273,33 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "flash-cocotte-halloween-edition",
+    "name": "Flash Cocotte Halloween Edition",
+    "city": "Paris",
+    "address": "Wanderlust, 32 quai d'Austerlitz, 75013 Paris",
+    "region": null,
+    "startDate": "2026-10-31",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2541357",
+    "lineup": [
+      "Dj handbag",
+      "Bimini",
+      "Pipi De Frèche",
+      "Rakans",
+      "Kontronatura",
+      "LUXX",
+      "DJ Music"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2541357"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "after-o-clock-x-la-plage-open-air-arnaud-le-texier-don-turi-remain",
     "name": "After O'Clock X La Plage Open Air: Arnaud Le Texier, Don Turi, REMAIN",
     "city": "Paris",
@@ -5380,6 +5342,30 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2554486"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "after-o-clock-x-la-plage-open-air-closing",
+    "name": "After O'Clock X La Plage Open Air: Closing",
+    "city": "Paris",
+    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-11-01",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2569503",
+    "lineup": [
+      "Terminal Trax",
+      "Alhena_",
+      "Axelle Maga",
+      "Romeo Louisa"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2569503"
     ],
     "status": "announced",
     "needsReview": true,
