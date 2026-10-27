@@ -38,6 +38,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-classique-minimal",
+    "name": "Concert classique - Minimal",
+    "city": "Moussey",
+    "region": null,
+    "description": "Avec Vassilena Serafimova, Lou Renaud-Bailly, Thibaut Weber et Hsin-Hsuan Wu, quatre artistes issus des prestigieuses Percussions de Strasbourg nous invitent à découvrir une musique faite de rythmes qui se répètent, évoluent et s’entremêlent progressivement. À travers ce programme hypnotique baptisé Minimal, marimbas et vibraphones feront naître des univers fascinants, tantôt énergiques, tantôt contemplatifs, au fil des œuvres de compositeurs et compositrices de tous horizons. Récemment nommée à la tête de cet ensemble mythique, Vassilena Serafimova y insufflera son extraordinaire virtuosité et sa créativité irrésistible. Une nouvelle aventure musicale à découvrir sur scène ! Concert payant, réservation par téléphone ou internet.",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-14",
+    "lat": 48.674922,
+    "lng": 6.78386,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/13414ab1-4f10-3e3e-afdc-4fb9bf169f3b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-hard-techno-road-to-invasion",
     "name": "Soirée hard techno - Road to Invasion",
     "city": "Bar-le-Duc",
@@ -3462,6 +3481,25 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
+    "slug": "kevber-au-play-rennes-x-la-bete",
+    "name": "KEVBER au PLAY Rennes X La Bête",
+    "city": "Vern-sur-Seiche",
+    "region": "Bretagne",
+    "description": "🎃 HALLOWEEN AU PLAY — KEVBER x LA BÊTE 🍺 Ce samedi 31 octobre, le PLAY à Vern-sur-Seiche passe en mode Halloween ! 👻 Aux platines, KEVBER pour un DJ set entre house, disco et sonorités…",
+    "startDate": "2026-10-31",
+    "endDate": "2026-11-01",
+    "lat": 48.063539,
+    "lng": -1.625257,
+    "officialUrl": "https://openagenda.com/shotgun/events/kevber-au-play-rennes-x-la-bete",
+    "sources": [
+      "https://openagenda.com/shotgun/events/kevber-au-play-rennes-x-la-bete"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "dark-disco-techno-hellisha-sauvage-by-the-petit-london",
     "name": "DARK DISCO) (TECHNO) HELLISHA SAUVAGE BY THE PETIT LONDON",
     "city": "Toulouse",
@@ -4863,6 +4901,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "illusion-rave-rennes",
+    "name": "Illusion Rave : Rennes",
+    "city": "Cesson-Sévigné",
+    "region": "Bretagne",
+    "description": "RENNES, UNE ÉDITION À PART. Le 11 décembre 2027, ILLUSION investit la Glaz Arena pour une date spéciale de sa tournée : un format ALL NIGHT LONG. Pendant 8 heures, la Hard Techno sera au cœur d’un…",
+    "startDate": "2027-12-11",
+    "endDate": "2027-12-12",
+    "lat": 48.11383,
+    "lng": -1.595364,
+    "officialUrl": "https://openagenda.com/shotgun/events/illusion-rave-rennes",
+    "sources": [
+      "https://openagenda.com/shotgun/events/illusion-rave-rennes"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "printemps-de-bourges",
     "name": "Printemps de Bourges",
     "city": "Bourges",
@@ -5002,6 +5059,29 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2486660"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "the-holy-rave-37-dijon",
+    "name": "The Holy Rave #37 - Dijon",
+    "city": "Dijon France",
+    "address": "Bal'tazar, 20 Av Garibaldi, 21000 Dijon France",
+    "region": null,
+    "startDate": "2026-11-13",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2570334",
+    "lineup": [
+      "Idealist (2)",
+      "ERØXX",
+      "Kingsmo"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2570334"
     ],
     "status": "announced",
     "needsReview": true,

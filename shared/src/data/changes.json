@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-10-27:utopia-festival:removed",
+    "festivalId": "utopia-festival",
+    "festivalSlug": "utopia-festival",
+    "festivalName": "Utopia Festival",
+    "type": "removed",
+    "date": "2026-10-27",
+    "summary": "Retiré de la liste."
+  },
+  {
+    "id": "2026-10-27:goutez-electronique-3:removed",
+    "festivalId": "goutez-electronique-3",
+    "festivalSlug": "goutez-electronique-3",
+    "festivalName": "Goûtez Électronique #3",
+    "type": "removed",
+    "date": "2026-10-27",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-10-24:electro-alternativ:removed",
     "festivalId": "electro-alternativ",
     "festivalSlug": "electro-alternativ",
