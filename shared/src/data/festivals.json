@@ -802,6 +802,37 @@
     ]
   },
   {
+    "id": "name-festival-local-suicide-apm001-blac",
+    "slug": "name-festival-local-suicide-apm001-blac",
+    "name": "NAME Festival: Local Suicide, APM001, Blac",
+    "description": "",
+    "startDate": "2026-10-31",
+    "endDate": null,
+    "lat": 50.62678,
+    "lng": 3.07388,
+    "city": "Lille",
+    "region": "Hauts-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2571012",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Local Suicide",
+      "APM001"
+    ],
+    "sources": [
+      "https://ra.co/events/2571012"
+    ]
+  },
+  {
     "id": "isulia-festival-2026",
     "slug": "isulia-festival-2026",
     "name": "Isulia Festival 2026",

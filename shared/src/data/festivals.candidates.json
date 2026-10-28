@@ -285,6 +285,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "halloween-party-night",
+    "name": "Halloween Party Night",
+    "city": "Rustroff",
+    "region": null,
+    "description": "Halloween va monter d'un cran ! Le Club des Jeunes 3 Frontières vous convie à la quatrième édition de la Halloween Party Night.\n\nSortez vos déguisements, préparez-vous à faire la fête… Halloween s’annonce mémorable !\nL'ambiance sera assurée par DCM × Martin Iau aux platines : des hits incontournables à l’électro, jusqu’à la techno. Un seul objectif : vous faire vibrer et danser jusqu’au bout de la nuit. Également sur place: des cocktails mystérieux au bar pour vous envoûter, et des burgers pour reprendre des forces entre deux sets; un verre sera offert à l'entrée.\n\nDéguisement conseillé. Ambiance garantie. Vous êtes prévenus.",
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 49.4416322,
+    "lng": 6.3722707,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/a91e3668-205f-3406-a781-7f690abcc2f7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-okre-nuit-electronique",
     "name": "Concert - OKRE - Nuit électronique",
     "city": "Metz",
@@ -1007,6 +1026,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "supertronica-la-cigue",
+    "name": "SUPERTRONICA   LA CIGUË",
+    "city": "Joué-lès-Tours",
+    "region": null,
+    "description": "Si tu aimes Cocanha, Bacchantes, Poolidor…\n\nSUPER|TRONICA c’est le croisement entre les musiques traditionnelles auvergnates et lituaniennes : une rencontre inédite sur accord electro. Les voix divines de Sutartronica, surplombant des basses profondes et hypnotiques, magnifient le Sutartinès",
+    "startDate": "2026-11-26",
+    "endDate": "2026-11-26",
+    "lat": 47.33938,
+    "lng": 0.6630262,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/1a6c17c8-0b03-3e01-877c-169bfe8a4d7b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "les-jeudis-sonnants-ultra-moderne-electro-clash",
     "name": "Les Jeudis Sonnants - Ultra Moderne (electro clash)",
     "city": "Nogent-le-Rotrou",
@@ -1285,6 +1323,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/22/e1995216-e6c6-3e4a-af0d-422fae5813bc"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "l-automne-sur-un-air-de-disco",
+    "name": "L'Automne sur un air de disco",
+    "city": "Pau",
+    "region": null,
+    "description": "",
+    "startDate": "2026-10-29",
+    "endDate": "2026-10-29",
+    "lat": 43.3212216,
+    "lng": -0.3435928,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/0347c537-81f0-3dce-95c2-43f5f37ca0ad"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2664,25 +2721,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/3154feba-f124-3fe7-a228-997f5e970fb0"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "royal-ballet-opera-au-cinema-l-histoire-de-manon",
-    "name": "Royal Ballet & Opera au cinéma - L’HISTOIRE DE MANON",
-    "city": "Pouzauges",
-    "region": null,
-    "description": "Le Royal Ballet et Le Royal Opera House de Londres vous donne rendez-vous pour la diffusion de spectacles en direct au cinéma !",
-    "startDate": "2026-10-27",
-    "endDate": "2026-10-27",
-    "lat": 46.773482,
-    "lng": -0.8498618,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/49/35508a82-caf8-339e-996d-f4c375428023"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -5625,6 +5663,36 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "ra25-x-dig-deep-free-pop-up-charity-record-store-with-a-side",
+    "name": "RA25 x Dig Deep: Free Pop-Up Charity Record Store with a-side",
+    "city": "Paris",
+    "address": "A-Side, 42 rue de Montreuil, 75011, Paris",
+    "region": null,
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-14",
+    "officialUrl": "https://ra.co/events/2565650",
+    "lineup": [
+      "Bambi (FR)",
+      "Carole Fe",
+      "Danilo Plessow",
+      "DJ Sundae",
+      "Maco Maria",
+      "OLGA B.",
+      "Soyoon",
+      "TONAK",
+      "Tweak Soundsystem",
+      "Zaltan"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2565650"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "sacre-presente-swell-curated-by-maxye",
     "name": "Sacré présente: Swell curated by Maxye",
     "city": "Paris",
@@ -5689,28 +5757,6 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ad5ef07edb643000169f6f8"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "la-ch-ck-the-golden-era-of-edm",
-    "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-12",
-    "endDate": "2026-11-13",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6adb96cd79b9350001aaa2cf",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6adb96cd79b9350001aaa2cf"
     ],
     "status": "announced",
     "needsReview": true,
