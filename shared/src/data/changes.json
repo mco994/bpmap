@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-10-28:name-festival-local-suicide-apm001-blac:added",
+    "festivalId": "name-festival-local-suicide-apm001-blac",
+    "festivalSlug": "name-festival-local-suicide-apm001-blac",
+    "festivalName": "NAME Festival: Local Suicide, APM001, Blac",
+    "type": "added",
+    "date": "2026-10-28",
+    "summary": "Ajouté à Lille — Dates à confirmer."
+  },
+  {
     "id": "2026-10-27:utopia-festival:removed",
     "festivalId": "utopia-festival",
     "festivalSlug": "utopia-festival",
