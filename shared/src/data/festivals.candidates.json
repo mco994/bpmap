@@ -137,7 +137,7 @@
     "name": "Temps de pause, ateliers concerts repas",
     "city": "Rochesson",
     "region": null,
-    "description": "Un moment hors du temps pour se préparer à l'hiver vosgien. Des ateliers toute la journée, un repas et des concerts le soir.\n10h-12h Atelier d'écriture avec Carlo De Sacco, chanteur-percussionniste, auteur-compositeur et interprète du groupe Grèn Sémé et Alsimi / 12h: Repas pour les personnes participants à la journée d'ateliers. / 14h-16h: atelier danse / 16h-18h:Qi gong avec Benoit Lux / Repas: Menu automnale / 20h30 KASLAN, Un trio organique – soubassophone, accordéon et trompette – transcendé par la puissance de l’électro / 22h30 ALSIMI, l’Alchimie musicale de Marie Lanfroy, de Carlo de Sacco et de Bajoun / Tarifs: (tout public/Adhérent) : 1 ateliers: 12€/8€ / Concerts (à partir de 20h30): 15€/10€ / Repas du soir (entrée, plat, dessert)+Concerts: 25€/20€ / 3 Ateliers + repas(midi et soir)+Concerts: 50€/40€ - Attention places limitées pour les ateliers et le repas du soir, réservations par mail ou sms au 0673540525",
+    "description": "Un moment hors du temps pour se préparer à l'hiver vosgien. Trois ateliers (écriture, danse et Qi gong) en journée, un repas confectionné maison, suivi bien sûr d’une soirée endiablée avec 2 concerts aux sonorités électro et musiques du monde. \n10h-12h Atelier d'écriture avec Carlo De Sacco, chanteur-percussionniste, auteur-compositeur et interprète du groupe Grèn Sémé et Alsimi / 12h: Repas pour les personnes participants à la journée d'ateliers. / 14h-16h: Atelier danse F.C.B.D. / 16h-18h: Qi gong avec Benoit Lux / Repas: Menu automnale / 20h30 KASLAN, Un trio organique – soubassophone, accordéon et trompette – transcendé par la puissance de l’électro / 22h30 ALSIMI, l’Alchimie musicale de Marie Lanfroy, de Carlo de Sacco et de Bajoun / Tarifs: (tout public/Adhérent) : 1 ateliers: 12€/8€ / Concerts (à partir de 20h30): 15€/10€ / Repas du soir (entrée, plat, dessert)+Concerts: 25€/20€ / 3 Ateliers + repas(midi et soir)+Concerts: 50€/40€ - Attention places limitées pour les ateliers et le repas du soir, réservations par mail ou sms au 0673540525",
     "startDate": "2026-11-07",
     "endDate": "2026-11-07",
     "lat": 48.0221838605202,
@@ -430,25 +430,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/d4e2da86-2e69-3d6b-8a51-72badc0aa23c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-yvnnis-et-nevon",
-    "name": "Concert - Yvnnis et Nevon",
-    "city": "Nancy",
-    "region": null,
-    "description": "Yvnnis s'impose comme l'une des figures les plus prometteuses du rap français, alliant technicité, régularité et sens artistique affirmé. \n\nRévélé avec ses premiers projets comme PARHELIA et ETERNAL YOUTH, il se détache rapidement par sa polyvalence et ses performances, saluées autant par le public que par les médias comme Booska-P.  En 2023 puis 2024, il confirme son ascension avec NOVAE et L'AFRO OU LES TRESSES (dans lequel on retrouve GARE DU NORD), enchaînant les succès scéniques : salles complètes, festivals majeurs et un Olympia marquant. Sur scène, le natif du 94 se distingue par une énergie intense et communicative, faisant de chacune de ses performances un moment fort.  En 2025, il franchit un cap avec sa première mixtape DND (pour Do Not Disturb). Porté par des collaborations avec So La Lune, J9ueve ou JRK 19, ce projet se veut plus ambitieux et Yvnnis s'illustre dans différents registres en témoigne la diversité des extraits : ÉMOTICÔNE, BIG SHOT présenté chez Colors ou, encore, BARA. Réalisée par son acolyte de toujours Lil Chick, cette mixtape dénote par ses productions de haut standing et vient affirmer sa maturité et curiosité artistique.  Son passage au Grunt Festival en octobre 2025 a marqué les esprits. Yvnnis poursuit donc son ascension en 2026 avec une première partie de tournée complète avec plus de 10000 billets vendus partout en France. \n\n • Première partie - Nevon, candidat de la saison 5 de nouvelle école, âgé de 25 ans, est un artiste originaire du 90. sa plume affute depuis ses 17 ans, il s'inspire en partie de son grand frère qui rappait lui aussi. Il devient Nevon en 2021, et officialise ses premiers morceaux. aujourd'hui sur Paris, c'est dans un univers électronique que Nevon s'est découvert, entre la vraie vie et ses rêves les plus profonds. Sur des instrus deep-house, afro-house, parfois même techno, Nevon se livre en rappant avec nostalgie, et créer un paradoxe des plus intéressant. Habitué à la scène, après plus d'une vingtaine de concerts entre Belfort et la capitale, il participera à la saison 5 de nouvelle école qui sortira fin aout, de quoi lui permettre de s'installer définitivement.\n\nRéservation en ligne.",
-    "startDate": "2026-10-28",
-    "endDate": "2026-10-28",
-    "lat": 48.694135,
-    "lng": 6.198284,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/d8ebda2f-8397-3758-b07b-7a48f88d3d2a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1171,6 +1152,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/aeb23abb-98bd-37a6-b6a6-87d0b2be0316"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-poesie-chevalier",
+    "name": "CONCERT : Poésie Chevalier",
+    "city": "Bourges",
+    "region": null,
+    "description": "Poésie et électro : le corps masculin vu par un regard féminin !",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 47.08144,
+    "lng": 2.3994094,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/b27290de-bb79-30b0-b9df-eb4a8053a91c"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2095,6 +2095,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "le-disco-des-oiseaux-mosai-vincent",
+    "name": "Le Disco des oiseaux - Mosai & Vincent",
+    "city": "Granville",
+    "region": null,
+    "description": "",
+    "startDate": "2027-02-03",
+    "endDate": "2027-02-03",
+    "lat": 48.827175,
+    "lng": -1.555062,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/b2ddc20c-8359-3afd-adf7-6fa1ac02d6a8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "danse-rave-lucid",
     "name": "Danse : Rave Lucid",
     "city": "Le Havre",
@@ -2126,6 +2145,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/30/c36cb88f-e8f1-38e7-b501-135dd5b47e37"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-sprutbass-et-fulgeance-les-boreales",
+    "name": "Concert Sprutbass et Fulgeance - Les Boréales",
+    "city": "Caen",
+    "region": null,
+    "description": "Concert de clôture du festival Les Boréales : Sprutbass et Fulgeance en live pour une soirée électro envoûtante",
+    "startDate": "2026-11-22",
+    "endDate": "2026-11-22",
+    "lat": 49.186585,
+    "lng": -0.3632897,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/cecd4ec9-1756-36bf-95eb-2b1afd5082ff"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3222,25 +3260,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "michael-amram-duo-monsieur-madame",
-    "name": "Michael Amram -Duo Monsieur Madame",
-    "city": "Marseille 2e Arrondissement",
-    "region": null,
-    "description": "Pop rock, variété, électro – concert live",
-    "startDate": "2026-10-28",
-    "endDate": "2026-10-28",
-    "lat": 43.2965,
-    "lng": 5.371989,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/9b5af4f2-b11a-31e9-bd58-904d3ee4e10e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-responsabilite-des-reves",
     "name": "La responsabilité des rêves",
     "city": "Aix-en-Provence",
@@ -3315,25 +3334,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "revival-festival-impetus-hypno5e-hippotraktor-metal-progressif-post-hardcore",
-    "name": "REVIVAL FESTIVAL IMPETUS - HYPNO5E + HIPPOTRAKTOR (Metal progressif / Post-hardcore)",
-    "city": "Belfort",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": 47.6437604,
-    "lng": 6.8437053,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/705dce3b-aabf-3d4f-8a77-0760701bba4b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-reggae-dub",
@@ -4711,6 +4711,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "ouverture-des-pistes-open-air-morex-custom-house",
+    "name": "OUVERTURE DES PISTES // OPEN AIR // MOREX CUSTOM HOUSE",
+    "city": "Vezin-le-Coquet",
+    "region": "Bretagne",
+    "description": "⛷️ OUVERTURE DES PISTES // GRATUIT // MOREX CUSTOM HOUSE ⛷️ 📅 SAMEDI 28 NOVEMBRE 2026 ⏰ 19H00 – 01H00 ❄️ BREAKING NEWS ❄️⁠ Les pistes ouvrent enfin, et pas besoin de skis ! ⛷️❄️ Le samedi 28…",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": 48.105438,
+    "lng": -1.738291,
+    "officialUrl": "https://openagenda.com/shotgun/events/ouverture-des-pistes-open-air-morex-custom-house",
+    "sources": [
+      "https://openagenda.com/shotgun/events/ouverture-des-pistes-open-air-morex-custom-house"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
     "slug": "manu-le-malin-david-asko",
     "name": "Manu Le Malin + David Asko",
     "city": "Lille",
@@ -5637,6 +5656,32 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "dj-polo-romy-white-more-baile-do-gangz-couvre-x-chefs",
+    "name": "DJ Polo, Romy White & More: Baile Do Gangz & Couvre X CHEFs",
+    "city": "Paris",
+    "address": "La Java, 105 rue du faubourg du Temple; 75010; Paris; France",
+    "region": null,
+    "startDate": "2026-11-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2572438",
+    "lineup": [
+      "DJ Polo",
+      "Jeune Gaou",
+      "Tévéa",
+      "DJ FRRR",
+      "Jiken",
+      "CHEF"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2572438"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "bait-traverse",
     "name": "Bait & traverse",
     "city": "Paris",
@@ -5693,26 +5738,19 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "sacre-presente-swell-curated-by-maxye",
-    "name": "Sacré présente: Swell curated by Maxye",
-    "city": "Paris",
-    "address": null,
+    "slug": "jingle-rave-moontrip-x-interference",
+    "name": "Jingle RAVE: Moontrip x Interference",
+    "city": "BALMA",
+    "address": "Interference, 56 route de Lavaur 31130 BALMA",
     "region": null,
-    "startDate": "2026-11-14",
+    "startDate": "2026-12-26",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2556800",
-    "lineup": [
-      "Laura De Greef",
-      "Lyss",
-      "Maxye",
-      "Mely",
-      "Naajet (2)",
-      "Swooh"
-    ],
+    "officialUrl": "https://ra.co/events/2571498",
+    "lineup": [],
     "genreVerified": true,
     "isFestival": false,
     "sources": [
-      "https://ra.co/events/2556800"
+      "https://ra.co/events/2571498"
     ],
     "status": "announced",
     "needsReview": true,
@@ -5735,28 +5773,6 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6aca3c2521d66800016cbad0"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "house-in-symphony-soul-frequency-onibaku-more",
-    "name": "House in Symphony: Soul Frequency, Onibaku & more",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-10",
-    "endDate": "2026-11-11",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ad5ef07edb643000169f6f8",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ad5ef07edb643000169f6f8"
     ],
     "status": "announced",
     "needsReview": true,
