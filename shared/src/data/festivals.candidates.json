@@ -1083,25 +1083,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "les-jeudis-sonnants-tamagotchicas",
-    "name": "Les Jeudis Sonnants - Tamagotchicas",
-    "city": "Nogent-le-Rotrou",
-    "region": null,
-    "description": "CONCERT - TAMAGOTCHICAS > Queer Techno Pop.\n19h : Blind test féministe\n21h : Concert > Concert Tamagotchicas\nLe duo Tamagotchicas mixe pop, techno et tout ce qu'il y a entre les deux, Tamagotchicas invite à la boum et au boum boum Queerfeministe communautaire.\nOuverture des portes dès 18h.",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": 48.319951,
-    "lng": 0.82397,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/792ef540-5574-372a-9c2e-278760f2a9d2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "qui-vive-musique",
     "name": "Qui vive ! - Musique",
     "city": "Pithiviers",
@@ -1330,25 +1311,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "l-automne-sur-un-air-de-disco",
-    "name": "L'Automne sur un air de disco",
-    "city": "Pau",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": 43.3212216,
-    "lng": -0.3435928,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/0347c537-81f0-3dce-95c2-43f5f37ca0ad"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "seance-de-danse-disco",
     "name": "Séance de danse disco",
     "city": "Arthez-de-Béarn",
@@ -1380,6 +1342,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/2b4087c8-b52a-335c-b4ce-194f75a8bc90"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "theatre-cirque-autour-de-minimal-circus",
+    "name": "Théâtre-Cirque : \"Autour de Minimal Circus\"",
+    "city": "Saint-Sever",
+    "region": null,
+    "description": "Atelier de cirque en famille avec l'association Française de cirque adapté.\nLe plus petit des cirques cache parfois les plus grandes surprises ! Avec un grand, explore des numéros de cirque revisités : équilibre, jonglage et imagination seront au rendez-vous. \nDès 4 ans. sur inscription",
+    "startDate": "2026-12-06",
+    "endDate": "2026-12-06",
+    "lat": 43.75871,
+    "lng": -0.57216,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/4aea811f-753e-3f93-b581-438822a20287"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1542,6 +1523,25 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "theatre-cirque-minimal-circus",
+    "name": "Théâtre-Cirque : \"Minimal Circus\"",
+    "city": "Saint-Sever",
+    "region": null,
+    "description": "Plongez dans un univers au croisement du cirque, de la marionnette et du burlesque !\nUn Monsieur Loyal déjanté et Silence, son fidèle musicien-bruiteur, orchestrent une dizaine de numéros plus hilarants les uns que les autres. Lions, clowns, acrobates, femme à deux têtes.",
+    "startDate": "2026-12-06",
+    "endDate": "2026-12-08",
+    "lat": 43.75871,
+    "lng": -0.57216,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/c71a8546-fb9c-3418-bac8-6c309e3bcf2c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "electro-symphony-orchestra-dance-party-zenith-delimoges",
@@ -1732,25 +1732,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "concert-zentone-melkior",
-    "name": "CONCERT : Zentone + Melkior",
-    "city": "Amiens",
-    "region": null,
-    "description": "JEU. 29 OCTOBRE 2026\n\n20:00\n\nZentone (Dub | FR)\n\nZentone, c’est ça. Un projet qui réunit deux visions du dub, tout en assumant ses contradictions et ses explorations sonores sans limites. Un peu dub, un peu electro, un peu world music. Et en même temps, rien de tout ça vraiment. Né de la fusion entre Zenzile et High Tone, deux piliers de la scène dub française, et du lumineux Jolly Joseph, chanteur multi-instrumentiste de la scène sound-system, qui vient cimenter la création officielle du groupe. Zentone est l’incarnation parfaite d’une expérimentation collective !\n\nMelkior (Dub | FR)\n\nArtiste et sonorisateur de la scène amiénoise depuis 25 ans, Melkior se passionne pour le Son depuis son exposition aux albums de la scène French Dub des années 2000…d’abord en groupe puis en solo, Melkior compose un dub narratif aux inspirations multiples, de l’Orient à l’Asie, du hiphop à l’electro, dans lequel chacun écrira son voyage !",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": 49.89905,
-    "lng": 2.2752772,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/502cb762-2a74-387f-94c3-0907ff684fde"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-violent-sadie-mode-la-lune-des-pirates",
@@ -1993,25 +1974,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/30/24b99e5e-d7f1-3f75-aba0-700fb4248fca"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "stage-de-comedie-musicale-disco-et-rock-and-roll",
-    "name": "Stage de comédie musicale : Disco et Rock and Roll",
-    "city": "Granville",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": 48.8380463,
-    "lng": -1.6025879,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/382ab5ce-146b-3938-a124-e5c87930cf95"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2285,25 +2247,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-la-frangine",
-    "name": "Concert \"La Frangine\"",
-    "city": "Saint-Lary-Soulan",
-    "region": null,
-    "description": "Après plus de 10 ans, plus de 700 concerts, Angèle a le grand plaisir, auprès de François et Jean Baptiste, de vous présenter La Frangine, musiques et chansons revisitées electro pop swing.\nC’est au contact des différents publics, et à l’occasion des différents concerts qu’Angèle a pu s’imprégner de diverses influences.\nAvec La Frangine, la pop, le swing, l’electro et les sons d’aujourd’hui vous apporteront un métissage surprenant où s’entremêleront sourires, dance, ambiance festive.",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": 42.8165848,
-    "lng": 0.32257658,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/a4ea19aa-4611-32a2-9d00-774546096809"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "luz-winter-fest",
     "name": "Luz Winter Fest",
     "city": "Luz-Saint-Sauveur",
@@ -2411,6 +2354,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/96650c3f-4153-3155-8ee3-e53466b84222"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-dub-au-garaj-duro",
+    "name": "Soirée Dub au garaj Duro",
+    "city": "Rostrenen",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 48.23665,
+    "lng": -3.31335,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/a08cf386-7b5a-3a63-a00e-d3f78f37eb93"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3089,6 +3051,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-fergessen",
+    "name": "Concert - Fergessen",
+    "city": "Obernai",
+    "region": null,
+    "description": "Le duo électro-pop FERGESSEN mêle chants, musique électro, percussions et mouvement dans une fiction poétique et immersive.",
+    "startDate": "2027-03-19",
+    "endDate": "2027-03-19",
+    "lat": 48.4627886550364,
+    "lng": 7.47901707887651,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/765a9ed0-97c7-32f0-a265-481595c9a7e5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "siebach-halloween-fest",
     "name": "Siebach Halloween Fest",
     "city": "Fellering",
@@ -3189,7 +3170,7 @@
     "city": "Aix-en-Provence",
     "region": null,
     "description": "Cette installation vidéo documentaire, tournée comme un techno-thriller, adopte une approche critique post-anthropocène en témoignant de l’impact des technologies cyber numériques sur l’environnement, en particulier sur notre consommation d’eau.",
-    "startDate": "2026-03-20",
+    "startDate": "2026-10-30",
     "endDate": "2027-03-20",
     "lat": 43.520936,
     "lng": 5.440408,
@@ -3201,6 +3182,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "les-massiliades-2026-realo-romsii-jeune-morty-notinbed",
+    "name": "LES MASSILIADES 2026 Realo + Romsii + Jeune Morty + Notinbed",
+    "city": "Marseille 6e Arrondissement",
+    "region": null,
+    "description": "Les Massiliades x Harmonie. Soirée électro/rap/pop  à l'Espace Julien",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-19",
+    "lat": 43.294204,
+    "lng": 5.38351,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/58/6b2db481-91a4-3891-9b4e-4a61678eb3c5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "vioflesh-bellog-guest",
@@ -3372,45 +3372,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "nathalie-froehlich",
-    "name": "NATHALIE FROEHLICH",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "I’m not a queen, I'm a goddess ». Nathalie Froehlich s’impose comme une figure incontournable de la nouvelle scène rap et électronique. Issue des Rave Partys, elle explose les frontières entre…",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": 48.882336,
-    "lng": 2.340295,
-    "officialUrl": "https://openagenda.com/shotgun/events/nathalie-froehlich",
-    "sources": [
-      "https://openagenda.com/shotgun/events/nathalie-froehlich"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "virgo-club-by-ghenda-cannes-4",
-    "name": "VIRGO CLUB by GHENDA (CANNES) #4",
-    "city": "Cannes",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "**VIRGO BY GHENDA débarque au GLASS CLUB. ** Le 29 octobre, GHENDA prend les commandes du Glass Club pour une nuit de **House, Afro House et sonorités électroniques**, de 00H à 05H. Producteur,…",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-30",
-    "lat": 43.551445,
-    "lng": 7.022342,
-    "officialUrl": "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-4",
-    "sources": [
-      "https://openagenda.com/shotgun/events/virgo-club-by-ghenda-cannes-4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "sinial-x-parodia-lola-haro-nathan-melja-amadeo-varhat",
@@ -4882,6 +4843,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "zone303-berlin-spirit-french-underground",
+    "name": "ZONE303 (Berlin spirit, French underground)",
+    "city": "Rennes",
+    "region": "Bretagne",
+    "description": "⛓️ **ZONE303 — NO RULES\\. JUST TECHNO\\.** ⛓️ 🇩🇪 BERLIN SPIRIT\\. 🇫🇷 FRENCH UNDERGROUND \\. Bienvenue dans la ZONE303\\. Un univers où l’underground berlinois rencontre la puissance de la scène rave…",
+    "startDate": "2027-02-05",
+    "endDate": "2027-02-06",
+    "lat": 48.109761,
+    "lng": -1.6822,
+    "officialUrl": "https://openagenda.com/shotgun/events/zone303-berlin-spirit-french-underground",
+    "sources": [
+      "https://openagenda.com/shotgun/events/zone303-berlin-spirit-french-underground"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "rave-lucid-danse",
     "name": "Rave Lucid | Danse",
     "city": "Carquefou",
@@ -5055,71 +5035,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "positive-education-2026",
-    "name": "Positive Education 2026",
-    "city": "Saint Etienne",
-    "address": "Cité du Design Saint Etienne, 3 rue javelin Pagnon 42000 Saint Etienne",
-    "region": null,
-    "startDate": "2026-11-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2486660",
-    "lineup": [
-      "A Guy Called Gerald",
-      "Aawadh",
-      "Andy Stott",
-      "Biocym",
-      "Decoder",
-      "DjSport",
-      "Emilia Grima",
-      "Hajj",
-      "ILAYRUNI",
-      "K Wata",
-      "Machine Girl",
-      "Manuka Honey",
-      "Microplastics",
-      "Mike Servito",
-      "ABADIR",
-      "Eris Drew",
-      "Octo Octa",
-      "Philip Kylberg",
-      "Prieste5s",
-      "Renoiterrible",
-      "Sindh",
-      "So-Fi",
-      "Suutoo",
-      "Vlada",
-      "Zaltan",
-      "Aksamit",
-      "DJ Storm",
-      "Jane Fitz",
-      "69DB",
-      "neska",
-      "seiva",
-      "Small Crab",
-      "Softi",
-      "Tammo Hesselink",
-      "Varuna Agosti",
-      "YUTA",
-      "gyrofield",
-      "Cwtch",
-      "Hewan Aman",
-      "Jan Loup",
-      "Lechuga Zafiro",
-      "Proc Fiskal",
-      "Ship Sket",
-      "Quelza",
-      "Surgeon"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2486660"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "the-holy-rave-37-dijon",
@@ -5310,6 +5225,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "spectrum-waves-closing-station-nord-sud",
+    "name": "Spectrum Waves: Closing Station (Nord + Sud)",
+    "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
+    "region": null,
+    "startDate": "2026-10-30",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2392797",
+    "lineup": [
+      "DJ Holographic",
+      "Elsa Bernini",
+      "Lea Occhi",
+      "RÆZA",
+      "SOTTOH",
+      "Toscan Haas"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2392797"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "dream-nation-festival-halloween-edition-paris",
@@ -5738,6 +5679,32 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "sacre-presente-swell-curated-by-maxye",
+    "name": "Sacré présente: Swell curated by Maxye",
+    "city": "Paris",
+    "address": null,
+    "region": null,
+    "startDate": "2026-11-14",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2556800",
+    "lineup": [
+      "Laura De Greef",
+      "Lyss",
+      "Maxye",
+      "Mely",
+      "Naajet (2)",
+      "Swooh"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2556800"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -5777,49 +5744,5 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "discotaco-disco-paillettes-tacos-partout",
-    "name": "Discotaco : disco, paillettes & tacos partout !",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-30",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a994be3880d4b00016f56fd",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a994be3880d4b00016f56fd"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "grandmas-house-nobody-s-fault",
-    "name": "GRANDMAS HOUSE + NOBODY'S FAULT",
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "description": "",
-    "startDate": "2026-10-29",
-    "endDate": "2026-10-29",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6a18a0de3af9270001144e09",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6a18a0de3af9270001144e09"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   }
 ]
