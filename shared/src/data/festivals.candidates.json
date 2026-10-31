@@ -627,6 +627,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "soiree-electro-techno-warless-sound-system",
+    "name": "Soirée électro-techno - Warless Sound System",
+    "city": "Die",
+    "region": null,
+    "description": "Portée par l’énergie du sound-system, cette soirée invite à découvrir la richesse des esthétiques électro et techno, de la dub techno aux rythmes de la hardgroove, en passant par les sonorités acid, les breaks et les textures de la bass music.",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-14",
+    "lat": 44.755388,
+    "lng": 5.367878,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/72b974c8-05bf-3280-b0b4-91dcca2f6146"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "jam-electro",
     "name": "Jam Electro",
     "city": "Romans-sur-Isère",
@@ -639,6 +658,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/75b2c9cf-b603-3457-9dbe-896feaa2a7e0"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-elle-danse-encore-encor-lumiere-noire",
+    "name": "Concert : Elle Danse - Encore&Encor - Lumière Noire",
+    "city": "Bourg-lès-Valence",
+    "region": null,
+    "description": "Le Vacarme Exquis est très heureux d’accueillir Elle Danse, Encore & Encor et Lumière Noire pour une soirée techno live !\r\nPlongez dans une soirée entre électro, techno et énergie rave au Vacarme Exquis !",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 44.938348,
+    "lng": 4.888331,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/7b094738-efad-391a-abd8-18eaaa66d34b"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -696,25 +734,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/87ef5eaa-7091-3f07-b80a-4dbda41d0174"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "diner-spectacle-au-casino-new-cabaret",
-    "name": "Dîner spectacle au Casino - New Cabaret",
-    "city": "Plateau d'Hauteville",
-    "region": null,
-    "description": "Un show élégant et moderne, mêlant l’esprit glamour du cabaret traditionnel à une ambiance pop et électro dynamique.",
-    "startDate": "2026-12-12",
-    "endDate": "2026-12-12",
-    "lat": 45.978003,
-    "lng": 5.596897,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/8fee979c-c898-3219-b8af-7f9be4bea388"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1368,28 +1387,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-disco",
-    "name": "Soirée Disco",
-    "city": "Mont-de-Marsan",
-    "region": null,
-    "description": "Soirée Disco de 70 à nos jours : animée par DJ Mat, avec repas et apéritif offert si les gens sont déguisés dans le thème.\nBonne ambiance assurée !",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-30",
-    "lat": 43.8959579,
-    "lng": -0.4986854,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/53fd23bf-3043-390d-a645-f04d3da74245",
-      "https://data.datatourisme.fr/30/bbc19a42-cd7e-3484-9b22-300eef6226b4",
-      "https://data.datatourisme.fr/5/1fa11f37-c96f-3a0c-b964-27a2a240453e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "horace-andy-et-dub-asante-band-ft-matic-horns",
     "name": "Horace Andy et Dub Asante Band Ft. Matic Horns",
     "city": "Limoges",
@@ -1485,18 +1482,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "roller-disco-halloween",
-    "name": "Roller disco Halloween",
-    "city": "Arbonne",
+    "slug": "bodega-disco-halloween",
+    "name": "Bodega disco Halloween",
+    "city": "Montpon-Ménestérol",
     "region": null,
     "description": "",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-30",
-    "lat": 43.4332381,
-    "lng": -1.5523275,
+    "startDate": "2026-10-31",
+    "endDate": "2026-10-31",
+    "lat": 45.0175009,
+    "lng": 0.15374048,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/23/9421453c-a959-3f1b-b50b-b4a954a9102a"
+      "https://data.datatourisme.fr/23/b40df984-aa82-3fea-80cf-315d6b52322f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1962,25 +1959,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "spectacle-le-loup-et-pierre-cie-hors-d-oeuvre",
-    "name": "Spectacle \"Le loup et pierre\" – Cie Hors D’oeuvre",
-    "city": "Caen",
-    "region": null,
-    "description": "Dans cette version électro du conte mondialement connu de Prokovief, le loup est une louve et c’est elle qui raconte l’histoire ! Une manière joyeuse et décalée de questionner notre rapport au monde sauvage, d’interroger nos peurs, et de célébrer la différence.",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-30",
-    "lat": 49.1908524,
-    "lng": -0.3977267,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/24b99e5e-d7f1-3f75-aba0-700fb4248fca"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-boulevard-des-airs",
     "name": "Concert : Boulevard des Airs",
     "city": "Deauville",
@@ -2038,25 +2016,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "atelier-pot-boule-disco-fleurie",
-    "name": "Atelier pot boule disco fleurie",
-    "city": "Clères",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-30",
-    "lat": 49.599534,
-    "lng": 1.110644,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/a5b73901-1fc4-3c4e-9a1f-732de15e3244"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "le-disco-des-oiseaux-mosai-vincent",
     "name": "Le Disco des oiseaux - Mosai & Vincent",
     "city": "Granville",
@@ -2073,6 +2032,27 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-disco",
+    "name": "Soirée disco",
+    "city": "Bolbec",
+    "region": null,
+    "description": "Soirée Disco de 70 à nos jours : animée par DJ Mat, avec repas et apéritif offert si les gens sont déguisés dans le thème.\nBonne ambiance assurée !",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-20",
+    "lat": 49.573572,
+    "lng": 0.4743749,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/bbc19a42-cd7e-3484-9b22-300eef6226b4",
+      "https://data.datatourisme.fr/5/1fa11f37-c96f-3a0c-b964-27a2a240453e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
@@ -2416,6 +2396,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "in-locoal-we-dub",
+    "name": "In Locoal We Dub",
+    "city": "Locoal-Mendon",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-22",
+    "lat": 47.7098848,
+    "lng": -3.1106812,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/f06b99e9-adae-32ef-9c71-622c54835953"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "nuit-electro-cosmic-edition",
@@ -3222,25 +3221,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-electro-pop-trick-or-treat-hallowe-en-party",
-    "name": "Soirée électro-pop Trick or Treat : Hallowe'en Party",
-    "city": "Marseille 5e Arrondissement",
-    "region": null,
-    "description": "Le collectif POP PORN revient au Makeda le vendredi 30 octobre pour une soirée sous le thème TRICK or TREAT : Hallowe'en Party !",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-30",
-    "lat": 43.293233,
-    "lng": 5.39175,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/8730fe2a-e46d-3481-9282-5f5bd9387374"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "sunshine-people",
     "name": "Sunshine people",
     "city": "Marseille 5e Arrondissement",
@@ -3298,25 +3278,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "le-disco-kiosque-d-halloween-dancefloor-pour-les-petit-e-s",
-    "name": "Le Disco Kiosque d'Halloween : dancefloor pour les petit·e·s",
-    "city": "Nevers",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 46.99039,
-    "lng": 3.15492,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/1628d198-5615-38dd-83b7-c965bf2eb6ed"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "fred-nevche-poesie-electro",
     "name": "Fred Nevché - Poésie électro",
     "city": "Iguerande",
@@ -3372,73 +3333,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "sinial-x-parodia-lola-haro-nathan-melja-amadeo-varhat",
-    "name": "SINIAL x PARODIA [Lola Haro, Nathan Melja, Amadeo & Varhat]",
-    "city": "Strasbourg",
-    "region": "Grand Est",
-    "description": "PRÉVENTES LIMITÉES / BILLETS SUR PLACE. TARIF EARLY 11€ DE 22H À 23H __________________________________ House, Techno, Experimental, Minimal Room 𝓰𝓪𝓵𝓵𝓮𝓻𝔂 ★ Lola Haro ★ Nathan Melja ★ Amadeo &…",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-31",
-    "lat": 48.58086,
-    "lng": 7.758256,
-    "officialUrl": "https://openagenda.com/shotgun/events/sinial-x-parodia-lola-haro-nathan-melja-amadeo-and-varhat",
-    "sources": [
-      "https://openagenda.com/shotgun/events/sinial-x-parodia-lola-haro-nathan-melja-amadeo-and-varhat"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-more",
-    "name": "Nantes Rave Techno W/ Vladimir Cauchemar, Shanixx, Noir Mat & More",
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "description": "NANTES RAVE TECHNO w/ VLADIMIR CAUCHEMAR, SHANIXX, NOIR MAT & MORE au Warehouse Nantes le vendredi 30 octobre 2026.",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-31",
-    "lat": 47.20077,
-    "lng": -1.57328,
-    "officialUrl": "https://openagenda.com/nantesmetropole/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more",
-    "sources": [
-      "https://openagenda.com/nantesmetropole/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-noir-mat-and-more",
-      "https://ra.co/events/2529503"
-    ],
-    "genreVerified": true,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "address": "Warehouse, 21 quai des Antilles 44200 Nantes",
-    "lineup": [
-      "Vladimir Cauchemar",
-      "Shanixx",
-      "Azhar Sistorms",
-      "BSD"
-    ],
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "nantes-rave-techno-w-vladimir-cauchemar-shanixx-more",
-    "name": "Nantes Rave Techno W/ Vladimir Cauchemar, Shanixx & More",
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "description": "NANTES RAVE TECHNO w/ VLADIMIR CAUCHEMAR, SHANIXX, NOIR MAT & MORE au Warehouse Nantes le vendredi 30 octobre 2026. Invité tous les ans au Warehouse depuis 2020, Vladimir Cauchemar y fera son retour…",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-31",
-    "lat": 47.201183,
-    "lng": -1.572961,
-    "officialUrl": "https://openagenda.com/shotgun/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/nantes-rave-techno-w-vladimir-cauchemar-shanixx-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "electro-fort-5-special-halloween",
@@ -4121,92 +4015,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "kx-chr-dark-rave-x-la-cervoiserie-dinan",
-    "name": "KX CHR — DARK RAVE x La Cervoiserie Dinan⛓️",
-    "city": "Quévert",
-    "region": "Bretagne",
-    "description": "🔉KX CHR débarque à La Cervoiserie DINAN 🔥 📅 Vendredi 30 octobre 2026 📍 La Cervoiserie Dinan — Quévert Préparez-vous pour l’une des plus grosses nuits techno de l’année à La Cervoiserie⚡️ En…",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-31",
-    "lat": 48.447222,
-    "lng": -2.076899,
-    "officialUrl": "https://openagenda.com/shotgun/events/kx-chr-dark-rave-x-la-cervoiserie-dinan",
-    "sources": [
-      "https://openagenda.com/shotgun/events/kx-chr-dark-rave-x-la-cervoiserie-dinan"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "hush-3leeza-iosio-k-lab-revex-thiso-toximami",
-    "name": "HUSH : 3LEEZA, IOSIO, KØ:LAB, REVEX, THISO, TOXIMAMI",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "HUSH SEASON CLOSING Dernier open air de la saison et closing annuel pour Hush au KM25 à la veille d’Halloween : on a décidé de rassembler le meilleur de la bounce et hard trance avec 6…",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-31",
-    "lat": 48.896296,
-    "lng": 2.393567,
-    "officialUrl": "https://openagenda.com/shotgun/events/hush-3leeza-iosio-kolab-revex-thiso-toximami",
-    "sources": [
-      "https://openagenda.com/shotgun/events/hush-3leeza-iosio-kolab-revex-thiso-toximami"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "the-holy-rave-34-besancon",
-    "name": "The Holy Rave #34 - Besançon",
-    "city": "Chalezeule",
-    "region": "Bourgogne-Franche-Comté",
-    "description": "Besançon ! La capitale de plus belle région de France, comtois, rends-toi ! Nenni, ma foi ! 💛💙 Au menu, une belle line-up internationale 😎 🟢 00:00 - 01:00 JAKOBEE - Belfort, France 🇫🇷 ⚫️ 01:00…",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-31",
-    "lat": 47.265417,
-    "lng": 6.058977,
-    "officialUrl": "https://openagenda.com/shotgun/events/the-holy-rave-34-besancon",
-    "sources": [
-      "https://openagenda.com/shotgun/events/the-holy-rave-34-besancon",
-      "https://ra.co/events/2518900"
-    ],
-    "genreVerified": true,
-    "status": "announced",
-    "needsReview": true,
-    "address": "Teasing Club, 2A Rue du Gay, 25220 Chalezeule, France",
-    "lineup": [
-      "JAKOBEE",
-      "SLMT",
-      "Kingsmo",
-      "LWØ (1)",
-      "FNRZ"
-    ],
-    "isFestival": false,
-    "_reason": "soirée : hors périmètre"
-  },
-  {
-    "slug": "hardcore-horror-show-d-fence-chaotic-hostility",
-    "name": "HARDCORE HORROR SHOW // D-FENCE - CHAOTIC HOSTILITY - ...",
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "description": "HARDCORE HORROR SHOW VENDREDI 30 OCTOBRE 2026 📍HANGAR DS - 17 rue Édouard Faure, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ ► D-FENCE ► CHAOTIC HOSTILITY ► THE DOPE DOCTOR - GHOST MODE…",
-    "startDate": "2026-10-30",
-    "endDate": "2026-10-31",
-    "lat": 44.885732,
-    "lng": -0.544529,
-    "officialUrl": "https://openagenda.com/shotgun/events/hardcore-horror-show-d-fence-chaotic-hostility",
-    "sources": [
-      "https://openagenda.com/shotgun/events/hardcore-horror-show-d-fence-chaotic-hostility"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "noctis-ii-halloween-rave",
@@ -5227,72 +5035,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "spectrum-waves-closing-station-nord-sud",
-    "name": "Spectrum Waves: Closing Station (Nord + Sud)",
-    "city": "Paris",
-    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
-    "region": null,
-    "startDate": "2026-10-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2392797",
-    "lineup": [
-      "DJ Holographic",
-      "Elsa Bernini",
-      "Lea Occhi",
-      "RÆZA",
-      "SOTTOH",
-      "Toscan Haas"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2392797"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "dream-nation-festival-halloween-edition-paris",
-    "name": "Dream Nation FestIVAL 'HALLOWEEN EDITION' – PARIS",
-    "city": "Villepinte",
-    "address": "Parc des Expositions Paris Nord, ZAC Paris Nord 2, 93420 Villepinte",
-    "region": null,
-    "startDate": "2026-10-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2495758",
-    "lineup": [
-      "NOVAH",
-      "Pendulum",
-      "Mandragora",
-      "Netsky",
-      "Angerfist",
-      "Da Tweekaz",
-      "Infected Mushroom",
-      "Alignment",
-      "Dirtyphonics",
-      "Dual Damage",
-      "ECZODIA",
-      "Flux Pavilion",
-      "Korsakoff",
-      "Modestep",
-      "The Bloody Beetroots",
-      "Samuel Moriero (2)",
-      "EARGASM GOD",
-      "L.zwo"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2495758"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "variante billetterie de « Dream Nation » (mêmes dates)"
-  },
-  {
-    "slug": "la-station-doomsday",
-    "name": "La Station — Doomsday",
+    "slug": "la-station-doomsday-pas-de-vente-sur-place",
+    "name": "La Station — Doomsday (PAS DE VENTE SUR PLACE)",
     "city": "Paris",
     "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
     "region": null,
@@ -5398,6 +5142,44 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "dream-nation-festival-halloween-edition-paris",
+    "name": "Dream Nation FestIVAL 'HALLOWEEN EDITION' – PARIS",
+    "city": "Villepinte",
+    "address": "Parc des Expositions Paris Nord, ZAC Paris Nord 2, 93420 Villepinte",
+    "region": null,
+    "startDate": "2026-10-30",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2495758",
+    "lineup": [
+      "NOVAH",
+      "Pendulum",
+      "Mandragora",
+      "Netsky",
+      "Angerfist",
+      "Da Tweekaz",
+      "Infected Mushroom",
+      "Alignment",
+      "Dirtyphonics",
+      "Dual Damage",
+      "ECZODIA",
+      "Flux Pavilion",
+      "Korsakoff",
+      "Modestep",
+      "The Bloody Beetroots",
+      "Samuel Moriero (2)",
+      "EARGASM GOD",
+      "L.zwo"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2495758"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "variante billetterie de « Dream Nation » (mêmes dates)"
   },
   {
     "slug": "kilometre25-closing-halloween-with-thelma-danny-wabbit",
@@ -5740,6 +5522,50 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6aca3c2521d66800016cbad0"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "house-in-symphony-soul-frequency-onibaku-more",
+    "name": "House in Symphony: Soul Frequency, Onibaku & more",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-10",
+    "endDate": "2026-11-11",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ad5ef07edb643000169f6f8",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ad5ef07edb643000169f6f8"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-ch-ck-the-golden-era-of-edm",
+    "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-13",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6adb96cd79b9350001aaa2cf",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6adb96cd79b9350001aaa2cf"
     ],
     "status": "announced",
     "needsReview": true,
