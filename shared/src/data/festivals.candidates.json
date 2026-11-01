@@ -285,25 +285,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "halloween-party-night",
-    "name": "Halloween Party Night",
-    "city": "Rustroff",
-    "region": null,
-    "description": "Halloween va monter d'un cran ! Le Club des Jeunes 3 Frontières vous convie à la quatrième édition de la Halloween Party Night.\n\nSortez vos déguisements, préparez-vous à faire la fête… Halloween s’annonce mémorable !\nL'ambiance sera assurée par DCM × Martin Iau aux platines : des hits incontournables à l’électro, jusqu’à la techno. Un seul objectif : vous faire vibrer et danser jusqu’au bout de la nuit. Également sur place: des cocktails mystérieux au bar pour vous envoûter, et des burgers pour reprendre des forces entre deux sets; un verre sera offert à l'entrée.\n\nDéguisement conseillé. Ambiance garantie. Vous êtes prévenus.",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 49.4416322,
-    "lng": 6.3722707,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/a91e3668-205f-3406-a781-7f690abcc2f7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-okre-nuit-electronique",
     "name": "Concert - OKRE - Nuit électronique",
     "city": "Metz",
@@ -335,25 +316,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/b214f598-dda9-334f-8047-fee84696c6b8"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-mister-mowg-dj-set",
-    "name": "Concert Mister Mowg - Dj set",
-    "city": "Remiremont",
-    "region": null,
-    "description": "Pour notre soirée spéciale Halloween du 31 octobre, Mister Mowg vient poser son univers à la croisée de la musique et du cinéma.\n\nDepuis plus de dix ans, Mister Mowg navigue entre musique et image sans cloisonner les deux. Cinéma en tête, collection de vinyles en toile de fond, il imagine des projets qui pensent autant le son que le visuel. Il compose, filme, monte, produit : une approche autonome, presque artisanale. Sa musique croise électro, trip-hop, hip-hop et textures cinématographiques, entre DJ Shadow, RJD2 et Apashe, avec une identité bien à lui.\n\nAvec Le Monde des Humains (2022), puis Le Vinyle Maudit (2024), il pousse plus loin le lien entre récit sonore et image, jusqu’à des formats hybrides entre album et film.\n\nEn live, musique et images se répondent en direct dans des sets immersifs, à la frontière du concert et de la projection.",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 48.0225,
-    "lng": 6.59888888888889,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/c3a7f8c9-3b44-30a4-b8ba-5b1bc1330d2f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -620,6 +582,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/502ee5dc-fe75-3334-9c8c-dacdcd38d221"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "feeries-d-hiver-concert-dj-la-releve",
+    "name": "Féeries d’Hiver: Concert : DJ \"La Relève\"",
+    "city": "Valence",
+    "region": null,
+    "description": "Le collectif de DJ « La Relève » insuffle son énergie aux sons électro.",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "lat": 44.930716,
+    "lng": 4.892638,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/5faad1b2-bf3b-3dd3-855c-55ba2d2ab4ba"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -912,18 +893,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-halloween",
-    "name": "Soirée Halloween",
-    "city": "Dieulefit",
+    "slug": "sinai-dj-set-all-in-dub",
+    "name": "Sinai (Dj Set) & All In Dub",
+    "city": "Bourg-lès-Valence",
     "region": null,
-    "description": "Les zombies reviennent à la Mine d'Art  pour une soirée Disco entre les boules à facette et les toiles d'araignées !\r\nVenez vêtus de votre plus horrible costume de zombie bien sûr !",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 44.524383,
-    "lng": 5.064427,
+    "description": "Les soirées Vacarme N Dub c’est reparti !\r\nRendez-vous le vendredi 20 novembre au VEX pour une soirée qui s’annonce vibrante avec Sinai en DJ Set et All In Dub !",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-20",
+    "lat": 44.938348,
+    "lng": 4.888331,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/13/cfe12efe-acb9-3512-a44d-9a04842f9f78"
+      "https://data.datatourisme.fr/13/cc7449ea-1f5c-31a7-a4eb-79e323be8ffa"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -988,44 +969,6 @@
     "_reason": "genre électro non confirmé"
   },
   {
-    "slug": "bon-soir-halloween-party-bon-soir-dj-crew",
-    "name": "Bon.Soir Halloween Party / Bon.Soir DJ Crew",
-    "city": "Valence",
-    "region": null,
-    "description": "BON.SOIR HALOWEEN PARTY — Techno/Trance\r\nCette nuit, le dancefloor appartient aux créatures de la nuit. Pour cette édition spéciale Halloween, attendez-vous à une atmosphère sombre, intense et mystique.\r\nVenez comme vous êtes… ou comme votre pire cauchemar.",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 44.928898,
-    "lng": 4.891791,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/f24048a7-11c0-383e-a8de-ac3dee18b034"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-soiree-good-berry",
-    "name": "SOIREE : Soirée Good Berry",
-    "city": "Bourges",
-    "region": null,
-    "description": "Enfilez votre déguisement et dansez au rythme d’une soirée électro spéciale Halloween !",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 47.0853652,
-    "lng": 2.3956515,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/10d8a98a-7074-3fa0-8d84-d660c0c0196e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "supertronica-la-cigue",
     "name": "SUPERTRONICA   LA CIGUË",
     "city": "Joué-lès-Tours",
@@ -1062,6 +1005,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "folies-berruyeres-collectivo-et-matanzas-et-dj-ben-borneo",
+    "name": "FOLIES BERRUYÈRES : Collectivo et Matanzas et DJ Ben Bornéo",
+    "city": "Bourges",
+    "region": null,
+    "description": "Les Folies Berruyères vous donnent rendez-vous pour trois soirées électro au Pub Le Murrayfield.",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 47.0860251,
+    "lng": 2.398479,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/2dd3c0bd-ec63-30c7-974a-c4cb4c9ea5d1"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "local-sessions",
@@ -1121,6 +1083,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "folies-berruyeres-rodeo-techno-a-l-incontournable",
+    "name": "FOLIES BERRUYÈRES : Rodéo Techno à l'Incontournable",
+    "city": "Bourges",
+    "region": null,
+    "description": "Plongez dans l'univers de la techno avec une soirée électro rythmée par les sets de Lind, Helia, Oliski, Geuth et Gaminox, à l'occasion des Folies Berruyères.",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 47.0853233,
+    "lng": 2.3944189,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/7fadcf4b-c8be-3f10-917d-da15883b27ee"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "folies-berruyeres-concerts-a-l-o2g-le-closing",
     "name": "FOLIES BERRUYÈRES : Concerts à l' O2G Le Closing",
     "city": "Bourges",
@@ -1138,6 +1119,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "folies-berruyeres-concert-de-dj-ronnie",
+    "name": "FOLIES BERRUYÈRES : Concert de DJ Ronnie",
+    "city": "Bourges",
+    "region": null,
+    "description": "Les Folies Berruyères vous donnent rendez-vous pour trois soirées électro au Pub Le Murrayfield.",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 47.0860251,
+    "lng": 2.398479,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/a6c8294a-2bd4-3493-9e03-bb823b639fa4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "folies-berruyeres-concerts-a-la-villa-monin-round-1",
@@ -1209,25 +1209,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/fb848579-3922-38fb-bcc9-cd3cad626970"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "la-p-tite-fumee",
-    "name": "La p'tite fumée",
-    "city": "Joué-lès-Tours",
-    "region": null,
-    "description": "La P’tite Fumée signe son grand retour avec une nouvelle tournée explosive. Un live repensé, plus puissant et immersif que jamais, où leur électro instrumentale prend une tout autre dimension.",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 47.33938,
-    "lng": 0.6630262,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/fe620958-7605-3697-ba2f-28bbf7c756b9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1425,25 +1406,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "halloween-disco-d-halloween",
-    "name": "Halloween - Disco d'Halloween",
-    "city": "Argentonnay",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 46.954741,
-    "lng": -0.391193,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/6db61936-94fa-37e6-a5e0-ba88b24a38db"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "rave-lucid",
     "name": "Rave Lucid",
     "city": "Saint-Pierre-du-Mont",
@@ -1475,25 +1437,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/8f1a9bbe-a2af-3b4a-8fa9-60d9d207e849"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "bodega-disco-halloween",
-    "name": "Bodega disco Halloween",
-    "city": "Montpon-Ménestérol",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 45.0175009,
-    "lng": 0.15374048,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/b40df984-aa82-3fea-80cf-315d6b52322f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1579,23 +1522,23 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "halloween-au-market-brew-house",
-    "name": "Halloween au Market Brew House",
-    "city": "Reims",
+    "slug": "spectacle-electro-delure-secrets-de-beatmaker",
+    "name": "Spectacle électro-déluré : Secrets de Beatmaker",
+    "city": "Vitry-le-François",
     "region": null,
-    "description": "",
-    "startDate": "2026-10-10",
-    "endDate": "2026-10-31",
-    "lat": 49.2599139,
-    "lng": 4.0315742,
+    "description": "Atelier : 14h\nGoûter : 16h (offert aux enfants)\nSpectacle : 16h30",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 48.7267934,
+    "lng": 4.5798138,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/26/6edf289f-38d3-33c4-968b-431b9a520f69"
+      "https://data.datatourisme.fr/26/420057a7-bc37-32e1-9317-08f7e50fecfd"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "gravity-other-myths",
@@ -1672,25 +1615,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "les-samedis-animation-amiens-centre-ville",
-    "name": "Les Samedis Animation - Amiens Centre Ville",
-    "city": "Amiens",
-    "region": null,
-    "description": "C’est le samedi, qu’on se le dise\n\nLes animations du samedi après-midi lancées en 2024 par la Ville d’Amiens reviennent le 28 février. Et il y en a pour tous les goûts.\n\n100 % GRATUIT\n« Des concerts, des déambulations, des jeux, du street art, liste Frédéric Delevoye, qui pilote ces rendez-vous à la Ville d’Amiens. On veut que chacun puisse s’y retrouver, ait envie de faire un tour en ville. » Alors qu’elle entame sa troisième saison, comment le public s’approprie- t-il cette offre 100 % gratuite ? « Entre les gens qui restent du début à la fin, ceux qui se posent quelques minutes avant d’aller faire les boutiques et ceux qui ralentissent le pas par curiosité, c’est difficile à dire, répond Frédéric Delevoye. Mais il y a du monde. » « Ces rendez-vous sont rentrés dans les moeurs, complète Hubert de Jenlis. Parce que c’est simple : le samedi, à Amiens, il se passe toujours quelque chose. Et ça commence à se savoir ! ».\nJean-Christophe Fouquet\n\nSAMEDIS ANIMATIONS : L'AGENDA\n\n - 28 février, place Gambetta : Concert, Les Gambes ed min pied\n - 14 mars, déambulation : Fanfare, Les Fines Polettes\n - 21 mars, déambulation : Spectacle, Les Ouvreuses\n - 28 mars, place René-Goblet : Concert, Trio Maf\n - 4 avril, déambulation : Fanfare, The Red Tones\n - 11 avril, place Gambetta : Jeu, plateau TV\n - 18 avril, place Gambetta : Concert, Josselin\n - 25 avril, rue des Trois-Cailloux : Portraits photo façon rétro\n - 9 mai, place Gambetta : Street art, Le Mec blasé\n - 16 mai, place René-Goblet : Danse tzigane, Cie Wao\n - 6 juin, rue des Trois-Cailloux : Cascades, La Garde des Lys\n - 13 juin, place René-Goblet : Spectacle-enquête, Renaissance\n - 20 juin, place Gambetta : Concert, Zorya\n - 18 juillet, place René-Goblet : Marionnettes, Cie Picaresk\n - 25 juillet, place Gambetta : Installation sonore\n - 1er août, place René-Goblet : Concert, Louise Awa\n - 8 août, place Gambetta : Concert, Morning Cookies\n - 29 août, déambulation : Fanfare techno à vélo\n - 12 septembre, place René-Goblet : Hip-hop, Cie L’Embardée\n - 19 septembre, place René-Goblet : Danse, Jumpin’Jazz\n - 26 septembre, place Gambetta : Spectacle, Sweet Cabaret\n - 10 octobre, place Gambetta : Spectacle-enquête, Polaroïd\n - 17 octobre, déambulation : Jongleurs et cracheurs de feu\n - 24 octobre, déambulation : Fanfare, Les Muses tanguent\n - 31 octobre, place Gambetta : Grand jeu Halloween des enfants\n\nDéambulations : Axe Gambetta > Tour Perret",
-    "startDate": "2026-07-18",
-    "endDate": "2026-10-31",
-    "lat": 49.8957816,
-    "lng": 2.29449033,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/3496202b-93b0-3661-b6b2-4dd292590ad1"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "soiree-bass-impakt-a-la-manufacture",
@@ -2132,63 +2056,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "haqualloween-soiree-cinema",
-    "name": "HAQUALLOWEEN, soirée cinéma",
-    "city": "Salles-Curan",
-    "region": null,
-    "description": "Soirée ciné le samedi 31 octobre à l'espace O Lévézou à Salles curan. \"Inspirez profondément\" \"The deep House\". Prix 13,90€. Tél 05 65 60 55 59",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 44.1822,
-    "lng": 2.7889,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/31/6d5a2e76-f616-3a95-8c2e-5e33d554248e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-dub-bass-music",
-    "name": "Soirée dub & bass music",
-    "city": "Rodez",
-    "region": null,
-    "description": "Co-organisé avec le collectif Why Not",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 44.33089369,
-    "lng": 2.58968275,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/31/b1ce8e28-8b52-3266-9822-81cc4ffee32e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-les-trash-croutes",
-    "name": "CONCERT LES TRASH CROUTES",
-    "city": "Mazères-sur-Salat",
-    "region": null,
-    "description": "Concert disco plaisir pop agréable, chansons francophones à paillettes.",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 43.13279,
-    "lng": 0.97381,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/33/83e96bd6-1cd4-3268-95ea-fc6377a094d9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "wyld-soiree-electro-contemplatif",
     "name": "WYLD : SOIRÉE ÉLECTRO CONTEMPLATIF",
     "city": "Toulouse",
@@ -2263,25 +2130,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "alsimi-electro-maloya",
-    "name": "Alsimi [électro maloya]",
-    "city": "Trédrez-Locquémeau",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 48.712699,
-    "lng": -3.563056,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/092924b4-0c27-3106-86fa-95f02055ecc1"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-baast-musique-pop-electro",
@@ -2803,25 +2651,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-techno-bar-le-dauphin",
-    "name": "Soirée Techno -Bar Le Dauphin",
-    "city": "Fontenay-le-Comte",
-    "region": null,
-    "description": "Le bar du Dauphin lieu emblématique de Fontenay Le Comte accueil unesoirée halloween",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 46.4662914,
-    "lng": -0.8039742,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/49/63b7acd6-d3f9-3ab7-a8fc-5e3f1aa8c0ab"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "royal-ballet-opera-au-cinema-alice-au-pays-des-merveilles",
     "name": "Royal Ballet & Opera au cinéma - ALICE AU PAYS DES MERVEILLES",
     "city": "Pouzauges",
@@ -2974,25 +2803,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "electro-night-2-special-halloween",
-    "name": "ELECTRO NIGHT 2 - SPÉCIAL HALLOWEEN",
-    "city": "Saffré",
-    "region": null,
-    "description": "DJ Set 100% Électro toute la soirée",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 47.4996378,
-    "lng": -1.5788754,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/49/eaf33e0e-ce63-3798-912a-724e122e13ca"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "spectacle-jeune-public-que-vois-tu-olor",
     "name": "Spectacle jeune public : Que vois-tu ? Olor",
     "city": "Pornic",
@@ -3024,25 +2834,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/fee14b0b-f16d-32af-bf0b-28b6f485eb75"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-electro-crazy-beats",
-    "name": "Soirée électro : Crazy beats",
-    "city": "Mulhouse",
-    "region": null,
-    "description": "",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 47.7614079888372,
-    "lng": 7.33304679393768,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/5/0f9e046e-ef20-3eb7-9964-74f1e8908681"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3202,25 +2993,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "vioflesh-bellog-guest",
-    "name": "Vioflesh + Bellog + Guest",
-    "city": "Marseille 6e Arrondissement",
-    "region": null,
-    "description": "Concert : Cold Wave, Dark Electro, Darkwave",
-    "startDate": "2026-10-31",
-    "endDate": "2026-10-31",
-    "lat": 43.292589,
-    "lng": 5.383082,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/716393dc-6cff-328c-a223-924987a2bfb7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "sunshine-people",
     "name": "Sunshine people",
     "city": "Marseille 5e Arrondissement",
@@ -3333,123 +3105,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "electro-fort-5-special-halloween",
-    "name": "Electro Fort #5 Spécial Halloween",
-    "city": "Creully sur Seulles",
-    "region": "Normandie",
-    "description": "🎃 ELECTRO FORT #5 : SPÉCIAL HALLOWEEN ! 🎃 📅 Quand ? Samedi 31 octobre 2026 Une nuit pour marquer l'histoire… et faire peur ! 🕒 À quelle heure ? 19h - 6h De la tombée de la nuit jusqu'à l'aube.…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 49.286391,
-    "lng": -0.53961,
-    "officialUrl": "https://openagenda.com/shotgun/events/electro-fort-5-special-halloween",
-    "sources": [
-      "https://openagenda.com/shotgun/events/electro-fort-5-special-halloween"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "halloween-night-error-festival",
-    "name": "Halloween Night : Error Festival",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Yb70 1er organisation d’événements techno industriels en France, après ses mythiques soirées Seppuku et Parazit, revient pour fêter Halloween et en même temps ses 30 ans d’existence à Petit Bain…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 48.835526,
-    "lng": 2.376712,
-    "officialUrl": "https://openagenda.com/shotgun/events/halloween-night-error-festival",
-    "sources": [
-      "https://openagenda.com/shotgun/events/halloween-night-error-festival"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "kevber-au-play-rennes-x-la-bete",
-    "name": "KEVBER au PLAY Rennes X La Bête",
-    "city": "Vern-sur-Seiche",
-    "region": "Bretagne",
-    "description": "🎃 HALLOWEEN AU PLAY — KEVBER x LA BÊTE 🍺 Ce samedi 31 octobre, le PLAY à Vern-sur-Seiche passe en mode Halloween ! 👻 Aux platines, KEVBER pour un DJ set entre house, disco et sonorités…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 48.063539,
-    "lng": -1.625257,
-    "officialUrl": "https://openagenda.com/shotgun/events/kevber-au-play-rennes-x-la-bete",
-    "sources": [
-      "https://openagenda.com/shotgun/events/kevber-au-play-rennes-x-la-bete"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "dark-disco-techno-hellisha-sauvage-by-the-petit-london",
-    "name": "DARK DISCO) (TECHNO) HELLISHA SAUVAGE BY THE PETIT LONDON",
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "description": "🔥 QUI ? Hellisha Sauvage : Hellisha Sauvage, forte d’une collection musicale quasi sans limite n’est, comme son nom l’indique, jamais là où on l’attend vraiment et aime surprendre son public à…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 43.60096,
-    "lng": 1.453886,
-    "officialUrl": "https://openagenda.com/shotgun/events/dark-disco-techno-hellisha-sauvage-by-the-petit-london",
-    "sources": [
-      "https://openagenda.com/shotgun/events/dark-disco-techno-hellisha-sauvage-by-the-petit-london"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "monsterdom-2026",
-    "name": "Monsterdom 2026",
-    "city": "Pantin",
-    "region": "Île-de-France",
-    "description": "🏳️‍🌈🏳️‍⚧️🎃 La Monsterdom revient pour sa VIème mission! Cette année, nous avons le plaisir d'accueillir Autoflower, direct des Pays-Bas. DJ et producteur révélation de la scène House/Trance…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 48.894908,
-    "lng": 2.415452,
-    "officialUrl": "https://openagenda.com/shotgun/events/monsterdom-2026",
-    "sources": [
-      "https://openagenda.com/shotgun/events/monsterdom-2026"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "halloween-maraka-glass-club-girls-on-glass-part2",
-    "name": "HALLOWEEN — MARAKA × GLASS CLUB - GIRLS ON GLASS PART2",
-    "city": "Cannes",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "HALLOWEEN — MARAKA × GLASS 🎃🔴 Samedi 31 octobre, MARAKA investit le GLASS CLUB à Cannes pour une nuit House & Tech House jusqu’au petit matin. Une line-up 100 % féminine aux commandes : AMBRE…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 43.551445,
-    "lng": 7.022342,
-    "officialUrl": "https://openagenda.com/shotgun/events/halloween-maraka-glass-club-girls-on-glass-part2",
-    "sources": [
-      "https://openagenda.com/shotgun/events/halloween-maraka-glass-club-girls-on-glass-part2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "nova-moves-ya",
@@ -4015,120 +3670,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "noctis-ii-halloween-rave",
-    "name": "NOCTIS II - Halloween Rave",
-    "city": "Thodure",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "Music Game présente : NOCTIS II 😈 Pour cette deuxième édition, on reprend ce qui faisait l’identité de la soirée et on pousse l’expérience encore plus loin : scénographie poussée, décoration…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 45.316429,
-    "lng": 5.168507,
-    "officialUrl": "https://openagenda.com/shotgun/events/noctis-ii-halloween-rave",
-    "sources": [
-      "https://openagenda.com/shotgun/events/noctis-ii-halloween-rave"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "rave-halloween-inertie-x-ivn",
-    "name": "RAVE HALLOWEEN - INERTIE X IVN",
-    "city": "Le Lion-d'Angers",
-    "region": "Pays de la Loire",
-    "description": "🩸 RAVE HALLOWEEN — INERTIE X INVASION NOCTURNE 🩸 Le 31 octobre, prépare-toi à plonger dans les ténèbres d’une nuit hors de contrôle🕷️ 📍 Hippodrome — Lion d’Angers 📅 Samedi 31 octobre 2026 ⏰…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 47.62986,
-    "lng": -0.708101,
-    "officialUrl": "https://openagenda.com/shotgun/events/rave-halloween-inertie-x-ivn",
-    "sources": [
-      "https://openagenda.com/shotgun/events/rave-halloween-inertie-x-ivn"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "halloween-rave-party-xxl-2026",
-    "name": "HALLOWEEN RAVE PARTY XXL 2026",
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "description": "🎃 HALLOWEEN RAVE PARTY XXL — 31.10.26 — TOULOUSE ☠️ Le 31 octobre, 3 000 m² de l’ESMERALDA CLUB à Sesquières se transforment en un véritable terrain de jeu pour l’une des plus grosses nuits techno…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 43.651626,
-    "lng": 1.421108,
-    "officialUrl": "https://openagenda.com/shotgun/events/halloween-rave-party-xxl-2026",
-    "sources": [
-      "https://openagenda.com/shotgun/events/halloween-rave-party-xxl-2026"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "kc-wicked-girls-louisahhh-kimifromtheinternet-tba",
-    "name": "KC [WICKED GIRLS (Louisahhh & kimifromtheinternet), +TBA]",
-    "city": "Strasbourg",
-    "region": "Grand Est",
-    "description": "PRÉVENTES LIMITÉES / BILLETS SUR PLACE. TARIF EARLY 13€ DE 23H À 00H __________________________________ Techno, Electro Room 𝓰𝓪𝓵𝓵𝓮𝓻𝔂 ★ TBA ★ TBA Room 𝓬𝓵𝓾𝓫 ★ WICKED GIRLS (aka Louisahhh &…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 48.58086,
-    "lng": 7.758256,
-    "officialUrl": "https://openagenda.com/shotgun/events/kc-wicked-girls-louisahhh-and-kimifromtheinternet-tba",
-    "sources": [
-      "https://openagenda.com/shotgun/events/kc-wicked-girls-louisahhh-and-kimifromtheinternet-tba"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "hardtechno-horror-show-snts-salvyan-nivk-imhappy",
-    "name": "HARDTECHNO HORROR SHOW // SNTS - SALVYAN - NIVK - IMHAPPY",
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "description": "HARDTECHNO HORROR SHOW SAMEDI 31 OCTOBRE 2026 📍HANGAR DS - 17 rue Édouard Faure, 33300 Bordeaux 🕘 00:00 – 06:30 ▬▬▬▬▬ LINE-UP ▬▬▬▬▬ ► SNTS ► SALVYAN ► NIVK ► IMHAPPY ► ØKULT ► SNØW 🎵 Hard Techno…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 44.885732,
-    "lng": -0.544529,
-    "officialUrl": "https://openagenda.com/shotgun/events/hardtechno-horror-show-snts-salvyan-nivk-imhappy",
-    "sources": [
-      "https://openagenda.com/shotgun/events/hardtechno-horror-show-snts-salvyan-nivk-imhappy"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "fluid-halloween-hard-edition-lolalita-kimberlaid-more",
-    "name": "FLUID Halloween [Hard Edition] 🎃 Lolalita, KimberlaID &more",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Pour Halloween, on change les règles du jeu. Le temps d'une nuit, Fluid dévoile son côté le plus hard à La Machine avec une programmation qui navigue entre hardcore, schranz et les sonorités rave…",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": 48.884201,
-    "lng": 2.33224,
-    "officialUrl": "https://openagenda.com/shotgun/events/fluid-halloween-hard-edition-lolalita-kimberlaid-andmore",
-    "sources": [
-      "https://openagenda.com/shotgun/events/fluid-halloween-hard-edition-lolalita-kimberlaid-andmore"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "jeanneto",
@@ -4917,32 +4458,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "haunted-mansion-3",
-    "name": "Haunted Mansion 3",
-    "city": "Lyon",
-    "address": null,
-    "region": null,
-    "startDate": "2026-10-31",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2540483",
-    "lineup": [
-      "LEGRAM VG",
-      "Lumbago",
-      "Penelope (2)",
-      "Reptant",
-      "Super Venus",
-      "Tom Bini"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2540483"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "face-2-face-adrian-mills-anl-lyon",
     "name": "FACE 2 FACE: ADRIÁN MILLS ANL LYON",
     "city": "Lyon cedex O",
@@ -5033,179 +4548,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "la-station-doomsday-pas-de-vente-sur-place",
-    "name": "La Station — Doomsday (PAS DE VENTE SUR PLACE)",
-    "city": "Paris",
-    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
-    "region": null,
-    "startDate": "2026-10-31",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2549774",
-    "lineup": [
-      "A Good Year",
-      "Evanora Unlimited",
-      "Lord Spikeheart",
-      "Faïza",
-      "Fatale Furylax",
-      "Golce",
-      "Julie Desire",
-      "Marouchka",
-      "Missy Da Kunt",
-      "Mystique",
-      "NET GALA",
-      "ohjeelo",
-      "Thérapie de Club"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2549774"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "raw-x-seth-halloween-fenim0re-hadone-vel-exos-live-rebecca-delle-piane-b2b-lpv",
-    "name": "RAW x SETH Halloween • FENIM0RE, Hadone, Vel, Exos (live), Rebecca Delle Piane b2b LPV",
-    "city": "Paris",
-    "address": "Dojo de Paris, 21 Av. de la Prte de Châtillon",
-    "region": null,
-    "startDate": "2026-10-31",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2494623",
-    "lineup": [
-      "FENIM0RE",
-      "Hadone",
-      "VEL (MA)",
-      "Exos",
-      "Rebecca Delle Piane",
-      "LPV",
-      "Gabbor"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2494623"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "flash-cocotte-halloween-edition",
-    "name": "Flash Cocotte Halloween Edition",
-    "city": "Paris",
-    "address": "Wanderlust, 32 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-10-31",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2541357",
-    "lineup": [
-      "Dj handbag",
-      "Bimini",
-      "Pipi De Frèche",
-      "Rakans",
-      "Kontronatura",
-      "LUXX",
-      "DJ Music"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2541357"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "after-o-clock-x-la-plage-open-air-arnaud-le-texier-don-turi-remain",
-    "name": "After O'Clock X La Plage Open Air: Arnaud Le Texier, Don Turi, REMAIN",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-10-31",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2555577",
-    "lineup": [
-      "Arnaud Le Texier",
-      "REMAIN"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2555577"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "dream-nation-festival-halloween-edition-paris",
-    "name": "Dream Nation FestIVAL 'HALLOWEEN EDITION' – PARIS",
-    "city": "Villepinte",
-    "address": "Parc des Expositions Paris Nord, ZAC Paris Nord 2, 93420 Villepinte",
-    "region": null,
-    "startDate": "2026-10-30",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2495758",
-    "lineup": [
-      "NOVAH",
-      "Pendulum",
-      "Mandragora",
-      "Netsky",
-      "Angerfist",
-      "Da Tweekaz",
-      "Infected Mushroom",
-      "Alignment",
-      "Dirtyphonics",
-      "Dual Damage",
-      "ECZODIA",
-      "Flux Pavilion",
-      "Korsakoff",
-      "Modestep",
-      "The Bloody Beetroots",
-      "Samuel Moriero (2)",
-      "EARGASM GOD",
-      "L.zwo"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2495758"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "variante billetterie de « Dream Nation » (mêmes dates)"
-  },
-  {
-    "slug": "kilometre25-closing-halloween-with-thelma-danny-wabbit",
-    "name": "KILOMETRE25 CLOSING: HALLOWEEN with THELMA, Danny Wabbit",
-    "city": "Paris",
-    "address": "Kilomètre25, 8 Boulevard MacDonald 75019 Paris",
-    "region": null,
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "officialUrl": "https://ra.co/events/2554486",
-    "lineup": [
-      "THELMA",
-      "Danny Wabbit",
-      "DJ Hyperdrive",
-      "Forest (PL)",
-      "In-Tan",
-      "Cattoni"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2554486"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "after-o-clock-x-la-plage-open-air-closing",
@@ -5487,6 +4829,65 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "outrebleu-weekender",
+    "name": "OUTREBLEU [weekender]",
+    "city": "Pantin",
+    "address": "Magasins Généraux, 1 Rue de l'Ancien Canal, 93500 Pantin",
+    "region": null,
+    "startDate": "2026-11-20",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2494321",
+    "lineup": [
+      "Innersha",
+      "nthng",
+      "Sybil",
+      "Trois-Quarts Taxi System",
+      "upsammy",
+      ".VRIL",
+      "Aaron J",
+      "Atomic moog",
+      "Katatonic Silentio",
+      "GiGi FM",
+      "Maemm",
+      "Timnah"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2494321"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "outrebleu-weekender-day-2",
+    "name": "OUTREBLEU [weekender] — day 2",
+    "city": "Pantin",
+    "address": "Magasins Généraux, 1 Rue de l'Ancien Canal, 93500 Pantin",
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525038",
+    "lineup": [
+      ".VRIL",
+      "Aaron J",
+      "Atomic moog",
+      "Katatonic Silentio",
+      "Timnah",
+      "GiGi FM",
+      "Maemm"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2525038"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -5504,28 +4905,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "matchplay-haunted-house",
-    "name": "Matchplay Haunted House",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-10-31",
-    "endDate": "2026-11-01",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6aca3c2521d66800016cbad0",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6aca3c2521d66800016cbad0"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "house-in-symphony-soul-frequency-onibaku-more",
@@ -5569,6 +4948,52 @@
     ],
     "status": "announced",
     "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "leo-pol-coleeeette-arthur-pringle-toma-house-archive",
+    "name": "Leo Pol, Coleeeette, Arthur Pringle & Toma : House Archive",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-21",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ada22cc65ca49000173cfa0",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ada22cc65ca49000173cfa0"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "la-discotaco-disco-paillettes-tacos",
+    "name": "La Discotaco : disco, paillettes & tacos !",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-06",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ab25625e9928b0001f34b58",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ab25625e9928b0001f34b58",
+      "https://dice.fm/event/6abe85a302ef7e00014dd82f"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   }
 ]
