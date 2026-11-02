@@ -4550,30 +4550,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "after-o-clock-x-la-plage-open-air-closing",
-    "name": "After O'Clock X La Plage Open Air: Closing",
-    "city": "Paris",
-    "address": "Glazart, 7-15 av de la Porte de la Villette; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-11-01",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2569503",
-    "lineup": [
-      "Terminal Trax",
-      "Alhena_",
-      "Axelle Maga",
-      "Romeo Louisa"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2569503"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "automatic-x-imagine-family",
     "name": "Automatic x imagine FAMILY",
     "city": "Paris",
