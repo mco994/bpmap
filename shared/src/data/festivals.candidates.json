@@ -4723,32 +4723,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "bait-traverse",
-    "name": "Bait & traverse",
-    "city": "Paris",
-    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
-    "region": null,
-    "startDate": "2026-11-13",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2539783",
-    "lineup": [
-      "Château Flight",
-      "Gilb'R",
-      "I:Cube",
-      "Soa420",
-      "OLGA B.",
-      "Beatrice M."
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2539783"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "ra25-x-dig-deep-free-pop-up-charity-record-store-with-a-side",
     "name": "RA25 x Dig Deep: Free Pop-Up Charity Record Store with a-side",
     "city": "Paris",
@@ -4777,6 +4751,32 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "bait-traverse",
+    "name": "Bait & traverse",
+    "city": "Paris",
+    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
+    "region": null,
+    "startDate": "2026-11-13",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2539783",
+    "lineup": [
+      "Château Flight",
+      "Gilb'R",
+      "I:Cube",
+      "Soa420",
+      "OLGA B.",
+      "Beatrice M."
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2539783"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "sacre-presente-swell-curated-by-maxye",
@@ -4831,33 +4831,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2494321"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "outrebleu-weekender-day-2",
-    "name": "OUTREBLEU [weekender] — day 2",
-    "city": "Pantin",
-    "address": "Magasins Généraux, 1 Rue de l'Ancien Canal, 93500 Pantin",
-    "region": null,
-    "startDate": "2026-11-21",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2525038",
-    "lineup": [
-      ".VRIL",
-      "Aaron J",
-      "Atomic moog",
-      "Katatonic Silentio",
-      "Timnah",
-      "GiGi FM",
-      "Maemm"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2525038"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4964,12 +4937,10 @@
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6ab25625e9928b0001f34b58",
-      "https://dice.fm/event/6abe85a302ef7e00014dd82f"
+      "https://dice.fm/event/6ab25625e9928b0001f34b58"
     ],
     "status": "announced",
     "needsReview": true,
-    "isFestival": false,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   }
 ]
