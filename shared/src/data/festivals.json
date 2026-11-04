@@ -151,32 +151,6 @@
     ]
   },
   {
-    "id": "michoun-open-festival",
-    "slug": "michoun-open-festival",
-    "name": "Michoun Open Festival",
-    "description": "",
-    "startDate": "2026-10-02",
-    "endDate": "2026-10-03",
-    "lat": 43.60408,
-    "lng": 1.4338,
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "electro"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://ra.co/events/2475326",
-    "status": "announced",
-    "sources": [
-      "https://ra.co/events/2475326"
-    ]
-  },
-  {
     "id": "imagine-family-o-bee-all-day-long-open-air",
     "slug": "imagine-family-o-bee-all-day-long-open-air",
     "name": "imagine FAMILY: O.BEE ALL DAY LONG [OPEN AIR]",
@@ -877,6 +851,39 @@
     "id": "club-dh2-pitchfork-music-festival-paris-2026",
     "slug": "club-dh2-pitchfork-music-festival-paris-2026",
     "name": "Club — DH2: Pitchfork Music Festival Paris 2026",
+    "description": "",
+    "startDate": "2026-11-05",
+    "endDate": null,
+    "lat": 48.85358,
+    "lng": 2.37569,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2454718",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "George Daniel",
+      "Nikki Nair",
+      "Oscar Farrell",
+      "VITAMINE C"
+    ],
+    "sources": [
+      "https://ra.co/events/2454718"
+    ]
+  },
+  {
+    "id": "dh2-pitchfork-music-festival-paris-2026",
+    "slug": "dh2-pitchfork-music-festival-paris-2026",
+    "name": "DH2: Pitchfork Music Festival Paris 2026",
     "description": "",
     "startDate": "2026-11-05",
     "endDate": null,
