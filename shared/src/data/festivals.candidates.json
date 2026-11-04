@@ -1159,6 +1159,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "folies-berruyeres-concert-au-murrayfield",
+    "name": "FOLIES BERRUYÈRES : Concert au Murrayfield",
+    "city": "Bourges",
+    "region": null,
+    "description": "Les Folies Berruyères vous donnent rendez-vous pour trois soirées électro au Pub Le Murrayfield.",
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-05",
+    "lat": 47.0860251,
+    "lng": 2.398479,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/b2054f84-7ca0-398a-9175-d7741c3462ea"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-poesie-chevalier",
     "name": "CONCERT : Poésie Chevalier",
     "city": "Bourges",
@@ -1361,6 +1380,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/4aea811f-753e-3f93-b581-438822a20287"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-disco-annees-80",
+    "name": "Soirée disco années 80 !",
+    "city": "Montignac-Lascaux",
+    "region": null,
+    "description": "L' Amicale des sapeurs-pompiers vous invite à une soirée disco ! Sortez vos tenues des années 80 et venez danser! Food Truck. Crêpes. 1€ (déguisé), 2€ (non déguisé)",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-14",
+    "lat": 45.0658669,
+    "lng": 1.1671474,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/5628f02d-5ace-3a3d-b1ad-b939a404da93"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -4386,6 +4424,25 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
+    "slug": "afterline-festival-where-light-disappears",
+    "name": "Afterline Festival — Where Light Disappears",
+    "city": null,
+    "address": null,
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2575863",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2575863"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "localisation manquante"
+  },
+  {
     "slug": "the-holy-rave-37-dijon",
     "name": "The Holy Rave #37 - Dijon",
     "city": "Dijon France",
@@ -4779,6 +4836,32 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "fvtvr-001-label-launch-night",
+    "name": "Fvtvr 001 — LABEL LAUNCH NIGHT",
+    "city": "Paris",
+    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
+    "region": null,
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-14",
+    "officialUrl": "https://ra.co/events/2576042",
+    "lineup": [
+      "Ignez",
+      "Kian Gast",
+      "Mathys Lenne",
+      "Rebecca Delle Piane",
+      "Steve Bicknell",
+      "Tau Ceti"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2576042"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "sacre-presente-swell-curated-by-maxye",
     "name": "Sacré présente: Swell curated by Maxye",
     "city": "Paris",
@@ -4856,6 +4939,33 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "illusion-2026-lorient",
+    "name": "ILLUSION 2026 - Lorient",
+    "city": "Lanester",
+    "address": "Parc des Expositions du Pays de Lorient, 286 Rue Rouget de Lisle, 56600 Lanester, France",
+    "region": null,
+    "startDate": "2026-12-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2575953",
+    "lineup": [
+      "Vortek's",
+      "Samuel Moriero (2)",
+      "Yoshiko",
+      "Lekkerfaces",
+      "Russian Village Boys",
+      "Sköne",
+      "Majes"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2575953"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "house-in-symphony-soul-frequency-onibaku-more",
     "name": "House in Symphony: Soul Frequency, Onibaku & more",
     "city": "Paris",
@@ -4898,28 +5008,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "leo-pol-coleeeette-arthur-pringle-toma-house-archive",
-    "name": "Leo Pol, Coleeeette, Arthur Pringle & Toma : House Archive",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-21",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ada22cc65ca49000173cfa0",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ada22cc65ca49000173cfa0"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "la-discotaco-disco-paillettes-tacos",

@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-11-04:dh2-pitchfork-music-festival-paris-2026:added",
+    "festivalId": "dh2-pitchfork-music-festival-paris-2026",
+    "festivalSlug": "dh2-pitchfork-music-festival-paris-2026",
+    "festivalName": "DH2: Pitchfork Music Festival Paris 2026",
+    "type": "added",
+    "date": "2026-11-04",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
+    "id": "2026-11-04:michoun-open-festival:removed",
+    "festivalId": "michoun-open-festival",
+    "festivalSlug": "michoun-open-festival",
+    "festivalName": "Michoun Open Festival",
+    "type": "removed",
+    "date": "2026-11-04",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-10-28:name-festival-local-suicide-apm001-blac:added",
     "festivalId": "name-festival-local-suicide-apm001-blac",
     "festivalSlug": "name-festival-local-suicide-apm001-blac",
