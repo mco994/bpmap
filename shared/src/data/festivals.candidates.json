@@ -291,7 +291,7 @@
     "region": null,
     "description": "Programmation exceptionnelle en Lorraine pour les amoureux de l'électro : LIL LOUIS (House – Chicago) // SETH TROXLER (Techno / house – Detroit, Berlin, Ibiza) //  LAOLU (Afro-house – Genève / label Innervisions) // NIKITA (Acid techno, hard techno – France)\n\nOKRE est une nuit, au sens fort : une unité de temps, de lieu et d’action, pas un festival de plus. Une seule salle, un seul son, une trajectoire pensée comme une dramaturgie en quatre actes : de la techno acide de Nikita à la house de Chicago de Lil Louis, en passant par l’afro-house de Laolu et la signature internationale de Seth Troxler.\n\nLe temps d’une nuit, un Centre de Congrès institutionnel se transforme en plateforme d’intensité. Metz rejoint la carte de la scène électronique européenne.",
     "startDate": "2026-11-12",
-    "endDate": "2026-11-13",
+    "endDate": "2026-11-12",
     "lat": 49.107857,
     "lng": 6.177863,
     "officialUrl": null,
@@ -301,7 +301,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "spectacle-ballet-de-lorraine",
@@ -1007,6 +1007,27 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "folies-berruyeres-concerts-a-l-undhair-ground",
+    "name": "FOLIES BERRUYÈRES : Concerts à l'Undhair'ground",
+    "city": "Bourges",
+    "region": null,
+    "description": "Plongez dans l’univers des musiques électroniques avec une soirée indie, progressive et techno à l’Undhair’ground, à l’occasion des Folies Berruyères.",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 47.0860346,
+    "lng": 2.3983408,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/2688fabd-2ecd-374a-b7b7-ed05f2d35c4d",
+      "https://data.datatourisme.fr/15/32b16a15-8c65-34a6-82eb-1a24206f4c07"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "folies-berruyeres-collectivo-et-matanzas-et-dj-ben-borneo",
     "name": "FOLIES BERRUYÈRES : Collectivo et Matanzas et DJ Ben Bornéo",
     "city": "Bourges",
@@ -1503,6 +1524,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "born-to-be-disco-soiree-reveillon",
+    "name": "Born to be Disco - Soirée Réveillon",
+    "city": "Pau",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-31",
+    "endDate": "2026-12-31",
+    "lat": 43.2944818,
+    "lng": -0.3626725,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/c285b1ac-0c2c-36d3-816a-b101839aef51"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "theatre-cirque-minimal-circus",
     "name": "Théâtre-Cirque : \"Minimal Circus\"",
     "city": "Saint-Sever",
@@ -1558,6 +1598,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "concert-live-avec-french-touch",
+    "name": "Concert live avec French Touch",
+    "city": "Nérac",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-06",
+    "lat": 44.138107,
+    "lng": 0.3405816,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/f37426c0-9625-3ed5-bc7a-f2ad6cb805df"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "spectacle-electro-delure-secrets-de-beatmaker",
@@ -2438,25 +2497,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "danse-matiere-s-premiere-s",
-    "name": "Danse - Matière(s) première(s)",
-    "city": "Charleville-Mézières",
-    "region": null,
-    "description": "À travers la simplicité de la danse et la présence des corps, Matière(s) première(s) questionne les rapports de force entre l’Afrique et l’Occident, les mécanismes de domination post-coloniaux et le pillage des ressources. Anne Nguyen associe une gestuelle brute et virtuose à une écriture chorégraphique géométrique et épurée.Les six danseurs vous emportent dans une transe faite de danses urbaines et traditionnelles sur une bande-son qui mêle musiques africaines, afro-américaines et électro. Cette chorégraphie explosive révèle à la fois la beauté et la brutalité du monde.1h15+ 8 ans",
-    "startDate": "2026-11-04",
-    "endDate": "2026-11-04",
-    "lat": 49.77332,
-    "lng": 4.718919,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/42/d861fdac-197b-3bd4-b3bc-96af98c382e9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "courts-circuits-d-a-anomaly-red-cosmic-orchestra",
     "name": "COURTS CIRCUITS - D.A ANOMALY & RED COSMIC ORCHESTRA",
     "city": "Langogne",
@@ -2488,6 +2528,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/45/a086fb0c-40c8-3983-b3e6-b950ab108853"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-offman-et-triceratops",
+    "name": "CONCERT OFFMAN ET TRICERATOPS",
+    "city": "Pont de Montvert - Sud Mont Lozère",
+    "region": null,
+    "description": "Une belle petite soirée villageoise de concerts  au Pont avec OFFMAN (Dream rock / Marseille) et TRICERATOPS (Electro House Live machine / Lozère)\n\nBogdan et Léonce de L’aventure seront là pour vous  restaurer, une petite  buvette  qui va bien \n\nPour fêter l'arrivée des premières gelées... on va se réchauffer \n\nRepas dès 19H",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 44.363118,
+    "lng": 3.745339,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/45/afcd1250-7ead-3b82-a029-180a6417dcc9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2746,6 +2805,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "zin-a-dub-is-back-concerts",
+    "name": "ZIN A DUB IS BACK - Concerts",
+    "city": "Montaigu-Vendée",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 46.983028,
+    "lng": -1.324578,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/74c1141c-5457-3ccb-aa19-4372bc51bb86"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "royal-ballet-opera-au-cinema-le-crepuscule-des-dieux",
     "name": "Royal Ballet & Opera au cinéma - LE CRÉPUSCULE DES DIEUX",
     "city": "Pouzauges",
@@ -2877,6 +2955,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "bra-v-electro-sessions-novembre-dj-set-electro-house-groove",
+    "name": "Bra'V Electro Sessions novembre : DJ set Electro House / Groove",
+    "city": "Ribeauvillé",
+    "region": null,
+    "description": "Une soirée DJ set aux sonorités House, Tech, Funk et 80’s, avec un seul mot d’ordre : du groove et de l’énergie jusqu’au bout de la nuit !",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 48.1891234,
+    "lng": 7.3391764,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/2972e123-1636-3e30-b8a8-d8f6174c3875"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-fergessen",
@@ -3013,7 +3110,7 @@
   },
   {
     "slug": "les-massiliades-2026-realo-romsii-jeune-morty-notinbed",
-    "name": "LES MASSILIADES 2026 Realo + Romsii + Jeune Morty + Notinbed",
+    "name": "Les Massiliades 2026 Realo + Romsii + Jeune Morty + Notinbed",
     "city": "Marseille 6e Arrondissement",
     "region": null,
     "description": "Les Massiliades x Harmonie. Soirée électro/rap/pop  à l'Espace Julien",
