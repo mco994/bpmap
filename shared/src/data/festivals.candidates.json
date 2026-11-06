@@ -931,25 +931,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "odeza-trio",
-    "name": "Odeza trio",
-    "city": "Montauban",
-    "region": null,
-    "description": "Odeza c’est un trio toulousain né de l’amitié de musiciens aux univers différents. Ils signent une musique hybride à la croisée de l’électro/house du Jazz et du Rock.",
-    "startDate": "2026-11-05",
-    "endDate": "2026-11-05",
-    "lat": 44.016569,
-    "lng": 1.347599,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/d521335d-73a0-3f9b-bef9-dc504b979201"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "cine-opera-ou-ballet-representation-sur-grand-ecran",
     "name": "Ciné-Opéra ou Ballet - Représentation sur grand écran",
     "city": "Jonzac",
@@ -1180,25 +1161,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "folies-berruyeres-concert-au-murrayfield",
-    "name": "FOLIES BERRUYÈRES : Concert au Murrayfield",
-    "city": "Bourges",
-    "region": null,
-    "description": "Les Folies Berruyères vous donnent rendez-vous pour trois soirées électro au Pub Le Murrayfield.",
-    "startDate": "2026-11-05",
-    "endDate": "2026-11-05",
-    "lat": 47.0860251,
-    "lng": 2.398479,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/b2054f84-7ca0-398a-9175-d7741c3462ea"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-poesie-chevalier",
     "name": "CONCERT : Poésie Chevalier",
     "city": "Bourges",
@@ -1351,8 +1313,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "seance-de-danse-disco",
-    "name": "Séance de danse disco",
+    "slug": "stage-de-danse-disco",
+    "name": "Stage de danse disco",
     "city": "Arthez-de-Béarn",
     "region": null,
     "description": "",
@@ -1386,6 +1348,29 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-techno-euphonic-boulevard",
+    "name": "Soirée Techno - Euphonic Boulevard",
+    "city": "Melle",
+    "region": null,
+    "description": "",
+    "startDate": "2027-02-27",
+    "endDate": "2027-02-27",
+    "lat": 46.2214751,
+    "lng": -0.1432945,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/3831cf34-e081-3a31-8421-6b0dcc950a2c",
+      "https://data.datatourisme.fr/23/a00dbbbe-4c46-3615-9d60-d39a0ac5e8ee",
+      "https://data.datatourisme.fr/23/b58f2268-9e0b-3a74-b6dc-a08401bdfa99",
+      "https://data.datatourisme.fr/23/e48e764c-8961-3edd-9724-5c463ee68dc8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
@@ -1477,6 +1462,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/6dd74603-57ab-3de2-8876-9522a6240d8a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-b-a-m-organic-techno-grooves",
+    "name": "Concert B.Ä.M Organic Techno Grooves",
+    "city": "Piégut-Pluviers",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-27",
+    "lat": 45.6243129,
+    "lng": 0.68732617,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/8267f556-cac8-3a60-af67-3186632b504a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1999,6 +2003,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "atelier-petite-boule-disco-ou-cloche-fleurie",
+    "name": "Atelier petite boule disco ou cloche fleurie",
+    "city": "Clères",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 49.599534,
+    "lng": 1.110644,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/5a55625c-fb30-3979-930a-5d43de01b623"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "musique-soiree-disco-en-famille",
     "name": "[Musique] Soirée disco en famille",
     "city": "Dieppe",
@@ -2260,6 +2283,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/3f96b361-3573-3419-b33f-f1f7365978b6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-disco-annee-80",
+    "name": "Soirée Disco année 80",
+    "city": "Trégunc",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-07",
+    "endDate": "2026-11-07",
+    "lat": 47.8557479,
+    "lng": -3.8457532,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/610f3fd1-cbd2-30af-a9a1-e5fb4b024e1a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2542,8 +2584,8 @@
     "description": "Une belle petite soirée villageoise de concerts  au Pont avec OFFMAN (Dream rock / Marseille) et TRICERATOPS (Electro House Live machine / Lozère)\n\nBogdan et Léonce de L’aventure seront là pour vous  restaurer, une petite  buvette  qui va bien \n\nPour fêter l'arrivée des premières gelées... on va se réchauffer \n\nRepas dès 19H",
     "startDate": "2026-11-07",
     "endDate": "2026-11-07",
-    "lat": 44.363118,
-    "lng": 3.745339,
+    "lat": 44.3654802,
+    "lng": 3.7464226,
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/45/afcd1250-7ead-3b82-a029-180a6417dcc9"
@@ -3216,25 +3258,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/6/742d7871-988f-30f2-aee0-b2612ccc8acf"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "live-dub-session-full-dub-bass-trooperz-amhka-dub",
-    "name": "[Live dub session] full dub + bass trooperz + amhka dub",
-    "city": "Chalon-sur-Saône",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 46.77968,
-    "lng": 4.85491,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/6/ee84532f-25a5-3184-99c4-e2dba99af3e1"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -4783,7 +4806,6 @@
       "Lili Castiglioni",
       "João Lágrima De Ouro",
       "Petit",
-      "Broodoo Ramses",
       "Lorenzi",
       "encore une autre",
       "GRAV"
@@ -4851,8 +4873,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "dj-polo-romy-white-more-baile-do-gangz-couvre-x-chefs",
-    "name": "DJ Polo, Romy White & More: Baile Do Gangz & Couvre X CHEFs",
+    "slug": "baile-do-gangz-couvre-x-chefs-dj-polo-romy-white-mor",
+    "name": "Baile Do Gangz & Couvre x Chefs: DJ Polo, Romy White & Mor",
     "city": "Paris",
     "address": "La Java, 105 rue du faubourg du Temple; 75010; Paris; France",
     "region": null,
@@ -5112,17 +5134,17 @@
     "city": "Paris",
     "region": "Île-de-France",
     "description": "",
-    "startDate": "2026-11-05",
-    "endDate": "2026-11-06",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-13",
     "lat": null,
     "lng": null,
-    "officialUrl": "https://dice.fm/event/6ab25625e9928b0001f34b58",
+    "officialUrl": "https://dice.fm/event/6abe85a302ef7e00014dd82f",
     "lineup": [],
     "source": "dice",
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6ab25625e9928b0001f34b58"
+      "https://dice.fm/event/6abe85a302ef7e00014dd82f"
     ],
     "status": "announced",
     "needsReview": true,
