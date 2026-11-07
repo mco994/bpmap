@@ -247,6 +247,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "tourment",
+    "name": "Tourment",
+    "city": "Hettange-Grande",
+    "region": null,
+    "description": "Création dramatique de Paolo Scarpato et La Maschera\n\nSur scène, Elodie et sa fille, Sara, racontent et détournent une même histoire : celle d’un harcèlement scolaire qu’aucune des deux ne parvient à comprendre.\nDans un dispositif minimal, les deux comédiennes incarnent différents points de vue et brouillent les frontières entre le monde des enfants et celui des adultes. En se relayant, elles révèlent le cheminement silencieux du harcèlement. À travers cette relation poignante, la pièce pose un regard fort, intime et sensible sur ces blessures invisibles. Ce qui se joue ici dépasse la simple violence scolaire. C’est la transmission tragique du silence, de la peur et de la solitude.\n\nLa pièce sera suivie d’un temps d’échanges, en présence de professionnels experts du terrain.",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "lat": 49.400442,
+    "lng": 6.161495,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/70fdd36e-b7b2-321a-a4fb-9f3a4aae4a8f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "danse-hit-hip-pop-classic-parade-danse-participative",
     "name": "Danse - Hit Hip Pop Classic Parade, danse participative",
     "city": "Metz",
@@ -608,6 +627,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "hard-side-9",
+    "name": "HARD SIDE #9",
+    "city": "Valence",
+    "region": null,
+    "description": "Soirée proposée par Lab’Elles\r\n\r\nArtistes :\r\n-Mary Life (Acid Tribe)\r\n-Nykse (Hard Techno, Schranz)\r\n-Miss’ Mel (Acid Techno)",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-12",
+    "lat": 44.928837,
+    "lng": 4.89176,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/668f28ce-bcbd-3df3-9b9d-6a0ea0336f22"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-electro-techno-warless-sound-system",
     "name": "Soirée électro-techno - Warless Sound System",
     "city": "Die",
@@ -639,25 +677,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/75b2c9cf-b603-3457-9dbe-896feaa2a7e0"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-elle-danse-encore-encor-lumiere-noire",
-    "name": "Concert : Elle Danse - Encore&Encor - Lumière Noire",
-    "city": "Bourg-lès-Valence",
-    "region": null,
-    "description": "Le Vacarme Exquis est très heureux d’accueillir Elle Danse, Encore & Encor et Lumière Noire pour une soirée techno live !\r\nPlongez dans une soirée entre électro, techno et énergie rave au Vacarme Exquis !",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 44.938348,
-    "lng": 4.888331,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/7b094738-efad-391a-abd8-18eaaa66d34b"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -715,25 +734,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/87ef5eaa-7091-3f07-b80a-4dbda41d0174"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "the-celtic-social-club-nott",
-    "name": "The Celtic social club + Nòtt",
-    "city": "Cluses",
-    "region": null,
-    "description": "The Celtic Social Club bouscule les codes en mélangeant les sonorités celtiques traditionnelles, le rock, la folk et même des touches d’électro. \r\nEn première partie, le duo indie folk-rock chambérien Nótt nous plongera dans leur univers musical envoutant.",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 46.070869,
-    "lng": 6.564328,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/9449f26c-445e-3ac2-9600-6f7e7459ce28"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -931,6 +931,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "concert-jolene",
+    "name": "Concert : Jolene",
+    "city": "Valence",
+    "region": null,
+    "description": "Artistes :\r\n-Secret guest !\r\n-Lia Lux (Deep House, Suisse)\r\n-Danny & Mike Parton (House, Valence/Lyon)",
+    "startDate": "2026-12-11",
+    "endDate": "2026-12-11",
+    "lat": 44.928837,
+    "lng": 4.89176,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/d50a22d6-7c5e-35c4-bb33-e35047f72484"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "cine-opera-ou-ballet-representation-sur-grand-ecran",
     "name": "Ciné-Opéra ou Ballet - Représentation sur grand écran",
     "city": "Jonzac",
@@ -999,33 +1018,12 @@
     "lng": 2.3983408,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/15/2688fabd-2ecd-374a-b7b7-ed05f2d35c4d",
-      "https://data.datatourisme.fr/15/32b16a15-8c65-34a6-82eb-1a24206f4c07"
+      "https://data.datatourisme.fr/15/2688fabd-2ecd-374a-b7b7-ed05f2d35c4d"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "isFestival": false,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "folies-berruyeres-collectivo-et-matanzas-et-dj-ben-borneo",
-    "name": "FOLIES BERRUYÈRES : Collectivo et Matanzas et DJ Ben Bornéo",
-    "city": "Bourges",
-    "region": null,
-    "description": "Les Folies Berruyères vous donnent rendez-vous pour trois soirées électro au Pub Le Murrayfield.",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 47.0860251,
-    "lng": 2.398479,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/2dd3c0bd-ec63-30c7-974a-c4cb4c9ea5d1"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "local-sessions",
@@ -1040,25 +1038,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/41239ee5-49f1-3a66-8e35-257cfd2c4e61"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "ebony",
-    "name": "Ebony",
-    "city": "Joué-lès-Tours",
-    "region": null,
-    "description": "Finaliste de la saison 2024 de la Star Academy, Ebony s’est révélée au grand public avec Unforgettable, un titre qui pourrait bien être prophétique ! Au-delà de ses prouesses vocales, elle se distingue dans sa musique par ses rythmiques bouyon alliées à des sonorités electro.",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 47.33938,
-    "lng": 0.6630262,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/6832de18-2040-341c-8553-68a8a3c09f75"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1142,25 +1121,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "folies-berruyeres-concerts-a-la-villa-monin-round-1",
-    "name": "FOLIES BERRUYÈRES : Concerts à la Villa Monin Round 1",
-    "city": "Bourges",
-    "region": null,
-    "description": "Vibrez au rythme des Folies Berruyères à la Villa Monin, avec une soirée électro mêlant house, nu disco, minimal et techno !",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 47.0820446,
-    "lng": 2.3971217,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/aeb23abb-98bd-37a6-b6a6-87d0b2be0316"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-poesie-chevalier",
     "name": "CONCERT : Poésie Chevalier",
     "city": "Bourges",
@@ -1180,18 +1140,18 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "man-e-s",
-    "name": "MAN.E.S",
-    "city": "Saint-Amand-Montrond",
+    "slug": "disco-soupe-2026-au-pole-xxl",
+    "name": "Disco soupe 2026 au pôle XXL",
+    "city": "Lussault-sur-Loire",
     "region": null,
-    "description": "VENDREDI 6 NOVEMBRE À 20H30\nMAN.E.S\nCOMPAGNIE MARC PRÉPUS (71)\n\nAu Théâtre de la Carrosserie Mesnier\n3 rue Hôtel Dieu, Saint-Amand-Montrond\n\nPetits contes queer et musique électro-ménagère\nPublic à partir de 10 ans\nDurée 1h16\nTarifs habituels 14€ | 10€ | 5€",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 46.7213064,
-    "lng": 2.5092331,
+    "description": "Le  6 décembre 2026, l'association Bul' de mômes organise au PôleXXI une disco soupe ! Venez vous réchauffer en dégustant une bonne soupe à prix libre.",
+    "startDate": "2026-12-06",
+    "endDate": "2026-12-06",
+    "lat": 47.398272,
+    "lng": 0.924621,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/15/e7fdca86-7bfb-38c7-ae1a-7e3640e1a3c4"
+      "https://data.datatourisme.fr/15/c5da99ba-8e16-3b63-acd3-b5847fad0cef"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1602,25 +1562,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "concert-live-avec-french-touch",
-    "name": "Concert live avec French Touch",
-    "city": "Nérac",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 44.138107,
-    "lng": 0.3405816,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/f37426c0-9625-3ed5-bc7a-f2ad6cb805df"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "spectacle-electro-delure-secrets-de-beatmaker",
@@ -3170,25 +3111,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "sunshine-people",
-    "name": "Sunshine people",
-    "city": "Marseille 5e Arrondissement",
-    "region": null,
-    "description": "Sunshine People distille de l’amour et de la House Music au Makeda autour d’une même vibration",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 43.293233,
-    "lng": 5.39175,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/8e2bcec6-4751-3d20-b0cb-1b6a44867c67"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "la-responsabilite-des-reves",
     "name": "La responsabilité des rêves",
     "city": "Aix-en-Provence",
@@ -3263,45 +3185,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "nova-moves-ya",
-    "name": "Nova moves ya",
-    "city": "Saint-Avé",
-    "region": "Bretagne",
-    "description": "Raversound investit L’Echonova pour la toute première fois. Pour cette première édition, nous avons le plaisir d’accueillir deux figures incontournables de la scène techno parisienne : Mac Declos et…",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "lat": 47.674535,
-    "lng": -2.743886,
-    "officialUrl": "https://openagenda.com/shotgun/events/nova-moves-ya",
-    "sources": [
-      "https://openagenda.com/shotgun/events/nova-moves-ya"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "sweat-4",
-    "name": "SWEAT #4",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "LDMTevents présente : SWEAT #4 🏳️‍🌈 Vendredi 6 novembre a partir de minuit au Nouveau Casino c'est la 4eme edition de SWEAT your house 🏳️‍🌈 queer & kinky party 🏡🎶💦 🔗 SWEAT #4 🏳️‍🌈 🏢…",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "lat": 48.865871,
-    "lng": 2.377898,
-    "officialUrl": "https://openagenda.com/shotgun/events/sweat-4",
-    "sources": [
-      "https://openagenda.com/shotgun/events/sweat-4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "myd-pristine-pit-jc3000-pplc-le-live-toulon",
@@ -3828,101 +3711,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "jeanneto",
-    "name": "JeanneTo",
-    "city": "Rennes",
-    "region": "Bretagne",
-    "description": "JeanneTo, c’est une voix pop punk qui s’invite dans le chaos de la rave, sur des rythmes provocants qui poussent les genres déchaînés des années 90 vers leurs extrêmes : basses qui frappent, blasts…",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-06",
-    "lat": 48.104922,
-    "lng": -1.676575,
-    "officialUrl": "https://openagenda.com/shotgun/events/jeanneto",
-    "sources": [
-      "https://openagenda.com/shotgun/events/jeanneto"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "poke-rave-rose-de-france-vinka-wydro-more",
-    "name": "😈 POKE RAVE | ROSE DE FRANCE | VINKA WYDRO & MORE …",
-    "city": "Pantin",
-    "region": "Île-de-France",
-    "description": "⚡ TERMINUS : ATTENTION AU DÉPART, DRESSEURS, DRESSEUSES ! ⚡ T’aimes les kicks bien patates ? Et c’est OK. T’aimes les Pokémon ? Et c’est OK. T’aimes les kicks bien patates ET les Pokémon ? Et c’est…",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "lat": 48.896985,
-    "lng": 2.406088,
-    "officialUrl": "https://openagenda.com/shotgun/events/poke-rave-or-rose-de-france-or-vinka-wydro-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/poke-rave-or-rose-de-france-or-vinka-wydro-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "py-rave-vladimir-cauchemar",
-    "name": "Py'Rave × Vladimir Cauchemar",
-    "city": "Tarbes",
-    "region": "Occitanie",
-    "description": "🕒 Horaires De 23h30 à 5h30 du matin 🎧 Line-up VLADIMIR CAUCHEMAR NØNAME JOCAN BULI Py'Rave frappe fort et invite Vladimir Cauchemar (Lokomotiv Sound / Island - Def Jam) pour une nuit hors normes à…",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "lat": 43.221364,
-    "lng": 0.041737,
-    "officialUrl": "https://openagenda.com/shotgun/events/pyrave-vladimir-cauchemar",
-    "sources": [
-      "https://openagenda.com/shotgun/events/pyrave-vladimir-cauchemar"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "plein-phare-x-la-rave-en-b2b-scene-360",
-    "name": "PLEIN PHARE X LA RAVE EN B2B - SCÈNE 360°",
-    "city": "Balma",
-    "region": "Occitanie",
-    "description": "⚔️ PLEIN PHARE X LA RAVE EN B2B - SCÈNE 360° ⚔️ 💥 INTERFERENCE - VENDREDI 06 NOVEMBRE Pour cette nouvelle édition de La Rave en B2B, Interference accueille une série de back-to-back explosifs. À…",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "lat": 43.631141,
-    "lng": 1.490916,
-    "officialUrl": "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-b2b-scene-360",
-    "sources": [
-      "https://openagenda.com/shotgun/events/plein-phare-x-la-rave-en-b2b-scene-360"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "karnage-inv-tripped-matt-green-densha-crisis-more",
-    "name": "Karnage inv Tripped, Matt Green, Densha Crisis & more",
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "description": "⛓️ KARNAGE invite MADBACK RECORDS ⛓️ 10 YEARS OF MADBACK 06.11.2026 📍 Le Rex Toulouse Dix ans que Madback façonne le son industriel et hardcore, dix ans à pousser la distorsion toujours plus loin.…",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "lat": 43.611989,
-    "lng": 1.438322,
-    "officialUrl": "https://openagenda.com/shotgun/events/karnage-inv-tripped-matt-green-densha-crisis-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/karnage-inv-tripped-matt-green-densha-crisis-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "impact-winter-rave-xxl",
@@ -4661,27 +4449,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "rave-records",
-    "name": "RAVE RECORDS",
-    "city": "Marseille",
-    "address": "Le Chapiteau - Marseille, 38 TVS Notre Dame De Bon Secours",
-    "region": null,
-    "startDate": "2026-11-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2569478",
-    "lineup": [
-      "Marquise"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2569478"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "dreamachine-festival-petit-cab",
     "name": "Dreamachine Festival @ Petit Cab",
     "city": "MARSEILLE",
@@ -4721,68 +4488,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2555425"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "automatic-x-imagine-family",
-    "name": "Automatic x imagine FAMILY",
-    "city": "Paris",
-    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "officialUrl": "https://ra.co/events/2527337",
-    "lineup": [
-      "ABI (FR)",
-      "Aline Brooklyn",
-      "Krol",
-      "Automatic Writing",
-      "Charonne",
-      "DJ Senc",
-      "El Hey",
-      "Francesco Del Garda",
-      "Fumiya Tanaka",
-      "Josepha",
-      "Marc Anthony Bowen",
-      "Marlie",
-      "Nesta",
-      "Quest (IT)",
-      "Tau Car",
-      "Yamour"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2527337"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "motus-xxl-adb-nevermind-more",
-    "name": "Motus XXL - ADB, NEVERMIND & MORE",
-    "city": "Paris",
-    "address": "La Rotonde Stalingrad, 6-8 Place de la Bataille de Stalingrad - 75019 Paris",
-    "region": null,
-    "startDate": "2026-11-06",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2565360",
-    "lineup": [
-      "E.T.",
-      "ADB (FR)",
-      "SHAA",
-      "Killoverjoy",
-      "HIBI",
-      "PAK-E"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2565360"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4844,6 +4549,42 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "automatic-x-imagine-family",
+    "name": "Automatic x imagine FAMILY",
+    "city": "Paris",
+    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
+    "region": null,
+    "startDate": "2026-11-06",
+    "endDate": "2026-11-07",
+    "officialUrl": "https://ra.co/events/2527337",
+    "lineup": [
+      "ABI (FR)",
+      "Aline Brooklyn",
+      "Krol",
+      "Automatic Writing",
+      "Charonne",
+      "DJ Senc",
+      "El Hey",
+      "Francesco Del Garda",
+      "Fumiya Tanaka",
+      "Josepha",
+      "Marc Anthony Bowen",
+      "Marlie",
+      "Nesta",
+      "Quest (IT)",
+      "Tau Car",
+      "Yamour"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2527337"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "pisica-noise-mafia-dj-guestlist-two-girls-one-mom-more",
@@ -5129,6 +4870,52 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "your-local-house-club",
+    "name": "YOUR LOCAL HOUSE CLUB",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-21",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ae86850e5a8d60001abf58b",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ae86850e5a8d60001abf58b",
+      "https://dice.fm/event/6ae86af545caf200018c8405"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "leo-pol-coleeeette-arthur-pringle-toma-house-archive",
+    "name": "Leo Pol, Coleeeette, Arthur Pringle & Toma : House Archive",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-21",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ada22cc65ca49000173cfa0",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ada22cc65ca49000173cfa0"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "la-discotaco-disco-paillettes-tacos",
     "name": "La Discotaco : disco, paillettes & tacos !",
     "city": "Paris",
@@ -5145,6 +4932,28 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6abe85a302ef7e00014dd82f"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-discotaco-xxl-fete-sous-paillettes-line-dance",
+    "name": "LA DISCOTACO XXL : Fête sous paillettes & line dance !",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-15",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6aba7f36de359100010f42f3",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6aba7f36de359100010f42f3"
     ],
     "status": "announced",
     "needsReview": true,
