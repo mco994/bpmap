@@ -1181,6 +1181,33 @@
     ]
   },
   {
+    "id": "ref-festival-2027",
+    "slug": "ref-festival-2027",
+    "name": "REF Festival 2027",
+    "description": "",
+    "startDate": "2027-05-07",
+    "endDate": null,
+    "lat": 43.71655,
+    "lng": 7.28431,
+    "city": "Nice",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2575836",
+    "status": "announced",
+    "eventType": "festival",
+    "sources": [
+      "https://ra.co/events/2575836"
+    ]
+  },
+  {
     "id": "olympiad-festival",
     "slug": "olympiad-festival",
     "name": "Olympiad Festival",
