@@ -133,25 +133,6 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
-    "slug": "temps-de-pause-ateliers-concerts-repas",
-    "name": "Temps de pause, ateliers concerts repas",
-    "city": "Rochesson",
-    "region": null,
-    "description": "Un moment hors du temps pour se préparer à l'hiver vosgien. Trois ateliers (écriture, danse et Qi gong) en journée, un repas confectionné maison, suivi bien sûr d’une soirée endiablée avec 2 concerts aux sonorités électro et musiques du monde. \n10h-12h Atelier d'écriture avec Carlo De Sacco, chanteur-percussionniste, auteur-compositeur et interprète du groupe Grèn Sémé et Alsimi / 12h: Repas pour les personnes participants à la journée d'ateliers. / 14h-16h: Atelier danse F.C.B.D. / 16h-18h: Qi gong avec Benoit Lux / Repas: Menu automnale / 20h30 KASLAN, Un trio organique – soubassophone, accordéon et trompette – transcendé par la puissance de l’électro / 22h30 ALSIMI, l’Alchimie musicale de Marie Lanfroy, de Carlo de Sacco et de Bajoun / Tarifs: (tout public/Adhérent) : 1 ateliers: 12€/8€ / Concerts (à partir de 20h30): 15€/10€ / Repas du soir (entrée, plat, dessert)+Concerts: 25€/20€ / 3 Ateliers + repas(midi et soir)+Concerts: 50€/40€ - Attention places limitées pour les ateliers et le repas du soir, réservations par mail ou sms au 0673540525",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 48.0221838605202,
-    "lng": 6.7869222883834,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/5f4981b2-5d78-339c-ba71-b74b563ceb56"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "spectacle-de-danse-lullaby-shot",
     "name": "Spectacle de danse : Lullaby Shot",
     "city": "Forbach",
@@ -589,25 +570,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-totalement-80",
-    "name": "Concert : Totalement 80",
-    "city": "Barbières",
-    "region": null,
-    "description": "Pour fêter les 50 ans du disco, venez vous ambiancer à Barbière et chanter sur vos airs favoris...",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 44.956398,
-    "lng": 5.137998,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/502ee5dc-fe75-3334-9c8c-dacdcd38d221"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "feeries-d-hiver-concert-dj-la-releve",
     "name": "Féeries d’Hiver: Concert : DJ \"La Relève\"",
     "city": "Valence",
@@ -798,25 +760,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-ignite-cancer-bats-guest",
-    "name": "Concert : IGNITE + Cancer Bats + Guest",
-    "city": "Romans-sur-Isère",
-    "region": null,
-    "description": "Depuis plus de 30 ans, Ignite distille un hardcore mélodique porté par des textes engagés. En live, Ignite, c’est la sincérité, l’énergie et l’urgence : la voix qui porte un message, les guitares qui frappent, et cette capacité à fédérer autour d’un idéal",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 45.043415,
-    "lng": 5.043912,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/b15a30ea-c13d-3331-bcb3-e27d6bc9c850"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-electro-lab-6",
     "name": "Concert : Electro Lab #6",
     "city": "Rochefort",
@@ -969,6 +912,25 @@
     "_reason": "genre électro non confirmé"
   },
   {
+    "slug": "les-feeries-d-hiver-concert-gayane-koninyan",
+    "name": "Les Féeries d’hiver: Concert : Gayané Koninyan",
+    "city": "Valence",
+    "region": null,
+    "description": "Violon entre thèmes classiques et rythmes électro avec Gayané Koninyan.",
+    "startDate": "2026-12-18",
+    "endDate": "2026-12-18",
+    "lat": 44.930716,
+    "lng": 4.892638,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/fceb2a89-d490-3663-9d73-5f7739c0e7ea"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "supertronica-la-cigue",
     "name": "SUPERTRONICA   LA CIGUË",
     "city": "Joué-lès-Tours",
@@ -1000,25 +962,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/1dff64b6-8f6e-358b-8f8b-4d429eb4029e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "folies-berruyeres-concerts-a-l-undhair-ground",
-    "name": "FOLIES BERRUYÈRES : Concerts à l'Undhair'ground",
-    "city": "Bourges",
-    "region": null,
-    "description": "Plongez dans l’univers des musiques électroniques avec une soirée indie, progressive et techno à l’Undhair’ground, à l’occasion des Folies Berruyères.",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 47.0860346,
-    "lng": 2.3983408,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/2688fabd-2ecd-374a-b7b7-ed05f2d35c4d"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1064,25 +1007,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "folies-berruyeres-rodeo-techno-a-l-incontournable",
-    "name": "FOLIES BERRUYÈRES : Rodéo Techno à l'Incontournable",
-    "city": "Bourges",
-    "region": null,
-    "description": "Plongez dans l'univers de la techno avec une soirée électro rythmée par les sets de Lind, Helia, Oliski, Geuth et Gaminox, à l'occasion des Folies Berruyères.",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 47.0853233,
-    "lng": 2.3944189,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/7fadcf4b-c8be-3f10-917d-da15883b27ee"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "folies-berruyeres-concerts-a-l-o2g-le-closing",
     "name": "FOLIES BERRUYÈRES : Concerts à l' O2G Le Closing",
     "city": "Bourges",
@@ -1100,44 +1024,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "folies-berruyeres-concert-de-dj-ronnie",
-    "name": "FOLIES BERRUYÈRES : Concert de DJ Ronnie",
-    "city": "Bourges",
-    "region": null,
-    "description": "Les Folies Berruyères vous donnent rendez-vous pour trois soirées électro au Pub Le Murrayfield.",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 47.0860251,
-    "lng": 2.398479,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/a6c8294a-2bd4-3493-9e03-bb823b639fa4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-poesie-chevalier",
-    "name": "CONCERT : Poésie Chevalier",
-    "city": "Bourges",
-    "region": null,
-    "description": "Poésie et électro : le corps masculin vu par un regard féminin !",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 47.08144,
-    "lng": 2.3994094,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/b27290de-bb79-30b0-b9df-eb4a8053a91c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "disco-soupe-2026-au-pole-xxl",
@@ -1195,25 +1081,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "soiree-blind-test-a-capdenac-le-haut",
-    "name": "Soirée blind test à Capdenac-le-Haut",
-    "city": "Capdenac",
-    "region": null,
-    "description": "<p>Le comité des fêtes de Capdenac le haut vous invite à participer à sa soirée blind test animé par Disco&#39; Flo.</p>",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 44.580702,
-    "lng": 2.069588,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/6023c222-e484-393e-bc4b-cf5666ffe815"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "l-orange-fluo-presente-june-bug",
@@ -1324,7 +1191,6 @@
     "sources": [
       "https://data.datatourisme.fr/23/3831cf34-e081-3a31-8421-6b0dcc950a2c",
       "https://data.datatourisme.fr/23/a00dbbbe-4c46-3615-9d60-d39a0ac5e8ee",
-      "https://data.datatourisme.fr/23/b58f2268-9e0b-3a74-b6dc-a08401bdfa99",
       "https://data.datatourisme.fr/23/e48e764c-8961-3edd-9724-5c463ee68dc8"
     ],
     "genreVerified": false,
@@ -1467,6 +1333,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "guappecarto-seb-martel-et-natale-la-riccia",
+    "name": "Guappecartó, Seb Martel et Natale La Riccia",
+    "city": "Thouars",
+    "region": null,
+    "description": "Concert de Guappecartó, Natale La Riccia et Seb Martel, mercredi 2 décembre 2026 à 20h au conservatoire Tyndo. Une soirée musicale autour de l’album « D-Segni », mêlant improvisation instrumentale et sonorités électro-acoustiques.",
+    "startDate": "2026-12-02",
+    "endDate": "2026-12-02",
+    "lat": 46.9761276,
+    "lng": -0.2124335,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/98ff6248-6f6c-3aac-ac89-3b57a536324e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-dub",
     "name": "Soirée DUB",
     "city": "Jumilhac-le-Grand",
@@ -1562,25 +1447,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "spectacle-electro-delure-secrets-de-beatmaker",
-    "name": "Spectacle électro-déluré : Secrets de Beatmaker",
-    "city": "Vitry-le-François",
-    "region": null,
-    "description": "Atelier : 14h\nGoûter : 16h (offert aux enfants)\nSpectacle : 16h30",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 48.7267934,
-    "lng": 4.5798138,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/26/420057a7-bc37-32e1-9317-08f7e50fecfd"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "gravity-other-myths",
@@ -1944,25 +1810,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "atelier-petite-boule-disco-ou-cloche-fleurie",
-    "name": "Atelier petite boule disco ou cloche fleurie",
-    "city": "Clères",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 49.599534,
-    "lng": 1.110644,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/5a55625c-fb30-3979-930a-5d43de01b623"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "musique-soiree-disco-en-famille",
     "name": "[Musique] Soirée disco en famille",
     "city": "Dieppe",
@@ -2224,25 +2071,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/3f96b361-3573-3419-b33f-f1f7365978b6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-disco-annee-80",
-    "name": "Soirée Disco année 80",
-    "city": "Trégunc",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 47.8557479,
-    "lng": -3.8457532,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/610f3fd1-cbd2-30af-a9a1-e5fb4b024e1a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2518,25 +2346,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-offman-et-triceratops",
-    "name": "CONCERT OFFMAN ET TRICERATOPS",
-    "city": "Pont de Montvert - Sud Mont Lozère",
-    "region": null,
-    "description": "Une belle petite soirée villageoise de concerts  au Pont avec OFFMAN (Dream rock / Marseille) et TRICERATOPS (Electro House Live machine / Lozère)\n\nBogdan et Léonce de L’aventure seront là pour vous  restaurer, une petite  buvette  qui va bien \n\nPour fêter l'arrivée des premières gelées... on va se réchauffer \n\nRepas dès 19H",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 44.3654802,
-    "lng": 3.7464226,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/45/afcd1250-7ead-3b82-a029-180a6417dcc9"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "auxsons-10",
     "name": "#AUXSONS 10",
     "city": "Chanac",
@@ -2554,6 +2363,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "blue-dog-origins",
+    "name": "Blue Dog : Origins",
+    "city": "Le Mans",
+    "region": null,
+    "description": "BLUE DOG : ORIGINS Techno all night long",
+    "startDate": "2027-12-05",
+    "endDate": "2027-12-06",
+    "lat": 47.9597531,
+    "lng": 0.2022793,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/015a0fcb-03d1-360c-a054-1b3dfe28013c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "ballet-de-lorraine-l-age-d-or-et-rave",
@@ -2940,23 +2768,23 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "bra-v-electro-sessions-novembre-dj-set-electro-house-groove",
-    "name": "Bra'V Electro Sessions novembre : DJ set Electro House / Groove",
-    "city": "Ribeauvillé",
+    "slug": "spectacle-deambulatoire-fanfare-kraken-orchestra",
+    "name": "Spectacle déambulatoire, Fanfare Kraken Orchestra",
+    "city": "Soultz-sous-Forêts",
     "region": null,
-    "description": "Une soirée DJ set aux sonorités House, Tech, Funk et 80’s, avec un seul mot d’ordre : du groove et de l’énergie jusqu’au bout de la nuit !",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-07",
-    "lat": 48.1891234,
-    "lng": 7.3391764,
+    "description": "À bord de son vaisseau-fossile, l’équipage du Kraken traverse les époques, mêlant mélodies d’enfance, tubes métamorphosés et techno acoustique.",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "lat": 48.935157,
+    "lng": 7.883031,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/5/2972e123-1636-3e30-b8a8-d8f6174c3875"
+      "https://data.datatourisme.fr/5/387af297-ca89-3360-946d-66ded93f6908"
     ],
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "concert-fergessen",
@@ -3047,6 +2875,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/5/bcb4f86b-b967-31e2-8650-4f721fcf139e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-de-mme-doug",
+    "name": "Concert de Mme Doug",
+    "city": "Dorlisheim",
+    "region": null,
+    "description": "Ce duo basse-trombone revisite des standards avec autant d’aplomb que d’autodérision. Entre électro artisanale, lyrisme mutant et blind tests malicieux, les 2 comparses livrent une forme de jazz qui a pris l’apéro avant de monter sur scène.",
+    "startDate": "2026-12-06",
+    "endDate": "2026-12-06",
+    "lat": 48.5268763,
+    "lng": 7.4868922,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/5/ed4c5c80-7e62-30d4-a543-951bd0e07e14"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3185,63 +3032,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "myd-pristine-pit-jc3000-pplc-le-live-toulon",
-    "name": "Myd + Pristine Pit + JC3000 + PPLC @Le Live Toulon",
-    "city": "Toulon",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "Le concert se déroule au Live - petite salle du Zénith de Toulon. Placement libre debout - Ouverture des portes 20h30. ----- MYD (Electro) Myd incarne une nouvelle génération de la French Touch :…",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-08",
-    "lat": 43.12863,
-    "lng": 5.932323,
-    "officialUrl": "https://openagenda.com/shotgun/events/myd-pristine-pit-jc3000-pplc-le-live-toulon",
-    "sources": [
-      "https://openagenda.com/shotgun/events/myd-pristine-pit-jc3000-pplc-le-live-toulon"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "acidnight-xxl-100-live",
-    "name": "ACIDNIGHT XXL - 100% LIVE",
-    "city": "Montpellier",
-    "region": "Occitanie",
-    "description": "TECHNO IS OUR LIFE PRÉSENTE ACIDNIGHT XXL Pensé pour mettre en lumière l’univers de la Free Party, ce rendez-vous célèbre les artistes qui façonnent cette scène et contribuent à transmettre une…",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-08",
-    "lat": 43.585482,
-    "lng": 3.878427,
-    "officialUrl": "https://openagenda.com/shotgun/events/acidnight-xxl-100percent-live",
-    "sources": [
-      "https://openagenda.com/shotgun/events/acidnight-xxl-100percent-live"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "pitchfork-club-night-2-samedi",
-    "name": "PITCHFORK CLUB NIGHT 2 [SAMEDI]",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Pitchfork Music Festival Paris présente : PITCHFORK CLUB NIGHT • CINTHIE b2b FAFI ABDEL NOUR CINTHIE — Productrice, DJ et patronne de label, Cinthie est surnommée la reine berlinoise de la house.…",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-08",
-    "lat": 48.892628,
-    "lng": 2.393963,
-    "officialUrl": "https://openagenda.com/shotgun/events/pitchfork-club-night-2-samedi",
-    "sources": [
-      "https://openagenda.com/shotgun/events/pitchfork-club-night-2-samedi"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "hot-tropiz-7-jamaica-to-london",
@@ -3711,63 +3501,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "impact-winter-rave-xxl",
-    "name": "Impact : Winter Rave XXL",
-    "city": "Caen",
-    "region": "Normandie",
-    "description": "Après 2 ans d’absence, notre rave iconique revient enfin… Le samedi 7 novembre, la légendaire WINTER RAVE débloque une nouvelle map : l’immense Grand Hall du Parc des Expositions de Caen. 12 000 m²…",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-08",
-    "lat": 49.171172,
-    "lng": -0.380018,
-    "officialUrl": "https://openagenda.com/shotgun/events/impact-winter-rave-xxl",
-    "sources": [
-      "https://openagenda.com/shotgun/events/impact-winter-rave-xxl"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "mojo-crew-x-the-saloon-2",
-    "name": "MOJO CREW X THE SALOON 2",
-    "city": "Tourrettes",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "🔥 LE MOJO CREW X THE SALOON 2 ! 🔥 Au menu 6h de Tech House et Tekno au bar du Saloon sur Montauroux avec 5KW de sons ! 🔊 Venez profiter de ce lieu atypique pour écouter le meilleur de l'EDM avec…",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-08",
-    "lat": 43.606945,
-    "lng": 6.702831,
-    "officialUrl": "https://openagenda.com/shotgun/events/mojo-crew-x-the-saloon-2",
-    "sources": [
-      "https://openagenda.com/shotgun/events/mojo-crew-x-the-saloon-2"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "le-wanski-friends-skone-n-xd-mosmoz-night-owl-more",
-    "name": "LE WANSKI & FRIENDS : SKÖNE, N-XD, MOSMOZ, NIGHT OWL & MORE",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Le 7 novembre 2026, Wanski prend le contrôle du club pour 7 heures de rave survoltée. Une nuit pensée comme un format spécial, entre invités, surprises et énergie brute jusqu’au bout de la nuit. ✨…",
-    "startDate": "2026-11-07",
-    "endDate": "2026-11-08",
-    "lat": 48.89659,
-    "lng": 2.395474,
-    "officialUrl": "https://openagenda.com/shotgun/events/le-wanski-and-friends-skone-n-xd-mosmoz-night-owl-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/le-wanski-and-friends-skone-n-xd-mosmoz-night-owl-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "little-big-lyon-09-11",
@@ -4494,99 +4227,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "ams-15th-anniversary",
-    "name": "AMS 15TH ANNIVERSARY",
-    "city": "Paris",
-    "address": "La Machine Du Moulin Rouge, 90 boulevard de Clichy; 75018; Paris; France",
-    "region": null,
-    "startDate": "2026-11-07",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2557035",
-    "lineup": [
-      "Paul Seul",
-      "Maud Geffray",
-      "Voiron (2)",
-      "anyoneID",
-      "benzii",
-      "Lili Castiglioni",
-      "João Lágrima De Ouro",
-      "Petit",
-      "Lorenzi",
-      "encore une autre",
-      "GRAV"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2557035"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "2222-beste-hira-alhena-dj-angel-sole-dosi",
-    "name": "2222: Beste Hira, ALHENA, DJ ANGEL, SOLE DOSI",
-    "city": "Paris",
-    "address": "Virage, 26 rue Hélène-et-François Missoffe",
-    "region": null,
-    "startDate": "2026-11-07",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2564446",
-    "lineup": [
-      "Beste Hira",
-      "Alhena_",
-      "DJ ANGEL (fr)",
-      "SOLE DOSI",
-      "Maris Shilton",
-      "Equus Belli"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2564446"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "automatic-x-imagine-family",
-    "name": "Automatic x imagine FAMILY",
-    "city": "Paris",
-    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-07",
-    "officialUrl": "https://ra.co/events/2527337",
-    "lineup": [
-      "ABI (FR)",
-      "Aline Brooklyn",
-      "Krol",
-      "Automatic Writing",
-      "Charonne",
-      "DJ Senc",
-      "El Hey",
-      "Francesco Del Garda",
-      "Fumiya Tanaka",
-      "Josepha",
-      "Marc Anthony Bowen",
-      "Marlie",
-      "Nesta",
-      "Quest (IT)",
-      "Tau Car",
-      "Yamour"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2527337"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "pisica-noise-mafia-dj-guestlist-two-girls-one-mom-more",
     "name": "Pisica: Noise Mafia, DJ GUESTLIST, two girls one mom & More",
     "city": "Paris",
@@ -4780,6 +4420,58 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "outrebleu-weekender-day-2",
+    "name": "OUTREBLEU [weekender] — day 2",
+    "city": "Pantin",
+    "address": "Magasins Généraux, 1 Rue de l'Ancien Canal, 93500 Pantin",
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2525038",
+    "lineup": [
+      ".VRIL",
+      "Aaron J",
+      "Atomic moog",
+      "Katatonic Silentio",
+      "Timnah",
+      "GiGi FM",
+      "Maemm"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2525038"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "la-ch-ck-minions-rave",
+    "name": "LA CH!CK: MINIONS RAVE",
+    "city": "Paris",
+    "address": "Badaboum, 2 bis rue des Taillandiers; 75011; Paris; France",
+    "region": "Île-de-France",
+    "startDate": "2026-11-26",
+    "endDate": "2026-11-27",
+    "officialUrl": "https://ra.co/events/2574917",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2574917",
+      "https://dice.fm/event/6ae8b23cc8929c00011657ba"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "description": "",
+    "lat": null,
+    "lng": null,
+    "source": "dice",
+    "eventType": null,
+    "_reason": "soirée : hors périmètre"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4886,7 +4578,8 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6ae86850e5a8d60001abf58b",
-      "https://dice.fm/event/6ae86af545caf200018c8405"
+      "https://dice.fm/event/6ae86af545caf200018c8405",
+      "https://dice.fm/event/6ae86894e636cd0001446b31"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4958,5 +4651,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "arketyp-x-211-full-psytrance-solitary-shell",
+    "name": "Arketyp X 211: Full psytrance / Solitary shell",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-14",
+    "endDate": "2026-11-15",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6adf4746c2544d000180a173",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6adf4746c2544d000180a173"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   }
 ]
