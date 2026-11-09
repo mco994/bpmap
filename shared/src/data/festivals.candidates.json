@@ -114,25 +114,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "festival-densites-32e-edition",
-    "name": "Festival Densités 32e édition",
-    "city": "Belleville-sur-Meuse",
-    "region": null,
-    "description": "20 spectacles en trois jours, près de 40 artistes venus du monde entier : Densités c'est l'occasion d'entrer dans un festival de performances et de musiques inattendues : du jazz à l'électro, de l'improvisation à la musique écrite.\n\nNous vous invitons à venir vibrer avec nous les 6, 7 et 8 novembre prochain dans le Grand Verdun. ",
-    "startDate": "2026-11-06",
-    "endDate": "2026-11-08",
-    "lat": 49.175341,
-    "lng": 5.379454,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/5db1c015-b9db-3140-b1cc-6e063e0f30b6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
     "slug": "spectacle-de-danse-lullaby-shot",
     "name": "Spectacle de danse : Lullaby Shot",
     "city": "Forbach",
@@ -549,6 +530,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "concert-antti-paalanen-transe-viking",
+    "name": "Concert -Antti Paalanen | Transe Viking",
+    "city": "Angoulins",
+    "region": null,
+    "description": "L’accordéoniste finlandais à l’énergie débordante et aux vocaux impressionnants bouscule les frontières entre folk nordique techno et rock.",
+    "startDate": "2026-11-15",
+    "endDate": "2026-11-15",
+    "lat": 46.103077,
+    "lng": -1.093062,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/34203177-50f0-39b6-8197-3ccae2329271"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "ludivine-issambourg-theatre-d-angouleme-scene-nationale",
@@ -1005,25 +1005,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "folies-berruyeres-concerts-a-l-o2g-le-closing",
-    "name": "FOLIES BERRUYÈRES : Concerts à l' O2G Le Closing",
-    "city": "Bourges",
-    "region": null,
-    "description": "Les Folies Berruyères clôturent leur édition avec une soirée électro survoltée, entre rythmes entraînants et sonorités techno !",
-    "startDate": "2026-11-08",
-    "endDate": "2026-11-08",
-    "lat": 47.0866309,
-    "lng": 2.3893,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/93ee815f-b420-36af-8392-86707ef5ae1c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "disco-soupe-2026-au-pole-xxl",
@@ -4225,6 +4206,59 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "cheeseporn-de-l-an-neuf-nantes",
+    "name": "Cheeseporn De L'an Neuf - Nantes",
+    "city": "Haute-Goulaine",
+    "address": "Château de Goulaine, All. du Château, 44115 Haute-Goulaine, France",
+    "region": null,
+    "startDate": "2026-12-31",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2580377",
+    "lineup": [
+      "matilda (2)",
+      "carrà",
+      "Combe",
+      "Heidy Fly",
+      "Ottäkam",
+      "Somoine",
+      "Théo Muller"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2580377"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "gloria-moksha-b2b-club-devotion-youl-b2b-scott-p-clisco-b2b-niol-redluved-b2b-kasar",
+    "name": "Gloria • Moksha B2B Club Devotion ~ Youl B2B Scott P. ~ Clisco B2B Niol ~ Redluved B2B Kasar",
+    "city": "Nantes",
+    "address": "Macadam, 17 rue Jules Launey 44100 Nantes",
+    "region": null,
+    "startDate": "2027-01-17",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2580386",
+    "lineup": [
+      "Club Devotion",
+      "Youl",
+      "Scott P",
+      "Redluved",
+      "Kasar",
+      "David David"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2580386"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "pisica-noise-mafia-dj-guestlist-two-girls-one-mom-more",
