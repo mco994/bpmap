@@ -3484,25 +3484,6 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
-    "slug": "little-big-lyon-09-11",
-    "name": "LITTLE BIG | Lyon 09.11",
-    "city": "Villeurbanne",
-    "region": "Auvergne-Rhône-Alpes",
-    "description": "Après avoir conquis l’Amérique du Nord, Little Big revient en Europe avec son European TOUR 2026, une tournée de 24 dates à travers 13 pays. Le collectif rave-pop basé à Los Angeles présentera à La…",
-    "startDate": "2026-11-09",
-    "endDate": "2026-11-09",
-    "lat": 45.756734,
-    "lng": 4.917001,
-    "officialUrl": "https://openagenda.com/shotgun/events/little-big-or-lyon-0911",
-    "sources": [
-      "https://openagenda.com/shotgun/events/little-big-or-lyon-0911"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "bncy-nation-inv-manil-b2b-peaksou-veille-de-jour-ferie",
     "name": "BNCY. NATION inv. MANIL B2B PEAKSOU (VEILLE DE JOUR FÉRIÉ)",
     "city": "Toulouse",
@@ -4217,6 +4198,7 @@
     "endDate": null,
     "officialUrl": "https://ra.co/events/2580377",
     "lineup": [
+      "Kim (FR)",
       "matilda (2)",
       "carrà",
       "Combe",
@@ -4422,6 +4404,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "indoor-outdoor-rooftop-party",
+    "name": "Indoor & Outdoor Rooftop Party",
+    "city": "Paris",
+    "address": "Skybar Paris Rooftop, 19 Rue du Commandant René Mouchotte",
+    "region": null,
+    "startDate": "2026-11-14",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2581160",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2581160"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "outrebleu-weekender",
     "name": "OUTREBLEU [weekender]",
     "city": "Pantin",
@@ -4504,6 +4505,36 @@
     "source": "dice",
     "eventType": null,
     "_reason": "soirée : hors périmètre"
+  },
+  {
+    "slug": "club-sauvage-30h",
+    "name": "¡Club Sauvage 30h",
+    "city": "Paris",
+    "address": "Cabaret Sauvage, 211 Avenue Jean Jaurès; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2543687",
+    "lineup": [
+      "BAB MUSIQUE",
+      "Chinau",
+      "Dave Lee",
+      "DJ Spen",
+      "Hotline one",
+      "Joe Lewandowski",
+      "LeLeon",
+      "Nick V",
+      "Nicol",
+      "PEPIITA"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2543687"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "jingle-rave-moontrip-x-interference",
