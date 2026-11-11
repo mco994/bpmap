@@ -171,25 +171,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-marcia",
-    "name": "Concert Marcia",
-    "city": "Épinal",
-    "region": null,
-    "description": "Autrice, compositrice et interprète à l’univers inclassable, Marcia bouscule les codes de la chanson française avec une pop sensible, audacieuse et résolument contemporaine. Entre électro, influences urbaines et textes autobiographiques, elle explore avec sincérité les failles, les souvenirs et les combats intimes. Portée par une voix singulière et une énergie lumineuse, elle transforme chaque concert en une expérience vibrante où l’intime rejoint l’universel. À l’issue du concert, une rencontre conviviale autour d’un verre permettra d’échanger avec l’artiste (inscription requise).",
-    "startDate": "2026-11-10",
-    "endDate": "2026-11-10",
-    "lat": 48.173318,
-    "lng": 6.453498,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/6b0cd220-271e-3d17-9162-88ba345e7236"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-rock-madam-anim-virile",
     "name": "Concert Rock Madam + Animø Virile",
     "city": "Épinal",
@@ -988,6 +969,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "poolidor",
+    "name": "Poolidor",
+    "city": "Rochecorbon",
+    "region": null,
+    "description": "Poolidor est un groupe de musique électronique qui marie les musiques traditionnelles berrichonnes et nord-africaines. \nIl produit un son brut et hypnotique en associant des timbres et des percussions organiques aux ondes rutilantes de l'électro.",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 47.4152013,
+    "lng": 0.75786559,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/74463a79-adec-32df-adbd-49b882b69b89"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "qui-vive-musique",
     "name": "Qui vive ! - Musique",
     "city": "Pithiviers",
@@ -1231,6 +1231,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/5bdec18b-2df2-3060-966d-87c91eaca32f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-du-dj-slin",
+    "name": "Concert du DJ Slin",
+    "city": "Le Bugue",
+    "region": null,
+    "description": "21h. Slin s’intéresse à tous les styles et s’adapte à vos envies dans n’importe quelle situation ! Latin-house, trance, acid techno. Bar et restauration. Ouverture des portes 19h. Gratuit",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-27",
+    "lat": 44.9283716,
+    "lng": 0.9277033,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/696bae9c-5bcc-3dda-ae30-cf43e1ac6d6f"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1829,8 +1848,8 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "le-disco-des-oiseaux-mosai-vincent",
-    "name": "Le Disco des oiseaux - Mosai & Vincent",
+    "slug": "concert-a-l-archipel-le-disco-des-oiseaux-mosai-vincent",
+    "name": "Concert à l'Archipel : Le Disco des oiseaux - Mosai & Vincent",
     "city": "Granville",
     "region": null,
     "description": "",
@@ -1845,7 +1864,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "soiree-disco",
@@ -1976,6 +1995,44 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/33/c4e76d5d-2320-3f94-9c8c-f55fb31bcdd7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "pot-d-accueil-et-concert",
+    "name": "Pot d'accueil et concert",
+    "city": "Barèges",
+    "region": null,
+    "description": "Pot d'accueil, Zézé en concert (Electro/Folk/Psyché) et rencontre avec les professionnels de la station de ski.",
+    "startDate": "2026-12-26",
+    "endDate": "2026-12-26",
+    "lat": 42.8963798,
+    "lng": 0.06288082,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/a8ac3f65-e038-3b00-9c2e-595780da9086"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-a-les-bains",
+    "name": "Concert à \"Les Bains\"",
+    "city": "Marciac",
+    "region": null,
+    "description": "\"Lice and the others : le rock qui bouscule (avec élégance).\nEnvie de nouveautés ? De vous laisser surprendre, de voyager ? Rendez-vous aux BAINS, dans un écrin aussi inattendu que le concert : le club balnéo, où la piscine devient scène de concert. Un lieu qui ne ressemble à aucun autre, pour une soirée qui ne ressemblera à aucune autre.\nAlice and the Others — Rock indé / pop /électro, compositions originales, personnage singulier - En solo, guitare électrique et machines.\nAlice and the others, c'est d'abord un personnage. Une présence scénique indéniable, un goût pour la provocation élégante, un art de la poésie et de l'harmonie. Une voix étrangement familière, réconfortante - mais pas seulement. Des mélodies qui accrochent, qui refusent les cases. Les textes sont en français empreints de poésie, d'engagement et d'humanisme, dans une esthétique queer affirmée.\n2 singles viennent de paraître sur les plateformes : \"L'Ordre moral\" et \"Made in Media\".\nSur scène, une énergie communicative, un rock qui bouscule avec élégance et sensibilité, \"un Rock-pré apocalyptique\" selon l'artiste. Une jolie découverte des BAINS, à vivre de près, au Club Balnéo.\n\nBar & restauration — à partir de 18h :\n• Plat chaud VG\n• Planche charcuterie\n• Tartinables\n• Raviolis, sauce langoustine",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "lat": 43.526371,
+    "lng": 0.16082072,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/d8a12264-3ceb-3960-8530-cbce0d79b4d8"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2346,6 +2403,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "technoboum-a-paillettes",
+    "name": "TECHNOBOUM À PAILLETTES",
+    "city": "Saint-Michel-de-Dèze",
+    "region": null,
+    "description": "Dans le cadre des Les Journées DéRangées  qui sont organisées pour la quatrième année consécutive sur le territoire du Sud Cévennes par LaboRieuse et Epi de Mains. retrouvez \nSamira aka Dj Fak3.ID qui fera vibrer les murs et les BPM avec son style Bounce Techno Perreo pour enflammer le dance-floor et enjailler nos corps.",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "lat": 44.2389129,
+    "lng": 3.891047,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/45/fcc9afe1-a655-3cc0-9c5d-f1bb49f579a8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "blue-dog-origins",
     "name": "Blue Dog : Origins",
     "city": "Le Mans",
@@ -2495,25 +2571,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/47cca934-39c2-3dfb-bf3d-7814cf1a1da7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "royal-ballet-opera-au-cinema-carmen",
-    "name": "Royal Ballet & Opera au cinéma - CARMEN",
-    "city": "Pouzauges",
-    "region": null,
-    "description": "Le Royal Ballet et Le Royal Opera House de Londres vous donne rendez-vous pour la diffusion de spectacles en direct au cinéma !",
-    "startDate": "2026-11-10",
-    "endDate": "2026-11-10",
-    "lat": 46.773482,
-    "lng": -0.8498618,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/49/508df624-b347-3f6c-9f7d-2789a5228abf"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3484,51 +3541,6 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
-    "slug": "bncy-nation-inv-manil-b2b-peaksou-veille-de-jour-ferie",
-    "name": "BNCY. NATION inv. MANIL B2B PEAKSOU (VEILLE DE JOUR FÉRIÉ)",
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "description": "💫 BNCY. NATION invite MANIL B2B PEAKSOU ALL NIGHT LONG 💫 BNCY. NATION revient au Rex de Toulouse pour une nouvelle nuit placée sous le signe de la techno, du hardbounce et des sonorités rave, à la…",
-    "startDate": "2026-11-10",
-    "endDate": "2026-11-11",
-    "lat": 43.611989,
-    "lng": 1.438322,
-    "officialUrl": "https://openagenda.com/shotgun/events/bncy-nation-inv-manil-b2b-peaksou-veille-de-jour-ferie",
-    "sources": [
-      "https://openagenda.com/shotgun/events/bncy-nation-inv-manil-b2b-peaksou-veille-de-jour-ferie"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "the-holy-rave-36-metz",
-    "name": "The Holy Rave #36 - Metz",
-    "city": "Metz",
-    "region": "Grand Est",
-    "description": "⚠️ L'event commence dans la nuit du mardi 10 au mercredi 11 novembre à 1h du matin ⚠️ Metz, la météo annonce des averses … de kick 😎 Au menu ? KINGSMO 🇫🇷 VS 🇷🇸 Plus d'annonces à venir",
-    "startDate": "2026-11-10",
-    "endDate": "2026-11-11",
-    "lat": 49.111224,
-    "lng": 6.178457,
-    "officialUrl": "https://openagenda.com/shotgun/events/the-holy-rave-36-metz",
-    "sources": [
-      "https://openagenda.com/shotgun/events/the-holy-rave-36-metz",
-      "https://ra.co/events/2518903"
-    ],
-    "genreVerified": true,
-    "status": "announced",
-    "needsReview": true,
-    "address": "La Douche Froide Metz, 11 rue des Augustins - Metz",
-    "lineup": [
-      "Kingsmo",
-      "VS.techno"
-    ],
-    "isFestival": false,
-    "_reason": "soirée : hors périmètre"
-  },
-  {
     "slug": "little-big-paris-11-11",
     "name": "LITTLE BIG | Paris 11.11",
     "city": "Paris",
@@ -4243,59 +4255,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "pisica-noise-mafia-dj-guestlist-two-girls-one-mom-more",
-    "name": "Pisica: Noise Mafia, DJ GUESTLIST, two girls one mom & More",
-    "city": "Paris",
-    "address": "Mia Mao, 12a rue Ella Fitzgerald, 75019, Paris, FRANCE",
-    "region": null,
-    "startDate": "2026-11-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2538507",
-    "lineup": [
-      "Annie",
-      "DJ GUESTLIST",
-      "Justin Tinderdate",
-      "Elotrance",
-      "KARISH",
-      "Noise Mafia",
-      "two girls one mom"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2538507"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "baile-do-gangz-couvre-x-chefs-dj-polo-romy-white-mor",
-    "name": "Baile Do Gangz & Couvre x Chefs: DJ Polo, Romy White & Mor",
-    "city": "Paris",
-    "address": "La Java, 105 rue du faubourg du Temple; 75010; Paris; France",
-    "region": null,
-    "startDate": "2026-11-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2572438",
-    "lineup": [
-      "DJ Polo",
-      "Jeune Gaou",
-      "Tévéa",
-      "DJ FRRR",
-      "Jiken",
-      "CHEF"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2572438"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "ra25-x-dig-deep-free-pop-up-charity-record-store-with-a-side",
     "name": "RA25 x Dig Deep: Free Pop-Up Charity Record Store with a-side",
     "city": "Paris",
@@ -4537,6 +4496,27 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
+    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
+    "city": "Paris",
+    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
+    "region": null,
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2570159",
+    "lineup": [
+      "Audrey Danza"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2570159"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4583,28 +4563,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "house-in-symphony-soul-frequency-onibaku-more",
-    "name": "House in Symphony: Soul Frequency, Onibaku & more",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-10",
-    "endDate": "2026-11-11",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ad5ef07edb643000169f6f8",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ad5ef07edb643000169f6f8"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "la-ch-ck-the-golden-era-of-edm",
     "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
     "city": "Paris",
@@ -4644,7 +4602,8 @@
     "sources": [
       "https://dice.fm/event/6ae86850e5a8d60001abf58b",
       "https://dice.fm/event/6ae86af545caf200018c8405",
-      "https://dice.fm/event/6ae86894e636cd0001446b31"
+      "https://dice.fm/event/6ae86894e636cd0001446b31",
+      "https://dice.fm/event/6ae86b68f108f6000142bd56"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4689,10 +4648,12 @@
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6abe85a302ef7e00014dd82f"
+      "https://dice.fm/event/6abe85a302ef7e00014dd82f",
+      "https://dice.fm/event/6ac7c04b8e319f000142d14c"
     ],
     "status": "announced",
     "needsReview": true,
+    "isFestival": false,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
