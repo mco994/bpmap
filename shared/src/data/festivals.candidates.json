@@ -197,8 +197,8 @@
     "description": "Création dramatique de Paolo Scarpato et La Maschera\n\nSur scène, Elodie et sa fille, Sara, racontent et détournent une même histoire : celle d’un harcèlement scolaire qu’aucune des deux ne parvient à comprendre.\nDans un dispositif minimal, les deux comédiennes incarnent différents points de vue et brouillent les frontières entre le monde des enfants et celui des adultes. En se relayant, elles révèlent le cheminement silencieux du harcèlement. À travers cette relation poignante, la pièce pose un regard fort, intime et sensible sur ces blessures invisibles. Ce qui se joue ici dépasse la simple violence scolaire. C’est la transmission tragique du silence, de la peur et de la solitude.\n\nLa pièce sera suivie d’un temps d’échanges, en présence de professionnels experts du terrain.",
     "startDate": "2026-11-21",
     "endDate": "2026-11-21",
-    "lat": 49.400442,
-    "lng": 6.161495,
+    "lat": 49.4009404,
+    "lng": 6.1626008,
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/70fdd36e-b7b2-321a-a4fb-9f3a4aae4a8f"
@@ -1848,6 +1848,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "musique-jazz-et-electro",
+    "name": "Musique Jazz et Electro",
+    "city": "Saint-Valery-en-Caux",
+    "region": null,
+    "description": "",
+    "startDate": "2027-03-17",
+    "endDate": "2027-03-17",
+    "lat": 49.8637161,
+    "lng": 0.710195,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/ade44dd5-0e33-3551-b9d3-5b6c58a5c6cd"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-a-l-archipel-le-disco-des-oiseaux-mosai-vincent",
     "name": "Concert à l'Archipel : Le Disco des oiseaux - Mosai & Vincent",
     "city": "Granville",
@@ -2346,6 +2365,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "concert-a-la-pompe-futur-z-kavaliers-kasques",
+    "name": "CONCERT À LA POMPE : FUTUR Z & KAVALIERS KASQUES",
+    "city": "Florac Trois Rivières",
+    "region": null,
+    "description": "Deux concerts pour danser du côté obscur. FUTUR Z — Synthwave : Un OVNI musical entre électro des années 80, poésie dystopique et inspirations amazoniennes; KAVALIERS KASQUES  : Naïve coldwave. Concerts à prix libre. \nDès 18h : La Bonne Fourchette sera là pour remplir les assiettes avant de faire chauffer les semelles.",
+    "startDate": "2026-11-13",
+    "endDate": "2026-11-13",
+    "lat": 44.3263879,
+    "lng": 3.5948809,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/45/2358837a-be17-3f68-9ffb-4f8043b79525"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "courts-circuits-d-a-anomaly-red-cosmic-orchestra",
     "name": "COURTS CIRCUITS - D.A ANOMALY & RED COSMIC ORCHESTRA",
     "city": "Langogne",
@@ -2427,8 +2465,8 @@
     "city": "Le Mans",
     "region": null,
     "description": "BLUE DOG : ORIGINS Techno all night long",
-    "startDate": "2027-12-05",
-    "endDate": "2027-12-06",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-06",
     "lat": 47.9597531,
     "lng": 0.2022793,
     "officialUrl": null,
@@ -3541,25 +3579,6 @@
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
-    "slug": "little-big-paris-11-11",
-    "name": "LITTLE BIG | Paris 11.11",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Le phénomène rave-pop Little Big débarque à Paris dans le cadre de son European Tour 2026, une tournée explosive de 24 dates dans 13 pays. Connus pour leurs shows survoltés, leurs visuels absurdes…",
-    "startDate": "2026-11-11",
-    "endDate": "2026-11-11",
-    "lat": 48.895448,
-    "lng": 2.39216,
-    "officialUrl": "https://openagenda.com/shotgun/events/little-big-or-paris-1111",
-    "sources": [
-      "https://openagenda.com/shotgun/events/little-big-or-paris-1111"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "23-59-protokseed-ling-ling-b2b-enko-acidpach-more",
     "name": "23:59 : PROTOKSEED, LING LING B2B ENKO, ACIDPACH & MORE",
     "city": "Paris",
@@ -4363,8 +4382,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "indoor-outdoor-rooftop-party",
-    "name": "Indoor & Outdoor Rooftop Party",
+    "slug": "gotham-rooftop-party-at-skybar",
+    "name": "Gotham Rooftop Party at Skybar",
     "city": "Paris",
     "address": "Skybar Paris Rooftop, 19 Rue du Commandant René Mouchotte",
     "region": null,
