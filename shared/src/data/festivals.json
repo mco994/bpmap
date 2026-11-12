@@ -116,41 +116,6 @@
     ]
   },
   {
-    "id": "maintenant-festival-2026",
-    "slug": "maintenant-festival-2026",
-    "name": "Maintenant Festival 2026",
-    "description": "",
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-11",
-    "lat": 48.1152,
-    "lng": -1.68369,
-    "city": "Rennes",
-    "region": "Bretagne",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "electro"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://ra.co/events/2493193",
-    "status": "announced",
-    "lineup": [
-      "Antilogic",
-      "Blood of Aza",
-      "CWTCH",
-      "Katarina Gryvul",
-      "Natasha Pirard",
-      "Oonagh Haines",
-      "s8jfou"
-    ],
-    "sources": [
-      "https://ra.co/events/2493193"
-    ]
-  },
-  {
     "id": "imagine-family-o-bee-all-day-long-open-air",
     "slug": "imagine-family-o-bee-all-day-long-open-air",
     "name": "imagine FAMILY: O.BEE ALL DAY LONG [OPEN AIR]",
@@ -205,82 +170,6 @@
     "eventType": "open-air",
     "sources": [
       "https://ra.co/events/2552282"
-    ]
-  },
-  {
-    "id": "ndk-festival",
-    "slug": "ndk-festival",
-    "name": "NDK Festival",
-    "description": "Festival électro et clubbing au Cargö à Caen : deux nuits, trois scènes, lives et workshops, pour sa 6e édition.",
-    "startDate": "2026-10-07",
-    "endDate": "2026-10-11",
-    "lat": 49.18432,
-    "lng": -0.37193,
-    "city": "Caen",
-    "region": "Normandie",
-    "organizer": "NDK",
-    "capacity": null,
-    "genres": [
-      "techno",
-      "house",
-      "electro",
-      "ambient"
-    ],
-    "priceDay": null,
-    "priceFull": 56,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://ndkfestival.com/",
-    "status": "announced",
-    "sources": [
-      "https://www.tsugi.fr/de-nordik-impakt-a-ndk-pourquoi-lenorme-festival-electro-de-caen-change-de-peau/"
-    ]
-  },
-  {
-    "id": "mecanik-paradize",
-    "slug": "mecanik-paradize",
-    "name": "Mecanik Paradize",
-    "description": "Festival musique, open air et machines spectaculaires à la Halle de La Machine à Toulouse (Piste des Géants) : trois soirées et une grande journée, en clôture du Pink Paradize.",
-    "startDate": "2026-10-08",
-    "endDate": "2026-10-11",
-    "lat": 43.60408,
-    "lng": 1.4338,
-    "city": "Toulouse",
-    "region": "Occitanie",
-    "organizer": "La Halle de la Machine / Le Bikini",
-    "capacity": null,
-    "genres": [
-      "techno",
-      "house",
-      "disco",
-      "electro"
-    ],
-    "priceDay": 14,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": "https://www.halledelamachine.fr/en/evenements/mecanik-paradize-2026/",
-    "status": "announced",
-    "eclectic": true,
-    "lineup": [
-      "Purple Disco Machine",
-      "Selah Sue",
-      "Caravan Palace",
-      "Paul Kalkbrenner",
-      "Space 92",
-      "Popof",
-      "Rebekah",
-      "Clara Cuvé",
-      "Azyr",
-      "Christoph",
-      "DeLaurentis",
-      "Dyen",
-      "Lessss",
-      "Øtta",
-      "Schrotthagen"
-    ],
-    "sources": [
-      "https://www.halledelamachine.fr/en/evenements/mecanik-paradize-2026/"
     ]
   },
   {
