@@ -247,25 +247,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-okre-nuit-electronique",
-    "name": "Concert - OKRE - Nuit électronique",
-    "city": "Metz",
-    "region": null,
-    "description": "Programmation exceptionnelle en Lorraine pour les amoureux de l'électro : LIL LOUIS (House – Chicago) // SETH TROXLER (Techno / house – Detroit, Berlin, Ibiza) //  LAOLU (Afro-house – Genève / label Innervisions) // NIKITA (Acid techno, hard techno – France)\n\nOKRE est une nuit, au sens fort : une unité de temps, de lieu et d’action, pas un festival de plus. Une seule salle, un seul son, une trajectoire pensée comme une dramaturgie en quatre actes : de la techno acide de Nikita à la house de Chicago de Lil Louis, en passant par l’afro-house de Laolu et la signature internationale de Seth Troxler.\n\nLe temps d’une nuit, un Centre de Congrès institutionnel se transforme en plateforme d’intensité. Metz rejoint la carte de la scène électronique européenne.",
-    "startDate": "2026-11-12",
-    "endDate": "2026-11-12",
-    "lat": 49.107857,
-    "lng": 6.177863,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/b1e171aa-f2c5-329d-af3d-4df17177d0a3"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "spectacle-ballet-de-lorraine",
     "name": "Spectacle - Ballet de Lorraine",
     "city": "Bar-le-Duc",
@@ -1563,25 +1544,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-violent-sadie-mode-la-lune-des-pirates",
-    "name": "CONCERT : Violent Sadie Mode - La Lune des Pirates",
-    "city": "Amiens",
-    "region": null,
-    "description": "Violent Sadie Mode\nJEU. 12 NOVEMBRE 2026\n20:00\nPunk Hardcore | FR\n\nUn retour aux riffs et aux affectes tranchants d'un punk hardcore oublié dans les abysses des années 80. C'est ce que propose Violent Sadie Mode, emmené par l'étonnante Sadie Golding et sa voix résolument porteuse d'une hargne et d'une puissance féministe.\n\nMusicalement inspiré par des groupes tels que Minor Threat ou encore Amyl and the Sniffers, c'est à la sauce bordelaise que les 4 membres de Violent Sadie Mode concoctent des morceaux incisifs, qui vont droit au but, un but défouloir, violent, punk.",
-    "startDate": "2026-11-12",
-    "endDate": "2026-11-12",
-    "lat": 49.89905,
-    "lng": 2.2752772,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/57f76c85-3ce5-3cbf-83b2-9d6902964e1c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "mentissa",
     "name": "Mentissa",
     "city": "Abbeville",
@@ -2529,7 +2491,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/0f5cbc23-57eb-301f-99bc-535a71a0dcd9",
-      "https://data.datatourisme.fr/49/49c29df3-445b-3656-bad0-50cf94283a97",
       "https://data.datatourisme.fr/49/6c95433a-d95b-31dc-879a-abb4a39fbf38",
       "https://data.datatourisme.fr/49/a9c27396-5a88-397f-9130-55df1dcc3ff0"
     ],
@@ -4582,28 +4543,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "la-ch-ck-the-golden-era-of-edm",
-    "name": "LA CH!CK: THE GOLDEN ERA OF EDM",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-12",
-    "endDate": "2026-11-13",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6adb96cd79b9350001aaa2cf",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6adb96cd79b9350001aaa2cf"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "your-local-house-club",
     "name": "YOUR LOCAL HOUSE CLUB",
     "city": "Paris",
@@ -4622,7 +4561,8 @@
       "https://dice.fm/event/6ae86850e5a8d60001abf58b",
       "https://dice.fm/event/6ae86af545caf200018c8405",
       "https://dice.fm/event/6ae86894e636cd0001446b31",
-      "https://dice.fm/event/6ae86b68f108f6000142bd56"
+      "https://dice.fm/event/6ae86b68f108f6000142bd56",
+      "https://dice.fm/event/6ae869da925315000126f0d8"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4650,30 +4590,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "la-discotaco-disco-paillettes-tacos",
-    "name": "La Discotaco : disco, paillettes & tacos !",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-12",
-    "endDate": "2026-11-13",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6abe85a302ef7e00014dd82f",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6abe85a302ef7e00014dd82f",
-      "https://dice.fm/event/6ac7c04b8e319f000142d14c"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "la-discotaco-xxl-fete-sous-paillettes-line-dance",
@@ -4718,5 +4634,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "la-discotaco-disco-paillettes-tacos",
+    "name": "La Discotaco : disco, paillettes & tacos !",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-20",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ac7c04b8e319f000142d14c",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ac7c04b8e319f000142d14c"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   }
 ]
