@@ -1017,6 +1017,37 @@
     ]
   },
   {
+    "id": "name-festival-raxon-apm001-blac",
+    "slug": "name-festival-raxon-apm001-blac",
+    "name": "NAME Festival: Raxon, APM001, Blac",
+    "description": "",
+    "startDate": "2026-12-05",
+    "endDate": null,
+    "lat": 50.62678,
+    "lng": 3.07388,
+    "city": "Lille",
+    "region": "Hauts-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2583925",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Raxon",
+      "APM001"
+    ],
+    "sources": [
+      "https://ra.co/events/2583925"
+    ]
+  },
+  {
     "id": "s-festival-2026",
     "slug": "s-festival-2026",
     "name": "S festival 2026",
@@ -1049,8 +1080,8 @@
     "description": "",
     "startDate": "2027-03-25",
     "endDate": "2027-03-29",
-    "lat": 45.92404,
-    "lng": 6.86924,
+    "lat": 45.94448,
+    "lng": 6.8951,
     "city": "Chamonix",
     "region": "Auvergne-Rhône-Alpes",
     "organizer": null,
