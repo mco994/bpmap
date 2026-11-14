@@ -1026,25 +1026,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "festival-resurgence-x-conference-art-et-technologie",
-    "name": "Festival Résurgence X - Conférence \"Art et technologie\"",
-    "city": "Pinsac",
-    "region": null,
-    "description": "<p>Le travail collectif, le partage de savoir-faire, l’émancipation par la pratique sont des principes défendus par certains artistes actuels qui utilisent les technologies dans leurs œuvres</p><p>À travers différents projets utilisant les technologies numériques (programmation informatique, électronique, robotique etc.), Quentin Destieu cherchera à identifier les liens qui unissent les créateurs à certains mouvements de contre-culture numériques : mouvement hacker, Do it yourself, et l’Open source</p><p>L’analyse de leurs démarche permettra de mettre en avant et de comprendre des questionnements faisant référence à un mouvement qui tend à s’émanciper du discours techno-libéral dominant, en renouant avec les enjeux de certaines</p><p>avant-gardes artistiques du siècle dernier</p><p>Quentin Destieu, artiste, est co-fondateur de La Pouponnière à Cahors, un lieu collectif de création artistique contemporaine",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-13",
-    "lat": 44.8555,
-    "lng": 1.51487,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/362c9d78-a558-3cd7-803a-86c24bf145cf"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "l-orange-fluo-presente-june-bug",
     "name": "L'Orange Fluo présente June Bug",
     "city": "Latronquière",
@@ -1133,6 +1114,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/2b4087c8-b52a-335c-b4ce-194f75a8bc90"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-de-primo-taut-techno-beriner",
+    "name": "Concert de Primo Taut \"Techno Beriner\"",
+    "city": "Le Bugue",
+    "region": null,
+    "description": "21h.Surprenant, éclectique et adaptable, il a toujours une histoire à raconter, qui vise avant tout à faire danser le corps et l'âme. Bar et restauration. Ouverture des portes 19h. Gratuit",
+    "startDate": "2026-11-20",
+    "endDate": "2026-11-20",
+    "lat": 44.9283716,
+    "lng": 0.9277033,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/33ed1eca-6918-3f36-83da-dd5bb55acfad"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1295,6 +1295,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-de-junglist-avec-radio-bomb",
+    "name": "Concert de Junglist avec Radio Bomb",
+    "city": "Le Bugue",
+    "region": null,
+    "description": "20h. On plonge dans le Jungle & Drum’n’Bass. Breaks acérés, basses abyssales et atmosphère undergroundBar et restauration. Ouverture des portes 19h. 12€ à 15€",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "lat": 44.9283716,
+    "lng": 0.9277033,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/8c4244d9-9177-3feb-a8da-9bace7c3f309"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-reggae-dub-vibes",
     "name": "Concert - Reggae Dub Vibes",
     "city": "Bressuire",
@@ -1411,6 +1430,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "reveillon-electro-a-villeneuve-de-duras",
+    "name": "Réveillon électro à Villeneuve de Duras",
+    "city": "Villeneuve-de-Duras",
+    "region": null,
+    "description": "Pour la cinquième année consécutive, Duras Animations Aka Anamorphose festival vous prépare un passage à la nouvelle année inoubliable !\nNouveau lieu, nouvelle expérience !\nRendez-vous au Pays de Duras dans un grand espace événementiel chauffé et climatisé, pensé pour faire la fête jusqu’au bout de",
+    "startDate": "2026-12-31",
+    "endDate": "2027-01-01",
+    "lat": 44.7358972,
+    "lng": 0.2361058,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/e414821f-4679-3b8b-941d-cb06c2506a0f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "disco-soupe-et-projection-du-documentaire-au-fil-de-l-eau-de-l-insouciance-a-la-desobeissance",
     "name": "Disco Soupe et Projection du documentaire \"Au fil de l'eau, de l'insouciance à la désobéissance\"",
     "city": "Monflanquin",
@@ -1485,25 +1523,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "concert-ebony-la-lune-des-pirates",
-    "name": "CONCERT : Ebony - La Lune des Pirates",
-    "city": "Amiens",
-    "region": null,
-    "description": "Ebony\n+ Première partie\nVEN. 13 NOVEMBRE 2026\n\n20:00\nPop | FR\n\nComme premier rendez-vous sur scène en solo et en salles, Ebony dévoile les premières dates de sa tournée “Conception Tour” offrant une série de 5 show en clubs avant une tournée des festivals et un concert à l’Olympia le 1er novembre prochain. \n\nFinaliste de la saison 2024 de la Star Academy, Ebony s’est révélée au grand public avec son premier titre « Unforgettable », mettant en lumière des prouesses vocales remarquées. Elle a plus récemment continué de se dévoiler avec l’envoûtant “Mon Paradis” et le puissant « Rage », un titre au style alternatif, qui s’inspire des rythmiques bouyon et sonorités électro.\n\nArtiste complète, Ebony façonne une identité singulière et captivante, nourrie par de multiples influences. Aussi à l’aise en chant qu’en danse, elle s’impose déjà comme une véritable performeuse, offrant à chaque apparition scénique un show à part entière.",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-13",
-    "lat": 49.89905,
-    "lng": 2.2752772,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/20a94af4-844a-394c-b415-2f3d74a58ea7"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "soiree-bass-impakt-a-la-manufacture",
@@ -1772,6 +1791,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-de-thomas-louise",
+    "name": "Concert de Thomas Louise",
+    "city": "Amfreville",
+    "region": null,
+    "description": "L'artiste dévoile dans son 1er projet solo \"Le sens de la fête\" un son résolument folk, alliant à l'élégance pop et aux couleurs électro un verbe à fleur de peau. Porté par Souchon, Gauvin Sers ou Albin de la Simone, il se dessine des portraits intimes de personnages qui disent les mots(aux).",
+    "startDate": "2027-01-29",
+    "endDate": "2027-01-29",
+    "lat": 49.2488614,
+    "lng": -0.2352295,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/497c6acd-1143-335e-9c5e-46e6cb28f2d6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "musique-soiree-disco-en-famille",
     "name": "[Musique] Soirée disco en famille",
     "city": "Dieppe",
@@ -1945,18 +1983,132 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "wyld-soiree-electro-contemplatif",
-    "name": "WYLD : SOIRÉE ÉLECTRO CONTEMPLATIF",
-    "city": "Toulouse",
+    "slug": "retransmission-de-l-opera-carmen",
+    "name": "RETRANSMISSION DE L'OPÉRA \"CARMEN\"",
+    "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Un live immersif de Superpoze, pensé en dialogue avec l’architecture et l’acoustique du lieu.",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-13",
-    "lat": 43.59438,
-    "lng": 1.44652,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2026-12-11",
+    "endDate": "2026-12-11",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
     "officialUrl": null,
     "sources": [
-      "https://data.datatourisme.fr/33/a015a6a2-80c9-32a9-9d3c-dbc26760e13c"
+      "https://data.datatourisme.fr/33/2d074a77-d3fc-3aeb-b167-979b30a9744e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "retransmission-de-tosca",
+    "name": "RETRANSMISSION DE \"TOSCA\"",
+    "city": "Bagnères-de-Luchon",
+    "region": null,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2027-06-15",
+    "endDate": "2027-06-15",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/47b9b6f7-148b-31a0-b48f-5fd9b1731e77"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "retransmission-de-l-opera-le-crepuscule-des-dieux",
+    "name": "RETRANSMISSION DE L'OPÉRA \"LE CRÉPUSCULE DES DIEUX\"",
+    "city": "Bagnères-de-Luchon",
+    "region": null,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2027-03-14",
+    "endDate": "2027-03-14",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/7716fff1-d85e-39a5-b683-4589500d4733"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "retransmission-du-ballet-casse-noisette",
+    "name": "RETRANSMISSION DU BALLET \"CASSE-NOISETTE\"",
+    "city": "Bagnères-de-Luchon",
+    "region": null,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2027-01-26",
+    "endDate": "2027-01-26",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/88b66c8e-0a0c-33b8-9729-8647d9eec967"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "retransmission-du-ballet-le-lac-des-cygnes",
+    "name": "RETRANSMISSION DU BALLET \"LE LAC DES CYGNES\"",
+    "city": "Bagnères-de-Luchon",
+    "region": null,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2027-06-01",
+    "endDate": "2027-06-01",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/88cc9544-9385-317e-9b3c-7caa317a524e"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "retransmission-de-alice-au-pays-des-merveilles",
+    "name": "RETRANSMISSION DE \"ALICE AU PAYS DES MERVEILLES\"",
+    "city": "Bagnères-de-Luchon",
+    "region": null,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2027-05-11",
+    "endDate": "2027-05-11",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/8bbcbe8e-2779-37d2-aa53-699680296ce8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "retransmission-de-romeo-et-juliette",
+    "name": "RETRANSMISSION DE \"ROMÉO ET JULIETTE\"",
+    "city": "Bagnères-de-Luchon",
+    "region": null,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2027-07-06",
+    "endDate": "2027-07-06",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/ac315543-c12d-3371-8e29-10639546b8e2"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1976,6 +2128,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/33/c4e76d5d-2320-3f94-9c8c-f55fb31bcdd7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "retransmission-de-l-opera-cosi-fan-tutte",
+    "name": "RETRANSMISSION DE L'OPÉRA \"COSI FAN TUTTE\"",
+    "city": "Bagnères-de-Luchon",
+    "region": null,
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "startDate": "2027-04-20",
+    "endDate": "2027-04-20",
+    "lat": 42.7890302,
+    "lng": 0.59146312,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/cdec153b-0c73-3602-851b-24ca76240144"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2325,25 +2496,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "concert-a-la-pompe-futur-z-kavaliers-kasques",
-    "name": "CONCERT À LA POMPE : FUTUR Z & KAVALIERS KASQUES",
-    "city": "Florac Trois Rivières",
-    "region": null,
-    "description": "Deux concerts pour danser du côté obscur. FUTUR Z — Synthwave : Un OVNI musical entre électro des années 80, poésie dystopique et inspirations amazoniennes; KAVALIERS KASQUES  : Naïve coldwave. Concerts à prix libre. \nDès 18h : La Bonne Fourchette sera là pour remplir les assiettes avant de faire chauffer les semelles.",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-13",
-    "lat": 44.3263879,
-    "lng": 3.5948809,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/45/2358837a-be17-3f68-9ffb-4f8043b79525"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "courts-circuits-d-a-anomaly-red-cosmic-orchestra",
@@ -2900,25 +3052,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "soiree-roller-disco",
-    "name": "Soirée Roller Disco",
-    "city": "Altkirch",
-    "region": null,
-    "description": "Ouvert à tous dès 12 ans, et les plus jeunes seront obligatoirement accompagnés d’un adulte.\nAlors préparez vos rollers ou patins à roulettes, casque et protections (Protège-poignets obligatoires) et rejoignez-nous (pas de location sur place) !",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-13",
-    "lat": 47.6189243745089,
-    "lng": 7.23255534928629,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/5/bcb4f86b-b967-31e2-8650-4f721fcf139e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-de-mme-doug",
     "name": "Concert de Mme Doug",
     "city": "Dorlisheim",
@@ -3069,45 +3202,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "hot-tropiz-7-jamaica-to-london",
-    "name": "HOT TROPIZ #7 Jamaica to London",
-    "city": "Salon-de-Provence",
-    "region": "Provence-Alpes-Côte d'Azur",
-    "description": "🌴 VAPEURS FESTIV’ PRÉSENTE 🔥 HOT TROPIZ #7 🔥 🇯🇲 JAMAICA TO LONDON 🇬🇧 📅 DATE À VENIR 🕖 19H → 3H 📍 LA BERGERIE DU DOMAINE DE CURBOURSE 13300 Salon-de-Provence 🔥 REGGAE · DUB · JUNGLE · DRUM…",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-14",
-    "lat": 43.676847,
-    "lng": 5.06488,
-    "officialUrl": "https://openagenda.com/shotgun/events/hot-tropiz-7-jamaica-to-london",
-    "sources": [
-      "https://openagenda.com/shotgun/events/hot-tropiz-7-jamaica-to-london"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "solarium-vol-3-electro-house-dance",
-    "name": "Solarium VOL.3 - Electro House & Dance",
-    "city": "Billère",
-    "region": "Nouvelle-Aquitaine",
-    "description": "Solarium revient avec une line-up internationale! Au programme notamment, KIM SWIM, qui nous fait l'honneur de venir à Pau après des dates exceptionnelles au Boiler-Room, Monegros Desert Festival,…",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-14",
-    "lat": 43.303055,
-    "lng": -0.400193,
-    "officialUrl": "https://openagenda.com/shotgun/events/solarium-vol3-electro-house-and-dance",
-    "sources": [
-      "https://openagenda.com/shotgun/events/solarium-vol3-electro-house-and-dance"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "nico-moreno-la-cite-du-cinema-paris",
@@ -3538,25 +3632,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "23-59-protokseed-ling-ling-b2b-enko-acidpach-more",
-    "name": "23:59 : PROTOKSEED, LING LING B2B ENKO, ACIDPACH & MORE",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Le 13 novembre 2026, le tsunami 23:59 s’abattra sur le béton brut du Mia Mao pour y laisser dans son sillage une vague d’acid, tekno et hard rave. Aux commandes de ce raz-de-marée sonore :…",
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-14",
-    "lat": 48.89659,
-    "lng": 2.395474,
-    "officialUrl": "https://openagenda.com/shotgun/events/2359-protokseed-ling-ling-b2b-enko-acidpach-and-more",
-    "sources": [
-      "https://openagenda.com/shotgun/events/2359-protokseed-ling-ling-b2b-enko-acidpach-and-more"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "wake-up-x-we-are-rave",
@@ -4038,23 +4113,27 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "the-holy-rave-37-dijon",
-    "name": "The Holy Rave #37 - Dijon",
-    "city": "Dijon France",
-    "address": "Bal'tazar, 20 Av Garibaldi, 21000 Dijon France",
+    "slug": "krom-matrakk-ktk-fenrick",
+    "name": "KROM:  MATRAKK, KTK, Fenrick ",
+    "city": "Strasbourg",
+    "address": "KALT, 1 Rue la Fayette, Strasbourg, France",
     "region": null,
-    "startDate": "2026-11-13",
+    "startDate": "2026-12-31",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2570334",
+    "officialUrl": "https://ra.co/events/2518454",
     "lineup": [
-      "Idealist (2)",
-      "ERØXX",
-      "Kingsmo"
+      "MATRAKK",
+      "Fenrick",
+      "KTK (DE)",
+      "Perruche",
+      "STU (FR)",
+      "Dima Roas",
+      "Satprem"
     ],
     "genreVerified": true,
     "isFestival": false,
     "sources": [
-      "https://ra.co/events/2570334"
+      "https://ra.co/events/2518454"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4265,58 +4344,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "bait-traverse",
-    "name": "Bait & traverse",
-    "city": "Paris",
-    "address": "Point Ephémère, 200 quai de Valmy; 75010; Paris; France",
-    "region": null,
-    "startDate": "2026-11-13",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2539783",
-    "lineup": [
-      "Château Flight",
-      "Gilb'R",
-      "I:Cube",
-      "Soa420",
-      "OLGA B.",
-      "Beatrice M."
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2539783"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "fvtvr-001-label-launch-night",
-    "name": "Fvtvr 001 — LABEL LAUNCH NIGHT",
-    "city": "Paris",
-    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-11-13",
-    "endDate": "2026-11-14",
-    "officialUrl": "https://ra.co/events/2576042",
-    "lineup": [
-      "Ignez",
-      "Kian Gast",
-      "Mathys Lenne",
-      "Rebecca Delle Piane",
-      "Steve Bicknell",
-      "Tau Ceti"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2576042"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "sacre-presente-swell-curated-by-maxye",
     "name": "Sacré présente: Swell curated by Maxye",
     "city": "Paris",
@@ -4497,6 +4524,89 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "intimate-club-yaoi",
+    "name": "INTIMATE CLUB YAOI",
+    "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
+    "region": null,
+    "startDate": "2026-11-28",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2578885",
+    "lineup": [
+      "Malibu",
+      "Mafille",
+      "Antilogic",
+      "Swoush",
+      "Miss Jay (RO)",
+      "JEKKAMAÏ",
+      "TTristana",
+      "BABY-B"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2578885"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "fabric-paris-extended-12-hours",
+    "name": "fabric Paris · Extended 12 Hours",
+    "city": "Paris",
+    "address": "Mia Mao, 12a rue Ella Fitzgerald, 75019, Paris, FRANCE",
+    "region": null,
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "officialUrl": "https://ra.co/events/2555482",
+    "lineup": [
+      "Praslesh",
+      "Raresh",
+      "Praslea",
+      "Sonja Moonear",
+      "Gene On Earth",
+      "Gabrielle Kwarteng",
+      "XDB",
+      "Automatic Writing",
+      "Loryn"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2555482"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "useless-seconds",
+    "name": "useless seconds",
+    "city": "Paris",
+    "address": null,
+    "region": null,
+    "startDate": "2026-11-28",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2520428",
+    "lineup": [
+      "Andy Martin",
+      "A Strange Wedding",
+      "Souzo",
+      "neska",
+      "Roulita",
+      "KEUT"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2520428"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4562,7 +4672,9 @@
       "https://dice.fm/event/6ae86af545caf200018c8405",
       "https://dice.fm/event/6ae86894e636cd0001446b31",
       "https://dice.fm/event/6ae86b68f108f6000142bd56",
-      "https://dice.fm/event/6ae869da925315000126f0d8"
+      "https://dice.fm/event/6ae869da925315000126f0d8",
+      "https://dice.fm/event/6ae86b90e636cd0001fa1e7b",
+      "https://dice.fm/event/6ae86a23b9e4680001fe3e5f"
     ],
     "status": "announced",
     "needsReview": true,
