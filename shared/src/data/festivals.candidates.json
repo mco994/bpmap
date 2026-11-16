@@ -456,25 +456,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-antti-paalanen-transe-viking",
-    "name": "Concert -Antti Paalanen | Transe Viking",
-    "city": "Angoulins",
-    "region": null,
-    "description": "L’accordéoniste finlandais à l’énergie débordante et aux vocaux impressionnants bouscule les frontières entre folk nordique techno et rock.",
-    "startDate": "2026-11-15",
-    "endDate": "2026-11-15",
-    "lat": 46.103077,
-    "lng": -1.093062,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/34203177-50f0-39b6-8197-3ccae2329271"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "ludivine-issambourg-theatre-d-angouleme-scene-nationale",
     "name": "Ludivine Issambourg -Théâtre d'Angoulême Scène Nationale",
     "city": "Angoulême",
@@ -606,6 +587,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "concert-la-rochelle-in-dub-5",
+    "name": "Concert - La Rochelle In Dub #5",
+    "city": "La Rochelle",
+    "region": null,
+    "description": "LA ROCHELLE IN DUB #5 – 8 BASS MEETING PART 5 !\r\nEskifaia Sound System meets Legal Shot Sound System pour une grosse session Roots, Reggae, Dub & Steppers !",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "lat": 46.175158,
+    "lng": -1.203079,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/a653bdd8-546c-31f6-bf73-4226e5c21860"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "temps-fort-electro-6-club-electro",
@@ -1312,6 +1312,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "concert-soiree-dub",
+    "name": "Concert | Soirée Dub",
+    "city": "Bergerac",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 44.8599003,
+    "lng": 0.4860208,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/f52269b5-64a9-3fa0-9963-22a954600373"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "gravity-other-myths",
@@ -2093,6 +2112,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "nouvel-an-soul-nation-soul-francky-2000-soiree-disco",
+    "name": "Nouvel An : Soul Nation (Soul) - Francky 2000 (Soirée disco)",
+    "city": "Quimperlé",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-31",
+    "endDate": "2026-12-31",
+    "lat": 47.8706345,
+    "lng": -3.5528165,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/01d8f502-f973-3b49-a3c3-1e0b55eaa02b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "concert-baast-musique-pop-electro",
     "name": "Concert - Baäst (Musique pop électro)",
     "city": "Clohars-Carnoët",
@@ -2124,6 +2162,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/3f96b361-3573-3419-b33f-f1f7365978b6"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-beaujo-disco",
+    "name": "Soirée Beaujo-Disco",
+    "city": "Paimpol",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-19",
+    "lat": 48.77905,
+    "lng": -3.04713,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/528721bf-6d05-3298-b9ad-0b0657960457"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2219,25 +2276,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/f06b99e9-adae-32ef-9c71-622c54835953"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "nuit-electro-cosmic-edition",
-    "name": "Nuit Electro • cosmic edition",
-    "city": "Ploeren",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-14",
-    "endDate": "2026-11-15",
-    "lat": 47.6468769,
-    "lng": -2.862788,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/f2b50dc1-6b2f-340d-938d-7bce24feb604"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2875,25 +2913,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "siebach-halloween-fest",
-    "name": "Siebach Halloween Fest",
-    "city": "Fellering",
-    "region": null,
-    "description": "Hard Techno incoming. Une nuit sombre, brute et sans détour.  14.11.26 — 18:00 ¿ 03:00 THÉÂTRE DE POCHE — Husseren-Wesserling  SSC — SIEBACH SOCIAL CLUB EST. 2022",
-    "startDate": "2026-11-14",
-    "endDate": "2026-11-15",
-    "lat": 47.886498,
-    "lng": 6.995103,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/5/76d0080e-a502-3f5d-8a4f-a58195fb09dd"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "spectacle-familial-plastic-boum-boum",
@@ -4404,42 +4423,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "pont-neuf-10-years-xxl-closing",
-    "name": "PONT NEUF 10 YEARS XXL CLOSING",
-    "city": "Paris",
-    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-12-04",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2553187",
-    "lineup": [
-      "Bellaire",
-      "Black Loops",
-      "Demuja",
-      "Dylan Dylan",
-      "Goldie B",
-      "Kamma",
-      "Masalo",
-      "Kx9000",
-      "Mad Rey",
-      "Maison Blanche",
-      "Marbré",
-      "Mira Ló",
-      "Naajet (2)",
-      "THEOS (1)",
-      "Tour-Maubourg",
-      "Young Marco"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2553187"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4474,6 +4457,7 @@
       "Lekkerfaces",
       "Russian Village Boys",
       "Sköne",
+      "Maissouille",
       "Majes"
     ],
     "genreVerified": true,
