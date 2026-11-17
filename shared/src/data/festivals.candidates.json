@@ -1219,6 +1219,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "electro-pop-world-emel-mathlouthi",
+    "name": "Electro pop world - Emel (Mathlouthi)",
+    "city": "Bressuire",
+    "region": null,
+    "description": "",
+    "startDate": "2027-03-26",
+    "endDate": "2027-03-26",
+    "lat": 46.8363122,
+    "lng": -0.4928672,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/9c5485d2-75a1-3d6a-99c1-5fb16a7fbb7c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "born-to-be-disco-soiree-reveillon",
     "name": "Born to be Disco - Soirée Réveillon",
     "city": "Pau",
@@ -3976,6 +3995,32 @@
     "_reason": "localisation manquante"
   },
   {
+    "slug": "vault-club-floor-1-by-nuance-floor-2-with-rost-m",
+    "name": "VAULT-Club — Floor 1 by NUANCE / Floor 2 with Rostøm",
+    "city": "Mulhouse",
+    "address": "Vault Club, 74 rue du Sauvage, 68100 Mulhouse",
+    "region": null,
+    "startDate": "2026-11-20",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2567446",
+    "lineup": [
+      "Rostøm",
+      "Cyprien",
+      "liema",
+      "Schaed",
+      "Georges Y",
+      "FTFL"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2567446"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "krom-matrakk-ktk-fenrick",
     "name": "KROM:  MATRAKK, KTK, Fenrick ",
     "city": "Strasbourg",
@@ -4177,6 +4222,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "woh-rooftop-party-at-skybar",
+    "name": "Woh Rooftop Party at Skybar",
+    "city": "Paris",
+    "address": "Skybar Paris Rooftop, 19 Rue du Commandant René Mouchotte",
+    "region": null,
+    "startDate": "2026-11-18",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2586664",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2586664"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "outrebleu-weekender",
     "name": "OUTREBLEU [weekender]",
     "city": "Pantin",
@@ -4261,6 +4325,27 @@
     "_reason": "soirée : hors périmètre"
   },
   {
+    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
+    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
+    "city": "Paris",
+    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
+    "region": null,
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2570159",
+    "lineup": [
+      "Audrey Danza"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2570159"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "club-sauvage-30h",
     "name": "¡Club Sauvage 30h",
     "city": "Paris",
@@ -4289,27 +4374,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
-    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
-    "city": "Paris",
-    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
-    "region": null,
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2570159",
-    "lineup": [
-      "Audrey Danza"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2570159"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "intimate-club-yaoi",
@@ -4395,32 +4459,33 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "a4-pedro-present-olympe4000-g-eg-laze-lisa-more-notinbed-roni-pureblast-erna",
-    "name": "A4 & Pedro present: Olympe4000, GЯEG, Laze, Lisa More, notinbed, RONI, Pureblast & Erna",
+    "slug": "j-zbel-release-party",
+    "name": "J-Zbel Release Party",
     "city": "Paris",
-    "address": "Le Trabendo, 211 avenue Jean Jaurès; 75019; Paris; France",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
     "region": null,
-    "startDate": "2026-12-04",
+    "startDate": "2026-12-02",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2577061",
+    "officialUrl": "https://ra.co/events/2586952",
     "lineup": [
-      "Pureblast",
-      "Olympe4000",
-      "notinbed",
+      "J-Zbel",
+      "Eiger Drums Propaganda",
+      "Fatale Furylax",
+      "Jonquera",
+      "Joseph",
+      "Lia Catreux",
       "Lisa More",
-      "RONI",
-      "Greg (2)",
-      "Laze",
-      "Erna (FR)"
+      "Lux18",
+      "Modern Collapse"
     ],
     "genreVerified": true,
     "isFestival": false,
     "sources": [
-      "https://ra.co/events/2577061"
+      "https://ra.co/events/2586952"
     ],
     "status": "announced",
     "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "jingle-rave-moontrip-x-interference",
