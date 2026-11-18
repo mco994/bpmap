@@ -19,6 +19,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "arabrot-intercourse",
+    "name": "Årabrot + Intercourse",
+    "city": "Nilvange",
+    "region": null,
+    "description": "Né des longs hivers sombres de la Norvège, Årabrot était trop noir pour le métal et trop avant-gardiste pour le punk, il a donc tracé sa propre voie. Årabrot nous propose un périple mouvementé au plus profond d'un rock énergique à tendance gothique.\n\nFormé en 2013, INTERCOURSE emmerde le monde depuis lors, et s'en félicite. Avec l'ambition aussi démesurée qu'absurde (selon le point de vue) de purger le noise rock de sa prétention pour le fusionner avec l'urgence brute du hardcore, le groupe sort un disque par an depuis 2014 sans jamais fléchir.",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-21",
+    "lat": 49.3488888888889,
+    "lng": 6.05388888888889,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/149f9455-4f05-3861-b442-e34d835f51ad"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-hard-techno-road-to-invasion",
     "name": "Soirée hard techno - Road to Invasion",
     "city": "Bar-le-Duc",
@@ -221,6 +240,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/b214f598-dda9-334f-8047-fee84696c6b8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "ao-floemee",
+    "name": "Ao + Floèmee",
+    "city": "Nilvange",
+    "region": null,
+    "description": "Ão tisse entre électronique, saudade et rock latino une musique sans frontières, portée par une voix mozambicaine qui ne ressemble à rien d'autre.\nSi vous aimez : Rosalía, C. Tangana, Stromae\n\nFloèmee est un duo bruxellois qui mêle voix, setar iranien et musique électronique pour créer des textures sonores immersives. Inspirées par la techno expérimentale, l’IDM et l'esthétique club. Leurs performances oscillent entre intimité et intensité, équilibrant structure et improvisation. Le duo façonne ainsi un univers sonore brut et poétique, à la croisée de la tradition et de l’expérimentation.",
+    "startDate": "2026-12-10",
+    "endDate": "2026-12-10",
+    "lat": 49.3488888888889,
+    "lng": 6.05388888888889,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/bf3fd4d0-162c-3efc-8b45-3d8a94bad1ce"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -589,8 +627,8 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-la-rochelle-in-dub-5",
-    "name": "Concert - La Rochelle In Dub #5",
+    "slug": "concert-la-rochelle-in-dub-5-2-x-8-bass-eskifaia-x-legal-shot-sound-system",
+    "name": "Concert - La Rochelle In Dub #5 - 2 x 8 Bass - Eskifaia x Legal Shot Sound System",
     "city": "La Rochelle",
     "region": null,
     "description": "LA ROCHELLE IN DUB #5 – 8 BASS MEETING PART 5 !\r\nEskifaia Sound System meets Legal Shot Sound System pour une grosse session Roots, Reggae, Dub & Steppers !",
@@ -605,7 +643,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "temps-fort-electro-6-club-electro",
@@ -696,25 +734,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/c6687a20-0f60-30b6-9faf-9b69ab8834f8"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "conference-john-carpenter",
-    "name": "Conférence : John Carpenter",
-    "city": "Montluçon",
-    "region": null,
-    "description": "En partenariat avec le 109, dans le cadre du \"Temps Fort Électro\".",
-    "startDate": "2026-11-17",
-    "endDate": "2026-11-17",
-    "lat": 46.3487,
-    "lng": 2.598493,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/c87e7c51-1143-3d95-807a-811288885ffe"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1903,6 +1922,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "reveillon-du-nouvel-an-au-bikini",
+    "name": "RÉVEILLON DU NOUVEL AN AU BIKINI",
+    "city": "Toulouse",
+    "region": null,
+    "description": "Venez fêter le réveillon au Bikini avec un mix pop/rock/électro/new-wave des années 70 aux années 2010 !",
+    "startDate": "2026-12-31",
+    "endDate": "2026-12-31",
+    "lat": 43.5482529,
+    "lng": 1.48537968,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/33/1777098d-428f-31ad-817e-c1d04545df92"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "retransmission-de-l-opera-carmen",
     "name": "RETRANSMISSION DE L'OPÉRA \"CARMEN\"",
     "city": "Bagnères-de-Luchon",
@@ -2067,6 +2105,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/36/a8ac3f65-e038-3b00-9c2e-595780da9086"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "cultur-bus-ballet-helikopter-litch",
+    "name": "Cultur'bus : ballet \"Helikopter/Litch\"",
+    "city": "Pierrefitte-Nestalas",
+    "region": null,
+    "description": "Ballet à 19h00 au Parvis scène nationale Tarbes Pyrénées \n\nDu choc d’Helikopter, pièce historique sur la musique saisissante de Stockhausen, à l’apaisement de Licht, dernière création lumineuse portée par l’électro de Laurent Garnier, Angelin Preljocaj nous fait traverser le temps, entre tension et relâchement, entre heurt et lumière.\n\nBus des vallées jusqu'à Tarbes :\n17h00 Départ de Luz-St-Sauveur – Salle des fêtes\n17h30 Arrêt à Pierrefitte-Nestalas – gare routière\n17h45 Arrêt à Argelès-Gazost — parc thermal\n\nTARIFS :\n- 26 € (au lieu de 36 €),\n- 10 € pour les -26 ans, \n- Le trajet aller/retour en bus est de 4 € euros, à régler au chauffeur en espèces\nLa réservation est obligatoire en appelant le Parvis au 05 62 90 08 55 (réservation bus + spectacle compris).\n\nCultur’ Bus, action mobilité d’accès à la culture mise en place par la CCPVG en partenariat avec la Région Occitanie.",
+    "startDate": "2026-12-09",
+    "endDate": "2026-12-09",
+    "lat": 42.959003,
+    "lng": -0.074917,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/d6cbbba2-e396-3891-8306-f998674a2f52"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -4123,6 +4180,28 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "23-59-paracek-the-jakob-sister-isalys-jeff-bisous-r2-rave-records",
+    "name": "23:59 - PARACEK, The Jakob Sister, ISALYS, JEFF BISOUS - R2: RAVE RECORDS",
+    "city": "Lyon France",
+    "address": "Le Petit Salon, Rue de Cronstadt 69007 Lyon France",
+    "region": null,
+    "startDate": "2027-01-08",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2588141",
+    "lineup": [
+      "Paraçek",
+      "The Jakob Sister"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2588141"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "dreamachine-festival-petit-cab",
     "name": "Dreamachine Festival @ Petit Cab",
     "city": "MARSEILLE",
@@ -4300,6 +4379,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "club-sonore-rooftop-party",
+    "name": "Club Sonore Rooftop Party",
+    "city": "Paris",
+    "address": "Terraza Mikuna, 1 Rue des Archives, 75004 Paris, France",
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2587735",
+    "lineup": [],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2587735"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "la-ch-ck-minions-rave",
     "name": "LA CH!CK: MINIONS RAVE",
     "city": "Paris",
@@ -4459,35 +4557,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "j-zbel-release-party",
-    "name": "J-Zbel Release Party",
-    "city": "Paris",
-    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
-    "region": null,
-    "startDate": "2026-12-02",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2586952",
-    "lineup": [
-      "J-Zbel",
-      "Eiger Drums Propaganda",
-      "Fatale Furylax",
-      "Jonquera",
-      "Joseph",
-      "Lia Catreux",
-      "Lisa More",
-      "Lux18",
-      "Modern Collapse"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2586952"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4557,8 +4626,7 @@
       "https://dice.fm/event/6ae869da925315000126f0d8",
       "https://dice.fm/event/6ae86b90e636cd0001fa1e7b",
       "https://dice.fm/event/6ae86a23b9e4680001fe3e5f",
-      "https://dice.fm/event/6ae86bc7f108f60001433099",
-      "https://dice.fm/event/6ae86a4ae636cd00012eda07"
+      "https://dice.fm/event/6ae86bc7f108f60001433099"
     ],
     "status": "announced",
     "needsReview": true,
