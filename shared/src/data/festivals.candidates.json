@@ -209,6 +209,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-awa-ly",
+    "name": "Concert - Awa Ly",
+    "city": "Verdun",
+    "region": null,
+    "description": "Le nouvel album d’Awa Ly, Essence And Elements, révèle une chanteuse folk-soul habitée par les forces naturelles. Ses concerts célèbrent cette union.\n\nAwa Ly transforme les quatre éléments en matière musicale. Portés par son nouvel album Essence And Elements, ses concerts mêlent soul, folk, pulsations organiques et nappes électroniques avec une énergie qui épouse les variations de sa voix. Grave, aérienne ou traversée d’élans plus bruts, la Française d’origine sénégalaise construit depuis plusieurs années une œuvre ouverte aux métissages sonores. Inspiré par l’île volcanique d’Alicudi, où elle écrit au contact du silence, du vent et des vagues, ce nouveau répertoire fait surgir des chansons parcourues de percussions, de cordes et de souffles électro. En anglais, français ou wolof, elles sont comme autant de respirations où Awa Ly installe sur scène une présence magnétique. Ses concerts invitent à ralentir, écouter, se laisser traverser.\n\nA l'occasion du Festisol 2026.",
+    "startDate": "2026-11-26",
+    "endDate": "2026-11-26",
+    "lat": 49.160969,
+    "lng": 5.371739,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/7f7f79d8-3caf-312c-b0d5-6282115afcde"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "cabaret-madame-ose-bashung",
     "name": "Cabaret : Madame Ose Bashung",
     "city": "Forbach",
@@ -682,6 +701,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "le-pere-noel-est-un-dubber-8-soiree-caritative-reggae-dub-sound-system",
+    "name": "Le Père Noël est un Dubber #8 : soirée caritative reggae, dub & sound system",
+    "city": "Saintes",
+    "region": null,
+    "description": "Soirée caritative reggae, dub & sound system (8e édition) au profit des Crocodiles A.E.M.S. et du collectif Ensemble pour une Maison Solidaire.",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-19",
+    "lat": 45.74275,
+    "lng": -0.626807,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/bb9cc00b-1058-3c22-b387-282f416e099b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-electro-lab-6",
@@ -1255,6 +1293,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "saint-sylvestre-2026-soiree-disco-annees-80",
+    "name": "Saint-Sylvestre 2026 - Soirée disco / années 80",
+    "city": "Marions",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-31",
+    "endDate": "2027-01-01",
+    "lat": 44.3837708,
+    "lng": -0.089517,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/a08bf168-efaf-3b3b-8f2d-f06876e49bf3"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "born-to-be-disco-soiree-reveillon",
@@ -1945,7 +2002,7 @@
     "name": "RETRANSMISSION DE L'OPÉRA \"CARMEN\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2026-12-11",
     "endDate": "2026-12-11",
     "lat": 42.7890302,
@@ -1964,7 +2021,7 @@
     "name": "RETRANSMISSION DE \"TOSCA\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2027-06-15",
     "endDate": "2027-06-15",
     "lat": 42.7890302,
@@ -1983,7 +2040,7 @@
     "name": "RETRANSMISSION DE L'OPÉRA \"LE CRÉPUSCULE DES DIEUX\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2027-03-14",
     "endDate": "2027-03-14",
     "lat": 42.7890302,
@@ -2002,7 +2059,7 @@
     "name": "RETRANSMISSION DU BALLET \"CASSE-NOISETTE\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2027-01-26",
     "endDate": "2027-01-26",
     "lat": 42.7890302,
@@ -2021,7 +2078,7 @@
     "name": "RETRANSMISSION DU BALLET \"LE LAC DES CYGNES\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2027-06-01",
     "endDate": "2027-06-01",
     "lat": 42.7890302,
@@ -2040,7 +2097,7 @@
     "name": "RETRANSMISSION DE \"ALICE AU PAYS DES MERVEILLES\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2027-05-11",
     "endDate": "2027-05-11",
     "lat": 42.7890302,
@@ -2059,7 +2116,7 @@
     "name": "RETRANSMISSION DE \"ROMÉO ET JULIETTE\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2027-07-06",
     "endDate": "2027-07-06",
     "lat": 42.7890302,
@@ -2078,7 +2135,7 @@
     "name": "RETRANSMISSION DE L'OPÉRA \"COSI FAN TUTTE\"",
     "city": "Bagnères-de-Luchon",
     "region": null,
-    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes.",
+    "description": "Venez assister à la retransmission en direct du Royal Opera House. Prolongez le plaisir à l’entracte : une coupe de vin pétillant et quelques douceurs vous seront offertes par Bio des Lys.",
     "startDate": "2027-04-20",
     "endDate": "2027-04-20",
     "lat": 42.7890302,
@@ -2264,25 +2321,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "antti-paalanen-techno-a-bretelles",
-    "name": "Antti Paalanen - Techno à bretelles",
-    "city": "Trédrez-Locquémeau",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-18",
-    "endDate": "2026-11-18",
-    "lat": 48.7127,
-    "lng": -3.56306,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/96650c3f-4153-3155-8ee3-e53466b84222"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soiree-dub-au-garaj-duro",
     "name": "Soirée Dub au garaj Duro",
     "city": "Rostrenen",
@@ -2352,6 +2390,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/f06b99e9-adae-32ef-9c71-622c54835953"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "electro-party-d-hiver",
+    "name": "Electro Party d'Hiver",
+    "city": "Landerneau",
+    "region": null,
+    "description": "",
+    "startDate": "2026-11-04",
+    "endDate": "2026-12-04",
+    "lat": 48.44888,
+    "lng": -4.24941,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/38/fb748e52-f9a9-36eb-b9b7-fdd973cc1c6c"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2661,6 +2718,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/49/1ab9e2fa-2691-30f3-bdeb-ea4f3fac4b7c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "betes-rave-party-teknotrokids",
+    "name": "\"Bêtes-Rave-Party\", Teknotrokids",
+    "city": "Le Mans",
+    "region": null,
+    "description": "Dans le cadre de Le Mans Fête Noël, Spectacles Jeune Public. Teknotrokids, c’est un duo électro-percussif qui invite les enfants à un concert festif et dansant ! Dès 6 ans. Réservation : https://www.billetweb.fr/betes-rave-party",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 48.0147395,
+    "lng": 0.225377,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/49/285f503d-9eb4-3108-98f9-eebbf5830088"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3065,6 +3141,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "festival-garosnow",
+    "name": "FESTIVAL GAROSNOW",
+    "city": "Les Angles",
+    "region": null,
+    "description": "Festival de Musique électro entre mix sur les pistes, afterskis et show électros. Au programme : \no\tVendredi : Fakear DJ set, Joris Delacroix, Matrakk, Mont Rouge et Asna\no\tSamedi : Vitalic, Biga Ranx DJ set, Maddy V feat. DJ Kunta, Esteban x Nico Ro...",
+    "startDate": "2027-01-08",
+    "endDate": "2027-01-10",
+    "lat": 42.5775833,
+    "lng": 2.0726913,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/56/e2aa4fa8-6860-36ac-b971-10b40038aabd"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "exposition-la-responsabilite-des-reves",
@@ -4180,6 +4275,32 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "bel-amour",
+    "name": "BEL AMOUR",
+    "city": "Lyon",
+    "address": "Hippodrome Parilly, 4 Avenue Pierre Mendes France",
+    "region": null,
+    "startDate": "2026-12-31",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2589059",
+    "lineup": [
+      "Joachim Pastor",
+      "Zaatar",
+      "Christie",
+      "Lea Occhi",
+      "THEOS (1)",
+      "OBEL"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2589059"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "23-59-paracek-the-jakob-sister-isalys-jeff-bisous-r2-rave-records",
     "name": "23:59 - PARACEK, The Jakob Sister, ISALYS, JEFF BISOUS - R2: RAVE RECORDS",
     "city": "Lyon France",
@@ -4299,25 +4420,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "woh-rooftop-party-at-skybar",
-    "name": "Woh Rooftop Party at Skybar",
-    "city": "Paris",
-    "address": "Skybar Paris Rooftop, 19 Rue du Commandant René Mouchotte",
-    "region": null,
-    "startDate": "2026-11-18",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2586664",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2586664"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "outrebleu-weekender",
@@ -4557,6 +4659,35 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "j-zbel-release-party",
+    "name": "J-Zbel Release Party",
+    "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
+    "region": null,
+    "startDate": "2026-12-02",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2586952",
+    "lineup": [
+      "J-Zbel",
+      "Eiger Drums Propaganda",
+      "Fatale Furylax",
+      "Jonquera",
+      "Joseph",
+      "Lia Catreux",
+      "Lisa More",
+      "Lux18",
+      "Modern Collapse"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2586952"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4625,8 +4756,7 @@
       "https://dice.fm/event/6ae86b68f108f6000142bd56",
       "https://dice.fm/event/6ae869da925315000126f0d8",
       "https://dice.fm/event/6ae86b90e636cd0001fa1e7b",
-      "https://dice.fm/event/6ae86a23b9e4680001fe3e5f",
-      "https://dice.fm/event/6ae86bc7f108f60001433099"
+      "https://dice.fm/event/6ae86a23b9e4680001fe3e5f"
     ],
     "status": "announced",
     "needsReview": true,
