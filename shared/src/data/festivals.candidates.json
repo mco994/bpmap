@@ -251,7 +251,7 @@
     "name": "Spectacle - Ballet de Lorraine",
     "city": "Bar-le-Duc",
     "region": null,
-    "description": "Danse électro / 1h10 / tout public\n\nQuel plaisir de retrouver le Ballet de Lorraine sur le grand plateau de l’acb, sous la direction de Maud Le Pladec ! Au programme : \"L’âge d’or\" de MazelFreten et \"Rave\", la pièce mythique de Karole Armitage. Deux chorégraphies qui font vibrer les corps au rythme de musiques puissantes et électrisantes.\n\nÉnergie brute, précision, intensité : une véritable fête de la danse, portée par les magnifiques danseur·euse·s du Ballet de Lorraine. Un feu d’artifice à ne pas manquer !",
+    "description": "Danse électro / 1h10 / tout public\n\nQuel plaisir de retrouver le Ballet de Lorraine sur le grand plateau de l’acb, sous la direction de Maud Le Pladec !\nAu programme : \"L’âge d’or\" de MazelFreten et \"Rave +/-\", la pièce mythique de Karole Armitage. Deux chorégraphies qui font vibrer les corps au rythme de musiques puissantes et électrisantes.\nÉnergie brute, précision, intensité : une véritable fête de la danse, portée par les magnifiques danseur·euse·s du Ballet de Lorraine.\n\nUn feu d’artifice à ne pas manquer !",
     "startDate": "2026-12-17",
     "endDate": "2026-12-17",
     "lat": 48.7734941,
@@ -734,44 +734,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/c038883f-92cf-362d-ac1f-1089bd182ff6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-sam-sauvage",
-    "name": "Concert : Sam Sauvage",
-    "city": "Portes-lès-Valence",
-    "region": null,
-    "description": "À seulement vingt‑cinq ans, à califourchon entre les années 70, la chanson, la pop, l’electro et le rock, ce jeune auteur‑compositeur appartient à cette génération instinctive d’artistes qui ne réfrènent pas leurs élans.",
-    "startDate": "2026-11-19",
-    "endDate": "2026-11-19",
-    "lat": 44.875206,
-    "lng": 4.883435,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/c124829d-bdd3-309c-9f15-dedb50cb60fe"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "temps-fort-electro-6-sieste-electro",
-    "name": "Temps fort Électro #6 : Sieste Electro",
-    "city": "Montluçon",
-    "region": null,
-    "description": "En collaboration avec le Théâtre des Ilets et la SMAC le 109, dans le cadre du \"Temps Fort Électro\".",
-    "startDate": "2026-11-19",
-    "endDate": "2026-11-19",
-    "lat": 46.3487,
-    "lng": 2.598493,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/c6687a20-0f60-30b6-9faf-9b69ab8834f8"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1580,6 +1542,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "folie-s",
+    "name": "Folie's",
+    "city": "Tourcoing",
+    "region": null,
+    "description": "**Folie's**  \n\nFolie’s est un jeune artiste parisien original de Pigalle. Entre rap, soul, disco et funk, il réinvente les influences qui l’ont construit — de Stevie Wonder à Michael Jackson — pour imposer une nouvelle vision de la pop française : libre, sensuelle et hybride.\n\nAprès deux EP remarqués et un Trianon complet, l’artiste parisien vient de sortir son premier album, un projet qui se veut à la fois le plus groovy et le plus sincère de sa discographie.\n\n  \n**Lacam19**  \n\nAprès son apparition sur la mixtape BBLOWA, Vol.1 aux côtés de Mora et Jaymee, Lacam19 revient avec son compositeur Davomedov pour dévoiler un double single intitulé « Diavolo », composé des titres « SANS T » et « 3007 ». Deux morceaux aux ambiances opposées : l’un plus sombre, porté par un texte brut et tranchant, l’autre plus planant et entraînant. Une dualité qui fait écho au titre Diavolo, référence au personnage du manga JoJo’s Bizarre Adventure possédant une double personnalité, et manga qui inspire particulièrement Lacam19. Avec ce nouveau projet, Lacam19 dévoile un peu plus l’étendue de sa palette artistique et affirme un univers singulier, entre noirceur, énergie et mélodies planantes. Et ce n’est que le début : l’artiste promet d’enchaîner rapidement et la suite s’annonce explosive.",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-04",
+    "lat": 50.724832,
+    "lng": 3.154945,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/8fdaca45-1604-394a-815c-626a1ac0e35c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "festival-jeunesse-bamboche",
     "name": "FESTIVAL JEUNESSE BAMBOCHE",
     "city": "Amiens",
@@ -2295,25 +2276,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/3f96b361-3573-3419-b33f-f1f7365978b6"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "soiree-beaujo-disco",
-    "name": "Soirée Beaujo-Disco",
-    "city": "Paimpol",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-19",
-    "endDate": "2026-11-19",
-    "lat": 48.77905,
-    "lng": -3.04713,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/528721bf-6d05-3298-b9ad-0b0657960457"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3181,25 +3143,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "les-massiliades-2026-realo-romsii-jeune-morty-notinbed",
-    "name": "Les Massiliades 2026 Realo + Romsii + Jeune Morty + Notinbed",
-    "city": "Marseille 6e Arrondissement",
-    "region": null,
-    "description": "Les Massiliades x Harmonie. Soirée électro/rap/pop  à l'Espace Julien",
-    "startDate": "2026-11-19",
-    "endDate": "2026-11-19",
-    "lat": 43.294204,
-    "lng": 5.38351,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/58/6b2db481-91a4-3891-9b4e-4a61678eb3c5"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "la-responsabilite-des-reves",
     "name": "La responsabilité des rêves",
     "city": "Aix-en-Provence",
@@ -3339,6 +3282,25 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "nexus-alchemy-festival-culture-bar-bars",
+    "name": "NEXUS ALCHEMY - Festival Culture Bar-Bars",
+    "city": "Nantes",
+    "region": "Pays de la Loire",
+    "description": "Line-up psytrance : AcidChaser (night full-on), AcidVibes (forest) et Pink Empire (psytrance psyprog) 📍 Les Fleurs du Malt – Nantes, festival Culture Bar-Bars 🕓 19h00 → 01h00 💸 Entrée prix libre",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-28",
+    "lat": 47.217331,
+    "lng": -1.544993,
+    "officialUrl": "https://openagenda.com/vie-associative-nantes-ville-et-metropole/events/nexus-alchemy-festival-culture-bar-bars",
+    "sources": [
+      "https://openagenda.com/vie-associative-nantes-ville-et-metropole/events/nexus-alchemy-festival-culture-bar-bars"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
   },
   {
     "slug": "live-in-asnr-2026",
@@ -3704,25 +3666,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "amd-x-under-events-presentent-hortense-de-beauharnais-anl",
-    "name": "AMD X UNDER EVENTS PRÉSENTENT : HORTENSE DE BEAUHARNAIS ANL",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "💙 HORTENSE DE BEAUHARNAIS ALL NIGHT LONG ! 💙 7 HOURS OF NONSTOP RAVE WITH ONE ARTIST | JEUDI 19 NOVEMBRE Hortense de Beauharnais débarque au REX CLUB pour un ALL NIGHT LONG qui s'annonce aussi…",
-    "startDate": "2026-11-19",
-    "endDate": "2026-11-20",
-    "lat": 48.870573,
-    "lng": 2.347382,
-    "officialUrl": "https://openagenda.com/shotgun/events/amd-x-under-events-presentent-hortense-de-beauharnais-anl",
-    "sources": [
-      "https://openagenda.com/shotgun/events/amd-x-under-events-presentent-hortense-de-beauharnais-anl"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "bardix-le-gaulois-la-maroquinerie",
@@ -4422,6 +4365,53 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "nantes-rave-techno-with-anetha-krl-mx",
+    "name": "Nantes Rave Techno with Anetha, Krl Mx",
+    "city": "Nantes",
+    "address": "Warehouse, 21 quai des Antilles 44200 Nantes",
+    "region": null,
+    "startDate": "2027-01-22",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2589431",
+    "lineup": [
+      "Anetha",
+      "Krl Mx",
+      "Britney Speed (FR)",
+      "Etienne Nogues"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2589431"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "nantes-rave-techno-with-nikolina",
+    "name": "Nantes Rave Techno with Nikolina",
+    "city": "Nantes",
+    "address": "Warehouse, 21 quai des Antilles 44200 Nantes",
+    "region": null,
+    "startDate": "2027-02-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2589448",
+    "lineup": [
+      "NIKOLINA_",
+      "BETÏSES",
+      "Enigmatik"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2589448"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "outrebleu-weekender",
     "name": "OUTREBLEU [weekender]",
     "city": "Pantin",
@@ -4448,6 +4438,34 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2494321"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "daddy-issues-mother-edition",
+    "name": "DADDY ISSUES: MOTHER EDITION",
+    "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2579604",
+    "lineup": [
+      "encore une autre",
+      "fetva",
+      "Golce",
+      "KUKII",
+      "Liyo",
+      "DJ Music",
+      "Soyklo",
+      "Word of Command"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2579604"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4756,7 +4774,8 @@
       "https://dice.fm/event/6ae86b68f108f6000142bd56",
       "https://dice.fm/event/6ae869da925315000126f0d8",
       "https://dice.fm/event/6ae86b90e636cd0001fa1e7b",
-      "https://dice.fm/event/6ae86a23b9e4680001fe3e5f"
+      "https://dice.fm/event/6ae86a23b9e4680001fe3e5f",
+      "https://dice.fm/event/6ae86bc7f108f60001433099"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4791,22 +4810,42 @@
     "city": "Paris",
     "region": "Île-de-France",
     "description": "",
-    "startDate": "2026-11-19",
-    "endDate": "2026-11-20",
+    "startDate": "2026-11-26",
+    "endDate": "2026-11-27",
     "lat": null,
     "lng": null,
-    "officialUrl": "https://dice.fm/event/6ac7c04b8e319f000142d14c",
+    "officialUrl": "https://dice.fm/event/6ad9d2e374502800013f7587",
     "lineup": [],
     "source": "dice",
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6ac7c04b8e319f000142d14c",
       "https://dice.fm/event/6ad9d2e374502800013f7587"
     ],
     "status": "announced",
     "needsReview": true,
-    "isFestival": false,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "la-grande-fete-alien-disco-et-bye-bye-jenna-3",
+    "name": "LA GRANDE FÊTE : ALIEN & DISCO (et bye-bye Jenna <3)",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-27",
+    "endDate": "2026-11-28",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ad783eb1a4b690001b0a6e9",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ad783eb1a4b690001b0a6e9"
+    ],
+    "status": "announced",
+    "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   }
 ]
