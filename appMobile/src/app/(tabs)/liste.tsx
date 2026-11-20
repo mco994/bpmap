@@ -161,7 +161,6 @@ export default function ListeScreen() {
             contentContainerStyle={styles.list}
             keyboardShouldPersistTaps="handled"
             stickySectionHeadersEnabled
-            SectionSeparatorComponent={null}
             renderSectionHeader={({ section }) => (
               <View style={[styles.sectionHeader, { backgroundColor: theme.background }]}>
                 <ThemedText type="smallBold" style={{ color: theme.accent }}>

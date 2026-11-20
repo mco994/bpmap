@@ -22,7 +22,7 @@ export default function RootLayout() {
     void checkChangesAndNotify();
     void syncPush();
     const subscription = AppState.addEventListener('change', (next: AppStateStatus) => {
-      if (appState.current.match(/inactive|background/) && next === 'active') {
+      if (appState.current?.match(/inactive|background/) && next === 'active') {
         void checkChangesAndNotify();
         void syncPush();
       }
