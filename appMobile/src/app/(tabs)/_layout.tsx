@@ -18,21 +18,21 @@ export default function TabsLayout() {
         name="index"
         options={{
           title: 'Carte',
-          tabBarIcon: ({ color, size }) => <Ionicons name="map" color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => <Ionicons name="map" color={typeof color === 'string' ? color : undefined} size={size} />,
         }}
       />
       <Tabs.Screen
         name="liste"
         options={{
           title: 'Événements',
-          tabBarIcon: ({ color, size }) => <Ionicons name="list" color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => <Ionicons name="list" color={typeof color === 'string' ? color : undefined} size={size} />,
         }}
       />
       <Tabs.Screen
         name="suivis"
         options={{
           title: 'Suivis',
-          tabBarIcon: ({ color, size }) => <Ionicons name="heart" color={color} size={size} />,
+          tabBarIcon: ({ color, size }) => <Ionicons name="heart" color={typeof color === 'string' ? color : undefined} size={size} />,
         }}
       />
     </Tabs>
