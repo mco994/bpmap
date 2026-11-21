@@ -930,6 +930,38 @@
     ]
   },
   {
+    "id": "saliah-take-over-nyokobop-festival",
+    "slug": "saliah-take-over-nyokobop-festival",
+    "name": "Saliah Take Over - NYOKOBOP Festival",
+    "description": "",
+    "startDate": "2026-12-04",
+    "endDate": null,
+    "lat": 48.83491,
+    "lng": 2.37724,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2586153",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Saliah",
+      "MALAISE VAGAL",
+      "Yasmine Megharia"
+    ],
+    "sources": [
+      "https://ra.co/events/2586153"
+    ]
+  },
+  {
     "id": "rise-festival",
     "slug": "rise-festival",
     "name": "Rise Festival",
