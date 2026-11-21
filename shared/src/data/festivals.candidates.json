@@ -741,25 +741,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "sinai-dj-set-all-in-dub",
-    "name": "Sinai (Dj Set) & All In Dub",
-    "city": "Bourg-lès-Valence",
-    "region": null,
-    "description": "Les soirées Vacarme N Dub c’est reparti !\r\nRendez-vous le vendredi 20 novembre au VEX pour une soirée qui s’annonce vibrante avec Sinai en DJ Set et All In Dub !",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-20",
-    "lat": 44.938348,
-    "lng": 4.888331,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/cc7449ea-1f5c-31a7-a4eb-79e323be8ffa"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soirees-a-theme-au-cabaret-domaine-de-la-laigne",
     "name": "Soirées à thème au Cabaret Domaine de la Laigne",
     "city": "Sainte-Lheurine",
@@ -912,25 +893,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "qui-vive-musique",
-    "name": "Qui vive ! - Musique",
-    "city": "Pithiviers",
-    "region": null,
-    "description": "Événement musical au Théâtre du Donjon à Pithiviers ! La Compagnie Rassegna bouscule les codes et fusionne la beauté du répertoire baroque avec l'énergie de l'électro et du rock. Un voyage sonore inédit, audacieux et tout public, prolongé par une rencontre avec les artistes.",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-20",
-    "lat": 48.1737258,
-    "lng": 2.2579253,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/7ae08663-37df-398a-b1ae-2eb480d9f6dd"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "disco-soupe-2026-au-pole-xxl",
     "name": "Disco soupe 2026 au pôle XXL",
     "city": "Lussault-sur-Loire",
@@ -969,25 +931,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "l-orange-fluo-presente-june-bug",
-    "name": "L'Orange Fluo présente June Bug",
-    "city": "Latronquière",
-    "region": null,
-    "description": "<p>Vous les avez adorés au<em> Hip Hip Hip festival,</em> ils reviennent en résidence à l&#39;Espace culturel et vous proposent une sortie de résidence de leur travail...</p><p>On s&#39;y retrouve ?</p><p>June Bug est un projet musical qui puise ses influences dans la folk/pop/électro, né en 2010, porté par Sarah-June à l’écriture et la composition",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-20",
-    "lat": 44.801891,
-    "lng": 2.0783632,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/641609d7-0f22-31e2-9abf-3f3510d78382"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "anita-en-concert-pour-le-folk-club-de-cahors-avec-chanson-pop-electro",
     "name": "ANITA en concert pour le Folk Club de Cahors avec chanson pop électro",
     "city": "Labastide-Marnhac",
@@ -1019,25 +962,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/22/e1995216-e6c6-3e4a-af0d-422fae5813bc"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-de-primo-taut-techno-beriner",
-    "name": "Concert de Primo Taut \"Techno Beriner\"",
-    "city": "Le Bugue",
-    "region": null,
-    "description": "21h.Surprenant, éclectique et adaptable, il a toujours une histoire à raconter, qui vise avant tout à faire danser le corps et l'âme. Bar et restauration. Ouverture des portes 19h. Gratuit",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-20",
-    "lat": 44.9283716,
-    "lng": 0.9277033,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/33ed1eca-6918-3f36-83da-dd5bb55acfad"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1350,25 +1274,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "disco-soupe-et-projection-du-documentaire-au-fil-de-l-eau-de-l-insouciance-a-la-desobeissance",
-    "name": "Disco Soupe et Projection du documentaire \"Au fil de l'eau, de l'insouciance à la désobéissance\"",
-    "city": "Monflanquin",
-    "region": null,
-    "description": "À partir de 17h : on va cuisiner une soupe, et danser ensemble pendant la cuisson ! Puis nous dégusterons la soupe autour d'une projection sur le thème de l'alimentation. Ambiance conviviale assurée !\n\nProjection du film documentaire, à 19h,  \"Au fil de l'eau, de l'insouciance à la désobéissance\" .",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-20",
-    "lat": 44.5307578,
-    "lng": 0.76821314,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/ecf3d5f6-643f-3021-8058-90a490edf139"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "concert-soiree-dub",
@@ -1846,25 +1751,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "soiree-disco",
-    "name": "Soirée disco",
-    "city": "Bolbec",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-20",
-    "lat": 49.573572,
-    "lng": 0.4743749,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/bbc19a42-cd7e-3484-9b22-300eef6226b4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "danse-rave-lucid",
     "name": "Danse : Rave Lucid",
     "city": "Le Havre",
@@ -2124,6 +2010,82 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/33/cdec153b-0c73-3602-851b-24ca76240144"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-discopop",
+    "name": "Soirée Discopop",
+    "city": "Bagnères-de-Bigorre",
+    "region": null,
+    "description": "Discopop revient avec l'association Intervalle : boules à facettes et bon son, des origines de la disco à aujourd'hui, pour danser toute la nuit.",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-28",
+    "lat": 43.07371,
+    "lng": 0.14356,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/08a95025-2869-3245-b219-5e073ad7241d"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "exposition-photographique-97-26-par-mattieu-lamotte",
+    "name": "Exposition photographique \"97/26\" par Mattieu Lamotte",
+    "city": "Tarbes",
+    "region": null,
+    "description": "Avec 97/26, Mattieu Lamotte réunit deux séries photographiques réalisées à près de trente années d'intervalle.\n\nTranscodage (1997) trouve son origine dans une interrogation sur le devenir de l'humanité face aux mutations technologiques annoncées à l'aube du XXIe siècle. Inspirée notamment par une couverture de presse de l'époque titrant « 2000-2100 : Techno sapiens prend le pouvoir », la série confronte le corps humain aux structures des circuits imprimés, questionnant les frontières entre organisme et technologie.\n\nKuruoakami (2026) propose une plongée macrophotographique dans les architectures invisibles de l'eau et du gel. Inspirée par la figure mythologique du dragon des glaces, cette recherche révèle des formes organiques et minérales insoupçonnées.\n\nDeux temporalités, deux échelles d'observation, une même interrogation sur notre rapport au réel et les limites de notre perception.\n\nEntre vision prospective, univers organique et exploration de l'imperceptible, 97/26 invite à reconsidérer ce qui nous entoure autant que ce qui nous transforme.\n\nEntrée libre du lundi au vendredi de 9h30 à 17h",
+    "startDate": "2026-12-01",
+    "endDate": "2026-12-31",
+    "lat": 43.2318852,
+    "lng": 0.0736927,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/1de7c220-d261-3532-a0e0-a51b8a3564c4"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "concert-de-noel-sol-n-sol-sing-sing",
+    "name": "Concert de Noël Sol'n Sol/Sing Sing",
+    "city": "Tarbes",
+    "region": null,
+    "description": "Le Choeur Sol'n Sol d'Oursbelille et la Chorale Sing Sing d'Odos,  sous la direction de Sarah David-Filleau, accompagnée par le pianiste Michel Queuille, vous proposent leur Concert de Noël.\n\nSarah David a commencé l'art lyrique dès l'âge de 12 ans sous le contrôle de Josette Menant, dans le cadre des ateliers de technique vocale organisés par « Musique et danses en Poitou-Charentes ». A 18 ans, elle entreprend des cours particuliers auprès de Karen Broughton, soliste formée à la Julliard School ; puis auprès de Nicole Boucher, soliste de l'Opéra de Tours. Elle intègre finalement le CRD d'Angoulême en 2013 auprès de Roxanne Comiotto, diplomée du CNSM de Lyon où elle obtient son DNOP. Elle rejoint, en parallèle, L'ensemble vocal de L'Abbaye aux Dames de Saintes, dirigé par Manuel Simonnet jusqu’en 2018. Toujours en recherche de perfectionnement, elle participe à plusieurs formations dont l'Opéra Studio des Maîtres Sonneurs à Toulouse en 2016, l’Académie internationale de mélodie française de François Le Roux en 2018, ou encore l’Académie du Grand Paris en 2020 auprès de Sophie Hervé. Elle a également enseigné la musique en tant que professeur de formation musicale à l'EDM en 2017-2018, ainsi qu’au conservatoire de Cognac de 2019 à 2021. Soliste depuis 2013, elle a à son actif une vingtaine de concerts, entre oratorio, récital d'opérette et d'opéra. Elle est installée dans les Hautes Pyrénées depuis juillet 2021.\n\nDe formation classique et de jazz, multipliant les rencontres, Michel Queuille interprète les musiques de jazz, les musiques improvisées, les musiques traditionnelles. Il collabore avec des artistes de variétés et travaille régulièrement dans le domaine du chant-choral.\nIl compose des pièces aux influences multiples. Il s’implique au sein de créations mêlant la danse ou le théâtre.\nIl a joué pour France musique « A l’improviste », France Inter « Ouvert la nuit ». Il s’est produit au sein de festivals tels « banlieue bleue, Africolor… »…",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-12",
+    "lat": 43.232142,
+    "lng": 0.082951,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/5722c0c8-8f1a-3246-a4f2-7bf2bda53215"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "le-dimanche-22-novembre-au-cafe-du-village",
+    "name": "Le dimanche 22 novembre au Café du Village",
+    "city": "Anères",
+    "region": null,
+    "description": "Atelier-Spectacle autour du récit, suivi d'un repas et enfin concert Techno pop Kitsh en partenariat avec la Maison de Marie-Louise !",
+    "startDate": "2026-11-22",
+    "endDate": "2026-11-22",
+    "lat": 43.0379611,
+    "lng": 0.4691097,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/90ad0a13-dafb-3d95-9471-eb9dac4d839a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3219,51 +3181,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "nico-moreno-la-cite-du-cinema-paris",
-    "name": "NICO MORENO @ LA CITÉ DU CINÉMA, PARIS",
-    "city": "Saint-Denis",
-    "region": "Île-de-France",
-    "description": "NICO MORENO @LA CITÉ DU CINÉMA - PARIS - 20.11.26 > 23H - 06H DJ et producteur français, Nico Moreno est reconnu comme une figure majeure de la scène de la rave industrielle. Headliner sur les…",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-21",
-    "lat": 48.922636,
-    "lng": 2.336672,
-    "officialUrl": "https://openagenda.com/shotgun/events/nico-moreno-la-cite-du-cinema-paris",
-    "sources": [
-      "https://openagenda.com/shotgun/events/nico-moreno-la-cite-du-cinema-paris"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "10-years-of-rave-moontrip-x-interference",
-    "name": "10 YEARS OF RAVE - Moontrip x Interference",
-    "city": "Balma",
-    "region": "Occitanie",
-    "description": "🩸TECHNO / RAVE / HARDGROOVE ❌ NO PHOTO POLICY 💚 VERY COOL PRICES 🎟️ TOMBOLA DES 10 ANS Vendredi 20 novembre Moontrip fête ses 10 ans à lnterference ! 🎈 10 ans de fêtes, de nuits trop courtes et…",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-21",
-    "lat": 43.631391,
-    "lng": 1.489136,
-    "officialUrl": "https://openagenda.com/shotgun/events/10-years-of-rave-moontrip-x-interference",
-    "sources": [
-      "https://openagenda.com/shotgun/events/10-years-of-rave-moontrip-x-interference",
-      "https://ra.co/events/2547622"
-    ],
-    "genreVerified": true,
-    "status": "announced",
-    "needsReview": true,
-    "isFestival": false,
-    "address": "Interference, 56 route de Lavaur 31130 BALMA",
-    "lineup": [
-      "Chocolanouar"
-    ],
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "mknk-club-manu-le-malin-somniac-one-rabbeat",
     "name": "MKNK CLUB : Manu le Malin + Somniac One + RABBeAT + ...",
     "city": "Saint-Avé",
@@ -4090,32 +4007,6 @@
     "_reason": "localisation manquante"
   },
   {
-    "slug": "vault-club-floor-1-by-nuance-floor-2-with-rost-m",
-    "name": "VAULT-Club — Floor 1 by NUANCE / Floor 2 with Rostøm",
-    "city": "Mulhouse",
-    "address": "Vault Club, 74 rue du Sauvage, 68100 Mulhouse",
-    "region": null,
-    "startDate": "2026-11-20",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2567446",
-    "lineup": [
-      "Rostøm",
-      "Cyprien",
-      "liema",
-      "Schaed",
-      "Georges Y",
-      "FTFL"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2567446"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "krom-matrakk-ktk-fenrick",
     "name": "KROM:  MATRAKK, KTK, Fenrick ",
     "city": "Strasbourg",
@@ -4412,6 +4303,34 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "daddy-issues-mother-edition",
+    "name": "DADDY ISSUES: MOTHER EDITION",
+    "city": "Paris",
+    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
+    "region": null,
+    "startDate": "2026-11-21",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2579604",
+    "lineup": [
+      "encore une autre",
+      "fetva",
+      "Golce",
+      "KUKII",
+      "Liyo",
+      "DJ Music",
+      "Soyklo",
+      "Word of Command"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2579604"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "outrebleu-weekender",
     "name": "OUTREBLEU [weekender]",
     "city": "Pantin",
@@ -4438,34 +4357,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2494321"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "daddy-issues-mother-edition",
-    "name": "DADDY ISSUES: MOTHER EDITION",
-    "city": "Paris",
-    "address": "La Station - Gare des Mines, 29 avenue de la Porte d’Aubervilliers Paris",
-    "region": null,
-    "startDate": "2026-11-21",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2579604",
-    "lineup": [
-      "encore une autre",
-      "fetva",
-      "Golce",
-      "KUKII",
-      "Liyo",
-      "DJ Music",
-      "Soyklo",
-      "Word of Command"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2579604"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4706,6 +4597,122 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "a4-pedro-present-olympe4000-g-eg-laze-lisa-more-notinbed-roni-pureblast-erna",
+    "name": "A4 & Pedro present: Olympe4000, GЯEG, Laze, Lisa More, notinbed, RONI, Pureblast & Erna",
+    "city": "Paris",
+    "address": "Le Trabendo, 211 avenue Jean Jaurès; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-12-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2577061",
+    "lineup": [
+      "Pureblast",
+      "Olympe4000",
+      "notinbed",
+      "Lisa More",
+      "RONI",
+      "Greg (2)",
+      "Laze",
+      "Erna (FR)"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2577061"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "pont-neuf-10-years-xxl-closing",
+    "name": "PONT NEUF 10 YEARS XXL CLOSING",
+    "city": "Paris",
+    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
+    "region": null,
+    "startDate": "2026-12-04",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2553187",
+    "lineup": [
+      "Bellaire",
+      "Black Loops",
+      "Demuja",
+      "Dylan Dylan",
+      "Goldie B",
+      "Kamma",
+      "Masalo",
+      "Kx9000",
+      "Mad Rey",
+      "Maison Blanche",
+      "Marbré",
+      "Mira Ló",
+      "Naajet (2)",
+      "THEOS (1)",
+      "Tour-Maubourg",
+      "Young Marco"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2553187"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "get-in-step-x-critical-mefjus-simula-enei-b2b-kasra",
+    "name": "Get In Step X Critical: Mefjus, Simula, Enei B2b Kasra…",
+    "city": "Paris",
+    "address": "Mia Mao, 12a rue Ella Fitzgerald, 75019, Paris, FRANCE",
+    "region": null,
+    "startDate": "2026-12-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2553192",
+    "lineup": [
+      "Mefjus",
+      "Simula",
+      "Enei",
+      "Kasra",
+      "Waeys",
+      "SMG (UK)"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2553192"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "disorder-x-ethereal-decibel-festival-support-party",
+    "name": "Disorder x Ethereal Decibel Festival: Support Party",
+    "city": "Paris",
+    "address": "Le 211, 211 Av. Jean Jaurès, 75019",
+    "region": null,
+    "startDate": "2026-12-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2581925",
+    "lineup": [
+      "69DB",
+      "Esteban Desigual",
+      "Valise (FR)",
+      "Vegan Cake",
+      "6thFloor",
+      "Corbeille Dallas"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2581925"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4758,51 +4765,29 @@
     "city": "Paris",
     "region": "Île-de-France",
     "description": "",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-21",
+    "startDate": "2026-11-21",
+    "endDate": "2026-11-22",
     "lat": null,
     "lng": null,
-    "officialUrl": "https://dice.fm/event/6ae86850e5a8d60001abf58b",
+    "officialUrl": "https://dice.fm/event/6ae86af545caf200018c8405",
     "lineup": [],
     "source": "dice",
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6ae86850e5a8d60001abf58b",
       "https://dice.fm/event/6ae86af545caf200018c8405",
       "https://dice.fm/event/6ae86894e636cd0001446b31",
       "https://dice.fm/event/6ae86b68f108f6000142bd56",
       "https://dice.fm/event/6ae869da925315000126f0d8",
       "https://dice.fm/event/6ae86b90e636cd0001fa1e7b",
       "https://dice.fm/event/6ae86a23b9e4680001fe3e5f",
-      "https://dice.fm/event/6ae86bc7f108f60001433099"
+      "https://dice.fm/event/6ae86bc7f108f60001433099",
+      "https://dice.fm/event/6ae86a4ae636cd00012eda07"
     ],
     "status": "announced",
     "needsReview": true,
     "isFestival": false,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "leo-pol-coleeeette-arthur-pringle-toma-house-archive",
-    "name": "Leo Pol, Coleeeette, Arthur Pringle & Toma : House Archive",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-20",
-    "endDate": "2026-11-21",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ada22cc65ca49000173cfa0",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ada22cc65ca49000173cfa0"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "la-discotaco-disco-paillettes-tacos",
