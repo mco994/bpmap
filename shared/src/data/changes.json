@@ -1,5 +1,32 @@
 [
   {
+    "id": "2026-11-22:jimena-amarillo-chico-blanco-nyokobop-festival:added",
+    "festivalId": "jimena-amarillo-chico-blanco-nyokobop-festival",
+    "festivalSlug": "jimena-amarillo-chico-blanco-nyokobop-festival",
+    "festivalName": "Jimena Amarillo + Chico Blanco - Nyokobop Festival",
+    "type": "added",
+    "date": "2026-11-22",
+    "summary": "Ajouté à Paris — 5 – 6 décembre 2026."
+  },
+  {
+    "id": "2026-11-22:tasha-tracie-deize-tigrona-nyokobop-festival:added",
+    "festivalId": "tasha-tracie-deize-tigrona-nyokobop-festival",
+    "festivalSlug": "tasha-tracie-deize-tigrona-nyokobop-festival",
+    "festivalName": "Tasha & Tracie + Deize Tigrona - NYOKOBOP FESTIVAL",
+    "type": "added",
+    "date": "2026-11-22",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
+    "id": "2026-11-22:electronest:price",
+    "festivalId": "electronest",
+    "festivalSlug": "electronest",
+    "festivalName": "Electronest",
+    "type": "price",
+    "date": "2026-11-22",
+    "summary": "Les tarifs ont été mis à jour."
+  },
+  {
     "id": "2026-11-21:saliah-take-over-nyokobop-festival:added",
     "festivalId": "saliah-take-over-nyokobop-festival",
     "festivalSlug": "saliah-take-over-nyokobop-festival",
