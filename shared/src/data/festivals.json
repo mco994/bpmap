@@ -1029,7 +1029,7 @@
       "electro",
       "house"
     ],
-    "priceDay": 20,
+    "priceDay": 14,
     "priceFull": null,
     "currency": "EUR",
     "ticketUrl": "https://shotgun.live/en/festivals/electronest-2026",
@@ -1080,6 +1080,36 @@
     ]
   },
   {
+    "id": "jimena-amarillo-chico-blanco-nyokobop-festival",
+    "slug": "jimena-amarillo-chico-blanco-nyokobop-festival",
+    "name": "Jimena Amarillo + Chico Blanco - Nyokobop Festival",
+    "description": "",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-06",
+    "lat": 48.8957,
+    "lng": 2.32852,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2586216",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Chico Blanco"
+    ],
+    "sources": [
+      "https://ra.co/events/2586216"
+    ]
+  },
+  {
     "id": "s-festival-2026",
     "slug": "s-festival-2026",
     "name": "S festival 2026",
@@ -1103,6 +1133,33 @@
     "status": "announced",
     "sources": [
       "https://ra.co/events/2538769"
+    ]
+  },
+  {
+    "id": "tasha-tracie-deize-tigrona-nyokobop-festival",
+    "slug": "tasha-tracie-deize-tigrona-nyokobop-festival",
+    "name": "Tasha & Tracie + Deize Tigrona - NYOKOBOP FESTIVAL",
+    "description": "",
+    "startDate": "2026-12-09",
+    "endDate": null,
+    "lat": 48.86841,
+    "lng": 2.39216,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2586222",
+    "status": "announced",
+    "eventType": "festival",
+    "sources": [
+      "https://ra.co/events/2586222"
     ]
   },
   {
