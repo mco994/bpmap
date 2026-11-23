@@ -1217,6 +1217,38 @@
     ]
   },
   {
+    "id": "festival-le-bon-air-2027",
+    "slug": "festival-le-bon-air-2027",
+    "name": "FESTIVAL LE BON AIR 2027",
+    "description": "",
+    "startDate": "2027-05-14",
+    "endDate": null,
+    "lat": 43.30959,
+    "lng": 5.39037,
+    "city": "Marseille",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2591597",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Vitalic",
+      "Kendal",
+      "Andi"
+    ],
+    "sources": [
+      "https://ra.co/events/2591597"
+    ]
+  },
+  {
     "id": "olympiad-festival",
     "slug": "olympiad-festival",
     "name": "Olympiad Festival",

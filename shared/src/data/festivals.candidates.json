@@ -874,25 +874,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "concert-d-automne",
-    "name": "Concert D'Automne",
-    "city": "Fontanes",
-    "region": null,
-    "description": "<p><span style=\"color: rgb(85, 85, 85);\">Un concert choral réunissant plusieurs chorales Voix de Chœur de Lamolayrette et Chant-A-Lot! With soloists Darron Moore and Katy Batho from the Royal Opera House Covent Garden, London</span></p>",
-    "startDate": "2026-11-22",
-    "endDate": "2026-11-22",
-    "lat": 44.31141,
-    "lng": 1.49808136,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/e1995216-e6c6-3e4a-af0d-422fae5813bc"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "soiree-techno-euphonic-boulevard",
     "name": "Soirée Techno - Euphonic Boulevard",
     "city": "Melle",
@@ -1136,6 +1117,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/c285b1ac-0c2c-36d3-816a-b101839aef51"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-amsha-musique-du-monde",
+    "name": "Concert Amsha: Musique du monde",
+    "city": "Thiviers",
+    "region": null,
+    "description": "AMSHA propose un voyage musical immersif où les chants du monde rencontrent les percussions tribales et les sonorités électro. Entre traditions, mélodies nomades et créations contemporaines, voix, guitares et rythmes entraînants se mêlent pour offrir un concert vibrant et festif, invitant au partage",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 45.4181459,
+    "lng": 0.92055737,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/c3f64beb-dd76-3178-bf3e-c4683092a791"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1694,25 +1694,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-sprutbass-et-fulgeance-les-boreales",
-    "name": "Concert Sprutbass et Fulgeance - Les Boréales",
-    "city": "Caen",
-    "region": null,
-    "description": "Concert de clôture du festival Les Boréales : Sprutbass et Fulgeance en live pour une soirée électro envoûtante.",
-    "startDate": "2026-11-22",
-    "endDate": "2026-11-22",
-    "lat": 49.1860671,
-    "lng": -0.3616637,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/cecd4ec9-1756-36bf-95eb-2b1afd5082ff"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "disco-soupe",
     "name": "Disco-soupe",
     "city": "Coutances",
@@ -2036,25 +2017,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "le-dimanche-22-novembre-au-cafe-du-village",
-    "name": "Le dimanche 22 novembre au Café du Village",
-    "city": "Anères",
-    "region": null,
-    "description": "Atelier-Spectacle autour du récit, suivi d'un repas et enfin concert Techno pop Kitsh en partenariat avec la Maison de Marie-Louise !",
-    "startDate": "2026-11-22",
-    "endDate": "2026-11-22",
-    "lat": 43.0379611,
-    "lng": 0.4691097,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/36/90ad0a13-dafb-3d95-9471-eb9dac4d839a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "pot-d-accueil-et-concert",
     "name": "Pot d'accueil et concert",
     "city": "Barèges",
@@ -2264,31 +2226,12 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "in-locoal-we-dub",
-    "name": "In Locoal We Dub",
-    "city": "Locoal-Mendon",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-21",
-    "endDate": "2026-11-22",
-    "lat": 47.7098848,
-    "lng": -3.1106812,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/f06b99e9-adae-32ef-9c71-622c54835953"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "electro-party-d-hiver",
     "name": "Electro Party d'Hiver",
     "city": "Landerneau",
     "region": null,
     "description": "",
-    "startDate": "2026-11-04",
+    "startDate": "2026-12-04",
     "endDate": "2026-12-04",
     "lat": 48.44888,
     "lng": -4.24941,
@@ -2299,7 +2242,7 @@
     "genreVerified": false,
     "status": "announced",
     "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "david-lafore-duo-electro-acoustique",
@@ -4094,6 +4037,32 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "gloria-jane-fitz-theo-muller-aasana-gti-b2b-combe-youl-lamoureux-taytay-b2b-l-i",
+    "name": "Gloria • Jane Fitz ~ Théo Muller ~ Aasana ~ GTI B2B Combe ~ Youl ~ Lamoureux ~ Taytay B2B L.I",
+    "city": "Nantes",
+    "address": "Macadam, 17 rue Jules Launey 44100 Nantes",
+    "region": null,
+    "startDate": "2026-12-20",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2553201",
+    "lineup": [
+      "Jane Fitz",
+      "Théo Muller",
+      "GTI",
+      "Combe",
+      "Youl",
+      "L.I (1)"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2553201"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "cheeseporn-de-l-an-neuf-nantes",
     "name": "Cheeseporn De L'an Neuf - Nantes",
     "city": "Haute-Goulaine",
@@ -4220,27 +4189,6 @@
     "_reason": "soirée : hors périmètre"
   },
   {
-    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
-    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
-    "city": "Paris",
-    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
-    "region": null,
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2570159",
-    "lineup": [
-      "Audrey Danza"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2570159"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "club-sauvage-30h",
     "name": "¡Club Sauvage 30h",
     "city": "Paris",
@@ -4269,6 +4217,27 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
+    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
+    "city": "Paris",
+    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
+    "region": null,
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2570159",
+    "lineup": [
+      "Audrey Danza"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2570159"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "intimate-club-yaoi",
@@ -4766,6 +4735,28 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6af1f231ba72b00001044bec"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "planete-house-dan-shake-marina-trench-aubry",
+    "name": "Planète House : Dan Shake, Marina Trench, Aubry",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6aedc38d6d3306000116dbdc",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6aedc38d6d3306000116dbdc"
     ],
     "status": "announced",
     "needsReview": true,
