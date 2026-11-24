@@ -760,6 +760,63 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "rave-lucid-cie-mazelfreten",
+    "name": "Rave Lucid - Cie Mazelfreten",
+    "city": "Lens",
+    "region": null,
+    "description": "La danse électro est la première danse urbaine française. Fondée sur des mouvements atypiques de jeux de bras adaptés au rythme de la musique «électro/house et techno», elle est pratiquée depuis les années 2000 lors des soirées dans certaines boîtes de nuit parisiennes, cette danse s'est rapidement popularisée par bouche-à-oreille grâce à des vidéos postées sur Youtube et notamment lors de la Techno Parade 2007 de Paris.",
+    "startDate": "2026-12-15",
+    "endDate": "2026-12-15",
+    "lat": 50.428554,
+    "lng": 2.830739,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/14/422000f6-d540-3805-9a6c-effdb383a39f"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "festival-de-la-sainte-barbe-soiree-electro",
+    "name": "Festival de la Sainte Barbe - Soirée électro",
+    "city": "Oignies",
+    "region": null,
+    "description": "Concerts.",
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-05",
+    "lat": 50.461448,
+    "lng": 2.987943,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/14/4a75bcc7-47a2-39b8-abd3-fad82ee1708a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
+    "slug": "animations-enfants-magic-momes-fun-house",
+    "name": "Animations Enfants - Magic Mômes - Fun House",
+    "city": "Neufchâtel-Hardelot",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-21",
+    "endDate": "2026-12-24",
+    "lat": 50.619072,
+    "lng": 1.642977,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/14/f6384e9a-5146-3102-9560-9bf9caa9088a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "supertronica-la-cigue",
     "name": "SUPERTRONICA   LA CIGUË",
     "city": "Joué-lès-Tours",
@@ -4468,28 +4525,6 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
-    "slug": "tweak-soundsystem-x-south-of-north-mini-festival-at-mains-d-oeuvres",
-    "name": "Tweak Soundsystem x South of North Mini-Festival at Mains d'Oeuvres",
-    "city": "Saint-Ouen",
-    "address": "Mains D'œuvres, 1 Rue Charles Garnier, 93400 Saint-Ouen, France",
-    "region": null,
-    "startDate": "2026-12-05",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2579234",
-    "lineup": [
-      "Maria Bertel",
-      "HOCHIWAH"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2579234"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "pygments-release-party",
     "name": "Pygments: Release Party",
     "city": "Paris",
@@ -4521,6 +4556,28 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "tweak-soundsystem-x-south-of-north-mini-festival-at-mains-d-oeuvres",
+    "name": "Tweak Soundsystem x South of North Mini-Festival at Mains d'Oeuvres",
+    "city": "Saint-Ouen",
+    "address": "Mains D'œuvres, 1 Rue Charles Garnier, 93400 Saint-Ouen, France",
+    "region": null,
+    "startDate": "2026-12-05",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2579234",
+    "lineup": [
+      "Maria Bertel",
+      "HOCHIWAH"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2579234"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "ragapop-aili-orson-arsenal-mikebe-nyokobop-festival",
     "name": "ragapop + Aili & Orson + Arsenal Mikebe - NYOKOBOP Festival",
     "city": "Paris",
@@ -4538,38 +4595,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2586231"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "fvtvr-presents-laster-again-30h-under-the-red-light",
-    "name": "Fvtvr presents LASTER again 30H UNDER THE RED LIGHT",
-    "city": "Paris",
-    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
-    "region": null,
-    "startDate": "2026-12-11",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2500024",
-    "lineup": [
-      "Blasha & Allatt",
-      "Chami",
-      "EMAN (FR)",
-      "Claudio PRC",
-      "Fadi Mohem",
-      "Freddy K",
-      "Laia",
-      "Louis The 4th",
-      "Marcel Dettmann",
-      "Marie Montexier",
-      "Roll Dann",
-      "The Lady Machine"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2500024"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4644,8 +4669,7 @@
       "https://dice.fm/event/6ae86b90e636cd0001fa1e7b",
       "https://dice.fm/event/6ae86a23b9e4680001fe3e5f",
       "https://dice.fm/event/6ae86bc7f108f60001433099",
-      "https://dice.fm/event/6ae86a4ae636cd00012eda07",
-      "https://dice.fm/event/6ae86bf3858b0e000111f1db"
+      "https://dice.fm/event/6ae86a4ae636cd00012eda07"
     ],
     "status": "announced",
     "needsReview": true,
