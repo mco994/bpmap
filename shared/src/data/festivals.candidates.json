@@ -494,6 +494,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "concert-electro-pop-sarakiniko",
+    "name": "Concert - Electro Pop - Sarakiniko",
+    "city": "La Rochelle",
+    "region": null,
+    "description": "Après l’album Dehors et une série de concerts avec Vox Low et The Limiñanas, Sarakiniko s’ancre dans l’identité gracieuse « d’un son corrosif qui en a hypnotisé plus d’un » : une musique, chantée en français, sophistiquée et exigeante.",
+    "startDate": "2026-12-09",
+    "endDate": "2026-12-09",
+    "lat": 46.160194,
+    "lng": -1.152912,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/53c030f5-f581-3123-adfe-8e7ce951d76c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "feeries-d-hiver-concert-dj-la-releve",
     "name": "Féeries d’Hiver: Concert : DJ \"La Relève\"",
     "city": "Valence",
@@ -563,25 +582,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/7e800335-87de-3361-a4ad-d530848b9b52"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "hofesh-shechter",
-    "name": "Hofesh Shechter",
-    "city": "Saint-Michel-sur-Orge",
-    "region": null,
-    "description": "Immersif et électrisant, IN THE BRAIN nous invite à perdre nos repères dans un tourbillon de rythme et de mouvement, fusionnant rave et rituel pour une expérience collective unique.",
-    "startDate": "2026-11-24",
-    "endDate": "2026-11-24",
-    "lat": 48.637338,
-    "lng": 2.321673,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/13/87ef5eaa-7091-3f07-b80a-4dbda41d0174"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -836,6 +836,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "concert-aymeric-simon-howling-house-band",
+    "name": "Concert Aymeric Simon & Howling House Band",
+    "city": "Beaumont-en-Véron",
+    "region": null,
+    "description": "Aymeric Simon & Howling House Band (blues, hommage aux grands maîtres du genre)",
+    "startDate": "2026-12-06",
+    "endDate": "2026-12-06",
+    "lat": 47.2011636,
+    "lng": 0.1848686,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/15/1cd94700-b527-351e-9349-2252a2731cc8"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "les-jeudis-sonnants-ultra-moderne-electro-clash",
     "name": "Les Jeudis Sonnants - Ultra Moderne (electro clash)",
     "city": "Nogent-le-Rotrou",
@@ -929,6 +948,25 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "repair-cafe-electro",
+    "name": "Repair café électro",
+    "city": "Thiviers",
+    "region": null,
+    "description": "",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-12",
+    "lat": 45.4194642,
+    "lng": 0.9227182,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/23/2b4087c8-b52a-335c-b4ce-194f75a8bc90"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "soiree-techno-euphonic-boulevard",
@@ -2074,6 +2112,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "spectacle-danse",
+    "name": "Spectacle Danse",
+    "city": "Ibos",
+    "region": null,
+    "description": "HELIKOPTER / LICHT I Danse\nDu choc d’Helikopter, pièce historique sur la musique saisissante de Stockhausen, à l’apaisement de Licht, dernière création lumineuse portée par l’électro de Laurent Garnier, Angelin Preljocaj nous fait traverser le temps, entre tension et relâchement, entre heurt et lumière.\n\nPour 2€, venez en navette culturelle au départ de : Mauléon-Barousse, Loures-Barousse, Saint-Laurent-de-Neste, Arreau, Sarrancolin, Hèches, La Barthe de Neste, Lannemezan, Capvern.\nTarif préférentiel pour les utilisateurs du bus.\nMême si le spectacle affiche complet des places sont réservées pour les utilisateurs du bus.",
+    "startDate": "2026-12-08",
+    "endDate": "2026-12-08",
+    "lat": 43.2424776,
+    "lng": 0.0093266,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/36/8d2991cf-7838-3dec-99d3-4f174a46313a"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "pot-d-accueil-et-concert",
     "name": "Pot d'accueil et concert",
     "city": "Barèges",
@@ -2354,6 +2411,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/42/3eac7c16-f535-3c43-bc25-0091f3758127"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-pili-pills",
+    "name": "Concert : Pili Pills",
+    "city": "Donchery",
+    "region": null,
+    "description": "Pili Pills, groupe carolomacériens, composé de trois musiciens et d’une chanteuse remplie d’énergie nous font voyager au travers de leurs compositions à la frontière entre le Funk, la Pop, le Disco et le Rock, le tout ponctué par quelques ambiances électroniques. Ça groove, ça réchauffe le cœur et ça donne envie de taper dans les mains jusqu’au bout de la nuit !",
+    "startDate": "2026-12-12",
+    "endDate": "2026-12-12",
+    "lat": 49.69491,
+    "lng": 4.874669,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/42/53649ddb-1c5e-3b3c-aaf8-43fe528c3ba9"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -4131,6 +4207,7 @@
     "lineup": [
       "Kim (FR)",
       "matilda (2)",
+      "Propolys",
       "carrà",
       "Combe",
       "Heidy Fly",
@@ -4246,6 +4323,27 @@
     "_reason": "soirée : hors périmètre"
   },
   {
+    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
+    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
+    "city": "Paris",
+    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
+    "region": null,
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2570159",
+    "lineup": [
+      "Audrey Danza"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2570159"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "club-sauvage-30h",
     "name": "¡Club Sauvage 30h",
     "city": "Paris",
@@ -4276,27 +4374,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
-    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
-    "city": "Paris",
-    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
-    "region": null,
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2570159",
-    "lineup": [
-      "Audrey Danza"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2570159"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "intimate-club-yaoi",
     "name": "INTIMATE CLUB YAOI",
     "city": "Paris",
@@ -4319,6 +4396,32 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2578885"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "useless-seconds",
+    "name": "useless seconds",
+    "city": "Paris",
+    "address": null,
+    "region": null,
+    "startDate": "2026-11-28",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2520428",
+    "lineup": [
+      "Andy Martin",
+      "A Strange Wedding",
+      "Souzo",
+      "neska",
+      "Roulita",
+      "KEUT"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2520428"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4354,26 +4457,19 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "useless-seconds",
-    "name": "useless seconds",
+    "slug": "gotham-rooftop-party-at-skybar",
+    "name": "Gotham Rooftop Party at Skybar",
     "city": "Paris",
-    "address": null,
+    "address": "Skybar Paris Rooftop, 19 Rue du Commandant René Mouchotte",
     "region": null,
     "startDate": "2026-11-28",
     "endDate": null,
-    "officialUrl": "https://ra.co/events/2520428",
-    "lineup": [
-      "Andy Martin",
-      "A Strange Wedding",
-      "Souzo",
-      "neska",
-      "Roulita",
-      "KEUT"
-    ],
+    "officialUrl": "https://ra.co/events/2593101",
+    "lineup": [],
     "genreVerified": true,
     "isFestival": false,
     "sources": [
-      "https://ra.co/events/2520428"
+      "https://ra.co/events/2593101"
     ],
     "status": "announced",
     "needsReview": true,
@@ -4572,29 +4668,6 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2579234"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "ragapop-aili-orson-arsenal-mikebe-nyokobop-festival",
-    "name": "ragapop + Aili & Orson + Arsenal Mikebe - NYOKOBOP Festival",
-    "city": "Paris",
-    "address": "Le Hasard Ludique, 128, avenue de Saint-Ouen, 75018 Paris, France",
-    "region": null,
-    "startDate": "2026-12-10",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2586231",
-    "lineup": [
-      "Aili",
-      "ragapop",
-      "Arsenal Mikebe"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2586231"
     ],
     "status": "announced",
     "needsReview": true,
