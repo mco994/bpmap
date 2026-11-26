@@ -1409,6 +1409,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "nocturnes-1000-morceaux",
+    "name": "Nocturnes « 1000 Morceaux »",
+    "city": "Villeneuve-d'Ascq",
+    "region": null,
+    "description": "\"1000 Morceaux\" est le nouveau rendez-vous nocturne du LaM.  \n  \nPensé comme un format vivant et participatif entièrement gratuit, de 19h à 23h, \"1000 Morceaux\" invite à découvrir le LaM autrement. \n\nChaque soirée compose un nouvel assemblage : une scène ouverte, une performance contemporaine et un DJ set se succèdent pour faire du musée un lieu d’expériences, de rencontres et de création, en résonance avec sa collection.  \nUn format artistique et festif qui mêle participation du public, découverte des collections autrement et moment convivial, avec bar et petite restauration sur place. Les trois premières éditions sont organisées en partenariat avec l’Aéronef, qui en assure la programmation musicale.\n\n**Programmation** \n\n**02.12.26**\n\n*   Scène ouverte par les étudiant.es du **Centre de Formation des Musiciens Intervenants de l'Université de Lille**, avec des créations collectives inédites en dialogue avec les œuvres (19h10, 20h et 21h10)\n*   Performances _Flags Parade_ et _100 looks_ de **Darius Dolatyari-Doladoust**, conçue lors de sa résidence au LaM et mêlant arts visuels, textile et chorégraphie (19h30 et 20h20)\n*   Set de la DJ et productrice iranienne **Nesa Azadikhah**, entre house, techno et trance (21h45)\n\nDes visites \"flash\" du musée sont proposées entre 19h15 et 21h30\n\nFood & drinks sont proposés par _Pigments Café_\n\n_En partenariat avec L'Aéronef_  \n \n\n**03.02.27** \n\n*   Scène ouverte par le collectif de danse hip-hop lillois **La Bâtisse** \n*   Performances de :\n    *   **Nogass**, duo de danse contemporaine,\n    *   **Rojej** mêlant danse et gestuelle martiale,\n    *   **Kanti** qui transforme la danse hip-hop en acte pictural,\n    *   **Vogue in Lille** \n    *   **Sacha Bandidas**\n*   DJ set de **DJ T-Sia**\n\n_En partenariat avec le Flow, Centre Eurorégional des Cultures Urbaines de Lille dans le cadre du festival Hip Open Dance et de l'exposition \"Signatures\"._  \n \n\nLes étudiant.es du master Management des Institutions Culturelles de Sciences Po Lille investissent les salles du musée pour faire découvrir aux visiteurs une sélection d'œuvres de la collection.  \n\nPhoto : F.Iovino",
+    "startDate": "2026-12-02",
+    "endDate": "2027-06-02",
+    "lat": 50.637583,
+    "lng": 3.148595,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/4bd520d3-5f3f-3d06-9e91-2154909a1df7"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "mentissa",
     "name": "Mentissa",
     "city": "Abbeville",
@@ -1445,25 +1464,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-aziz-konkrite-meryem-aboulouafa-roshani-la-lune-des-pirates",
-    "name": "CONCERT : Aziz Konkrite + Meryem Aboulouafa + Roshâni - La Lune des Pirates",
-    "city": "Amiens",
-    "region": null,
-    "description": "Aziz Konkrite\n+ Meryem Aboulouafa + Roshâni\nMER. 25 NOVEMBRE 2026\n\n20:00\nMusique traditionnelle / Electro | FR / MAR\n\nEnfant du hip-hop et de la culture DIY, Aziz Konkrite puise son inspiration dans des 45 tours qu’il chine et archive lors de ses voyages à moto à travers le Maroc, amassés dans son home-studio au fil des années. \n\nLe résultat : un voyage dans les traditions musicales des sonorités Chaâbi, Aïta, Raggada, Amarg, Gnaoua, aux allures futuristes, réinventées et taillées pour embraser les dancefloors ! Sa dernière sortie, Siba Sawt-System, est le fruit d’une quinzaine d’années de recherches musicales, d’un retour aux sources dans sa région natale. “Siba” pour anarchie, “Sawt” pour son et “System” pour l’idée d’une sono mondiale : héritée de luttes historiques, de la culture populaire et du folklore marocain, ici la musique contes- tataire se mêle aux racines nord africaines de l’artiste, unifiant trésors sonores du passé et allégresse de l’instant.",
-    "startDate": "2026-11-25",
-    "endDate": "2026-11-25",
-    "lat": 49.89905,
-    "lng": 2.2752772,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/28/795e643c-ed84-308f-96ec-dfa09a095597"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "folie-s",
@@ -3067,25 +3067,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "festival-garosnow",
-    "name": "FESTIVAL GAROSNOW",
-    "city": "Les Angles",
-    "region": null,
-    "description": "Festival de Musique électro entre mix sur les pistes, afterskis et show électros. Au programme : \no\tVendredi : Fakear DJ set, Joris Delacroix, Matrakk, Mont Rouge et Asna\no\tSamedi : Vitalic, Biga Ranx DJ set, Maddy V feat. DJ Kunta, Esteban x Nico Ro...",
-    "startDate": "2027-01-08",
-    "endDate": "2027-01-10",
-    "lat": 42.5775833,
-    "lng": 2.0726913,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/56/e2aa4fa8-6860-36ac-b971-10b40038aabd"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
     "slug": "exposition-la-responsabilite-des-reves",
     "name": "Exposition - La responsabilité des rêves",
     "city": "Aix-en-Provence",
@@ -4668,6 +4649,29 @@
     "isFestival": false,
     "sources": [
       "https://ra.co/events/2579234"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "ragapop-aili-orson-arsenal-mikebe-nyokobop-festival",
+    "name": "ragapop + Aili & Orson + Arsenal Mikebe - NYOKOBOP Festival",
+    "city": "Paris",
+    "address": "Le Hasard Ludique, 128, avenue de Saint-Ouen, 75018 Paris, France",
+    "region": null,
+    "startDate": "2026-12-10",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2586231",
+    "lineup": [
+      "Aili",
+      "ragapop",
+      "Arsenal Mikebe"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2586231"
     ],
     "status": "announced",
     "needsReview": true,

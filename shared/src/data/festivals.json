@@ -454,38 +454,6 @@
     ]
   },
   {
-    "id": "less-drama-more-techno-11th-anniversary",
-    "slug": "less-drama-more-techno-11th-anniversary",
-    "name": "LESS DRAMA MORE TECHNO [11th Anniversary]",
-    "description": "🔗 LESS DRAMA MORE TECHNO [11th Anniversary] 🏢 Nouveau Casino 📆 24.10.26 🕛 23h55 - 06h00 🔥 11eme saison, nouvelle énergie, mêmes valeurs. Special guest : 🎧 LAWRENCE LEE [Berlin - Schenzhen]…",
-    "startDate": "2026-10-24",
-    "endDate": "2026-10-25",
-    "lat": 48.86587,
-    "lng": 2.3779,
-    "city": "Paris",
-    "region": "Île-de-France",
-    "organizer": null,
-    "capacity": null,
-    "genres": [
-      "techno"
-    ],
-    "priceDay": null,
-    "priceFull": null,
-    "currency": "EUR",
-    "ticketUrl": "https://dice.fm/event/6abd617c4ec7650001124104",
-    "officialUrl": "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary",
-    "status": "announced",
-    "eventType": "festival",
-    "lineup": [
-      "Lawrence Lee",
-      "Ben Manson"
-    ],
-    "sources": [
-      "https://openagenda.com/shotgun/events/less-drama-more-techno-11th-anniversary",
-      "https://dice.fm/event/6abd617c4ec7650001124104"
-    ]
-  },
-  {
     "id": "sonora",
     "slug": "sonora",
     "name": "Sonora",
