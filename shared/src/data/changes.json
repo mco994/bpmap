@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-11-26:less-drama-more-techno-11th-anniversary:removed",
+    "festivalId": "less-drama-more-techno-11th-anniversary",
+    "festivalSlug": "less-drama-more-techno-11th-anniversary",
+    "festivalName": "LESS DRAMA MORE TECHNO [11th Anniversary]",
+    "type": "removed",
+    "date": "2026-11-26",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-11-23:festival-le-bon-air-2027:added",
     "festivalId": "festival-le-bon-air-2027",
     "festivalSlug": "festival-le-bon-air-2027",
