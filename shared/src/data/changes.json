@@ -1,5 +1,14 @@
 [
   {
+    "id": "2026-11-27:sonora:removed",
+    "festivalId": "sonora",
+    "festivalSlug": "sonora",
+    "festivalName": "Sonora",
+    "type": "removed",
+    "date": "2026-11-27",
+    "summary": "Retiré de la liste."
+  },
+  {
     "id": "2026-11-26:less-drama-more-techno-11th-anniversary:removed",
     "festivalId": "less-drama-more-techno-11th-anniversary",
     "festivalSlug": "less-drama-more-techno-11th-anniversary",

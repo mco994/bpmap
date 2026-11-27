@@ -57,6 +57,25 @@
     "_reason": "doublon (déjà en base)"
   },
   {
+    "slug": "christmas-party",
+    "name": "Christmas Party",
+    "city": "Rustroff",
+    "region": null,
+    "description": "Vous pensiez avoir été sages cette année ? On a quelques doutes…\n\nLe CDJ (Club des Jeunes Trois Frontières) vous donne rendez-vous pour une Christmas Party complètement déjantée ! Au programme, de quoi terminer l’année en beauté : DJ Chauffe Marcel et Martin Iau aux platines pour retourner la salle progressivement, du mainstream a la techno; des succulents cheeseburgers maison pour reprendre des forces; la délicieuse bière rouge de l'association, des cocktails et bien d’autres surprises.\nUn verre sera offert à chaque entrée, et un petit cocktail offert pour ceux déguisés en Père Noël !\n\nSortez vos bonnets, vos pulls moches de Noël, vos plus beaux déguisements… et préparez-vous à faire chauffer la piste !\n\nCette année, Noël ne sera pas de tout repos… et le CDJ compte bien y être pour quelque chose !",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-19",
+    "lat": 49.4416322,
+    "lng": 6.3722707,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/10/27a32f1c-c022-3247-99b9-48ac16b2d653"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-floating",
     "name": "Concert - Floating",
     "city": "Metz",
@@ -164,25 +183,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/10/7be8f1c5-33ea-38cd-b108-c95f06cc1a2b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-awa-ly",
-    "name": "Concert - Awa Ly",
-    "city": "Verdun",
-    "region": null,
-    "description": "Le nouvel album d’Awa Ly, Essence And Elements, révèle une chanteuse folk-soul habitée par les forces naturelles. Ses concerts célèbrent cette union.\n\nAwa Ly transforme les quatre éléments en matière musicale. Portés par son nouvel album Essence And Elements, ses concerts mêlent soul, folk, pulsations organiques et nappes électroniques avec une énergie qui épouse les variations de sa voix. Grave, aérienne ou traversée d’élans plus bruts, la Française d’origine sénégalaise construit depuis plusieurs années une œuvre ouverte aux métissages sonores. Inspiré par l’île volcanique d’Alicudi, où elle écrit au contact du silence, du vent et des vagues, ce nouveau répertoire fait surgir des chansons parcourues de percussions, de cordes et de souffles électro. En anglais, français ou wolof, elles sont comme autant de respirations où Awa Ly installe sur scène une présence magnétique. Ses concerts invitent à ralentir, écouter, se laisser traverser.\n\nA l'occasion du Festisol 2026.",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-26",
-    "lat": 49.160969,
-    "lng": 5.371739,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/10/7f7f79d8-3caf-312c-b0d5-6282115afcde"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -551,6 +551,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "dica-live-trance-telecom-jearz",
+    "name": "Dica Live & Trance Telecom & Jearz",
+    "city": "Bourg-lès-Valence",
+    "region": null,
+    "description": "Pour cette dernière soirée avant la fermeture hivernale on a de nouveau laissé les manettes à nos désormais incontournables techniciens du haut débit : Trance Telecom.",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-19",
+    "lat": 44.938348,
+    "lng": 4.888331,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/70eebb48-8e11-3b1b-afb6-39b8fbf9158b"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "jam-electro",
     "name": "Jam Electro",
     "city": "Romans-sur-Isère",
@@ -582,6 +601,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/13/7e800335-87de-3361-a4ad-d530848b9b52"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "concert-faut-qu-ca-groove-1",
+    "name": "Concert : Faut qu’ça groove ! # 1",
+    "city": "Bourg-lès-Valence",
+    "region": null,
+    "description": "Le Département Musiques Actuelles Amplifiées fait vivre les musiques sur le territoire à travers ses nombreux ateliers pop, rock, Groove, électro.",
+    "startDate": "2026-12-17",
+    "endDate": "2026-12-17",
+    "lat": 44.938993,
+    "lng": 4.890156,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/13/810a42fc-21f6-39c1-acba-7b402a431804"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -817,25 +855,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "supertronica-la-cigue",
-    "name": "SUPERTRONICA   LA CIGUË",
-    "city": "Joué-lès-Tours",
-    "region": null,
-    "description": "Si tu aimes Cocanha, Bacchantes, Poolidor…\n\nSUPER|TRONICA c’est le croisement entre les musiques traditionnelles auvergnates et lituaniennes : une rencontre inédite sur accord electro. Les voix divines de Sutartronica, surplombant des basses profondes et hypnotiques, magnifient le Sutartinès",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-26",
-    "lat": 47.33938,
-    "lng": 0.6630262,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/1a6c17c8-0b03-3e01-877c-169bfe8a4d7b"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "concert-aymeric-simon-howling-house-band",
     "name": "Concert Aymeric Simon & Howling House Band",
     "city": "Beaumont-en-Véron",
@@ -848,25 +867,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/15/1cd94700-b527-351e-9349-2252a2731cc8"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "les-jeudis-sonnants-ultra-moderne-electro-clash",
-    "name": "Les Jeudis Sonnants - Ultra Moderne (electro clash)",
-    "city": "Nogent-le-Rotrou",
-    "region": null,
-    "description": "CONCERT - Ultra Moderne > electro clash\nSynthés, textes décalés et autodérision : Ultra Moderne pose un regard mélancolique et piquant sur sa génération. Avant le concert, initiez-vous à la MAO avec Unimusic et découvrez les machines qui permettent de créer de la musique autrement !",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-26",
-    "lat": 48.319951,
-    "lng": 0.82397,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/15/1dff64b6-8f6e-358b-8f8b-4d429eb4029e"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1618,6 +1618,25 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
+    "slug": "village-de-noel-a-vire-normandie",
+    "name": "Village de noël à Vire Normandie",
+    "city": "Vire Normandie",
+    "region": null,
+    "description": "Un village de noël prendra place à Vire sur la place du château avec un marché de l'artisanat, des baptêmes à moto et à poney, chorale, balade en calèche, présence du père noël, disco roller et restauration sur place. Venez vivre la magie de noël ! Spectacle \"Horloges Célestes\"par la Cie Elixir à18H",
+    "startDate": "2026-12-13",
+    "endDate": "2026-12-13",
+    "lat": 48.8359182,
+    "lng": -0.8920648,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/12135852-0f08-307c-9e5b-8d7573e0b941"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "concert-boulevard-des-airs",
     "name": "Concert : Boulevard des Airs",
     "city": "Deauville",
@@ -1789,25 +1808,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "disco-soupe",
-    "name": "Disco-soupe",
-    "city": "Coutances",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-26",
-    "lat": 49.0478746,
-    "lng": -1.4451755,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/30/eeeeb9b9-0655-3691-a5e7-9ce613fc8d4e"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "disco-roller-du-rodez-roller-hockey",
     "name": "DISCO ROLLER du Rodez Roller Hockey",
     "city": "Rodez",
@@ -1863,6 +1863,44 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
+  },
+  {
+    "slug": "concert-de-sovaj",
+    "name": "Concert de Sôvaj",
+    "city": "Saint-Affrique",
+    "region": null,
+    "description": "À la croisée du post-rock et des musiques électroniques, Sôvaj explore les territoires où les guitares rencontrent les textures synthétiques aux accents jungle, Dub et D&B.",
+    "startDate": "2026-12-18",
+    "endDate": "2026-12-18",
+    "lat": 43.9588313,
+    "lng": 2.8857622,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/31/b9ebaec2-6aeb-3171-9a21-0aaeca2d159c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "soiree-mix",
+    "name": "Soirée Mix",
+    "city": "Saint-Affrique",
+    "region": null,
+    "description": "Soirée Mix avec NoBadTrip psytrance et Djet Fontaine psygroove.",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-19",
+    "lat": 43.9588313,
+    "lng": 2.8857622,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/31/f9fbad74-6040-3028-9ccd-e406e3317c3c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "reveillon-du-nouvel-an-au-bikini",
@@ -3048,6 +3086,25 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
+    "slug": "garosnow",
+    "name": "GAROSNOW",
+    "city": "Les Angles",
+    "region": null,
+    "description": "Music, ride & cool attitude!\nGarosnow a 15 ans, et pour son anniversaire les équipes de Garorock vont mettre le paquet ! Des têtes d’affi che de la scène électro, des talents prometteurs prêts à tout retourner, et la montagne comme dance floor. Ride ...",
+    "startDate": "2027-01-08",
+    "endDate": "2027-01-10",
+    "lat": 42.5775833,
+    "lng": 2.0726913,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/56/22541633-7aa0-3a3b-82f6-75db0b08150c"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
     "slug": "hofesh-schechter",
     "name": "HOFESH SCHECHTER",
     "city": "Perpignan",
@@ -3544,25 +3601,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "bardix-le-gaulois-la-maroquinerie",
-    "name": "Bardix le Gaulois - La Maroquinerie",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "Le créateur de la Techno Gauloise débarque à La Maroquinerie pour une nuit hors du temps. Rythmes tribaux, instruments celtiques et énergie rave se mêleront dans une cérémonie aussi sauvage…",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-26",
-    "lat": 48.868528,
-    "lng": 2.39198,
-    "officialUrl": "https://openagenda.com/shotgun/events/bardix-le-gaulois-la-maroquinerie",
-    "sources": [
-      "https://openagenda.com/shotgun/events/bardix-le-gaulois-la-maroquinerie"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "macadam-kyle-starkey-dj-physical-britney-speed",
@@ -4279,31 +4317,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "la-ch-ck-minions-rave",
-    "name": "LA CH!CK: MINIONS RAVE",
-    "city": "Paris",
-    "address": "Badaboum, 2 bis rue des Taillandiers; 75011; Paris; France",
-    "region": "Île-de-France",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-27",
-    "officialUrl": "https://ra.co/events/2574917",
-    "lineup": [],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2574917",
-      "https://dice.fm/event/6ae8b23cc8929c00011657ba"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "description": "",
-    "lat": null,
-    "lng": null,
-    "source": "dice",
-    "eventType": null,
-    "_reason": "soirée : hors périmètre"
-  },
-  {
     "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
     "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
     "city": "Paris",
@@ -4678,6 +4691,38 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "fvtvr-presents-laster-again-30h-under-the-red-light",
+    "name": "Fvtvr presents LASTER again 30H UNDER THE RED LIGHT",
+    "city": "Paris",
+    "address": "FVTVR, 34 quai d'Austerlitz, 75013 Paris",
+    "region": null,
+    "startDate": "2026-12-11",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2500024",
+    "lineup": [
+      "Blasha & Allatt",
+      "Chami",
+      "EMAN (FR)",
+      "Claudio PRC",
+      "Fadi Mohem",
+      "Freddy K",
+      "Laia",
+      "Louis The 4th",
+      "Marcel Dettmann",
+      "Marie Montexier",
+      "Roll Dann",
+      "The Lady Machine"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2500024"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4754,28 +4799,6 @@
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
-    "slug": "la-discotaco-disco-paillettes-tacos",
-    "name": "La Discotaco : disco, paillettes & tacos !",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-26",
-    "endDate": "2026-11-27",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ad9d2e374502800013f7587",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ad9d2e374502800013f7587"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
     "slug": "la-grande-fete-alien-disco-et-bye-bye-jenna-3",
     "name": "LA GRANDE FÊTE : ALIEN & DISCO (et bye-bye Jenna <3)",
     "city": "Paris",
@@ -4818,28 +4841,6 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "la-bringue-the-girls-love-techno-paris",
-    "name": "La Bringue - The Girls Love Techno - Paris",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-28",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6af1f231ba72b00001044bec",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6af1f231ba72b00001044bec"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "planete-house-dan-shake-marina-trench-aubry",
