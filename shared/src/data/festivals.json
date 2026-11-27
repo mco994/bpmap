@@ -454,34 +454,6 @@
     ]
   },
   {
-    "id": "sonora",
-    "slug": "sonora",
-    "name": "Sonora",
-    "description": "Festival électro-techno bordelais au Parc des Expositions de Bordeaux, sur un format de plusieurs jours. Atmosphère de fête foraine déjantée sur 40 000 m² avec un grand hall warehouse et des monolithes lumineux.",
-    "startDate": "2026-10-25",
-    "endDate": "2026-10-26",
-    "lat": 44.85194,
-    "lng": -0.58788,
-    "city": "Bordeaux",
-    "region": "Nouvelle-Aquitaine",
-    "organizer": "Sonora",
-    "capacity": null,
-    "genres": [
-      "techno",
-      "electro",
-      "house"
-    ],
-    "priceDay": 15,
-    "priceFull": 50,
-    "currency": "EUR",
-    "ticketUrl": null,
-    "officialUrl": null,
-    "status": "announced",
-    "sources": [
-      "https://33.agendaculturel.fr/festival/sonora-festival.html"
-    ]
-  },
-  {
     "id": "dream-nation",
     "slug": "dream-nation",
     "name": "Dream Nation",
