@@ -1103,6 +1103,68 @@
     ]
   },
   {
+    "id": "internet-girl-cruel-santino-nyokobop-festival",
+    "slug": "internet-girl-cruel-santino-nyokobop-festival",
+    "name": "Internet Girl + Cruel Santino - NYOKOBOP Festival",
+    "description": "",
+    "startDate": "2026-12-11",
+    "endDate": null,
+    "lat": 48.88895,
+    "lng": 2.39245,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2586242",
+    "status": "announced",
+    "eventType": "festival",
+    "sources": [
+      "https://ra.co/events/2586242"
+    ]
+  },
+  {
+    "id": "divin0-take-over-i-nyokobop-festival",
+    "slug": "divin0-take-over-i-nyokobop-festival",
+    "name": "Divin0 take over I NYOKOBOP Festival",
+    "description": "",
+    "startDate": "2026-12-12",
+    "endDate": null,
+    "lat": 48.88412,
+    "lng": 2.33218,
+    "city": "Paris",
+    "region": "Île-de-France",
+    "organizer": null,
+    "capacity": null,
+    "genres": [
+      "electro"
+    ],
+    "priceDay": null,
+    "priceFull": null,
+    "currency": "EUR",
+    "ticketUrl": null,
+    "officialUrl": "https://ra.co/events/2588426",
+    "status": "announced",
+    "eventType": "festival",
+    "lineup": [
+      "Rosa Pistola",
+      "Mina Galán",
+      "Rebequita",
+      "Azamat B.",
+      "Divin0"
+    ],
+    "sources": [
+      "https://ra.co/events/2588426",
+      "https://ra.co/events/2586159"
+    ]
+  },
+  {
     "id": "the-unlimited-festival-10-years",
     "slug": "the-unlimited-festival-10-years",
     "name": "The Unlimited Festival — 10 Years",
