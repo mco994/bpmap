@@ -19,11 +19,11 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "soiree-hard-techno-road-to-invasion",
-    "name": "Soirée hard techno - Road to Invasion",
+    "slug": "soiree-hard-techno-road-to-eskape",
+    "name": "Soirée hard techno - Road to Eskape",
     "city": "Bar-le-Duc",
     "region": null,
-    "description": "L'Invasion Festival fait escale à Bar-le-Duc pour une soirée exceptionnelle !\n\nRoad to Invasion vous plonge dans l'univers intense de la hard techno avec une programmation réunissant des DJ de renom, figures incontournables de la scène.\nEntre énergie brute, basses percutantes et ambiance électrique, cette édition spéciale est l'occasion de vivre un avant-goût du célèbre festival dans une atmosphère unique.\n\nQue vous soyez passionné de musique électronique ou simplement curieux de découvrir cet univers, préparez-vous à une nuit hors du commun.\nL'invasion comment ici...",
+    "description": "La Barroise passe en mode techno pour la première fois de son histoire !\n\nREGEN Productions et Be Real, en accord avec Hardcore France  et Eskape Festival, posent ROAD TO ESKAPE à Bar-le-Duc.\nEt pour une première, on ne fait pas les choses à moitié : neuf heures et demie de son non-stop, de 19h à 4h30, dans la plus grande salle du département\nJamais une nuit pareille n'avait eu lieu ici.\n\nOuverture des portes 18h30 · Premier set 19h00 · Dernier set jusqu'à 4h30 · Fermeture 5h00\n\nPrêt à vivre l'évasion ultime ?",
     "startDate": "2027-02-20",
     "endDate": "2027-02-20",
     "lat": 48.7644598,
@@ -931,25 +931,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "anita-en-concert-pour-le-folk-club-de-cahors-avec-chanson-pop-electro",
-    "name": "ANITA en concert pour le Folk Club de Cahors avec chanson pop électro",
-    "city": "Labastide-Marnhac",
-    "region": null,
-    "description": "<p>ANITA, c’est une flèche décochée en plein galop, le portrait sans fard d’une libération.</p><p><br></p><p>Sur scène, elle s’appuie sur sa basse et la complicité vocale de la claviériste Romane Tsacanias pour projeter son chant pétri d’âme",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-27",
-    "lat": 44.3874603,
-    "lng": 1.4028255,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/22/6ef88c28-561a-37f5-9d1a-e18a37516af4"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
     "slug": "repair-cafe-electro",
     "name": "Repair café électro",
     "city": "Thiviers",
@@ -1029,25 +1010,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "concert-du-dj-slin",
-    "name": "Concert du DJ Slin",
-    "city": "Le Bugue",
-    "region": null,
-    "description": "21h. Slin s’intéresse à tous les styles et s’adapte à vos envies dans n’importe quelle situation ! Latin-house, trance, acid techno. Bar et restauration. Ouverture des portes 19h. Gratuit",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-27",
-    "lat": 44.9283716,
-    "lng": 0.9277033,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/696bae9c-5bcc-3dda-ae30-cf43e1ac6d6f"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "maud-geffray-after-electro-opera-de-limoges",
     "name": "Maud Geffray - After Electro - Opéra de Limoges",
     "city": "Limoges",
@@ -1079,25 +1041,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/23/6dd74603-57ab-3de2-8876-9522a6240d8a"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "concert-b-a-m-organic-techno-grooves",
-    "name": "Concert B.Ä.M Organic Techno Grooves",
-    "city": "Piégut-Pluviers",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-27",
-    "lat": 45.6243129,
-    "lng": 0.68732617,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/23/8267f556-cac8-3a60-af67-3186632b504a"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -1371,6 +1314,25 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "concert-spectacle-la-fete-farfelue-du-monde-pointu",
+    "name": "Concert-spectacle | La Fête Farfelue du Monde Pointu",
+    "city": "Creil",
+    "region": null,
+    "description": "Fanny et Viryane jouent un cocktail musical électro trad bien explosif où voix, percussions et basse électrique se déploient dans une énergie brute et joyeuse.\nLeurs compositions originales, drôle de mélange de musique folklorique, électro, punk, afro et pop sont bricolées avec les moyens du bord entre DIY et technologie, boîtes de conserve et autotune. Difficile de résister à la force de leur rythmique et à leur groove implacable. Autant dire que ce concert festif est un véritable ovni !\n\nPour petits et grands sans limite d’âge.\nCie Cabanes - Viryane Say, Fanny Charmont et Thomas Brosset\nRenseignement:03 44 72 21 40 / gam@mairie-creil.fr",
+    "startDate": "2026-12-08",
+    "endDate": "2026-12-08",
+    "lat": 49.2467682,
+    "lng": 2.4707109,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/28/292789dc-d3df-3639-9500-c1605421a0b5"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "soiree-bass-impakt-a-la-manufacture",
     "name": "Soirée Bass Impakt à La Manufacture",
     "city": "Saint-Quentin",
@@ -1592,6 +1554,25 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/28/e2ffeefa-908f-35c0-8549-87ed592b72ff"
+    ],
+    "genreVerified": false,
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
+    "slug": "parade-dansante-be-hop",
+    "name": "Parade dansante « Be-Hop »",
+    "city": "Ouistreham",
+    "region": null,
+    "description": "Une déambulation urbaine lumineuse et immersive mêlant danse, électro et marionnettes géantes de robots, pour 1h30 de spectacle gratuit et festif. Par la compagnie Remue-Ménage. Départ et final sur l’esplanade A. Lofi",
+    "startDate": "2026-12-19",
+    "endDate": "2026-12-19",
+    "lat": 49.2884725,
+    "lng": -0.258043,
+    "officialUrl": null,
+    "sources": [
+      "https://data.datatourisme.fr/30/0ac233f7-a32d-31ea-8445-2378fd868bcc"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -2295,25 +2276,6 @@
     "officialUrl": null,
     "sources": [
       "https://data.datatourisme.fr/38/28068b41-9212-3b51-81fc-13ec987f078c"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
-    "slug": "labo-techno-5",
-    "name": "Labo Techno #5",
-    "city": "Dinan",
-    "region": null,
-    "description": "",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-27",
-    "lat": 48.4542143,
-    "lng": -2.0577114,
-    "officialUrl": null,
-    "sources": [
-      "https://data.datatourisme.fr/38/3f96b361-3573-3419-b33f-f1f7365978b6"
     ],
     "genreVerified": false,
     "status": "announced",
@@ -3219,25 +3181,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "nexus-alchemy-festival-culture-bar-bars",
-    "name": "NEXUS ALCHEMY - Festival Culture Bar-Bars",
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "description": "Line-up psytrance : AcidChaser (night full-on), AcidVibes (forest) et Pink Empire (psytrance psyprog) 📍 Les Fleurs du Malt – Nantes, festival Culture Bar-Bars 🕓 19h00 → 01h00 💸 Entrée prix libre",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-28",
-    "lat": 47.217331,
-    "lng": -1.544993,
-    "officialUrl": "https://openagenda.com/vie-associative-nantes-ville-et-metropole/events/nexus-alchemy-festival-culture-bar-bars",
-    "sources": [
-      "https://openagenda.com/vie-associative-nantes-ville-et-metropole/events/nexus-alchemy-festival-culture-bar-bars"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
     "slug": "live-in-asnr-2026",
     "name": "LIVE_IN_ASNR 2026",
     "city": "Asnières-sur-Seine",
@@ -3601,25 +3544,6 @@
     "needsReview": true,
     "isFestival": false,
     "_reason": "non vérifié (pas ≥2 sources, ni festival RA, ni site officiel indépendant confirmé)"
-  },
-  {
-    "slug": "macadam-kyle-starkey-dj-physical-britney-speed",
-    "name": "Macadam • Kyle Starkey ~ DJ Physical ~ Britney Speed",
-    "city": "Nantes",
-    "region": "Pays de la Loire",
-    "description": "Étoile montante de la scène nantaise, Britney Speed donnera l’impulsion à la nuit avec une sélection à haute intensité, entre Techno, Trance et rythmiques percussives, où vitesse et tension se…",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-28",
-    "lat": 47.19746,
-    "lng": -1.589085,
-    "officialUrl": "https://openagenda.com/shotgun/events/macadam-kyle-starkey-dj-physical-britney-speed",
-    "sources": [
-      "https://openagenda.com/shotgun/events/macadam-kyle-starkey-dj-physical-britney-speed"
-    ],
-    "genreVerified": false,
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
   },
   {
     "slug": "ouverture-des-pistes-open-air-morex-custom-house",
@@ -4317,57 +4241,6 @@
     "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
-    "slug": "2-years-of-better-rave-audrey-danza-phelowe-friends",
-    "name": "2 years of Better Rave: Audrey Danza, Phelowe, & friends",
-    "city": "Paris",
-    "address": "42 Marches, Esplanade Johnny Hallyday, 75012 Paris",
-    "region": null,
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2570159",
-    "lineup": [
-      "Audrey Danza"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2570159"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
-  },
-  {
-    "slug": "club-sauvage-30h",
-    "name": "¡Club Sauvage 30h",
-    "city": "Paris",
-    "address": "Cabaret Sauvage, 211 Avenue Jean Jaurès; 75019; Paris; France",
-    "region": null,
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "officialUrl": "https://ra.co/events/2543687",
-    "lineup": [
-      "BAB MUSIQUE",
-      "Chinau",
-      "Dave Lee",
-      "DJ Spen",
-      "Hotline one",
-      "Joe Lewandowski",
-      "LeLeon",
-      "Nick V",
-      "Nicol",
-      "PEPIITA"
-    ],
-    "genreVerified": true,
-    "isFestival": false,
-    "sources": [
-      "https://ra.co/events/2543687"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
-  },
-  {
     "slug": "intimate-club-yaoi",
     "name": "INTIMATE CLUB YAOI",
     "city": "Paris",
@@ -4449,6 +4322,36 @@
     "status": "announced",
     "needsReview": true,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "club-sauvage-30h",
+    "name": "¡Club Sauvage 30h",
+    "city": "Paris",
+    "address": "Cabaret Sauvage, 211 Avenue Jean Jaurès; 75019; Paris; France",
+    "region": null,
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2543687",
+    "lineup": [
+      "BAB MUSIQUE",
+      "Chinau",
+      "Dave Lee",
+      "DJ Spen",
+      "Hotline one",
+      "Joe Lewandowski",
+      "LeLeon",
+      "Nick V",
+      "Nicol",
+      "PEPIITA"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2543687"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
   },
   {
     "slug": "gotham-rooftop-party-at-skybar",
@@ -4723,6 +4626,33 @@
     "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
+    "slug": "kluster-s-unkristmas-3",
+    "name": "Kluster'S UNKRISTMAS #3",
+    "city": "Paris",
+    "address": "Chateau Ephémère, 2 Chemin des Grandes Terres, 78955, Carrières-sous-Poissy, France",
+    "region": null,
+    "startDate": "2026-12-12",
+    "endDate": null,
+    "officialUrl": "https://ra.co/events/2561768",
+    "lineup": [
+      "Albane",
+      "egoh",
+      "Aurian",
+      "Benouze",
+      "Elona Prime",
+      "MNBOO",
+      "SelecTal"
+    ],
+    "genreVerified": true,
+    "isFestival": false,
+    "sources": [
+      "https://ra.co/events/2561768"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "pas festival-like (ni 'festival' ni multi-jours)"
+  },
+  {
     "slug": "jingle-rave-moontrip-x-interference",
     "name": "Jingle RAVE: Moontrip x Interference",
     "city": "BALMA",
@@ -4775,72 +4705,29 @@
     "city": "Paris",
     "region": "Île-de-France",
     "description": "",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-28",
+    "startDate": "2026-11-28",
+    "endDate": "2026-11-29",
     "lat": null,
     "lng": null,
-    "officialUrl": "https://dice.fm/event/6ae86894e636cd0001446b31",
+    "officialUrl": "https://dice.fm/event/6ae86b68f108f6000142bd56",
     "lineup": [],
     "source": "dice",
     "eventType": null,
     "genreVerified": true,
     "sources": [
-      "https://dice.fm/event/6ae86894e636cd0001446b31",
       "https://dice.fm/event/6ae86b68f108f6000142bd56",
       "https://dice.fm/event/6ae869da925315000126f0d8",
       "https://dice.fm/event/6ae86b90e636cd0001fa1e7b",
       "https://dice.fm/event/6ae86a23b9e4680001fe3e5f",
       "https://dice.fm/event/6ae86bc7f108f60001433099",
-      "https://dice.fm/event/6ae86a4ae636cd00012eda07"
+      "https://dice.fm/event/6ae86a4ae636cd00012eda07",
+      "https://dice.fm/event/6ae86bf3858b0e000111f1db",
+      "https://dice.fm/event/6ae86c17858b0e0001ad9c2e"
     ],
     "status": "announced",
     "needsReview": true,
     "isFestival": false,
     "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "la-grande-fete-alien-disco-et-bye-bye-jenna-3",
-    "name": "LA GRANDE FÊTE : ALIEN & DISCO (et bye-bye Jenna <3)",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-28",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6ad783eb1a4b690001b0a6e9",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6ad783eb1a4b690001b0a6e9"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
-  },
-  {
-    "slug": "vintage-clubbing-w-jimmy-disco-bisou",
-    "name": "Vintage Clubbing w/ Jimmy Disco & Bisou",
-    "city": "Paris",
-    "region": "Île-de-France",
-    "description": "",
-    "startDate": "2026-11-27",
-    "endDate": "2026-11-28",
-    "lat": null,
-    "lng": null,
-    "officialUrl": "https://dice.fm/event/6adb8d7773038d0001c5a114",
-    "lineup": [],
-    "source": "dice",
-    "eventType": null,
-    "genreVerified": true,
-    "sources": [
-      "https://dice.fm/event/6adb8d7773038d0001c5a114"
-    ],
-    "status": "announced",
-    "needsReview": true,
-    "_reason": "ressemble à une soirée/club, pas un festival"
   },
   {
     "slug": "planete-house-dan-shake-marina-trench-aubry",
@@ -4859,6 +4746,50 @@
     "genreVerified": true,
     "sources": [
       "https://dice.fm/event/6aedc38d6d3306000116dbdc"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "sans 'festival' au nom → exige ≥2 sources + multi-jours"
+  },
+  {
+    "slug": "jazzcore-2-mackwood-carmen-sea-i-don-t-clean-the-house",
+    "name": "Jazzcore #2: Mackwood, Carmen Sea, I Don't Clean The House",
+    "city": "Montreuil",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-05",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6ae8b8c38254ef0001a0d768",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6ae8b8c38254ef0001a0d768"
+    ],
+    "status": "announced",
+    "needsReview": true,
+    "_reason": "ressemble à une soirée/club, pas un festival"
+  },
+  {
+    "slug": "one-more-time-nuit-french-touch",
+    "name": "One More Time / Nuit French Touch",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "description": "",
+    "startDate": "2026-12-04",
+    "endDate": "2026-12-05",
+    "lat": null,
+    "lng": null,
+    "officialUrl": "https://dice.fm/event/6adf90d9b2d69f00013aaaa4",
+    "lineup": [],
+    "source": "dice",
+    "eventType": null,
+    "genreVerified": true,
+    "sources": [
+      "https://dice.fm/event/6adf90d9b2d69f00013aaaa4"
     ],
     "status": "announced",
     "needsReview": true,

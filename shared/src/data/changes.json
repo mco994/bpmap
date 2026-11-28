@@ -1,5 +1,23 @@
 [
   {
+    "id": "2026-11-28:internet-girl-cruel-santino-nyokobop-festival:added",
+    "festivalId": "internet-girl-cruel-santino-nyokobop-festival",
+    "festivalSlug": "internet-girl-cruel-santino-nyokobop-festival",
+    "festivalName": "Internet Girl + Cruel Santino - NYOKOBOP Festival",
+    "type": "added",
+    "date": "2026-11-28",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
+    "id": "2026-11-28:divin0-take-over-i-nyokobop-festival:added",
+    "festivalId": "divin0-take-over-i-nyokobop-festival",
+    "festivalSlug": "divin0-take-over-i-nyokobop-festival",
+    "festivalName": "Divin0 take over I NYOKOBOP Festival",
+    "type": "added",
+    "date": "2026-11-28",
+    "summary": "Ajouté à Paris — Dates à confirmer."
+  },
+  {
     "id": "2026-11-27:sonora:removed",
     "festivalId": "sonora",
     "festivalSlug": "sonora",
